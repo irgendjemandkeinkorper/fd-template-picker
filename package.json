@@ -1,0 +1,14 @@
+{
+  "name": "fd-template-picker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pick INDY component styles slot by slot and export the selection as JSON for the design team.",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve -l 4173 .",
+    "capture": "node scripts/capture.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

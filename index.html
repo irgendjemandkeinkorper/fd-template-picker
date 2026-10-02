@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pick INDY component styles slot by slot and export the selection for the design team.">
+  <title>FD Template Picker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__row">
+      <h1 class="brand">FD <span>Template Picker</span></h1>
+      <input id="project" class="project" type="text" placeholder="Client / site name" aria-label="Client or site name" autocomplete="off">
+      <span id="saved" class="saved" role="status" aria-live="polite"></span>
+      <div class="actions">
+        <button id="btnPreview" type="button" class="btn" aria-pressed="false">Preview page</button>
+        <button id="btnShare" type="button" class="btn">Copy link</button>
+        <button id="btnImport" type="button" class="btn">Import</button>
+        <button id="btnExport" type="button" class="btn btn--primary">Export JSON</button>
+        <input id="fileImport" type="file" accept="application/json,.json" hidden>
+      </div>
+    </div>
+    <div class="topbar__row topbar__row--sub">
+      <span class="sub-label">Start from</span>
+      <div id="presets" class="presets"></div>
+      <button id="btnShuffle" type="button" class="btn btn--small">Shuffle</button>
+      <span id="summary" class="summary"></span>
+    </div>
+  </header>
+
+  <main id="slots" class="slots" aria-label="Page sections"></main>
+
+  <section class="brief">
+    <label for="notes">Notes for the design team</label>
+    <textarea id="notes" rows="4" placeholder="Brand colours, fonts, anything the screenshots don't say…"></textarea>
+  </section>
+
+  <button id="btnExitPreview" type="button" class="exit-preview">Exit preview</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

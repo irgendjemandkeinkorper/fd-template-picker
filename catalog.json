@@ -1,0 +1,518 @@
+{
+  "generatedAt": "2026-10-02T10:06:56.205Z",
+  "source": "https://adam-template-testing-2-indy-consumer.netlify.app",
+  "slots": [
+    {
+      "id": "header",
+      "label": "Header",
+      "options": [
+        {
+          "id": "header--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Site header",
+          "components": [
+            "Site header"
+          ],
+          "image": "screenshots/header/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 57,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "header--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Site header",
+          "components": [
+            "Site header"
+          ],
+          "image": "screenshots/header/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 134,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "header--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Site header",
+          "components": [
+            "Site header"
+          ],
+          "image": "screenshots/header/variant-c-late.jpg",
+          "width": 1440,
+          "height": 65,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "label": "Hero",
+      "options": [
+        {
+          "id": "hero--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Hero A - Showtimes Shelf + Hero A - Shelf",
+          "components": [
+            "Hero A - Showtimes Shelf",
+            "Hero A - Shelf"
+          ],
+          "image": "screenshots/hero/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 952,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "hero--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Hero B - Plate and Note",
+          "components": [
+            "Hero B - Plate and Note"
+          ],
+          "image": "screenshots/hero/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 907,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "hero--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Hero C - Marquee + Hero C - Dock",
+          "components": [
+            "Hero C - Marquee",
+            "Hero C - Dock"
+          ],
+          "image": "screenshots/hero/variant-c-late.jpg",
+          "width": 1440,
+          "height": 705,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "now-playing",
+      "label": "Now Playing",
+      "options": [
+        {
+          "id": "now-playing--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Now Playing A - Departure Board",
+          "components": [
+            "Now Playing A - Departure Board"
+          ],
+          "image": "screenshots/now-playing/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 475,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "now-playing--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Now Playing B - Programme Broadsheet",
+          "components": [
+            "Now Playing B - Programme Broadsheet"
+          ],
+          "image": "screenshots/now-playing/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 481,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "now-playing--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Now Playing C - Late Rail",
+          "components": [
+            "Now Playing C - Late Rail"
+          ],
+          "image": "screenshots/now-playing/variant-c-late.jpg",
+          "width": 1440,
+          "height": 508,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "label": "Events",
+      "options": [
+        {
+          "id": "events--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Events A - Rate Card",
+          "components": [
+            "Events A - Rate Card"
+          ],
+          "image": "screenshots/events/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 535,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "events--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Events B - Playbill",
+          "components": [
+            "Events B - Playbill"
+          ],
+          "image": "screenshots/events/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 1422,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "events--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Events C - Ticket Stack",
+          "components": [
+            "Events C - Ticket Stack"
+          ],
+          "image": "screenshots/events/variant-c-late.jpg",
+          "width": 1440,
+          "height": 771,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food & Drink",
+      "options": [
+        {
+          "id": "food--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Food A - Chip Rail",
+          "components": [
+            "Food A - Chip Rail"
+          ],
+          "image": "screenshots/food/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 846,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "food--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Food B - Printed Menu",
+          "components": [
+            "Food B - Printed Menu"
+          ],
+          "image": "screenshots/food/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 2209,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "food--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Food C - Tile Wall",
+          "components": [
+            "Food C - Tile Wall"
+          ],
+          "image": "screenshots/food/variant-c-late.jpg",
+          "width": 1440,
+          "height": 849,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "options": [
+        {
+          "id": "contact--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Contact A - Compressed Column",
+          "components": [
+            "Contact A - Compressed Column"
+          ],
+          "image": "screenshots/contact/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 589,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "contact--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Contact B - Split Desk",
+          "components": [
+            "Contact B - Split Desk"
+          ],
+          "image": "screenshots/contact/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 689,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "contact--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Contact C - Statement Line",
+          "components": [
+            "Contact C - Statement Line"
+          ],
+          "image": "screenshots/contact/variant-c-late.jpg",
+          "width": 1440,
+          "height": 494,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-us",
+      "label": "Find Us",
+      "options": [
+        {
+          "id": "find-us--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Find Us A - Map Strip",
+          "components": [
+            "Find Us A - Map Strip"
+          ],
+          "image": "screenshots/find-us/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 555,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "find-us--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Find Us B - Street Plate",
+          "components": [
+            "Find Us B - Street Plate"
+          ],
+          "image": "screenshots/find-us/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 918,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "find-us--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Find Us C - Night Map",
+          "components": [
+            "Find Us C - Night Map"
+          ],
+          "image": "screenshots/find-us/variant-c-late.jpg",
+          "width": 1440,
+          "height": 602,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "membership",
+      "label": "Membership",
+      "options": [
+        {
+          "id": "membership--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Membership A - Tier Rail",
+          "components": [
+            "Membership A - Tier Rail"
+          ],
+          "image": "screenshots/membership/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 957,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "membership--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Membership B - Subscriber Bill",
+          "components": [
+            "Membership B - Subscriber Bill"
+          ],
+          "image": "screenshots/membership/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 1258,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "membership--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Membership C - Card Ledger",
+          "components": [
+            "Membership C - Card Ledger"
+          ],
+          "image": "screenshots/membership/variant-c-late.jpg",
+          "width": 1440,
+          "height": 1282,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gift-cards",
+      "label": "Gift Cards",
+      "options": [
+        {
+          "id": "gift-cards--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "A · Circuit",
+          "name": "Gift Cards A - Denomination Rail",
+          "components": [
+            "Gift Cards A - Denomination Rail"
+          ],
+          "image": "screenshots/gift-cards/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 366,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit"
+          ]
+        },
+        {
+          "id": "gift-cards--variant-b-rep",
+          "variant": "variant-b-rep",
+          "variantLabel": "B · Rep",
+          "name": "Gift Cards B - Paper Voucher",
+          "components": [
+            "Gift Cards B - Paper Voucher"
+          ],
+          "image": "screenshots/gift-cards/variant-b-rep.jpg",
+          "width": 1440,
+          "height": 460,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+          "sharedBy": [
+            "variant-b-rep"
+          ]
+        },
+        {
+          "id": "gift-cards--variant-c-late",
+          "variant": "variant-c-late",
+          "variantLabel": "C · Late",
+          "name": "Gift Cards C - Bar Tab",
+          "components": [
+            "Gift Cards C - Bar Tab"
+          ],
+          "image": "screenshots/gift-cards/variant-c-late.jpg",
+          "width": 1440,
+          "height": 440,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+          "sharedBy": [
+            "variant-c-late"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "label": "Footer",
+      "options": [
+        {
+          "id": "footer--variant-a-circuit",
+          "variant": "variant-a-circuit",
+          "variantLabel": "All variants",
+          "name": "Site footer",
+          "components": [
+            "Site footer"
+          ],
+          "image": "screenshots/footer/variant-a-circuit.jpg",
+          "width": 1440,
+          "height": 285,
+          "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+          "sharedBy": [
+            "variant-a-circuit",
+            "variant-b-rep",
+            "variant-c-late"
+          ]
+        }
+      ]
+    }
+  ]
+}
