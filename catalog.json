@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:06:56.205Z",
+  "generatedAt": "2026-10-20T12:52:28.796Z",
   "source": "https://adam-template-testing-2-indy-consumer.netlify.app",
   "slots": [
     {
@@ -126,7 +126,7 @@
           ],
           "image": "screenshots/now-playing/variant-a-circuit.jpg",
           "width": 1440,
-          "height": 475,
+          "height": 808,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
           "sharedBy": [
             "variant-a-circuit"
@@ -142,7 +142,7 @@
           ],
           "image": "screenshots/now-playing/variant-b-rep.jpg",
           "width": 1440,
-          "height": 481,
+          "height": 1864,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sharedBy": [
             "variant-b-rep"
@@ -158,7 +158,7 @@
           ],
           "image": "screenshots/now-playing/variant-c-late.jpg",
           "width": 1440,
-          "height": 508,
+          "height": 596,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
           "sharedBy": [
             "variant-c-late"

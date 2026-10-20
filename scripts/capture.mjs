@@ -6,6 +6,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { mockShowtimes, TIME_ZONE } from './fixtures/showtimes.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const BASE = 'https://adam-template-testing-2-indy-consumer.netlify.app';
@@ -75,6 +76,16 @@ const VARIANTS = [
   },
 ];
 
+// Per-variant repairs for custom section CSS that no longer matches the
+// component markup it was written against. Matching rules are cloned from the
+// live stylesheet with the selector rewritten, so they keep tracking the CMS.
+// Remove an entry once the CSS is fixed in INDY; a stale entry fails the run.
+const SELECTOR_FIXES = {
+  // Hero B styles its note panel on `.absolute-full`, but the carousel renders
+  // that wrapper as `.absolute-left`, so the title floats over the plate.
+  'variant-b-rep': [{ section: 'hero-b---plate-and-note', from: '.absolute-full', to: '.absolute-left' }],
+};
+
 const catalog = {
   generatedAt: new Date().toISOString(),
   source: BASE,
@@ -83,8 +94,29 @@ const catalog = {
 const slotById = Object.fromEntries(catalog.slots.map((s) => [s.id, s]));
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: WIDTH, height: VIEWPORT_HEIGHT } });
+const page = await browser.newPage({ viewport: { width: WIDTH, height: VIEWPORT_HEIGHT }, timezoneId: TIME_ZONE });
 const stitcher = await browser.newPage();
+
+// The test site has nothing scheduled, so Now Playing is fed sample showtimes.
+await mockShowtimes(page);
+
+async function applySelectorFixes(variant) {
+  for (const fix of SELECTOR_FIXES[variant.id] ?? []) {
+    const css = await page.evaluate((fix) => {
+      const out = [];
+      for (const sheet of document.styleSheets) {
+        let rules;
+        try { rules = sheet.cssRules; } catch { continue; }
+        for (const rule of rules) {
+          if (rule.cssText.includes(fix.section) && rule.cssText.includes(fix.from)) out.push(rule.cssText.replaceAll(fix.from, fix.to));
+        }
+      }
+      return out.join('\n');
+    }, fix);
+    if (!css) throw new Error(`${variant.id}: no "${fix.section}" rules mention "${fix.from}" any more. Remove that entry from SELECTOR_FIXES.`);
+    await page.addStyleTag({ content: css });
+  }
+}
 
 // Map iframes only paint when they are really on screen, so a full-page
 // screenshot leaves them blank: Find Us is captured as viewport-sized tiles and
@@ -137,6 +169,7 @@ for (const variant of VARIANTS) {
   // The cookie notice floats over the hero; dismiss it (first visit only).
   const accept = page.getByRole('button', { name: /accept/i });
   if (await accept.count()) await accept.first().click();
+  await applySelectorFixes(variant);
 
   // Map embeds are lazy iframes, which stay blank in a full-page capture.
   await page.evaluate(() => {

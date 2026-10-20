@@ -8,6 +8,8 @@ find us, membership, gift cards, footer) shows a screenshot taken from one of
 the INDY example variants. Cycle through the styles, reorder or remove
 sections, add notes, and export.
 
+Live: https://irgendjemandkeinkorper.github.io/fd-template-picker/
+
 ## Run it
 
 ```
@@ -71,3 +73,18 @@ npm run capture
 rewrites `screenshots/` and `catalog.json`. To add a variant or a new section,
 edit `SLOTS` and `VARIANTS` at the top of that script. The script fails loudly
 if a variant's section count no longer matches what is listed there.
+
+Two things are patched in the browser during capture, because the test site
+does not render them as designed:
+
+- **Now Playing is fed sample showtimes.** The test site has nothing scheduled,
+  so its Now Playing sections would show "Nothing Scheduled". The two showtimes
+  GraphQL queries are answered from `scripts/fixtures/showtimes.mjs` (five
+  fictional films with generated posters, rendered in the circuit's Pacific
+  time zone). Edit `FILMS` there to change the programme. The live site keeps
+  showing the empty state until showtimes are added in INDY admin.
+- **Hero B's custom CSS targets the wrong class.** It styles the note panel on
+  `.absolute-full`, but the carousel renders that wrapper as `.absolute-left`,
+  so on the live site the title floats over the photo. `SELECTOR_FIXES` in
+  `scripts/capture.mjs` clones those rules onto the right selector. Fix the CSS
+  in INDY admin, then remove the entry; a stale entry fails the run.
