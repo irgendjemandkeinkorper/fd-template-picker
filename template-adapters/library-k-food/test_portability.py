@@ -135,7 +135,7 @@ class FoodPortabilityTests(unittest.TestCase):
         self.assertFalse(binding['commerceCheckoutVerified'])
         for entry in transfer['evidence']:
             self.assertEqual(hashlib.sha256((REPO / entry['path']).read_bytes()).hexdigest(), entry['sha256'])
-        self.assertEqual(MANIFEST['verification']['destinationVisualQa'], 'not-passed-native-scope-refresh-pending')
+        self.assertEqual(MANIFEST['verification']['destinationVisualQa'], 'native-scope-restored-in-Admin; consumer-visual-QA-not-tested')
 
     def test_scope_refresh_proposal_changes_comments_only_and_does_not_hide_native_bug(self):
         issue = MANIFEST['libraryTransfer']['nativeScopeIssue']
@@ -144,14 +144,51 @@ class FoodPortabilityTests(unittest.TestCase):
         strip = lambda text: re.sub(r'/\*.*?\*/', '', text, flags=re.S).strip()
         self.assertEqual(strip(proposal), strip(CSS))
         self.assertEqual(hashlib.sha256(proposal_path.read_bytes()).hexdigest(), issue['refreshProposalSha256'])
-        self.assertIn(issue['actualGeneratedRoot'], issue['actualRootClass'])
-        self.assertNotEqual(issue['actualGeneratedRoot'], issue['staleCompiledGeneratedRoot'])
-        self.assertIn('Roboto', issue['observedHeadingFont'])
-        self.assertFalse(issue['reopeningPageFixedIssue'])
+        before = issue['beforeRefresh']
+        self.assertIn(before['actualGeneratedRoot'], before['actualRootClass'])
+        self.assertNotEqual(before['actualGeneratedRoot'], before['staleCompiledGeneratedRoot'])
+        self.assertIn('Roboto', before['observedHeadingFont'])
+        self.assertFalse(before['reopeningPageFixedIssue'])
         failing_style = json.loads((REPO / 'evidence/library-k-food-pilot/destination-style-before-reopen.json').read_text(encoding='utf-8'))
         compiled_styles = '\n'.join(failing_style['styles'])
-        self.assertIn('.' + issue['staleCompiledGeneratedRoot'] + '.fdp-k-food', compiled_styles)
-        self.assertNotIn('.' + issue['actualGeneratedRoot'] + '.fdp-k-food', compiled_styles)
+        self.assertIn('.' + before['staleCompiledGeneratedRoot'] + '.fdp-k-food', compiled_styles)
+        self.assertNotIn('.' + before['actualGeneratedRoot'] + '.fdp-k-food', compiled_styles)
+
+    def test_approved_scope_refresh_restored_only_destination_native_scope(self):
+        issue = MANIFEST['libraryTransfer']['nativeScopeIssue']
+        resolution = issue['resolution']
+        self.assertEqual(resolution['status'], 'verified-after-reopen')
+        self.assertTrue(resolution['approvedByUser'])
+        saved = REPO / resolution['savedSectionCss']
+        proposal = HERE / issue['refreshProposal']
+        self.assertEqual(saved.read_bytes(), proposal.read_bytes())
+        self.assertEqual(hashlib.sha256(saved.read_bytes()).hexdigest(), resolution['savedSectionCssSha256'])
+        self.assertTrue(resolution['nativeFieldReadback']['savedCssMatchesApprovedProposal'])
+        self.assertTrue(resolution['nativeFieldReadback']['nonCssFieldValuesUnchanged'])
+        self.assertTrue(resolution['nativeFieldReadback']['sameDesignRules'])
+        self.assertEqual(resolution['reopenedPageId'], MANIFEST['libraryTransfer']['destination']['editablePageId'])
+        self.assertEqual(resolution['sectionId'], MANIFEST['libraryTransfer']['destination']['editableSectionId'])
+        self.assertEqual(resolution['pageCss'], '')
+        self.assertIn('Georgia', resolution['headingFont'])
+        current = json.loads((REPO / 'evidence/library-k-food-pilot/destination-scope-refresh-after-reopen.json').read_text(encoding='utf-8'))
+        compiled = '\n'.join(current['styles'])
+        self.assertIn('.' + issue['beforeRefresh']['actualGeneratedRoot'] + '.fdp-k-food', compiled)
+        self.assertNotIn('.' + issue['beforeRefresh']['staleCompiledGeneratedRoot'] + '.fdp-k-food', compiled)
+        for mode in ('desktopAdminPreview', 'phoneAdminPreview'):
+            evidence = json.loads((REPO / resolution[mode + 'Evidence']).read_text(encoding='utf-8'))
+            row = resolution[mode]
+            self.assertEqual(row['pageId'], resolution['reopenedPageId'])
+            self.assertEqual(row['sectionId'], resolution['sectionId'])
+            self.assertEqual(row['cards'], len(evidence['cards']))
+            self.assertEqual(row['loadedImages'], sum(bool(image.get('loaded')) for image in evidence['images']))
+            self.assertTrue(row['compiledCurrentScope'])
+            self.assertFalse(row['compiledStaleScope'])
+            self.assertIn('Georgia', row['headingFont'])
+            self.assertTrue(row['limitations'])
+        self.assertEqual(resolution['desktopAdminPreview']['overflowPx'], 0)
+        self.assertEqual(resolution['phoneAdminPreview']['overflowPx'], 3)
+        for entry in resolution['evidence']:
+            self.assertEqual(hashlib.sha256((REPO / entry['path']).read_bytes()).hexdigest(), entry['sha256'])
 
 
 if __name__ == '__main__':

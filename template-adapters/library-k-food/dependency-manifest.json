@@ -1,8 +1,8 @@
 {
   "schema": "fd-library-module-dependencies/v1",
-  "preparedAt": "2026-10-25T21:22:33.725451+00:00",
+  "preparedAt": "2026-10-25T21:50:17.455819+00:00",
   "moduleId": "variant-k-clubhouse_food",
-  "status": "library-transfer-verified-destination-style-review-pending",
+  "status": "library-transfer-and-destination-admin-scope-restoration-verified",
   "source": {
     "region": "US-BETA",
     "circuit": "INDY Demo",
@@ -226,7 +226,8 @@
       "action": "Create/save unpublished food-only carrier and preview desktop/phone",
       "confirmedByUser": true,
       "independentDestinationCopy": true,
-      "libraryTransferConfirmedByUser": true
+      "libraryTransferConfirmedByUser": true,
+      "cssScopeRefreshConfirmedByUser": true
     },
     "carrier": {
       "pageId": "5969",
@@ -367,7 +368,10 @@
         }
       ],
       "nativeBindingEvidence": "destination IDs589/590/591 differ from source596/597/598; Library master preview26products vs destination7; category override remains empty",
-      "cssScopeRefresh": "pending-action-time-confirmation"
+      "cssScopeRefresh": "verified-after-reopen",
+      "currentSectionCssSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+      "currentSectionCss": "destination-section-25155.scope-refreshed.css",
+      "previewStatus": "restored native Section styling verified in Admin desktop/phone previews; real consumer checks pending"
     },
     "sourceCarrierLibraryStatus": "Linked with Updates",
     "independentDestination": {
@@ -481,18 +485,155 @@
     "publication": "source carrier, Library master and destination carrier all unpublished",
     "existingPageInsertion": "not-tested; successful separate Page import does not prove Section insertion",
     "nativeScopeIssue": {
-      "status": "pending-action-time-confirmation",
+      "status": "verified-after-reopen",
       "trigger": "Local internal Section Name changed from Food K - Clubhouse Kitchen to Food - Clubhouse Kitchen",
-      "actualRootClass": "fdp-k-food section-food---clubhouse-kitchen-25155 q-px-xs section-food---clubhouse-kitchen-25155 zoom",
-      "actualGeneratedRoot": "section-food---clubhouse-kitchen-25155",
-      "staleCompiledGeneratedRoot": "section-food-k---clubhouse-kitchen-25155",
-      "observedHeadingFont": "Roboto, -apple-system, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "beforeRefresh": {
+        "evidence": "evidence/library-k-food-pilot/destination-style-before-reopen.json",
+        "actualRootClass": "fdp-k-food section-food---clubhouse-kitchen-25155 q-px-xs section-food---clubhouse-kitchen-25155 zoom",
+        "actualGeneratedRoot": "section-food---clubhouse-kitchen-25155",
+        "staleCompiledGeneratedRoot": "section-food-k---clubhouse-kitchen-25155",
+        "observedHeadingFont": "Roboto, -apple-system, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "reopeningPageFixedIssue": false,
+        "destinationVisualQa": "Historical failure: native scoped style did not match renamed root"
+      },
       "expectedHeadingFont": "Georgia, Times New Roman, serif",
-      "reopeningPageFixedIssue": false,
-      "destinationVisualQa": "not-passed; native scoped style does not match renamed root",
       "refreshProposal": "destination-scope-refresh.proposed.css",
       "refreshProposalSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
       "refreshProposalChange": "One appended comment only; comment-stripped CSS and dependencies unchanged",
+      "resolution": {
+        "status": "verified-after-reopen",
+        "approvedByUser": true,
+        "journalVerification": {
+          "savedCssMatchesApprovedProposal": true,
+          "savedCssSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+          "nonCssFieldValuesUnchanged": true,
+          "sameDesignRules": true,
+          "name": "Food - Clubhouse Kitchen",
+          "classes": "fdp-k-food",
+          "reopenedPageId": "5974",
+          "sectionId": "25155",
+          "compiledCurrentScope": true,
+          "compiledStaleScope": false,
+          "headingFont": "Georgia, \"Times New Roman\", serif",
+          "savedPageCssEmpty": true,
+          "nativePageSaveDisabled": true,
+          "libraryStatus": "Not Linked",
+          "published": false,
+          "desktop": {
+            "width": 1024,
+            "cards": 7,
+            "loadedImages": 7,
+            "overflowPx": 0,
+            "evidence": "destination-scope-refreshed-desktop-dom.json"
+          },
+          "phone": {
+            "width": 376,
+            "columns": 1,
+            "cards": 7,
+            "loadedImages": 7,
+            "overflowPx": 3,
+            "evidence": "destination-scope-refreshed-phone-dom.json",
+            "limitations": [
+              "Admin framework colors, not consumer Theme palette",
+              "Simulated phone does not change the outer viewport used by CSS vw units",
+              "Actual consumer phone and live publication remain untested"
+            ]
+          },
+          "readbackEvidence": "destination-scope-refresh-readback-check.json",
+          "reopenEvidence": "destination-scope-refresh-after-reopen.json",
+          "statusEvidence": "destination-scope-refresh-final-status.txt"
+        },
+        "savedSectionCss": "evidence/library-k-food-pilot/destination-section-25155.scope-refreshed.css",
+        "savedSectionCssSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+        "nativeFieldReadback": {
+          "savedCssMatchesApprovedProposal": true,
+          "savedCssSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+          "nonCssFieldValuesUnchanged": true,
+          "sameDesignRules": true,
+          "name": "Food - Clubhouse Kitchen",
+          "classes": "fdp-k-food"
+        },
+        "reopenedPageId": "5974",
+        "sectionId": "25155",
+        "actualRootClass": "fdp-k-food section-food---clubhouse-kitchen-25155 q-px-xs section-food---clubhouse-kitchen-25155 zoom",
+        "headingFont": "Georgia, \"Times New Roman\", serif",
+        "pageCss": "",
+        "desktopAdminPreview": {
+          "mode": "Admin desktop preview after saved CSS refresh",
+          "capturedAt": "2026-10-25T21:44:51.664Z",
+          "pageId": "5974",
+          "sectionId": "25155",
+          "clientWidth": 1024,
+          "scrollWidth": 1024,
+          "overflowPx": 0,
+          "cards": 7,
+          "images": 7,
+          "loadedImages": 7,
+          "compiledCurrentScope": true,
+          "compiledStaleScope": false,
+          "headingFont": "Georgia, \"Times New Roman\", serif",
+          "limitations": [
+            "Admin framework colors, not consumer Theme palette",
+            "Simulated phone does not change the outer viewport used by CSS vw units",
+            "Actual consumer phone and live publication remain untested"
+          ]
+        },
+        "phoneAdminPreview": {
+          "mode": "Admin phone preview after saved CSS refresh",
+          "capturedAt": "2026-10-25T21:46:22.240Z",
+          "pageId": "5974",
+          "sectionId": "25155",
+          "clientWidth": 376,
+          "scrollWidth": 379,
+          "overflowPx": 3,
+          "cards": 7,
+          "images": 7,
+          "loadedImages": 7,
+          "compiledCurrentScope": true,
+          "compiledStaleScope": false,
+          "headingFont": "Georgia, \"Times New Roman\", serif",
+          "limitations": [
+            "Admin framework colors, not consumer Theme palette",
+            "Simulated phone does not change the outer viewport used by CSS vw units",
+            "Actual consumer phone and live publication remain untested"
+          ]
+        },
+        "desktopAdminPreviewEvidence": "evidence/library-k-food-pilot/destination-scope-refreshed-desktop-dom.json",
+        "phoneAdminPreviewEvidence": "evidence/library-k-food-pilot/destination-scope-refreshed-phone-dom.json",
+        "desktopImage": "evidence/library-k-food-pilot/destination-scope-refreshed-desktop.jpg",
+        "phoneImage": "evidence/library-k-food-pilot/destination-scope-refreshed-phone.jpg",
+        "evidence": [
+          {
+            "path": "evidence/library-k-food-pilot/destination-section-25155.scope-refreshed.css",
+            "sha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a"
+          },
+          {
+            "path": "evidence/library-k-food-pilot/destination-scope-refresh-after-fields.json",
+            "sha256": "50a0ae4028b8d13e73705654c515d68b6cb482936645c4e406deb305bab74c2b"
+          },
+          {
+            "path": "evidence/library-k-food-pilot/destination-scope-refresh-readback-check.json",
+            "sha256": "2b9450365784fe87522d79d9c926136eba8cc6a6cd91acd5aa93ad0b6047e467"
+          },
+          {
+            "path": "evidence/library-k-food-pilot/destination-scope-refresh-after-reopen.json",
+            "sha256": "445ce23bb2335b55fc8e9d9084ff935cfffbeb0896cdeca82cbd15082590bc50"
+          },
+          {
+            "path": "evidence/library-k-food-pilot/destination-scope-refreshed-desktop-dom.json",
+            "sha256": "c24815ee91d2b52a5e3e507fef04754e5f7a9ff6f2f08b7d0788d6056610326c"
+          },
+          {
+            "path": "evidence/library-k-food-pilot/destination-scope-refreshed-phone-dom.json",
+            "sha256": "d935cd7c0b6f4a4c1b7d5cec2d0b5cee7d4dc7872f7a3895974290b50ca49ee5"
+          },
+          {
+            "path": "evidence/library-k-food-pilot/destination-scope-refresh-final-status.txt",
+            "sha256": "3fc5378454a48612e8171825ecc354c0d0b491b18da43f15211c39aff0602a08"
+          }
+        ],
+        "scopeOfVerification": "Saved/reopened native Admin scope restoration only; simulated phone retains 3px preview overflow; consumer Site Theme and real phone are untested"
+      },
       "routineEditing": "Edit Heading and Description for customer-facing copy. Keep internal Name stable; renaming requires a maintainer scope check."
     }
   },
@@ -613,12 +754,13 @@
     "libraryTransfer": "verified-one-section-page-import-and-unlink",
     "destinationCatalogueRebinding": "verified-local-native-runtime-categories-and-product-count",
     "localCopyIndependence": "verified-destination-local-name-change-leaves-master-name-and-css-unchanged",
-    "destinationVisualQa": "not-passed-native-scope-refresh-pending",
+    "destinationVisualQa": "native-scope-restored-in-Admin; consumer-visual-QA-not-tested",
+    "destinationAdminScopeRestoration": "verified-after-reopen",
+    "destinationAdminPhoneGeometry": "reviewed-3px-overflow-in-simulated-frame; real-phone-not-tested",
     "insertionIntoExistingPage": "not-tested",
     "mobileApp": "not-tested"
   },
   "openQuestions": [
-    "Resolve and verify the native compiled-scope mismatch after the destination internal Section Name change; comment-only refresh awaits action-time confirmation.",
     "Verify actual consumer rendering and phone geometry of the saved unpublished carrier; Admin-frame mobile has 3px overflow and uses outer viewport units.",
     "Verify consumer Theme colors, real phone geometry and a controlled empty catalogue on the destination; no consumer publication occurred.",
     "Verify Library update/version propagation separately; independent destination is already unlinked.",

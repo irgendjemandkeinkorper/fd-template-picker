@@ -1,0 +1,536 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 container
+			3 toolbar
+				4 button
+				5 text INDY Admin
+				6 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+				7 switch 0
+				8 button
+				9 container
+					10 text Region US-BETA
+					11 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+				12 container
+					13 text Circuit INDY Demo
+					14 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+				15 container
+					16 text Site Adam Template Testing
+					17 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+				18 button Menu
+			19 container
+				20 content list
+					21 container
+						22 text Operations
+				23 content list
+					24 container
+						25 text Reports
+				26 content list
+					27 container
+						28 text Settings
+				29 text Favorites
+				30 content list
+					31 container
+						32 text Theme and Style
+				33 content list
+					34 container
+						35 text Pages
+				36 content list
+					37 container
+						38 text Release Notes
+				39 content list
+					40 container
+						41 text How To Guides
+				42 content list
+					43 container
+						44 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				45 content list
+					46 container
+						47 text Developer
+				48 switch Description: Demo Mode, Value: 0
+					49 text Demo Mode
+			50 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+			51 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+			52 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+			53 content list
+				54 container
+					55 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+						56 text Page Settings
+						57 text Manage site-wide page behaviour
+				58 container
+					59 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+						60 text Pages
+						61 text Create or manage page content, for desktop and mobile websites and apps
+					62 container
+						63 text Pages
+						64 button
+						65 button
+						66 container
+							67 text field (settable) f_221c0f75-210c-48c4-a4dd-247cd8334fb7
+							68 button
+						69 button SET ORDER
+						70 button ADD FROM LIBRARY
+							71 text ADD FROM LIBRARY
+						72 button CREATE PAGE
+						73 table
+							74 row
+								75 cell
+									76 text ID
+								77 cell
+									78 text Title
+								79 cell
+									80 text Slug
+								81 cell
+									82 text Sections
+								83 cell
+									84 text Views
+								85 cell
+									86 text Visibility
+								87 cell
+									88 text Library
+								89 cell
+									90 text Actions
+							91 row
+								92 cell
+									93 text 5973
+								94 cell
+									95 text variant-k-clubhouse_food
+								96 cell
+									97 text variant-k-clubhouse-food
+								98 cell
+									99 text 1
+								100 cell
+									101 button  Not Linked
+										102 text  Not Linked
+								103 cell
+									104 button
+									105 button
+									106 button EDIT
+										107 text EDIT
+									108 button
+							109 row
+								110 cell
+									111 text 5599
+								112 cell
+									113 text Movie Lineup
+								114 cell
+									115 text movie-lineup
+								116 cell
+									117 text 3
+								118 cell
+									119 button  Not Linked
+										120 text  Not Linked
+								121 cell
+									122 button
+									123 button EDIT
+									124 button
+							125 row
+								126 cell
+									127 text 5597
+								128 cell
+									129 text Food Drink
+								130 cell
+									131 text food-drink
+								132 cell
+									133 text 2
+								134 cell
+									135 button  Not Linked
+										136 text  Not Linked
+								137 cell
+									138 button
+									139 button EDIT
+									140 button
+							141 row
+								142 cell
+									143 text 5595
+								144 cell
+									145 text Food Drink
+								146 cell
+									147 text food-drink
+								148 cell
+									149 text 2
+								150 cell
+									151 button  Not Linked
+										152 text  Not Linked
+								153 cell
+									154 button
+									155 button EDIT
+									156 button
+							157 row
+								158 cell
+									159 text 5591
+								160 cell
+									161 text Visit
+								162 cell
+									163 text visit
+								164 cell
+									165 text 4
+								166 cell
+									167 button  Not Linked
+										168 text  Not Linked
+								169 cell
+									170 button
+									171 button EDIT
+									172 button
+							173 row
+								174 cell
+									175 text 5587
+								176 cell
+									177 text Movies
+								178 cell
+									179 text movies
+								180 cell
+									181 text 4
+								182 cell
+									183 button  Not Linked
+										184 text  Not Linked
+								185 cell
+									186 button
+									187 button EDIT
+									188 button
+							189 row
+								190 cell
+									191 text 5585
+								192 cell
+									193 text Fandango Cinema Template Test
+								194 cell
+									195 text fandango-cinema-template-test
+								196 cell
+									197 text 8
+								198 cell
+									199 button  Not Linked
+										200 text  Not Linked
+								201 cell
+									202 button
+									203 button EDIT
+									204 button
+						205 text Records per page:
+						206 container
+							207 text 10
+							208 combo box (collapsed, settable) 10, ID: f_a22c6020-a816-43b7-b3e5-88dcd09fe7b1, Secondary Actions: Expand
+						209 text 1-10  of 7
+		210 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		211 container Edit Page (5974) Unpublished Changes
+			212 container
+				213 button Close
+				214 button
+				215 button
+				216 container v-0-0-0-0-4-0-4-0-2-0-0-0-0-1-1-0-0-0-1-0
+					217 text Edit Page (5974)  Unpublished Changes
+				218 button
+				219 button
+				220 button (disabled) REVERT
+				221 button (disabled) SAVE
+				222 button (disabled) SAVE AND CLOSE
+				223 container
+					224 container
+						225 text Title
+						226 text field (settable) Description: Title, Value: variant-k-clubhouse_food, ID: f_5d60650d-3742-45e5-9034-3704e43a5eca
+				227 container
+					228 container
+						229 text URL Slug
+						230 text field Description: URL Slug, Value: variant-k-clubhouse-food, ID: f_5ee3b32e-b623-4cc4-b728-4fec6e2aeecd
+				231 container
+					232 container
+						233 text Start Date
+						234 text field (settable) Description: Start Date, ID: f_3ad35f04-7b1e-4032-838b-4e1db37aafbf
+					235 button Open date picker
+				236 container
+					237 container
+						238 text End Date
+						239 text field (settable) Description: End Date, ID: f_aae71b16-faf2-4fae-b6ac-e650dba4c8c9
+					240 button Open date picker
+				241 button VIEW PAGE
+				242 container
+					243 container
+						244 text Header Placement Override Same As Site
+				245 container
+					246 text Overrides the site’s header placement for this page. Only available when the header background is transparent (opacity is less than 1). Otherwise, page content starts below the header.
+				247 container
+					248 text Sections
+					249 button SET ORDER
+					250 button ADD SECTION
+					251 table
+						252 row
+							253 cell
+								254 text ID
+							255 cell
+								256 text Name
+							257 cell
+								258 text Type
+							259 cell
+								260 text Visibility
+							261 cell
+								262 text Actions
+						263 row
+							264 cell
+								265 text 25155
+							266 cell
+								267 text Food - Clubhouse Kitchen
+							268 cell
+								269 text Concessions Menu
+							270 cell
+								271 button
+							272 cell
+								273 button EDIT
+									329 text EDIT
+								274 button
+				275 container
+					276 container
+						277 text Search Engine Title
+						278 text field (settable) Description: Search Engine Title, ID: f_1c1c52f3-7a9c-4caf-b525-9a37234efb84
+				279 container
+					280 container
+						281 text Search Engine Description
+						282 text entry area (settable) Description: Search Engine Description, ID: f_e8ca2bad-d80a-47b6-9824-d9bd87037aeb
+					283 text Used for search engine description. Truncated by search engines at ~160 characters.
+					284 text 0
+				285 switch Description: Visible to Search Engines, Value: 1
+					286 text Visible to Search Engines
+				287 container
+					288 container
+						289 text Custom Styles (CSS)
+						290 text entry area (settable) Description: Custom Styles (CSS), ID: f_1f629f12-5c9a-4d0e-9899-77ef6a904ace
+				291 container
+					292 button (collapsed) Expand
+						293 text SEO Health Preview
+						294 text Needs Attention
+				295 container
+					296 text Preview
+					297 container
+						298 button DESKTOP WEB
+						299 button MOBILE WEB
+						300 button APP
+					301 container
+						302 heading Good company. Good things to share., Value: 2
+							303 text Good company. Good things to share.
+						304 text Explore the kitchen and bar before you settle in.
+						305 container
+							306 button Snacks
+								307 text Snacks
+							308 button Drinks
+								309 text Drinks
+							310 button Desserts
+								311 text Desserts
+						312 text Snacks
+						313 container
+							314 text Marquee Popcorn Fresh-popped, hot-buttered. Small, large, or bottomless. Starting at $ 7 . 00
+						315 container
+							316 text No Country for Old Nachos House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't. $ 14 . 00
+						317 container
+							318 text The Pretzel Identity Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package. $ 11 . 00
+						319 text Drinks
+						320 container
+							321 text Soda Starting at $ 6 . 00
+						322 text Desserts
+						323 container
+							324 text Pie Hard Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers. $ 10 . 00
+						325 container
+							326 text Sundae, Bloody Sundae Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore. $ 10 . 00
+						327 container
+							328 text Movie Candy Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic. $ 5 . 00
+		330 container Edit Section (25155)
+			331 container
+				332 container
+					333 button Close
+					334 text 1 of 1
+					335 text Edit Section (25155)
+					507 button
+					508 button
+					336 button (disabled) REVERT
+					337 button (disabled) SAVE
+					338 button (disabled) SAVE AND CLOSE
+					339 container
+						340 container
+							341 text Type Concessions Menu
+							342 combo box (collapsed, settable) Description: Type, Value: Concessions Menu, ID: f_6cc3654f-3e24-429c-b022-ef98506791e2, Secondary Actions: Expand
+					343 container
+						344 container
+							345 text Name
+							346 text field (settable) Description: Name, Value: Food - Clubhouse Kitchen, ID: f_1e981a76-2d6e-4f59-a3c7-91416fcc68c9
+					347 button
+					348 text Heading Editor
+					349 switch Description: Show Heading, Value: 1
+						350 text Show Heading
+					351 container
+						352 container
+							353 text Heading
+							354 text field (settable) Description: Heading, Value: Good company. Good things to share., ID: f_862387bc-2d9e-491a-966c-0c7338c67280
+					355 container
+						356 container
+							357 text Font Size H 2
+							358 combo box (collapsed, settable) Description: Font Size, Value: H 2, ID: f_1b11b46a-e3a9-4e7b-8165-bda383f6871c, Secondary Actions: Expand
+					359 container
+						360 container
+							361 text Fonts Default
+							362 combo box (collapsed, settable) Description: Fonts, Value: Default, ID: f_2185a1c8-8bc0-427e-9737-aec541f39a63, Secondary Actions: Expand
+					363 container
+						364 container
+							365 text Text Align Center
+							366 combo box (collapsed, settable) Description: Text Align, Value: Center, ID: f_836b1865-c20a-42f5-bcf2-a65ab5958d5e, Secondary Actions: Expand
+					367 container
+						368 text Color
+						369 text Primary
+						370 combo box (collapsed, settable) Description: Color, Value: Primary, ID: f_a99266cb-62f3-46d8-b225-9bdca6223b32, Secondary Actions: Expand
+						371 button Clear
+					372 button Preview PRIMARY
+						373 text Preview
+						374 text PRIMARY
+					375 container
+						376 container
+							377 text Style Default
+							378 combo box (collapsed, settable) Description: Style, Value: Default, ID: f_fe165e78-8e67-498c-84c4-56688a9f6448, Secondary Actions: Expand
+					379 text Description Editor
+					380 text Description
+					381 container
+						382 button Left align
+						383 button Center align
+						384 button Right align
+						385 button Justify align
+					386 container
+						387 button Bold
+						388 button Italic
+						389 button Underline
+						390 button Strikethrough
+					391 container
+						392 link (disabled) Hyperlink
+						393 button Quote
+						394 button Unordered List
+						395 button Ordered List
+					396 container Explore the kitchen and bar before you settle in.
+						397 text Explore the kitchen and bar before you settle in.
+					398 text Categories and items Visibility
+					399 container
+						400 container
+							401 text Sales Channel Visibility Website
+							402 combo box (collapsed, settable) Description: Sales Channel Visibility, Value: Website, ID: f_824c9063-0c87-4f90-8de5-cc370bd88faa, Secondary Actions: Expand
+					403 container
+						404 container
+							405 text Categories Visibility Override
+							406 combo box (collapsed, settable) Description: Categories Visibility Override, ID: f_88d2fbab-4d60-4bcf-bd5d-7851abe81053, Secondary Actions: Expand
+					407 text User Controls
+					408 switch Description: Show Category Filters, Value: 1
+						409 text Show Category Filters
+					410 container
+						411 container
+							412 text Category Filters Position Left
+							413 combo box (collapsed, settable) Description: Category Filters Position, Value: Left, ID: f_067aecd0-4a25-4dd4-b852-f0f75948ea10, Secondary Actions: Expand
+					414 text Layout
+					415 container
+						416 container
+							417 text Display Mode Block
+							418 combo box (collapsed, settable) Description: Display Mode, Value: Block, ID: f_f07e9129-3514-4bf2-a03b-0914b76fda1e, Secondary Actions: Expand
+					419 container
+						420 container
+							421 text View Mode Grid
+							422 combo box (collapsed, settable) Description: View Mode, Value: Grid, ID: f_90ecc058-2606-4dc6-81b4-08dce1da9831, Secondary Actions: Expand
+					423 text Items Per Row
+					424 slider 3
+					425 text Items Per Row in Mobile
+					426 slider 1
+					427 text Spacing
+					428 slider 12
+					429 text Divider
+					430 switch Description: Show Category Divider, Value: 1
+						431 text Show Category Divider
+					432 switch Description: Show Category Name, Value: 1
+						433 text Show Category Name
+					434 container
+						435 container
+							436 text Category Name Font Size
+							437 stepper (settable, integer) Description: Category Name Font Size, Value: 24, ID: f_050a92c4-4254-4bc0-8360-4e0935910581
+							438 text px
+					439 container
+						440 container
+							441 text Category Name Alignment Left
+							442 combo box (collapsed, settable) Description: Category Name Alignment, Value: Left, ID: f_470fbc4f-b479-4fb6-988e-4aac3cc9a25f, Secondary Actions: Expand
+					443 container
+						444 container
+							445 text Style Default
+							446 combo box (collapsed, settable) Description: Style, Value: Default, ID: f_d865ebe8-1fbe-4d44-a218-a744719f10ad, Secondary Actions: Expand
+					447 container
+						448 text Color
+						449 text Primary
+						450 combo box (collapsed, settable) Description: Color, Value: Primary, ID: f_2358a3f0-281e-47d3-9487-991909133526, Secondary Actions: Expand
+						451 button Clear
+					452 button Preview PRIMARY
+						453 text Preview
+						454 text PRIMARY
+					455 text Items Visibility
+					456 switch Description: Show Image, Value: 1
+						457 text Show Image
+					458 switch Description: Show Description, Value: 1
+						459 text Show Description
+					460 switch Description: Show Price, Value: 1
+						461 text Show Price
+					462 text Items Styles
+					463 container
+						464 container
+							465 text Item Card Theme Frame
+							466 combo box (collapsed, settable) Description: Item Card Theme, Value: Frame, ID: f_f5024ca9-35ff-494b-ab96-5adb74697052, Secondary Actions: Expand
+					467 container
+						468 text Item Background Color
+						469 text Default
+						470 combo box (collapsed, settable) Description: Item Background Color, Value: Default, ID: f_07b721ef-db55-468c-8bf2-0a01fe813395, Secondary Actions: Expand
+						471 button Clear
+					472 button Preview DEFAULT
+						473 text Preview
+						474 text DEFAULT
+					475 text Item Border Radius
+					476 slider 8
+					477 text Item Shadow
+					478 slider 0
+					479 text Text Styles
+					480 container
+						481 container
+							482 text Title Font Size
+							483 stepper (settable, integer) Description: Title Font Size, Value: 20, ID: f_d9dfe540-eaf4-4a43-9a3d-2c8ed811f5c2
+							484 text px
+					485 container
+						486 container
+							487 text Description Font Size
+							488 stepper (settable, integer) Description: Description Font Size, Value: 16, ID: f_dc648014-162c-4970-a6db-da964887cdec
+							489 text px
+					490 container
+						491 container
+							492 text Price Font Size
+							493 stepper (settable, integer) Description: Price Font Size, Value: 16, ID: f_221e2871-e060-48b1-b6ed-59ca137fd059
+							494 text px
+					495 container
+						496 text Preview
+						497 container
+							498 button DESKTOP WEB
+							499 button MOBILE WEB
+						500 text 4:30
+						501 container
+							502 text Speaker Camera
+						503 container
+							504 heading Good company. Good things to share., Value: 2
+								505 text Good company. Good things to share.
+							506 text Explore the kitchen and bar before you settle in.
+							509 container
+								510 button Snacks
+									511 text Snacks
+								512 button Drinks
+									513 text Drinks
+								514 button Desserts
+									515 text Desserts
+							516 text Snacks
+							517 container
+								518 text Marquee Popcorn Fresh-popped, hot-buttered. Small, large, or bottomless. Starting at $ 7 . 00
+							519 container
+								520 text No Country for Old Nachos House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't. $ 14 . 00
+							521 container
+								522 text The Pretzel Identity Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package. $ 11 . 00
+							523 text Drinks
+							524 container
+								525 text Soda Starting at $ 6 . 00
+							526 text Desserts
+							527 container
+								528 text Pie Hard Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers. $ 10 . 00
+							529 container
+								530 text Sundae, Bloody Sundae Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore. $ 10 . 00
+							531 container
+								532 text Movie Candy Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic. $ 5 . 00
+
+The focused UI element is 331 container

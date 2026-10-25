@@ -48,6 +48,19 @@ def build():
     destination_menu = json.loads((pilot_base / 'destination-menu-before-local-edit.json').read_text(encoding='utf-8'))
     independence = json.loads((pilot_base / 'library-master-independence-check.json').read_text(encoding='utf-8'))
     scope_issue = json.loads((pilot_base / 'destination-style-before-reopen.json').read_text(encoding='utf-8'))
+    scope_resolution = json.loads((pilot_base / 'destination-scope-refresh-after-reopen.json').read_text(encoding='utf-8'))
+    refresh_readback = json.loads((pilot_base / 'destination-scope-refresh-readback-check.json').read_text(encoding='utf-8'))
+    destination_desktop = json.loads((pilot_base / 'destination-scope-refreshed-desktop-dom.json').read_text(encoding='utf-8'))
+    destination_phone = json.loads((pilot_base / 'destination-scope-refreshed-phone-dom.json').read_text(encoding='utf-8'))
+    refresh_evidence_paths = [
+        'evidence/library-k-food-pilot/destination-section-25155.scope-refreshed.css',
+        'evidence/library-k-food-pilot/destination-scope-refresh-after-fields.json',
+        'evidence/library-k-food-pilot/destination-scope-refresh-readback-check.json',
+        'evidence/library-k-food-pilot/destination-scope-refresh-after-reopen.json',
+        'evidence/library-k-food-pilot/destination-scope-refreshed-desktop-dom.json',
+        'evidence/library-k-food-pilot/destination-scope-refreshed-phone-dom.json',
+        'evidence/library-k-food-pilot/destination-scope-refresh-final-status.txt',
+    ]
     transfer_evidence_paths = [
         'evidence/library-k-food-pilot/library-master-before.json',
         'evidence/library-k-food-pilot/library-master-section-25153.css',
@@ -71,7 +84,7 @@ def build():
         'schema': 'fd-library-module-dependencies/v1',
         'preparedAt': datetime.now(timezone.utc).isoformat(),
         'moduleId': 'variant-k-clubhouse_food',
-        'status': 'library-transfer-verified-destination-style-review-pending',
+        'status': 'library-transfer-and-destination-admin-scope-restoration-verified',
         'source': {
             'region': 'US-BETA', 'circuit': 'INDY Demo', 'site': 'Adam Template Testing 2',
             'siteId': '170', 'pageTitle': 'Variant K Clubhouse',
@@ -184,16 +197,46 @@ def build():
             'nativeScopeIssue': {
                 'status': pilot['destination']['cssScopeRefresh'],
                 'trigger': 'Local internal Section Name changed from Food K - Clubhouse Kitchen to Food - Clubhouse Kitchen',
-                'actualRootClass': scope_issue['class'],
-                'actualGeneratedRoot': 'section-food---clubhouse-kitchen-25155',
-                'staleCompiledGeneratedRoot': 'section-food-k---clubhouse-kitchen-25155',
-                'observedHeadingFont': scope_issue['headingFont'],
+                'beforeRefresh': {
+                    'evidence': 'evidence/library-k-food-pilot/destination-style-before-reopen.json',
+                    'actualRootClass': scope_issue['class'],
+                    'actualGeneratedRoot': 'section-food---clubhouse-kitchen-25155',
+                    'staleCompiledGeneratedRoot': 'section-food-k---clubhouse-kitchen-25155',
+                    'observedHeadingFont': scope_issue['headingFont'],
+                    'reopeningPageFixedIssue': False,
+                    'destinationVisualQa': 'Historical failure: native scoped style did not match renamed root',
+                },
                 'expectedHeadingFont': 'Georgia, Times New Roman, serif',
-                'reopeningPageFixedIssue': False,
-                'destinationVisualQa': 'not-passed; native scoped style does not match renamed root',
                 'refreshProposal': 'destination-scope-refresh.proposed.css',
                 'refreshProposalSha256': sha256(HERE / 'destination-scope-refresh.proposed.css'),
                 'refreshProposalChange': 'One appended comment only; comment-stripped CSS and dependencies unchanged',
+                'resolution': {
+                    'status': pilot['destination']['cssScopeRefresh'],
+                    'approvedByUser': pilot['authorization']['cssScopeRefreshConfirmedByUser'],
+                    'journalVerification': pilot['scopeRefreshVerification'],
+                    'savedSectionCss': 'evidence/library-k-food-pilot/' + pilot['destination']['currentSectionCss'],
+                    'savedSectionCssSha256': pilot['destination']['currentSectionCssSha256'],
+                    'nativeFieldReadback': refresh_readback,
+                    'reopenedPageId': scope_resolution['pageId'], 'sectionId': scope_resolution['sectionId'],
+                    'actualRootClass': scope_resolution['actualRootClass'],
+                    'headingFont': scope_resolution['headingFont'], 'pageCss': scope_resolution['pageCss'],
+                    'desktopAdminPreview': {**preview_summary(destination_desktop),
+                        'compiledCurrentScope': destination_desktop['compiledCurrentScope'],
+                        'compiledStaleScope': destination_desktop['compiledStaleScope'],
+                        'headingFont': destination_desktop['heading']['fontFamily'],
+                        'limitations': destination_desktop['limitations']},
+                    'phoneAdminPreview': {**preview_summary(destination_phone),
+                        'compiledCurrentScope': destination_phone['compiledCurrentScope'],
+                        'compiledStaleScope': destination_phone['compiledStaleScope'],
+                        'headingFont': destination_phone['heading']['fontFamily'],
+                        'limitations': destination_phone['limitations']},
+                    'desktopAdminPreviewEvidence': 'evidence/library-k-food-pilot/destination-scope-refreshed-desktop-dom.json',
+                    'phoneAdminPreviewEvidence': 'evidence/library-k-food-pilot/destination-scope-refreshed-phone-dom.json',
+                    'desktopImage': 'evidence/library-k-food-pilot/destination-scope-refreshed-desktop.jpg',
+                    'phoneImage': 'evidence/library-k-food-pilot/destination-scope-refreshed-phone.jpg',
+                    'evidence': [{'path': path, 'sha256': sha256(REPO / path)} for path in refresh_evidence_paths],
+                    'scopeOfVerification': 'Saved/reopened native Admin scope restoration only; simulated phone retains 3px preview overflow; consumer Site Theme and real phone are untested',
+                },
                 'routineEditing': 'Edit Heading and Description for customer-facing copy. Keep internal Name stable; renaming requires a maintainer scope check.',
             },
         },
@@ -260,12 +303,13 @@ def build():
             'libraryTransfer': pilot['libraryTransfer'],
             'destinationCatalogueRebinding': 'verified-local-native-runtime-categories-and-product-count',
             'localCopyIndependence': 'verified-destination-local-name-change-leaves-master-name-and-css-unchanged',
-            'destinationVisualQa': 'not-passed-native-scope-refresh-pending',
+            'destinationVisualQa': 'native-scope-restored-in-Admin; consumer-visual-QA-not-tested',
+            'destinationAdminScopeRestoration': pilot['destination']['cssScopeRefresh'],
+            'destinationAdminPhoneGeometry': 'reviewed-3px-overflow-in-simulated-frame; real-phone-not-tested',
             'insertionIntoExistingPage': 'not-tested',
             'mobileApp': 'not-tested',
         },
         'openQuestions': [
-            'Resolve and verify the native compiled-scope mismatch after the destination internal Section Name change; comment-only refresh awaits action-time confirmation.',
             'Verify actual consumer rendering and phone geometry of the saved unpublished carrier; Admin-frame mobile has 3px overflow and uses outer viewport units.',
             'Verify consumer Theme colors, real phone geometry and a controlled empty catalogue on the destination; no consumer publication occurred.',
             'Verify Library update/version propagation separately; independent destination is already unlinked.',
@@ -276,7 +320,7 @@ def build():
             {'path': '../library-research.md', 'reason': 'Older inventory predates the native Clubhouse Kitchen food Section.'},
         ],
     }
-    (HERE / 'dependency-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (HERE / 'dependency-manifest.json').write_bytes((json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
     return manifest
 
 

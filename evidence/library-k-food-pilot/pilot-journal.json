@@ -10,7 +10,8 @@
     "action": "Create/save unpublished food-only carrier and preview desktop/phone",
     "confirmedByUser": true,
     "independentDestinationCopy": true,
-    "libraryTransferConfirmedByUser": true
+    "libraryTransferConfirmedByUser": true,
+    "cssScopeRefreshConfirmedByUser": true
   },
   "carrier": {
     "pageId": "5969",
@@ -73,6 +74,16 @@
       "at": "2026-10-25T21:17:26.254Z",
       "action": "Compare Library master after local rename",
       "result": "MasterSection25153 nameFood K - ClubhouseKitchen andCSS unchanged; oneSection/PageCSSempty. DestinationrenameexposesnativecompiledCSSscopecacheissue; comment-onlyrefreshprepared pendingconfirmation."
+    },
+    {
+      "at": "2026-10-25T21:42:10.986Z",
+      "action": "Save approved destination CSS scope refresh",
+      "result": "Only destination Section 25155 Custom CSS changed to the approved fac22b6c comment-only proposal. Save and Close was submitted; readback and reopening verification followed."
+    },
+    {
+      "at": "2026-10-25T21:46:50.258Z",
+      "action": "Verify approved CSS refresh after reopening",
+      "result": "Saved CSS hash fac22b6c matches the approved proposal. All other field values and design rules are unchanged. After reopening Page 5974 / Section 25155, the compiled scope matches the renamed Section, Georgia is restored and the old scope is absent. Admin desktop: 1024px, three columns, seven photos, no overflow. Simulated phone: 376px, one column, seven photos, the known 3px preview overflow. Page 5973 remains Not Linked, with one Section, visibility off and unpublished. No other fields were saved."
     }
   ],
   "libraryTransfer": "verified-one-section-page-import-and-unlink",
@@ -143,7 +154,10 @@
       }
     ],
     "nativeBindingEvidence": "destination IDs589/590/591 differ from source596/597/598; Library master preview26products vs destination7; category override remains empty",
-    "cssScopeRefresh": "pending-action-time-confirmation"
+    "cssScopeRefresh": "verified-after-reopen",
+    "currentSectionCssSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+    "currentSectionCss": "destination-section-25155.scope-refreshed.css",
+    "previewStatus": "restored native Section styling verified in Admin desktop/phone previews; real consumer checks pending"
   },
   "independenceCheck": {
     "name": "Food K - Clubhouse Kitchen",
@@ -161,6 +175,46 @@
     "proposal": "template-adapters/library-k-food/destination-scope-refresh.proposed.css",
     "proposalSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
     "change": "One trailing comment; all design rules unchanged",
-    "status": "awaiting-user-action-time-confirmation"
+    "status": "saved-and-verified-after-reopen"
+  },
+  "scopeRefreshVerification": {
+    "savedCssMatchesApprovedProposal": true,
+    "savedCssSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+    "nonCssFieldValuesUnchanged": true,
+    "sameDesignRules": true,
+    "name": "Food - Clubhouse Kitchen",
+    "classes": "fdp-k-food",
+    "reopenedPageId": "5974",
+    "sectionId": "25155",
+    "compiledCurrentScope": true,
+    "compiledStaleScope": false,
+    "headingFont": "Georgia, \"Times New Roman\", serif",
+    "savedPageCssEmpty": true,
+    "nativePageSaveDisabled": true,
+    "libraryStatus": "Not Linked",
+    "published": false,
+    "desktop": {
+      "width": 1024,
+      "cards": 7,
+      "loadedImages": 7,
+      "overflowPx": 0,
+      "evidence": "destination-scope-refreshed-desktop-dom.json"
+    },
+    "phone": {
+      "width": 376,
+      "columns": 1,
+      "cards": 7,
+      "loadedImages": 7,
+      "overflowPx": 3,
+      "evidence": "destination-scope-refreshed-phone-dom.json",
+      "limitations": [
+        "Admin framework colors, not consumer Theme palette",
+        "Simulated phone does not change the outer viewport used by CSS vw units",
+        "Actual consumer phone and live publication remain untested"
+      ]
+    },
+    "readbackEvidence": "destination-scope-refresh-readback-check.json",
+    "reopenEvidence": "destination-scope-refresh-after-reopen.json",
+    "statusEvidence": "destination-scope-refresh-final-status.txt"
   }
 }

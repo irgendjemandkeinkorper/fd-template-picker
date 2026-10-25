@@ -1,12 +1,12 @@
 # INDY Library templates
 
-Verified context: **US-BETA / INDY Demo**, 25 October 2026. The approved pilot created a food-only carrier at **Adam Template Testing 2**, promoted it to Circuit **LIBRARY**, and imported one independent copy at **Adam Template Testing**. All remain **unpublished**. Cross-site transfer, new identifiers, preserved settings/CSS and destination-catalogue binding are now demonstrated. Destination visual acceptance is pending a native compiled-style refresh after a local Section rename. See [the pilot journal](../evidence/library-k-food-pilot/pilot-journal.json).
+Verified context: **US-BETA / INDY Demo**, 25 October 2026. The approved pilot created a food-only carrier at **Adam Template Testing 2**, promoted it to Circuit **LIBRARY**, and imported one independent copy at **Adam Template Testing**. All remain **unpublished**. Cross-site transfer, new identifiers, preserved settings/CSS and destination-catalogue binding are demonstrated. A native compiled-style issue after a local Section rename was fixed and verified after reopening; bounded desktop/phone Admin preview review is complete. Actual consumer Theme and phone checks remain pending. See [the pilot journal](../evidence/library-k-food-pilot/pilot-journal.json).
 
 ## Current recommendation
 
 Use a **food-only Page containing one native Concessions Menu Section**, titled `variant-k-clubhouse_food`. Its Page CSS is empty; self-contained styling is saved in **Section Settings → Custom CSS**, with class `fdp-k-food`. This successfully transferred K's food module without the rest of Variant K. The original full K Page `5915` remains unchanged, Not Linked, with eight Sections.
 
-The widget settings, portable Section CSS, dependency manifest and acceptance checks are in [the Clubhouse Kitchen package](../template-adapters/library-k-food/README.md). Baseline CSS transferred exactly, native settings and the stable class survived, and each runtime used its own catalogue. The destination Section's subsequent internal Name change exposed a stale compiled CSS scope; its saved CSS remains correct, but visual QA is blocked pending the separate refresh described below. Actual phone and consumer Theme verification also remain open.
+The widget settings, portable Section CSS, dependency manifest and acceptance checks are in [the Clubhouse Kitchen package](../template-adapters/library-k-food/README.md). Baseline CSS transferred exactly, native settings and the stable class survived, and each runtime used its own catalogue. The destination Section's subsequent internal Name change exposed a stale compiled CSS scope. A user-approved comment-only CSS re-save restored the scope without changing design rules or other fields. Actual phone and consumer Theme verification remain open.
 
 A food-only Library Page distributes a **separate food Page**. This pilot does **not** establish a way to append the Section to an existing homepage. Keep carrier isolation, cross-site Library transfer and insertion into an existing Page as separate outcomes.
 
@@ -45,11 +45,15 @@ The master preview had **26 products**, while the destination had **seven**. Des
 
 After Unlink and saved **Not Linked** status, the destination's internal Section Name changed from **Food K - Clubhouse Kitchen** to **Food - Clubhouse Kitchen**, then saved and reopened. The Library master retained its original Name and exact CSS; see [the independence comparison](../evidence/library-k-food-pilot/library-master-independence-check.json). No destructive upstream update was pushed to test future propagation.
 
-## Destination compiled-style issue
+## Resolved compiled-style issue and maintenance note
 
-The internal Name edit changed the rendered root to `.section-food---clubhouse-kitchen-25155`, but native compiled CSS still targets `.section-food-k---clubhouse-kitchen-25155`. Reopening did not correct it; the heading falls back to Roboto despite exact saved Section CSS. See [the captured mismatch](../evidence/library-k-food-pilot/destination-style-before-reopen.json).
+The internal Name edit changed the rendered root to `.section-food---clubhouse-kitchen-25155`, while native compiled CSS retained `.section-food-k---clubhouse-kitchen-25155`. Reopening alone did not correct it; the heading fell back to Roboto despite correct saved Section CSS. [The historical mismatch](../evidence/library-k-food-pilot/destination-style-before-reopen.json) is retained.
 
-A [comment-only CSS refresh](../template-adapters/library-k-food/destination-scope-refresh.proposed.css) is prepared to trigger native recompilation without changing the preset. It has not yet been applied under the current evidence state. Destination visual acceptance remains blocked until that exact save is approved, applied, read back and previewed. Do not treat correct stored CSS or successful Library transfer as proof of correct compiled rendering.
+After exact user approval, the [comment-only CSS refresh](../template-adapters/library-k-food/destination-scope-refresh.proposed.css) was saved to destination Section `25155`. [Readback checks](../evidence/library-k-food-pilot/destination-scope-refresh-readback-check.json) confirm the approved SHA-256 `fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a`, identical design rules and unchanged non-CSS fields. [Reopened preview evidence](../evidence/library-k-food-pilot/destination-scope-refresh-after-reopen.json) confirms the current compiled root, no stale scope, Georgia heading restored, seven cards and empty Page CSS.
+
+The refreshed destination [desktop Admin measurements](../evidence/library-k-food-pilot/destination-scope-refreshed-desktop-dom.json) show 1024px, three columns, seven loaded photos and no overflow. The [simulated phone measurements](../evidence/library-k-food-pilot/destination-scope-refreshed-phone-dom.json) show 376px, one column and seven loaded photos, with the same 3px overflow and outer-viewport sizing limitation. Both have the correct compiled scope and no stale scope. [Final native status](../evidence/library-k-food-pilot/destination-scope-refresh-final-status.txt) remains one Section, Not Linked, visibility off and unpublished. This completes native scope restoration and bounded Admin preview review, not full consumer QA.
+
+For ordinary content changes, edit the widget's **Heading** and **Description** and keep its internal **Name** stable. An internal Name change can leave compiled CSS stale. In this case, a comment-only re-save of the same Section CSS triggered recompilation; verify the saved fields and reopened compiled scope before using that remedy elsewhere. Do not treat correct stored CSS as proof of correct rendering.
 
 ## Current controls and limits
 
@@ -81,10 +85,10 @@ A Library is a separate scope from the source Site. This pilot used the user-aut
 4. **Partially verified:** Admin previews show the populated native catalogue and responsive product columns. Complete an actual phone consumer preview and consumer Theme checks; resolve or disprove the simulated-frame overflow before claiming responsive acceptance.
 5. **Completed transfer:** used Create New Library Page for master `5971` / draft `5972`, then destination Add From Library for Page `5973` / draft `5974`. Library website publication was not required. New IDs, exactly one native widget, empty Page CSS, stable class and baseline CSS/settings were verified.
 6. **Completed local independence check:** Unlinked, saved and verified Not Linked before the destination-only internal Name edit. The master Name and CSS stayed unchanged. Destination category IDs and product count demonstrate its own runtime catalogue.
-7. **Pending visual acceptance:** refresh and verify native compiled CSS after the Name change, then complete destination previews. Check actual consumer Theme colors, real phone rendering, controlled empty state, category controls, hover/focus, photos, prices and overflow. The destination's initial Theme CSS was empty, but Admin previews use framework colors and cannot certify consumer Theme behavior. Mobile App remains untested.
+7. **Completed within Admin:** saved the exact approved comment-only refresh; reopened and verified current scope, absent stale scope, restored typography, unchanged other fields, seven loaded photos and final unpublished/Not Linked status. Desktop preview has no overflow; simulated phone retains the documented 3px limitation. **Still pending:** actual consumer Theme colors, real phone rendering, controlled empty state, catalogue availability and complete interaction checks. The destination's initial Theme CSS was empty, but Admin framework colors cannot certify consumer Theme behavior. Mobile App remains untested.
 8. Record **Library transfer** separately from **insertion into an existing Page**. If no native insertion action exists, recreate this native widget and its recorded Section settings on the intended Page. Do not describe separate-Page import as automatic homepage assembly.
 
-The user authorized the carrier, Library promotion, exactly one destination import, Unlink and destination-only internal Name edit, while keeping everything unpublished. The additional comment-only CSS refresh awaits its own exact action approval. Publication and hosting rebuilds are outside this pilot.
+The user authorized the carrier, Library promotion, exactly one destination import, Unlink, destination-only internal Name edit and exact comment-only CSS refresh, while keeping everything unpublished. Publication and hosting rebuilds are outside this pilot.
 
 ## Package boundaries
 
@@ -117,7 +121,7 @@ Current statuses:
 - **Actual phone / consumer Theme isolation:** pending. The simulated phone preview has 3px overflow and uses the outer viewport for CSS viewport units; both Admin previews use framework colors.
 - **Destination catalogue binding:** demonstrated by differing category IDs and seven local products versus the master's 26; empty-state and commerce tests remain open.
 - **Cross-site Library transfer:** one separate Page imported successfully without Library website publication; destination is unpublished, visibility off and Not Linked. Repeated imports and general Library version/update behavior remain untested.
-- **Destination visual acceptance:** blocked by stale native compiled CSS after the Section Name edit; comment-only refresh prepared, not applied.
+- **Native scope restoration / bounded Admin preview review:** complete after the approved comment-only re-save and reopen. Current scope matches, stale scope is absent and Georgia is restored. Desktop: 1024px, three columns, seven loaded photos, zero overflow. Simulated phone: 376px, one column, seven loaded photos, documented 3px limitation.
 - **Local independence:** destination-only Name saved/reopened and master Name/CSS unchanged. No upstream update was pushed to test future propagation.
 - **Insertion into an existing Page:** no supported action established.
 
