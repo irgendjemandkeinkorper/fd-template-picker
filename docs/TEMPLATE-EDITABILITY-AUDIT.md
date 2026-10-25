@@ -1,30 +1,32 @@
 # Template editability audit
 
-**Target:** US-BETA / INDY Demo / Adam Template Testing 2. **Date:** 25 October 2026. **Status:** audit findings with two dated partial closures. None of the 72 core source options is certified for admin-only maintenance. Screenshot approval establishes appearance, not editability.
+**Target:** US-BETA / INDY Demo / Adam Template Testing 2. **Date:** 25 October 2026. **Status:** maintained colors and observed overlays are saved/published and verified at desktop/phone sizes in two native palettes; the original palette is restored. None of the 72 core source options is certified for full Admin-only maintenance. Screenshot approval establishes appearance, not editability.
 
-This read-only audit inspected captured authoring CSS/HTML, catalog identities and native publication journals. It maps all A–L core source options. The [machine-readable audit](../evidence/template-editability-audit.json) includes source IDs, ownership of content/paint/type/shape/assets/links, evidence hashes and confidence. Current site CSS is audited separately; fresh public compiled page/section CSS/CSSOM covers all 12 variants. Older Admin backups and applied styles explain authoring intent. Public compiled rules are paint evidence rather than native editable-field exports; exact current fields still require Admin readback.
+This audit began with captured authoring CSS/HTML and now includes the [native implementation journal](../evidence/admin-controls-completion/changes-journal.json) and exact [saved field readbacks](../evidence/admin-controls-completion/native-saved/). The journal records 30 saved fields and all twelve pages published. The final [QA report](../evidence/admin-controls-completion/final-qa-report.json) accepts all 48 current captures across both palettes and both view sizes, with zero measured text failures and explicit mathematical bounds for C/D decorative gradients. Native original-palette restoration is verified separately. The [dated implementation status](../template-adapters/admin-controls-completion/FINAL-STATUS.md) and additive [machine-readable audit](../evidence/template-editability-audit.json) retain exact scope; the closures below supersede original color/overlay findings. Public compiled CSS is not a native editable-field export.
 
 ## Concrete findings
 
 ### EDIT-01 — Literal and demo palettes bypass theme changes
 
-D/E native aliases are overridden by demo hex. B/C/G/H/I and F adapter use literal palettes. All16 parity payloads have literal hex and zero --q-* references.
+**Original finding:** D/E native aliases were overridden by demo hex. B/C/G/H/I and F adapters and the sixteen parity payloads carried literal brand palettes.
 
-**Required:** One-time shared implementation: remove reusable demo overrides, bind all paint roles to active native values, retain the same CSS across clients.
+**Implementation closure, 25 October 2026:** The named native Theme/Page/Section fields are now saved with Primary/Secondary/Dark roles and native Background, with exact readbacks and scoped page publication. Header aliases consume Dark; Accent decoration consumes Secondary. Native status/error colors retain their service meaning. CTA/card fills use measured derived tints with Dark copy; native form inline defaults receive scoped role bindings. The implementation is in the [current native journal](../evidence/admin-controls-completion/changes-journal.json), not the old compiled proposal bundle. Native second-palette work and restoration are recorded; the [QA matrix](../evidence/admin-controls-completion/final-qa-report.json) remains the authority for final complete coverage. Arbitrary future palettes still require whole-page contrast checks.
 
-### EDIT-02 — Overlay source disables text shadows (Ma partially closed)
+### EDIT-02 — Overlay source disables text shadows
 
-Original D/E/G/H/I hero source explicitly sets text-shadow:none!important. Some type is off-image; any text crossing imagery needs protection.
+**Original finding:** D/E/G/H/I hero source explicitly disabled text shadows. Some type was off-image; any text crossing imagery needed protection.
 
-**Partial closure, 25 October 2026:** Ma’s native Light Text is now enabled; its conflicting ink and `text-shadow:none` overrides were removed. Published desktop and phone captions have a protected foreground, dark backing and shadow. Broader A–L overlay work remains uninstalled.
+**Implementation closure, 25 October 2026:** Scoped native desktop/mobile caption adapters now protect the observed A–I title/subtitle families with opaque paired backings and shadows, and the native carousel arrows have their own paired backing. J–L's editorial hero alternatives have explicit native panel/copy roles. The shared Late header uses an opaque Dark surface and shadow; Concrete's approved containment and Ma's caption geometry are retained. Later native QA corrections include G's phone flow and observed editorial/empty-state foregrounds. See [saved native sources](../evidence/admin-controls-completion/native-saved/) and [current acceptance evidence](../evidence/admin-controls-completion/final-qa-report.json).
 
-**Required:** Scoped text shadow plus backing/scrim or solid panel for remaining overlays. Test every slide/light-dark frame; shadow alone cannot guarantee arbitrary-image contrast.
+**Remaining verification:** A sampled native pass is not proof of every slide frame, image, hover/focus/disabled state, drawer or future populated widget state. Those states remain in the acceptance checklist. F's missing hero media and G's existing null phone background-image setting are separate source-media dependencies.
 
 ### EDIT-03 — Odd membership emphasis depends on position
 
-Tier1 --v-white/-1.5deg; tier2 --v-scrap/+1.5deg; tier3 --v-scrap-2/-.8deg. Scrap uses Accent, scrap2 uses Dark; CTA uses Primary. Demo hex bypasses active admin settings.
+**Original finding:** Tier color emphasis followed child position and demo overrides; card slants were -1.5°, +1.5° and -0.8°.
 
-**Required:** Stable Primary/Secondary/Dark role classes and contrast-safe foregrounds. Keep slants as documented preset or expose finite class choices in native editor; no per-client CSS.
+**Color-role closure, 25 October 2026:** The actual Odd membership body now carries `fd-tier-primary`, `fd-tier-secondary` and `fd-tier-dark`; their native CSS uses Primary 16%, Secondary 14% and Dark 10% tints into Background, with Dark copy. The native journal records the body/class save together with its page CSS. Earned punch marks use native Dark; the unearned transparent slots remain intentionally blank. Reordering the three existing wrappers no longer silently changes their semantic color role.
+
+**Remaining preset limitation:** Existing slants and layout remain fixed template design, still using the original geometry rules. Native per-card color or slant preset controls have not been demonstrated; this closure does not invent them or certify arbitrary structural edits.
 
 ### EDIT-04 — Native editorial blocks still contain authored HTML
 
@@ -68,7 +70,9 @@ The [Odd authoring stylesheet](../../evidence/recapture-2/d-page-css-before.txt)
 
 The reusable contract should assign explicit Primary, Secondary and Dark roles to the three cards, with readable foregrounds for each. Keep slants as documented template character or provide finite class choices through native authoring. Reordering content must not silently change its business emphasis. Native individual-card color/slant controls have not been demonstrated.
 
-## Variant maintenance matrix
+## Original variant maintenance baseline
+
+This table preserves the pre-migration findings and then-available evidence. Its literal-palette and pending-native-readback notes are historical; EDIT-01/02/03 above and the current saved-source journal now govern those scopes. The authored content, typography, services, source identity and Library limitations remain open.
 
 | Variant | Paint ownership blocker | Evidence certainty | Specific support issue |
 |---|---|---|---|
@@ -85,7 +89,7 @@ The reusable contract should assign explicit Primary, Secondary and Dark roles t
 | K · Clubhouse | Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty. | Fresh CSSOM section rules complete; original page CSS empty; native fields pending | Native form recipient fields blank; no delivery test. |
 | L · Midnight Lounge | Four modules use literal palettes. Page-level submit button repeats gold/plum hex. | Authoring CSS captured; current native fields pending | Native form recipient fields blank; no delivery test. |
 
-G–L use one shared native header design. The picker may show Standard once while retaining all source identities. D/E/F navigation already reads native system colors in its own rules; inherited theme paint, typography and contrast still require verification.
+G–L use one shared native header design, displayed as Standard once while retaining all source identities. The shared Theme migration is saved; original geometry remains. Typography and unexercised control states remain separate checks.
 
 ## Six-section control ownership
 
@@ -131,8 +135,9 @@ Published IDs below come from the current catalog; draft IDs differ. Navigation 
 
 - [ ] Finish native controls and remaining editable-field mapping. Circuit A membership’s Custom visual surface is confirmed; per-card controls remain unverified.
 - [x] Rebase the Ma page/section proposal onto final saved/published Light Text/backdrop/shadow and positive-caption-offset CSS.
-- [ ] Prepare the separate shared Site Theme/header paint migration, preserving Concrete’s approved navigation repair. Page/section coverage does not include the site-owned header.
-- [ ] Apply a second distinct palette through Theme & Style only; compare six core sections desktop/mobile without CSS edits.
+- [x] Save the separate shared Site Theme/header paint migration, preserving Concrete’s approved navigation repair, with exact native readback.
+- [x] Exercise a second distinct palette through Theme & Style and restore the original native palette; see the dated matrix for accepted samples.
+- [ ] Finish acceptance of the complete current restored-palette desktop/mobile matrix and refresh customer picker captures; old cycle images do not establish current acceptance.
 - [ ] Change ordinary copy/media/CTA labels+href/product data/form labels through intended native editors.
 - [ ] Test all slide frames, focus/hover/active/disabled states, dropdowns and mobile drawer contrast.
 - [ ] Copy a single-section Library carrier into a separately authorized destination; verify unlink/update status, stable classes, local routes/assets/dependencies.
@@ -148,11 +153,11 @@ No destination Library transfer or unlink was tested. Native billing/booking/del
 - Added content/style proposals: [parity-section-payloads.json](../../evidence/parity-section-payloads.json), cross-referenced with the [publication journal](../evidence/indy-parity-changes.json).
 - Current source identities and screenshot state: [catalog.json](../catalog.json).
 
-Fresh [public compiled style captures](../../evidence/admin-controls-audit/live-template-styles-final.json) cover page/section CSS for all 12 variants, with Ma updated to its final published repair and the other11 snapshots retained. K’s native sections require the separate [CSSOM capture](../../evidence/admin-controls-audit/k-all-styles.json); its original page CSS was empty. These close the paint-source gaps, while current native field readback remains pending. A proposal alone is not saved-state evidence. Exact typography variables, shape controls and per-card fields are unverified. This document includes the Ma/Concrete partial closures below; broader adapters still need separate native installation, saved-state and second-palette proof before their blockers close.
+The earlier [public compiled captures](../../evidence/admin-controls-audit/live-template-styles-final.json) and [K CSSOM capture](../../evidence/admin-controls-audit/k-all-styles.json) explain the original paint sources. They are superseded for current installation status by the native journal, exact saved readbacks and final QA report linked above. Exact typography variables, shape controls and individual-card editing fields remain unverified. A proposal or a saved file alone does not establish complete native/public acceptance.
 
 ## Reviewable token migration proposals
 
-The [brand token proposal bundle](../template-adapters/brand-tokens/README.md) contains complete literal-color substitutions for **12/12 compiled page and section styles**, with no unmapped colors in that limited scope, preserved geometry/fonts/source IDs and an explicit three-card Odd role-class patch. **Shared Site Theme and site-owned header CSS are excluded.** Their separate paint migration is unprepared: A/B/C and shared G–L header rules still use literals; D/E/F token-based navigation also inherits shared site rules. All proposals remain local review artifacts. Compiled CSS must be mapped back to exact native fields before installation; no migration is published or certified. Current Secondary-card contrast and all second-palette checks remain release gates.
+The [original brand-token bundle](../template-adapters/brand-tokens/README.md) remains compiled page/section proof and review history. It was not pasted into Admin. The later [native-field implementation](../template-adapters/admin-controls-completion/FINAL-STATUS.md) maps the actual raw fields and is saved/published, including the [shared Theme/header contract](../template-adapters/shared-theme-completion/README.md). Do not apply old compiled proposals or restore an earlier partial repair over the current native implementation. Complete state/contrast acceptance remains in the final QA report.
 
 ## Approved partial closures — 25 October 2026
 
@@ -161,7 +166,7 @@ The [repair journal](../evidence/component-controls-repairs/changes-journal.json
 - **Concrete navigation:** contained desktop links, centered logo and inline 01–06 counters. All seven desktop links were inside the sidebar; seven mobile links and no horizontal overflow were verified. The [replacement navigation capture](../evidence/component-controls-repairs/f-navigation-live.jpg) is the actual native output.
 - **Ma hero:** native **Light Text** enabled on editable section 24876 / published section 24872, page 5912 / published page 5911. Conflicting dark-ink and shadow-reset overrides were removed. Published desktop and phone captions have light text, dark backdrops and shadows. Phone readback found both caption roles white on 88% dark backdrops, each 327px wide; no content overflow. See the [hero capture](../evidence/component-controls-repairs/i-hero-live.jpg) and [phone evidence](../evidence/component-controls-repairs/ma-mobile-final.jpg).
 
-These close the named preview/readability defects only. The 12-template brand token proposals, Odd semantic card pilot and all-template overlay migration are still uninstalled. Admin-only maintenance certification remains **0**. The Ma page/section token proposal is now rebased onto its final published repair, retaining desktop/mobile caption selectors, dark88% backdrops, shadows and positive24px desktop offsets; nine structural tests pass. Other11 page/section snapshots remain valid. Shared Site Theme/header CSS is excluded from this bundle, so its separate future migration must preserve Concrete’s navigation repair.
+These are historical captures of the first two repairs. The later native implementation now covers the named color roles and observed caption families across A–L, including Odd's semantic cards and the shared Theme; its current status comes from the new native journal and QA report. Old Ma 88% scrim figures and screenshots describe that earlier cycle, not the later opaque caption contract. Full Admin-only maintenance certification remains **0** because the remaining editor, typography, structure, Library and service gates have not closed.
 
 ## Confirmed native Custom surface — Circuit A only
 

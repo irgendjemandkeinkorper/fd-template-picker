@@ -1,0 +1,118 @@
+[
+  {
+    "captions": [],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "section-j-intro-24880 q-px-xs section-j-intro-24880 zoom",
+        "height": 151.60000610351562,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent row justify-center section-j-book-now-24881 q-px-xs section-j-book-now-24881 zoom",
+        "height": 112.3000030517578,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-j-today-24882 q-px-xs section-j-today-24882 zoom",
+        "height": 100,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-j-visit-24884 q-px-xs section-j-visit-24884 zoom",
+        "height": 182.40000915527344,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-j-food section-food-j---counter-menu-25127 q-px-xs section-food-j---counter-menu-25127 zoom",
+        "height": 1798.2249755859375,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-j-private-parties section-private-parties-j---group-booking-desk-25129 q-px-xs section-private-parties-j---group-booking-desk-25129 zoom",
+        "height": 737.5375366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-j-membership section-membership-j---box-office-pass-25131 q-px-xs section-membership-j---box-office-pass-25131 zoom",
+        "height": 714.0625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent fdp-j-contact section-contact-j---enquiry-desk-25133 q-px-xs section-contact-j---enquiry-desk-25133 zoom",
+        "height": 757.4000244140625,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "section-j-intro-24880 q-px-xs section-j-intro-24880",
+        "height": 151.60000610351562,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-j-book-now-24881 q-px-xs section-j-book-now-24881",
+        "height": 272.3000183105469,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-j-today-24882 q-px-xs section-j-today-24882",
+        "height": 94,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-j-visit-24884 q-px-xs section-j-visit-24884",
+        "height": 182.40000915527344,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-j-food section-food-j---counter-menu-25127 q-px-xs section-food-j---counter-menu-25127",
+        "height": 1712.9375,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-j-private-parties section-private-parties-j---group-booking-desk-25129 q-px-xs section-private-parties-j---group-booking-desk-25129",
+        "height": 736.9500122070312,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-j-membership section-membership-j---box-office-pass-25131 q-px-xs section-membership-j---box-office-pass-25131",
+        "height": 713.5250244140625,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent fdp-j-contact section-contact-j---enquiry-desk-25133 q-px-xs section-contact-j---enquiry-desk-25133",
+        "height": 756.8125,
+        "primary": "#027be3",
+        "width": 1020
+      }
+    ]
+  }
+]

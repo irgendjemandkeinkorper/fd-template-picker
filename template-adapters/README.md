@@ -1,8 +1,12 @@
-# Applied source repairs: Ma native text and Concrete navigation
+# Applied native Admin color and overlay controls
 
-Prepared from the 25 October 2026 Admin exports for **US-BETA / INDY Demo / Adam Template Testing 2**, then applied by root through INDY Admin after user approval. **Only the Ma text repair and Concrete navigation repair described here are applied.** The [brand-token migration bundle](brand-tokens/README.md), all twelve generated migrations and the D pilot remain proposals and have not been applied.
+**Current status, 25 October 2026:** the later [native color and overlay implementation](admin-controls-completion/FINAL-STATUS.md) is saved on **US-BETA / INDY Demo / Adam Template Testing 2**. The [native journal](../evidence/admin-controls-completion/changes-journal.json) records 30 saved fields with readbacks and all twelve pages published. It includes native Primary/Secondary/Dark and Background roles, shared Theme/header paint, native form bindings, readable card/action tints, Odd semantic card classes and the observed caption backings/shadows. The original palette is restored through native Admin. The [current QA report](../evidence/admin-controls-completion/final-qa-report.json) records final desktop/phone acceptance and outstanding evidence; it must be consulted instead of inferring completion from an older screenshot.
 
-## Applied native Ma fix
+The earlier [compiled brand-token bundle](brand-tokens/README.md) remains a historical review artifact. Its compiled styles were not pasted into native fields. Use the exact [current native saved readbacks](../evidence/admin-controls-completion/native-saved/) and current journal for maintenance/rollback decisions. Fonts, design slants/structure, authored HTML, generated wording, Library transfer behavior and service configuration remain independent; no template has full Admin-only certification.
+
+The Ma/Concrete artifacts below document the **earlier two-fix batch**. Their captured appearance and old hashes are historical evidence, not replacements to restore over the later native implementation. The separate [66-clip native refresh is applied byte-identically](../evidence/admin-controls-completion/captures/admin-controls-published-clips-001/ingestion.json), with current hash-bound pixel reviews and customer catalog records. Native product placeholders remain unchanged.
+
+## Earlier native Ma fix
 
 `proposed-i-page.css` is a complete replacement for Variant I's page CSS. It removes the forced ink color from the hero overlay wrapper, title and subtitle, and removes the two `text-shadow: none` resets. All other existing page rules remain.
 
@@ -12,7 +16,7 @@ The native **Light Text** checkbox was enabled on editable page **5912**, hero s
 
 The current native Dark is `#38264A`, observed across A–L. Native white against this color measures **13.60:1**. The 88% scrim composited over a pure white image yields `#504060`, measuring **9.36:1** against white. The published desktop and mobile captures show the accepted CSS rendering. These palette checks do not certify a future theme or every image overlay.
 
-## Applied Concrete fix
+## Earlier Concrete fix
 
 `proposed-site-patch.css` is an append-only Site CSS block for **published Concrete page 5903 at desktop widths of at least 1024px**. It resets inherited `q-gutter-lg` child offsets, keeps the layout inside the existing 240px header, centers the actual logo image, and moves the counter from Quasar's surface pseudo-element into `.q-btn__content` flow. The Private Events action has no counter and stays below the six navigation links. Utility buttons remain centered and reachable.
 
@@ -20,15 +24,15 @@ The existing native `--q-*` colors and mobile drawer rules remain. Every menu, c
 
 The Site CSS append was saved and live-verified: all seven desktop links are contained within x=0…238.4 of the 240px sidebar, the logo is centered, and 01–06 appear inline with their labels. Root also verified all seven mobile menu links at 390px without horizontal overflow.
 
-## Broader overlay work remains separate
+## Later color and overlay completion
 
-The fresh compiled A–L styles show fixed foreground overrides that conflict with native Light Text classes. For example, B's native title has `.text-white`, but its page CSS forces dark ink. A blanket `.text-white` dark scrim would make that copy dark on dark. D's native copy has been moved into a paper-caption layout, and F's Reference Print has no configured image. Their image-row pseudo-elements must not be overwritten.
+The original two-fix batch intentionally repaired Ma alone because other templates had conflicting foreground overrides and different caption layouts. The later native-field migration reviewed those actual roles and now installs paired opaque backings and shadows for the observed A–I native caption families, with preserved image geometry and responsive containment. J–L editorial alternatives and selected widget empty states have explicit native panel/copy bridges. Concrete's containment repair is preserved in the saved shared Theme.
 
-This batch therefore repairs **Ma only** for media copy. It makes no claim that native color controls or every image overlay have been cleaned across A–L. A broader migration requires reviewing each actual foreground, native setting and caption layout before removing its conflicting page CSS. Ordinary headings, forms and body text are outside this batch.
+That implementation does not establish every slide frame, unseen populated widget state, focus/hover/disabled combination or future arbitrary palette. F's missing Reference Print image and G's existing null mobile background-image configuration remain source-media dependencies. The final native/public matrix and refreshed catalog pixels remain separate evidence gates.
 
-## Verification and future regression checks
+## Earlier repair verification record
 
-The [applied change journal and new pixel reviews](../evidence/component-controls-repairs/README.md) record the completed desktop/mobile checks. Both picker screenshots have been replaced with byte-identical native section clips and fresh hash-bound reviews. The exact final Ma Admin CSS readback matches `proposed-i-page.css` after trimming its final newline; the Admin server removes that newline.
+The [earlier applied journal and pixel reviews](../evidence/component-controls-repairs/README.md) record that first batch's completed desktop/mobile checks and two byte-identical picker replacements. At that time, Ma's Admin readback matched `proposed-i-page.css` after native newline normalization. The steps below are the historical regression record; current source hashes and installed roles come from the later native journal/readbacks, not this old proposal metadata.
 
 1. Match current Admin CSS against the source SHA-256 hashes in `proposal-metadata.json`. Review the three changed I rules, appended native-role rules and the F desktop append block.
 2. With native Light Text off, verify Ma retains its native primary/inherited roles. With it on, verify both title and subtitle receive `.text-white`; no removed ink declaration wins; both backdrops and shadows are visible. At desktop widths, verify the subtitle's containing block is the 760px image row, its width is positive and its full rectangle remains inside that image row. Check the still image, vertical title, subtitle and seal at desktop and 390px width.

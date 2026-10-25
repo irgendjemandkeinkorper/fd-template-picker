@@ -1,0 +1,80 @@
+{
+  "letter": "I",
+  "id": "25123",
+  "name": "Membership I - Quiet Return",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-i-membership"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-i-membership{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f8f5ef;color:#2c2b29;font-family:Georgia,serif;} &.fdp-i-membership h2{color:#2c2b29;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-i-membership h3{color:#2c2b29;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-i-membership p{color:#2c2b29;line-height:1.7;} &.fdp-i-membership .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-i-membership .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-i-membership .fdp-card{padding:clamp(22px,3vw,40px);background:#f8f5ef;border:1px solid #cec6ba;} &.fdp-i-membership .fdp-card p{margin-bottom:0;} &.fdp-i-membership .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-i-membership .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:#944b35;color:#fffaf1;font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-i-membership .fdp-action:focus-visible{outline:3px solid #2c2b29;outline-offset:4px;} &.fdp-i-membership .fdp-action:hover{text-decoration:underline;} &.fdp-i-membership .fdp-actions{margin:28px 0 0;} &.fdp-i-membership .fdp-number{display:block;color:#944b35;font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-i-membership .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-i-membership .fdp-list li{padding:16px 0;border-bottom:1px solid #cec6ba;line-height:1.6;} @media(max-width:720px){&.fdp-i-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-i-membership .fdp-card{padding:24px;} &.fdp-i-membership .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-i-membership{padding-top:90px;padding-bottom:90px;}&.fdp-i-membership h2{font-weight:400;}&.fdp-i-membership .fdp-quiet{max-width:780px;margin:auto;}&.fdp-i-membership .fdp-quiet-row{display:grid;grid-template-columns:70px 1fr;gap:24px;padding:32px 0;border-top:1px solid #cec6ba;}&.fdp-i-membership .fdp-number{padding-top:7px;}&.fdp-i-membership .fdp-quiet-row p{margin:0;}&.fdp-i-membership .fdp-action{background:transparent;color:#2c2b29;border-bottom:1px solid #944b35;padding:12px 0;justify-content:space-between;min-width:240px;}&.fdp-i-membership .fdp-actions{margin-left:94px;}@media(max-width:720px){&.fdp-i-membership .fdp-quiet-row{grid-template-columns:32px 1fr;gap:16px;}&.fdp-i-membership .fdp-actions{margin-left:48px;}}\n/* Keep content within the section on narrow screens */\n&.fdp-i-membership,&.fdp-i-membership *{box-sizing:border-box;}&.fdp-i-membership .fdp-content,&.fdp-i-membership .fdp-content>*,&.fdp-i-membership .fdp-content article,&.fdp-i-membership .fdp-content aside{min-width:0;}&.fdp-i-membership p,&.fdp-i-membership li,&.fdp-i-membership a{overflow-wrap:break-word;}\n/* Preserve native heading contrast and respond to the section width */\n&.fdp-i-membership{background:#f8f5ef!important;color:#2c2b29!important;container-type:inline-size;} &.fdp-i-membership h2,&.fdp-i-membership>.text-body1{color:#2c2b29!important;} @container(max-width:720px){&.fdp-i-membership .fdp-quiet-row{grid-template-columns:32px 1fr;gap:16px;} &.fdp-i-membership .fdp-actions{margin-left:0;} &.fdp-i-membership .fdp-action{min-width:0;width:100%;}}"
+    }
+  ]
+}

@@ -1,10 +1,14 @@
 # Brand token migrations — review bundle
 
-These are local proposals for US-BETA / INDY Demo / Adam Template Testing 2. **Nothing in this bundle has been saved or published in INDY.** Compiled **page and section CSS** is covered for all 12 variants, with zero unmapped literal brand colors in that limited scope. Shared Site Theme and site-owned header/navigation CSS are excluded. Current contrast failures and native installation mapping remain open.
+**Superseded for installation status, 25 October 2026:** the later [native-field completion](../admin-controls-completion/FINAL-STATUS.md), including [shared Theme/header work](../shared-theme-completion/README.md), is saved/published according to its [native journal](../../evidence/admin-controls-completion/changes-journal.json). This compiled bundle remains historical proof; its files were not pasted into Admin and must not be restored over current native fields. Consult the [current QA report](../../evidence/admin-controls-completion/final-qa-report.json) for accepted and outstanding state/palette evidence.
+
+The original review scope below covered compiled **page and section CSS** for all twelve variants, with zero unmapped literal brand colors in that limited snapshot. Shared Site Theme/header CSS was excluded. Its then-open contrast/mapping gates and original palette decisions explain the historical proposals rather than the later installed contract.
 
 The objective is one maintained template implementation. Routine client changes should use native Theme & Style, Navigation, content/media, concessions, membership and form controls, with no client-specific CSS replacements.
 
-The separate shared Theme/header paint migration is **not prepared**. A/B/C navigation and shared G–L header rules still contain literal paints; D/E/F navigation’s own system-token rules also inherit shared site styling. The 12/12 page/section result does not establish complete template or navigation coverage.
+At the time of this bundle, the separate shared Theme/header migration was unprepared and A/B/C plus Standard inherited literal paint. That work is now included in the later native implementation linked above. This bundle's original 12/12 compiled page/section result alone never established full template/navigation coverage or Admin-only certification.
+
+The file descriptions, role choices, contrast gates and proposal-generation checks below describe this earlier compiled review phase. They do not replace the current native installation/acceptance report.
 
 ## Files
 

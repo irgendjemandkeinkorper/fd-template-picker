@@ -1,0 +1,50 @@
+{
+  "captions": [
+    {
+      "background": "rgb(29, 29, 29)",
+      "color": "rgb(238, 238, 238)",
+      "height": 36,
+      "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.96px 1.92px",
+      "text": "Ghost In The Shell 30th Anniversary",
+      "width": 980
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "height": 0,
+      "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.64px 1.28px",
+      "text": "",
+      "width": 980
+    }
+  ],
+  "sections": [
+    {
+      "class": "main-content custom-page section-hero-a---shelf-23737 q-px-xs section-hero-a---shelf-23737",
+      "clientWidth": 690,
+      "height": 576,
+      "scrollWidth": 690,
+      "width": 690.3500366210938
+    },
+    {
+      "class": "main-content custom-page section-events-a---rate-card-23725 q-px-xs section-events-a---rate-card-23725",
+      "clientWidth": 690,
+      "height": 550.25,
+      "scrollWidth": 690,
+      "width": 690.3500366210938
+    },
+    {
+      "class": "main-content custom-page section-find-us-a---map-strip-23776 q-px-xs section-find-us-a---map-strip-23776",
+      "clientWidth": 690,
+      "height": 945.0375366210938,
+      "scrollWidth": 698,
+      "width": 690.3500366210938
+    },
+    {
+      "class": "main-content custom-page section-membership-a---tier-rail-23764 q-px-xs section-membership-a---tier-rail-23764",
+      "clientWidth": 690,
+      "height": 1112.800048828125,
+      "scrollWidth": 698,
+      "width": 690.3500366210938
+    }
+  ]
+}

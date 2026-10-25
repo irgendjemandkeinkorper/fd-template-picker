@@ -1,0 +1,16 @@
+/* Native section surface and typography */
+&.fdp-k-contact{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f8ead7;color:#44251e;font-family:Georgia,serif;} &.fdp-k-contact h2{color:#44251e;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-k-contact h3{color:#44251e;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-k-contact p{color:#44251e;line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-k-contact form{max-width:900px;margin:24px auto 0;} &.fdp-k-contact .q-field{margin:18px 0;} &.fdp-k-contact .q-field__control{background:#fff8e9;color:#44251e;border-radius:10px;} &.fdp-k-contact .q-field__native,&.fdp-k-contact .q-field__input,&.fdp-k-contact .q-field__label{color:#44251e;} &.fdp-k-contact .q-field--focused .q-field__control:after{border-color:#923b2c;} &.fdp-k-contact .q-btn{min-height:48px;padding:12px 24px;background:#923b2c;color:#fffaf1;font-weight:700;} &.fdp-k-contact .q-btn:focus-visible{outline:3px solid #44251e;outline-offset:4px;}
+/* Keep content within the section on narrow screens */
+&.fdp-k-contact,&.fdp-k-contact *{box-sizing:border-box;}&.fdp-k-contact .fdp-content,&.fdp-k-contact .fdp-content>*,&.fdp-k-contact .fdp-content article,&.fdp-k-contact .fdp-content aside{min-width:0;}&.fdp-k-contact p,&.fdp-k-contact li,&.fdp-k-contact a{overflow-wrap:break-word;}
+&.fdp-k-contact {container-type:inline-size;background:#f8ead7 !important;color:#44251e !important;}
+&.fdp-k-contact :is(.text-h1,.text-h2,.text-h3,.text-h4){color:#44251e !important;}
+&.fdp-k-contact .text-body1{color:#44251e !important;}
+@container(max-width:720px){&.fdp-k-contact h2 {font-size:32px;line-height:1.15;}}
+/* Match native form controls to the Clubhouse palette */
+&.fdp-k-contact .q-btn {background:#923b2c !important;color:#fffaf1 !important;}
+&.fdp-k-contact .q-field__control {background:#fff8e9 !important;color:#44251e !important;}
+&.fdp-k-contact :is(.q-field__native,.q-field__input,.q-field__label) {color:#44251e !important;}
+
+body.site-170 &.fdp-k-contact .q-btn {background:#923b2c !important;color:#fffaf1 !important;}

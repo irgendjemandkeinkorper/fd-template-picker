@@ -1,0 +1,37 @@
+{
+  "schema": "fd-native-qa-correction/v1",
+  "field": "D-page",
+  "editablePage": 5900,
+  "publishedPage": 5899,
+  "nativeSavedSource": "evidence/admin-controls-completion/native-saved/D-page.css",
+  "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/D-page-v7.before.css",
+  "beforeBytesSha256": "790d7080e8f975b0462c9e1f80d9772c845e42936e803c9d06a9be5fd2169ece",
+  "beforeTextSha256": "790d7080e8f975b0462c9e1f80d9772c845e42936e803c9d06a9be5fd2169ece",
+  "beforeCharacters": 56817,
+  "proposal": "evidence/admin-controls-completion/qa-corrections/D-page-v7.css",
+  "proposalBytesSha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+  "proposalTextSha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+  "proposalCharacters": 56818,
+  "status": "prepared-from-native-saved-v6-not-applied-by-generator",
+  "change": "Only max1023px owned mobile price top:-8px becomes top:-38px, lifting the sticker30px onto the bottom photo area. Both right:8px insets remain.",
+  "observed": {
+    "proof": "evidence/admin-controls-completion/qa-current-phone/D-food-final-proof.jpg",
+    "nativeProductTitle": ".col.text-left.text-body2",
+    "allSevenOverlapPixels": [
+      16.6,
+      20.45
+    ],
+    "worstExampleNameTop": 3429.0,
+    "worstExamplePriceBottom": 3449.45,
+    "expectedMinimumNameGapAfterLift": 9.55,
+    "source": "Root full-phone food proof and all seven native title/price bounds"
+  },
+  "unchanged": [
+    "All colors and desktop v6 placement",
+    "Both right:8px price insets",
+    "Mobile padding6px8px and sticker6deg tilt",
+    "Native product names/type/row widths, media and overflow semantics",
+    "D v4 collage flow, native content/form and frozen baseline proposal bundle"
+  ],
+  "acceptance": "Verify all seven complete prices above product names with positive separation on phone; desktop unchanged; both exact native palettes and original restoration; retain fresh phone food proof and final D matrix."
+}

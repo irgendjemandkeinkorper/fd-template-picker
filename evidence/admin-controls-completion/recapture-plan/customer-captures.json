@@ -1,0 +1,1718 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-25T18:41:16.727Z",
+  "target": [
+    "US-BETA",
+    "INDY Demo",
+    "Adam Template Testing 2"
+  ],
+  "sourceCatalogSha256": "86ff3805a49b3ab25d3dc69b90514b5923739d54fbac8f94b3672f91b15da6c2",
+  "sourceCatalogOptionCount": 110,
+  "minimumNativeClipCount": 66,
+  "componentCounts": {
+    "navigation": 7,
+    "hero": 11,
+    "food": 12,
+    "private-parties": 12,
+    "membership": 12,
+    "contact": 12
+  },
+  "required": [
+    {
+      "optionId": "header--variant-a-circuit",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "A · Circuit",
+      "variant": "variant-a-circuit",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-a-circuit.jpg",
+      "previousSelectors": [],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 1520.800048828125,
+        "height": 56.79999923706055
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "header--variant-b-rep",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "B · Rep",
+      "variant": "variant-b-rep",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-b-rep.jpg",
+      "previousSelectors": [],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 1520.800048828125,
+        "height": 134.5625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "header--variant-c-late",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "C · Late",
+      "variant": "variant-c-late",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-c-late.jpg",
+      "previousSelectors": [],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 1520.8,
+        "height": 64.8
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "header--variant-d-odd",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "D · Odd",
+      "variant": "variant-d-odd",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-d-odd.jpg",
+      "previousSelectors": [],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 1520.800048828125,
+        "height": 152.8000030517578
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "header--variant-e-grid",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "E · Grid",
+      "variant": "variant-e-grid",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-e-grid.jpg",
+      "previousSelectors": [],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 1520.800048828125,
+        "height": 64.8125
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "header--variant-f-concrete",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "F · Concrete",
+      "variant": "variant-f-concrete",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-f-concrete.jpg",
+      "previousSelectors": [
+        "body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 639.2000122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "header--variant-g-cut",
+      "slot": "header",
+      "component": "navigation",
+      "componentLabel": "Navigation",
+      "customerLabel": "Standard",
+      "variant": "variant-g-cut",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [],
+      "destination": "screenshots/header/variant-g-cut.jpg",
+      "previousSelectors": [],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 98.9000015258789
+      },
+      "groupedSources": [
+        "header--variant-h-storybook",
+        "header--variant-i-ma",
+        "header--variant-j-box-office",
+        "header--variant-k-clubhouse",
+        "header--variant-l-midnight-lounge"
+      ],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-a-circuit",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "A · Circuit",
+      "variant": "variant-a-circuit",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23738",
+        "23739"
+      ],
+      "destination": "screenshots/hero/variant-a-circuit.jpg",
+      "previousSelectors": [
+        ".section-hero-a---showtimes-shelf-23738",
+        ".section-hero-a---shelf-23739"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 57,
+        "width": 1520.800048828125,
+        "height": 952.4750366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-b-rep",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "B · Rep",
+      "variant": "variant-b-rep",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23741"
+      ],
+      "destination": "screenshots/hero/variant-b-rep.jpg",
+      "previousSelectors": [
+        ".section-hero-b---plate-and-note-23741"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 135,
+        "width": 1520.800048828125,
+        "height": 906.5875244140624
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-c-late",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "C · Late",
+      "variant": "variant-c-late",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23744",
+        "23745"
+      ],
+      "destination": "screenshots/hero/variant-c-late.jpg",
+      "previousSelectors": [
+        ".section-hero-c---marquee-23744",
+        ".section-hero-c---dock-23745"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 65,
+        "width": 1520.800048828125,
+        "height": 704.9375
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-d-odd",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "D · Odd",
+      "variant": "variant-d-odd",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24790",
+        "24791"
+      ],
+      "destination": "screenshots/hero/variant-d-odd.jpg",
+      "previousSelectors": [
+        ".section-hero-d---collage-24790",
+        ".section-hero-d---ruth-line-24791"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 153,
+        "width": 1520.800048828125,
+        "height": 845.2999877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-e-grid",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "E · Grid",
+      "variant": "variant-e-grid",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24806",
+        "24807"
+      ],
+      "destination": "screenshots/hero/variant-e-grid.jpg",
+      "previousSelectors": [
+        ".section-hero-e---product-panel-24806",
+        ".section-hero-e---quick-selector-24807"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 65,
+        "width": 1520.800048828125,
+        "height": 642.3000030517578
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-g-cut",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "G · Cut",
+      "variant": "variant-g-cut",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24850"
+      ],
+      "destination": "screenshots/hero/variant-g-cut.jpg",
+      "previousSelectors": [
+        ".section-hero-g---poster-block-24850"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 520
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-h-storybook",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "H · Storybook",
+      "variant": "variant-h-storybook",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24864"
+      ],
+      "destination": "screenshots/hero/variant-h-storybook.jpg",
+      "previousSelectors": [
+        ".section-hero-h---framed-plate-24864"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 536
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-i-ma",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "I · Ma",
+      "variant": "variant-i-ma",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24872"
+      ],
+      "destination": "screenshots/hero/variant-i-ma.jpg",
+      "previousSelectors": [
+        ".page-variant-i-ma-5911 .section-hero-i---one-still-one-line-24872"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 99,
+        "width": 1520.800048828125,
+        "height": 736
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-j-box-office",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "J · Box Office",
+      "variant": "variant-j-box-office",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "24885"
+      ],
+      "destination": "screenshots/hero/variant-j-box-office.jpg",
+      "previousSelectors": [
+        ".section-j-intro-24885"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 131.03750610351562
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-k-clubhouse",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "K · Clubhouse",
+      "variant": "variant-k-clubhouse",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "24895"
+      ],
+      "destination": "screenshots/hero/variant-k-clubhouse.jpg",
+      "previousSelectors": [
+        ".section-k-welcome-24895"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 116.6125030517578
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "hero--variant-l-midnight-lounge",
+      "slot": "hero",
+      "component": "hero",
+      "componentLabel": "Hero",
+      "customerLabel": "L · Midnight Lounge",
+      "variant": "variant-l-midnight-lounge",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "24905"
+      ],
+      "destination": "screenshots/hero/variant-l-midnight-lounge.jpg",
+      "previousSelectors": [
+        ".section-l-opening-note-24905"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 131.03750610351562
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-a-circuit",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "A · Circuit",
+      "variant": "variant-a-circuit",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23731"
+      ],
+      "destination": "screenshots/food/variant-a-circuit.jpg",
+      "previousSelectors": [
+        ".section-food-a---chip-rail-23731"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 40.400001525878906,
+        "y": 2018.2249755859375,
+        "width": 1440,
+        "height": 846.1500244140625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-b-rep",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "B · Rep",
+      "variant": "variant-b-rep",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23733"
+      ],
+      "destination": "screenshots/food/variant-b-rep.jpg",
+      "previousSelectors": [
+        ".section-food-b---printed-menu-23733"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2462.3125,
+        "width": 1520.800048828125,
+        "height": 2206.550048828125
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-c-late",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "C · Late",
+      "variant": "variant-c-late",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23735"
+      ],
+      "destination": "screenshots/food/variant-c-late.jpg",
+      "previousSelectors": [
+        ".section-food-c---tile-wall-23735"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 1538.4375,
+        "width": 1520.800048828125,
+        "height": 849.4125366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-d-odd",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "D · Odd",
+      "variant": "variant-d-odd",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24794"
+      ],
+      "destination": "screenshots/food/variant-d-odd.jpg",
+      "previousSelectors": [
+        ".section-food-d---sticker-sheet-24794"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2194.175048828125,
+        "width": 1520.800048828125,
+        "height": 1756.675048828125
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-e-grid",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "E · Grid",
+      "variant": "variant-e-grid",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24810"
+      ],
+      "destination": "screenshots/food/variant-e-grid.jpg",
+      "previousSelectors": [
+        ".section-food-e---catalogue-24810"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3112.900146484375,
+        "width": 1520.800048828125,
+        "height": 1592.3499755859375
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-f-concrete",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "F · Concrete",
+      "variant": "variant-f-concrete",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24830"
+      ],
+      "destination": "screenshots/food/variant-f-concrete.jpg",
+      "previousSelectors": [
+        ".section-food-f---price-table-24830"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 240,
+        "y": 1631.4000244140625,
+        "width": 1280.800048828125,
+        "height": 896.5499877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-g-cut",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "G · Cut",
+      "variant": "variant-g-cut",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24852"
+      ],
+      "destination": "screenshots/food/variant-g-cut.jpg",
+      "previousSelectors": [
+        ".section-food-g---colour-tile-wall-24852"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 1971.9500732421875,
+        "width": 1536,
+        "height": 1631.9375
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-h-storybook",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "H · Storybook",
+      "variant": "variant-h-storybook",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24866"
+      ],
+      "destination": "screenshots/food/variant-h-storybook.jpg",
+      "previousSelectors": [
+        ".section-food-h---framed-bill-of-fare-24866"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 1267.8499755859375,
+        "width": 1536,
+        "height": 1818.4000244140625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-i-ma",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "I · Ma",
+      "variant": "variant-i-ma",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24874"
+      ],
+      "destination": "screenshots/food/variant-i-ma.jpg",
+      "previousSelectors": [
+        ".section-food-i---few-items-wide-margins-24874"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2155.25,
+        "width": 1536,
+        "height": 2225.449951171875
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-j-box-office",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "J · Box Office",
+      "variant": "variant-j-box-office",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25142"
+      ],
+      "destination": "screenshots/food/variant-j-box-office.jpg",
+      "previousSelectors": [
+        ".section-food-j---counter-menu-25142"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 920.1749877929688,
+        "width": 1536,
+        "height": 1827.6375732421875
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-k-clubhouse",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "K · Clubhouse",
+      "variant": "variant-k-clubhouse",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "25135"
+      ],
+      "destination": "screenshots/food/variant-k-clubhouse.jpg",
+      "previousSelectors": [
+        ".section-food-k---clubhouse-kitchen-25135"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 493.0500183105469,
+        "width": 1536,
+        "height": 1704.0625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "food--variant-l-midnight-lounge",
+      "slot": "food",
+      "component": "food",
+      "componentLabel": "Food & Drink",
+      "customerLabel": "L · Midnight Lounge",
+      "variant": "variant-l-midnight-lounge",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25138"
+      ],
+      "destination": "screenshots/food/variant-l-midnight-lounge.jpg",
+      "previousSelectors": [
+        ".section-food-l---after-dark-menu-25138"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 641.375,
+        "width": 1536,
+        "height": 1781.5250244140625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-a-circuit",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "A · Circuit",
+      "variant": "variant-a-circuit",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23724"
+      ],
+      "destination": "screenshots/events/variant-a-circuit.jpg",
+      "previousSelectors": [
+        ".section-events-a---rate-card-23724"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 1483.675048828125,
+        "width": 1520.800048828125,
+        "height": 534.5499877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-b-rep",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "B · Rep",
+      "variant": "variant-b-rep",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "25134"
+      ],
+      "destination": "screenshots/events/variant-b-rep.jpg",
+      "previousSelectors": [
+        ".section-private-parties-b---your-own-evening-25134"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 7533.312606811523,
+        "width": 1520.800048828125,
+        "height": 797.25
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-c-late",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "C · Late",
+      "variant": "variant-c-late",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23728"
+      ],
+      "destination": "screenshots/events/variant-c-late.jpg",
+      "previousSelectors": [
+        ".section-events-c---ticket-stack-23728"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 769.9375,
+        "width": 1520.800048828125,
+        "height": 768.5
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-d-odd",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "D · Odd",
+      "variant": "variant-d-odd",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24793"
+      ],
+      "destination": "screenshots/events/variant-d-odd.jpg",
+      "previousSelectors": [
+        ".section-events-d---noticeboard-24793"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 668.5,
+        "width": 1520.800048828125,
+        "height": 1525.675048828125
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-e-grid",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "E · Grid",
+      "variant": "variant-e-grid",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24809"
+      ],
+      "destination": "screenshots/events/variant-e-grid.jpg",
+      "previousSelectors": [
+        ".section-events-e---packages-24809"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 707.2999877929688,
+        "width": 1520.800048828125,
+        "height": 1067
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-f-concrete",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "F · Concrete",
+      "variant": "variant-f-concrete",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24829"
+      ],
+      "destination": "screenshots/events/variant-f-concrete.jpg",
+      "previousSelectors": [
+        ".section-events-f---hire-schedule-24829"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 240,
+        "y": 1039.800048828125,
+        "width": 1280.800048828125,
+        "height": 591.6000366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-g-cut",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "G · Cut",
+      "variant": "variant-g-cut",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24851"
+      ],
+      "destination": "screenshots/events/variant-g-cut.jpg",
+      "previousSelectors": [
+        ".section-events-g---diagonal-stack-24851"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 619,
+        "width": 1520.800048828125,
+        "height": 1792.9500732421875
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-h-storybook",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "H · Storybook",
+      "variant": "variant-h-storybook",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24865"
+      ],
+      "destination": "screenshots/events/variant-h-storybook.jpg",
+      "previousSelectors": [
+        ".section-events-h---invitations-24865"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 635,
+        "width": 1536,
+        "height": 632.8500366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-i-ma",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "I · Ma",
+      "variant": "variant-i-ma",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24873"
+      ],
+      "destination": "screenshots/events/variant-i-ma.jpg",
+      "previousSelectors": [
+        ".section-events-i---one-occasion-at-a-time-24873"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 835,
+        "width": 1536,
+        "height": 1320.25
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-j-box-office",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "J · Box Office",
+      "variant": "variant-j-box-office",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25143"
+      ],
+      "destination": "screenshots/events/variant-j-box-office.jpg",
+      "previousSelectors": [
+        ".section-private-parties-j---group-booking-desk-25143"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2747.8125,
+        "width": 1536,
+        "height": 771.3500366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-k-clubhouse",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "K · Clubhouse",
+      "variant": "variant-k-clubhouse",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "25136"
+      ],
+      "destination": "screenshots/events/variant-k-clubhouse.jpg",
+      "previousSelectors": [
+        ".section-private-parties-k---gather-your-people-25136"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2197.112548828125,
+        "width": 1536,
+        "height": 797.1375122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "events--variant-l-midnight-lounge",
+      "slot": "events",
+      "component": "private-parties",
+      "componentLabel": "Private Parties",
+      "customerLabel": "L · Midnight Lounge",
+      "variant": "variant-l-midnight-lounge",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25139"
+      ],
+      "destination": "screenshots/events/variant-l-midnight-lounge.jpg",
+      "previousSelectors": [
+        ".section-private-parties-l---an-evening-of-your-own-25139"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2422.900146484375,
+        "width": 1536,
+        "height": 850.9500122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-a-circuit",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "A · Circuit",
+      "variant": "variant-a-circuit",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23765"
+      ],
+      "destination": "screenshots/membership/variant-a-circuit.jpg",
+      "previousSelectors": [
+        ".section-membership-a---tier-rail-23765"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4007.050048828125,
+        "width": 1520.800048828125,
+        "height": 954.7000122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-b-rep",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "B · Rep",
+      "variant": "variant-b-rep",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23767"
+      ],
+      "destination": "screenshots/membership/variant-b-rep.jpg",
+      "previousSelectors": [
+        ".section-membership-b---subscriber-bill-23767"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 6276.175109863281,
+        "width": 1520.800048828125,
+        "height": 1257.1375732421875
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-c-late",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "C · Late",
+      "variant": "variant-c-late",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23769"
+      ],
+      "destination": "screenshots/membership/variant-c-late.jpg",
+      "previousSelectors": [
+        ".section-membership-c---card-ledger-23769"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3483.212646484375,
+        "width": 1520.800048828125,
+        "height": 1279.4124755859375
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-d-odd",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "D · Odd",
+      "variant": "variant-d-odd",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24797"
+      ],
+      "destination": "screenshots/membership/variant-d-odd.jpg",
+      "previousSelectors": [
+        ".section-membership-d---loyalty-card-24797"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 5775.83740234375,
+        "width": 1520.800048828125,
+        "height": 1889.112548828125
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-e-grid",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "E · Grid",
+      "variant": "variant-e-grid",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24814"
+      ],
+      "destination": "screenshots/membership/variant-e-grid.jpg",
+      "previousSelectors": [
+        ".section-membership-e---tiers-24814"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4739.4501953125,
+        "width": 1520.800048828125,
+        "height": 996
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-f-concrete",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "F · Concrete",
+      "variant": "variant-f-concrete",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24833"
+      ],
+      "destination": "screenshots/membership/variant-f-concrete.jpg",
+      "previousSelectors": [
+        ".section-membership-f---tariff-24833"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 240,
+        "y": 3847.175048828125,
+        "width": 1280.800048828125,
+        "height": 569.2000122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-g-cut",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "G · Cut",
+      "variant": "variant-g-cut",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "25118"
+      ],
+      "destination": "screenshots/membership/variant-g-cut.jpg",
+      "previousSelectors": [
+        ".section-membership-g---poster-pass-25118"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4511.1875,
+        "width": 1536,
+        "height": 690.0499877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-h-storybook",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "H · Storybook",
+      "variant": "variant-h-storybook",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "25121"
+      ],
+      "destination": "screenshots/membership/variant-h-storybook.jpg",
+      "previousSelectors": [
+        ".section-membership-h---subscribers-invitation-25121"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3907.25,
+        "width": 1536,
+        "height": 851.0625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-i-ma",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "I · Ma",
+      "variant": "variant-i-ma",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "25125"
+      ],
+      "destination": "screenshots/membership/variant-i-ma.jpg",
+      "previousSelectors": [
+        ".section-membership-i---quiet-return-25125"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 5602.41259765625,
+        "width": 1536,
+        "height": 853.75
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-j-box-office",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "J · Box Office",
+      "variant": "variant-j-box-office",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25144"
+      ],
+      "destination": "screenshots/membership/variant-j-box-office.jpg",
+      "previousSelectors": [
+        ".section-membership-j---box-office-pass-25144"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3519.16259765625,
+        "width": 1536,
+        "height": 699.75
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-k-clubhouse",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "K · Clubhouse",
+      "variant": "variant-k-clubhouse",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "24899"
+      ],
+      "destination": "screenshots/membership/variant-k-clubhouse.jpg",
+      "previousSelectors": [
+        ".section-membership-k---your-place-in-the-clubhouse-24899"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3125.28759765625,
+        "width": 1536,
+        "height": 788.3500366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "membership--variant-l-midnight-lounge",
+      "slot": "membership",
+      "component": "membership",
+      "componentLabel": "Membership",
+      "customerLabel": "L · Midnight Lounge",
+      "variant": "variant-l-midnight-lounge",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25140"
+      ],
+      "destination": "screenshots/membership/variant-l-midnight-lounge.jpg",
+      "previousSelectors": [
+        ".section-membership-l---after-dark-regular-25140"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3273.85009765625,
+        "width": 1536,
+        "height": 838.7000122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-a-circuit",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "A · Circuit",
+      "variant": "variant-a-circuit",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23747"
+      ],
+      "destination": "screenshots/contact/variant-a-circuit.jpg",
+      "previousSelectors": [
+        ".section-contact-a---compressed-column-23747"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2864.375,
+        "width": 1520.800048828125,
+        "height": 589.0625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-b-rep",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "B · Rep",
+      "variant": "variant-b-rep",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23749"
+      ],
+      "destination": "screenshots/contact/variant-b-rep.jpg",
+      "previousSelectors": [
+        ".section-contact-b---split-desk-23749"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4668.862548828125,
+        "width": 1520.800048828125,
+        "height": 688.7750244140625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-c-late",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "C · Late",
+      "variant": "variant-c-late",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23751"
+      ],
+      "destination": "screenshots/contact/variant-c-late.jpg",
+      "previousSelectors": [
+        ".section-contact-c---statement-line-23751"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 2387.85009765625,
+        "width": 1520.800048828125,
+        "height": 494.2625122070313
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-d-odd",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "D · Odd",
+      "variant": "variant-d-odd",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24795"
+      ],
+      "destination": "screenshots/contact/variant-d-odd.jpg",
+      "previousSelectors": [
+        ".section-contact-d---postcard-24795"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3950.85009765625,
+        "width": 1520.800048828125,
+        "height": 552.9125366210938
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-e-grid",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "E · Grid",
+      "variant": "variant-e-grid",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24811"
+      ],
+      "destination": "screenshots/contact/variant-e-grid.jpg",
+      "previousSelectors": [
+        ".section-contact-e---support-panel-24811"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4705.25,
+        "width": 1520.800048828125,
+        "height": 540.7999877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-f-concrete",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "F · Concrete",
+      "variant": "variant-f-concrete",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24831"
+      ],
+      "destination": "screenshots/contact/variant-f-concrete.jpg",
+      "previousSelectors": [
+        ".section-contact-f---ledger-24831"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 240,
+        "y": 2527.949951171875,
+        "width": 1280.800048828125,
+        "height": 524.4249877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-g-cut",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "G · Cut",
+      "variant": "variant-g-cut",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24853"
+      ],
+      "destination": "screenshots/contact/variant-g-cut.jpg",
+      "previousSelectors": [
+        ".section-contact-g---two-tone-split-24853"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3603.887451171875,
+        "width": 1536,
+        "height": 907.2999877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-h-storybook",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "H · Storybook",
+      "variant": "variant-h-storybook",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24867"
+      ],
+      "destination": "screenshots/contact/variant-h-storybook.jpg",
+      "previousSelectors": [
+        ".section-contact-h---the-letter-24867"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3086.25,
+        "width": 1536,
+        "height": 821
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-i-ma",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "I · Ma",
+      "variant": "variant-i-ma",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24875"
+      ],
+      "destination": "screenshots/contact/variant-i-ma.jpg",
+      "previousSelectors": [
+        ".section-contact-i---one-question-at-a-time-24875"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4380.7001953125,
+        "width": 1536,
+        "height": 1221.7125244140625
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-j-box-office",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "J · Box Office",
+      "variant": "variant-j-box-office",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25145"
+      ],
+      "destination": "screenshots/contact/variant-j-box-office.jpg",
+      "previousSelectors": [
+        ".section-contact-j---enquiry-desk-25145"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4218.91259765625,
+        "width": 1536,
+        "height": 799.0125122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-k-clubhouse",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "K · Clubhouse",
+      "variant": "variant-k-clubhouse",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "25137"
+      ],
+      "destination": "screenshots/contact/variant-k-clubhouse.jpg",
+      "previousSelectors": [
+        ".section-contact-k---say-hello-25137"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 3913.637451171875,
+        "width": 1536,
+        "height": 831.0125122070312
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    },
+    {
+      "optionId": "contact--variant-l-midnight-lounge",
+      "slot": "contact",
+      "component": "contact",
+      "componentLabel": "Contact Us",
+      "customerLabel": "L · Midnight Lounge",
+      "variant": "variant-l-midnight-lounge",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25141"
+      ],
+      "destination": "screenshots/contact/variant-l-midnight-lounge.jpg",
+      "previousSelectors": [
+        ".section-contact-l---a-note-after-dark-25141"
+      ],
+      "previousBoundsHintOnly": {
+        "x": 0,
+        "y": 4112.55029296875,
+        "width": 1536,
+        "height": 832.6124877929688
+      },
+      "groupedSources": [],
+      "captureRequirement": "Fresh published DOM identity and bounds; native JPEG element clip; no temporary CSS, fixtures or pixel edits."
+    }
+  ],
+  "omittedCore": [
+    {
+      "optionId": "header--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "slot": "header",
+      "reason": "Reviewed duplicate Standard navigation; optional source-evidence refresh.",
+      "captureStatus": "captured-live",
+      "representativeOptionId": "header--variant-g-cut"
+    },
+    {
+      "optionId": "header--variant-i-ma",
+      "variant": "variant-i-ma",
+      "slot": "header",
+      "reason": "Reviewed duplicate Standard navigation; optional source-evidence refresh.",
+      "captureStatus": "captured-live",
+      "representativeOptionId": "header--variant-g-cut"
+    },
+    {
+      "optionId": "header--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "slot": "header",
+      "reason": "Reviewed duplicate Standard navigation; optional source-evidence refresh.",
+      "captureStatus": "captured-live",
+      "representativeOptionId": "header--variant-g-cut"
+    },
+    {
+      "optionId": "header--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "slot": "header",
+      "reason": "Reviewed duplicate Standard navigation; optional source-evidence refresh.",
+      "captureStatus": "captured-live",
+      "representativeOptionId": "header--variant-g-cut"
+    },
+    {
+      "optionId": "header--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "slot": "header",
+      "reason": "Reviewed duplicate Standard navigation; optional source-evidence refresh.",
+      "captureStatus": "captured-live",
+      "representativeOptionId": "header--variant-g-cut"
+    },
+    {
+      "optionId": "hero--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "slot": "hero",
+      "reason": "Not currently an eligible customer choice; inspect source separately before adding a new choice.",
+      "captureStatus": "captured-live",
+      "representativeOptionId": null
+    }
+  ],
+  "notes": [
+    "Old IDs and rectangles are identity hints only. Publishing may change section IDs, and Admin color/caption changes can change height. Re-read actual published DOM and clipping bounds.",
+    "Capture the restored current palette only after saved/published source verification; keep second-palette and mobile QA images separate from desktop picker assets.",
+    "For each horizontal header scroll to document top, retain actual links and account/search controls. Concrete is a fixed sidebar: capture its complete actual header rectangle, not a top-strip guess.",
+    "Native image clips are byte-copied. Do not resize, recolor, stitch, render labels, inject fixture data or temporarily change styles to improve a screenshot.",
+    "Every image needs a dated visual review bound to its exact SHA-256. Source identity changes need explicit sourceIdentityVerified in that review.",
+    "The Standard representative remains G. H-L source navigation clips are optional evidence and must not create additional customer choices."
+  ]
+}

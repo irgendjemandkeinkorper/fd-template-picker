@@ -1,0 +1,164 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 48,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 1.28px 2.56px",
+        "text": "Reference Print",
+        "width": 288.0500183105469
+      },
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 19.5,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.52px 1.04px",
+        "text": "One screen. One image. One ticket.",
+        "width": 288.0500183105469
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "main-content custom-page section-hero-f---index-sheet-24835 q-px-xs section-hero-f---index-sheet-24835 zoom",
+        "height": 639,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-f---reference-print-24837 q-px-xs section-hero-f---reference-print-24837 zoom",
+        "height": 400.8000183105469,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-f---hire-schedule-24838 q-px-xs section-events-f---hire-schedule-24838 zoom",
+        "height": 591.6000366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-f---price-table-24839 q-px-xs section-food-f---price-table-24839 zoom",
+        "height": 955.6000366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-contact-f---anchor-24930 q-px-xs section-contact-f---anchor-24930 zoom",
+        "height": 0,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-f---ledger-24840 q-px-xs section-contact-f---ledger-24840 zoom",
+        "height": 563.2250366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-find-us-f---coordinates-24841 q-px-xs section-find-us-f---coordinates-24841 zoom",
+        "height": 836.4000244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-membership-f---tariff-24842 q-px-xs section-membership-f---tariff-24842 zoom",
+        "height": 607.6000366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-gift-cards-f---voucher-line-24843 q-px-xs section-gift-cards-f---voucher-line-24843 zoom",
+        "height": 605,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 36,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.96px 1.92px",
+        "text": "Reference Print",
+        "width": 344
+      },
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 24,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.64px 1.28px",
+        "text": "One screen. One image. One ticket.",
+        "width": 344
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "main-content custom-page section-hero-f---index-sheet-24835 q-px-xs section-hero-f---index-sheet-24835",
+        "height": 1223.4000244140625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-f---reference-print-24837 q-px-xs section-hero-f---reference-print-24837",
+        "height": 400.8000183105469,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-events-f---hire-schedule-24838 q-px-xs section-events-f---hire-schedule-24838",
+        "height": 1144.4000244140625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-food-f---price-table-24839 q-px-xs section-food-f---price-table-24839",
+        "height": 1113.300048828125,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-contact-f---anchor-24930 q-px-xs section-contact-f---anchor-24930",
+        "height": 0,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-f---ledger-24840 q-px-xs section-contact-f---ledger-24840",
+        "height": 563.2250366210938,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-find-us-f---coordinates-24841 q-px-xs section-find-us-f---coordinates-24841",
+        "height": 1708.4000244140625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-membership-f---tariff-24842 q-px-xs section-membership-f---tariff-24842",
+        "height": 1039.5999755859375,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-gift-cards-f---voucher-line-24843 q-px-xs section-gift-cards-f---voucher-line-24843",
+        "height": 705,
+        "primary": "#027be3",
+        "width": 376
+      }
+    ]
+  }
+]

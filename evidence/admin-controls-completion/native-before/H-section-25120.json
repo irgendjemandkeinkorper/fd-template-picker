@@ -1,0 +1,80 @@
+{
+  "letter": "H",
+  "id": "25120",
+  "name": "Membership H - Subscribers Invitation",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-h-membership"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-h-membership{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f8eee4;color:#3d2730;font-family:Georgia,serif;} &.fdp-h-membership h2{color:#3d2730;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-h-membership h3{color:#3d2730;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-h-membership p{color:#3d2730;line-height:1.7;} &.fdp-h-membership .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-h-membership .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-h-membership .fdp-card{padding:clamp(22px,3vw,40px);background:#fffaf1;border:1px solid #bea687;} &.fdp-h-membership .fdp-card p{margin-bottom:0;} &.fdp-h-membership .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-h-membership .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:#7b2945;color:#fffaf1;font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-h-membership .fdp-action:focus-visible{outline:3px solid #3d2730;outline-offset:4px;} &.fdp-h-membership .fdp-action:hover{text-decoration:underline;} &.fdp-h-membership .fdp-actions{margin:28px 0 0;} &.fdp-h-membership .fdp-number{display:block;color:#7b2945;font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-h-membership .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-h-membership .fdp-list li{padding:16px 0;border-bottom:1px solid #bea687;line-height:1.6;} @media(max-width:720px){&.fdp-h-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-h-membership .fdp-card{padding:24px;} &.fdp-h-membership .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-h-membership .fdp-invitation{padding:clamp(24px,5vw,64px);background:#fffaf1;border:1px solid #bea687;outline:1px solid #bea687;outline-offset:-10px;text-align:center;}&.fdp-h-membership .fdp-invitation>p:not(.fdp-kicker):not(.fdp-actions){max-width:700px;margin:18px auto 36px;}&.fdp-h-membership .fdp-grid{padding-top:30px;border-top:1px solid #bea687;}&.fdp-h-membership .fdp-grid h3{font-size:24px;font-style:italic;}&.fdp-h-membership .fdp-kicker{color:#7b2945;}\n/* Keep content within the section on narrow screens */\n&.fdp-h-membership,&.fdp-h-membership *{box-sizing:border-box;}&.fdp-h-membership .fdp-content,&.fdp-h-membership .fdp-content>*,&.fdp-h-membership .fdp-content article,&.fdp-h-membership .fdp-content aside{min-width:0;}&.fdp-h-membership p,&.fdp-h-membership li,&.fdp-h-membership a{overflow-wrap:break-word;}\n/* Storybook blush paper and framed cream invitation */\n&.fdp-h-membership{background:#f3d6d0;color:#5f2235;}&.fdp-h-membership h2{color:#5f2235;font-weight:400;text-align:center;}&.fdp-h-membership .fdp-invitation{background:#fbf4e8;border-color:#5f2235;outline-color:#5f2235;}&.fdp-h-membership .fdp-invitation h3{font-weight:400;}\n/* Preserve native heading contrast and respond to the section width */\n&.fdp-h-membership{background:#f3d6d0!important;color:#3d2730!important;container-type:inline-size;} &.fdp-h-membership h2{color:#5f2235!important;} &.fdp-h-membership>.text-body1{color:#3d2730!important;} @container(max-width:720px){&.fdp-h-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-h-membership .fdp-action{width:100%;} &.fdp-h-membership .fdp-invitation{padding:24px 20px;}}"
+    }
+  ]
+}

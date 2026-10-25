@@ -1,0 +1,57 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+& {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-dark);
+}
+/* Native section surface and typography */
+&.fdp-l-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-dark);color:var(--fd-background);font-family:Georgia,serif;} &.fdp-l-food h2{color:var(--fd-background);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-l-food h3{color:var(--fd-background);font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-l-food p{color:var(--fd-background);line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-l-food .q-card{background:var(--fd-surface-dark);color:var(--fd-background);border:1px solid var(--fd-line-on-dark);box-shadow:none;} &.fdp-l-food .q-tab{color:var(--fd-background);} &.fdp-l-food .q-tab--active{color:var(--fd-copy-emphasis);} &.fdp-l-food .q-btn{min-height:44px;} &.fdp-l-food .q-focus-helper{border-radius:inherit;} &.fdp-l-food a:focus-visible,&.fdp-l-food button:focus-visible{outline:3px solid var(--fd-accent);outline-offset:3px;}
+/* Keep content within the section on narrow screens */
+&.fdp-l-food,&.fdp-l-food *{box-sizing:border-box;}&.fdp-l-food .fdp-content,&.fdp-l-food .fdp-content>*,&.fdp-l-food .fdp-content article,&.fdp-l-food .fdp-content aside{min-width:0;}&.fdp-l-food p,&.fdp-l-food li,&.fdp-l-food a{overflow-wrap:break-word;}
+&.fdp-l-food{background:var(--fd-dark)!important;color:var(--fd-background)!important;} &.fdp-l-food h2,&.fdp-l-food .text-primary{color:var(--fd-background)!important;}
+/* Keep native catalog cards and category controls readable */
+&.fdp-l-food .text-responsive{color:var(--fd-background)!important;} &.fdp-l-food .q-card{background:var(--fd-surface-dark)!important;color:var(--fd-background)!important;} &.fdp-l-food .q-btn{background:var(--fd-surface-dark)!important;color:var(--fd-background)!important;border:1px solid var(--fd-line-on-dark);}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+& .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }

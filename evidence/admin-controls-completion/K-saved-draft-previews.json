@@ -1,0 +1,118 @@
+[
+  {
+    "captions": [],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "section-k-welcome-24890 q-px-xs section-k-welcome-24890 bg-primary zoom",
+        "height": 162.40000915527344,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-k-featured-24891 q-px-xs section-k-featured-24891 zoom",
+        "height": 210,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent row justify-center section-k-reserve-24892 q-px-xs section-k-reserve-24892 zoom",
+        "height": 88,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-k-food section-food-k---clubhouse-kitchen-25122 q-px-xs section-food-k---clubhouse-kitchen-25122 zoom",
+        "height": 1565.625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-k-private-parties section-private-parties-k---gather-your-people-25128 q-px-xs section-private-parties-k---gather-your-people-25128 zoom",
+        "height": 887.4625244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-k-stay-awhile-24893 q-px-xs section-k-stay-awhile-24893 bg-primary zoom",
+        "height": 172.40000915527344,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-k-membership section-membership-k---your-place-in-the-clubhouse-24894 q-px-xs section-membership-k---your-place-in-the-clubhouse-24894 bg-primary zoom",
+        "height": 945.4125366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent fdp-k-contact section-contact-k---say-hello-25117 q-px-xs section-contact-k---say-hello-25117 zoom",
+        "height": 855.875,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "section-k-welcome-24890 q-px-xs section-k-welcome-24890 bg-primary",
+        "height": 162.40000915527344,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-k-featured-24891 q-px-xs section-k-featured-24891",
+        "height": 210,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-k-reserve-24892 q-px-xs section-k-reserve-24892",
+        "height": 243.4375,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-k-food section-food-k---clubhouse-kitchen-25122 q-px-xs section-food-k---clubhouse-kitchen-25122",
+        "height": 5326.03759765625,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-k-private-parties section-private-parties-k---gather-your-people-25128 q-px-xs section-private-parties-k---gather-your-people-25128",
+        "height": 887.4625244140625,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-k-stay-awhile-24893 q-px-xs section-k-stay-awhile-24893 bg-primary",
+        "height": 172.40000915527344,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-k-membership section-membership-k---your-place-in-the-clubhouse-24894 q-px-xs section-membership-k---your-place-in-the-clubhouse-24894 bg-primary",
+        "height": 945.4125366210938,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent fdp-k-contact section-contact-k---say-hello-25117 q-px-xs section-contact-k---say-hello-25117",
+        "height": 831.875,
+        "primary": "#027be3",
+        "width": 1020
+      }
+    ]
+  }
+]

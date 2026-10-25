@@ -1,0 +1,457 @@
+--- site-theme.before.css
++++ site-theme.proposed.css
+@@ -301,45 +301,45 @@
+ 
+ /* NOCTURNE NAV VARIANTS - scoped per consolidated persona page */
+ /* A - Circuit: dense opaque bar, CTA always in view */
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header{background-color:#08080A !important;box-shadow:none !important;border-bottom:1px solid rgba(232,223,209,.12) !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header{background-color:var(--q-dark) !important;box-shadow:none !important;border-bottom:1px solid color-mix(in srgb, var(--q-background) 12%, transparent) !important;}
+ body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .q-toolbar:has(.q-btn-group){display:none !important;}
+ body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .q-toolbar{min-height:56px !important;padding-inline:clamp(1rem,3vw,2rem) !important;}
+ body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header img.title-logo{height:18px !important;margin:0 !important;}
+ body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu{gap:24px !important;}
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a{font-family:"Jost","Helvetica Neue",Helvetica,sans-serif !important;font-size:13px !important;letter-spacing:.08em !important;text-transform:uppercase !important;color:#CFC4B2 !important;min-height:0 !important;padding:0 !important;}
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child{background-color:#A34B3C !important;border-radius:2px !important;}
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a{color:#F5F0E6 !important;height:40px !important;padding:0 20px !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a{font-family:"Jost","Helvetica Neue",Helvetica,sans-serif !important;font-size:13px !important;letter-spacing:.08em !important;text-transform:uppercase !important;color:var(--q-background) !important;min-height:0 !important;padding:0 !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child{background-color:var(--q-primary) !important;border-radius:2px !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a{color:var(--q-background) !important;height:40px !important;padding:0 20px !important;}
+ /* B - Rep: two stacked rows, centred, no CTA, paper ground */
+-body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header{background-color:#F5F0E6 !important;box-shadow:none !important;border-bottom:1px solid rgba(20,20,24,.14) !important;}
++body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header{background-color:var(--q-background) !important;box-shadow:none !important;border-bottom:1px solid color-mix(in srgb, var(--q-dark) 14%, transparent) !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar:has(.q-btn-group){display:none !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar{flex-wrap:wrap !important;min-height:0 !important;padding:0 !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar__title{width:100% !important;max-width:100% !important;flex:0 0 100% !important;display:flex !important;justify-content:center !important;order:1 !important;padding:12px 0 !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-space{display:none !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header img.title-logo{height:34px !important;margin:0 !important;filter:invert(1) !important;}
+-body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu{width:100% !important;max-width:100% !important;flex:0 0 100% !important;order:2 !important;justify-content:center !important;gap:28px !important;border-top:1px solid rgba(20,20,24,.14) !important;padding:10px 0 !important;margin:0 !important;}
+-body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a{font-family:"Jost","Helvetica Neue",Helvetica,sans-serif !important;font-size:12px !important;letter-spacing:.18em !important;text-transform:uppercase !important;color:#1C1C21 !important;min-height:0 !important;padding:0 !important;}
++body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu{width:100% !important;max-width:100% !important;flex:0 0 100% !important;order:2 !important;justify-content:center !important;gap:28px !important;border-top:1px solid color-mix(in srgb, var(--q-dark) 14%, transparent) !important;padding:10px 0 !important;margin:0 !important;}
++body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a{font-family:"Jost","Helvetica Neue",Helvetica,sans-serif !important;font-size:12px !important;letter-spacing:.18em !important;text-transform:uppercase !important;color:var(--q-dark) !important;min-height:0 !important;padding:0 !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .col-auto.row.justify-end{display:none !important;}
+ /* C - Late: hamburger-primary, no visible link list, translucent over the marquee */
+-body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header{background-color:rgba(8,8,10,.55) !important;box-shadow:none !important;border-bottom:1px solid rgba(191,155,69,.55) !important;}
++body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header{background-color:var(--q-dark) !important;box-shadow:none !important;border-bottom:1px solid color-mix(in srgb, var(--q-secondary) 55%, transparent) !important;}
+ body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header .q-toolbar:has(.q-btn-group){display:none !important;}
+ body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header .q-toolbar{min-height:64px !important;padding-inline:20px !important;}
+ body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header .row.menu{display:none !important;}
+ body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header img.title-logo{height:20px !important;margin:0 !important;}
+ 
+ /* Quasar q-btn ignores colour/background on the anchor - target the inner content */
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a .q-btn__content,body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a span{color:#CFC4B2 !important;}
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a .q-btn__content,body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a span{color:#F5F0E6 !important;}
+-body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a .q-btn__content,body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a span{color:#1C1C21 !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a .q-btn__content,body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a span{color:var(--q-background) !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a .q-btn__content,body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a span{color:var(--q-background) !important;}
++body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a .q-btn__content,body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a span{color:var(--q-dark) !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar__title a.link{margin:0 auto !important;flex:0 0 auto !important;display:block !important;}
+ body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar__title{text-align:center !important;}
+ 
+ /* Persona button colours - beat the legacy .q-btn.bg-primary rule */
+-body.site-170 .q-layout:has(.page-variant-a-circuit-5659) main .q-btn.bg-primary{background:#A34B3C !important;color:#F5F0E6 !important;}
+-body.site-170 .q-layout:has(.page-variant-b-rep-5661) main .q-btn.bg-primary{background:transparent !important;color:#571726 !important;}
+-body.site-170 .q-layout:has(.page-variant-c-late-5663) main .q-btn.bg-primary{background:transparent !important;color:#BF9B45 !important;}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) main .q-btn.bg-primary{background:var(--fd-primary-tint) !important;color:var(--q-dark) !important;}
++body.site-170 .q-layout:has(.page-variant-b-rep-5661) main .q-btn.bg-primary{background:var(--fd-primary-tint) !important;color:var(--q-dark) !important;}
++body.site-170 .q-layout:has(.page-variant-c-late-5663) main .q-btn.bg-primary{background:var(--fd-primary-tint) !important;color:var(--q-dark) !important;}
+ 
+ /* ---------- shared: fonts as tokens, same three families the site already imports ---------- */
+-.q-layout:has([class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"]) {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"]) {
+   --n-display: "Bodoni Moda", "Didot", Georgia, serif;
+   --n-ui: "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   --n-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+@@ -350,7 +350,7 @@
+    NAV D · ODD — paper bar, logo on a tilted stamp, tabs at their own angles,
+    last link filled as "Tickets". Not sticky: it scrolls away with the page.
+    ========================================================================== */
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header {
+   position: absolute !important; /* scrolls away. Remove this line if the header overlaps content. */
+   background-color: var(--q-background) !important;
+   box-shadow: none !important;
+@@ -359,22 +359,22 @@
+ }
+ 
+ /* language/utility toolbar off */
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
+   display: none !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar {
+   min-height: 64px !important;
+   padding-inline: clamp(16px, 3vw, 32px) !important;
+   overflow: visible !important; /* lets the stamp hang below the bar */
+ }
+ 
+ /* Logo cell becomes a 112px ink stamp, rotated, hanging 40px below the bar */
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title {
+   overflow: visible !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link {
+   display: inline-flex !important;
+   align-items: center;
+   justify-content: center;
+@@ -388,32 +388,32 @@
+   transition: transform 220ms var(--n-ease);
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link:hover {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link:hover {
+   transform: rotate(0deg);
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header img.title-logo {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header img.title-logo {
+   height: 44px !important;
+   margin: 0 !important;
+ }
+ 
+ /* Links as bordered tabs, each at its own small angle; hover straightens */
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu {
+   gap: 10px !important;
+   overflow: visible;
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item {
+   transform: rotate(var(--tilt, -2deg));
+   transition: transform 220ms var(--n-ease);
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(2n) { --tilt: 1.5deg; }
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(3n) { --tilt: -1deg; }
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(4n) { --tilt: 2deg; }
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:hover { transform: rotate(0deg); }
+-
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu a.q-btn {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(2n) { --tilt: 1.5deg; }
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(3n) { --tilt: -1deg; }
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(4n) { --tilt: 2deg; }
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:hover { transform: rotate(0deg); }
++
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu a.q-btn {
+   background-color: var(--q-background) !important;
+   border: 1px solid var(--q-dark) !important;
+   border-radius: 2px !important;
+@@ -427,58 +427,58 @@
+   color: var(--q-dark) !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content, span) {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content, span) {
+   color: var(--q-dark) !important;
+ }
+ 
+ /* last item = Tickets, filled */
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
+   background-color: var(--q-primary) !important;
+   border-color: var(--q-primary) !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
+   color: var(--q-background) !important;
+ }
+ 
+ /* search + account icons in ink */
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .col-auto.row.justify-end .q-btn,
+-.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .col-auto.row.justify-end .q-icon {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .col-auto.row.justify-end .q-btn,
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .col-auto.row.justify-end .q-icon {
+   color: var(--q-dark) !important;
+ }
+ 
+ /* mobile: 56px bar, 72px stamp, scrap-coloured full-screen drawer with italic links */
+ @media (max-width: 1023px) {
+-  .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar {
++  body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar {
+     min-height: 56px !important;
+   }
+-  .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link {
++  body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link {
+     width: 72px;
+     height: 72px;
+     margin-top: 24px;
+   }
+-  .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header img.title-logo {
++  body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header img.title-logo {
+     height: 30px !important;
+   }
+-  .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer {
++  body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer {
+     width: 100vw !important;
+-    background-color: color-mix(in oklab, var(--q-accent) 60%, var(--q-background)) !important;
++    background-color: color-mix(in oklab, var(--q-secondary) 60%, var(--q-background)) !important;
+     color: var(--q-dark) !important;
+   }
+-  .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
++  body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
+     color: var(--q-dark) !important;
+     font-family: var(--n-display) !important;
+     font-style: italic;
+     font-size: 34px !important;
+     line-height: 1.1;
+   }
+-  .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer .q-item:nth-child(even) {
++  body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer .q-item:nth-child(even) {
+     padding-left: 18% !important;
+   }
+ }
+ 
+ /* page buttons: beat the legacy site rule (.q-btn.bg-primary -> wine) using the page's own tokens */
+-.q-layout:has([class*="page-variant-d-odd-"]) main .q-btn.bg-primary {
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) main .q-btn.bg-primary {
+   background: var(--v-go, var(--q-primary)) !important;
+   color: var(--v-on-go, var(--q-background)) !important;
+ }
+@@ -488,55 +488,55 @@
+    utility row; the main bar carries logo left, links centred, icons and a
+    filled "Book" (last link) right. Sticky, flat, hairline bottom.
+    ========================================================================== */
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header {
+-  background-color: var(--q-header) !important;
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header {
++  background-color: var(--q-dark) !important;
+   box-shadow: none !important;
+   border-bottom: 1px solid color-mix(in oklab, var(--q-background) 12%, transparent) !important;
+   color: var(--q-background) !important;
+ }
+ 
+ /* utility row (language / currency toolbar) kept and restyled */
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
+   display: flex !important;
+   min-height: 32px !important;
+   padding-inline: clamp(16px, 3vw, 32px) !important;
+-  background-color: color-mix(in oklab, var(--q-header) 60%, black) !important;
++  background-color: color-mix(in oklab, var(--q-dark) 60%, black) !important;
+   border-bottom: 1px solid color-mix(in oklab, var(--q-background) 8%, transparent);
+   font-family: var(--n-ui) !important;
+   font-size: 12px !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) :is(.q-btn, span, .q-icon) {
+-  color: color-mix(in oklab, var(--q-background) 70%, var(--q-header)) !important;
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) :is(.q-btn, span, .q-icon) {
++  color: color-mix(in oklab, var(--q-background) 70%, var(--q-dark)) !important;
+   font-size: 12px !important;
+   min-height: 0 !important;
+   text-transform: none !important;
+   letter-spacing: 0 !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
+   min-height: 64px !important;
+   padding-inline: clamp(16px, 3vw, 32px) !important;
+   max-width: 1264px;
+   margin-inline: auto;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header img.title-logo {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header img.title-logo {
+   height: 28px !important;
+   margin: 0 !important;
+ }
+ 
+ /* links centred between logo and icons */
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-space {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-space {
+   display: none !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu {
+   margin: 0 auto !important;
+   gap: 28px !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn {
+   font-family: var(--n-ui) !important;
+   font-size: 14px !important;
+   font-weight: 500 !important;
+@@ -550,61 +550,61 @@
+   transition: border-color 120ms var(--n-ease);
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn:hover {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn:hover {
+   border-bottom-color: color-mix(in oklab, var(--q-background) 35%, transparent) !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content, span) {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content, span) {
+   color: var(--q-background) !important;
+ }
+ 
+ /* last link = Book, the one filled control in the bar */
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
+   background-color: var(--q-primary) !important;
+   border-radius: 2px !important;
+   padding: 8px 16px !important;
+   border-bottom: 0 !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
+-  color: var(--q-header) !important;
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
++  color: var(--q-dark) !important;
+   font-weight: 500 !important;
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .col-auto.row.justify-end .q-btn,
+-.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .col-auto.row.justify-end .q-icon {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .col-auto.row.justify-end .q-btn,
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .col-auto.row.justify-end .q-icon {
+   color: var(--q-background) !important;
+ }
+ 
+ @media (max-width: 1023px) {
+-  .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
++  body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
+     display: none !important;
+   }
+-  .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
++  body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
+     min-height: 56px !important;
+   }
+-  .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer {
++  body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer {
+     width: 280px !important;
+     background-color: color-mix(in oklab, var(--q-background) 5%, var(--q-dark)) !important;
+   }
+-  .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
++  body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
+     color: var(--q-background) !important;
+     font-family: var(--n-ui) !important;
+     font-size: 16px !important;
+   }
+-  .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer .q-item {
++  body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer .q-item {
+     min-height: 48px !important;
+   }
+ }
+ 
+-.q-layout:has([class*="page-variant-e-grid-"]) main .q-btn.bg-primary {
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) main .q-btn.bg-primary {
+   background: var(--v-brand, var(--q-primary)) !important;
+   color: var(--v-on-brand, var(--q-dark)) !important;
+ }
+ 
+ 
+ /* NAV F · CONCRETE */
+-@media (min-width: 1024px){.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header{position: fixed !important;top: 0 !important;bottom: 0 !important;left: 0 !important;right: auto !important;width: 240px !important;height: 100vh !important;background-color: var(--q-header) !important;border-right: 2px solid var(--q-background) !important;border-bottom: 0 !important;box-shadow: none !important;color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-page-container{padding-top: 0 !important;padding-left: 240px !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar:has(.q-btn-group){display: none !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"]{flex-direction: column !important;align-items: stretch !important;justify-content: flex-start !important;height: 100% !important;min-height: 0 !important;padding: 0 !important;overflow: visible !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar__title{height: 96px !important;display: flex !important;align-items: center !important;justify-content: center !important;margin: 0 !important;padding: 0 16px !important;border-bottom: 2px solid var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header img.title-logo{height: 32px !important;margin: 0 !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-space{display: none !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu{flex-direction: column !important;align-items: stretch !important;gap: 0 !important;margin: 0 !important;padding: 0 !important;counter-reset: navf;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item{counter-increment: navf;border-bottom: 2px solid var(--q-background);}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn{display: flex !important;width: 100% !important;height: 48px !important;min-height: 0 !important;padding: 0 16px !important;justify-content: flex-start !important;border-radius: 0 !important;font-family: var(--n-mono) !important;font-size: 14px !important;font-weight: 400 !important;letter-spacing: 0.04em !important;text-transform: uppercase !important;color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn::before{content: counter(navf,decimal-leading-zero);margin-right: 16px;opacity: 0.55;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content,span){color: var(--q-background) !important;justify-content: flex-start !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover{background-color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover :is(.q-btn__content,span){color: var(--q-header) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child{margin-top: auto !important;border-bottom: 0;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn{height: 64px !important;background-color: var(--q-primary) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn::before{content: none;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .col-auto.row.justify-end{order: 5;justify-content: flex-start !important;padding: 8px 8px !important;border-top: 2px solid var(--q-background);}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .col-auto.row.justify-end .q-icon{color: var(--q-background) !important;}}@media (max-width: 1023px){.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header{background-color: var(--q-header) !important;border-bottom: 2px solid var(--q-background) !important;box-shadow: none !important;color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar:has(.q-btn-group){display: none !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar{min-height: 48px !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header img.title-logo{height: 22px !important;margin: 0 !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header :is(.q-btn,.q-icon){color: var(--q-background) !important;border-radius: 0 !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer{width: 100vw !important;background-color: var(--q-dark) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer .q-item{border-bottom: 2px solid var(--q-background);min-height: 64px !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer :is(a,.q-item,.q-item__label,.q-icon){color: var(--q-background) !important;font-family: var(--n-mono) !important;font-size: 24px !important;text-transform: uppercase;}}.q-layout:has([class*="page-variant-f-concrete-"]) main .q-btn.bg-primary{background: var(--v-block,var(--q-primary)) !important;color: var(--v-rule,var(--q-background)) !important;border-radius: 0 !important;}
++@media (min-width: 1024px){body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header{position: fixed !important;top: 0 !important;bottom: 0 !important;left: 0 !important;right: auto !important;width: 240px !important;height: 100vh !important;background-color: var(--q-dark) !important;border-right: 2px solid var(--q-background) !important;border-bottom: 0 !important;box-shadow: none !important;color: var(--q-background) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) .q-page-container{padding-top: 0 !important;padding-left: 240px !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar:has(.q-btn-group){display: none !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"]{flex-direction: column !important;align-items: stretch !important;justify-content: flex-start !important;height: 100% !important;min-height: 0 !important;padding: 0 !important;overflow: visible !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar__title{height: 96px !important;display: flex !important;align-items: center !important;justify-content: center !important;margin: 0 !important;padding: 0 16px !important;border-bottom: 2px solid var(--q-background) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header img.title-logo{height: 32px !important;margin: 0 !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-space{display: none !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu{flex-direction: column !important;align-items: stretch !important;gap: 0 !important;margin: 0 !important;padding: 0 !important;counter-reset: navf;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item{counter-increment: navf;border-bottom: 2px solid var(--q-background);}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn{display: flex !important;width: 100% !important;height: 48px !important;min-height: 0 !important;padding: 0 16px !important;justify-content: flex-start !important;border-radius: 0 !important;font-family: var(--n-mono) !important;font-size: 14px !important;font-weight: 400 !important;letter-spacing: 0.04em !important;text-transform: uppercase !important;color: var(--q-background) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn::before{content: counter(navf,decimal-leading-zero);margin-right: 16px;opacity: 0.55;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content,span){color: var(--q-background) !important;justify-content: flex-start !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover{background-color: var(--q-background) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover :is(.q-btn__content,span){color: var(--q-dark) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child{margin-top: auto !important;border-bottom: 0;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn{height: 64px !important;background-color: var(--q-primary) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn::before{content: none;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .col-auto.row.justify-end{order: 5;justify-content: flex-start !important;padding: 8px 8px !important;border-top: 2px solid var(--q-background);}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .col-auto.row.justify-end .q-icon{color: var(--q-background) !important;}}@media (max-width: 1023px){body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header{background-color: var(--q-dark) !important;border-bottom: 2px solid var(--q-background) !important;box-shadow: none !important;color: var(--q-background) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar:has(.q-btn-group){display: none !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar{min-height: 48px !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header img.title-logo{height: 22px !important;margin: 0 !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header :is(.q-btn,.q-icon){color: var(--q-background) !important;border-radius: 0 !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer{width: 100vw !important;background-color: var(--q-dark) !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer .q-item{border-bottom: 2px solid var(--q-background);min-height: 64px !important;}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer :is(a,.q-item,.q-item__label,.q-icon){color: var(--q-background) !important;font-family: var(--n-mono) !important;font-size: 24px !important;text-transform: uppercase;}}body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) main .q-btn.bg-primary{background: var(--v-block,var(--q-primary)) !important;color: var(--v-rule,var(--q-background)) !important;border-radius: 0 !important;}
+ 
+ 
+ /* REVIEW PROPOSAL ONLY — append once to the exported Site CSS after approval.
+@@ -743,3 +743,99 @@
+     margin: 0 !important;
+   }
+ }
++
++/* TEMPLATE ADMIN COLOR CONTRACT — A through L only.
++   US-BETA / INDY Demo / Adam Template Testing 2 (site-170).
++   Header and decorative paint use Primary, Secondary, Dark and Background.
++   Text uses the Dark/Background pair; brand fills are fixed derived tints.
++   Do not edit this CSS when changing a client's native Theme & Style colors. */
++body.site-170:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) {
++  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
++  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
++  --pl-ink: var(--q-dark);
++  --pl-ink-deep: var(--q-dark);
++  --pl-panel: color-mix(in srgb, var(--q-background) 5%, var(--q-dark));
++  --pl-cream: var(--q-background);
++  --pl-paper: var(--q-background);
++  --pl-muted: color-mix(in srgb, var(--q-background) 80%, var(--q-dark));
++  --pl-wine: var(--q-primary);
++  --pl-line: color-mix(in srgb, var(--q-background) 30%, var(--q-dark));
++  background: var(--q-background);
++}
++
++/* Shared Standard navigation and inherited utilities use an opaque surface. */
++body.site-170 .q-layout:has([class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) header.consumer-header {
++  background: var(--q-dark) !important;
++  color: var(--q-background) !important;
++}
++body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-c-late-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) header.consumer-header :is(.q-btn, .q-btn__content, .q-icon) {
++  color: var(--q-background) !important;
++}
++body.site-170 .q-layout:has([class*="page-variant-b-rep-"], [class*="page-variant-d-odd-"]) header.consumer-header :is(.q-btn, .q-btn__content, .q-icon) {
++  color: var(--q-dark) !important;
++}
++
++/* Current Primary/Secondary do not pass as solid text backgrounds. Keep their
++   exact native hue in the border and tint; all words remain native Dark. */
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child,
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn,
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn,
++body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
++  background: var(--fd-primary-tint) !important;
++  border-color: var(--q-primary) !important;
++  color: var(--q-dark) !important;
++}
++body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a :is(.q-btn__content, span),
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span),
++body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span),
++body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
++  color: var(--q-dark) !important;
++}
++
++/* Keep the existing native-action geometry. These rules replace site-owned
++   foreground/fill decisions; page/section authors retain their layout rules. */
++body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) main .q-btn.bg-primary {
++  background: var(--fd-primary-tint) !important;
++  border-color: var(--q-primary) !important;
++  color: var(--q-dark) !important;
++}
++body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) main .q-btn.bg-primary > .q-btn__content {
++  color: inherit !important;
++}
++
++/* Drawer labels stay legible; active state is conveyed by a brand-colored
++   rule instead of low-contrast brand-colored copy. */
++body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) .q-drawer :is(.q-router-link--active, .q-item--active) :is(.q-item__label, .q-icon) {
++  color: var(--q-background) !important;
++}
++body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) .q-drawer :is(.q-router-link--active, .q-item--active) {
++  border-inline-start: 3px solid var(--q-secondary);
++}
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer {
++  background: var(--fd-secondary-tint) !important;
++}
++body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer :is(.q-router-link--active, .q-item--active) :is(.q-item__label, .q-icon) {
++  color: var(--q-dark) !important;
++}
++
++/* The Late header overlays the marquee. The opaque native Dark ground is
++   image-independent; the shadow protects glyph edges during transitions. */
++body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header :is(.q-btn__content, .q-icon) {
++  text-shadow: 0 1px 2px var(--q-dark), 0 2px 4px var(--q-dark);
++}
++
++/* Concrete keeps the approved 240px containment and native hover geometry.
++   Its highlighted link and the Standard navigation inherit the same roles. */
++body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover {
++  background: var(--q-background) !important;
++}
++body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover :is(.q-btn__content, span) {
++  color: var(--q-dark) !important;
++}
++
++/* A two-tone focus cue is visible on both native Dark and Background. */
++body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) :is(a, button, input, select, textarea):focus-visible {
++  outline: 2px solid var(--q-dark) !important;
++  outline-offset: 2px;
++  box-shadow: 0 0 0 4px var(--q-background) !important;
++}

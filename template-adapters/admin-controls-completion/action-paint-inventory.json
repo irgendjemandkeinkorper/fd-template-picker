@@ -1,0 +1,1411 @@
+{
+  "variant-a-circuit.before": [
+    {
+      "selector": ".page-variant-a-circuit-5659 .section-food-a---chip-rail-23731 .category-filter-column .q-btn",
+      "paints": [
+        [
+          "color",
+          "#CFC4B2 !important"
+        ],
+        [
+          "background-color",
+          "#1C1C21 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .section-hero-a---showtimes-shelf-23738 .q-btn",
+      "paints": [
+        [
+          "background-color",
+          "#A34B3C !important"
+        ],
+        [
+          "color",
+          "#F5F0E6 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .section-hero-a---shelf-23739 .ha-shelf__book",
+      "paints": [
+        [
+          "background-color",
+          "#A34B3C"
+        ],
+        [
+          "color",
+          "#F5F0E6 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .section-contact-a---compressed-column-23747 .col-auto:has(a.q-btn)",
+      "paints": [
+        [
+          "background-color",
+          "#A34B3C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .section-contact-a---compressed-column-23747 a.q-btn .q-btn__content, .page-variant-a-circuit-5659 .section-contact-a---compressed-column-23747 a.q-btn span",
+      "paints": [
+        [
+          "color",
+          "#F5F0E6 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing .q-btn__content, .page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing span",
+      "paints": [
+        [
+          "color",
+          "#E8A38F !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing:hover",
+      "paints": [
+        [
+          "background",
+          "#A34B3C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing:hover .q-btn__content, .page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing:hover span",
+      "paints": [
+        [
+          "color",
+          "#140E0C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing.bg-primary.text-white",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing.bg-primary.text-white .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#E8A38F !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing.bg-primary.text-white:hover",
+      "paints": [
+        [
+          "background",
+          "#A34B3C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=now-playing-a---departure-board] .showings .q-btn.showing.bg-primary.text-white:hover .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#140E0C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .mba a.mba__cta",
+      "paints": [
+        [
+          "color",
+          "#E8A38F"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .mba a.mba__cta:hover",
+      "paints": [
+        [
+          "background",
+          "#A34B3C"
+        ],
+        [
+          "color",
+          "#140E0C"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=gift-cards-a---denomination-rail] .q-btn.bg-primary",
+      "paints": [
+        [
+          "background",
+          "#A34B3C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=gift-cards-a---denomination-rail] .q-btn.bg-primary .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#140E0C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=gift-cards-a---denomination-rail] .q-btn:not(.bg-primary)",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=gift-cards-a---denomination-rail] .q-btn:not(.bg-primary) .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#E8A38F !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=gift-cards-a---denomination-rail] .q-btn:not(.bg-primary):hover",
+      "paints": [
+        [
+          "background",
+          "#A34B3C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 [class*=gift-cards-a---denomination-rail] .q-btn:not(.bg-primary):hover .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#140E0C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .fua a.fua__cta",
+      "paints": [
+        [
+          "color",
+          "#E8A38F !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-a-circuit-5659 .fua a.fua__cta:hover",
+      "paints": [
+        [
+          "background",
+          "#A34B3C"
+        ],
+        [
+          "color",
+          "#140E0C !important"
+        ]
+      ]
+    }
+  ],
+  "variant-b-rep.before": [
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=food-b---printed-menu] .category-filter-column .q-btn",
+      "paints": [
+        [
+          "color",
+          "#1C1C21 !important"
+        ],
+        [
+          "background-color",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=food-b---printed-menu] .category-filter-column .q-btn:hover",
+      "paints": [
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=hero-b---plate-and-note] .q-btn",
+      "paints": [
+        [
+          "background-color",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=contact-b---split-desk] a.q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=contact-b---split-desk] a.q-btn .q-btn__content, .page-variant-b-rep-5661 [class*=contact-b---split-desk] a.q-btn span",
+      "paints": [
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=now-playing-b---programme-broadsheet] .poster-info .row.justify-between.items-center .col-auto .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=now-playing-b---programme-broadsheet] .poster-list .q-btn.showing.bg-primary.text-white",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=now-playing-b---programme-broadsheet] .poster-list .q-btn.showing.bg-primary.text-white .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=now-playing-b---programme-broadsheet] .poster-list .q-btn.showing.bg-primary.text-white:hover",
+      "paints": [
+        [
+          "background",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=now-playing-b---programme-broadsheet] .poster-list .q-btn.showing.bg-primary.text-white:hover .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#F5F0E6 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 .mbb a.mbb__cta",
+      "paints": [
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=gift-cards-b---paper-voucher] .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=gift-cards-b---paper-voucher] .q-btn .q-btn__content, .page-variant-b-rep-5661 [class*=gift-cards-b---paper-voucher] .q-btn span",
+      "paints": [
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=gift-cards-b---paper-voucher] .q-btn:hover",
+      "paints": [
+        [
+          "background",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 [class*=gift-cards-b---paper-voucher] .q-btn:hover .q-btn__content, .page-variant-b-rep-5661 [class*=gift-cards-b---paper-voucher] .q-btn:hover span",
+      "paints": [
+        [
+          "color",
+          "#EDE6D8 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 .fub a.fub__cta",
+      "paints": [
+        [
+          "color",
+          "#571726 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-b-rep-5661 .fub a.fub__cta:hover",
+      "paints": [
+        [
+          "color",
+          "#2B2622 !important"
+        ],
+        [
+          "color",
+          "#2B2622"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-private-parties-b---your-own-evening-25134.fdp-b-private-parties .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#713d35"
+        ],
+        [
+          "color",
+          "#fffaf1"
+        ]
+      ]
+    }
+  ],
+  "variant-c-late.before": [
+    {
+      "selector": ".page-variant-c-late-5663 [class*=food-c---tile-wall] .category-filter-column .q-btn",
+      "paints": [
+        [
+          "color",
+          "#CFC4B2 !important"
+        ],
+        [
+          "background-color",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=contact-c---statement-line] a.q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=contact-c---statement-line] a.q-btn .q-btn__content, .page-variant-c-late-5663 [class*=contact-c---statement-line] a.q-btn span",
+      "paints": [
+        [
+          "color",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=now-playing-c---late-rail] .showings .q-btn.showing.bg-primary.text-white",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=now-playing-c---late-rail] .showings .q-btn.showing.bg-primary.text-white .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=now-playing-c---late-rail] .showings .q-btn.showing.bg-primary.text-white:hover",
+      "paints": [
+        [
+          "background",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=now-playing-c---late-rail] .showings .q-btn.showing.bg-primary.text-white:hover .q-btn__content",
+      "paints": [
+        [
+          "color",
+          "#2C0A12 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 .ev-c a.ev-c__cta",
+      "paints": [
+        [
+          "color",
+          "#BF9B45"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 .ev-c a.ev-c__cta:hover",
+      "paints": [
+        [
+          "background",
+          "#BF9B45"
+        ],
+        [
+          "color",
+          "#2C0A12"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 .mbc a.mbc__cta",
+      "paints": [
+        [
+          "color",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 .mbc a.mbc__cta:hover",
+      "paints": [
+        [
+          "background",
+          "#BF9B45"
+        ],
+        [
+          "color",
+          "#2C0A12 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=gift-cards-c---bar-tab] .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=gift-cards-c---bar-tab] .q-btn .q-btn__content, .page-variant-c-late-5663 [class*=gift-cards-c---bar-tab] .q-btn span",
+      "paints": [
+        [
+          "color",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=gift-cards-c---bar-tab] .q-btn:hover",
+      "paints": [
+        [
+          "background",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 [class*=gift-cards-c---bar-tab] .q-btn:hover .q-btn__content, .page-variant-c-late-5663 [class*=gift-cards-c---bar-tab] .q-btn:hover span",
+      "paints": [
+        [
+          "color",
+          "#1B060C !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 .fuc a.fuc__cta",
+      "paints": [
+        [
+          "color",
+          "#BF9B45 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-c-late-5663 .fuc a.fuc__cta:hover",
+      "paints": [
+        [
+          "background",
+          "#BF9B45"
+        ],
+        [
+          "color",
+          "#1B060C !important"
+        ]
+      ]
+    }
+  ],
+  "variant-d-odd.before": [
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-hero-d---collage-] .col.message .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-hero-d---collage-] .col.message .q-btn :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-now-playing-d---pinboard-] .showings .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-now-playing-d---pinboard-] .showings .q-btn :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-food-d---sticker-sheet-] .category-filter-column .q-btn",
+      "paints": [
+        [
+          "background",
+          "var(--v-white) !important"
+        ],
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-food-d---sticker-sheet-] .category-filter-column .q-btn :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-food-d---sticker-sheet-] .category-filter-column .q-btn:is(.active, .q-btn--active, [aria-pressed=true])",
+      "paints": [
+        [
+          "background",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-food-d---sticker-sheet-] .category-filter-column .q-btn:is(.active, .q-btn--active, [aria-pressed=true]) :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-paper) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-food-d---sticker-sheet-] .q-card .q-btn",
+      "paints": [
+        [
+          "background",
+          "var(--v-go) !important"
+        ],
+        [
+          "color",
+          "var(--v-on-go) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-contact-d---postcard-] :is(a, button).q-btn.bg-primary",
+      "paints": [
+        [
+          "background",
+          "var(--v-go) !important"
+        ],
+        [
+          "color",
+          "var(--v-on-go) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-contact-d---postcard-] :is(a, button).q-btn.bg-primary :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-on-go) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-find-us-d---hand-drawn-map-] .od-map__cta",
+      "paints": [
+        [
+          "background",
+          "var(--v-white)"
+        ],
+        [
+          "color",
+          "var(--v-ink)"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-membership-d---loyalty-card-] .od-club__cta",
+      "paints": [
+        [
+          "background",
+          "var(--v-go)"
+        ],
+        [
+          "color",
+          "var(--v-on-go)"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-gift-cards-d---paper-chit-] button.q-btn.bg-primary",
+      "paints": [
+        [
+          "background",
+          "var(--v-go) !important"
+        ],
+        [
+          "color",
+          "var(--v-on-go) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-gift-cards-d---paper-chit-] button.q-btn.bg-primary :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-on-go) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-gift-cards-d---paper-chit-] button.q-btn.q-btn--outline",
+      "paints": [
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-d-odd-5899 [class*=section-gift-cards-d---paper-chit-] button.q-btn.q-btn--outline :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-ink) !important"
+        ]
+      ]
+    }
+  ],
+  "variant-e-grid.before": [
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-] :is(a, button).q-btn.bg-primary",
+      "paints": [
+        [
+          "background",
+          "var(--v-brand) !important"
+        ],
+        [
+          "color",
+          "var(--v-on-brand) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-] :is(a, button).q-btn.bg-primary :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-on-brand) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-] button.q-btn.q-btn--outline",
+      "paints": [
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-] button.q-btn.q-btn--outline :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-hero-e---quick-selector-] .q-btn:not(.q-btn--outline):not(.q-btn--flat)",
+      "paints": [
+        [
+          "background",
+          "var(--v-brand) !important"
+        ],
+        [
+          "color",
+          "var(--v-on-brand) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-hero-e---quick-selector-] .q-btn:not(.q-btn--outline):not(.q-btn--flat) :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-on-brand) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-now-playing-e---schedule-table-] .showings .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-now-playing-e---schedule-table-] .showings .q-btn:hover",
+      "paints": [
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-now-playing-e---schedule-table-] .showings .q-btn :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-food-e---catalogue-] .category-filter-column .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--v-muted) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-food-e---catalogue-] .category-filter-column .q-btn :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-muted) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-food-e---catalogue-] .category-filter-column .q-btn:hover",
+      "paints": [
+        [
+          "background",
+          "var(--v-card) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-food-e---catalogue-] .category-filter-column .q-btn:is(.active, .q-btn--active, [aria-pressed=true])",
+      "paints": [
+        [
+          "background",
+          "var(--v-input) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-food-e---catalogue-] .category-filter-column .q-btn:is(.active, .q-btn--active, [aria-pressed=true]) :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-e-grid-5901 [class*=section-food-e---catalogue-] .q-card .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--v-text) !important"
+        ]
+      ]
+    }
+  ],
+  "variant-f-concrete.before": [
+    {
+      "selector": ".page-variant-f-concrete-5903 [class*=section-food-f---price-table] :is(h2, .text-primary, .text-body1, .text-responsive, .category-filter-column .q-btn)",
+      "paints": [
+        [
+          "color",
+          "#181818 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-f-concrete-5903 [class*=section-contact-f---ledger] .q-btn,\n.page-variant-f-concrete-5903 [class*=section-gift-cards-f---voucher-line] .q-btn",
+      "paints": [
+        [
+          "background",
+          "#181818 !important"
+        ],
+        [
+          "color",
+          "#e8e5de !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-f-concrete-5903 [class*=section-contact-f---ledger] .q-btn *,\n.page-variant-f-concrete-5903 [class*=section-gift-cards-f---voucher-line] .q-btn *",
+      "paints": [
+        [
+          "color",
+          "#e8e5de !important"
+        ]
+      ]
+    }
+  ],
+  "variant-g-cut.before": [
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-hero-g---poster-block-] .q-btn.bg-primary",
+      "paints": [
+        [
+          "background",
+          "var(--cut-amber) !important"
+        ],
+        [
+          "color",
+          "var(--cut-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-hero-g---poster-block-] .q-btn.bg-primary :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--cut-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 .q-btn,\n.page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 button",
+      "paints": [
+        [
+          "background",
+          "var(--cut-ink) !important"
+        ],
+        [
+          "color",
+          "var(--cut-bone) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 .q-btn:nth-child(3n+2),\n.page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 button:nth-child(3n+2)",
+      "paints": [
+        [
+          "background",
+          "var(--cut-rust) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 .q-btn:nth-child(3n),\n.page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 button:nth-child(3n)",
+      "paints": [
+        [
+          "background",
+          "var(--cut-amber) !important"
+        ],
+        [
+          "color",
+          "var(--cut-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .col-2 :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "inherit !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-food-g---colour-tile-wall-] .row.justify-start.items-stretch > .q-card .q-btn",
+      "paints": [
+        [
+          "background",
+          "var(--cut-bone) !important"
+        ],
+        [
+          "color",
+          "var(--cut-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-contact-g---two-tone-split-] .q-card__section.row.items-center.justify-center .q-btn",
+      "paints": [
+        [
+          "background",
+          "var(--cut-ink) !important"
+        ],
+        [
+          "color",
+          "var(--cut-bone) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-g-cut-5905 [class*=section-contact-g---two-tone-split-] .q-card__section.row.items-center.justify-center :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--cut-bone) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-g---poster-pass-25118.fdp-g-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#f5bf32"
+        ],
+        [
+          "color",
+          "#201725"
+        ]
+      ]
+    }
+  ],
+  "variant-h-storybook.before": [
+    {
+      "selector": ".page-variant-h-storybook-5909 [class*=section-hero-h---framed-plate-] .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--sb-wine) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-h-storybook-5909 [class*=section-hero-h---framed-plate-] .q-btn :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--sb-wine) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-h-storybook-5909 [class*=section-food-h---framed-bill-of-fare-] .q-card .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--sb-wine) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-h-storybook-5909 [class*=section-food-h---framed-bill-of-fare-] .q-card .q-btn :is(span, .q-btn__content)",
+      "paints": [
+        [
+          "color",
+          "var(--sb-wine) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-h-storybook-5909 [class*=section-contact-h---the-letter-] .q-card__section.row.items-center.justify-center .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--sb-wine) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-h-storybook-5909 [class*=section-contact-h---the-letter-] .q-card__section.row.items-center.justify-center :is(.q-btn__content, span)",
+      "paints": [
+        [
+          "color",
+          "var(--sb-wine) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-h---subscribers-invitation-25121.fdp-h-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#7b2945"
+        ],
+        [
+          "color",
+          "#fffaf1"
+        ]
+      ]
+    }
+  ],
+  "variant-i-ma.before": [
+    {
+      "selector": ".page-variant-i-ma-5911 [class*=section-food-i---few-items-wide-margins-] .q-card .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--ma-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".page-variant-i-ma-5911 [class*=section-contact-i---one-question-at-a-time-] .q-card__section.row.items-center.justify-center .q-btn",
+      "paints": [
+        [
+          "background",
+          "transparent !important"
+        ],
+        [
+          "color",
+          "var(--ma-ink) !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-i---quiet-return-25125.fdp-i-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#944b35"
+        ],
+        [
+          "color",
+          "#fffaf1"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-i---quiet-return-25125.fdp-i-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "transparent"
+        ],
+        [
+          "color",
+          "#2c2b29"
+        ]
+      ]
+    }
+  ],
+  "variant-j-box-office.before": [
+    {
+      "selector": "body.site-170 .page-variant-j-box-office-5913 .fdp-j-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "#a84327 !important"
+        ],
+        [
+          "color",
+          "#fff8ec !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-private-parties-j---group-booking-desk-25143.fdp-j-private-parties .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#a94728"
+        ],
+        [
+          "color",
+          "#fffaf1"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-j---box-office-pass-25144.fdp-j-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#a94728"
+        ],
+        [
+          "color",
+          "#fffaf1"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-contact-j---enquiry-desk-25145.fdp-j-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "#a94728"
+        ],
+        [
+          "color",
+          "#fffaf1"
+        ]
+      ]
+    }
+  ],
+  "variant-k-clubhouse.before": [
+    {
+      "selector": ".section-private-parties-k---gather-your-people-25136.fdp-k-private-parties .fdp-action",
+      "paints": [
+        [
+          "background",
+          "rgb(146, 59, 44)"
+        ],
+        [
+          "color",
+          "rgb(255, 250, 241)"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-k---your-place-in-the-clubhouse-24899.fdp-k-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "rgb(146, 59, 44)"
+        ],
+        [
+          "color",
+          "rgb(255, 250, 241)"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-contact-k---say-hello-25137.fdp-k-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "rgb(146, 59, 44)"
+        ],
+        [
+          "color",
+          "rgb(255, 250, 241)"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-contact-k---say-hello-25137.fdp-k-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "rgb(146, 59, 44) !important"
+        ],
+        [
+          "color",
+          "rgb(255, 250, 241) !important"
+        ]
+      ]
+    },
+    {
+      "selector": "body.site-170 .section-contact-k---say-hello-25137.fdp-k-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "rgb(146, 59, 44) !important"
+        ],
+        [
+          "color",
+          "rgb(255, 250, 241) !important"
+        ]
+      ]
+    }
+  ],
+  "variant-l-midnight-lounge.before": [
+    {
+      "selector": "body.site-170 .page-variant-l-midnight-lounge-5917 .fdp-l-contact .q-btn",
+      "paints": [
+        [
+          "background-color",
+          "#e6c17c !important"
+        ],
+        [
+          "color",
+          "#201725 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-food-l---after-dark-menu-25138.fdp-l-food .q-btn",
+      "paints": [
+        [
+          "background",
+          "#352649 !important"
+        ],
+        [
+          "color",
+          "#fff1d7 !important"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#e6c17c"
+        ],
+        [
+          "color",
+          "#201725"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-action",
+      "paints": [
+        [
+          "background",
+          "#e6c17c"
+        ],
+        [
+          "color",
+          "#201725"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "#e6c17c"
+        ],
+        [
+          "color",
+          "#201725"
+        ]
+      ]
+    },
+    {
+      "selector": ".section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-btn",
+      "paints": [
+        [
+          "background",
+          "#e6c17c !important"
+        ],
+        [
+          "color",
+          "#201725 !important"
+        ]
+      ]
+    }
+  ]
+}

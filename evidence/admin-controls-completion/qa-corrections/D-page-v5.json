@@ -1,0 +1,38 @@
+{
+  "schema": "fd-native-qa-correction/v1",
+  "field": "D-page",
+  "editablePage": 5900,
+  "publishedPage": 5899,
+  "nativeSavedSource": "evidence/admin-controls-completion/native-saved/D-page.css",
+  "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/D-page-v5.before.css",
+  "beforeBytesSha256": "b2b7ccbb986f15691b81c7f63a9d8d65d4924848e314bc1cfd808f3214b9aacd",
+  "beforeTextSha256": "b2b7ccbb986f15691b81c7f63a9d8d65d4924848e314bc1cfd808f3214b9aacd",
+  "beforeCharacters": 56820,
+  "proposal": "evidence/admin-controls-completion/qa-corrections/D-page-v5.css",
+  "proposalBytesSha256": "56e92a2a486119fe483db40b8ab54ddf1ce8d621933f3fd0dffdc4a8bcb550a9",
+  "proposalTextSha256": "56e92a2a486119fe483db40b8ab54ddf1ce8d621933f3fd0dffdc4a8bcb550a9",
+  "proposalCharacters": 56818,
+  "status": "prepared-from-native-saved-v4-not-applied-by-generator",
+  "observed": {
+    "nativeClip": "evidence/admin-controls-completion/native-clips/food--variant-d-odd.jpg",
+    "priceRowRule": "[class*=\"section-food-d---sticker-sheet-\"] .q-card .row.items-center.justify-between",
+    "priceRowGeometry": "absolute top\u221212px/right\u221212px; padding8px10px; rotate6deg",
+    "clipOwner": ".q-card__section.q-card__section--vert.column.justify-between.q-px-none.q-py-md: overflow-x:clip;overflow-y:visible",
+    "secondPriceRight": 680.64,
+    "secondClipRight": 666.34,
+    "thirdPriceRight": 988.0,
+    "thirdClipRight": 974.93,
+    "source": "Root fresh native DOM readback; clipped final decimals visible in native food clip"
+  },
+  "change": "Change only owned right:-12px to right:8px, moving each sticker20px inward before the native horizontal clip.",
+  "expectedBounds": "For observed second price, right\u2248660.65px versus clip666.34px; third\u2248968.01px versus clip974.93px. Verify native pixels rather than relying on translation arithmetic.",
+  "unchanged": [
+    "All paints/native palette roles",
+    "Top offset,6deg sticker tilt, padding and type",
+    "Card/image geometry and native overflow semantics",
+    "All D v4 mobile collage fixes",
+    "Native content/product/media/form behavior",
+    "Frozen baseline proposal bundle"
+  ],
+  "acceptance": "Root must verify full currency strings and cents for all seven products on desktop/phone, no overlap with product names, both native palettes and original restoration; recapture D food before catalog acceptance."
+}

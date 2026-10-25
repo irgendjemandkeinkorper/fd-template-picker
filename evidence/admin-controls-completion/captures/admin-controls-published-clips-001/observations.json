@@ -1,0 +1,4288 @@
+{
+  "recordedAt": "2026-10-25T20:04:13.883028+00:00",
+  "options": [
+    {
+      "variant": "variant-a-circuit",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [],
+      "width": 1536,
+      "height": 57,
+      "capturedAt": "2026-10-25T19:40:39.138Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 56.79999923706055,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 57,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-a-circuit",
+      "image": "screenshots/header/variant-a-circuit.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-a-circuit.jpg",
+          "rawImageSha256": "62ebe7e9321fe76627633144316a56e9829914b1b404177133c19c1a79a6b739",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:40:37.000Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            56.79999923706055
+          ],
+          "outputY": [
+            0,
+            57
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-a-circuit",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23731"
+      ],
+      "width": 1440,
+      "height": 847,
+      "capturedAt": "2026-10-25T19:44:25.558Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 846.1500244140625,
+        "width": 1440,
+        "x": 48,
+        "y": 2018.2249755859375
+      },
+      "captureBounds": {
+        "height": 847,
+        "width": 1440,
+        "x": 48,
+        "y": 2018
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-a---chip-rail-23731 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23731",
+          "selector": ".page-variant-a-circuit-5659 .section-food-a---chip-rail-23731"
+        }
+      ],
+      "id": "food--variant-a-circuit",
+      "image": "screenshots/food/variant-a-circuit.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-a-circuit.jpg",
+          "rawImageSha256": "19c020f8fa29a1a4b92dd2e90caf7b942558032c1f39686485af0fc11ab10359",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:23.906Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2018.2249755859375,
+            2864.375
+          ],
+          "outputY": [
+            0,
+            847
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-a-circuit",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23724"
+      ],
+      "width": 1536,
+      "height": 536,
+      "capturedAt": "2026-10-25T19:44:26.205Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 534.5499877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 1483.675048828125
+      },
+      "captureBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 1483
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-a---rate-card-23724 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23724",
+          "selector": ".page-variant-a-circuit-5659 .section-events-a---rate-card-23724"
+        }
+      ],
+      "id": "events--variant-a-circuit",
+      "image": "screenshots/events/variant-a-circuit.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-a-circuit.jpg",
+          "rawImageSha256": "e3954d8791d4545447f20feb5682b9d9f09708e647c3c49cc9d057fcc9ec34e9",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:23.906Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            1483.675048828125,
+            2018.2250366210938
+          ],
+          "outputY": [
+            0,
+            536
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-a-circuit",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23765"
+      ],
+      "width": 1536,
+      "height": 955,
+      "capturedAt": "2026-10-25T19:44:27.778Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 954.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4007.050048828125
+      },
+      "captureBounds": {
+        "height": 955,
+        "width": 1536,
+        "x": 0,
+        "y": 4007
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-a---tier-rail-23765 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23765",
+          "selector": ".page-variant-a-circuit-5659 .section-membership-a---tier-rail-23765"
+        }
+      ],
+      "id": "membership--variant-a-circuit",
+      "image": "screenshots/membership/variant-a-circuit.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-a-circuit.jpg",
+          "rawImageSha256": "ae574f4f78b4d08d4c37881cc584334a0173a188ff96b470babc6c4cc256809f",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:23.906Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4007.050048828125,
+            4961.750061035156
+          ],
+          "outputY": [
+            0,
+            955
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-a-circuit",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23747"
+      ],
+      "width": 1536,
+      "height": 590,
+      "capturedAt": "2026-10-25T19:44:28.416Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 589.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 2864.375
+      },
+      "captureBounds": {
+        "height": 590,
+        "width": 1536,
+        "x": 0,
+        "y": 2864
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-a---compressed-column-23747 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23747",
+          "selector": ".page-variant-a-circuit-5659 .section-contact-a---compressed-column-23747"
+        }
+      ],
+      "id": "contact--variant-a-circuit",
+      "image": "screenshots/contact/variant-a-circuit.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-a-circuit.jpg",
+          "rawImageSha256": "036f0f858aabc82c726282c6c1d550eebab726728a5892d2d2689a04897c2bc4",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:23.906Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2864.375,
+            3453.4375
+          ],
+          "outputY": [
+            0,
+            590
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-b-rep",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [],
+      "width": 1536,
+      "height": 135,
+      "capturedAt": "2026-10-25T19:44:48.912Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 134.5625,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 135,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-b-rep",
+      "image": "screenshots/header/variant-b-rep.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-b-rep.jpg",
+          "rawImageSha256": "cd7bb30c4cd541f0d28ab1944cece104ab6b88dc8950fd150664719c097ff865",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:47.054Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            134.5625
+          ],
+          "outputY": [
+            0,
+            135
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-b-rep",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23733"
+      ],
+      "width": 1536,
+      "height": 2207,
+      "capturedAt": "2026-10-25T19:44:51.411Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 2206.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2462.3125
+      },
+      "captureBounds": {
+        "height": 2207,
+        "width": 1536,
+        "x": 0,
+        "y": 2462
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-b---printed-menu-23733 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23733",
+          "selector": ".page-variant-b-rep-5661 .section-food-b---printed-menu-23733"
+        }
+      ],
+      "id": "food--variant-b-rep",
+      "image": "screenshots/food/variant-b-rep.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-b-rep.jpg",
+          "rawImageSha256": "1a31e1178d02a8c02cb763b80196121113336a962312e02b30d8cfde915d9ba9",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:47.054Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2462.3125,
+            4668.862548828125
+          ],
+          "outputY": [
+            0,
+            2207
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-b-rep",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "25134"
+      ],
+      "width": 1536,
+      "height": 798,
+      "capturedAt": "2026-10-25T19:44:53.025Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 797.25,
+        "width": 1536,
+        "x": 0,
+        "y": 7533.3125
+      },
+      "captureBounds": {
+        "height": 798,
+        "width": 1536,
+        "x": 0,
+        "y": 7533
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-b-private-parties section-private-parties-b---your-own-evening-25134 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25134",
+          "selector": ".page-variant-b-rep-5661 .section-private-parties-b---your-own-evening-25134"
+        }
+      ],
+      "id": "events--variant-b-rep",
+      "image": "screenshots/events/variant-b-rep.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-b-rep.jpg",
+          "rawImageSha256": "15b3f397a93bf896b034082d53faab159acd289e60509211d004ac0dc0be43a9",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:47.054Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            7533.3125,
+            8330.5625
+          ],
+          "outputY": [
+            0,
+            798
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-b-rep",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23767"
+      ],
+      "width": 1536,
+      "height": 1258,
+      "capturedAt": "2026-10-25T19:44:54.761Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1257.1375732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 6276.17529296875
+      },
+      "captureBounds": {
+        "height": 1258,
+        "width": 1536,
+        "x": 0,
+        "y": 6276
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-b---subscriber-bill-23767 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23767",
+          "selector": ".page-variant-b-rep-5661 .section-membership-b---subscriber-bill-23767"
+        }
+      ],
+      "id": "membership--variant-b-rep",
+      "image": "screenshots/membership/variant-b-rep.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-b-rep.jpg",
+          "rawImageSha256": "2dedc72c7862f752f82ed94b892b8676b86692f88ca5d5b3c309ec5373b91bbd",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:47.054Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            6276.17529296875,
+            7533.3128662109375
+          ],
+          "outputY": [
+            0,
+            1258
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-b-rep",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23749"
+      ],
+      "width": 1536,
+      "height": 690,
+      "capturedAt": "2026-10-25T19:44:56.530Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 688.7750244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 4668.86279296875
+      },
+      "captureBounds": {
+        "height": 690,
+        "width": 1536,
+        "x": 0,
+        "y": 4668
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-b---split-desk-23749 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23749",
+          "selector": ".page-variant-b-rep-5661 .section-contact-b---split-desk-23749"
+        }
+      ],
+      "id": "contact--variant-b-rep",
+      "image": "screenshots/contact/variant-b-rep.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-b-rep.jpg",
+          "rawImageSha256": "6abb5cf051dbf854429e1eece38d011f5cae2c57c84d05b3b351571fc91f1233",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:44:47.054Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4668.86279296875,
+            5357.6378173828125
+          ],
+          "outputY": [
+            0,
+            690
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-c-late",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [],
+      "width": 1536,
+      "height": 65,
+      "capturedAt": "2026-10-25T19:45:33.829Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 64.80000305175781,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 65,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-c-late",
+      "image": "screenshots/header/variant-c-late.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-c-late.jpg",
+          "rawImageSha256": "6224a149fa149acb61f7ec001462ed419bbc2a5ca23b1c15417c71296bcb8f81",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:45:31.817Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            64.80000305175781
+          ],
+          "outputY": [
+            0,
+            65
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-c-late",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23735"
+      ],
+      "width": 1536,
+      "height": 850,
+      "capturedAt": "2026-10-25T19:45:35.885Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 849.4125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 1538.4375
+      },
+      "captureBounds": {
+        "height": 850,
+        "width": 1536,
+        "x": 0,
+        "y": 1538
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-c---tile-wall-23735 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23735",
+          "selector": ".page-variant-c-late-5663 .section-food-c---tile-wall-23735"
+        }
+      ],
+      "id": "food--variant-c-late",
+      "image": "screenshots/food/variant-c-late.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-c-late.jpg",
+          "rawImageSha256": "6a7f5ab270c59406fc8817557ec683f0ee9eaa535a565a0d40d1bca139a5e6b7",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:45:31.817Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            1538.4375,
+            2387.8500366210938
+          ],
+          "outputY": [
+            0,
+            850
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-c-late",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23728"
+      ],
+      "width": 1536,
+      "height": 770,
+      "capturedAt": "2026-10-25T19:45:37.553Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 768.5,
+        "width": 1536,
+        "x": 0,
+        "y": 769.9375
+      },
+      "captureBounds": {
+        "height": 770,
+        "width": 1536,
+        "x": 0,
+        "y": 769
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-c---ticket-stack-23728 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23728",
+          "selector": ".page-variant-c-late-5663 .section-events-c---ticket-stack-23728"
+        }
+      ],
+      "id": "events--variant-c-late",
+      "image": "screenshots/events/variant-c-late.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-c-late.jpg",
+          "rawImageSha256": "fb935ec60b448f3f1f95ed90e4e23f25f12abcccf9c171606ab7f878b472edc2",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:45:31.817Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            769.9375,
+            1538.4375
+          ],
+          "outputY": [
+            0,
+            770
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-c-late",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23769"
+      ],
+      "width": 1536,
+      "height": 1280,
+      "capturedAt": "2026-10-25T19:45:38.925Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1279.4124755859375,
+        "width": 1536,
+        "x": 0,
+        "y": 3483.212646484375
+      },
+      "captureBounds": {
+        "height": 1280,
+        "width": 1536,
+        "x": 0,
+        "y": 3483
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-c---card-ledger-23769 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23769",
+          "selector": ".page-variant-c-late-5663 .section-membership-c---card-ledger-23769"
+        }
+      ],
+      "id": "membership--variant-c-late",
+      "image": "screenshots/membership/variant-c-late.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-c-late.jpg",
+          "rawImageSha256": "c2800a96162392b1e9afb3cedd2cb2c2da24b5a3c0358f1fc24b0eb78114d1ea",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:45:31.817Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3483.212646484375,
+            4762.6251220703125
+          ],
+          "outputY": [
+            0,
+            1280
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-c-late",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23751"
+      ],
+      "width": 1536,
+      "height": 496,
+      "capturedAt": "2026-10-25T19:45:40.953Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 494.2625122070313,
+        "width": 1536,
+        "x": 0,
+        "y": 2387.85009765625
+      },
+      "captureBounds": {
+        "height": 496,
+        "width": 1536,
+        "x": 0,
+        "y": 2387
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-c---statement-line-23751 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23751",
+          "selector": ".page-variant-c-late-5663 .section-contact-c---statement-line-23751"
+        }
+      ],
+      "id": "contact--variant-c-late",
+      "image": "screenshots/contact/variant-c-late.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-c-late.jpg",
+          "rawImageSha256": "edc02d2dbac2da615eae4b7adc8e5cd4b681c88ce09db5963e5578e40a330670",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:45:31.817Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2387.85009765625,
+            2882.1126098632812
+          ],
+          "outputY": [
+            0,
+            496
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-d-odd",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [],
+      "width": 1536,
+      "height": 153,
+      "capturedAt": "2026-10-25T19:46:03.246Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 152.8000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 153,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-d-odd-5899) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-d-odd",
+      "image": "screenshots/header/variant-d-odd.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-d-odd.jpg",
+          "rawImageSha256": "e31d32e902cb66a26d5b0fc340d05485dcaabf37dd9ffc142f5e875a0cb1a18e",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:01.018Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            152.8000030517578
+          ],
+          "outputY": [
+            0,
+            153
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-d-odd",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24793"
+      ],
+      "width": 1536,
+      "height": 1526,
+      "capturedAt": "2026-10-25T19:46:07.339Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      },
+      "captureBounds": {
+        "height": 1526,
+        "width": 1536,
+        "x": 0,
+        "y": 998
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-d---noticeboard-24793 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24793",
+          "selector": ".page-variant-d-odd-5899 .section-events-d---noticeboard-24793"
+        }
+      ],
+      "id": "events--variant-d-odd",
+      "image": "screenshots/events/variant-d-odd.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-d-odd.jpg",
+          "rawImageSha256": "368a94a8f54436db1dfd7088399388dba2a64a4f59b5f86f09e12104c8292330",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:01.018Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            998.2999877929688,
+            2523.9750366210938
+          ],
+          "outputY": [
+            0,
+            1526
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-d-odd",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24797"
+      ],
+      "width": 1536,
+      "height": 1890,
+      "capturedAt": "2026-10-25T19:46:09.396Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      },
+      "captureBounds": {
+        "height": 1890,
+        "width": 1536,
+        "x": 0,
+        "y": 6105
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-d---loyalty-card-24797 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24797",
+          "selector": ".page-variant-d-odd-5899 .section-membership-d---loyalty-card-24797"
+        }
+      ],
+      "id": "membership--variant-d-odd",
+      "image": "screenshots/membership/variant-d-odd.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-d-odd.jpg",
+          "rawImageSha256": "9782aac211a241d71c729975a7b6b9d7e02bd32a88c9ceb2977b01e0af547800",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:01.018Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            6105.6376953125,
+            7994.750244140625
+          ],
+          "outputY": [
+            0,
+            1890
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-d-odd",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24795"
+      ],
+      "width": 1536,
+      "height": 554,
+      "capturedAt": "2026-10-25T19:46:11.086Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      },
+      "captureBounds": {
+        "height": 554,
+        "width": 1536,
+        "x": 0,
+        "y": 4280
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-d---postcard-24795 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24795",
+          "selector": ".page-variant-d-odd-5899 .section-contact-d---postcard-24795"
+        }
+      ],
+      "id": "contact--variant-d-odd",
+      "image": "screenshots/contact/variant-d-odd.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-d-odd.jpg",
+          "rawImageSha256": "3f1459041973277cb34989195210664c099711b6336781abd5bb46caa9e3a8a4",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:01.018Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4280.64990234375,
+            4833.562438964844
+          ],
+          "outputY": [
+            0,
+            554
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-e-grid",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [],
+      "width": 1536,
+      "height": 65,
+      "capturedAt": "2026-10-25T19:46:53.253Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 64.8125,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 65,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-e-grid-5901) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-e-grid",
+      "image": "screenshots/header/variant-e-grid.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-e-grid.jpg",
+          "rawImageSha256": "a232ecf5c2a8d56a4a2c7baf36117404362b558096a83af504880adff97224c3",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:51.402Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            64.8125
+          ],
+          "outputY": [
+            0,
+            65
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-e-grid",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24810"
+      ],
+      "width": 1536,
+      "height": 1593,
+      "capturedAt": "2026-10-25T19:46:55.911Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1592.3499755859375,
+        "width": 1536,
+        "x": 0,
+        "y": 1774.300048828125
+      },
+      "captureBounds": {
+        "height": 1593,
+        "width": 1536,
+        "x": 0,
+        "y": 1774
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-e---catalogue-24810",
+          "headings": "[Circular]",
+          "id": "24810",
+          "selector": ".page-variant-e-grid-5901 .section-food-e---catalogue-24810"
+        }
+      ],
+      "id": "food--variant-e-grid",
+      "image": "screenshots/food/variant-e-grid.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-e-grid.jpg",
+          "rawImageSha256": "8278575a3a59dc33659ec75fdbbe0ae1b3258a2ee21f19846017576acbb36e9f",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:51.402Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            1774.300048828125,
+            3366.6500244140625
+          ],
+          "outputY": [
+            0,
+            1593
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-e-grid",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24809"
+      ],
+      "width": 1536,
+      "height": 1068,
+      "capturedAt": "2026-10-25T19:46:57.457Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1067,
+        "width": 1536,
+        "x": 0,
+        "y": 707.2999877929688
+      },
+      "captureBounds": {
+        "height": 1068,
+        "width": 1536,
+        "x": 0,
+        "y": 707
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-e---packages-24809",
+          "headings": "[Circular]",
+          "id": "24809",
+          "selector": ".page-variant-e-grid-5901 .section-events-e---packages-24809"
+        }
+      ],
+      "id": "events--variant-e-grid",
+      "image": "screenshots/events/variant-e-grid.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-e-grid.jpg",
+          "rawImageSha256": "f4b879ef933414d95dd406a9e29b49b0014b6811355b81d29b52706b174b034a",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:51.402Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            707.2999877929688,
+            1774.2999877929688
+          ],
+          "outputY": [
+            0,
+            1068
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-e-grid",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24814"
+      ],
+      "width": 1536,
+      "height": 997,
+      "capturedAt": "2026-10-25T19:46:59.245Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 996,
+        "width": 1536,
+        "x": 0,
+        "y": 4739.4501953125
+      },
+      "captureBounds": {
+        "height": 997,
+        "width": 1536,
+        "x": 0,
+        "y": 4739
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-e---tiers-24814",
+          "headings": "[Circular]",
+          "id": "24814",
+          "selector": ".page-variant-e-grid-5901 .section-membership-e---tiers-24814"
+        }
+      ],
+      "id": "membership--variant-e-grid",
+      "image": "screenshots/membership/variant-e-grid.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-e-grid.jpg",
+          "rawImageSha256": "cef9e8730d2c04bee4aecb69e692e787aa9d193bcca0a03eff7ef4c589ecb024",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:51.402Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4739.4501953125,
+            5735.4501953125
+          ],
+          "outputY": [
+            0,
+            997
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-e-grid",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24811"
+      ],
+      "width": 1536,
+      "height": 542,
+      "capturedAt": "2026-10-25T19:47:01.098Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 540.7999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 3366.650146484375
+      },
+      "captureBounds": {
+        "height": 542,
+        "width": 1536,
+        "x": 0,
+        "y": 3366
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-e---support-panel-24811",
+          "headings": "[Circular]",
+          "id": "24811",
+          "selector": ".page-variant-e-grid-5901 .section-contact-e---support-panel-24811"
+        }
+      ],
+      "id": "contact--variant-e-grid",
+      "image": "screenshots/contact/variant-e-grid.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-e-grid.jpg",
+          "rawImageSha256": "5ff858834fdbd8e47627b413472255bfb9eb1e3334f2eb90ff7d7974550ab26e",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:46:51.402Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3366.650146484375,
+            3907.4501342773438
+          ],
+          "outputY": [
+            0,
+            542
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-f-concrete",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [],
+      "width": 240,
+      "height": 640,
+      "capturedAt": "2026-10-25T19:47:13.933Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 639.2000122070312,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 640,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-f-concrete",
+      "image": "screenshots/header/variant-f-concrete.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-f-concrete.jpg",
+          "rawImageSha256": "c09bac87c06644e0bc2b4e9be4d9e4b465be3c7e92ea6e5b4c6bf547419a372d",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:13.554Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            639.2000122070312
+          ],
+          "outputY": [
+            0,
+            640
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-f-concrete",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24830"
+      ],
+      "width": 1296,
+      "height": 897,
+      "capturedAt": "2026-10-25T19:47:14.314Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 896.5499877929688,
+        "width": 1296,
+        "x": 240,
+        "y": 1631.4000244140625
+      },
+      "captureBounds": {
+        "height": 897,
+        "width": 1296,
+        "x": 240,
+        "y": 1631
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-f---price-table-24830 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24830",
+          "selector": ".page-variant-f-concrete-5903 .section-food-f---price-table-24830"
+        }
+      ],
+      "id": "food--variant-f-concrete",
+      "image": "screenshots/food/variant-f-concrete.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-f-concrete.jpg",
+          "rawImageSha256": "5066791ef69ba46a4cd2615ac2829a35ec74dda98fbde5eab42f5b2885ef2bd2",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:13.554Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            1631.4000244140625,
+            2527.9500122070312
+          ],
+          "outputY": [
+            0,
+            897
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-f-concrete",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24829"
+      ],
+      "width": 1296,
+      "height": 593,
+      "capturedAt": "2026-10-25T19:47:15.855Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 591.6000366210938,
+        "width": 1296,
+        "x": 240,
+        "y": 1039.800048828125
+      },
+      "captureBounds": {
+        "height": 593,
+        "width": 1296,
+        "x": 240,
+        "y": 1039
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-f---hire-schedule-24829 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24829",
+          "selector": ".page-variant-f-concrete-5903 .section-events-f---hire-schedule-24829"
+        }
+      ],
+      "id": "events--variant-f-concrete",
+      "image": "screenshots/events/variant-f-concrete.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-f-concrete.jpg",
+          "rawImageSha256": "8eb584967f8eae357de6ebd1765f523f24a00e41cc72fec028afeea7e55d8923",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:13.554Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            1039.800048828125,
+            1631.4000854492188
+          ],
+          "outputY": [
+            0,
+            593
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-f-concrete",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24833"
+      ],
+      "width": 1296,
+      "height": 570,
+      "capturedAt": "2026-10-25T19:47:17.905Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 569.2000122070312,
+        "width": 1296,
+        "x": 240,
+        "y": 3847.175048828125
+      },
+      "captureBounds": {
+        "height": 570,
+        "width": 1296,
+        "x": 240,
+        "y": 3847
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-f---tariff-24833 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24833",
+          "selector": ".page-variant-f-concrete-5903 .section-membership-f---tariff-24833"
+        }
+      ],
+      "id": "membership--variant-f-concrete",
+      "image": "screenshots/membership/variant-f-concrete.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-f-concrete.jpg",
+          "rawImageSha256": "5889105a4830652c03e60cc9cf5a7254708a27f0917b59844f06947692ce075b",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:13.554Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3847.175048828125,
+            4416.375061035156
+          ],
+          "outputY": [
+            0,
+            570
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-f-concrete",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": "5903",
+      "sectionIds": [
+        "24831"
+      ],
+      "width": 1296,
+      "height": 526,
+      "capturedAt": "2026-10-25T19:47:19.941Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 524.4249877929688,
+        "width": 1296,
+        "x": 240,
+        "y": 2527.949951171875
+      },
+      "captureBounds": {
+        "height": 526,
+        "width": 1296,
+        "x": 240,
+        "y": 2527
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-f---ledger-24831 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24831",
+          "selector": ".page-variant-f-concrete-5903 .section-contact-f---ledger-24831"
+        }
+      ],
+      "id": "contact--variant-f-concrete",
+      "image": "screenshots/contact/variant-f-concrete.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-f-concrete.jpg",
+          "rawImageSha256": "4fb077d802ce030c547da5c6fa059da473a32c839bc2f601939f53ccb58af90d",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:13.554Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2527.949951171875,
+            3052.3749389648438
+          ],
+          "outputY": [
+            0,
+            526
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-g-cut",
+      "slot": "header",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [],
+      "width": 1536,
+      "height": 99,
+      "capturedAt": "2026-10-25T19:47:42.976Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "captureBounds": {
+        "height": 99,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-g-cut-5905) header.consumer-header"
+        }
+      ],
+      "id": "header--variant-g-cut",
+      "image": "screenshots/header/variant-g-cut.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/header--variant-g-cut.jpg",
+          "rawImageSha256": "73df1c63955b94d95351056a3a80700a765ecb313159f4fe9b160ce0086aae48",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:40.989Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            0,
+            98.9000015258789
+          ],
+          "outputY": [
+            0,
+            99
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-g-cut",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24852"
+      ],
+      "width": 1536,
+      "height": 1633,
+      "capturedAt": "2026-10-25T19:47:46.703Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1631.9375,
+        "width": 1536,
+        "x": 0,
+        "y": 2411.949951171875
+      },
+      "captureBounds": {
+        "height": 1633,
+        "width": 1536,
+        "x": 0,
+        "y": 2411
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-g---colour-tile-wall-24852 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24852",
+          "selector": ".page-variant-g-cut-5905 .section-food-g---colour-tile-wall-24852"
+        }
+      ],
+      "id": "food--variant-g-cut",
+      "image": "screenshots/food/variant-g-cut.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-g-cut.jpg",
+          "rawImageSha256": "6bb432f9c20b8faa08fb724dfea2ef1daf9521503034a58bf454eb042a119d27",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:40.989Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2411.949951171875,
+            4043.887451171875
+          ],
+          "outputY": [
+            0,
+            1633
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-g-cut",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24851"
+      ],
+      "width": 1536,
+      "height": 1793,
+      "capturedAt": "2026-10-25T19:47:48.090Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1792.9500732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 619
+      },
+      "captureBounds": {
+        "height": 1793,
+        "width": 1536,
+        "x": 0,
+        "y": 619
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-g---diagonal-stack-24851 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24851",
+          "selector": ".page-variant-g-cut-5905 .section-events-g---diagonal-stack-24851"
+        }
+      ],
+      "id": "events--variant-g-cut",
+      "image": "screenshots/events/variant-g-cut.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-g-cut.jpg",
+          "rawImageSha256": "3bad85d038292643da0ac7b90c3f8b987d539633634a29f9b89318749e11a896",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:40.989Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            619,
+            2411.9500732421875
+          ],
+          "outputY": [
+            0,
+            1793
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-g-cut",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "25118"
+      ],
+      "width": 1536,
+      "height": 691,
+      "capturedAt": "2026-10-25T19:47:50.107Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 690.0499877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4951.1875
+      },
+      "captureBounds": {
+        "height": 691,
+        "width": 1536,
+        "x": 0,
+        "y": 4951
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-g-membership section-membership-g---poster-pass-25118 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25118",
+          "selector": ".page-variant-g-cut-5905 .section-membership-g---poster-pass-25118"
+        }
+      ],
+      "id": "membership--variant-g-cut",
+      "image": "screenshots/membership/variant-g-cut.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-g-cut.jpg",
+          "rawImageSha256": "e37430d70586cfcca13a7ff1647b9cb6d5300b76f4348b0701cd24064a3cc9e2",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:40.989Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4951.1875,
+            5641.237487792969
+          ],
+          "outputY": [
+            0,
+            691
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-g-cut",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24853"
+      ],
+      "width": 1536,
+      "height": 909,
+      "capturedAt": "2026-10-25T19:47:51.854Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 907.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4043.887451171875
+      },
+      "captureBounds": {
+        "height": 909,
+        "width": 1536,
+        "x": 0,
+        "y": 4043
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-g---two-tone-split-24853 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24853",
+          "selector": ".page-variant-g-cut-5905 .section-contact-g---two-tone-split-24853"
+        }
+      ],
+      "id": "contact--variant-g-cut",
+      "image": "screenshots/contact/variant-g-cut.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-g-cut.jpg",
+          "rawImageSha256": "a6a1208d92af8e9cc3a32fa3bafec862ab6555fe3e2ee5a905a3bdae786c40de",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:47:40.989Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4043.887451171875,
+            4951.187438964844
+          ],
+          "outputY": [
+            0,
+            909
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-h-storybook",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24864"
+      ],
+      "width": 1536,
+      "height": 536,
+      "capturedAt": "2026-10-25T19:48:43.594Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "captureBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-h---framed-plate-24864 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24864",
+          "selector": ".page-variant-h-storybook-5909 .section-hero-h---framed-plate-24864"
+        }
+      ],
+      "id": "hero--variant-h-storybook",
+      "image": "screenshots/hero/variant-h-storybook.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-h-storybook.jpg",
+          "rawImageSha256": "f8e4563e1a985268ab352b3afeb24d80949ef658cdd4aae95f660e5aa25facdb",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:48:43.132Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            99,
+            635
+          ],
+          "outputY": [
+            0,
+            536
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-h-storybook",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24866"
+      ],
+      "width": 1536,
+      "height": 1820,
+      "capturedAt": "2026-10-25T19:48:45.579Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1818.4000244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 1267.8499755859375
+      },
+      "captureBounds": {
+        "height": 1820,
+        "width": 1536,
+        "x": 0,
+        "y": 1267
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-h---framed-bill-of-fare-24866 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24866",
+          "selector": ".page-variant-h-storybook-5909 .section-food-h---framed-bill-of-fare-24866"
+        }
+      ],
+      "id": "food--variant-h-storybook",
+      "image": "screenshots/food/variant-h-storybook.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-h-storybook.jpg",
+          "rawImageSha256": "a747cf28b3115621b884c5d50e8921cad41e73118a045f08fff7a945224a625a",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:48:43.132Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            1267.8499755859375,
+            3086.25
+          ],
+          "outputY": [
+            0,
+            1820
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-h-storybook",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24865"
+      ],
+      "width": 1536,
+      "height": 633,
+      "capturedAt": "2026-10-25T19:48:47.635Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 632.8500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 635
+      },
+      "captureBounds": {
+        "height": 633,
+        "width": 1536,
+        "x": 0,
+        "y": 635
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-h---invitations-24865 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24865",
+          "selector": ".page-variant-h-storybook-5909 .section-events-h---invitations-24865"
+        }
+      ],
+      "id": "events--variant-h-storybook",
+      "image": "screenshots/events/variant-h-storybook.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-h-storybook.jpg",
+          "rawImageSha256": "d95d0efc0d62fdabd8998b67ce415e878fbbf24fc65a5cadb90485b46e8da893",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:48:43.132Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            635,
+            1267.8500366210938
+          ],
+          "outputY": [
+            0,
+            633
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-h-storybook",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "25121"
+      ],
+      "width": 1536,
+      "height": 852,
+      "capturedAt": "2026-10-25T19:48:49.684Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 851.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 3907.25
+      },
+      "captureBounds": {
+        "height": 852,
+        "width": 1536,
+        "x": 0,
+        "y": 3907
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-h-membership section-membership-h---subscribers-invitation-25121 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25121",
+          "selector": ".page-variant-h-storybook-5909 .section-membership-h---subscribers-invitation-25121"
+        }
+      ],
+      "id": "membership--variant-h-storybook",
+      "image": "screenshots/membership/variant-h-storybook.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-h-storybook.jpg",
+          "rawImageSha256": "c23c80dfa4435862129d24852b5e8e495532ea76f35b1452eb9e7e9260b151cb",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:48:43.132Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3907.25,
+            4758.3125
+          ],
+          "outputY": [
+            0,
+            852
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-h-storybook",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "pageId": "5909",
+      "sectionIds": [
+        "24867"
+      ],
+      "width": 1536,
+      "height": 822,
+      "capturedAt": "2026-10-25T19:48:51.275Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 821,
+        "width": 1536,
+        "x": 0,
+        "y": 3086.25
+      },
+      "captureBounds": {
+        "height": 822,
+        "width": 1536,
+        "x": 0,
+        "y": 3086
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-h---the-letter-24867 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24867",
+          "selector": ".page-variant-h-storybook-5909 .section-contact-h---the-letter-24867"
+        }
+      ],
+      "id": "contact--variant-h-storybook",
+      "image": "screenshots/contact/variant-h-storybook.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-h-storybook.jpg",
+          "rawImageSha256": "e07b6a74226c050617c30a5ab70cb42120b2087aa196116135d2e0dd09e5b6d3",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:48:43.132Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3086.25,
+            3907.25
+          ],
+          "outputY": [
+            0,
+            822
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-i-ma",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24872"
+      ],
+      "width": 1536,
+      "height": 736,
+      "capturedAt": "2026-10-25T19:49:43.334Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 736,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "captureBounds": {
+        "height": 736,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-i---one-still-one-line-24872 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24872",
+          "selector": ".page-variant-i-ma-5911 .section-hero-i---one-still-one-line-24872"
+        }
+      ],
+      "id": "hero--variant-i-ma",
+      "image": "screenshots/hero/variant-i-ma.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-i-ma.jpg",
+          "rawImageSha256": "9e97d4be13528385eaa7207e7cd02c6b36650628d62669967d05731553febe6b",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:42.975Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            99,
+            835
+          ],
+          "outputY": [
+            0,
+            736
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-i-ma",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24874"
+      ],
+      "width": 1536,
+      "height": 2226,
+      "capturedAt": "2026-10-25T19:49:45.137Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 2225.449951171875,
+        "width": 1536,
+        "x": 0,
+        "y": 2155.25
+      },
+      "captureBounds": {
+        "height": 2226,
+        "width": 1536,
+        "x": 0,
+        "y": 2155
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-i---few-items-wide-margins-24874 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24874",
+          "selector": ".page-variant-i-ma-5911 .section-food-i---few-items-wide-margins-24874"
+        }
+      ],
+      "id": "food--variant-i-ma",
+      "image": "screenshots/food/variant-i-ma.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-i-ma.jpg",
+          "rawImageSha256": "b346de818a15ad9187c7bef6407534f5b6e094371c372baceb6ba042ec990049",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:42.975Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2155.25,
+            4380.699951171875
+          ],
+          "outputY": [
+            0,
+            2226
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-i-ma",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24873"
+      ],
+      "width": 1536,
+      "height": 1321,
+      "capturedAt": "2026-10-25T19:49:47.260Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1320.25,
+        "width": 1536,
+        "x": 0,
+        "y": 835
+      },
+      "captureBounds": {
+        "height": 1321,
+        "width": 1536,
+        "x": 0,
+        "y": 835
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-events-i---one-occasion-at-a-time-24873 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24873",
+          "selector": ".page-variant-i-ma-5911 .section-events-i---one-occasion-at-a-time-24873"
+        }
+      ],
+      "id": "events--variant-i-ma",
+      "image": "screenshots/events/variant-i-ma.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-i-ma.jpg",
+          "rawImageSha256": "ac63602cbb00790a53dce8146dd525670fa8036575b54d531d59926958da8ba2",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:42.975Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            835,
+            2155.25
+          ],
+          "outputY": [
+            0,
+            1321
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-i-ma",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "25125"
+      ],
+      "width": 1536,
+      "height": 855,
+      "capturedAt": "2026-10-25T19:49:49.286Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 853.75,
+        "width": 1536,
+        "x": 0,
+        "y": 5602.41259765625
+      },
+      "captureBounds": {
+        "height": 855,
+        "width": 1536,
+        "x": 0,
+        "y": 5602
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-i-membership section-membership-i---quiet-return-25125 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25125",
+          "selector": ".page-variant-i-ma-5911 .section-membership-i---quiet-return-25125"
+        }
+      ],
+      "id": "membership--variant-i-ma",
+      "image": "screenshots/membership/variant-i-ma.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-i-ma.jpg",
+          "rawImageSha256": "daaee3aee50ef3ac6c2cfde7c44d096302192e3584170b0961df230bdb226d05",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:42.975Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            5602.41259765625,
+            6456.16259765625
+          ],
+          "outputY": [
+            0,
+            855
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-i-ma",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24875"
+      ],
+      "width": 1536,
+      "height": 1223,
+      "capturedAt": "2026-10-25T19:49:50.939Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1221.7125244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 4380.7001953125
+      },
+      "captureBounds": {
+        "height": 1223,
+        "width": 1536,
+        "x": 0,
+        "y": 4380
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-i---one-question-at-a-time-24875 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24875",
+          "selector": ".page-variant-i-ma-5911 .section-contact-i---one-question-at-a-time-24875"
+        }
+      ],
+      "id": "contact--variant-i-ma",
+      "image": "screenshots/contact/variant-i-ma.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-i-ma.jpg",
+          "rawImageSha256": "96bdda4b60bf815013489afea0f7dead8d4075cc26155c2cf263a523f69f5d53",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:42.975Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4380.7001953125,
+            5602.4127197265625
+          ],
+          "outputY": [
+            0,
+            1223
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "24885"
+      ],
+      "width": 1536,
+      "height": 132,
+      "capturedAt": "2026-10-25T19:49:59.100Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "captureBounds": {
+        "height": 132,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-j-intro-24885 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24885",
+          "selector": ".page-variant-j-box-office-5913 .section-j-intro-24885"
+        }
+      ],
+      "id": "hero--variant-j-box-office",
+      "image": "screenshots/hero/variant-j-box-office.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-j-box-office.jpg",
+          "rawImageSha256": "9b2e980bdeacf465134a97afdcf9fc6556a28a3b44f6176544fdc3068fa0ed5a",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:57.387Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            99,
+            230.03750610351562
+          ],
+          "outputY": [
+            0,
+            132
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25142"
+      ],
+      "width": 1536,
+      "height": 1815,
+      "capturedAt": "2026-10-25T19:50:00.759Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      },
+      "captureBounds": {
+        "height": 1815,
+        "width": 1536,
+        "x": 0,
+        "y": 920
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-food section-food-j---counter-menu-25142 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25142",
+          "selector": ".page-variant-j-box-office-5913 .section-food-j---counter-menu-25142"
+        }
+      ],
+      "id": "food--variant-j-box-office",
+      "image": "screenshots/food/variant-j-box-office.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-j-box-office.jpg",
+          "rawImageSha256": "27d2650586d1f21c11b609bc0f296c16570858682efa46d7714462991213206f",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:57.387Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            920.1749877929688,
+            2734.7250366210938
+          ],
+          "outputY": [
+            0,
+            1815
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25143"
+      ],
+      "width": 1536,
+      "height": 773,
+      "capturedAt": "2026-10-25T19:50:02.774Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      },
+      "captureBounds": {
+        "height": 773,
+        "width": 1536,
+        "x": 0,
+        "y": 2734
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-private-parties section-private-parties-j---group-booking-desk-25143 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25143",
+          "selector": ".page-variant-j-box-office-5913 .section-private-parties-j---group-booking-desk-25143"
+        }
+      ],
+      "id": "events--variant-j-box-office",
+      "image": "screenshots/events/variant-j-box-office.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-j-box-office.jpg",
+          "rawImageSha256": "3b667b24621e2c2cfd20541c57ef168066fd9794ec3e9daa837ea5818a523d2b",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:57.387Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2734.72509765625,
+            3506.0751342773438
+          ],
+          "outputY": [
+            0,
+            773
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25144"
+      ],
+      "width": 1536,
+      "height": 700,
+      "capturedAt": "2026-10-25T19:50:04.820Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      },
+      "captureBounds": {
+        "height": 700,
+        "width": 1536,
+        "x": 0,
+        "y": 3506
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-membership section-membership-j---box-office-pass-25144 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25144",
+          "selector": ".page-variant-j-box-office-5913 .section-membership-j---box-office-pass-25144"
+        }
+      ],
+      "id": "membership--variant-j-box-office",
+      "image": "screenshots/membership/variant-j-box-office.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-j-box-office.jpg",
+          "rawImageSha256": "078906b51ba41965ff14921f43d0da4c50141cdb9fe41b54e08b4aac760610d4",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:57.387Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3506.074951171875,
+            4205.824951171875
+          ],
+          "outputY": [
+            0,
+            700
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "pageId": "5913",
+      "sectionIds": [
+        "25145"
+      ],
+      "width": 1536,
+      "height": 800,
+      "capturedAt": "2026-10-25T19:50:06.624Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      },
+      "captureBounds": {
+        "height": 800,
+        "width": 1536,
+        "x": 0,
+        "y": 4205
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-contact section-contact-j---enquiry-desk-25145 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25145",
+          "selector": ".page-variant-j-box-office-5913 .section-contact-j---enquiry-desk-25145"
+        }
+      ],
+      "id": "contact--variant-j-box-office",
+      "image": "screenshots/contact/variant-j-box-office.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-j-box-office.jpg",
+          "rawImageSha256": "cf056fefad57a101bf9aab5048f3432d68ae199983f0abce10faea5c742cb4b2",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:49:57.387Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4205.8251953125,
+            5004.837707519531
+          ],
+          "outputY": [
+            0,
+            800
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "24895"
+      ],
+      "width": 1536,
+      "height": 117,
+      "capturedAt": "2026-10-25T19:50:18.505Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 116.6125030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "captureBounds": {
+        "height": 117,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-k-welcome-24895 q-px-xs bg-primary",
+          "headings": "[Circular]",
+          "id": "24895",
+          "selector": ".page-variant-k-clubhouse-5915 .section-k-welcome-24895"
+        }
+      ],
+      "id": "hero--variant-k-clubhouse",
+      "image": "screenshots/hero/variant-k-clubhouse.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-k-clubhouse.jpg",
+          "rawImageSha256": "71b0af69da648aa6fef985b08a9a32b926896c8af8686383114bdd3d7bb38d23",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:18.140Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            99,
+            215.6125030517578
+          ],
+          "outputY": [
+            0,
+            117
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "25135"
+      ],
+      "width": 1536,
+      "height": 1705,
+      "capturedAt": "2026-10-25T19:50:20.145Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1704.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 493.0500183105469
+      },
+      "captureBounds": {
+        "height": 1705,
+        "width": 1536,
+        "x": 0,
+        "y": 493
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-food section-food-k---clubhouse-kitchen-25135 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25135",
+          "selector": ".page-variant-k-clubhouse-5915 .section-food-k---clubhouse-kitchen-25135"
+        }
+      ],
+      "id": "food--variant-k-clubhouse",
+      "image": "screenshots/food/variant-k-clubhouse.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-k-clubhouse.jpg",
+          "rawImageSha256": "02842e044cd791892e5f5c910258f4c618413db1203e60f5f75bc2e765f8886e",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:18.140Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            493.0500183105469,
+            2197.112518310547
+          ],
+          "outputY": [
+            0,
+            1705
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "25136"
+      ],
+      "width": 1536,
+      "height": 798,
+      "capturedAt": "2026-10-25T19:50:21.761Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 797.1375122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2197.112548828125
+      },
+      "captureBounds": {
+        "height": 798,
+        "width": 1536,
+        "x": 0,
+        "y": 2197
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-private-parties section-private-parties-k---gather-your-people-25136 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25136",
+          "selector": ".page-variant-k-clubhouse-5915 .section-private-parties-k---gather-your-people-25136"
+        }
+      ],
+      "id": "events--variant-k-clubhouse",
+      "image": "screenshots/events/variant-k-clubhouse.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-k-clubhouse.jpg",
+          "rawImageSha256": "729e795f4a0a925e7533b6145a2b9e35ce38d2bc7441a749a689413bf86202fd",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:18.140Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2197.112548828125,
+            2994.2500610351562
+          ],
+          "outputY": [
+            0,
+            798
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "24899"
+      ],
+      "width": 1536,
+      "height": 789,
+      "capturedAt": "2026-10-25T19:50:23.212Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 788.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 3125.28759765625
+      },
+      "captureBounds": {
+        "height": 789,
+        "width": 1536,
+        "x": 0,
+        "y": 3125
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-membership section-membership-k---your-place-in-the-clubhouse-24899 q-px-xs bg-primary",
+          "headings": "[Circular]",
+          "id": "24899",
+          "selector": ".page-variant-k-clubhouse-5915 .section-membership-k---your-place-in-the-clubhouse-24899"
+        }
+      ],
+      "id": "membership--variant-k-clubhouse",
+      "image": "screenshots/membership/variant-k-clubhouse.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-k-clubhouse.jpg",
+          "rawImageSha256": "886c525338cd298788e773e65c54125c456464b9dd7face888a15211dda73ddb",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:18.140Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3125.28759765625,
+            3913.6376342773438
+          ],
+          "outputY": [
+            0,
+            789
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "pageId": "5915",
+      "sectionIds": [
+        "25137"
+      ],
+      "width": 1536,
+      "height": 832,
+      "capturedAt": "2026-10-25T19:50:24.967Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 831.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3913.637451171875
+      },
+      "captureBounds": {
+        "height": 832,
+        "width": 1536,
+        "x": 0,
+        "y": 3913
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-contact section-contact-k---say-hello-25137 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25137",
+          "selector": ".page-variant-k-clubhouse-5915 .section-contact-k---say-hello-25137"
+        }
+      ],
+      "id": "contact--variant-k-clubhouse",
+      "image": "screenshots/contact/variant-k-clubhouse.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-k-clubhouse.jpg",
+          "rawImageSha256": "29cf9eec418130a13ac3dc263469c4eedc9fdaf78372c9f703a84c92cf6a0618",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:18.140Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3913.637451171875,
+            4744.649963378906
+          ],
+          "outputY": [
+            0,
+            832
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "24905"
+      ],
+      "width": 1536,
+      "height": 132,
+      "capturedAt": "2026-10-25T19:50:40.568Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "captureBounds": {
+        "height": 132,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-l-opening-note-24905 q-px-xs bg-dark",
+          "headings": "[Circular]",
+          "id": "24905",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-l-opening-note-24905"
+        }
+      ],
+      "id": "hero--variant-l-midnight-lounge",
+      "image": "screenshots/hero/variant-l-midnight-lounge.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-l-midnight-lounge.jpg",
+          "rawImageSha256": "7f46f96dcf6affe1ac6f6d87425215f86d1f30a4f3dfceaa3c4470e765513aae",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:40.211Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            99,
+            230.03750610351562
+          ],
+          "outputY": [
+            0,
+            132
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25138"
+      ],
+      "width": 1536,
+      "height": 1782,
+      "capturedAt": "2026-10-25T19:50:42.240Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      },
+      "captureBounds": {
+        "height": 1782,
+        "width": 1536,
+        "x": 0,
+        "y": 641
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-food section-food-l---after-dark-menu-25138 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25138",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-food-l---after-dark-menu-25138"
+        }
+      ],
+      "id": "food--variant-l-midnight-lounge",
+      "image": "screenshots/food/variant-l-midnight-lounge.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-l-midnight-lounge.jpg",
+          "rawImageSha256": "036e69ecfd5f58e16dec9bc02c9f9560aaefca4eba7a4d83d87b2d944462c390",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:40.211Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            641.375,
+            2422.9000244140625
+          ],
+          "outputY": [
+            0,
+            1782
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "slot": "events",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25139"
+      ],
+      "width": 1536,
+      "height": 852,
+      "capturedAt": "2026-10-25T19:50:43.896Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      },
+      "captureBounds": {
+        "height": 852,
+        "width": 1536,
+        "x": 0,
+        "y": 2422
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-private-parties section-private-parties-l---an-evening-of-your-own-25139 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25139",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-private-parties-l---an-evening-of-your-own-25139"
+        }
+      ],
+      "id": "events--variant-l-midnight-lounge",
+      "image": "screenshots/events/variant-l-midnight-lounge.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/events--variant-l-midnight-lounge.jpg",
+          "rawImageSha256": "cef05c59dcf11c357d87f2d6b926cb4d9c5e29d5733797ee145b2699fad515bb",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:40.211Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2422.900146484375,
+            3273.8501586914062
+          ],
+          "outputY": [
+            0,
+            852
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "slot": "membership",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25140"
+      ],
+      "width": 1536,
+      "height": 840,
+      "capturedAt": "2026-10-25T19:50:45.273Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      },
+      "captureBounds": {
+        "height": 840,
+        "width": 1536,
+        "x": 0,
+        "y": 3273
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-membership section-membership-l---after-dark-regular-25140 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25140",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-membership-l---after-dark-regular-25140"
+        }
+      ],
+      "id": "membership--variant-l-midnight-lounge",
+      "image": "screenshots/membership/variant-l-midnight-lounge.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/membership--variant-l-midnight-lounge.jpg",
+          "rawImageSha256": "99fca2ac47a5411109b7370ea458fa273892f6a7c45ad95ee85a0e8f8b540652",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:40.211Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            3273.85009765625,
+            4112.550109863281
+          ],
+          "outputY": [
+            0,
+            840
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "slot": "contact",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "pageId": "5917",
+      "sectionIds": [
+        "25141"
+      ],
+      "width": 1536,
+      "height": 834,
+      "capturedAt": "2026-10-25T19:50:47.334Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      },
+      "captureBounds": {
+        "height": 834,
+        "width": 1536,
+        "x": 0,
+        "y": 4112
+      },
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-contact section-contact-l---a-note-after-dark-25141 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25141",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-contact-l---a-note-after-dark-25141"
+        }
+      ],
+      "id": "contact--variant-l-midnight-lounge",
+      "image": "screenshots/contact/variant-l-midnight-lounge.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/contact--variant-l-midnight-lounge.jpg",
+          "rawImageSha256": "fd8d5663d3e6e45806c13296f2e29b40f3b7a9d3cf749cad9c5d7764e1bc9e02",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:50:40.211Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            4112.55029296875,
+            4945.162780761719
+          ],
+          "outputY": [
+            0,
+            834
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-a-circuit",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "pageId": "5659",
+      "sectionIds": [
+        "23738",
+        "23739"
+      ],
+      "width": 1536,
+      "height": 953,
+      "capturedAt": "2026-10-25T19:51:23.237Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 952.4750366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 57
+      },
+      "captureBounds": {
+        "height": 953,
+        "width": 1536,
+        "x": 0,
+        "y": 57
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-a---showtimes-shelf-23738 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23738",
+          "selector": ".page-variant-a-circuit-5659 .section-hero-a---showtimes-shelf-23738"
+        },
+        {
+          "classes": "section-hero-a---shelf-23739 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23739",
+          "selector": ".page-variant-a-circuit-5659 .section-hero-a---shelf-23739"
+        }
+      ],
+      "id": "hero--variant-a-circuit",
+      "image": "screenshots/hero/variant-a-circuit.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-a-circuit.jpg",
+          "rawImageSha256": "e8f32791812743d952586edd66925e0fcaa255e4e8c93c24a855747cc2578793",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:51:21.577Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            57,
+            1009.4750366210938
+          ],
+          "outputY": [
+            0,
+            953
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-b-rep",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "pageId": "5661",
+      "sectionIds": [
+        "23741"
+      ],
+      "width": 1536,
+      "height": 907,
+      "capturedAt": "2026-10-25T19:51:27.329Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 906.5875244140624,
+        "width": 1536,
+        "x": 0,
+        "y": 135
+      },
+      "captureBounds": {
+        "height": 907,
+        "width": 1536,
+        "x": 0,
+        "y": 135
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-b---plate-and-note-23741 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23741",
+          "selector": ".page-variant-b-rep-5661 .section-hero-b---plate-and-note-23741"
+        }
+      ],
+      "id": "hero--variant-b-rep",
+      "image": "screenshots/hero/variant-b-rep.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-b-rep.jpg",
+          "rawImageSha256": "07f34435298edf741d76855fd22f55313439fcc7b228c4174a329684cbcc0fa5",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:51:26.786Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            135,
+            1041.5875244140625
+          ],
+          "outputY": [
+            0,
+            907
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-c-late",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "pageId": "5663",
+      "sectionIds": [
+        "23744",
+        "23745"
+      ],
+      "width": 1536,
+      "height": 705,
+      "capturedAt": "2026-10-25T19:51:33.208Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 704.9375,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "captureBounds": {
+        "height": 705,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-c---marquee-23744 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23744",
+          "selector": ".page-variant-c-late-5663 .section-hero-c---marquee-23744"
+        },
+        {
+          "classes": "section-hero-c---dock-23745 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23745",
+          "selector": ".page-variant-c-late-5663 .section-hero-c---dock-23745"
+        }
+      ],
+      "id": "hero--variant-c-late",
+      "image": "screenshots/hero/variant-c-late.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-c-late.jpg",
+          "rawImageSha256": "1a1c65299b88d5493094aba047d07b1b277d7caf830ad2bef3b06e43939ca251",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:51:31.524Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            65,
+            769.9375
+          ],
+          "outputY": [
+            0,
+            705
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-e-grid",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "pageId": "5901",
+      "sectionIds": [
+        "24806",
+        "24807"
+      ],
+      "width": 1536,
+      "height": 643,
+      "capturedAt": "2026-10-25T19:51:37.942Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 642.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "captureBounds": {
+        "height": 643,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-e---product-panel-24806",
+          "headings": "[Circular]",
+          "id": "24806",
+          "selector": ".page-variant-e-grid-5901 .section-hero-e---product-panel-24806"
+        },
+        {
+          "classes": "section-hero-e---quick-selector-24807",
+          "headings": "[Circular]",
+          "id": "24807",
+          "selector": ".page-variant-e-grid-5901 .section-hero-e---quick-selector-24807"
+        }
+      ],
+      "id": "hero--variant-e-grid",
+      "image": "screenshots/hero/variant-e-grid.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-e-grid.jpg",
+          "rawImageSha256": "1b69527774c84641f64c865c005fc0e03efdb2b41aa462d26f836456d158284d",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:51:37.108Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            65,
+            707.3000030517578
+          ],
+          "outputY": [
+            0,
+            643
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-g-cut",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "pageId": "5905",
+      "sectionIds": [
+        "24850"
+      ],
+      "width": 1536,
+      "height": 520,
+      "capturedAt": "2026-10-25T19:51:42.079Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 520,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "captureBounds": {
+        "height": 520,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-g---poster-block-24850 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24850",
+          "selector": ".page-variant-g-cut-5905 .section-hero-g---poster-block-24850"
+        }
+      ],
+      "id": "hero--variant-g-cut",
+      "image": "screenshots/hero/variant-g-cut.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-g-cut.jpg",
+          "rawImageSha256": "ccdf3aab2b924c0c3f9b50b28c774676966abc20a787d3dba0bd15efefbc21f7",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T19:51:41.597Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            99,
+            619
+          ],
+          "outputY": [
+            0,
+            520
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-d-odd",
+      "slot": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24790",
+        "24791"
+      ],
+      "width": 1536,
+      "height": 846,
+      "capturedAt": "2026-10-25T20:02:46.424Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 845.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "captureBounds": {
+        "height": 846,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-d---collage-24790 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24790",
+          "selector": ".page-variant-d-odd-5899 .section-hero-d---collage-24790"
+        },
+        {
+          "classes": "section-hero-d---ruth-line-24791 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24791",
+          "selector": ".page-variant-d-odd-5899 .section-hero-d---ruth-line-24791"
+        }
+      ],
+      "id": "hero--variant-d-odd",
+      "image": "screenshots/hero/variant-d-odd.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/hero--variant-d-odd.jpg",
+          "rawImageSha256": "f9e716d0016952d88b5dad76e932795c9086f58cb5393ca0e813ec773b7fd708",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T20:02:45.948Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            153,
+            998.2999877929688
+          ],
+          "outputY": [
+            0,
+            846
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    },
+    {
+      "variant": "variant-d-odd",
+      "slot": "food",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "pageId": "5899",
+      "sectionIds": [
+        "24794"
+      ],
+      "width": 1536,
+      "height": 1758,
+      "capturedAt": "2026-10-25T20:02:46.785Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      },
+      "captureBounds": {
+        "height": 1758,
+        "width": 1536,
+        "x": 0,
+        "y": 2523
+      },
+      "sectionSelectors": [
+        {
+          "classes": "section-food-d---sticker-sheet-24794 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24794",
+          "selector": ".page-variant-d-odd-5899 .section-food-d---sticker-sheet-24794"
+        }
+      ],
+      "id": "food--variant-d-odd",
+      "image": "screenshots/food/variant-d-odd.jpg",
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureEvidence": [
+        {
+          "image": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/raw/food--variant-d-odd.jpg",
+          "rawImageSha256": "d15196b651e3e014d196fcdcbaf228890d831d27ba1c85b4d8352a5e9affe3aa",
+          "viewport": {
+            "height": 639,
+            "width": 1536
+          },
+          "domObservedAt": "2026-10-25T20:02:45.948Z",
+          "sourceState": "published",
+          "paletteState": "restored-current-native",
+          "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+          "nativeChangeJournalSnapshot": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/native-change-journal.snapshot.json",
+          "nativeChangeJournalSha256": "f9c77b4ffb0305feee7221a4724424be37fad70333881bc25b709f5161de0811",
+          "sourceDocumentY": [
+            2523.97509765625,
+            4280.650146484375
+          ],
+          "outputY": [
+            0,
+            1758
+          ]
+        }
+      ],
+      "captureNote": "Permanent source changes are recorded in the native change journal. This is the actual published restored-palette appearance; no temporary capture styles, fixtures, image edits, stitching or re-encoding."
+    }
+  ]
+}

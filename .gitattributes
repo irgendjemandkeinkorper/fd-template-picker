@@ -1,0 +1,5 @@
+# Native readbacks, proposals and their evidence retain exact hashed bytes.
+catalog.json text eol=lf
+evidence/admin-controls-completion/** -text
+template-adapters/admin-controls-completion/** -text
+template-adapters/shared-theme-completion/** -text

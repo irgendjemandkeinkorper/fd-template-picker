@@ -1,0 +1,87 @@
+{
+  "schema": "fd-native-qa-corrections-round3/v1",
+  "status": "prepared-from-native-second-palette-findings",
+  "fields": [
+    {
+      "field": "D-page",
+      "revision": 3,
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/D-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/D-page-v3.before.css",
+      "beforeBytesSha256": "706c290e23b3a3e12daaebe3040b33a96b9c705a946f5de8124b14671e73e18a",
+      "beforeTextSha256": "706c290e23b3a3e12daaebe3040b33a96b9c705a946f5de8124b14671e73e18a",
+      "beforeCharacters": 55149,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/D-page-v3.css",
+      "proposalBytesSha256": "c33a69c6117fe7808e24fc255e8aabdb578d9f6bc7c578ca4fab1493cbc584a8",
+      "proposalCharacters": 55147,
+      "geometryPreserved": true,
+      "status": "prepared-from-native-saved-not-applied-by-generator"
+    },
+    {
+      "field": "J-page",
+      "revision": 2,
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/J-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/J-page-v2.before.css",
+      "beforeBytesSha256": "89d0feec342421d28f950fcf71d072f87f5cce58f6f0f9a7f989775a45685902",
+      "beforeTextSha256": "89d0feec342421d28f950fcf71d072f87f5cce58f6f0f9a7f989775a45685902",
+      "beforeCharacters": 4334,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/J-page-v2.css",
+      "proposalBytesSha256": "95b8eb81ae44cec22853247159e2966abdb4b9e347e13fef92b03adf0ed198f5",
+      "proposalCharacters": 4843,
+      "geometryPreserved": true,
+      "status": "prepared-from-native-saved-not-applied-by-generator"
+    },
+    {
+      "field": "K-page",
+      "revision": 3,
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/K-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/K-page-v3.before.css",
+      "beforeBytesSha256": "7e0a3c6dff3d3406d9368e15fb915518bf66b875eedbf79cd2726351f40f41b8",
+      "beforeTextSha256": "7e0a3c6dff3d3406d9368e15fb915518bf66b875eedbf79cd2726351f40f41b8",
+      "beforeCharacters": 3243,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/K-page-v3.css",
+      "proposalBytesSha256": "0b17ce62fdbb7e77ed95445b16104cace9dd75eb55af6876796aee8968b45056",
+      "proposalCharacters": 3732,
+      "geometryPreserved": true,
+      "status": "prepared-from-native-saved-not-applied-by-generator"
+    },
+    {
+      "field": "L-page",
+      "revision": 3,
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/L-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/L-page-v3.before.css",
+      "beforeBytesSha256": "9c92bae56e347b15dac615e0dddb315c039d07d42381095b09b88d1a62782eb8",
+      "beforeTextSha256": "9c92bae56e347b15dac615e0dddb315c039d07d42381095b09b88d1a62782eb8",
+      "beforeCharacters": 3812,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/L-page-v3.css",
+      "proposalBytesSha256": "0605e65507a8bd871646f02b21e4dc9cb1aa9295c8609ac19ff1fcd462a0daec",
+      "proposalCharacters": 4183,
+      "geometryPreserved": true,
+      "status": "prepared-from-native-saved-not-applied-by-generator"
+    }
+  ],
+  "nativeTestPalette": {
+    "Primary": "#176B9D",
+    "Secondary": "#F2CA52",
+    "Dark": "#122C43",
+    "Background": "#F7FAFC"
+  },
+  "sourceQA": "evidence/admin-controls-completion/qa-test-phone/{D,J,K,L}.json",
+  "findings": {
+    "D": "Three visible earned is-stamped glyphs and outlines use Secondary on nearly-white card1.53:1. Change their owned Page foreground/border to native Dark; preserve seven transparent unearned slots and tilts.",
+    "J": "Native intro and visit text-current-color headings use Primary on Dark2.47:1. Bind those exact known Dark panels and h2/h3 heading foreground to native Dark/Background.",
+    "K": "Native featured heading Primary/Dark2.47 and empty widget .text-h5.text-grey-9 gray/Dark1.42. Bind that exact Dark panel, heading and empty-state foreground to Dark/Background.",
+    "L": "Native opening-note text-current-color heading Primary/Dark2.47. Bind its exact Dark panel and h2/h3 heading foreground to native Dark/Background."
+  },
+  "expectedBaseCopyContrast": {
+    "approvedWarmPalette": 12.01,
+    "nativeTestPalette": 13.66
+  },
+  "unchanged": [
+    "All content/media/URLs/form routing/native color values",
+    "All Section CSS fields",
+    "All geometry and typography",
+    "D intentionally transparent unearned stamp slots",
+    "Frozen baseline proposal bundle"
+  ],
+  "guard": "Compare current native field exact before hash; root must verify native save/readback, scoped publish, warm and test palette live desktop/phone evidence."
+}

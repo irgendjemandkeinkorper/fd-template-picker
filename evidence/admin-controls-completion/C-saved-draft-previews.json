@@ -1,0 +1,140 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 66,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.88px 1.76px",
+        "text": "Pulp: What Do You Do For An Encore?",
+        "width": 472
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(238, 238, 238)",
+        "height": 0,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.8px 1.6px",
+        "text": "",
+        "width": 0
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-c---marquee-23742 q-px-xs section-hero-c---marquee-23742 zoom",
+        "height": 421.6000061035156,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-hero-c---dock-23743 q-px-xs section-hero-c---dock-23743 zoom",
+        "height": 145,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-c---ticket-stack-23729 q-px-xs section-events-c---ticket-stack-23729 zoom",
+        "height": 768.5,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-c---tile-wall-23734 q-px-xs section-food-c---tile-wall-23734 zoom",
+        "height": 915,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-c---statement-line-23750 q-px-xs section-contact-c---statement-line-23750 zoom",
+        "height": 514.2625122070312,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-find-us-c---night-map-23780 q-px-xs section-find-us-c---night-map-23780 zoom",
+        "height": 619.1000366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-membership-c---card-ledger-23768 q-px-xs section-membership-c---card-ledger-23768 zoom",
+        "height": 1279.4124755859375,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 66,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.88px 1.76px",
+        "text": "Pulp: What Do You Do For An Encore?",
+        "width": 336
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(238, 238, 238)",
+        "height": 0,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.64px 1.28px",
+        "text": "",
+        "width": 0
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-c---marquee-23742 q-px-xs section-hero-c---marquee-23742",
+        "height": 154.8000030517578,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-hero-c---dock-23743 q-px-xs section-hero-c---dock-23743",
+        "height": 250,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-events-c---ticket-stack-23729 q-px-xs section-events-c---ticket-stack-23729",
+        "height": 1501.5,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-food-c---tile-wall-23734 q-px-xs section-food-c---tile-wall-23734",
+        "height": 945,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-c---statement-line-23750 q-px-xs section-contact-c---statement-line-23750",
+        "height": 847.0125122070312,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-find-us-c---night-map-23780 q-px-xs section-find-us-c---night-map-23780",
+        "height": 673.1000366210938,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-membership-c---card-ledger-23768 q-px-xs section-membership-c---card-ledger-23768",
+        "height": 1559.7249755859375,
+        "primary": "#027be3",
+        "width": 376
+      }
+    ]
+  }
+]

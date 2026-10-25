@@ -1,0 +1,95 @@
+/* TEMPLATE ADMIN COLOR CONTRACT — A through L only.
+   US-BETA / INDY Demo / Adam Template Testing 2 (site-170).
+   Header and decorative paint use Primary, Secondary, Dark and Background.
+   Text uses the Dark/Background pair; brand fills are fixed derived tints.
+   Do not edit this CSS when changing a client's native Theme & Style colors. */
+body.site-170:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) {
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --pl-ink: var(--q-dark);
+  --pl-ink-deep: var(--q-dark);
+  --pl-panel: color-mix(in srgb, var(--q-background) 5%, var(--q-dark));
+  --pl-cream: var(--q-background);
+  --pl-paper: var(--q-background);
+  --pl-muted: color-mix(in srgb, var(--q-background) 80%, var(--q-dark));
+  --pl-wine: var(--q-primary);
+  --pl-line: color-mix(in srgb, var(--q-background) 30%, var(--q-dark));
+  background: var(--q-background);
+}
+
+/* Shared Standard navigation and inherited utilities use an opaque surface. */
+body.site-170 .q-layout:has([class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) header.consumer-header {
+  background: var(--q-dark) !important;
+  color: var(--q-background) !important;
+}
+body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-c-late-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) header.consumer-header :is(.q-btn, .q-btn__content, .q-icon) {
+  color: var(--q-background) !important;
+}
+body.site-170 .q-layout:has([class*="page-variant-b-rep-"], [class*="page-variant-d-odd-"]) header.consumer-header :is(.q-btn, .q-btn__content, .q-icon) {
+  color: var(--q-dark) !important;
+}
+
+/* Current Primary/Secondary do not pass as solid text backgrounds. Keep their
+   exact native hue in the border and tint; all words remain native Dark. */
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child,
+body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn,
+body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn,
+body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
+  background: var(--fd-primary-tint) !important;
+  border-color: var(--q-primary) !important;
+  color: var(--q-dark) !important;
+}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a :is(.q-btn__content, span),
+body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span),
+body.site-170 .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span),
+body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
+  color: var(--q-dark) !important;
+}
+
+/* Keep the existing native-action geometry. These rules replace site-owned
+   foreground/fill decisions; page/section authors retain their layout rules. */
+body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) main .q-btn.bg-primary {
+  background: var(--fd-primary-tint) !important;
+  border-color: var(--q-primary) !important;
+  color: var(--q-dark) !important;
+}
+body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) main .q-btn.bg-primary > .q-btn__content {
+  color: inherit !important;
+}
+
+/* Drawer labels stay legible; active state is conveyed by a brand-colored
+   rule instead of low-contrast brand-colored copy. */
+body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) .q-drawer :is(.q-router-link--active, .q-item--active) :is(.q-item__label, .q-icon) {
+  color: var(--q-background) !important;
+}
+body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) .q-drawer :is(.q-router-link--active, .q-item--active) {
+  border-inline-start: 3px solid var(--q-secondary);
+}
+body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer {
+  background: var(--fd-secondary-tint) !important;
+}
+body.site-170 .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer :is(.q-router-link--active, .q-item--active) :is(.q-item__label, .q-icon) {
+  color: var(--q-dark) !important;
+}
+
+/* The Late header overlays the marquee. The opaque native Dark ground is
+   image-independent; the shadow protects glyph edges during transitions. */
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header :is(.q-btn__content, .q-icon) {
+  text-shadow: 0 1px 2px var(--q-dark), 0 2px 4px var(--q-dark);
+}
+
+/* Concrete keeps the approved 240px containment and native hover geometry.
+   Its highlighted link and the Standard navigation inherit the same roles. */
+body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover {
+  background: var(--q-background) !important;
+}
+body.site-170 .q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover :is(.q-btn__content, span) {
+  color: var(--q-dark) !important;
+}
+
+/* A two-tone focus cue is visible on both native Dark and Background. */
+body.site-170 .q-layout:has([class*="page-variant-a-circuit-"], [class*="page-variant-b-rep-"], [class*="page-variant-c-late-"], [class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"], [class*="page-variant-g-cut-"], [class*="page-variant-h-storybook-"], [class*="page-variant-i-ma-"], [class*="page-variant-j-box-office-"], [class*="page-variant-k-clubhouse-"], [class*="page-variant-l-midnight-lounge-"]) :is(a, button, input, select, textarea):focus-visible {
+  outline: 2px solid var(--q-dark) !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--q-background) !important;
+}

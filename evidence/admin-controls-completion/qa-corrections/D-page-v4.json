@@ -1,0 +1,49 @@
+{
+  "schema": "fd-native-qa-correction/v1",
+  "field": "D-page",
+  "editablePage": 5900,
+  "publishedPage": 5899,
+  "nativeSavedSource": "evidence/admin-controls-completion/native-saved/D-page.css",
+  "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/D-page-v4.before.css",
+  "beforeBytesSha256": "c33a69c6117fe7808e24fc255e8aabdb578d9f6bc7c578ca4fab1493cbc584a8",
+  "beforeTextSha256": "c33a69c6117fe7808e24fc255e8aabdb578d9f6bc7c578ca4fab1493cbc584a8",
+  "beforeCharacters": 55147,
+  "proposal": "evidence/admin-controls-completion/qa-corrections/D-page-v4.css",
+  "proposalBytesSha256": "7f323589bc23e9910632944f597d93c0653fb6dcc86b9b914b8b31ca8cfd7c5e",
+  "proposalTextSha256": "7f323589bc23e9910632944f597d93c0653fb6dcc86b9b914b8b31ca8cfd7c5e",
+  "proposalCharacters": 56821,
+  "status": "prepared-from-native-saved-v3-not-applied-by-generator",
+  "observed": {
+    "titleBounds": {
+      "x": 16.12,
+      "y": 408.1,
+      "width": 344.9,
+      "height": 85.95
+    },
+    "messageBounds": {
+      "y": 147,
+      "height": 400
+    },
+    "overlayBounds": {
+      "y": 147,
+      "height": 208.4375
+    },
+    "canvasBounds": {
+      "y": 147,
+      "height": 208.4375
+    },
+    "messageDisplay": "flex;justify-content:flex-end;overflow:hidden",
+    "overlayClass": "flex bg-clear flex-center absolute-full overlay-none",
+    "source": "Root live phone DOM chain and loaded screenshot"
+  },
+  "change": "Only actual mobile-caption branch: flow native overlay after existing collage print; remove fixed400px message height; grow native carousel canvas around image/title/CTA; anchor absolute stamp to relative print canvas.",
+  "unchanged": [
+    "All prior D v3 CSS as exact prefix",
+    "Desktop collage",
+    "Existing pseudo-element photo URL, crop, border, tilt and padding",
+    "Title font/tilt, stamp size/placement and CTA treatment",
+    "All native content/media/configuration, form behavior, unearned-slot semantics",
+    "Frozen baseline proposal bundle"
+  ],
+  "acceptance": "Root must verify full loaded mobile image/title/stamp/CTA are visible within the expanded carousel, with no clipping or page overflow; recheck both native palettes and desktop after save/publish."
+}

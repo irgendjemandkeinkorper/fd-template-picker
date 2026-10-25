@@ -1,0 +1,7 @@
+/* Native section surface and typography */
+&.fdp-j-contact{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f3eee5;color:#241c19;font-family:Arial,sans-serif;} &.fdp-j-contact h2{color:#241c19;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-j-contact h3{color:#241c19;font-family:Arial,sans-serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-j-contact p{color:#241c19;line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-j-contact form{max-width:900px;margin:24px auto 0;} &.fdp-j-contact .q-field{margin:18px 0;} &.fdp-j-contact .q-field__control{background:#fffaf2;color:#241c19;border-radius:0;} &.fdp-j-contact .q-field__native,&.fdp-j-contact .q-field__input,&.fdp-j-contact .q-field__label{color:#241c19;} &.fdp-j-contact .q-field--focused .q-field__control:after{border-color:#a94728;} &.fdp-j-contact .q-btn{min-height:48px;padding:12px 24px;background:#a94728;color:#fffaf1;font-weight:700;} &.fdp-j-contact .q-btn:focus-visible{outline:3px solid #241c19;outline-offset:4px;}
+/* Keep content within the section on narrow screens */
+&.fdp-j-contact,&.fdp-j-contact *{box-sizing:border-box;}&.fdp-j-contact .fdp-content,&.fdp-j-contact .fdp-content>*,&.fdp-j-contact .fdp-content article,&.fdp-j-contact .fdp-content aside{min-width:0;}&.fdp-j-contact p,&.fdp-j-contact li,&.fdp-j-contact a{overflow-wrap:break-word;}
+&.fdp-j-contact{background:#f3eee5!important;} &.fdp-j-contact h2{color:#241c19!important;}

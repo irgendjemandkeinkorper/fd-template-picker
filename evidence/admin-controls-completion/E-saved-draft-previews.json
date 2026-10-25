@@ -1,0 +1,176 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 138,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 1.6px 3.2px",
+        "text": "The Fast And The Furious 25th Anniversary",
+        "width": 350.3999938964844
+      },
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 21,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.56px 1.12px",
+        "text": "Now showing · PG-13 · 106 min · 4K",
+        "width": 350.3999938964844
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-e---product-panel-24816 zoom",
+        "height": 432,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent row justify-center section-hero-e---quick-selector-24817 zoom",
+        "height": 176.3000030517578,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-e---packages-24819 zoom",
+        "height": 1067,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-e---catalogue-24820 zoom",
+        "height": 1477.3499755859375,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-contact-e---anchor-24926 q-px-xs section-contact-e---anchor-24926 zoom",
+        "height": 0,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-e---support-panel-24821 zoom",
+        "height": 540.7999877929688,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-contact-e---channels-24822 zoom",
+        "height": 276.6000061035156,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-find-us-e---location-card-24823 zoom",
+        "height": 639.4000244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-membership-e---tiers-24824 zoom",
+        "height": 996,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-gift-cards-e---panel-24825 zoom",
+        "height": 357.6000061035156,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 96.5999984741211,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 1.12px 2.24px",
+        "text": "The Fast And The Furious 25th Anniversary",
+        "width": 222.40000915527344
+      },
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 39,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.52px 1.04px",
+        "text": "Now showing · PG-13 · 106 min · 4K",
+        "width": 222.40000915527344
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-e---product-panel-24816",
+        "height": 432,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-e---quick-selector-24817",
+        "height": 336.3000183105469,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-events-e---packages-24819",
+        "height": 1535,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-food-e---catalogue-24820",
+        "height": 1281.25,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-contact-e---anchor-24926 q-px-xs section-contact-e---anchor-24926",
+        "height": 0,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-e---support-panel-24821",
+        "height": 574.4000244140625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-contact-e---channels-24822",
+        "height": 585.6000366210938,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-find-us-e---location-card-24823",
+        "height": 1147.2000732421875,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-membership-e---tiers-24824",
+        "height": 1587,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-gift-cards-e---panel-24825",
+        "height": 443.2000122070313,
+        "primary": "#027be3",
+        "width": 376
+      }
+    ]
+  }
+]

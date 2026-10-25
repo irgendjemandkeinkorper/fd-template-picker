@@ -1,0 +1,254 @@
+{
+  "target": [
+    "US-BETA",
+    "INDY Demo",
+    "Adam Template Testing 2"
+  ],
+  "reviewedAt": "2026-10-25T20:03:24.833298+00:00",
+  "scope": "All24 final frozen A-D native JPEGs independently pixel-reviewed for matching components, complete content and readable words. Current raw SHA-256 values verified after D7 final freeze; other22 reviews retained unchanged. Does not certify transactions, future frames or unseen states.",
+  "passed": 24,
+  "needsReview": 0,
+  "pendingUncaptured": [],
+  "reviews": [
+    {
+      "optionId": "header--variant-a-circuit",
+      "status": "passed",
+      "imageSha256": "62ebe7e9321fe76627633144316a56e9829914b1b404177133c19c1a79a6b739",
+      "reviewedAt": "2026-10-25T19:46:29.885800+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Actual Circuit navigation: all seven native menu labels, centered small logo, highlighted Private Events and search/account utilities are contained and legible. Complete 57px native header; no editor, loader or unrelated panel.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json"
+    },
+    {
+      "optionId": "hero--variant-a-circuit",
+      "status": "passed",
+      "imageSha256": "e8f32791812743d952586edd66925e0fcaa255e4e8c93c24a855747cc2578793",
+      "reviewedAt": "2026-10-25T19:46:29.885800+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Actual two-section Circuit hero: full Ghost In The Shell image and protected readable title, followed by all four authored film/time/Book shelf columns. Both published source IDs match A-dom; full merged content is retained. Editorial shelf times are shown as source content, not certified booking inventory.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json"
+    },
+    {
+      "optionId": "food--variant-a-circuit",
+      "status": "passed",
+      "imageSha256": "19c020f8fa29a1a4b92dd2e90caf7b942558032c1f39686485af0fc11ab10359",
+      "reviewedAt": "2026-10-25T19:46:29.886302+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Actual Kitchen and bar concessions section: Snacks/Drinks/Desserts tabs and all visible product rows/prices are complete and readable. Native placeholder thumbnails remain because source product media is missing; these are not substituted photos or an editor/loading overlay. Full native section is represented.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json"
+    },
+    {
+      "optionId": "events--variant-a-circuit",
+      "status": "passed",
+      "imageSha256": "e3954d8791d4545447f20feb5682b9d9f09708e647c3c49cc9d057fcc9ec34e9",
+      "reviewedAt": "2026-10-25T19:46:29.886302+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Actual Private Hire / Six ways to take the room section: all six packages, capacity/minimum/notice copy and six Enquire links fit completely and are readable. Correct dedicated parties component, not programming.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json"
+    },
+    {
+      "optionId": "membership--variant-a-circuit",
+      "status": "passed",
+      "imageSha256": "ae574f4f78b4d08d4c37881cc584334a0173a188ff96b470babc6c4cc256809f",
+      "reviewedAt": "2026-10-25T19:46:29.886801+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Actual Membership & Rewards tier rail: complete heading/intro, Parterre/Balcony/Circle columns with prices, benefits and all three join actions, plus the five reward thresholds below. Copy and actions are readable; no bottom crop or editor/loader.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json"
+    },
+    {
+      "optionId": "contact--variant-a-circuit",
+      "status": "passed",
+      "imageSha256": "036f0f858aabc82c726282c6c1d550eebab726728a5892d2d2689a04897c2bc4",
+      "reviewedAt": "2026-10-25T19:46:29.886801+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Actual Ask us anything compressed native form: Name, Email, What you have in mind and Send are present and readable with complete form height. Existing borderless field treatment blends the empty input surfaces into Dark; capture faithfully preserves that design. No submission, typed sample values, editor or loader.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json"
+    },
+    {
+      "optionId": "header--variant-b-rep",
+      "status": "passed",
+      "imageSha256": "cd7bb30c4cd541f0d28ab1944cece104ab6b88dc8950fd150664719c097ff865",
+      "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete stacked Rep header: dark A logo and all seven labels are clear on cream. No logo fix needed.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "food--variant-b-rep",
+      "status": "passed",
+      "imageSha256": "1a31e1178d02a8c02cb763b80196121113336a962312e02b30d8cfde915d9ba9",
+      "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Correct full Rep printed menu: Snacks/Drinks/Desserts links and headings, seven rows with product names/descriptions/prices. Full bottom retained. Native missing-media placeholders remain; no fake photos or loading overlay.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "events--variant-b-rep",
+      "status": "passed",
+      "imageSha256": "15b3f397a93bf896b034082d53faab159acd289e60509211d004ac0dc0be43a9",
+      "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Dedicated An evening of your own private-party panel: complete main copy/action and three occasion entries. Correct source, not optional public Playbill.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "membership--variant-b-rep",
+      "status": "passed",
+      "imageSha256": "2dedc72c7862f752f82ed94b892b8676b86692f88ca5d5b3c309ec5373b91bbd",
+      "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Full Belong to the Rep: three Parterre/Balcony/Circle rows, benefits/actions, five reward thresholds and final expiry/cancellation note. Readable, no crop.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "contact--variant-b-rep",
+      "status": "passed",
+      "imageSha256": "6abb5cf051dbf854429e1eece38d011f5cae2c57c84d05b3b351571fc91f1233",
+      "reviewedAt": "2026-10-25T19:52:44.760333+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete Write to us form: heading, Name/Email/message and Send the note. Native compact button padding retained. No input/submission/editor/loader.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "hero--variant-b-rep",
+      "status": "passed",
+      "imageSha256": "07f34435298edf741d76855fd22f55313439fcc7b228c4174a329684cbcc0fa5",
+      "reviewedAt": "2026-10-25T19:52:44.760333+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Fresh pointer-free Rep plate-and-note hero: full Katy Perry image, large readable three-line title and subtitle. No pointer, editor, loader or clipping.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "header--variant-c-late",
+      "status": "passed",
+      "imageSha256": "6224a149fa149acb61f7ec001462ed419bbc2a5ca23b1c15417c71296bcb8f81",
+      "reviewedAt": "2026-10-25T19:52:44.761346+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete Late header: small light logo, all seven labels and search/account controls readable on opaque Dark.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "food--variant-c-late",
+      "status": "passed",
+      "imageSha256": "6a7f5ab270c59406fc8817557ec683f0ee9eaa535a565a0d40d1bca139a5e6b7",
+      "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Full Kitchen till one panel: category chips, all seven products/prices. Four food/drink photos loaded; three dessert backgrounds are native placeholders. Complete readable section.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "events--variant-c-late",
+      "status": "passed",
+      "imageSha256": "fb935ec60b448f3f1f95ed90e4e23f25f12abcccf9c171606ab7f878b472edc2",
+      "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete five-row hire list: Weddings, Private Hire, Late Show, Supper Club, Company Nights and all side details. Correct parties component, readable and uncropped.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "membership--variant-c-late",
+      "status": "passed",
+      "imageSha256": "c2800a96162392b1e9afb3cedd2cb2c2da24b5a3c0358f1fc24b0eb78114d1ea",
+      "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete Carry the card: all three plan cards, benefit comparison rows, five reward thresholds and Open an account action. Bottom included, readable.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "contact--variant-c-late",
+      "status": "passed",
+      "imageSha256": "edc02d2dbac2da615eae4b7adc8e5cd4b681c88ce09db5963e5578e40a330670",
+      "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete Tell us what you want to take over form: two-line heading, Name/Email/message row and Send action. Readable empty native form, no data entered.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "hero--variant-c-late",
+      "status": "passed",
+      "imageSha256": "1a1c65299b88d5493094aba047d07b1b277d7caf830ad2bef3b06e43939ca251",
+      "reviewedAt": "2026-10-25T19:52:44.763389+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Fresh pointer-free merged Late hero: full Pulp image and readable protected title, complete Screen/Kitchen/Late dock columns. No pointer/editor/loader.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "header--variant-d-odd",
+      "status": "passed",
+      "imageSha256": "e31d32e902cb66a26d5b0fc340d05485dcaabf37dd9ffc142f5e875a0cb1a18e",
+      "reviewedAt": "2026-10-25T19:52:44.763389+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete Odd header labels and logo glyph: seven tilted tabs and search/account visible/readable. Decorative stamp border overhang reaches native header crop; meaningful logo/labels intact.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "food--variant-d-odd",
+      "status": "passed",
+      "imageSha256": "d15196b651e3e014d196fcdcbaf228890d831d27ba1c85b4d8352a5e9affe3aa",
+      "reviewedAt": "2026-10-25T20:03:24.828283+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Final frozen D7 desktop native sticker sheet independently inspected: all seven prices ($7.00,$14.00,$11.00,$6.00,$10.00,$10.00,$5.00) and product labels are fully readable inside their cards; complete category sections and bottom retained. Existing native missing-image placeholders remain and their animation can change raw image hashes; no invented product media or pixel edits.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json + evidence/admin-controls-completion/changes-journal.json"
+    },
+    {
+      "optionId": "events--variant-d-odd",
+      "status": "passed",
+      "imageSha256": "368a94a8f54436db1dfd7088399388dba2a64a4f59b5f86f09e12104c8292330",
+      "reviewedAt": "2026-10-25T19:52:44.764402+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Complete Things we will happily let you do in here noticeboard: all six tilted notes, capacities/prices/notice copy and actions readable; full lower notes retained.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "membership--variant-d-odd",
+      "status": "passed",
+      "imageSha256": "9782aac211a241d71c729975a7b6b9d7e02bd32a88c9ceb2977b01e0af547800",
+      "reviewedAt": "2026-10-25T19:52:44.764402+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Full Ten stamps loyalty section: complete heading/intro, card with three earned dark marks and seven blank slots, plus all three semantic tier cards, benefits and actions. Readable and uncropped.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "contact--variant-d-odd",
+      "status": "passed",
+      "imageSha256": "3f1459041973277cb34989195210664c099711b6336781abd5bb46caa9e3a8a4",
+      "reviewedAt": "2026-10-25T19:52:44.764402+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Full Dear Adam Template Testing 2 postcard: heading, ruled Message, Name/Email, stamp and Post it. Small native labels readable at full image size; no data entry/editor/loader.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json"
+    },
+    {
+      "optionId": "hero--variant-d-odd",
+      "status": "passed",
+      "imageSha256": "f9e716d0016952d88b5dad76e932795c9086f58cb5393ca0e813ec773b7fd708",
+      "reviewedAt": "2026-10-25T20:03:24.828283+00:00",
+      "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+      "notes": "Final frozen D7 desktop native collage/Ruth-line capture: complete Pulp image, Now screening stamp, protected readable title, Explore films and companion line. Pointer-free. Exact frozen pixels independently inspected; source IDs/bounds match current D-dom.",
+      "issues": [],
+      "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json + evidence/admin-controls-completion/changes-journal.json"
+    }
+  ]
+}

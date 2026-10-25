@@ -1,0 +1,116 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 54.60000228881836,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 2.08px 4.16px",
+        "text": "Once upon a picture.",
+        "width": 620
+      },
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 22.399999618530273,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.56px 1.12px",
+        "text": "118 min · 35 mm · Presented with an intermission.",
+        "width": 620
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-h---framed-plate-24868 q-px-xs section-hero-h---framed-plate-24868 zoom",
+        "height": 536,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-h---invitations-24869 q-px-xs section-events-h---invitations-24869 zoom",
+        "height": 632.8500366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-h---framed-bill-of-fare-24870 q-px-xs section-food-h---framed-bill-of-fare-24870 zoom",
+        "height": 1818.4000244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-h---the-letter-24871 q-px-xs section-contact-h---the-letter-24871 zoom",
+        "height": 709.4000244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-h-membership section-membership-h---subscribers-invitation-25120 q-px-xs section-membership-h---subscribers-invitation-25120 zoom",
+        "height": 906.6124877929688,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 33.60000228881836,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 1.28px 2.56px",
+        "text": "Once upon a picture.",
+        "width": 352
+      },
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 44.79999923706055,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.56px 1.12px",
+        "text": "118 min · 35 mm · Presented with an intermission.",
+        "width": 352
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-h---framed-plate-24868 q-px-xs section-hero-h---framed-plate-24868",
+        "height": 407,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-events-h---invitations-24869 q-px-xs section-events-h---invitations-24869",
+        "height": 1338.9500732421875,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-food-h---framed-bill-of-fare-24870 q-px-xs section-food-h---framed-bill-of-fare-24870",
+        "height": 1764,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-h---the-letter-24871 q-px-xs section-contact-h---the-letter-24871",
+        "height": 633.4000244140625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "fdp-h-membership section-membership-h---subscribers-invitation-25120 q-px-xs section-membership-h---subscribers-invitation-25120",
+        "height": 1590.8375244140625,
+        "primary": "#027be3",
+        "width": 376
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 163.8000030517578,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 2.08px 4.16px",
+        "text": "Katy Perry: The Lifetimes Tour - Live From Paris",
+        "width": 329.9125061035156
+      },
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 81.5999984741211,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.64px 1.28px",
+        "text": "Shot over two nights in Paris and cut for the room. Doors at seven, and the bar stays open through the credits.",
+        "width": 329.9125061035156
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-b---plate-and-note-23740 q-px-xs section-hero-b---plate-and-note-23740 zoom",
+        "height": 677.2750244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-b---playbill-23727 q-px-xs section-events-b---playbill-23727 zoom",
+        "height": 1420.7249755859375,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-b---printed-menu-23732 q-px-xs section-food-b---printed-menu-23732 zoom",
+        "height": 2233,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-b---split-desk-23748 q-px-xs section-contact-b---split-desk-23748 zoom",
+        "height": 733.7625122070312,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-find-us-b---street-plate-23778 q-px-xs section-find-us-b---street-plate-23778 zoom",
+        "height": 982.7374877929688,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-membership-b---subscriber-bill-23766 q-px-xs section-membership-b---subscriber-bill-23766 zoom",
+        "height": 1310.8125,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-b-private-parties section-private-parties-b---your-own-evening-25132 q-px-xs section-private-parties-b---your-own-evening-25132 zoom",
+        "height": 856.0625,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 491.3999938964844,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 2.08px 4.16px",
+        "text": "Katy Perry: The Lifetimes Tour - Live From Paris",
+        "width": 57.75
+      },
+      {
+        "background": "rgb(238, 238, 238)",
+        "color": "rgb(29, 29, 29)",
+        "height": 516.7999877929688,
+        "shadow": "color(srgb 0.933333 0.933333 0.933333 / 0.85) 0px 0.64px 1.28px",
+        "text": "Shot over two nights in Paris and cut for the room. Doors at seven, and the bar stays open through the credits.",
+        "width": 57.75
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-b---plate-and-note-23740 q-px-xs section-hero-b---plate-and-note-23740",
+        "height": 245.3125,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-events-b---playbill-23727 q-px-xs section-events-b---playbill-23727",
+        "height": 1583.925048828125,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "section-food-b---printed-menu-23732 q-px-xs section-food-b---printed-menu-23732",
+        "height": 2588.10009765625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-b---split-desk-23748 q-px-xs section-contact-b---split-desk-23748",
+        "height": 733.7625122070312,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-find-us-b---street-plate-23778 q-px-xs section-find-us-b---street-plate-23778",
+        "height": 1359.2750244140625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "main-content custom-page section-membership-b---subscriber-bill-23766 q-px-xs section-membership-b---subscriber-bill-23766",
+        "height": 2055.72509765625,
+        "primary": "#027be3",
+        "width": 376
+      },
+      {
+        "class": "fdp-b-private-parties section-private-parties-b---your-own-evening-25132 q-px-xs section-private-parties-b---your-own-evening-25132",
+        "height": 1848,
+        "primary": "#027be3",
+        "width": 376
+      }
+    ]
+  }
+]

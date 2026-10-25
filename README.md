@@ -51,9 +51,11 @@ The [demo readiness report](docs/DEMO-READINESS.md) records the verified custome
 
 ## Template maintenance
 
-The [editability audit](docs/TEMPLATE-EDITABILITY-AUDIT.md) maps ownership and current maintenance gaps across all 72 core source components. The [brand color review bundle](template-adapters/brand-tokens/README.md) proposes system-variable mappings for the twelve templates' captured page and section styles. These proposals are not installed: native field mapping, shared header styles, readable color pairings and a second palette still need validation. Screenshot acceptance does not certify Admin-only maintenance.
+The [native color and overlay implementation](template-adapters/admin-controls-completion/FINAL-STATUS.md) is saved on **US-BETA → INDY Demo → Adam Template Testing 2**. The [native journal](evidence/admin-controls-completion/changes-journal.json) records 30 saved fields with readbacks and all twelve template pages published. Branding consumes native Primary, Secondary and Dark, with native Background as the opposing canvas/copy color. Shared headers, native form paint, readable CTA/card tints, observed media-caption backings/shadows and Odd's three semantic card roles are included.
 
-The approved Concrete navigation and Ma caption repairs are [saved, published where required, and recaptured](evidence/component-controls-repairs/changes-journal.json). Other overlay and brand-control changes remain separate. Internal support guides are maintained outside this public customer site.
+The native second palette was exercised and the original palette restored. The [final QA report](evidence/admin-controls-completion/final-qa-report.json) accepts all 48 desktop/phone captures across both native palettes, with exact saved-field and portable provenance checks. All [66 independently reviewed native clips were ingested byte-identically](evidence/admin-controls-completion/captures/admin-controls-published-clips-001/ingestion.json), refreshing the customer catalog. Source product placeholders remain genuine native output; no media was fabricated to fill them.
+
+The [editability audit](docs/TEMPLATE-EDITABILITY-AUDIT.md) still separates color/overlay implementation from full Admin-only maintenance. Fonts, fixed slants/structure, authored HTML and generated wording, Library transfer/unlink behavior and service setup remain independent work. Earlier [compiled color proposals](template-adapters/brand-tokens/README.md) are retained as review history; they are not native fields to paste. Internal support guides remain outside this public customer site.
 
 ## Catalog and screenshot evidence
 

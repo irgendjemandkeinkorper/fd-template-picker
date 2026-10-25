@@ -1,0 +1,550 @@
+{
+  "actualSections": [
+    {
+      "classes": [
+        "section-j-intro-24885"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "TONIGHT AT THE BOX OFFICE"
+      ],
+      "ids": [
+        "24885"
+      ],
+      "index": 0,
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      }
+    },
+    {
+      "classes": [
+        "section-j-book-now-24886"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [],
+      "ids": [
+        "24886"
+      ],
+      "index": 1,
+      "sourceBounds": {
+        "height": 112.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 230.0375061035156
+      },
+      "viewportBounds": {
+        "height": 112.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 230.0375061035156
+      }
+    },
+    {
+      "classes": [
+        "section-j-today-24887"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "NOW SHOWING"
+      ],
+      "ids": [
+        "24887"
+      ],
+      "index": 2,
+      "sourceBounds": {
+        "height": 334.4375,
+        "width": 1536,
+        "x": 0,
+        "y": 342.3374938964844
+      },
+      "viewportBounds": {
+        "height": 334.4375,
+        "width": 1536,
+        "x": 0,
+        "y": 342.3374938964844
+      }
+    },
+    {
+      "classes": [
+        "section-j-visit-24889"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "PLAN YOUR VISIT"
+      ],
+      "ids": [
+        "24889"
+      ],
+      "index": 3,
+      "sourceBounds": {
+        "height": 143.40000915527344,
+        "width": 1536,
+        "x": 0,
+        "y": 776.7750244140625
+      },
+      "viewportBounds": {
+        "height": 143.40000915527344,
+        "width": 1536,
+        "x": 0,
+        "y": 776.7750244140625
+      }
+    },
+    {
+      "classes": [
+        "section-food-j---counter-menu-25142"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "AT THE COUNTER."
+      ],
+      "ids": [
+        "25142"
+      ],
+      "index": 4,
+      "sourceBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      },
+      "viewportBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      }
+    },
+    {
+      "classes": [
+        "section-private-parties-j---group-booking-desk-25143"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "YOUR SCREEN. YOUR OCCASION.",
+        "Birthdays & celebrations",
+        "Private screenings",
+        "Team & company gatherings"
+      ],
+      "ids": [
+        "25143"
+      ],
+      "index": 5,
+      "sourceBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      },
+      "viewportBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      }
+    },
+    {
+      "classes": [
+        "section-membership-j---box-office-pass-25144"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "KEEP CINEMA ON THE CALENDAR.",
+        "Find your next good reason to return.",
+        "YOURCINEMAROUTINE."
+      ],
+      "ids": [
+        "25144"
+      ],
+      "index": 6,
+      "sourceBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      },
+      "viewportBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      }
+    },
+    {
+      "classes": [
+        "section-contact-j---enquiry-desk-25145"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "CONTACT THE BOX OFFICE."
+      ],
+      "ids": [
+        "25145"
+      ],
+      "index": 7,
+      "sourceBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      },
+      "viewportBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      }
+    }
+  ],
+  "blockers": [],
+  "clips": [
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 132,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "24885"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-j-intro-24885 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24885",
+          "selector": ".page-variant-j-box-office-5913 .section-j-intro-24885"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1815,
+        "width": 1536,
+        "x": 0,
+        "y": 920
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1265.625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1445.2625732421875
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1626.862548828125
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1879.300048828125
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/idiojv2s2nx8q53tcq6ojjxsfztb?w=600&h=374&fit=crop&fill=solid&fill-color=954f1a&bg=954f1a&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 2131.737548828125
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25142"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-food section-food-j---counter-menu-25142 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25142",
+          "selector": ".page-variant-j-box-office-5913 .section-food-j---counter-menu-25142"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 773,
+        "width": 1536,
+        "x": 0,
+        "y": 2734
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25143"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-private-parties section-private-parties-j---group-booking-desk-25143 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25143",
+          "selector": ".page-variant-j-box-office-5913 .section-private-parties-j---group-booking-desk-25143"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 700,
+        "width": 1536,
+        "x": 0,
+        "y": 3506
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25144"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-membership section-membership-j---box-office-pass-25144 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25144",
+          "selector": ".page-variant-j-box-office-5913 .section-membership-j---box-office-pass-25144"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 800,
+        "width": 1536,
+        "x": 0,
+        "y": 4205
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25145"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-contact section-contact-j---enquiry-desk-25145 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25145",
+          "selector": ".page-variant-j-box-office-5913 .section-contact-j---enquiry-desk-25145"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      }
+    }
+  ],
+  "currentURL": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+  "devicePixelRatio": 1.25,
+  "document": {
+    "clientWidth": 1536,
+    "scrollHeight": 5290,
+    "scrollWidth": 1536
+  },
+  "nativePalette": {
+    "background": "#fbefe2",
+    "dark": "#38264a",
+    "primary": "#e06b4a",
+    "secondary": "#c4553a"
+  },
+  "observedAt": "2026-10-25T19:49:57.387Z",
+  "pageClass": "page-variant-j-box-office-5913",
+  "pageId": "5913",
+  "renderedSectionCount": 8,
+  "safety": "Read-only DOM and computed geometry; no scroll, click, CSS change, fixture, network request, private app state or automatic semantic approval.",
+  "schema": "fd-native-capture-dom-observation/v1",
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "sourceState": "requires-root-published-route-verification",
+  "variant": "variant-j-box-office",
+  "viewport": {
+    "height": 639,
+    "width": 1536
+  },
+  "visualViewportScale": 1
+}

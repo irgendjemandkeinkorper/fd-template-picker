@@ -1,0 +1,1375 @@
+/* ==========================================================================
+   VARIANT E · GRID — "corporate / modern"              (page-level Custom CSS)
+   Paste into Pages → Variant E Grid → page settings → Custom CSS.
+   INDY prefixes every rule with .page-variant-e-grid-<id>; nothing leaks.
+
+   A product, not a venue: 12-column grid, uniform cards, one filled button
+   per view, Jost only, 8px rhythm, hairlines instead of shadows.
+
+   COLOURS
+   1 BASE TOKENS read Theme & Style (--q-*). This persona reads Dark as the
+     ground and Background as the text colour, on purpose.
+   2 DEMO PALETTE is a test-site override. Delete on a customer site.
+   3 DERIVED TOKENS are computed. Do not edit.
+   ========================================================================== */
+
+/* 1 · BASE TOKENS — keyed to Theme & Style */
+[class*="section-"] {
+  --v-ground:  var(--q-dark);        /* page ground          ← Dark */
+  --v-text:    var(--q-background);  /* text                 ← Background */
+  --v-brand:   var(--q-primary);     /* the one filled button← Primary */
+  --v-brand-2: var(--q-secondary);   /* highlight outline    ← Secondary */
+  --v-ok:      var(--q-accent);      /* status dot: showing  ← Accent */
+  --v-warn:    var(--q-warning);     /* status dot: few left ← Warning */
+}
+
+/* 2 · DEMO PALETTE — Adam Template Testing 2 only. Delete on a customer site. */
+[class*="section-"] {
+  --v-ground:  #0E0E11;
+  --v-text:    #F5F0E6;
+  --v-brand:   #BF9B45;
+  --v-brand-2: #D4B36A;
+  --v-ok:      #5C8A6B;
+  --v-warn:    #C08A3E;
+}
+
+/* 3 · DERIVED TOKENS — computed, do not edit */
+[class*="section-"] {
+  --v-card:      color-mix(in oklab, var(--v-text) 5%, var(--v-ground));
+  --v-input:     color-mix(in oklab, var(--v-text) 9%, var(--v-ground));
+  --v-line:      color-mix(in oklab, var(--v-text) 12%, transparent);
+  --v-line-soft: color-mix(in oklab, var(--v-text) 22%, transparent);
+  --v-muted:     color-mix(in oklab, var(--v-text) 62%, var(--v-ground));
+  --v-faint:     color-mix(in oklab, var(--v-text) 42%, var(--v-ground));
+  --v-on-brand:  var(--v-ground);
+  --v-ui:        "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --v-ease:      cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ---- shared ground ---- */
+[class*="section-"] {
+  background-color: var(--v-ground);
+  color: var(--v-text);
+  font-family: var(--v-ui);
+  overflow-x: clip;
+}
+[class*="section-"] *,
+[class*="section-"] *::before,
+[class*="section-"] *::after {
+  box-sizing: border-box;
+}
+[class*="section-"] :is(h1, h2, h3, h4, .text-h2, .text-h5, .title) {
+  font-family: var(--v-ui) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.2;
+  text-transform: none !important;
+  color: var(--v-text);
+}
+/* the 1200 content column */
+[class*="section-"] .gr-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* buttons: brass fill is the only filled control; everything else outline */
+[class*="section-"] .gr-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--v-line-soft);
+  border-radius: 2px;
+  font-family: var(--v-ui);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--v-text);
+  text-decoration: none;
+  transition: border-color 120ms var(--v-ease), background-color 120ms var(--v-ease);
+}
+[class*="section-"] .gr-btn:hover {
+  border-color: var(--v-text);
+}
+[class*="section-"] .gr-btn--primary {
+  background: var(--v-brand);
+  border-color: var(--v-brand);
+  color: var(--v-on-brand);
+}
+/* every widget's primary button gets the same treatment */
+[class*="section-"] :is(a, button).q-btn.bg-primary {
+  min-height: 44px !important;
+  padding: 0 18px !important;
+  background: var(--v-brand) !important;
+  color: var(--v-on-brand) !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+[class*="section-"] :is(a, button).q-btn.bg-primary :is(.q-btn__content, span) {
+  color: var(--v-on-brand) !important;
+}
+[class*="section-"] button.q-btn.q-btn--outline {
+  min-height: 44px !important;
+  border: 1px solid var(--v-line-soft) !important;
+  border-radius: 2px !important;
+  color: var(--v-text) !important;
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+[class*="section-"] button.q-btn.q-btn--outline :is(.q-btn__content, span) {
+  color: var(--v-text) !important;
+}
+
+/* ==========================================================================
+   HERO E · PRODUCT PANEL  (Generic Carousel)
+   440px slide inside the 1200 column; an opaque card sits left with status
+   line (Subtitle), title, and the brass button. Dots are bars bottom-right,
+   arrows are 40px outline squares. The card never moves between slides.
+   ========================================================================== */
+[class*="section-hero-e---product-panel-"] {
+  padding: 32px 32px 0;
+}
+[class*="section-hero-e---product-panel-"] [data-test-id="generic-carousel"] {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[class*="section-hero-e---product-panel-"] .swiper-slide .row.justify-center.position-relative {
+  height: 440px !important;
+  min-height: 0 !important;
+  overflow: hidden;
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-hero-e---product-panel-"] img.full-width {
+  width: 100% !important;
+  height: 440px !important;
+  object-fit: cover;
+}
+[class*="section-hero-e---product-panel-"] .flex.absolute-bottom {
+  inset: 0 auto 0 0 !important;
+  width: auto;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center;
+  padding: 24px !important;
+  background: transparent !important;
+}
+[class*="section-hero-e---product-panel-"] .flex.absolute-bottom .container {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+[class*="section-hero-e---product-panel-"] .col.message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  max-width: 100%;
+  padding: 24px !important;
+  background: var(--v-card) !important;
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+  text-align: left !important;
+}
+/* Subtitle = the status line ("Now showing · PG-13 · 118 min"), with a dot */
+[class*="section-hero-e---product-panel-"] .subtitle {
+  order: -1;
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px !important;
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: var(--v-muted) !important;
+  text-shadow: none !important;
+}
+[class*="section-hero-e---product-panel-"] .subtitle::before {
+  content: "";
+  flex: 0 0 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--v-ok);
+}
+[class*="section-hero-e---product-panel-"] .subtitle:empty {
+  display: none !important;
+}
+[class*="section-hero-e---product-panel-"] .title {
+  margin: 0 0 16px !important;
+  font-size: 40px !important;
+  line-height: 1.15 !important;
+  color: var(--v-text) !important;
+  text-shadow: none !important;
+}
+[class*="section-hero-e---product-panel-"] .swiper-pagination {
+  left: auto !important;
+  right: 24px !important;
+  bottom: 16px !important;
+  width: auto !important;
+}
+[class*="section-hero-e---product-panel-"] .swiper-pagination-bullet {
+  width: 24px !important;
+  height: 3px !important;
+  margin: 0 3px !important;
+  border-radius: 0 !important;
+  background: color-mix(in oklab, var(--v-text) 35%, transparent) !important;
+  opacity: 1 !important;
+}
+[class*="section-hero-e---product-panel-"] .swiper-pagination-bullet-active {
+  background: var(--v-text) !important;
+}
+[class*="section-hero-e---product-panel-"] :is(.swiper-button-prev, .swiper-button-next) {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  background: color-mix(in oklab, var(--v-ground) 60%, transparent);
+  border: 1px solid var(--v-line-soft);
+  border-radius: 2px;
+  color: var(--v-text) !important;
+  text-shadow: none !important;
+}
+[class*="section-hero-e---product-panel-"] :is(.swiper-button-prev, .swiper-button-next)::after {
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   HERO E · QUICK SELECTOR  (Showtime Quick Selector widget)
+   One row of selects and a brass search button, in a card under the hero.
+   The widget's DOM was not inspected on this site: QA this section first.
+   ========================================================================== */
+[class*="section-hero-e---quick-selector-"] {
+  padding: 16px 32px 48px;
+}
+[class*="section-hero-e---quick-selector-"] > * {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[class*="section-hero-e---quick-selector-"] :is(.q-card, form) {
+  padding: 16px !important;
+  background: var(--v-card) !important;
+  border: 1px solid var(--v-line);
+  border-radius: 3px !important;
+  box-shadow: none !important;
+}
+[class*="section-hero-e---quick-selector-"] .row {
+  align-items: center;
+  gap: 12px;
+}
+[class*="section-hero-e---quick-selector-"] .q-field__control {
+  min-height: 44px !important;
+  background: var(--v-input) !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  color: var(--v-text) !important;
+}
+[class*="section-hero-e---quick-selector-"] .q-field__control::before,
+[class*="section-hero-e---quick-selector-"] .q-field__control::after {
+  display: none !important;
+}
+[class*="section-hero-e---quick-selector-"] :is(.q-field__label, .q-field__native, .q-select__dropdown-icon, .q-icon, .q-field__input) {
+  font-family: var(--v-ui) !important;
+  color: var(--v-text) !important;
+}
+[class*="section-hero-e---quick-selector-"] .q-field__label {
+  color: var(--v-muted) !important;
+}
+[class*="section-hero-e---quick-selector-"] .q-btn:not(.q-btn--outline):not(.q-btn--flat) {
+  min-height: 44px !important;
+  background: var(--v-brand) !important;
+  color: var(--v-on-brand) !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-family: var(--v-ui) !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+[class*="section-hero-e---quick-selector-"] .q-btn:not(.q-btn--outline):not(.q-btn--flat) :is(.q-btn__content, span) {
+  color: var(--v-on-brand) !important;
+}
+
+/* ==========================================================================
+   NOW PLAYING E · SCHEDULE TABLE  (Showtimes widget, list)
+   Uniform rows, 56px poster, title 20/500, times as outline chips.
+   ========================================================================== */
+[class*="section-now-playing-e---schedule-table-"] {
+  padding: 48px 32px 64px;
+}
+[class*="section-now-playing-e---schedule-table-"] .heading.container {
+  max-width: 1200px !important;
+  padding: 0 !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .heading .row.text-center {
+  justify-content: flex-start !important;
+  text-align: left !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .text-primary {
+  color: var(--v-text) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .text-h2 {
+  font-size: 28px !important;
+  text-align: left !important;
+}
+/* date filter as a segmented control */
+[class*="section-now-playing-e---schedule-table-"] .date-selector-list {
+  display: inline-flex !important;
+  justify-content: flex-start !important;
+  border: 1px solid var(--v-line-soft);
+  border-radius: 2px;
+  overflow: hidden;
+}
+[class*="section-now-playing-e---schedule-table-"] .date-btn {
+  min-width: 72px !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-right: 1px solid var(--v-line) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .date-btn:last-child {
+  border-right: 0 !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .date-btn * {
+  font-family: var(--v-ui) !important;
+  font-size: 13px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .date-btn.active {
+  background: var(--v-input) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .date-btn.active * {
+  color: var(--v-text) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .date-btn i.material-icons,
+[class*="section-now-playing-e---schedule-table-"] .date-btn .q-icon {
+  font-family: "Material Icons" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+}
+/* rows */
+[class*="section-now-playing-e---schedule-table-"] [data-test-id="showtimes-by-film"] {
+  max-width: 1200px;
+  margin: 16px auto 0;
+  border-top: 1px solid var(--v-line);
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border-bottom: 1px solid var(--v-line) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container > .absolute-full {
+  display: none !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container > .row.container {
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 24px;
+  padding: 16px 0 !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container > .row.container > a:first-child {
+  flex: 0 0 56px !important;
+  width: 56px !important;
+  max-width: 56px !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container .q-img {
+  height: 80px !important;
+  padding-bottom: 0 !important;
+  border-radius: 2px !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container .text-h5 {
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  color: var(--v-text) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .movie-container :is(.text-body2, .text-caption, p) {
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .showings .q-btn {
+  min-height: 36px !important;
+  margin: 4px 8px 4px 0 !important;
+  padding: 0 12px !important;
+  background: transparent !important;
+  border: 1px solid var(--v-line-soft) !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  color: var(--v-text) !important;
+  transition: border-color 120ms var(--v-ease);
+}
+[class*="section-now-playing-e---schedule-table-"] .showings .q-btn:hover {
+  border-color: var(--v-text) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .showings .q-btn :is(.q-btn__content, span) {
+  color: var(--v-text) !important;
+}
+[class*="section-now-playing-e---schedule-table-"] .no-schedule-message {
+  max-width: 1200px;
+  margin: 16px auto !important;
+  padding: 40px 24px !important;
+  background: var(--v-card);
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-now-playing-e---schedule-table-"] .no-schedule-message :is(.q-icon, .message) {
+  color: var(--v-muted) !important;
+  font-family: var(--v-ui) !important;
+}
+
+/* ==========================================================================
+   EVENTS E · PACKAGES  (Rich Text, sections/04-events-e-packages.html)
+   Three package cards, the middle one outlined and carrying the page's
+   only brass button, then a <details> FAQ.
+   ========================================================================== */
+[class*="section-events-e---packages-"] {
+  padding: 64px 32px;
+}
+[class*="section-events-e---packages-"] .gr-pack__intro {
+  max-width: 640px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+[class*="section-events-e---packages-"] .gr-pack__intro h2 {
+  margin: 0 0 8px;
+  font-size: 40px;
+}
+[class*="section-events-e---packages-"] .gr-pack__intro p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--v-muted);
+}
+[class*="section-events-e---packages-"] .gr-pack__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+[class*="section-events-e---packages-"] .gr-pack__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--v-card);
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-events-e---packages-"] .gr-pack__card--best {
+  border: 2px solid var(--v-brand-2);
+}
+[class*="section-events-e---packages-"] .gr-pack__badge {
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  margin: 0;
+  padding: 2px 10px;
+  background: var(--v-brand-2);
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--v-on-brand);
+}
+[class*="section-events-e---packages-"] .gr-pack__name {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 500;
+}
+[class*="section-events-e---packages-"] .gr-pack__price {
+  margin: 0 0 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+[class*="section-events-e---packages-"] .gr-pack__price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--v-muted);
+}
+[class*="section-events-e---packages-"] .gr-pack__list {
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+  flex: 1 1 auto;
+}
+[class*="section-events-e---packages-"] .gr-pack__list li {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid var(--v-line);
+  font-size: 14px;
+  line-height: 1.5;
+}
+[class*="section-events-e---packages-"] .gr-pack__list li::before {
+  content: "✓";
+  flex: 0 0 auto;
+  color: var(--v-ok);
+}
+[class*="section-events-e---packages-"] .gr-faq {
+  max-width: 760px;
+  margin: 64px auto 0;
+}
+[class*="section-events-e---packages-"] .gr-faq h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+[class*="section-events-e---packages-"] .gr-faq details {
+  border-top: 1px solid var(--v-line);
+}
+[class*="section-events-e---packages-"] .gr-faq details:last-child {
+  border-bottom: 1px solid var(--v-line);
+}
+[class*="section-events-e---packages-"] .gr-faq summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  cursor: pointer;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+[class*="section-events-e---packages-"] .gr-faq summary::-webkit-details-marker {
+  display: none;
+}
+[class*="section-events-e---packages-"] .gr-faq summary::after {
+  content: "+";
+  font-size: 20px;
+  color: var(--v-muted);
+}
+[class*="section-events-e---packages-"] .gr-faq details[open] summary::after {
+  content: "–";
+}
+[class*="section-events-e---packages-"] .gr-faq details p {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--v-muted);
+}
+
+/* ==========================================================================
+   FOOD E · CATALOGUE  (Concessions Menu, grid, 4-up)
+   Sidebar list rail, 4:3 images on top of uniform cards, footer row with
+   price left and the add control right. Reads as e-commerce.
+   ========================================================================== */
+[class*="section-food-e---catalogue-"] {
+  padding: 48px 32px 64px;
+}
+[class*="section-food-e---catalogue-"] .container {
+  max-width: 1200px !important;
+  padding: 0 !important;
+}
+[class*="section-food-e---catalogue-"] .container .row {
+  justify-content: flex-start !important;
+}
+[class*="section-food-e---catalogue-"] .container h2 {
+  font-size: 28px !important;
+  text-align: left !important;
+  color: var(--v-text) !important;
+}
+[class*="section-food-e---catalogue-"] .text-body1 {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  text-align: left !important;
+  font-size: 14px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-food-e---catalogue-"] .full-width.q-py-md.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 24px;
+}
+/* sidebar rail */
+[class*="section-food-e---catalogue-"] .col-2 {
+  flex: 0 0 216px !important;
+  width: 216px !important;
+  max-width: 216px !important;
+  padding: 0 !important;
+}
+[class*="section-food-e---catalogue-"] .category-filter-column {
+  position: sticky !important;
+  top: 104px;
+  height: auto !important;
+}
+[class*="section-food-e---catalogue-"] :is(.q-scrollarea__container, .q-scrollarea__content) {
+  position: static !important;
+  height: auto !important;
+}
+[class*="section-food-e---catalogue-"] :is(.q-scrollarea__bar, .q-scrollarea__thumb) {
+  display: none !important;
+}
+[class*="section-food-e---catalogue-"] .category-filter-column .q-btn {
+  width: 100% !important;
+  min-height: 40px !important;
+  padding: 0 12px !important;
+  justify-content: flex-start;
+  background: transparent !important;
+  border-radius: 2px !important;
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  color: var(--v-muted) !important;
+  transition: background-color 120ms var(--v-ease);
+}
+[class*="section-food-e---catalogue-"] .category-filter-column .q-btn :is(.q-btn__content, span) {
+  color: var(--v-muted) !important;
+  justify-content: flex-start !important;
+}
+[class*="section-food-e---catalogue-"] .category-filter-column .q-btn:hover {
+  background: var(--v-card) !important;
+}
+[class*="section-food-e---catalogue-"] .category-filter-column .q-btn:is(.active, .q-btn--active, [aria-pressed="true"]) {
+  background: var(--v-input) !important;
+}
+[class*="section-food-e---catalogue-"] .category-filter-column .q-btn:is(.active, .q-btn--active, [aria-pressed="true"]) :is(.q-btn__content, span) {
+  color: var(--v-text) !important;
+}
+[class*="section-food-e---catalogue-"] .col-12.col-md-10 {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: none !important;
+}
+/* category heading with a hairline */
+[class*="section-food-e---catalogue-"] .concessions-menu-category-sections-root .text-bold > p {
+  margin: 40px 0 16px !important;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--v-line);
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: var(--v-text) !important;
+}
+[class*="section-food-e---catalogue-"] .concessions-menu-category-sections-root > div:first-child .text-bold > p {
+  margin-top: 0 !important;
+}
+/* cards */
+[class*="section-food-e---catalogue-"] .row.justify-start.items-stretch {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+[class*="section-food-e---catalogue-"] .q-card.q-card--bordered {
+  display: flex;
+  flex-direction: column;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  background: var(--v-card) !important;
+  border: 1px solid var(--v-line) !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  transition: border-color 120ms var(--v-ease);
+}
+[class*="section-food-e---catalogue-"] .q-card.q-card--bordered:hover {
+  border-color: var(--v-line-soft) !important;
+}
+[class*="section-food-e---catalogue-"] .q-card .q-mt-md.q-mx-md {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin: 0 !important;
+}
+[class*="section-food-e---catalogue-"] .q-img.q-img--menu {
+  aspect-ratio: 4 / 3;
+  height: auto !important;
+  padding-bottom: 0 !important;
+  border-radius: 3px 3px 0 0 !important;
+}
+[class*="section-food-e---catalogue-"] .q-img img {
+  object-fit: cover;
+}
+[class*="section-food-e---catalogue-"] .q-card .q-card__section {
+  flex: 1 1 auto;
+  padding: 16px !important;
+}
+[class*="section-food-e---catalogue-"] .q-card .text-subtitle2 .col-auto.text-weight-bold {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: var(--v-text) !important;
+}
+[class*="section-food-e---catalogue-"] .q-card .opacity-80 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin-top: 4px !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  color: var(--v-muted) !important;
+  opacity: 1 !important;
+}
+[class*="section-food-e---catalogue-"] .q-card .row.items-center.justify-between {
+  margin-top: 16px !important;
+  padding-top: 12px;
+  border-top: 1px solid var(--v-line);
+}
+[class*="section-food-e---catalogue-"] .q-card .row.items-center.justify-between .col.text-weight-regular {
+  font-size: 14px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-food-e---catalogue-"] .q-card .row.items-center.justify-between span {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: var(--v-text) !important;
+}
+[class*="section-food-e---catalogue-"] .q-card .q-btn {
+  min-width: 32px !important;
+  min-height: 32px !important;
+  padding: 0 10px !important;
+  background: transparent !important;
+  border: 1px solid var(--v-line-soft) !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  color: var(--v-text) !important;
+  font-size: 14px !important;
+}
+
+/* ==========================================================================
+   CONTACT E · SUPPORT PANEL  (Generic Form)  +  CONTACT E · CHANNELS (Rich Text)
+   Form in a card: name and email side by side, message 160px, brass send.
+   The channels section follows with three info cards and the response note.
+   ========================================================================== */
+[class*="section-contact-e---support-panel-"] {
+  padding: 64px 32px 0;
+}
+[class*="section-contact-e---support-panel-"] .q-card {
+  background: transparent !important;
+}
+[class*="section-contact-e---support-panel-"] form.q-form {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 24px !important;
+  background: var(--v-card) !important;
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-contact-e---support-panel-"] .q-card__section:first-child {
+  padding: 0 0 16px !important;
+}
+[class*="section-contact-e---support-panel-"] .q-card__section .container .row {
+  justify-content: flex-start !important;
+}
+[class*="section-contact-e---support-panel-"] .text-h2 {
+  margin: 0 !important;
+  font-size: 28px !important;
+  text-align: left !important;
+  color: var(--v-text) !important;
+}
+[class*="section-contact-e---support-panel-"] .q-card__section.row.q-col-gutter-md {
+  margin: 0 -12px !important;
+  padding: 0 !important;
+}
+[class*="section-contact-e---support-panel-"] .q-card__section.row.q-col-gutter-md > :is(.col-6, .col-12) {
+  padding: 0 12px 16px !important;
+}
+[class*="section-contact-e---support-panel-"] .q-field__control {
+  min-height: 44px !important;
+  padding: 0 12px !important;
+  background: var(--v-input) !important;
+  border: 1px solid var(--v-line);
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  color: var(--v-text) !important;
+  transition: border-color 120ms var(--v-ease);
+}
+[class*="section-contact-e---support-panel-"] .q-field__control.bg-white {
+  background: var(--v-input) !important;
+}
+[class*="section-contact-e---support-panel-"] .q-field--focused .q-field__control {
+  border-color: var(--v-brand-2);
+}
+[class*="section-contact-e---support-panel-"] .q-field__control::before,
+[class*="section-contact-e---support-panel-"] .q-field__control::after {
+  display: none !important;
+}
+[class*="section-contact-e---support-panel-"] .q-field__label {
+  font-family: var(--v-ui) !important;
+  font-size: 14px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-contact-e---support-panel-"] :is(.q-field__native, input, textarea) {
+  font-family: var(--v-ui) !important;
+  font-size: 16px !important;
+  color: var(--v-text) !important;
+}
+[class*="section-contact-e---support-panel-"] .col-12 textarea {
+  min-height: 160px;
+}
+[class*="section-contact-e---support-panel-"] .q-field__bottom {
+  font-family: var(--v-ui) !important;
+  font-size: 12px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-contact-e---support-panel-"] .q-card__section.row.items-center.justify-center {
+  justify-content: flex-start !important;
+  padding: 0 !important;
+}
+
+[class*="section-contact-e---channels-"] {
+  padding: 24px 32px 64px;
+}
+[class*="section-contact-e---channels-"] .gr-ch {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[class*="section-contact-e---channels-"] .gr-ch__note {
+  margin: 0 0 16px;
+  font-size: 14px;
+  color: var(--v-muted);
+}
+[class*="section-contact-e---channels-"] .gr-ch__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+[class*="section-contact-e---channels-"] .gr-ch__card {
+  padding: 20px 24px;
+  background: var(--v-card);
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-contact-e---channels-"] .gr-ch__icon {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: var(--v-brand);
+}
+[class*="section-contact-e---channels-"] .gr-ch__label {
+  margin: 0 0 4px;
+  font-size: 12px;
+  color: var(--v-muted);
+}
+[class*="section-contact-e---channels-"] .gr-ch__value {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+[class*="section-contact-e---channels-"] .gr-ch__value a {
+  color: var(--v-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--v-line-soft);
+}
+[class*="section-contact-e---channels-"] .gr-ch__meta {
+  margin: 0;
+  font-size: 14px;
+  color: var(--v-muted);
+}
+
+/* ==========================================================================
+   FIND US E · LOCATION CARD  (Rich Text, sections/08-find-us-e-location-card.html)
+   ========================================================================== */
+[class*="section-find-us-e---location-card-"] {
+  padding: 64px 32px;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__map {
+  overflow: hidden;
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  border: 0;
+  filter: grayscale(1) invert(0.9) contrast(0.9);
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__card {
+  padding: 24px;
+  background: var(--v-card);
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__label {
+  margin: 0 0 4px;
+  font-size: 12px;
+  color: var(--v-muted);
+}
+[class*="section-find-us-e---location-card-"] .gr-loc h2 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__addr {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--v-muted);
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__rows {
+  margin: 0 0 24px;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__rows > div {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--v-line);
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__rows dt {
+  font-size: 14px;
+  color: var(--v-muted);
+}
+[class*="section-find-us-e---location-card-"] .gr-loc__rows dd {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   MEMBERSHIP E · TIERS  (Rich Text, sections/09-membership-e-tiers.html)
+   ========================================================================== */
+[class*="section-membership-e---tiers-"] {
+  padding: 64px 32px;
+}
+[class*="section-membership-e---tiers-"] .gr-mem {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__intro {
+  max-width: 640px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__intro h2 {
+  margin: 0 0 8px;
+  font-size: 40px;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__intro p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--v-muted);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--v-card);
+  border: 1px solid var(--v-line);
+  border-radius: 3px;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__card--best {
+  border: 2px solid var(--v-brand-2);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__badge {
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  margin: 0;
+  padding: 2px 10px;
+  background: var(--v-brand-2);
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--v-on-brand);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__name {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 500;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__price {
+  margin: 0 0 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--v-muted);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__list {
+  flex: 1 1 auto;
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__list li {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid var(--v-line);
+  font-size: 14px;
+  line-height: 1.5;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__list li::before {
+  content: "✓";
+  color: var(--v-ok);
+}
+/* comparison table */
+[class*="section-membership-e---tiers-"] .gr-mem__table {
+  width: 100%;
+  margin-top: 48px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+[class*="section-membership-e---tiers-"] .gr-mem__table th,
+[class*="section-membership-e---tiers-"] .gr-mem__table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-top: 1px solid var(--v-line);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__table th {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--v-muted);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__table td:not(:first-child) {
+  color: var(--v-muted);
+}
+[class*="section-membership-e---tiers-"] .gr-mem__table .is-ok::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--v-ok);
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   GIFT CARDS E · PANEL  (Gift Card Sales widget)
+   ========================================================================== */
+[class*="section-gift-cards-e---panel-"] {
+  padding: 0 32px 80px;
+}
+[class*="section-gift-cards-e---panel-"] .q-card {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 24px !important;
+  background: var(--v-card) !important;
+  border: 1px solid var(--v-line);
+  border-radius: 3px !important;
+}
+[class*="section-gift-cards-e---panel-"] .q-card__section {
+  padding: 8px 0 !important;
+}
+[class*="section-gift-cards-e---panel-"] .text-h2 {
+  font-size: 28px !important;
+  color: var(--v-text) !important;
+}
+[class*="section-gift-cards-e---panel-"] .text-body1 {
+  max-width: 64ch;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-gift-cards-e---panel-"] .text-caption {
+  font-size: 12px !important;
+  color: var(--v-muted) !important;
+}
+[class*="section-gift-cards-e---panel-"] .q-card__section .col > div:not(.text-caption),
+[class*="section-gift-cards-e---panel-"] .text-h6 {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: var(--v-text) !important;
+}
+[class*="section-gift-cards-e---panel-"] .q-card__section.justify-between {
+  margin-top: 16px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid var(--v-line);
+}
+[class*="section-gift-cards-e---panel-"] button.q-btn.bg-primary.disabled {
+  opacity: 0.45;
+}
+
+/* ==========================================================================
+   MOBILE
+   ========================================================================== */
+@media (max-width: 1023px) {
+  [class*="section-"] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  [class*="section-hero-e---product-panel-"] .swiper-slide .row.justify-center.position-relative {
+    height: auto !important;
+    border-radius: 3px;
+  }
+  [class*="section-hero-e---product-panel-"] img.full-width {
+    height: 200px !important;
+  }
+  [class*="section-hero-e---product-panel-"] .flex.absolute-bottom {
+    position: static !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+  [class*="section-hero-e---product-panel-"] .col.message {
+    width: 100%;
+    border-top: 0;
+    border-radius: 0 0 3px 3px;
+  }
+  [class*="section-hero-e---product-panel-"] .title {
+    font-size: 28px !important;
+  }
+  [class*="section-hero-e---product-panel-"] .col.message .q-btn {
+    width: 100%;
+  }
+  [class*="section-hero-e---product-panel-"] .swiper-pagination {
+    bottom: auto !important;
+    top: 184px;
+  }
+  [class*="section-hero-e---quick-selector-"] .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  [class*="section-now-playing-e---schedule-table-"] .date-selector-list {
+    display: flex !important;
+    overflow-x: auto;
+  }
+  [class*="section-events-e---packages-"] .gr-pack__grid,
+  [class*="section-contact-e---channels-"] .gr-ch__grid,
+  [class*="section-find-us-e---location-card-"] .gr-loc,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid {
+    grid-template-columns: 1fr;
+  }
+  [class*="section-events-e---packages-"] .gr-pack__card--best,
+  [class*="section-membership-e---tiers-"] .gr-mem__card--best {
+    order: -1;
+  }
+  [class*="section-food-e---catalogue-"] .full-width.q-py-md.row {
+    flex-direction: column;
+    gap: 0;
+  }
+  [class*="section-food-e---catalogue-"] .col-2 {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-bottom: 16px !important;
+  }
+  [class*="section-food-e---catalogue-"] .category-filter-column {
+    position: static !important;
+  }
+  [class*="section-food-e---catalogue-"] .q-scrollarea__content {
+    display: flex !important;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+  [class*="section-food-e---catalogue-"] .q-scrollarea__content > .full-width {
+    width: auto !important;
+  }
+  [class*="section-food-e---catalogue-"] .category-filter-column .q-btn {
+    width: auto !important;
+    padding: 0 14px !important;
+    border: 1px solid var(--v-line-soft) !important;
+    white-space: nowrap;
+  }
+  [class*="section-food-e---catalogue-"] .col-12.col-md-10 {
+    width: 100% !important;
+  }
+  [class*="section-food-e---catalogue-"] .row.justify-start.items-stretch {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  [class*="section-contact-e---support-panel-"] .q-card__section.row.q-col-gutter-md > .col-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  [class*="section-find-us-e---location-card-"] .gr-loc__map iframe {
+    min-height: 240px;
+  }
+  [class*="section-membership-e---tiers-"] .gr-mem__table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="section-"] * {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 2026-10-20 QA correction: current carousel DOM + Material Icons */
+[class*="section-"] :is(.q-icon, .material-icons, .material-symbols-outlined) {
+  font-family: "Material Icons" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+}
+[class*="section-hero-e---product-panel-"] .flex.absolute-full {
+  inset: 0 auto 0 0 !important;
+  width: auto !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 24px !important;
+  background: transparent !important;
+}
+[class*="section-hero-e---product-panel-"] .flex.absolute-full > .container {
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+@media (max-width: 1023px) {
+  [class*="section-hero-e---product-panel-"] .swiper-slide .row.justify-center.position-relative {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 200px !important;
+    background-size: 100% 200px !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--v-ground) !important;
+  }
+  [class*="section-hero-e---product-panel-"] .flex.absolute-full {
+    position: static !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 0 !important;
+    align-items: stretch !important;
+  }
+  [class*="section-hero-e---product-panel-"] .flex.absolute-full > .container {
+    width: 100% !important;
+  }
+}
+
+/* 2026-10-23 QA correction: INDY mobile preview hero containment */
+[class*="section-hero-e---product-panel-"] .col.message:has(.mobile-hero-title) {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 20px !important;
+}
+[class*="section-hero-e---product-panel-"] .mobile-hero-title {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 12px !important;
+  font-size: 28px !important;
+  line-height: 1.15 !important;
+  overflow-wrap: anywhere !important;
+}
+[class*="section-hero-e---product-panel-"] .mobile-hero-subtitle {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 8px !important;
+  font-size: 13px !important;
+}
+[class*="section-hero-e---product-panel-"] .mobile-hero-title ~ .q-my-md {
+  width: 100% !important;
+  margin: 8px 0 0 !important;
+}
+[class*="section-hero-e---product-panel-"] .mobile-hero-title ~ .q-my-md .q-btn {
+  width: 100% !important;
+}
+
+/* 2026-10-25 · Variant E rich-text indentation repair.
+   Append to this page's Custom CSS only. INDY supplies the page scope.
+   The saved HTML contains NBSP-only indentation text nodes. In grid/flex
+   containers those become anonymous layout items. Keep the existing visual
+   tokens, cards, copy, links and breakpoints; let only real elements space out.
+   Alternative preferred repair: normalize indentation-only text nodes in the
+   four affected HTML bodies, then retain the original CSS without this patch.
+*/
+
+/* Zero-size the non-content indentation; preserve normal child typography.
+   :where() keeps these defaults below the existing per-component type rules. */
+[class*="section-events-e---packages-"] :where(.gr-pack, .gr-pack__intro, .gr-pack__grid, .gr-pack__card, .gr-pack__list, .gr-faq, .gr-faq details) > *,
+[class*="section-contact-e---channels-"] :where(.gr-ch, .gr-ch__grid, .gr-ch__card) > *,
+[class*="section-find-us-e---location-card-"] :where(.gr-loc, .gr-loc__map, .gr-loc__card, .gr-loc__rows) > *,
+[class*="section-membership-e---tiers-"] :where(.gr-mem, .gr-mem__intro, .gr-mem__grid, .gr-mem__card, .gr-mem__list) > * {
+  font-size: 16px;
+  line-height: 1.5;
+}
+[class*="section-events-e---packages-"] :where(.gr-pack, .gr-pack__intro, .gr-pack__grid, .gr-pack__card, .gr-pack__list, .gr-faq, .gr-faq details),
+[class*="section-contact-e---channels-"] :where(.gr-ch, .gr-ch__grid, .gr-ch__card),
+[class*="section-find-us-e---location-card-"] :where(.gr-loc, .gr-loc__map, .gr-loc__card, .gr-loc__rows),
+[class*="section-membership-e---tiers-"] :where(.gr-mem, .gr-mem__intro, .gr-mem__grid, .gr-mem__card, .gr-mem__list) {
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Flex avoids anonymous grid cells. Its zero-width indentation items need no
+   gap; the real cards retain the original 24px separation and equal widths. */
+[class*="section-events-e---packages-"] .gr-pack__grid,
+[class*="section-contact-e---channels-"] .gr-ch__grid,
+[class*="section-membership-e---tiers-"] .gr-mem__grid {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0;
+}
+[class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card,
+[class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card,
+[class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card {
+  flex: 1 1 0;
+  min-width: 0;
+  margin-right: 24px;
+}
+[class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card:last-child,
+[class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card:last-child,
+[class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card:last-child {
+  margin-right: 0;
+}
+
+[class*="section-find-us-e---location-card-"] .gr-loc {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__map {
+  flex: 2 1 0;
+  min-width: 0;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__card {
+  flex: 1 1 0;
+  min-width: 0;
+  margin-left: 24px;
+}
+
+@media (max-width: 1023px) {
+  [class*="section-events-e---packages-"] .gr-pack__grid,
+  [class*="section-contact-e---channels-"] .gr-ch__grid,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid,
+  [class*="section-find-us-e---location-card-"] .gr-loc {
+    flex-direction: column;
+  }
+  [class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card,
+  [class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card {
+    flex: 0 0 auto;
+    margin: 0 0 24px;
+  }
+  [class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card:last-child,
+  [class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card:last-child,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card:last-child {
+    margin-bottom: 0;
+  }
+  [class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__map,
+  [class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__card {
+    flex: 0 0 auto;
+  }
+  [class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__card {
+    margin: 24px 0 0;
+  }
+}

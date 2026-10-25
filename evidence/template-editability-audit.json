@@ -918,7 +918,7 @@
     {
       "optionId": "header--variant-a-circuit",
       "variant": "variant-a-circuit",
-      "variantLabel": "A · Circuit",
+      "variantLabel": "A \u00c2\u00b7 Circuit",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": 5659,
@@ -949,7 +949,7 @@
     {
       "optionId": "hero--variant-a-circuit",
       "variant": "variant-a-circuit",
-      "variantLabel": "A · Circuit",
+      "variantLabel": "A \u00c2\u00b7 Circuit",
       "section": "hero",
       "sourceName": "Hero A - Showtimes Shelf + Hero A - Shelf",
       "pageId": 5659,
@@ -986,7 +986,7 @@
     {
       "optionId": "food--variant-a-circuit",
       "variant": "variant-a-circuit",
-      "variantLabel": "A · Circuit",
+      "variantLabel": "A \u00c2\u00b7 Circuit",
       "section": "food",
       "sourceName": "Food A - Chip Rail",
       "pageId": 5659,
@@ -1021,7 +1021,7 @@
     {
       "optionId": "events--variant-a-circuit",
       "variant": "variant-a-circuit",
-      "variantLabel": "A · Circuit",
+      "variantLabel": "A \u00c2\u00b7 Circuit",
       "section": "private-parties",
       "sourceName": "Events A - Rate Card",
       "pageId": 5659,
@@ -1056,7 +1056,7 @@
     {
       "optionId": "membership--variant-a-circuit",
       "variant": "variant-a-circuit",
-      "variantLabel": "A · Circuit",
+      "variantLabel": "A \u00c2\u00b7 Circuit",
       "section": "membership",
       "sourceName": "Membership A - Tier Rail",
       "pageId": 5659,
@@ -1091,7 +1091,7 @@
     {
       "optionId": "contact--variant-a-circuit",
       "variant": "variant-a-circuit",
-      "variantLabel": "A · Circuit",
+      "variantLabel": "A \u00c2\u00b7 Circuit",
       "section": "contact",
       "sourceName": "Contact A - Compressed Column",
       "pageId": 5659,
@@ -1126,7 +1126,7 @@
     {
       "optionId": "header--variant-b-rep",
       "variant": "variant-b-rep",
-      "variantLabel": "B · Rep",
+      "variantLabel": "B \u00c2\u00b7 Rep",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5661",
@@ -1155,7 +1155,7 @@
     {
       "optionId": "hero--variant-b-rep",
       "variant": "variant-b-rep",
-      "variantLabel": "B · Rep",
+      "variantLabel": "B \u00c2\u00b7 Rep",
       "section": "hero",
       "sourceName": "Hero B - Plate And Note",
       "pageId": "5661",
@@ -1187,7 +1187,7 @@
     {
       "optionId": "food--variant-b-rep",
       "variant": "variant-b-rep",
-      "variantLabel": "B · Rep",
+      "variantLabel": "B \u00c2\u00b7 Rep",
       "section": "food",
       "sourceName": "Food B - Printed Menu",
       "pageId": "5661",
@@ -1219,7 +1219,7 @@
     {
       "optionId": "events--variant-b-rep",
       "variant": "variant-b-rep",
-      "variantLabel": "B · Rep",
+      "variantLabel": "B \u00c2\u00b7 Rep",
       "section": "private-parties",
       "sourceName": "Private Parties B - Your Own Evening",
       "pageId": "5661",
@@ -1252,7 +1252,7 @@
     {
       "optionId": "membership--variant-b-rep",
       "variant": "variant-b-rep",
-      "variantLabel": "B · Rep",
+      "variantLabel": "B \u00c2\u00b7 Rep",
       "section": "membership",
       "sourceName": "Membership B - Subscriber Bill",
       "pageId": "5661",
@@ -1284,7 +1284,7 @@
     {
       "optionId": "contact--variant-b-rep",
       "variant": "variant-b-rep",
-      "variantLabel": "B · Rep",
+      "variantLabel": "B \u00c2\u00b7 Rep",
       "section": "contact",
       "sourceName": "Contact B - Split Desk",
       "pageId": "5661",
@@ -1316,7 +1316,7 @@
     {
       "optionId": "header--variant-c-late",
       "variant": "variant-c-late",
-      "variantLabel": "C · Late",
+      "variantLabel": "C \u00c2\u00b7 Late",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": 5663,
@@ -1346,7 +1346,7 @@
     {
       "optionId": "hero--variant-c-late",
       "variant": "variant-c-late",
-      "variantLabel": "C · Late",
+      "variantLabel": "C \u00c2\u00b7 Late",
       "section": "hero",
       "sourceName": "Hero C - Marquee + Hero C - Dock",
       "pageId": 5663,
@@ -1379,7 +1379,7 @@
     {
       "optionId": "food--variant-c-late",
       "variant": "variant-c-late",
-      "variantLabel": "C · Late",
+      "variantLabel": "C \u00c2\u00b7 Late",
       "section": "food",
       "sourceName": "Food C - Tile Wall",
       "pageId": 5663,
@@ -1411,7 +1411,7 @@
     {
       "optionId": "events--variant-c-late",
       "variant": "variant-c-late",
-      "variantLabel": "C · Late",
+      "variantLabel": "C \u00c2\u00b7 Late",
       "section": "private-parties",
       "sourceName": "Events C - Ticket Stack",
       "pageId": 5663,
@@ -1443,7 +1443,7 @@
     {
       "optionId": "membership--variant-c-late",
       "variant": "variant-c-late",
-      "variantLabel": "C · Late",
+      "variantLabel": "C \u00c2\u00b7 Late",
       "section": "membership",
       "sourceName": "Membership C - Card Ledger",
       "pageId": 5663,
@@ -1475,7 +1475,7 @@
     {
       "optionId": "contact--variant-c-late",
       "variant": "variant-c-late",
-      "variantLabel": "C · Late",
+      "variantLabel": "C \u00c2\u00b7 Late",
       "section": "contact",
       "sourceName": "Contact C - Statement Line",
       "pageId": 5663,
@@ -1507,7 +1507,7 @@
     {
       "optionId": "header--variant-d-odd",
       "variant": "variant-d-odd",
-      "variantLabel": "D · Odd",
+      "variantLabel": "D \u00c2\u00b7 Odd",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": 5899,
@@ -1536,7 +1536,7 @@
     {
       "optionId": "hero--variant-d-odd",
       "variant": "variant-d-odd",
-      "variantLabel": "D · Odd",
+      "variantLabel": "D \u00c2\u00b7 Odd",
       "section": "hero",
       "sourceName": "Hero D - Collage + Hero D - Ruth Line",
       "pageId": 5899,
@@ -1572,7 +1572,7 @@
     {
       "optionId": "food--variant-d-odd",
       "variant": "variant-d-odd",
-      "variantLabel": "D · Odd",
+      "variantLabel": "D \u00c2\u00b7 Odd",
       "section": "food",
       "sourceName": "Food D - Sticker Sheet",
       "pageId": 5899,
@@ -1605,7 +1605,7 @@
     {
       "optionId": "events--variant-d-odd",
       "variant": "variant-d-odd",
-      "variantLabel": "D · Odd",
+      "variantLabel": "D \u00c2\u00b7 Odd",
       "section": "private-parties",
       "sourceName": "Events D - Noticeboard",
       "pageId": 5899,
@@ -1638,7 +1638,7 @@
     {
       "optionId": "membership--variant-d-odd",
       "variant": "variant-d-odd",
-      "variantLabel": "D · Odd",
+      "variantLabel": "D \u00c2\u00b7 Odd",
       "section": "membership",
       "sourceName": "Membership D - Loyalty Card",
       "pageId": 5899,
@@ -1673,7 +1673,7 @@
     {
       "optionId": "contact--variant-d-odd",
       "variant": "variant-d-odd",
-      "variantLabel": "D · Odd",
+      "variantLabel": "D \u00c2\u00b7 Odd",
       "section": "contact",
       "sourceName": "Contact D - Postcard",
       "pageId": 5899,
@@ -1706,7 +1706,7 @@
     {
       "optionId": "header--variant-e-grid",
       "variant": "variant-e-grid",
-      "variantLabel": "E · Grid",
+      "variantLabel": "E \u00c2\u00b7 Grid",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": 5901,
@@ -1735,7 +1735,7 @@
     {
       "optionId": "hero--variant-e-grid",
       "variant": "variant-e-grid",
-      "variantLabel": "E · Grid",
+      "variantLabel": "E \u00c2\u00b7 Grid",
       "section": "hero",
       "sourceName": "Hero E - Product Panel + Hero E - Quick Selector",
       "pageId": 5901,
@@ -1770,7 +1770,7 @@
     {
       "optionId": "food--variant-e-grid",
       "variant": "variant-e-grid",
-      "variantLabel": "E · Grid",
+      "variantLabel": "E \u00c2\u00b7 Grid",
       "section": "food",
       "sourceName": "Food E - Catalogue",
       "pageId": 5901,
@@ -1803,7 +1803,7 @@
     {
       "optionId": "events--variant-e-grid",
       "variant": "variant-e-grid",
-      "variantLabel": "E · Grid",
+      "variantLabel": "E \u00c2\u00b7 Grid",
       "section": "private-parties",
       "sourceName": "Events E - Packages",
       "pageId": 5901,
@@ -1836,7 +1836,7 @@
     {
       "optionId": "membership--variant-e-grid",
       "variant": "variant-e-grid",
-      "variantLabel": "E · Grid",
+      "variantLabel": "E \u00c2\u00b7 Grid",
       "section": "membership",
       "sourceName": "Membership E - Tiers",
       "pageId": 5901,
@@ -1869,7 +1869,7 @@
     {
       "optionId": "contact--variant-e-grid",
       "variant": "variant-e-grid",
-      "variantLabel": "E · Grid",
+      "variantLabel": "E \u00c2\u00b7 Grid",
       "section": "contact",
       "sourceName": "Contact E - Support Panel",
       "pageId": 5901,
@@ -1902,7 +1902,7 @@
     {
       "optionId": "header--variant-f-concrete",
       "variant": "variant-f-concrete",
-      "variantLabel": "F · Concrete",
+      "variantLabel": "F \u00c2\u00b7 Concrete",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": 5903,
@@ -1933,7 +1933,7 @@
     {
       "optionId": "hero--variant-f-concrete",
       "variant": "variant-f-concrete",
-      "variantLabel": "F · Concrete",
+      "variantLabel": "F \u00c2\u00b7 Concrete",
       "section": "hero",
       "sourceName": "Hero F - Index & Text Introduction",
       "pageId": 5903,
@@ -1967,7 +1967,7 @@
     {
       "optionId": "food--variant-f-concrete",
       "variant": "variant-f-concrete",
-      "variantLabel": "F · Concrete",
+      "variantLabel": "F \u00c2\u00b7 Concrete",
       "section": "food",
       "sourceName": "Food F - Product Cards",
       "pageId": 5903,
@@ -1999,7 +1999,7 @@
     {
       "optionId": "events--variant-f-concrete",
       "variant": "variant-f-concrete",
-      "variantLabel": "F · Concrete",
+      "variantLabel": "F \u00c2\u00b7 Concrete",
       "section": "private-parties",
       "sourceName": "Events F - Hire Schedule",
       "pageId": 5903,
@@ -2031,7 +2031,7 @@
     {
       "optionId": "membership--variant-f-concrete",
       "variant": "variant-f-concrete",
-      "variantLabel": "F · Concrete",
+      "variantLabel": "F \u00c2\u00b7 Concrete",
       "section": "membership",
       "sourceName": "Membership F - Tariff",
       "pageId": 5903,
@@ -2063,7 +2063,7 @@
     {
       "optionId": "contact--variant-f-concrete",
       "variant": "variant-f-concrete",
-      "variantLabel": "F · Concrete",
+      "variantLabel": "F \u00c2\u00b7 Concrete",
       "section": "contact",
       "sourceName": "Contact F - Standard Form",
       "pageId": 5903,
@@ -2095,7 +2095,7 @@
     {
       "optionId": "header--variant-g-cut",
       "variant": "variant-g-cut",
-      "variantLabel": "G · Cut",
+      "variantLabel": "G \u00c2\u00b7 Cut",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5905",
@@ -2125,7 +2125,7 @@
     {
       "optionId": "hero--variant-g-cut",
       "variant": "variant-g-cut",
-      "variantLabel": "G · Cut",
+      "variantLabel": "G \u00c2\u00b7 Cut",
       "section": "hero",
       "sourceName": "Hero G - Poster Block",
       "pageId": "5905",
@@ -2158,7 +2158,7 @@
     {
       "optionId": "food--variant-g-cut",
       "variant": "variant-g-cut",
-      "variantLabel": "G · Cut",
+      "variantLabel": "G \u00c2\u00b7 Cut",
       "section": "food",
       "sourceName": "Food G - Colour Tile Wall",
       "pageId": "5905",
@@ -2190,7 +2190,7 @@
     {
       "optionId": "events--variant-g-cut",
       "variant": "variant-g-cut",
-      "variantLabel": "G · Cut",
+      "variantLabel": "G \u00c2\u00b7 Cut",
       "section": "private-parties",
       "sourceName": "Events G - Diagonal Stack",
       "pageId": "5905",
@@ -2222,7 +2222,7 @@
     {
       "optionId": "membership--variant-g-cut",
       "variant": "variant-g-cut",
-      "variantLabel": "G · Cut",
+      "variantLabel": "G \u00c2\u00b7 Cut",
       "section": "membership",
       "sourceName": "Membership G - Poster Pass",
       "pageId": "5905",
@@ -2255,7 +2255,7 @@
     {
       "optionId": "contact--variant-g-cut",
       "variant": "variant-g-cut",
-      "variantLabel": "G · Cut",
+      "variantLabel": "G \u00c2\u00b7 Cut",
       "section": "contact",
       "sourceName": "Contact G - Two Tone Split",
       "pageId": "5905",
@@ -2287,7 +2287,7 @@
     {
       "optionId": "header--variant-h-storybook",
       "variant": "variant-h-storybook",
-      "variantLabel": "H · Storybook",
+      "variantLabel": "H \u00c2\u00b7 Storybook",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5909",
@@ -2317,7 +2317,7 @@
     {
       "optionId": "hero--variant-h-storybook",
       "variant": "variant-h-storybook",
-      "variantLabel": "H · Storybook",
+      "variantLabel": "H \u00c2\u00b7 Storybook",
       "section": "hero",
       "sourceName": "Hero H - Framed Plate",
       "pageId": "5909",
@@ -2351,7 +2351,7 @@
     {
       "optionId": "food--variant-h-storybook",
       "variant": "variant-h-storybook",
-      "variantLabel": "H · Storybook",
+      "variantLabel": "H \u00c2\u00b7 Storybook",
       "section": "food",
       "sourceName": "Food H - Framed Bill Of Fare",
       "pageId": "5909",
@@ -2384,7 +2384,7 @@
     {
       "optionId": "events--variant-h-storybook",
       "variant": "variant-h-storybook",
-      "variantLabel": "H · Storybook",
+      "variantLabel": "H \u00c2\u00b7 Storybook",
       "section": "private-parties",
       "sourceName": "Events H - Invitations",
       "pageId": "5909",
@@ -2416,7 +2416,7 @@
     {
       "optionId": "membership--variant-h-storybook",
       "variant": "variant-h-storybook",
-      "variantLabel": "H · Storybook",
+      "variantLabel": "H \u00c2\u00b7 Storybook",
       "section": "membership",
       "sourceName": "Membership H - Subscribers Invitation",
       "pageId": "5909",
@@ -2449,7 +2449,7 @@
     {
       "optionId": "contact--variant-h-storybook",
       "variant": "variant-h-storybook",
-      "variantLabel": "H · Storybook",
+      "variantLabel": "H \u00c2\u00b7 Storybook",
       "section": "contact",
       "sourceName": "Contact H - The Letter",
       "pageId": "5909",
@@ -2481,7 +2481,7 @@
     {
       "optionId": "header--variant-i-ma",
       "variant": "variant-i-ma",
-      "variantLabel": "I · Ma",
+      "variantLabel": "I \u00c2\u00b7 Ma",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5911",
@@ -2511,7 +2511,7 @@
     {
       "optionId": "hero--variant-i-ma",
       "variant": "variant-i-ma",
-      "variantLabel": "I · Ma",
+      "variantLabel": "I \u00c2\u00b7 Ma",
       "section": "hero",
       "sourceName": "Hero I - One Still One Line",
       "pageId": "5911",
@@ -2545,7 +2545,7 @@
     {
       "optionId": "food--variant-i-ma",
       "variant": "variant-i-ma",
-      "variantLabel": "I · Ma",
+      "variantLabel": "I \u00c2\u00b7 Ma",
       "section": "food",
       "sourceName": "Food I - Few Items Wide Margins",
       "pageId": "5911",
@@ -2577,7 +2577,7 @@
     {
       "optionId": "events--variant-i-ma",
       "variant": "variant-i-ma",
-      "variantLabel": "I · Ma",
+      "variantLabel": "I \u00c2\u00b7 Ma",
       "section": "private-parties",
       "sourceName": "Events I - One Occasion At A Time",
       "pageId": "5911",
@@ -2609,7 +2609,7 @@
     {
       "optionId": "membership--variant-i-ma",
       "variant": "variant-i-ma",
-      "variantLabel": "I · Ma",
+      "variantLabel": "I \u00c2\u00b7 Ma",
       "section": "membership",
       "sourceName": "Membership I - Quiet Return",
       "pageId": "5911",
@@ -2642,7 +2642,7 @@
     {
       "optionId": "contact--variant-i-ma",
       "variant": "variant-i-ma",
-      "variantLabel": "I · Ma",
+      "variantLabel": "I \u00c2\u00b7 Ma",
       "section": "contact",
       "sourceName": "Contact I - One Question At A Time",
       "pageId": "5911",
@@ -2674,7 +2674,7 @@
     {
       "optionId": "header--variant-j-box-office",
       "variant": "variant-j-box-office",
-      "variantLabel": "J · Box Office",
+      "variantLabel": "J \u00c2\u00b7 Box Office",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5913",
@@ -2704,7 +2704,7 @@
     {
       "optionId": "hero--variant-j-box-office",
       "variant": "variant-j-box-office",
-      "variantLabel": "J · Box Office",
+      "variantLabel": "J \u00c2\u00b7 Box Office",
       "section": "hero",
       "sourceName": "J Intro",
       "pageId": "5913",
@@ -2736,7 +2736,7 @@
     {
       "optionId": "food--variant-j-box-office",
       "variant": "variant-j-box-office",
-      "variantLabel": "J · Box Office",
+      "variantLabel": "J \u00c2\u00b7 Box Office",
       "section": "food",
       "sourceName": "Food J - Counter Menu",
       "pageId": "5913",
@@ -2770,7 +2770,7 @@
     {
       "optionId": "events--variant-j-box-office",
       "variant": "variant-j-box-office",
-      "variantLabel": "J · Box Office",
+      "variantLabel": "J \u00c2\u00b7 Box Office",
       "section": "private-parties",
       "sourceName": "Private Parties J - Group Booking Desk",
       "pageId": "5913",
@@ -2804,7 +2804,7 @@
     {
       "optionId": "membership--variant-j-box-office",
       "variant": "variant-j-box-office",
-      "variantLabel": "J · Box Office",
+      "variantLabel": "J \u00c2\u00b7 Box Office",
       "section": "membership",
       "sourceName": "Membership J - Box Office Pass",
       "pageId": "5913",
@@ -2838,7 +2838,7 @@
     {
       "optionId": "contact--variant-j-box-office",
       "variant": "variant-j-box-office",
-      "variantLabel": "J · Box Office",
+      "variantLabel": "J \u00c2\u00b7 Box Office",
       "section": "contact",
       "sourceName": "Contact J - Enquiry Desk",
       "pageId": "5913",
@@ -2872,7 +2872,7 @@
     {
       "optionId": "header--variant-k-clubhouse",
       "variant": "variant-k-clubhouse",
-      "variantLabel": "K · Clubhouse",
+      "variantLabel": "K \u00c2\u00b7 Clubhouse",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5915",
@@ -2902,7 +2902,7 @@
     {
       "optionId": "hero--variant-k-clubhouse",
       "variant": "variant-k-clubhouse",
-      "variantLabel": "K · Clubhouse",
+      "variantLabel": "K \u00c2\u00b7 Clubhouse",
       "section": "hero",
       "sourceName": "K Welcome",
       "pageId": "5915",
@@ -2933,7 +2933,7 @@
     {
       "optionId": "food--variant-k-clubhouse",
       "variant": "variant-k-clubhouse",
-      "variantLabel": "K · Clubhouse",
+      "variantLabel": "K \u00c2\u00b7 Clubhouse",
       "section": "food",
       "sourceName": "Food K - Clubhouse Kitchen",
       "pageId": "5915",
@@ -2965,7 +2965,7 @@
     {
       "optionId": "events--variant-k-clubhouse",
       "variant": "variant-k-clubhouse",
-      "variantLabel": "K · Clubhouse",
+      "variantLabel": "K \u00c2\u00b7 Clubhouse",
       "section": "private-parties",
       "sourceName": "Private Parties K - Gather Your People",
       "pageId": "5915",
@@ -2997,7 +2997,7 @@
     {
       "optionId": "membership--variant-k-clubhouse",
       "variant": "variant-k-clubhouse",
-      "variantLabel": "K · Clubhouse",
+      "variantLabel": "K \u00c2\u00b7 Clubhouse",
       "section": "membership",
       "sourceName": "Membership K - Your Place In The Clubhouse",
       "pageId": "5915",
@@ -3029,7 +3029,7 @@
     {
       "optionId": "contact--variant-k-clubhouse",
       "variant": "variant-k-clubhouse",
-      "variantLabel": "K · Clubhouse",
+      "variantLabel": "K \u00c2\u00b7 Clubhouse",
       "section": "contact",
       "sourceName": "Contact K - Say Hello",
       "pageId": "5915",
@@ -3062,7 +3062,7 @@
     {
       "optionId": "header--variant-l-midnight-lounge",
       "variant": "variant-l-midnight-lounge",
-      "variantLabel": "L · Midnight Lounge",
+      "variantLabel": "L \u00c2\u00b7 Midnight Lounge",
       "section": "navigation",
       "sourceName": "Site header",
       "pageId": "5917",
@@ -3092,7 +3092,7 @@
     {
       "optionId": "hero--variant-l-midnight-lounge",
       "variant": "variant-l-midnight-lounge",
-      "variantLabel": "L · Midnight Lounge",
+      "variantLabel": "L \u00c2\u00b7 Midnight Lounge",
       "section": "hero",
       "sourceName": "L Opening Note",
       "pageId": "5917",
@@ -3124,7 +3124,7 @@
     {
       "optionId": "food--variant-l-midnight-lounge",
       "variant": "variant-l-midnight-lounge",
-      "variantLabel": "L · Midnight Lounge",
+      "variantLabel": "L \u00c2\u00b7 Midnight Lounge",
       "section": "food",
       "sourceName": "Food L - After Dark Menu",
       "pageId": "5917",
@@ -3157,7 +3157,7 @@
     {
       "optionId": "events--variant-l-midnight-lounge",
       "variant": "variant-l-midnight-lounge",
-      "variantLabel": "L · Midnight Lounge",
+      "variantLabel": "L \u00c2\u00b7 Midnight Lounge",
       "section": "private-parties",
       "sourceName": "Private Parties L - An Evening Of Your Own",
       "pageId": "5917",
@@ -3190,7 +3190,7 @@
     {
       "optionId": "membership--variant-l-midnight-lounge",
       "variant": "variant-l-midnight-lounge",
-      "variantLabel": "L · Midnight Lounge",
+      "variantLabel": "L \u00c2\u00b7 Midnight Lounge",
       "section": "membership",
       "sourceName": "Membership L - After Dark Regular",
       "pageId": "5917",
@@ -3223,7 +3223,7 @@
     {
       "optionId": "contact--variant-l-midnight-lounge",
       "variant": "variant-l-midnight-lounge",
-      "variantLabel": "L · Midnight Lounge",
+      "variantLabel": "L \u00c2\u00b7 Midnight Lounge",
       "section": "contact",
       "sourceName": "Contact L - A Note After Dark",
       "pageId": "5917",
@@ -3376,7 +3376,7 @@
       "optionId": "header--variant-f-concrete",
       "status": "applied-published-and-recaptured",
       "source": "approved-component-repairs",
-      "closedScope": "Concrete navigation containment, centered logo and inline 01–06 counters; seven links checked on desktop and phone",
+      "closedScope": "Concrete navigation containment, centered logo and inline 01\u00e2\u20ac\u201c06 counters; seven links checked on desktop and phone",
       "evidence": [
         "evidence/component-controls-repairs/f-navigation-live.jpg",
         "evidence/component-controls-repairs/changes-journal.json"
@@ -3452,5 +3452,141 @@
         "Admin-only maintenance"
       ]
     }
-  ]
+  ],
+  "baselineSourcePhase": "Historical source audit before the later native color/overlay completion; original summary, paletteSummary, variantNotes, findings and proposal statistics are preserved. Read currentColorOverlayImplementation for current scoped status.",
+  "fieldSourcePhases": {
+    "summary": "pre-native-color-overlay-completion baseline; superseded only where currentColorOverlayImplementation names an installed scope",
+    "paletteSummary": "pre-native-color-overlay-completion baseline; superseded only where currentColorOverlayImplementation names an installed scope",
+    "variantNotes": "pre-native-color-overlay-completion baseline; superseded only where currentColorOverlayImplementation names an installed scope",
+    "findings": "pre-native-color-overlay-completion baseline; superseded only where currentColorOverlayImplementation names an installed scope",
+    "proposalArtifacts": "pre-native-color-overlay-completion baseline; superseded only where currentColorOverlayImplementation names an installed scope",
+    "partialClosures": "pre-native-color-overlay-completion baseline; superseded only where currentColorOverlayImplementation names an installed scope"
+  },
+  "currentColorOverlayImplementation": {
+    "recordedAt": "2026-10-25",
+    "scope": "Current approved native color and observed-overlay implementation, independent of full Admin-only maintenance certification",
+    "sourceJournal": "evidence/admin-controls-completion/changes-journal.json",
+    "savedReadbacks": "evidence/admin-controls-completion/native-saved/",
+    "currentAcceptanceReport": "evidence/admin-controls-completion/final-qa-report.json",
+    "implementationStatus": "template-adapters/admin-controls-completion/FINAL-STATUS.md",
+    "nativeJournalFacts": {
+      "savedFields": 30,
+      "publishedVariantPages": 12,
+      "paletteRestore": "original-restored-native-save-verified",
+      "restoredAt": "2026-10-25T20:02:27.184Z"
+    },
+    "roles": {
+      "primary": "--q-primary",
+      "secondary": "--q-secondary",
+      "dark": "--q-dark",
+      "background": "--q-background",
+      "headerAlias": "Dark",
+      "accentDecorationAlias": "Secondary",
+      "nativeStatusColors": "retain service meaning"
+    },
+    "findings": [
+      {
+        "id": "EDIT-01",
+        "implementationStatus": "native-color-role-pass-in-saved-fields",
+        "closure": "Shared Theme and named native Page/Section fields consume maintained roles; demo brand overrides removed; measured CTA/card tints and native form role bridges installed.",
+        "limits": [
+          "Exact current acceptance and freshness are in the linked QA report",
+          "Future arbitrary palettes still require whole-page contrast checks"
+        ]
+      },
+      {
+        "id": "EDIT-02",
+        "implementationStatus": "observed-native-caption-implementation-pass",
+        "closure": "Observed A-I native desktop/mobile caption families use opaque paired backing and shadow; J-L editorial alternatives have explicit panel/copy roles; native arrows have paired backing.",
+        "limits": [
+          "Does not certify every slide frame, unseen populated widget state, drawer or interaction state",
+          "F missing hero media and G null phone background-image setting remain source-media dependencies",
+          "Current restored-palette matrix and picker pixel refresh remain separately tracked evidence"
+        ]
+      },
+      {
+        "id": "EDIT-03",
+        "implementationStatus": "semantic-card-color-role-pass-fixed-slant-preset",
+        "closure": "Existing Odd wrappers carry fd-tier-primary, fd-tier-secondary and fd-tier-dark; Primary16%, Secondary14% and Dark10% tints with Dark copy are installed. Earned stamps use Dark; unearned stamps remain transparent.",
+        "limits": [
+          "Slants and structural geometry remain fixed design presets",
+          "No native per-card color/slant preset editor is claimed"
+        ]
+      }
+    ],
+    "certifiedAdminOnlyOptions": 0,
+    "separateRemainingScopes": [
+      "Editable typography roles",
+      "Authored HTML and data/product bindings",
+      "CSS-generated customer wording",
+      "Structural/slant preset editing",
+      "Stable Library transfer/unlink test",
+      "Forms, booking and other service configuration",
+      "All unexercised frames and interaction states"
+    ],
+    "screenshotBoundary": "Completed:66 independently reviewed native clips ingested byte-identically into the customer catalog. Genuine native product placeholders remain unchanged. Screenshot review does not certify Library transfer, service behavior or every future image/state.",
+    "verificationUpdatedAt": "2026-10-25T20:12:45.167937+00:00",
+    "finalRenderedAcceptance": {
+      "status": "accepted-with-bounded-manual-decoration-review",
+      "acceptedCaptures": 48,
+      "requiredCaptures": 48,
+      "sampledTextNodes": 4885,
+      "measuredFailures": 0,
+      "boundedManualReview": [
+        {
+          "palette": "original",
+          "review": "C-constant-gradient",
+          "acceptedSampleCount": 12,
+          "minimumRatio": 7.8,
+          "allMathPass": true
+        },
+        {
+          "palette": "original",
+          "review": "D-ruled-notepaper-label",
+          "acceptedSampleCount": 2,
+          "minimumRatio": 5.12,
+          "allMathPass": true
+        },
+        {
+          "palette": "test",
+          "review": "C-constant-gradient",
+          "acceptedSampleCount": 12,
+          "minimumRatio": 9.29,
+          "allMathPass": true
+        },
+        {
+          "palette": "test",
+          "review": "D-ruled-notepaper-label",
+          "acceptedSampleCount": 2,
+          "minimumRatio": 5.62,
+          "allMathPass": true
+        }
+      ],
+      "portableReadbackProvenanceVerified": true,
+      "provenanceSealSha256": "f17c4f659285959cd39dc4dc95d0b79c3b04b5e2f5b66256b55501712f657f69"
+    },
+    "latestQARevisions": {
+      "D-page": "evidence/admin-controls-completion/qa-corrections/D-page-v7.css",
+      "G-page": "evidence/admin-controls-completion/qa-corrections/G-page-v3.css",
+      "G-section-25116": "evidence/admin-controls-completion/qa-corrections/G-section-25116-v2.css",
+      "I-page": "evidence/admin-controls-completion/qa-corrections/I-page-v2.css",
+      "J-page": "evidence/admin-controls-completion/qa-corrections/J-page-v2.css",
+      "J-section-25127": "evidence/admin-controls-completion/qa-corrections/J-section-25127-v2.css",
+      "K-page": "evidence/admin-controls-completion/qa-corrections/K-page-v3.css",
+      "K-section-25122": "evidence/admin-controls-completion/qa-corrections/K-section-25122-v2.css",
+      "L-page": "evidence/admin-controls-completion/qa-corrections/L-page-v3.css",
+      "A-page": "qa-corrections/A-page-v2.css"
+    },
+    "captionPresetBoundary": "Protected caption colors follow maintained native Dark/Background roles; retain Ma Light Text ON because its desktop containment still uses that native class.",
+    "mobileContainment": "Actual native D/G mobile caption branches flow within growing canvases; Odd food stickers retain tilt with positive native clip and product-name clearance.",
+    "catalogScreenshotRefresh": {
+      "status": "applied-byte-identically",
+      "clipCount": 66,
+      "appliedAt": "2026-10-25T20:04:14.001337+00:00",
+      "evidence": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/ingestion.json",
+      "evidenceSha256": "3b1e190a7b8373363e19e343d996a5a7530a383583e9e3788e82f2e8a0d54d5b",
+      "completedAsSeparateEvidence": true,
+      "boundary": "Genuine native pixels copied unchanged with independent hash-bound review. Source product placeholders remain native output; no missing media was fabricated."
+    }
+  }
 }

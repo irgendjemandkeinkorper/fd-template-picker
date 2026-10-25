@@ -1,0 +1,56 @@
+{
+  "schema": "fd-native-qa-correction/v1",
+  "field": "G-page",
+  "editablePage": 5906,
+  "publishedPage": 5905,
+  "nativeSavedSource": "evidence/admin-controls-completion/native-saved/G-page.css",
+  "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/G-page-v3.before.css",
+  "beforeBytesSha256": "ff3d4dea2ec6591ee315c073d2f13252d3e4db2e639d6966b01e5bf005405918",
+  "beforeTextSha256": "ff3d4dea2ec6591ee315c073d2f13252d3e4db2e639d6966b01e5bf005405918",
+  "beforeCharacters": 26436,
+  "proposal": "evidence/admin-controls-completion/qa-corrections/G-page-v3.css",
+  "proposalBytesSha256": "fa6c20c0e7acd40aa2a166c22c4849dd1c624f9b068eb59ec4bfe0b34992d017",
+  "proposalTextSha256": "fa6c20c0e7acd40aa2a166c22c4849dd1c624f9b068eb59ec4bfe0b34992d017",
+  "proposalCharacters": 28311,
+  "status": "prepared-from-native-saved-v2-not-applied-by-generator",
+  "observed": {
+    "viewportWidth": 375,
+    "headerBottom": 83.9,
+    "titleBounds": {
+      "x": -0.511,
+      "y": 52.211,
+      "width": 374.626,
+      "height": 135.117
+    },
+    "titleFontSize": 66.368,
+    "titleLineHeight": 51.767,
+    "titleRotationDegrees": -5,
+    "messageBounds": {
+      "y": 84,
+      "height": 256.525
+    },
+    "actualOverlayClass": "flex bg-clear flex-center absolute-full overlay-none",
+    "overlayBounds": {
+      "y": 84,
+      "height": 240
+    },
+    "canvasClass": "row justify-center position-relative",
+    "canvasComputed": {
+      "display": "grid",
+      "position": "static",
+      "height": "240px",
+      "overflow": "hidden"
+    },
+    "rootEvidence": "Root read-only native phone DOM chain and G-after-loaded.jpg"
+  },
+  "change": "Only max899px, actual mobile-caption-containing canvas/overlay reflow;40px top/28px sides;44\u201362px title,line-height1 and\u22123deg tilt. Existing opaque backings/shadows remain.",
+  "unchanged": [
+    "All desktop rules",
+    "All prior G v2 CSS",
+    "Media configuration, image URL, crop and native content",
+    "Forms, product and booking behavior",
+    "Frozen proposal bundle"
+  ],
+  "knownDependency": "Native G mobile hero background image URL is null in current source; preexisting media configuration remains unchanged.",
+  "acceptance": "Root must preview375px and a narrow phone, confirm every title glyph lies below header and inside hero, verify full subtitle/CTA, no page overflow, desktop poster intact, and native saved/readback exact hash."
+}

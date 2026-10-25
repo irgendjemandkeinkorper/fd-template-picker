@@ -1,0 +1,5145 @@
+{
+  "target": [
+    "US-BETA",
+    "INDY Demo",
+    "Adam Template Testing 2"
+  ],
+  "batchId": "admin-controls-published-clips-001",
+  "paletteState": "restored-current-native",
+  "nativeChangeJournal": "evidence/admin-controls-completion/changes-journal.json",
+  "captures": [
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 57,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 18,
+            "width": 18,
+            "x": 120,
+            "y": 16.649999618530273
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-a-circuit",
+      "pageId": "5659",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 56.79999923706055,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "variant": "variant-a-circuit",
+      "viewportBounds": {
+        "height": 56.79999923706055,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:40:39.138Z",
+      "domObservedAt": "2026-10-25T19:40:37.000Z",
+      "rawImage": "header--variant-a-circuit.jpg",
+      "width": 1536,
+      "height": 57,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-a-circuit",
+        "status": "passed",
+        "imageSha256": "62ebe7e9321fe76627633144316a56e9829914b1b404177133c19c1a79a6b739",
+        "reviewedAt": "2026-10-25T19:46:29.885800+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Actual Circuit navigation: all seven native menu labels, centered small logo, highlighted Private Events and search/account utilities are contained and legible. Complete 57px native header; no editor, loader or unrelated panel.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 847,
+        "width": 1440,
+        "x": 48,
+        "y": 2018
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-a-circuit",
+      "pageId": "5659",
+      "sectionIds": [
+        "23731"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-a---chip-rail-23731 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23731",
+          "selector": ".page-variant-a-circuit-5659 .section-food-a---chip-rail-23731"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 846.1500244140625,
+        "width": 1440,
+        "x": 48,
+        "y": 2018.2249755859375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "variant": "variant-a-circuit",
+      "viewportBounds": {
+        "height": 846.1500244140625,
+        "width": 1440,
+        "x": 48,
+        "y": 2018.2249755859375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:25.558Z",
+      "domObservedAt": "2026-10-25T19:44:23.906Z",
+      "rawImage": "food--variant-a-circuit.jpg",
+      "width": 1440,
+      "height": 847,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-a-circuit",
+        "status": "passed",
+        "imageSha256": "19c020f8fa29a1a4b92dd2e90caf7b942558032c1f39686485af0fc11ab10359",
+        "reviewedAt": "2026-10-25T19:46:29.886302+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Actual Kitchen and bar concessions section: Snacks/Drinks/Desserts tabs and all visible product rows/prices are complete and readable. Native placeholder thumbnails remain because source product media is missing; these are not substituted photos or an editor/loading overlay. Full native section is represented.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 1483
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-a-circuit",
+      "pageId": "5659",
+      "sectionIds": [
+        "23724"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-a---rate-card-23724 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23724",
+          "selector": ".page-variant-a-circuit-5659 .section-events-a---rate-card-23724"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 534.5499877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 1483.675048828125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "variant": "variant-a-circuit",
+      "viewportBounds": {
+        "height": 534.5499877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 1483.675048828125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:26.205Z",
+      "domObservedAt": "2026-10-25T19:44:23.906Z",
+      "rawImage": "events--variant-a-circuit.jpg",
+      "width": 1536,
+      "height": 536,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-a-circuit",
+        "status": "passed",
+        "imageSha256": "e3954d8791d4545447f20feb5682b9d9f09708e647c3c49cc9d057fcc9ec34e9",
+        "reviewedAt": "2026-10-25T19:46:29.886302+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Actual Private Hire / Six ways to take the room section: all six packages, capacity/minimum/notice copy and six Enquire links fit completely and are readable. Correct dedicated parties component, not programming.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 955,
+        "width": 1536,
+        "x": 0,
+        "y": 4007
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-a-circuit",
+      "pageId": "5659",
+      "sectionIds": [
+        "23765"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-a---tier-rail-23765 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23765",
+          "selector": ".page-variant-a-circuit-5659 .section-membership-a---tier-rail-23765"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 954.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4007.050048828125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "variant": "variant-a-circuit",
+      "viewportBounds": {
+        "height": 954.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4007.050048828125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:27.778Z",
+      "domObservedAt": "2026-10-25T19:44:23.906Z",
+      "rawImage": "membership--variant-a-circuit.jpg",
+      "width": 1536,
+      "height": 955,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-a-circuit",
+        "status": "passed",
+        "imageSha256": "ae574f4f78b4d08d4c37881cc584334a0173a188ff96b470babc6c4cc256809f",
+        "reviewedAt": "2026-10-25T19:46:29.886801+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Actual Membership & Rewards tier rail: complete heading/intro, Parterre/Balcony/Circle columns with prices, benefits and all three join actions, plus the five reward thresholds below. Copy and actions are readable; no bottom crop or editor/loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 590,
+        "width": 1536,
+        "x": 0,
+        "y": 2864
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-a-circuit",
+      "pageId": "5659",
+      "sectionIds": [
+        "23747"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-a---compressed-column-23747 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23747",
+          "selector": ".page-variant-a-circuit-5659 .section-contact-a---compressed-column-23747"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 589.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 2864.375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "variant": "variant-a-circuit",
+      "viewportBounds": {
+        "height": 589.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 2864.375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:28.416Z",
+      "domObservedAt": "2026-10-25T19:44:23.906Z",
+      "rawImage": "contact--variant-a-circuit.jpg",
+      "width": 1536,
+      "height": 590,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-a-circuit",
+        "status": "passed",
+        "imageSha256": "036f0f858aabc82c726282c6c1d550eebab726728a5892d2d2689a04897c2bc4",
+        "reviewedAt": "2026-10-25T19:46:29.886801+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Actual Ask us anything compressed native form: Name, Email, What you have in mind and Send are present and readable with complete form height. Existing borderless field treatment blends the empty input surfaces into Dark; capture faithfully preserves that design. No submission, typed sample values, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 135,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 34,
+            "width": 34,
+            "x": 751,
+            "y": 12
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-b-rep",
+      "pageId": "5661",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 134.5625,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "variant": "variant-b-rep",
+      "viewportBounds": {
+        "height": 134.5625,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:48.912Z",
+      "domObservedAt": "2026-10-25T19:44:47.054Z",
+      "rawImage": "header--variant-b-rep.jpg",
+      "width": 1536,
+      "height": 135,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-b-rep",
+        "status": "passed",
+        "imageSha256": "cd7bb30c4cd541f0d28ab1944cece104ab6b88dc8950fd150664719c097ff865",
+        "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete stacked Rep header: dark A logo and all seven labels are clear on cream. No logo fix needed.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 2207,
+        "width": 1536,
+        "x": 0,
+        "y": 2462
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-b-rep",
+      "pageId": "5661",
+      "sectionIds": [
+        "23733"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-b---printed-menu-23733 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23733",
+          "selector": ".page-variant-b-rep-5661 .section-food-b---printed-menu-23733"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 2206.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2462.3125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "variant": "variant-b-rep",
+      "viewportBounds": {
+        "height": 2206.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2462.3125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:51.411Z",
+      "domObservedAt": "2026-10-25T19:44:47.054Z",
+      "rawImage": "food--variant-b-rep.jpg",
+      "width": 1536,
+      "height": 2207,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-b-rep",
+        "status": "passed",
+        "imageSha256": "1a31e1178d02a8c02cb763b80196121113336a962312e02b30d8cfde915d9ba9",
+        "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Correct full Rep printed menu: Snacks/Drinks/Desserts links and headings, seven rows with product names/descriptions/prices. Full bottom retained. Native missing-media placeholders remain; no fake photos or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 798,
+        "width": 1536,
+        "x": 0,
+        "y": 7533
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-b-rep",
+      "pageId": "5661",
+      "sectionIds": [
+        "25134"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-b-private-parties section-private-parties-b---your-own-evening-25134 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25134",
+          "selector": ".page-variant-b-rep-5661 .section-private-parties-b---your-own-evening-25134"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 797.25,
+        "width": 1536,
+        "x": 0,
+        "y": 7533.3125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "variant": "variant-b-rep",
+      "viewportBounds": {
+        "height": 797.25,
+        "width": 1536,
+        "x": 0,
+        "y": 7533.3125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:53.025Z",
+      "domObservedAt": "2026-10-25T19:44:47.054Z",
+      "rawImage": "events--variant-b-rep.jpg",
+      "width": 1536,
+      "height": 798,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-b-rep",
+        "status": "passed",
+        "imageSha256": "15b3f397a93bf896b034082d53faab159acd289e60509211d004ac0dc0be43a9",
+        "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Dedicated An evening of your own private-party panel: complete main copy/action and three occasion entries. Correct source, not optional public Playbill.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1258,
+        "width": 1536,
+        "x": 0,
+        "y": 6276
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-b-rep",
+      "pageId": "5661",
+      "sectionIds": [
+        "23767"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-b---subscriber-bill-23767 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23767",
+          "selector": ".page-variant-b-rep-5661 .section-membership-b---subscriber-bill-23767"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 1257.1375732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 6276.17529296875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "variant": "variant-b-rep",
+      "viewportBounds": {
+        "height": 1257.1375732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 6276.17529296875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:54.761Z",
+      "domObservedAt": "2026-10-25T19:44:47.054Z",
+      "rawImage": "membership--variant-b-rep.jpg",
+      "width": 1536,
+      "height": 1258,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-b-rep",
+        "status": "passed",
+        "imageSha256": "2dedc72c7862f752f82ed94b892b8676b86692f88ca5d5b3c309ec5373b91bbd",
+        "reviewedAt": "2026-10-25T19:52:44.759318+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Full Belong to the Rep: three Parterre/Balcony/Circle rows, benefits/actions, five reward thresholds and final expiry/cancellation note. Readable, no crop.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 690,
+        "width": 1536,
+        "x": 0,
+        "y": 4668
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-b-rep",
+      "pageId": "5661",
+      "sectionIds": [
+        "23749"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-b---split-desk-23749 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23749",
+          "selector": ".page-variant-b-rep-5661 .section-contact-b---split-desk-23749"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 688.7750244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 4668.86279296875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "variant": "variant-b-rep",
+      "viewportBounds": {
+        "height": 688.7750244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 4668.86279296875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:44:56.530Z",
+      "domObservedAt": "2026-10-25T19:44:47.054Z",
+      "rawImage": "contact--variant-b-rep.jpg",
+      "width": 1536,
+      "height": 690,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-b-rep",
+        "status": "passed",
+        "imageSha256": "6abb5cf051dbf854429e1eece38d011f5cae2c57c84d05b3b351571fc91f1233",
+        "reviewedAt": "2026-10-25T19:52:44.760333+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete Write to us form: heading, Name/Email/message and Send the note. Native compact button padding retained. No input/submission/editor/loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 65,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 20,
+            "width": 20,
+            "x": 108,
+            "y": 18.649999618530273
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-c-late",
+      "pageId": "5663",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 64.80000305175781,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "variant": "variant-c-late",
+      "viewportBounds": {
+        "height": 64.80000305175781,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:45:33.829Z",
+      "domObservedAt": "2026-10-25T19:45:31.817Z",
+      "rawImage": "header--variant-c-late.jpg",
+      "width": 1536,
+      "height": 65,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-c-late",
+        "status": "passed",
+        "imageSha256": "6224a149fa149acb61f7ec001462ed419bbc2a5ca23b1c15417c71296bcb8f81",
+        "reviewedAt": "2026-10-25T19:52:44.761346+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete Late header: small light logo, all seven labels and search/account controls readable on opaque Dark.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 850,
+        "width": 1536,
+        "x": 0,
+        "y": 1538
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress",
+          "viewportBounds": {
+            "height": 218.40000915527344,
+            "width": 451.7250061035156,
+            "x": 88.30000305175781,
+            "y": 1615.1500244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress",
+          "viewportBounds": {
+            "height": 218.40000915527344,
+            "width": 451.7375183105469,
+            "x": 541.625,
+            "y": 1615.1500244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress",
+          "viewportBounds": {
+            "height": 218.40000915527344,
+            "width": 451.7375183105469,
+            "x": 994.9625244140624,
+            "y": 1615.1500244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress",
+          "viewportBounds": {
+            "height": 218.40000915527344,
+            "width": 451.7250061035156,
+            "x": 88.30000305175781,
+            "y": 1846.1500244140625
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-c-late",
+      "pageId": "5663",
+      "sectionIds": [
+        "23735"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-c---tile-wall-23735 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23735",
+          "selector": ".page-variant-c-late-5663 .section-food-c---tile-wall-23735"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 849.4125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 1538.4375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "variant": "variant-c-late",
+      "viewportBounds": {
+        "height": 849.4125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 1538.4375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:45:35.885Z",
+      "domObservedAt": "2026-10-25T19:45:31.817Z",
+      "rawImage": "food--variant-c-late.jpg",
+      "width": 1536,
+      "height": 850,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-c-late",
+        "status": "passed",
+        "imageSha256": "6a7f5ab270c59406fc8817557ec683f0ee9eaa535a565a0d40d1bca139a5e6b7",
+        "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Full Kitchen till one panel: category chips, all seven products/prices. Four food/drink photos loaded; three dessert backgrounds are native placeholders. Complete readable section.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 770,
+        "width": 1536,
+        "x": 0,
+        "y": 769
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-c-late",
+      "pageId": "5663",
+      "sectionIds": [
+        "23728"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-c---ticket-stack-23728 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23728",
+          "selector": ".page-variant-c-late-5663 .section-events-c---ticket-stack-23728"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 768.5,
+        "width": 1536,
+        "x": 0,
+        "y": 769.9375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "variant": "variant-c-late",
+      "viewportBounds": {
+        "height": 768.5,
+        "width": 1536,
+        "x": 0,
+        "y": 769.9375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:45:37.553Z",
+      "domObservedAt": "2026-10-25T19:45:31.817Z",
+      "rawImage": "events--variant-c-late.jpg",
+      "width": 1536,
+      "height": 770,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-c-late",
+        "status": "passed",
+        "imageSha256": "fb935ec60b448f3f1f95ed90e4e23f25f12abcccf9c171606ab7f878b472edc2",
+        "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete five-row hire list: Weddings, Private Hire, Late Show, Supper Club, Company Nights and all side details. Correct parties component, readable and uncropped.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1280,
+        "width": 1536,
+        "x": 0,
+        "y": 3483
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-c-late",
+      "pageId": "5663",
+      "sectionIds": [
+        "23769"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-c---card-ledger-23769 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23769",
+          "selector": ".page-variant-c-late-5663 .section-membership-c---card-ledger-23769"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 1279.4124755859375,
+        "width": 1536,
+        "x": 0,
+        "y": 3483.212646484375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "variant": "variant-c-late",
+      "viewportBounds": {
+        "height": 1279.4124755859375,
+        "width": 1536,
+        "x": 0,
+        "y": 3483.212646484375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:45:38.925Z",
+      "domObservedAt": "2026-10-25T19:45:31.817Z",
+      "rawImage": "membership--variant-c-late.jpg",
+      "width": 1536,
+      "height": 1280,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-c-late",
+        "status": "passed",
+        "imageSha256": "c2800a96162392b1e9afb3cedd2cb2c2da24b5a3c0358f1fc24b0eb78114d1ea",
+        "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete Carry the card: all three plan cards, benefit comparison rows, five reward thresholds and Open an account action. Bottom included, readable.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 496,
+        "width": 1536,
+        "x": 0,
+        "y": 2387
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-c-late",
+      "pageId": "5663",
+      "sectionIds": [
+        "23751"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-c---statement-line-23751 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23751",
+          "selector": ".page-variant-c-late-5663 .section-contact-c---statement-line-23751"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 494.2625122070313,
+        "width": 1536,
+        "x": 0,
+        "y": 2387.85009765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "variant": "variant-c-late",
+      "viewportBounds": {
+        "height": 494.2625122070313,
+        "width": 1536,
+        "x": 0,
+        "y": 2387.85009765625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:45:40.953Z",
+      "domObservedAt": "2026-10-25T19:45:31.817Z",
+      "rawImage": "contact--variant-c-late.jpg",
+      "width": 1536,
+      "height": 496,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-c-late",
+        "status": "passed",
+        "imageSha256": "edc02d2dbac2da615eae4b7adc8e5cd4b681c88ce09db5963e5578e40a330670",
+        "reviewedAt": "2026-10-25T19:52:44.762366+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete Tell us what you want to take over form: two-line heading, Name/Email/message row and Send action. Readable empty native form, no data entered.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 153,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 48.35822296142578,
+            "width": 48.35820388793945,
+            "x": 151.82090759277344,
+            "y": 71.82089233398438
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-d-odd-5899) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 152.8000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 152.8000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:03.246Z",
+      "domObservedAt": "2026-10-25T19:46:01.018Z",
+      "rawImage": "header--variant-d-odd.jpg",
+      "width": 1536,
+      "height": 153,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-d-odd",
+        "status": "passed",
+        "imageSha256": "e31d32e902cb66a26d5b0fc340d05485dcaabf37dd9ffc142f5e875a0cb1a18e",
+        "reviewedAt": "2026-10-25T19:52:44.763389+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete Odd header labels and logo glyph: seven tilted tabs and search/account visible/readable. Decorative stamp border overhang reaches native header crop; meaningful logo/labels intact.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1526,
+        "width": 1536,
+        "x": 0,
+        "y": 998
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24793"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-d---noticeboard-24793 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24793",
+          "selector": ".page-variant-d-odd-5899 .section-events-d---noticeboard-24793"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:07.339Z",
+      "domObservedAt": "2026-10-25T19:46:01.018Z",
+      "rawImage": "events--variant-d-odd.jpg",
+      "width": 1536,
+      "height": 1526,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-d-odd",
+        "status": "passed",
+        "imageSha256": "368a94a8f54436db1dfd7088399388dba2a64a4f59b5f86f09e12104c8292330",
+        "reviewedAt": "2026-10-25T19:52:44.764402+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Complete Things we will happily let you do in here noticeboard: all six tilted notes, capacities/prices/notice copy and actions readable; full lower notes retained.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1890,
+        "width": 1536,
+        "x": 0,
+        "y": 6105
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24797"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-d---loyalty-card-24797 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24797",
+          "selector": ".page-variant-d-odd-5899 .section-membership-d---loyalty-card-24797"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:09.396Z",
+      "domObservedAt": "2026-10-25T19:46:01.018Z",
+      "rawImage": "membership--variant-d-odd.jpg",
+      "width": 1536,
+      "height": 1890,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-d-odd",
+        "status": "passed",
+        "imageSha256": "9782aac211a241d71c729975a7b6b9d7e02bd32a88c9ceb2977b01e0af547800",
+        "reviewedAt": "2026-10-25T19:52:44.764402+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Full Ten stamps loyalty section: complete heading/intro, card with three earned dark marks and seven blank slots, plus all three semantic tier cards, benefits and actions. Readable and uncropped.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 554,
+        "width": 1536,
+        "x": 0,
+        "y": 4280
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24795"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-d---postcard-24795 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24795",
+          "selector": ".page-variant-d-odd-5899 .section-contact-d---postcard-24795"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:11.086Z",
+      "domObservedAt": "2026-10-25T19:46:01.018Z",
+      "rawImage": "contact--variant-d-odd.jpg",
+      "width": 1536,
+      "height": 554,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-d-odd",
+        "status": "passed",
+        "imageSha256": "3f1459041973277cb34989195210664c099711b6336781abd5bb46caa9e3a8a4",
+        "reviewedAt": "2026-10-25T19:52:44.764402+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Full Dear Adam Template Testing 2 postcard: heading, ruled Message, Name/Email, stamp and Post it. Small native labels readable at full image size; no data entry/editor/loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 65,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 28,
+            "width": 28,
+            "x": 120,
+            "y": 13.449999809265137
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-e-grid",
+      "pageId": "5901",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-e-grid-5901) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 64.8125,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "variant": "variant-e-grid",
+      "viewportBounds": {
+        "height": 64.8125,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:53.253Z",
+      "domObservedAt": "2026-10-25T19:46:51.402Z",
+      "rawImage": "header--variant-e-grid.jpg",
+      "width": 1536,
+      "height": 65,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-e-grid",
+        "status": "passed",
+        "imageSha256": "a232ecf5c2a8d56a4a2c7baf36117404362b558096a83af504880adff97224c3",
+        "reviewedAt": "2026-10-25T19:47:46.176949+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Grid navigation: all seven native menu labels, logo, highlighted Private Events and search/account icons are visible, contained and legible. Entire 65px header captured; no editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/E-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1593,
+        "width": 1536,
+        "x": 0,
+        "y": 1774
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-e-grid",
+      "pageId": "5901",
+      "sectionIds": [
+        "24810"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-e---catalogue-24810",
+          "headings": "[Circular]",
+          "id": "24810",
+          "selector": ".page-variant-e-grid-5901 .section-food-e---catalogue-24810"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1592.3499755859375,
+        "width": 1536,
+        "x": 0,
+        "y": 1774.300048828125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "variant": "variant-e-grid",
+      "viewportBounds": {
+        "height": 1592.3499755859375,
+        "width": 1536,
+        "x": 0,
+        "y": 1774.300048828125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:55.911Z",
+      "domObservedAt": "2026-10-25T19:46:51.402Z",
+      "rawImage": "food--variant-e-grid.jpg",
+      "width": 1536,
+      "height": 1593,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-e-grid",
+        "status": "passed",
+        "imageSha256": "8278575a3a59dc33659ec75fdbbe0ae1b3258a2ee21f19846017576acbb36e9f",
+        "reviewedAt": "2026-10-25T19:47:46.176949+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Grid Menu section: Snacks, Drinks and Desserts groups, all seven configured product cards and native prices are fully represented. Product image placeholders and description ellipses are the actual native source state; labels/prices are legible, not an editor or page-loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/E-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1068,
+        "width": 1536,
+        "x": 0,
+        "y": 707
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-e-grid",
+      "pageId": "5901",
+      "sectionIds": [
+        "24809"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-e---packages-24809",
+          "headings": "[Circular]",
+          "id": "24809",
+          "selector": ".page-variant-e-grid-5901 .section-events-e---packages-24809"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 1067,
+        "width": 1536,
+        "x": 0,
+        "y": 707.2999877929688
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "variant": "variant-e-grid",
+      "viewportBounds": {
+        "height": 1067,
+        "width": 1536,
+        "x": 0,
+        "y": 707.2999877929688
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:57.457Z",
+      "domObservedAt": "2026-10-25T19:46:51.402Z",
+      "rawImage": "events--variant-e-grid.jpg",
+      "width": 1536,
+      "height": 1068,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-e-grid",
+        "status": "passed",
+        "imageSha256": "f4b879ef933414d95dd406a9e29b49b0014b6811355b81d29b52706b174b034a",
+        "reviewedAt": "2026-10-25T19:47:46.176949+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Private hire, three ways section: complete three packages/prices, all benefit lists and Enquire actions, followed by all five Common questions rows. Clear correct parties component, full native section; no loader or crop.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/E-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 997,
+        "width": 1536,
+        "x": 0,
+        "y": 4739
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-e-grid",
+      "pageId": "5901",
+      "sectionIds": [
+        "24814"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-e---tiers-24814",
+          "headings": "[Circular]",
+          "id": "24814",
+          "selector": ".page-variant-e-grid-5901 .section-membership-e---tiers-24814"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 996,
+        "width": 1536,
+        "x": 0,
+        "y": 4739.4501953125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "variant": "variant-e-grid",
+      "viewportBounds": {
+        "height": 996,
+        "width": 1536,
+        "x": 0,
+        "y": 4739.4501953125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:46:59.245Z",
+      "domObservedAt": "2026-10-25T19:46:51.402Z",
+      "rawImage": "membership--variant-e-grid.jpg",
+      "width": 1536,
+      "height": 997,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-e-grid",
+        "status": "passed",
+        "imageSha256": "cef9e8730d2c04bee4aecb69e692e787aa9d193bcca0a03eff7ef4c589ecb024",
+        "reviewedAt": "2026-10-25T19:47:46.176949+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Membership comparison: all Standard/Plus/Premier cards, prices, benefits and join actions, plus complete five-row comparison table. Text and tinted actions are readable and complete; no editor/loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/E-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 542,
+        "width": 1536,
+        "x": 0,
+        "y": 3366
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-e-grid",
+      "pageId": "5901",
+      "sectionIds": [
+        "24811"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-e---support-panel-24811",
+          "headings": "[Circular]",
+          "id": "24811",
+          "selector": ".page-variant-e-grid-5901 .section-contact-e---support-panel-24811"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 540.7999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 3366.650146484375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "variant": "variant-e-grid",
+      "viewportBounds": {
+        "height": 540.7999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 3366.650146484375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:01.098Z",
+      "domObservedAt": "2026-10-25T19:46:51.402Z",
+      "rawImage": "contact--variant-e-grid.jpg",
+      "width": 1536,
+      "height": 542,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-e-grid",
+        "status": "passed",
+        "imageSha256": "5ff858834fdbd8e47627b413472255bfb9eb1e3334f2eb90ff7d7974550ab26e",
+        "reviewedAt": "2026-10-25T19:47:46.176949+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Send us a message native form: complete Name, Email, Message area and Send message action; all labels legible. Full native form height captured, no typed sample values, submission or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/E-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 640,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 32,
+            "width": 32,
+            "x": 103.20000457763672,
+            "y": 31.200000762939453
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-f-concrete",
+      "pageId": "5903",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 639.2000122070312,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "variant": "variant-f-concrete",
+      "viewportBounds": {
+        "height": 639.2000122070312,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:13.933Z",
+      "domObservedAt": "2026-10-25T19:47:13.554Z",
+      "rawImage": "header--variant-f-concrete.jpg",
+      "width": 240,
+      "height": 640,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-f-concrete",
+        "status": "passed",
+        "imageSha256": "c09bac87c06644e0bc2b4e9be4d9e4b465be3c7e92ea6e5b4c6bf547419a372d",
+        "reviewedAt": "2026-10-25T19:48:05.996954+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Concrete desktop sidebar: complete logo, six numbered menu rows, full Private Events action and search/account utilities. All labels including wrapped Events and Late Nights are contained and legible within the native240px sidebar; no duplicate crop, editor or loading veil.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/F-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 897,
+        "width": 1296,
+        "x": 240,
+        "y": 1631
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-f-concrete",
+      "pageId": "5903",
+      "sectionIds": [
+        "24830"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-f---price-table-24830 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24830",
+          "selector": ".page-variant-f-concrete-5903 .section-food-f---price-table-24830"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 896.5499877929688,
+        "width": 1296,
+        "x": 240,
+        "y": 1631.4000244140625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "variant": "variant-f-concrete",
+      "viewportBounds": {
+        "height": 896.5499877929688,
+        "width": 1296,
+        "x": 240,
+        "y": 1631.4000244140625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:14.314Z",
+      "domObservedAt": "2026-10-25T19:47:13.554Z",
+      "rawImage": "food--variant-f-concrete.jpg",
+      "width": 1296,
+      "height": 897,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-f-concrete",
+        "status": "passed",
+        "imageSha256": "5066791ef69ba46a4cd2615ac2829a35ec74dda98fbde5eab42f5b2885ef2bd2",
+        "reviewedAt": "2026-10-25T19:48:05.996954+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Concrete text menu: category rail plus all Snacks, Drinks and Desserts product rows/prices are complete and legible. This is the intended native text-first presentation; native descriptions retain their own ellipses. Full section captured without an unrelated sidebar.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/F-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 593,
+        "width": 1296,
+        "x": 240,
+        "y": 1039
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-f-concrete",
+      "pageId": "5903",
+      "sectionIds": [
+        "24829"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-f---hire-schedule-24829 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24829",
+          "selector": ".page-variant-f-concrete-5903 .section-events-f---hire-schedule-24829"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 591.6000366210938,
+        "width": 1296,
+        "x": 240,
+        "y": 1039.800048828125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "variant": "variant-f-concrete",
+      "viewportBounds": {
+        "height": 591.6000366210938,
+        "width": 1296,
+        "x": 240,
+        "y": 1039.800048828125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:15.855Z",
+      "domObservedAt": "2026-10-25T19:47:13.554Z",
+      "rawImage": "events--variant-f-concrete.jpg",
+      "width": 1296,
+      "height": 593,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-f-concrete",
+        "status": "passed",
+        "imageSha256": "8eb584967f8eae357de6ebd1765f523f24a00e41cc72fec028afeea7e55d8923",
+        "reviewedAt": "2026-10-25T19:48:05.996954+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual HIRE section: complete capacity introduction, four occasion/capacity/price/notes rows and Enquire action. Correct private-hire component with readable monospaced copy; no cropped bottom content, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/F-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 570,
+        "width": 1296,
+        "x": 240,
+        "y": 3847
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-f-concrete",
+      "pageId": "5903",
+      "sectionIds": [
+        "24833"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-f---tariff-24833 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24833",
+          "selector": ".page-variant-f-concrete-5903 .section-membership-f---tariff-24833"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 569.2000122070312,
+        "width": 1296,
+        "x": 240,
+        "y": 3847.175048828125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "variant": "variant-f-concrete",
+      "viewportBounds": {
+        "height": 569.2000122070312,
+        "width": 1296,
+        "x": 240,
+        "y": 3847.175048828125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:17.905Z",
+      "domObservedAt": "2026-10-25T19:47:13.554Z",
+      "rawImage": "membership--variant-f-concrete.jpg",
+      "width": 1296,
+      "height": 570,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-f-concrete",
+        "status": "passed",
+        "imageSha256": "5889105a4830652c03e60cc9cf5a7254708a27f0917b59844f06947692ce075b",
+        "reviewedAt": "2026-10-25T19:48:05.996954+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual TARIFF membership: full three-tier pricing/benefits table, monthly terms, points note and Join action. Readable native complete section; correct membership identity, not a private hire table.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/F-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 526,
+        "width": 1296,
+        "x": 240,
+        "y": 2527
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-f-concrete",
+      "pageId": "5903",
+      "sectionIds": [
+        "24831"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-f---ledger-24831 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24831",
+          "selector": ".page-variant-f-concrete-5903 .section-contact-f---ledger-24831"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 524.4249877929688,
+        "width": 1296,
+        "x": 240,
+        "y": 2527.949951171875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "variant": "variant-f-concrete",
+      "viewportBounds": {
+        "height": 524.4249877929688,
+        "width": 1296,
+        "x": 240,
+        "y": 2527.949951171875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:19.941Z",
+      "domObservedAt": "2026-10-25T19:47:13.554Z",
+      "rawImage": "contact--variant-f-concrete.jpg",
+      "width": 1296,
+      "height": 526,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-f-concrete",
+        "status": "passed",
+        "imageSha256": "4fb077d802ce030c547da5c6fa059da473a32c839bc2f601939f53ccb58af90d",
+        "reviewedAt": "2026-10-25T19:48:05.996954+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Concrete Contact form: complete Name, Email, Message area and Send action in its native wide ruled layout. All labels and button text readable; no sample submission, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/F-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 99,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 65,
+            "width": 65,
+            "x": 88,
+            "y": 16
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-g-cut",
+      "pageId": "5905",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-g-cut-5905) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "variant": "variant-g-cut",
+      "viewportBounds": {
+        "height": 98.9000015258789,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:42.976Z",
+      "domObservedAt": "2026-10-25T19:47:40.989Z",
+      "rawImage": "header--variant-g-cut.jpg",
+      "width": 1536,
+      "height": 99,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "header--variant-g-cut",
+        "status": "passed",
+        "imageSha256": "73df1c63955b94d95351056a3a80700a765ecb313159f4fe9b160ce0086aae48",
+        "reviewedAt": "2026-10-25T19:48:42.315275+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual shared Standard navigation representative on Cut: logo, all seven native menu labels and search/account utilities fit the complete header. Legible opaque Dark/Background pair; no missing nav labels, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/G-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1633,
+        "width": 1536,
+        "x": 0,
+        "y": 2411
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-g-cut",
+      "pageId": "5905",
+      "sectionIds": [
+        "24852"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-g---colour-tile-wall-24852 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24852",
+          "selector": ".page-variant-g-cut-5905 .section-food-g---colour-tile-wall-24852"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1631.9375,
+        "width": 1536,
+        "x": 0,
+        "y": 2411.949951171875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "variant": "variant-g-cut",
+      "viewportBounds": {
+        "height": 1631.9375,
+        "width": 1536,
+        "x": 0,
+        "y": 2411.949951171875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:46.703Z",
+      "domObservedAt": "2026-10-25T19:47:40.989Z",
+      "rawImage": "food--variant-g-cut.jpg",
+      "width": 1536,
+      "height": 1633,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-g-cut",
+        "status": "passed",
+        "imageSha256": "6bb432f9c20b8faa08fb724dfea2ef1daf9521503034a58bf454eb042a119d27",
+        "reviewedAt": "2026-10-25T19:48:42.315275+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Cut colour-tile Menu: full category tabs and all seven configured Snacks/Drinks/Desserts tiles with product names and poster-style prices. Full native height captured; intentional text-led tile styling hides detailed descriptions and image fields rather than substituting photos. Price typography is tight but legible at native size.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/G-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1793,
+        "width": 1536,
+        "x": 0,
+        "y": 619
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-g-cut",
+      "pageId": "5905",
+      "sectionIds": [
+        "24851"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-g---diagonal-stack-24851 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24851",
+          "selector": ".page-variant-g-cut-5905 .section-events-g---diagonal-stack-24851"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 1792.9500732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 619
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "variant": "variant-g-cut",
+      "viewportBounds": {
+        "height": 1792.9500732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 619
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:48.090Z",
+      "domObservedAt": "2026-10-25T19:47:40.989Z",
+      "rawImage": "events--variant-g-cut.jpg",
+      "width": 1536,
+      "height": 1793,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-g-cut",
+        "status": "passed",
+        "imageSha256": "3bad85d038292643da0ac7b90c3f8b987d539633634a29f9b89318749e11a896",
+        "reviewedAt": "2026-10-25T19:48:42.315275+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Cut private-hire diagonal stack: all four Weddings/Birthdays/Private screenings/Brand nights panels, supporting copy and Enquire links are complete and readable. Correct parties component; native diagonal edges retained, no clipped last panel or loading/editor overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/G-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 691,
+        "width": 1536,
+        "x": 0,
+        "y": 4951
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-g-cut",
+      "pageId": "5905",
+      "sectionIds": [
+        "25118"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-g-membership section-membership-g---poster-pass-25118 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25118",
+          "selector": ".page-variant-g-cut-5905 .section-membership-g---poster-pass-25118"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 690.0499877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4951.1875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "variant": "variant-g-cut",
+      "viewportBounds": {
+        "height": 690.0499877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4951.1875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:50.107Z",
+      "domObservedAt": "2026-10-25T19:47:40.989Z",
+      "rawImage": "membership--variant-g-cut.jpg",
+      "width": 1536,
+      "height": 691,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-g-cut",
+        "status": "passed",
+        "imageSha256": "e37430d70586cfcca13a7ff1647b9cb6d5300b76f4348b0701cd24064a3cc9e2",
+        "reviewedAt": "2026-10-25T19:48:42.315275+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Become a regular membership: complete three editorial cards, all three numbered kickers, body copy and Explore membership action. First kicker now readable on its dark panel; featured tinted cards and all text contained. No editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/G-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 909,
+        "width": 1536,
+        "x": 0,
+        "y": 4043
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-g-cut",
+      "pageId": "5905",
+      "sectionIds": [
+        "24853"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-g---two-tone-split-24853 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24853",
+          "selector": ".page-variant-g-cut-5905 .section-contact-g---two-tone-split-24853"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 907.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4043.887451171875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "variant": "variant-g-cut",
+      "viewportBounds": {
+        "height": 907.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4043.887451171875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:47:51.854Z",
+      "domObservedAt": "2026-10-25T19:47:40.989Z",
+      "rawImage": "contact--variant-g-cut.jpg",
+      "width": 1536,
+      "height": 909,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-g-cut",
+        "status": "passed",
+        "imageSha256": "a6a1208d92af8e9cc3a32fa3bafec862ab6555fe3e2ee5a905a3bdae786c40de",
+        "reviewedAt": "2026-10-25T19:48:42.315275+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Say something split Contact form: full diagonal title panel, Name/Email/Message ruled fields and Send action. Correct native form, all labels and repaired Send text readable; no sample values, submission, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/G-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-h-storybook",
+      "pageId": "5909",
+      "sectionIds": [
+        "24864"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-h---framed-plate-24864 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24864",
+          "selector": ".page-variant-h-storybook-5909 .section-hero-h---framed-plate-24864"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "variant": "variant-h-storybook",
+      "viewportBounds": {
+        "height": 536,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:48:43.594Z",
+      "domObservedAt": "2026-10-25T19:48:43.132Z",
+      "rawImage": "hero--variant-h-storybook.jpg",
+      "width": 1536,
+      "height": 536,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-h-storybook",
+        "status": "passed",
+        "imageSha256": "f8e4563e1a985268ab352b3afeb24d80949ef658cdd4aae95f660e5aa25facdb",
+        "reviewedAt": "2026-10-25T19:50:00.446514+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Storybook framed hero: full Now showing kicker, Once upon a picture title, film details and Reserve seats action within complete nested frame. Correct native typographic plate treatment; all content contained/readable, no pointer, editor or loading veil.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/H-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1820,
+        "width": 1536,
+        "x": 0,
+        "y": 1267
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-h-storybook",
+      "pageId": "5909",
+      "sectionIds": [
+        "24866"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-h---framed-bill-of-fare-24866 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24866",
+          "selector": ".page-variant-h-storybook-5909 .section-food-h---framed-bill-of-fare-24866"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1818.4000244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 1267.8499755859375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "variant": "variant-h-storybook",
+      "viewportBounds": {
+        "height": 1818.4000244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 1267.8499755859375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:48:45.579Z",
+      "domObservedAt": "2026-10-25T19:48:43.132Z",
+      "rawImage": "food--variant-h-storybook.jpg",
+      "width": 1536,
+      "height": 1820,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-h-storybook",
+        "status": "passed",
+        "imageSha256": "a747cf28b3115621b884c5d50e8921cad41e73118a045f08fff7a945224a625a",
+        "reviewedAt": "2026-10-25T19:50:00.446514+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Storybook Bill of fare Menu: complete category controls, all seven configured product names and prices across Snacks/Drinks/Desserts. Intentional wide framed rows and native small price typography retained; full bottom Movie Candy row present. No mistaken component, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/H-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 633,
+        "width": 1536,
+        "x": 0,
+        "y": 635
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-h-storybook",
+      "pageId": "5909",
+      "sectionIds": [
+        "24865"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-h---invitations-24865 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24865",
+          "selector": ".page-variant-h-storybook-5909 .section-events-h---invitations-24865"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 632.8500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 635
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "variant": "variant-h-storybook",
+      "viewportBounds": {
+        "height": 632.8500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 635
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:48:47.635Z",
+      "domObservedAt": "2026-10-25T19:48:43.132Z",
+      "rawImage": "events--variant-h-storybook.jpg",
+      "width": 1536,
+      "height": 633,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-h-storybook",
+        "status": "passed",
+        "imageSha256": "d95d0efc0d62fdabd8998b67ce415e878fbbf24fc65a5cadb90485b46e8da893",
+        "reviewedAt": "2026-10-25T19:50:00.446514+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual You are invited private-occasions section: all three Weddings/Birthdays/Private screenings invitation cards, complete descriptions and Enquire actions within double borders. Correct parties component with readable content; no cropping or loading/editor overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/H-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 852,
+        "width": 1536,
+        "x": 0,
+        "y": 3907
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-h-storybook",
+      "pageId": "5909",
+      "sectionIds": [
+        "25121"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-h-membership section-membership-h---subscribers-invitation-25121 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25121",
+          "selector": ".page-variant-h-storybook-5909 .section-membership-h---subscribers-invitation-25121"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 851.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 3907.25
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "variant": "variant-h-storybook",
+      "viewportBounds": {
+        "height": 851.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 3907.25
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:48:49.684Z",
+      "domObservedAt": "2026-10-25T19:48:43.132Z",
+      "rawImage": "membership--variant-h-storybook.jpg",
+      "width": 1536,
+      "height": 852,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-h-storybook",
+        "status": "passed",
+        "imageSha256": "c23c80dfa4435862129d24852b5e8e495532ea76f35b1452eb9e7e9260b151cb",
+        "reviewedAt": "2026-10-25T19:50:00.446514+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual A place in the story membership: complete framed returning-audience introduction, all three editorial benefit columns and Discover membership action. Correct membership component; full native layout and text retained without crop, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/H-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 822,
+        "width": 1536,
+        "x": 0,
+        "y": 3086
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-h-storybook",
+      "pageId": "5909",
+      "sectionIds": [
+        "24867"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-h---the-letter-24867 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24867",
+          "selector": ".page-variant-h-storybook-5909 .section-contact-h---the-letter-24867"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 821,
+        "width": 1536,
+        "x": 0,
+        "y": 3086.25
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "variant": "variant-h-storybook",
+      "viewportBounds": {
+        "height": 821,
+        "width": 1536,
+        "x": 0,
+        "y": 3086.25
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:48:51.275Z",
+      "domObservedAt": "2026-10-25T19:48:43.132Z",
+      "rawImage": "contact--variant-h-storybook.jpg",
+      "width": 1536,
+      "height": 822,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-h-storybook",
+        "status": "passed",
+        "imageSha256": "e07b6a74226c050617c30a5ab70cb42120b2087aa196116135d2e0dd09e5b6d3",
+        "reviewedAt": "2026-10-25T19:50:00.446514+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Write to us letter form: complete double frame, Name/Email/Message fields and Send message action. Native small letterspaced label styling is retained and readable at full size; no missing field, typed sample content, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/H-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 736,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-i-ma",
+      "pageId": "5911",
+      "sectionIds": [
+        "24872"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-i---one-still-one-line-24872 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24872",
+          "selector": ".page-variant-i-ma-5911 .section-hero-i---one-still-one-line-24872"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 736,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "variant": "variant-i-ma",
+      "viewportBounds": {
+        "height": 736,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:49:43.334Z",
+      "domObservedAt": "2026-10-25T19:49:42.975Z",
+      "rawImage": "hero--variant-i-ma.jpg",
+      "width": 1536,
+      "height": 736,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-i-ma",
+        "status": "passed",
+        "imageSha256": "9e97d4be13528385eaa7207e7cd02c6b36650628d62669967d05731553febe6b",
+        "reviewedAt": "2026-10-25T19:50:25.049457+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Ma one-still hero: full native still image, complete vertical One still. One line. title and full bottom subtitle on opaque Dark panels. All overlay text readable and contained within image; correct published hero, no cursor/editor/loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/I-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 2226,
+        "width": 1536,
+        "x": 0,
+        "y": 2155
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-i-ma",
+      "pageId": "5911",
+      "sectionIds": [
+        "24874"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-i---few-items-wide-margins-24874 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24874",
+          "selector": ".page-variant-i-ma-5911 .section-food-i---few-items-wide-margins-24874"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 2225.449951171875,
+        "width": 1536,
+        "x": 0,
+        "y": 2155.25
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "variant": "variant-i-ma",
+      "viewportBounds": {
+        "height": 2225.449951171875,
+        "width": 1536,
+        "x": 0,
+        "y": 2155.25
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:49:45.137Z",
+      "domObservedAt": "2026-10-25T19:49:42.975Z",
+      "rawImage": "food--variant-i-ma.jpg",
+      "width": 1536,
+      "height": 2226,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-i-ma",
+        "status": "passed",
+        "imageSha256": "b346de818a15ad9187c7bef6407534f5b6e094371c372baceb6ba042ec990049",
+        "reviewedAt": "2026-10-25T19:50:25.049457+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Ma A few things menu: complete Snacks/Drinks/Desserts group headings and all seven configured product names, descriptions and prices. Quiet thin typography and generous native whitespace faithfully retained; full bottom row present, no editor/loading veil or fake photos.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/I-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1321,
+        "width": 1536,
+        "x": 0,
+        "y": 835
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-i-ma",
+      "pageId": "5911",
+      "sectionIds": [
+        "24873"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-i---one-occasion-at-a-time-24873 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24873",
+          "selector": ".page-variant-i-ma-5911 .section-events-i---one-occasion-at-a-time-24873"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 1320.25,
+        "width": 1536,
+        "x": 0,
+        "y": 835
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "variant": "variant-i-ma",
+      "viewportBounds": {
+        "height": 1320.25,
+        "width": 1536,
+        "x": 0,
+        "y": 835
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:49:47.260Z",
+      "domObservedAt": "2026-10-25T19:49:42.975Z",
+      "rawImage": "events--variant-i-ma.jpg",
+      "width": 1536,
+      "height": 1321,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-i-ma",
+        "status": "passed",
+        "imageSha256": "ac63602cbb00790a53dce8146dd525670fa8036575b54d531d59926958da8ba2",
+        "reviewedAt": "2026-10-25T19:50:25.049457+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Ma Private occasions01-03: all three numbered private screening/quiet celebration/table after the film entries, descriptions and Enquire links are complete. Correct dedicated parties section; fine native typography readable at original size, no clipping or loading/editor overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/I-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 855,
+        "width": 1536,
+        "x": 0,
+        "y": 5602
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-i-ma",
+      "pageId": "5911",
+      "sectionIds": [
+        "25125"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-i-membership section-membership-i---quiet-return-25125 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25125",
+          "selector": ".page-variant-i-ma-5911 .section-membership-i---quiet-return-25125"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 853.75,
+        "width": 1536,
+        "x": 0,
+        "y": 5602.41259765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "variant": "variant-i-ma",
+      "viewportBounds": {
+        "height": 853.75,
+        "width": 1536,
+        "x": 0,
+        "y": 5602.41259765625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:49:49.286Z",
+      "domObservedAt": "2026-10-25T19:49:42.975Z",
+      "rawImage": "membership--variant-i-ma.jpg",
+      "width": 1536,
+      "height": 855,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-i-ma",
+        "status": "passed",
+        "imageSha256": "daaee3aee50ef3ac6c2cfde7c44d096302192e3584170b0961df230bdb226d05",
+        "reviewedAt": "2026-10-25T19:50:25.049457+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Ma Come back membership: complete three numbered Find your rhythm/Take a closer look/Make it yours rows and View membership action. Correct membership component; all copy and bottom action retained/readable, no editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/I-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1223,
+        "width": 1536,
+        "x": 0,
+        "y": 4380
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-i-ma",
+      "pageId": "5911",
+      "sectionIds": [
+        "24875"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-i---one-question-at-a-time-24875 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24875",
+          "selector": ".page-variant-i-ma-5911 .section-contact-i---one-question-at-a-time-24875"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 1221.7125244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 4380.7001953125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "variant": "variant-i-ma",
+      "viewportBounds": {
+        "height": 1221.7125244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 4380.7001953125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:49:50.939Z",
+      "domObservedAt": "2026-10-25T19:49:42.975Z",
+      "rawImage": "contact--variant-i-ma.jpg",
+      "width": 1536,
+      "height": 1223,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-i-ma",
+        "status": "passed",
+        "imageSha256": "96bdda4b60bf815013489afea0f7dead8d4075cc26155c2cf263a523f69f5d53",
+        "reviewedAt": "2026-10-25T19:50:25.049457+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Ma Tell us one thing form: full Name/Email/Message ruled fields and Send action with native generous vertical spacing. Correct contact identity and full component height; small native label typography retained, no typed sample values, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/I-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 132,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "24885"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-j-intro-24885 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24885",
+          "selector": ".page-variant-j-box-office-5913 .section-j-intro-24885"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:49:59.100Z",
+      "domObservedAt": "2026-10-25T19:49:57.387Z",
+      "rawImage": "hero--variant-j-box-office.jpg",
+      "width": 1536,
+      "height": 132,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-j-box-office",
+        "status": "passed",
+        "imageSha256": "9b2e980bdeacf465134a97afdcf9fc6556a28a3b44f6176544fdc3068fa0ed5a",
+        "reviewedAt": "2026-10-25T19:51:03.004976+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual short Box Office introductory hero: complete Tonight at the box office headline and both supporting text lines on opaque Dark. Correct native intro section, not a screenshot of the separate quick-ticket widget; full native component is visible/readable without clipping, cursor, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/J-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1815,
+        "width": 1536,
+        "x": 0,
+        "y": 920
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1265.625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1445.2625732421875
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1626.862548828125
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 1879.300048828125
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/idiojv2s2nx8q53tcq6ojjxsfztb?w=600&h=374&fit=crop&fill=solid&fill-color=954f1a&bg=954f1a&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 104.8000030517578,
+            "y": 2131.737548828125
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25142"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-food section-food-j---counter-menu-25142 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25142",
+          "selector": ".page-variant-j-box-office-5913 .section-food-j---counter-menu-25142"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 1814.550048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 920.1749877929688
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:00.759Z",
+      "domObservedAt": "2026-10-25T19:49:57.387Z",
+      "rawImage": "food--variant-j-box-office.jpg",
+      "width": 1536,
+      "height": 1815,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-j-box-office",
+        "status": "passed",
+        "imageSha256": "27d2650586d1f21c11b609bc0f296c16570858682efa46d7714462991213206f",
+        "reviewedAt": "2026-10-25T19:51:03.004976+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual At the counter food section: category controls and all seven native product rows, descriptions and prices are complete. First five native thumbnail images are shown; Sundae and Movie Candy retain actual source placeholders. Correct food identity and full content, no editor or page-loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/J-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 773,
+        "width": 1536,
+        "x": 0,
+        "y": 2734
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25143"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-private-parties section-private-parties-j---group-booking-desk-25143 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25143",
+          "selector": ".page-variant-j-box-office-5913 .section-private-parties-j---group-booking-desk-25143"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 771.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 2734.72509765625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:02.774Z",
+      "domObservedAt": "2026-10-25T19:49:57.387Z",
+      "rawImage": "events--variant-j-box-office.jpg",
+      "width": 1536,
+      "height": 773,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-j-box-office",
+        "status": "passed",
+        "imageSha256": "3b667b24621e2c2cfd20541c57ef168066fd9794ec3e9daa837ea5818a523d2b",
+        "reviewedAt": "2026-10-25T19:51:03.004976+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Your screen. Your occasion. private-hire section: full three numbered occasion rows, complete planning checklist and Explore private hire action. Correct dedicated parties component with all copy legible and contained; no loading/editor panel.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/J-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 700,
+        "width": 1536,
+        "x": 0,
+        "y": 3506
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25144"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-membership section-membership-j---box-office-pass-25144 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25144",
+          "selector": ".page-variant-j-box-office-5913 .section-membership-j---box-office-pass-25144"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 699.75,
+        "width": 1536,
+        "x": 0,
+        "y": 3506.074951171875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:04.820Z",
+      "domObservedAt": "2026-10-25T19:49:57.387Z",
+      "rawImage": "membership--variant-j-box-office.jpg",
+      "width": 1536,
+      "height": 700,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-j-box-office",
+        "status": "passed",
+        "imageSha256": "078906b51ba41965ff14921f43d0da4c50141cdb9fe41b54e08b4aac760610d4",
+        "reviewedAt": "2026-10-25T19:51:03.004976+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Keep cinema on the calendar membership: complete split ticket panel, three comparison steps and View membership action. Full membership copy and right-panel next action retained/readable; no crop, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/J-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 800,
+        "width": 1536,
+        "x": 0,
+        "y": 4205
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-j-box-office",
+      "pageId": "5913",
+      "sectionIds": [
+        "25145"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-j-contact section-contact-j---enquiry-desk-25145 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25145",
+          "selector": ".page-variant-j-box-office-5913 .section-contact-j---enquiry-desk-25145"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "variant": "variant-j-box-office",
+      "viewportBounds": {
+        "height": 799.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 4205.8251953125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:06.624Z",
+      "domObservedAt": "2026-10-25T19:49:57.387Z",
+      "rawImage": "contact--variant-j-box-office.jpg",
+      "width": 1536,
+      "height": 800,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-j-box-office",
+        "status": "passed",
+        "imageSha256": "cf056fefad57a101bf9aab5048f3432d68ae199983f0abce10faea5c742cb4b2",
+        "reviewedAt": "2026-10-25T19:51:03.004976+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Contact the box office native form: complete introductory copy, Name/Email fields, Message area and Send message action. Correct contact section and full height; all labels legible, no typed sample content, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/J-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 117,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-k-clubhouse",
+      "pageId": "5915",
+      "sectionIds": [
+        "24895"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-k-welcome-24895 q-px-xs bg-primary",
+          "headings": "[Circular]",
+          "id": "24895",
+          "selector": ".page-variant-k-clubhouse-5915 .section-k-welcome-24895"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 116.6125030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "variant": "variant-k-clubhouse",
+      "viewportBounds": {
+        "height": 116.6125030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:18.505Z",
+      "domObservedAt": "2026-10-25T19:50:18.140Z",
+      "rawImage": "hero--variant-k-clubhouse.jpg",
+      "width": 1536,
+      "height": 117,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-k-clubhouse",
+        "status": "passed",
+        "imageSha256": "71b0af69da648aa6fef985b08a9a32b926896c8af8686383114bdd3d7bb38d23",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual short Clubhouse welcome hero: entire Welcome to the Clubhouse headline and both supporting lines readable on the native Primary-derived tint. Correct published introductory component; complete source bounds without unrelated panels, cursor, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/K-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1705,
+        "width": 1536,
+        "x": 0,
+        "y": 493
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 331.4624938964844,
+            "y": 786.5
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 713.2250366210938,
+            "y": 786.5
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 1094.987548828125,
+            "y": 786.5
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 331.4624938964844,
+            "y": 1283.6375732421875
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/idiojv2s2nx8q53tcq6ojjxsfztb?w=600&h=374&fit=crop&fill=solid&fill-color=954f1a&bg=954f1a&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 331.4624938964844,
+            "y": 1697.5750732421875
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/131qdkyu1tf7cmgd85jz9mcq79lt?w=600&h=374&fit=crop&fill=solid&fill-color=844d1a&bg=844d1a&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 713.2250366210938,
+            "y": 1697.5750732421875
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/q3lfwe0d637i2cj6sx63llvhlitk?w=600&h=374&fit=crop&fill=solid&fill-color=895317&bg=895317&auto=format,compress",
+          "viewportBounds": {
+            "height": 209.5375061035156,
+            "width": 336.1625061035156,
+            "x": 1094.987548828125,
+            "y": 1697.5750732421875
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-k-clubhouse",
+      "pageId": "5915",
+      "sectionIds": [
+        "25135"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-food section-food-k---clubhouse-kitchen-25135 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25135",
+          "selector": ".page-variant-k-clubhouse-5915 .section-food-k---clubhouse-kitchen-25135"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1704.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 493.0500183105469
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "variant": "variant-k-clubhouse",
+      "viewportBounds": {
+        "height": 1704.0625,
+        "width": 1536,
+        "x": 0,
+        "y": 493.0500183105469
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:20.145Z",
+      "domObservedAt": "2026-10-25T19:50:18.140Z",
+      "rawImage": "food--variant-k-clubhouse.jpg",
+      "width": 1536,
+      "height": 1705,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-k-clubhouse",
+        "status": "passed",
+        "imageSha256": "02842e044cd791892e5f5c910258f4c618413db1203e60f5f75bc2e765f8886e",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Good company. Good things to share. kitchen menu: full category rail, all seven product cards/images, descriptions and prices across Snacks/Drinks/Desserts. Complete native bottom row and readable heading/categories; intentional description ellipses retained. No loading/editor overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/K-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 798,
+        "width": 1536,
+        "x": 0,
+        "y": 2197
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-k-clubhouse",
+      "pageId": "5915",
+      "sectionIds": [
+        "25136"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-private-parties section-private-parties-k---gather-your-people-25136 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25136",
+          "selector": ".page-variant-k-clubhouse-5915 .section-private-parties-k---gather-your-people-25136"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 797.1375122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2197.112548828125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "variant": "variant-k-clubhouse",
+      "viewportBounds": {
+        "height": 797.1375122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2197.112548828125
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:21.761Z",
+      "domObservedAt": "2026-10-25T19:50:18.140Z",
+      "rawImage": "events--variant-k-clubhouse.jpg",
+      "width": 1536,
+      "height": 798,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-k-clubhouse",
+        "status": "passed",
+        "imageSha256": "729e795f4a0a925e7533b6145a2b9e35ce38d2bc7441a749a689413bf86202fd",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Make room for your people private-parties section: all three occasion cards, supporting footer copy and Plan a private gathering action are complete/readable. Correct parties component; full section captured, no clipped card, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/K-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 789,
+        "width": 1536,
+        "x": 0,
+        "y": 3125
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-k-clubhouse",
+      "pageId": "5915",
+      "sectionIds": [
+        "24899"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-membership section-membership-k---your-place-in-the-clubhouse-24899 q-px-xs bg-primary",
+          "headings": "[Circular]",
+          "id": "24899",
+          "selector": ".page-variant-k-clubhouse-5915 .section-membership-k---your-place-in-the-clubhouse-24899"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 788.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 3125.28759765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "variant": "variant-k-clubhouse",
+      "viewportBounds": {
+        "height": 788.3500366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 3125.28759765625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:23.212Z",
+      "domObservedAt": "2026-10-25T19:50:18.140Z",
+      "rawImage": "membership--variant-k-clubhouse.jpg",
+      "width": 1536,
+      "height": 789,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-k-clubhouse",
+        "status": "passed",
+        "imageSha256": "886c525338cd298788e773e65c54125c456464b9dd7face888a15211dda73ddb",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual There is a place for you here membership: complete left introduction/action and right rounded membership chapter card with all three steps. Native Secondary shadow/accent retained; every text group and action readable, no cropped component/editor/loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/K-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 832,
+        "width": 1536,
+        "x": 0,
+        "y": 3913
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-k-clubhouse",
+      "pageId": "5915",
+      "sectionIds": [
+        "25137"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-k-contact section-contact-k---say-hello-25137 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25137",
+          "selector": ".page-variant-k-clubhouse-5915 .section-contact-k---say-hello-25137"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 831.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3913.637451171875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "variant": "variant-k-clubhouse",
+      "viewportBounds": {
+        "height": 831.0125122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3913.637451171875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:24.967Z",
+      "domObservedAt": "2026-10-25T19:50:18.140Z",
+      "rawImage": "contact--variant-k-clubhouse.jpg",
+      "width": 1536,
+      "height": 832,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-k-clubhouse",
+        "status": "passed",
+        "imageSha256": "29cf9eec418130a13ac3dc263469c4eedc9fdaf78372c9f703a84c92cf6a0618",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Pull up a chair. Say hello. form: complete Name/Email fields, Message area and Send a hello action plus introductory copy. All native text and controls readable and contained; no sample values, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/K-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 132,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "24905"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-l-opening-note-24905 q-px-xs bg-dark",
+          "headings": "[Circular]",
+          "id": "24905",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-l-opening-note-24905"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:40.568Z",
+      "domObservedAt": "2026-10-25T19:50:40.211Z",
+      "rawImage": "hero--variant-l-midnight-lounge.jpg",
+      "width": 1536,
+      "height": 132,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-l-midnight-lounge",
+        "status": "passed",
+        "imageSha256": "7f46f96dcf6affe1ac6f6d87425215f86d1f30a4f3dfceaa3c4470e765513aae",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual short Midnight Lounge opening-note hero: full Meet me at midnight headline and both supporting lines on opaque Dark. Correct published native introductory component with complete readable content; no cursor, editor or loading veil.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/L-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1782,
+        "width": 1536,
+        "x": 0,
+        "y": 641
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 934.8250122070312
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1114.4625244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1296.0625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1550.4625244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/idiojv2s2nx8q53tcq6ojjxsfztb?w=600&h=374&fit=crop&fill=solid&fill-color=954f1a&bg=954f1a&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1802.9000244140625
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25138"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-food section-food-l---after-dark-menu-25138 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25138",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-food-l---after-dark-menu-25138"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:42.240Z",
+      "domObservedAt": "2026-10-25T19:50:40.211Z",
+      "rawImage": "food--variant-l-midnight-lounge.jpg",
+      "width": 1536,
+      "height": 1782,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-l-midnight-lounge",
+        "status": "passed",
+        "imageSha256": "036e69ecfd5f58e16dec9bc02c9f9560aaefca4eba7a4d83d87b2d944462c390",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual A little something after dark menu: full category rail and all seven native product rows, descriptions and prices across Snacks/Drinks/Desserts. First five native food images shown; final Sundae/Movie Candy rows retain actual source placeholders. Full component and bottom row readable, no page-loading/editor overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/L-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 852,
+        "width": 1536,
+        "x": 0,
+        "y": 2422
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25139"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-private-parties section-private-parties-l---an-evening-of-your-own-25139 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25139",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-private-parties-l---an-evening-of-your-own-25139"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:43.896Z",
+      "domObservedAt": "2026-10-25T19:50:40.211Z",
+      "rawImage": "events--variant-l-midnight-lounge.jpg",
+      "width": 1536,
+      "height": 852,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "events--variant-l-midnight-lounge",
+        "status": "passed",
+        "imageSha256": "cef05c59dcf11c357d87f2d6b926cb4d9c5e29d5733797ee145b2699fad515bb",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Take over the evening private-hire component: complete invitation panel/Explore private evenings action and all three Celebrate/Gather/Screen entries with supporting copy. Readable Dark/Background design and full native bounds; no crop, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/L-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 840,
+        "width": 1536,
+        "x": 0,
+        "y": 3273
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25140"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-membership section-membership-l---after-dark-regular-25140 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25140",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-membership-l---after-dark-regular-25140"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:45.273Z",
+      "domObservedAt": "2026-10-25T19:50:40.211Z",
+      "rawImage": "membership--variant-l-midnight-lounge.jpg",
+      "width": 1536,
+      "height": 840,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "membership--variant-l-midnight-lounge",
+        "status": "passed",
+        "imageSha256": "99fca2ac47a5411109b7370ea458fa273892f6a7c45ad95ee85a0e8f8b540652",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Make a habit of the evening membership: complete two-column panel, Explore membership action and three Discover/Consider/Begin entries. Correct membership identity and full readable content; no clipped panel, editor or loading overlay.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/L-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 834,
+        "width": 1536,
+        "x": 0,
+        "y": 4112
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25141"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-contact section-contact-l---a-note-after-dark-25141 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25141",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-contact-l---a-note-after-dark-25141"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:50:47.334Z",
+      "domObservedAt": "2026-10-25T19:50:40.211Z",
+      "rawImage": "contact--variant-l-midnight-lounge.jpg",
+      "width": 1536,
+      "height": 834,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "contact--variant-l-midnight-lounge",
+        "status": "passed",
+        "imageSha256": "fd8d5663d3e6e45806c13296f2e29b40f3b7a9d3cf749cad9c5d7764e1bc9e02",
+        "reviewedAt": "2026-10-25T19:51:55.035286+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Actual Leave us a note native contact form: complete Name/Email fields, Message area and Send your note action, all readable against the native Dark treatment. Full form and introductory copy retained; no typed sample values, submission, editor or loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/L-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 953,
+        "width": 1536,
+        "x": 0,
+        "y": 57
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 844,
+          "naturalWidth": 1500,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?auto=format,compress",
+          "viewportBounds": {
+            "height": 765.2250366210938,
+            "width": 1360,
+            "x": 88,
+            "y": 57
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id",
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-a-circuit",
+      "pageId": "5659",
+      "sectionIds": [
+        "23738",
+        "23739"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-a---showtimes-shelf-23738 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23738",
+          "selector": ".page-variant-a-circuit-5659 .section-hero-a---showtimes-shelf-23738"
+        },
+        {
+          "classes": "section-hero-a---shelf-23739 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23739",
+          "selector": ".page-variant-a-circuit-5659 .section-hero-a---shelf-23739"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 952.4750366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 57
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "variant": "variant-a-circuit",
+      "viewportBounds": {
+        "height": 952.4750366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 57
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:51:23.237Z",
+      "domObservedAt": "2026-10-25T19:51:21.577Z",
+      "rawImage": "hero--variant-a-circuit.jpg",
+      "width": 1536,
+      "height": 953,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-a-circuit",
+        "status": "passed",
+        "imageSha256": "e8f32791812743d952586edd66925e0fcaa255e4e8c93c24a855747cc2578793",
+        "reviewedAt": "2026-10-25T19:46:29.885800+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Actual two-section Circuit hero: full Ghost In The Shell image and protected readable title, followed by all four authored film/time/Book shelf columns. Both published source IDs match A-dom; full merged content is retained. Editorial shelf times are shown as source content, not certified booking inventory.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/A-dom.json + evidence/admin-controls-completion/native-clips/reviews-A.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 907,
+        "width": 1536,
+        "x": 0,
+        "y": 135
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 4095,
+          "naturalWidth": 6143,
+          "src": "https://indy-systems.imgix.net/2p541tsf5m17cvk7jmzdncmhj4c2?auto=format,compress",
+          "viewportBounds": {
+            "height": 906.5875244140624,
+            "width": 1360,
+            "x": 88,
+            "y": 135
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-b-rep",
+      "pageId": "5661",
+      "sectionIds": [
+        "23741"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-b---plate-and-note-23741 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23741",
+          "selector": ".page-variant-b-rep-5661 .section-hero-b---plate-and-note-23741"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 906.5875244140624,
+        "width": 1536,
+        "x": 0,
+        "y": 135
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "variant": "variant-b-rep",
+      "viewportBounds": {
+        "height": 906.5875244140624,
+        "width": 1536,
+        "x": 0,
+        "y": 135
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:51:27.329Z",
+      "domObservedAt": "2026-10-25T19:51:26.786Z",
+      "rawImage": "hero--variant-b-rep.jpg",
+      "width": 1536,
+      "height": 907,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-b-rep",
+        "status": "passed",
+        "imageSha256": "07f34435298edf741d76855fd22f55313439fcc7b228c4174a329684cbcc0fa5",
+        "reviewedAt": "2026-10-25T19:52:44.760333+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Fresh pointer-free Rep plate-and-note hero: full Katy Perry image, large readable three-line title and subtitle. No pointer, editor, loader or clipping.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/B-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 705,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 1581,
+          "naturalWidth": 3840,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?auto=format,compress",
+          "viewportBounds": {
+            "height": 559.9375,
+            "width": 1360,
+            "x": 88,
+            "y": 65
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id",
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-c-late",
+      "pageId": "5663",
+      "sectionIds": [
+        "23744",
+        "23745"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-c---marquee-23744 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23744",
+          "selector": ".page-variant-c-late-5663 .section-hero-c---marquee-23744"
+        },
+        {
+          "classes": "section-hero-c---dock-23745 q-px-xs",
+          "headings": "[Circular]",
+          "id": "23745",
+          "selector": ".page-variant-c-late-5663 .section-hero-c---dock-23745"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 704.9375,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "variant": "variant-c-late",
+      "viewportBounds": {
+        "height": 704.9375,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:51:33.208Z",
+      "domObservedAt": "2026-10-25T19:51:31.524Z",
+      "rawImage": "hero--variant-c-late.jpg",
+      "width": 1536,
+      "height": 705,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-c-late",
+        "status": "passed",
+        "imageSha256": "1a1c65299b88d5493094aba047d07b1b277d7caf830ad2bef3b06e43939ca251",
+        "reviewedAt": "2026-10-25T19:52:44.763389+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Fresh pointer-free merged Late hero: full Pulp image and readable protected title, complete Screen/Kitchen/Late dock columns. No pointer/editor/loader.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/C-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 643,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id",
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-e-grid",
+      "pageId": "5901",
+      "sectionIds": [
+        "24806",
+        "24807"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-e---product-panel-24806",
+          "headings": "[Circular]",
+          "id": "24806",
+          "selector": ".page-variant-e-grid-5901 .section-hero-e---product-panel-24806"
+        },
+        {
+          "classes": "section-hero-e---quick-selector-24807",
+          "headings": "[Circular]",
+          "id": "24807",
+          "selector": ".page-variant-e-grid-5901 .section-hero-e---quick-selector-24807"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 642.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "variant": "variant-e-grid",
+      "viewportBounds": {
+        "height": 642.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 65
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:51:37.942Z",
+      "domObservedAt": "2026-10-25T19:51:37.108Z",
+      "rawImage": "hero--variant-e-grid.jpg",
+      "width": 1536,
+      "height": 643,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-e-grid",
+        "status": "passed",
+        "imageSha256": "1b69527774c84641f64c865c005fc0e03efdb2b41aa462d26f836456d158284d",
+        "reviewedAt": "2026-10-25T19:52:12.597748+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Fresh pointer-free Grid hero replacement independently re-reviewed: complete Fast And The Furious image, protected readable title/status panel and Book tickets action, plus both native quick-ticket dropdowns and Buy Tickets. Exact two-section component retained. No pointer artifact, editor, loading veil or cropped caption; native ticket action remains unselected/disabled, no transaction tested.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/E-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 520,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-g-cut",
+      "pageId": "5905",
+      "sectionIds": [
+        "24850"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-g---poster-block-24850 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24850",
+          "selector": ".page-variant-g-cut-5905 .section-hero-g---poster-block-24850"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 520,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "variant": "variant-g-cut",
+      "viewportBounds": {
+        "height": 520,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T19:51:42.079Z",
+      "domObservedAt": "2026-10-25T19:51:41.597Z",
+      "rawImage": "hero--variant-g-cut.jpg",
+      "width": 1536,
+      "height": 520,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-g-cut",
+        "status": "passed",
+        "imageSha256": "ccdf3aab2b924c0c3f9b50b28c774676966abc20a787d3dba0bd15efefbc21f7",
+        "reviewedAt": "2026-10-25T19:52:12.597748+00:00",
+        "method": "native-jpeg-pixel-label-and-published-dom-review",
+        "notes": "Fresh pointer-free Cut poster hero replacement independently re-reviewed: full tilted CUT TO PICTURE title, complete supporting caption and Tickets action, readable and contained. Faithful native typographic treatment; no pointer artifact, injected image, editor or loading veil.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/G-dom.json + evidence/admin-controls-completion/native-clips/reviews-E-L.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 846,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id",
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24790",
+        "24791"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-d---collage-24790 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24790",
+          "selector": ".page-variant-d-odd-5899 .section-hero-d---collage-24790"
+        },
+        {
+          "classes": "section-hero-d---ruth-line-24791 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24791",
+          "selector": ".page-variant-d-odd-5899 .section-hero-d---ruth-line-24791"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 845.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 845.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T20:02:46.424Z",
+      "domObservedAt": "2026-10-25T20:02:45.948Z",
+      "rawImage": "hero--variant-d-odd.jpg",
+      "width": 1536,
+      "height": 846,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "hero--variant-d-odd",
+        "status": "passed",
+        "imageSha256": "f9e716d0016952d88b5dad76e932795c9086f58cb5393ca0e813ec773b7fd708",
+        "reviewedAt": "2026-10-25T20:03:24.828283+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Final frozen D7 desktop native collage/Ruth-line capture: complete Pulp image, Now screening stamp, protected readable title, Explore films and companion line. Pointer-free. Exact frozen pixels independently inspected; source IDs/bounds match current D-dom.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json + evidence/admin-controls-completion/changes-journal.json",
+        "sourceIdentityVerified": true
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1758,
+        "width": 1536,
+        "x": 0,
+        "y": 2523
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24794"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-d---sticker-sheet-24794 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24794",
+          "selector": ".page-variant-d-odd-5899 .section-food-d---sticker-sheet-24794"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      },
+      "sourceState": "published",
+      "captureMethod": "live-browser-section-clips",
+      "capturedAt": "2026-10-25T20:02:46.785Z",
+      "domObservedAt": "2026-10-25T20:02:45.948Z",
+      "rawImage": "food--variant-d-odd.jpg",
+      "width": 1536,
+      "height": 1758,
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "visualReview": {
+        "optionId": "food--variant-d-odd",
+        "status": "passed",
+        "imageSha256": "d15196b651e3e014d196fcdcbaf228890d831d27ba1c85b4d8352a5e9affe3aa",
+        "reviewedAt": "2026-10-25T20:03:24.828283+00:00",
+        "method": "native-jpeg-full-size-pixel-label-and-published-dom-review",
+        "notes": "Final frozen D7 desktop native sticker sheet independently inspected: all seven prices ($7.00,$14.00,$11.00,$6.00,$10.00,$10.00,$5.00) and product labels are fully readable inside their cards; complete category sections and bottom retained. Existing native missing-image placeholders remain and their animation can change raw image hashes; no invented product media or pixel edits.",
+        "issues": [],
+        "evidence": "evidence/admin-controls-completion/native-clips/D-dom.json + evidence/admin-controls-completion/native-clips/reviews-A-D.json + evidence/admin-controls-completion/changes-journal.json",
+        "sourceIdentityVerified": true
+      }
+    }
+  ]
+}

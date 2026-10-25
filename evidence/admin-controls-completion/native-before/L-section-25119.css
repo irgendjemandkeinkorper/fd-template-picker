@@ -1,0 +1,9 @@
+/* Native section surface and typography */
+&.fdp-l-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#291d3b;color:#fff1d7;font-family:Georgia,serif;} &.fdp-l-food h2{color:#fff1d7;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-l-food h3{color:#fff1d7;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-l-food p{color:#fff1d7;line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-l-food .q-card{background:#352649;color:#fff1d7;border:1px solid #82688f;box-shadow:none;} &.fdp-l-food .q-tab{color:#fff1d7;} &.fdp-l-food .q-tab--active{color:#e6c17c;} &.fdp-l-food .q-btn{min-height:44px;} &.fdp-l-food .q-focus-helper{border-radius:inherit;} &.fdp-l-food a:focus-visible,&.fdp-l-food button:focus-visible{outline:3px solid #e6c17c;outline-offset:3px;}
+/* Keep content within the section on narrow screens */
+&.fdp-l-food,&.fdp-l-food *{box-sizing:border-box;}&.fdp-l-food .fdp-content,&.fdp-l-food .fdp-content>*,&.fdp-l-food .fdp-content article,&.fdp-l-food .fdp-content aside{min-width:0;}&.fdp-l-food p,&.fdp-l-food li,&.fdp-l-food a{overflow-wrap:break-word;}
+&.fdp-l-food{background:#291d3b!important;color:#fff1d7!important;} &.fdp-l-food h2,&.fdp-l-food .text-primary{color:#fff1d7!important;}
+/* Keep native catalog cards and category controls readable */
+&.fdp-l-food .text-responsive{color:#fff1d7!important;} &.fdp-l-food .q-card{background:#352649!important;color:#fff1d7!important;} &.fdp-l-food .q-btn{background:#352649!important;color:#fff1d7!important;border:1px solid #82688f;}

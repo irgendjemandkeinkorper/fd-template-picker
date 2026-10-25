@@ -1,0 +1,80 @@
+{
+  "letter": "K",
+  "id": "25128",
+  "name": "Private Parties K - Gather Your People",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-k-private-parties"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-k-private-parties{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f8ead7;color:#44251e;font-family:Georgia,serif;} &.fdp-k-private-parties h2{color:#44251e;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-k-private-parties h3{color:#44251e;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-k-private-parties p{color:#44251e;line-height:1.7;} &.fdp-k-private-parties .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-k-private-parties .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-k-private-parties .fdp-card{padding:clamp(22px,3vw,40px);background:#fff8e9;border:1px solid #d9af8e;} &.fdp-k-private-parties .fdp-card p{margin-bottom:0;} &.fdp-k-private-parties .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-k-private-parties .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:#923b2c;color:#fffaf1;font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-k-private-parties .fdp-action:focus-visible{outline:3px solid #44251e;outline-offset:4px;} &.fdp-k-private-parties .fdp-action:hover{text-decoration:underline;} &.fdp-k-private-parties .fdp-actions{margin:28px 0 0;} &.fdp-k-private-parties .fdp-number{display:block;color:#923b2c;font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-k-private-parties .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-k-private-parties .fdp-list li{padding:16px 0;border-bottom:1px solid #d9af8e;line-height:1.6;} @container(max-width:720px){&.fdp-k-private-parties .fdp-grid{grid-template-columns:1fr;} &.fdp-k-private-parties .fdp-card{padding:24px;} &.fdp-k-private-parties .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-k-private-parties .fdp-card{border-radius:22px 22px 4px 4px;}&.fdp-k-private-parties .fdp-card:nth-child(2){background:#e8bb96;}&.fdp-k-private-parties .fdp-number{font-size:11px;}&.fdp-k-private-parties .fdp-card h3{font-size:clamp(28px,2.8vw,39px);}&.fdp-k-private-parties .fdp-gather-footer{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:32px;border-top:1px solid #d9af8e;padding-top:24px;}&.fdp-k-private-parties .fdp-gather-footer p{max-width:600px;}&.fdp-k-private-parties .fdp-action{flex-shrink:0;}@container(max-width:720px){&.fdp-k-private-parties .fdp-gather-footer{display:block;}}\n/* Keep content within the section on narrow screens */\n&.fdp-k-private-parties,&.fdp-k-private-parties *{box-sizing:border-box;}&.fdp-k-private-parties .fdp-content,&.fdp-k-private-parties .fdp-content>*,&.fdp-k-private-parties .fdp-content article,&.fdp-k-private-parties .fdp-content aside{min-width:0;}&.fdp-k-private-parties p,&.fdp-k-private-parties li,&.fdp-k-private-parties a{overflow-wrap:break-word;}\n&.fdp-k-private-parties {container-type:inline-size;background:#f8ead7 !important;color:#44251e !important;}\n&.fdp-k-private-parties :is(.text-h1,.text-h2,.text-h3,.text-h4){color:#44251e !important;}\n&.fdp-k-private-parties .text-body1{color:#44251e !important;}\n@container(max-width:720px){&.fdp-k-private-parties h2 {font-size:32px;line-height:1.15;}}"
+    }
+  ]
+}

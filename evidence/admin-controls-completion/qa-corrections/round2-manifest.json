@@ -1,0 +1,125 @@
+{
+  "schema": "fd-native-qa-corrections-round2/v1",
+  "status": "prepared-from-native-saved-before-round2",
+  "fields": [
+    {
+      "field": "D-page",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/D-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/D-page-v2.before.css",
+      "beforeBytesSha256": "f2a679042d9a7fb494c992f6a31d5fb0bc5f6f0737e27b6cc543b93e2b44852d",
+      "beforeTextSha256": "f2a679042d9a7fb494c992f6a31d5fb0bc5f6f0737e27b6cc543b93e2b44852d",
+      "beforeCharacters": 55150,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/D-page-v2.css",
+      "proposalBytesSha256": "706c290e23b3a3e12daaebe3040b33a96b9c705a946f5de8124b14671e73e18a",
+      "proposalCharacters": 55149,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "G-page",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/G-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/G-page-v2.before.css",
+      "beforeBytesSha256": "087a88de50e900ac766e1aea2eb17104914907a1ff33295340dd61cb20505d46",
+      "beforeTextSha256": "087a88de50e900ac766e1aea2eb17104914907a1ff33295340dd61cb20505d46",
+      "beforeCharacters": 26438,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/G-page-v2.css",
+      "proposalBytesSha256": "ff3d4dea2ec6591ee315c073d2f13252d3e4db2e639d6966b01e5bf005405918",
+      "proposalCharacters": 26436,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "G-section-25116",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/G-section-25116.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/G-section-25116-v2.before.css",
+      "beforeBytesSha256": "b123675a687a43463aa63f0747a80ffc689619ab3dc54f776ed5f51eda7093b6",
+      "beforeTextSha256": "b123675a687a43463aa63f0747a80ffc689619ab3dc54f776ed5f51eda7093b6",
+      "beforeCharacters": 6474,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/G-section-25116-v2.css",
+      "proposalBytesSha256": "6b4067461fd4c3e1bca8e7d8308a7391acff6f4e36afd3f0e382702a7c47f9d0",
+      "proposalCharacters": 6477,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "I-page",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/I-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/I-page-v2.before.css",
+      "beforeBytesSha256": "45c19b6490800a51f66a9888601cf22de55293e7e58e39ea914eb38d5a63fa6b",
+      "beforeTextSha256": "45c19b6490800a51f66a9888601cf22de55293e7e58e39ea914eb38d5a63fa6b",
+      "beforeCharacters": 20285,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/I-page-v2.css",
+      "proposalBytesSha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+      "proposalCharacters": 20248,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "J-section-25127",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/J-section-25127.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/J-section-25127-v2.before.css",
+      "beforeBytesSha256": "4538a8965cc85295c1ab9a42c55701299f52790200301e699791effd3ad76c4b",
+      "beforeTextSha256": "4538a8965cc85295c1ab9a42c55701299f52790200301e699791effd3ad76c4b",
+      "beforeCharacters": 4013,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/J-section-25127-v2.css",
+      "proposalBytesSha256": "ad1d61603f38779fdbaa3db2200de43a31b23b779ba44d07c2f6e276ac428e9b",
+      "proposalCharacters": 4151,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "K-section-25122",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/K-section-25122.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/K-section-25122-v2.before.css",
+      "beforeBytesSha256": "5f9b4b48a95974fe5f4d995753484ceb37f3e51434f796b47d3213e334b08bc2",
+      "beforeTextSha256": "5f9b4b48a95974fe5f4d995753484ceb37f3e51434f796b47d3213e334b08bc2",
+      "beforeCharacters": 4080,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/K-section-25122-v2.css",
+      "proposalBytesSha256": "39908e874c0e42ec4141e7364faebc111baf7a09f08037e1a02f2f6de75bdb3d",
+      "proposalCharacters": 4218,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "K-page",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/K-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/K-page-v2.before.css",
+      "beforeBytesSha256": "2660e7cf86a34615fe283b2e8f8c991894450678dcca0cd85443d0a60b23a8d7",
+      "beforeTextSha256": "2660e7cf86a34615fe283b2e8f8c991894450678dcca0cd85443d0a60b23a8d7",
+      "beforeCharacters": 2685,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/K-page-v2.css",
+      "proposalBytesSha256": "d7681a0b319c8154083081ffd79a44ec420d20c3067b2a3e19452fb7e4f24f7a",
+      "proposalCharacters": 3244,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    },
+    {
+      "field": "L-page",
+      "nativeSavedSource": "evidence/admin-controls-completion/native-saved/L-page.css",
+      "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/L-page-v2.before.css",
+      "beforeBytesSha256": "88d08c2c2ada0110a4882929b26ec994bc27b139c0f35bc7ab67c27a4ee6a228",
+      "beforeTextSha256": "88d08c2c2ada0110a4882929b26ec994bc27b139c0f35bc7ab67c27a4ee6a228",
+      "beforeCharacters": 2877,
+      "proposal": "evidence/admin-controls-completion/qa-corrections/L-page-v2.css",
+      "proposalBytesSha256": "1676c381ab6e3509384c4c32de630d1b9bc75c6fdec9fc974bddcd6f8e89ce42",
+      "proposalCharacters": 3813,
+      "geometryPreserved": true,
+      "status": "prepared-qa-correction-not-applied-by-generator"
+    }
+  ],
+  "findings": {
+    "D": "Two kicker labels3.61 over strong Secondary scraps; native Dark expected5.59. Seven unearned punch-slot X glyphs deliberately transparent; unchanged.",
+    "G": "Exact old submit-content selector overrides generic foreground; set that owned declaration Dark. First membership number uses Secondary on Dark surface2.61; set its native Section base foreground Background, retaining featured-card overrides.",
+    "I": "Existing higher-specificity Ma caption backdrop still88%; make its existing custom property opaque Dark.",
+    "J-K-food": "Native category text-current-color inherits Primary; constrain only the owning food section to native Dark.",
+    "K-editorial": "Native Welcome/Stay Awhile Primary backgrounds and white bodycopy bypass section-role treatment; bridge their exact existing classes to Primary tint/Dark.",
+    "L-editorial": "Native Lounge Ritual Primary and One More Secondary fills require corresponding tint/Dark role bridges."
+  },
+  "unchanged": [
+    "Frozen native-proposals bundle and manifest",
+    "All content/media/URLs/form routing/native color values",
+    "Odd intentionally transparent unearned stamp X slots",
+    "Layout, geometry, fonts and fixed tilts"
+  ],
+  "guard": "Compare current native field with exact beforeTextSha256 before saving. Root must verify saved/public desktop/mobile and second-palette output."
+}

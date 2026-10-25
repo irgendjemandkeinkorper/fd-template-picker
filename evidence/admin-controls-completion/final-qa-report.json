@@ -1,0 +1,2915 @@
+{
+  "schema": "fd-native-final-qa-report/v1",
+  "generatedAt": "2026-10-25T20:12:45.167937+00:00",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "siteId": 170
+  },
+  "status": "accepted-with-bounded-manual-decoration-review",
+  "all48FinalCapturesAccepted": true,
+  "palettes": {
+    "original": {
+      "primary": "#e06b4a",
+      "secondary": "#c4553a",
+      "dark": "#38264a",
+      "background": "#fbefe2"
+    },
+    "test": {
+      "primary": "#176b9d",
+      "secondary": "#f2ca52",
+      "dark": "#122c43",
+      "background": "#f7fafc"
+    }
+  },
+  "paletteRestoration": {
+    "nativeJournalVerified": true,
+    "journalStatus": "original-restored-native-save-verified",
+    "restoredAt": "2026-10-25T20:02:27.184Z",
+    "restoredPublicMatrixAccepted": true
+  },
+  "publishedVariantsFromJournal": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "savedFieldAudit": {
+    "fields": [
+      {
+        "field": "site-theme",
+        "journalStatus": "saved",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:35:39.133134Z"
+      },
+      {
+        "field": "B-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:39:12.853901Z"
+      },
+      {
+        "field": "B-section-25132",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:40:01.858149Z"
+      },
+      {
+        "field": "C-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:41:10.388252Z"
+      },
+      {
+        "field": "D-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T20:00:34.418950Z"
+      },
+      {
+        "field": "D-membership-24781",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:42:17.000116Z"
+      },
+      {
+        "field": "E-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:42:40.373601Z"
+      },
+      {
+        "field": "F-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:42:56.322738Z"
+      },
+      {
+        "field": "G-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:30:48.917462Z"
+      },
+      {
+        "field": "G-section-25116",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:15:03.691929Z"
+      },
+      {
+        "field": "H-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:43:59.900385Z"
+      },
+      {
+        "field": "H-section-25120",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:44:21.043400Z"
+      },
+      {
+        "field": "I-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:15:23.745039Z"
+      },
+      {
+        "field": "I-section-25123",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:45:19.088150Z"
+      },
+      {
+        "field": "J-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:32:59.569418Z"
+      },
+      {
+        "field": "J-section-25127",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:16:08.911374Z"
+      },
+      {
+        "field": "J-section-25129",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:46:46.181321Z"
+      },
+      {
+        "field": "J-section-25131",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:47:51.403702Z"
+      },
+      {
+        "field": "J-section-25133",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:48:23.202825Z"
+      },
+      {
+        "field": "K-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:33:35.299413Z"
+      },
+      {
+        "field": "K-section-25122",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:17:07.375676Z"
+      },
+      {
+        "field": "K-section-25128",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:50:08.596284Z"
+      },
+      {
+        "field": "K-section-24894",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:50:40.716849Z"
+      },
+      {
+        "field": "K-section-25117",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:51:14.109498Z"
+      },
+      {
+        "field": "L-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:34:06.839252Z"
+      },
+      {
+        "field": "L-section-25119",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:52:02.941103Z"
+      },
+      {
+        "field": "L-section-25124",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:52:33.352983Z"
+      },
+      {
+        "field": "L-section-25126",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:53:17.609956Z"
+      },
+      {
+        "field": "L-section-25130",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T18:53:50.301352Z"
+      },
+      {
+        "field": "A-page",
+        "journalStatus": "saved-draft",
+        "nativeSaveDisabled": true,
+        "savedReadbackMatches": true,
+        "roleContractPass": true,
+        "reasons": [],
+        "nativeSavedVerifiedAt": "2026-10-25T19:02:52.702961Z"
+      }
+    ],
+    "expectedFields": 30,
+    "allSavedReadbackAndRoleChecksPass": true,
+    "portableReadbackProvenanceVerified": true,
+    "provenanceSealSha256": "f17c4f659285959cd39dc4dc95d0b79c3b04b5e2f5b66256b55501712f657f69"
+  },
+  "groups": [
+    {
+      "directory": "qa-current-desktop",
+      "palette": "original",
+      "mode": "desktop",
+      "acceptedCaptures": 12,
+      "requiredCaptures": 12,
+      "acceptedTextSamples": 1282,
+      "acceptedSummary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 11,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 7,
+        "pass": 1257,
+        "unparsed-foreground": 0
+      },
+      "retryVariants": [],
+      "all12Accepted": true
+    },
+    {
+      "directory": "qa-current-phone",
+      "palette": "original",
+      "mode": "phone",
+      "acceptedCaptures": 12,
+      "requiredCaptures": 12,
+      "acceptedTextSamples": 1161,
+      "acceptedSummary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 11,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 7,
+        "pass": 1136,
+        "unparsed-foreground": 0
+      },
+      "retryVariants": [],
+      "all12Accepted": true
+    },
+    {
+      "directory": "qa-test-desktop",
+      "palette": "test",
+      "mode": "desktop",
+      "acceptedCaptures": 12,
+      "requiredCaptures": 12,
+      "acceptedTextSamples": 1282,
+      "acceptedSummary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 11,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 7,
+        "pass": 1257,
+        "unparsed-foreground": 0
+      },
+      "retryVariants": [],
+      "all12Accepted": true
+    },
+    {
+      "directory": "qa-test-phone",
+      "palette": "test",
+      "mode": "phone",
+      "acceptedCaptures": 12,
+      "requiredCaptures": 12,
+      "acceptedTextSamples": 1160,
+      "acceptedSummary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 11,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 7,
+        "pass": 1135,
+        "unparsed-foreground": 0
+      },
+      "retryVariants": [],
+      "all12Accepted": true
+    }
+  ],
+  "captures": [
+    {
+      "variant": "A",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/A.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "7c2803323ca399753d9f23b2e212fb5d46d1ee1b042e2036117e6003f155d175",
+      "capturedAt": "2026-10-25T19:44:39.113Z",
+      "title": "Variant A Circuit",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 128,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 128,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:02:52.702961+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "B",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/B.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "e2a068eddd0058464ff3acf9bfb18650b807034f088456c55404f37cb4a8c7fa",
+      "capturedAt": "2026-10-25T19:44:45.949Z",
+      "title": "Variant B Rep",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 129,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 129,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:40:01.858149+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "C",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/C.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "f2333606a4c75bb00dec9bc993b1d09c1ebf1e80f9688b09627c13579459c4e6",
+      "capturedAt": "2026-10-25T19:45:27.682Z",
+      "title": "Variant C Late",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 6,
+        "pass": 144,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 150,
+      "manualBounds": [
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 10.29,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "BALCONY",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.92,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "$7 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.8,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "2\u00d7 points",
+          "element": "p.mbc__rate"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 10.29,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "CIRCLE",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.92,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "$19 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.8,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "3\u00d7 points",
+          "element": "p.mbc__rate"
+        }
+      ],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:41:10.388252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "D",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/D.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "d37c42bc4febf5edfeb3f3e7cf7c2236a0ccfcb53cf68d24191ce12232fde667",
+      "capturedAt": "2026-10-25T20:02:42.490Z",
+      "title": "Variant D Odd",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 1,
+        "pass": 116,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 125,
+      "manualBounds": [
+        {
+          "review": "D-ruled-notepaper-label",
+          "mathPass": true,
+          "minimumRatio": 5.12,
+          "threshold": 4.5,
+          "reason": "Bound every possible line position: transparent paper through fully painted 22% Dark rule. The opaque muted label passes over both extrema; stripe position cannot reduce it further.",
+          "paperRatio": 7.76,
+          "darkestRuleRatio": 5.12,
+          "text": "MESSAGE",
+          "element": "div.q-field__label.no-pointer-events.absolute.ellipsis"
+        }
+      ],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T20:00:34.418950+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "E",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/E.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "ec781feaff3d8b22c29d942ea8dc3d2ba8988c55bf190d5952e122378355f4e2",
+      "capturedAt": "2026-10-25T19:46:47.279Z",
+      "title": "Variant E Grid",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 3,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 165,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 168,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:40.373601+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "F",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/F.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "c8426c7115d4f86cb2591c8fe4c6c9ac9a4ec6bd58ffee0f4f84504e74a0ebc8",
+      "capturedAt": "2026-10-25T19:47:12.046Z",
+      "title": "Variant F Concrete",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 137,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 138,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:56.322738+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "G",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/G.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "6dd4d2f857cb2e3cadd3d5ffcaf50555725ae3af9f76f90b8d38565136acea80",
+      "capturedAt": "2026-10-25T19:47:36.842Z",
+      "title": "Variant G Cut",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 62,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 62,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:30:48.917462+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "H",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/H.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "354cdbe542cdaab867c28bf2d3538e00c624efe35deb1bd95b88b824a115ecbd",
+      "capturedAt": "2026-10-25T19:48:43.035Z",
+      "title": "Variant H Storybook",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 64,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 64,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-primary.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:44:21.043400+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "I",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/I.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "2194df8038e6cac96502d41b5aa08bdbb36507c8f06ff353d6c818be19ed3db5",
+      "capturedAt": "2026-10-25T19:49:41.510Z",
+      "title": "Variant I Ma | Adam Template Testing 2",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 66,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 66,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:15:23.745039+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "J",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/J.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "d754582279ad1e4ddd6736c7735cb581a6412fb072cfac60b9ae343a0889315a",
+      "capturedAt": "2026-10-25T19:49:56.444Z",
+      "title": "Variant J Box Office",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 82,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 84,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:32:59.569418+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "K",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/K.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "c5e17902c6229f2882596354fad0f446df1f3b2788823aba2d3f2193f84f1e97",
+      "capturedAt": "2026-10-25T19:50:14.006Z",
+      "title": "Variant K Clubhouse",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 80,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 82,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:33:35.299413+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "L",
+      "palette": "original",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-current-desktop/L.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "18ff061337efa967e72a9a60fbe5326cf5e2c2f44532cce2ec46e5e3da2bcae0",
+      "capturedAt": "2026-10-25T19:50:36.081Z",
+      "title": "Variant L Midnight Lounge",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 84,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 86,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:34:06.839252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "A",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/A.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "1bf6b652bfcdbb857541c50dafb45dcf813d253e54c316932117bf8cb2824a80",
+      "capturedAt": "2026-10-25T19:38:52.697Z",
+      "title": "Variant A Circuit",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 119,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 119,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:02:52.702961+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "B",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/B.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "42b57d2b8680a5c03595c4f7c22ddc5cfe375dbcc222bedc8b3d3ed2c258c36e",
+      "capturedAt": "2026-10-25T19:38:20.047Z",
+      "title": "Variant B Rep",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 120,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 120,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:40:01.858149+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "C",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/C.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "721e7c155366973a4c396911f7281e0af921452e5f116cd756413aa7ff065b6b",
+      "capturedAt": "2026-10-25T19:38:12.170Z",
+      "title": "Variant C Late",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 6,
+        "pass": 119,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 125,
+      "manualBounds": [
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 10.29,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "BALCONY",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.92,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "$7 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.8,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "2\u00d7 points",
+          "element": "p.mbc__rate"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 10.29,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "CIRCLE",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.92,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "$19 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 7.8,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.298667,
+            0.18149,
+            0.290196
+          ],
+          "text": "3\u00d7 points",
+          "element": "p.mbc__rate"
+        }
+      ],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:41:10.388252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "D",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/D.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "c7d133fbf99f955962a6959414d073f55f86e939656d54b2a5a9c2b4329e04bc",
+      "capturedAt": "2026-10-25T20:01:16.608Z",
+      "title": "Variant D Odd",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 1,
+        "pass": 107,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 116,
+      "manualBounds": [
+        {
+          "review": "D-ruled-notepaper-label",
+          "mathPass": true,
+          "minimumRatio": 5.12,
+          "threshold": 4.5,
+          "reason": "Bound every possible line position: transparent paper through fully painted 22% Dark rule. The opaque muted label passes over both extrema; stripe position cannot reduce it further.",
+          "paperRatio": 7.76,
+          "darkestRuleRatio": 5.12,
+          "text": "MESSAGE",
+          "element": "div.q-field__label.no-pointer-events.absolute.ellipsis"
+        }
+      ],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T20:00:34.418950+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "variant": "E",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/E.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "bd780f40944142447df1471812d80928b970d5fadda753b1f8637a9b5a39685f",
+      "capturedAt": "2026-10-25T19:37:46.402Z",
+      "title": "Variant E Grid",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 3,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 156,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 159,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:40.373601+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "F",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/F.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "4e7f2f5724d4322a6262cdbdcfbd0f3a738b8a0433c5c9329209f674571ec65e",
+      "capturedAt": "2026-10-25T19:37:07.941Z",
+      "title": "Variant F Concrete",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 128,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 129,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:56.322738+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "G",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/G.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "62a402218ffe2bfe18cfc20f70abed821d59ab30d97ea2c1ecf0c7fd9f22f8fb",
+      "capturedAt": "2026-10-25T19:36:51.126Z",
+      "title": "Variant G Cut",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 53,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 53,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:30:48.917462+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "H",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/H.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "0d8dca970a7cc619beb13397a5a938d7265164b80f346ffc40c9c15509a5b6f4",
+      "capturedAt": "2026-10-25T19:36:34.182Z",
+      "title": "Variant H Storybook",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 55,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 55,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-primary.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:44:21.043400+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "I",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/I.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "2eb683a5c7bdd192fda19cfa0a6103986c4ad4f5359556496abf8bb8e9f6667e",
+      "capturedAt": "2026-10-25T19:36:26.763Z",
+      "title": "Variant I Ma | Adam Template Testing 2",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 60,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 60,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:15:23.745039+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "J",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/J.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "2dcffea390f0a9b115cdcad4f3ef28b6c6bedb2fe3916f4920611b6ba664ad2a",
+      "capturedAt": "2026-10-25T19:36:21.627Z",
+      "title": "Variant J Box Office",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 73,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 75,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:32:59.569418+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "K",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/K.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "221ee91eae2bc2d66517e0b427bb24a10d9e3f9ef6b865e869604a7117c3dc6f",
+      "capturedAt": "2026-10-25T19:36:15.657Z",
+      "title": "Variant K Clubhouse",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 71,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 73,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:33:35.299413+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "L",
+      "palette": "original",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-current-phone/L.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "b9631cae0f4aea3a92076bd6ab902bb6f26983a8c41dbeca137d46c9528a265a",
+      "capturedAt": "2026-10-25T19:36:10.881Z",
+      "title": "Variant L Midnight Lounge",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 75,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 77,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#fbefe2",
+        "dark": "#38264a",
+        "primary": "#e06b4a",
+        "secondary": "#c4553a"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:34:06.839252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "A",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/A.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "566b81dde72051935537fa7d710d28a171e660831e8f838b9833e3006ee65942",
+      "capturedAt": "2026-10-25T19:31:42.338Z",
+      "title": "Variant A Circuit",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 128,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 128,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:02:52.702961+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "B",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/B.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "9786da27bc037506437ab4814a30477d08d26f54cd76fd8ae09cda0fdf3ba893",
+      "capturedAt": "2026-10-25T19:34:11.868Z",
+      "title": "Variant B Rep",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 129,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 129,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:40:01.858149+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "C",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/C.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "7f3524de8910a077c0668b78da7abfc77dd105a504db32ed4b1a07c819c9d9b7",
+      "capturedAt": "2026-10-25T19:31:51.557Z",
+      "title": "Variant C Late",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 6,
+        "pass": 144,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 150,
+      "manualBounds": [
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 12.37,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "BALCONY",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.37,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "$7 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.29,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "2\u00d7 points",
+          "element": "p.mbc__rate"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 12.37,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "CIRCLE",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.37,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "$19 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.29,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "3\u00d7 points",
+          "element": "p.mbc__rate"
+        }
+      ],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:41:10.388252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "D",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/D.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "c0d274c26018f727fa340e62f74a6ad4f485ac8649d13101452d70bc6a86a796",
+      "capturedAt": "2026-10-25T20:02:10.705Z",
+      "title": "Variant D Odd",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 1,
+        "pass": 116,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 125,
+      "manualBounds": [
+        {
+          "review": "D-ruled-notepaper-label",
+          "mathPass": true,
+          "minimumRatio": 5.62,
+          "threshold": 4.5,
+          "reason": "Bound every possible line position: transparent paper through fully painted 22% Dark rule. The opaque muted label passes over both extrema; stripe position cannot reduce it further.",
+          "paperRatio": 8.65,
+          "darkestRuleRatio": 5.62,
+          "text": "MESSAGE",
+          "element": "div.q-field__label.no-pointer-events.absolute.ellipsis"
+        }
+      ],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T20:00:34.418950+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1536,
+        "height": 639,
+        "scrollWidth": 1536,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "E",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/E.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "ddc0ace4e1bf48c8feeeb3be16c7afd213d17d0bd846bc31ded9f0050f34a030",
+      "capturedAt": "2026-10-25T19:31:56.718Z",
+      "title": "Variant E Grid",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 3,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 165,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 168,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:40.373601+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "F",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/F.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "5d691fe179899e46ff4da273085f9c7dd64f8d1258d1e41196e1c0cb89e1c645",
+      "capturedAt": "2026-10-25T19:32:00.684Z",
+      "title": "Variant F Concrete",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 137,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 138,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:56.322738+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "G",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/G.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "df42f5715512abd7614a0d57f7b5ec7f8fe10e20ea9d7c27b0e2e20af98efe49",
+      "capturedAt": "2026-10-25T19:32:50.505Z",
+      "title": "Variant G Cut",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 62,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 62,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:30:48.917462+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "H",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/H.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "eadf7c02fa245a79d860d9186aff266833444316116ba1dcc3dc66cea2a33ba6",
+      "capturedAt": "2026-10-25T19:35:10.473Z",
+      "title": "Variant H Storybook",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 64,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 64,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-primary.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:44:21.043400+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "I",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/I.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "19a545c46fa2b0d1be89f626a0f6f5d12e9104a21c393f5bd829e4ff18df5104",
+      "capturedAt": "2026-10-25T19:32:34.111Z",
+      "title": "Variant I Ma | Adam Template Testing 2",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 66,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 66,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:15:23.745039+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "J",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/J.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "135a2707a6635e82983025573d7422c5ba40059b0853d16e6a4a670d0e0b545c",
+      "capturedAt": "2026-10-25T19:34:57.748Z",
+      "title": "Variant J Box Office",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 82,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 84,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:32:59.569418+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "K",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/K.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "efe52a12ea530914a02d7b7aeb559029c4ec72df6db9ac1afa66f84a37fc7ccb",
+      "capturedAt": "2026-10-25T19:35:02.361Z",
+      "title": "Variant K Clubhouse",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 80,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 82,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:33:35.299413+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "L",
+      "palette": "test",
+      "mode": "desktop",
+      "source": "evidence/admin-controls-completion/qa-test-desktop/L.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "00a51bfdd33a2c094720b69ddb283e5c2962685e8c75ba4143aa4fd230aadba7",
+      "capturedAt": "2026-10-25T19:35:06.639Z",
+      "title": "Variant L Midnight Lounge",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 84,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 86,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:34:06.839252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 1521,
+        "height": 639,
+        "scrollWidth": 1521,
+        "width": 1536
+      }
+    },
+    {
+      "variant": "A",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/A.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "37200acb36c2341bfb92ae334fbea689bcd8b97c3d1e16c95ef7f3c5de0de28d",
+      "capturedAt": "2026-10-25T19:28:26.560Z",
+      "title": "Variant A Circuit",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 118,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 118,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:02:52.702961+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "B",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/B.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "aadb452499187b14281e56a5de690d26df174b8fbd9c7ee28a5e96b60f0ceb5d",
+      "capturedAt": "2026-10-25T19:28:34.293Z",
+      "title": "Variant B Rep",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 120,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 120,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:40:01.858149+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "C",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/C.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "50969ff5037a2de478ec64fa52936c09cbbbc2908a0cec1cf746bb4777c2f758",
+      "capturedAt": "2026-10-25T19:29:18.762Z",
+      "title": "Variant C Late",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 6,
+        "pass": 119,
+        "unparsed-foreground": 0
+      },
+      "captions": 1,
+      "textSamples": 125,
+      "manualBounds": [
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 12.37,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "BALCONY",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.37,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "$7 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.29,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "2\u00d7 points",
+          "element": "p.mbc__rate"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 12.37,
+          "threshold": 3,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "CIRCLE",
+          "element": "p.mbc__tier"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.37,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "$19 / MONTH",
+          "element": "p.mbc__meta"
+        },
+        {
+          "review": "C-constant-gradient",
+          "mathPass": true,
+          "minimumRatio": 9.29,
+          "threshold": 4.5,
+          "reason": "Both fully opaque computed gradient stops are identical. Recalculate against that actual constant surface, including foreground alpha.",
+          "actualSurface": [
+            0.0729412,
+            0.202196,
+            0.305098
+          ],
+          "text": "3\u00d7 points",
+          "element": "p.mbc__rate"
+        }
+      ],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:41:10.388252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "D",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/D.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "358696e6f3419c9833b5352d3e9535775b79b2dfdb0ac1d803f16f1c0abdf435",
+      "capturedAt": "2026-10-25T20:01:57.806Z",
+      "title": "Variant D Odd",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 7,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 1,
+        "pass": 107,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 116,
+      "manualBounds": [
+        {
+          "review": "D-ruled-notepaper-label",
+          "mathPass": true,
+          "minimumRatio": 5.62,
+          "threshold": 4.5,
+          "reason": "Bound every possible line position: transparent paper through fully painted 22% Dark rule. The opaque muted label passes over both extrema; stripe position cannot reduce it further.",
+          "paperRatio": 8.65,
+          "darkestRuleRatio": 5.62,
+          "text": "MESSAGE",
+          "element": "div.q-field__label.no-pointer-events.absolute.ellipsis"
+        }
+      ],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T20:00:34.418950+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "variant": "E",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/E.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "bd379f9bbe91dad8807870220a302d4f3b59e38554b336347db53fdb809f5d96",
+      "capturedAt": "2026-10-25T19:29:28.028Z",
+      "title": "Variant E Grid",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 3,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 156,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 159,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:40.373601+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "F",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/F.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "c468b1ea1f89eddc19ebc0fd060268db239a6e0ab365d54036cb69a9bb201a65",
+      "capturedAt": "2026-10-25T19:29:31.903Z",
+      "title": "Variant F Concrete",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 1,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 128,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 129,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:42:56.322738+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "G",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/G.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "09dad63a7f511ca12327bda336ae0a9bf41f173bd289e76fa15383e6a6e8417f",
+      "capturedAt": "2026-10-25T19:33:04.062Z",
+      "title": "Variant G Cut",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 53,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 53,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:30:48.917462+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "H",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/H.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "762c4f7c87617764ae1368938f8efd6f845c918287d9f3eecfcbd291929eb060",
+      "capturedAt": "2026-10-25T19:30:56.252Z",
+      "title": "Variant H Storybook",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 55,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 55,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-primary.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T18:44:21.043400+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "I",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/I.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "f42c046941c812378cce1534f4c6be5b347f8fc8c3f32fa1ceea8a093b118a2d",
+      "capturedAt": "2026-10-25T19:29:37.865Z",
+      "title": "Variant I Ma | Adam Template Testing 2",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 0,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 60,
+        "unparsed-foreground": 0
+      },
+      "captions": 2,
+      "textSamples": 60,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [
+        {
+          "element": "div.title.q-my-sm.text-weight-bold.text-white.mobile-hero-title",
+          "opaqueNativePairAndShadow": true
+        },
+        {
+          "element": "div.subtitle.q-my-sm.full-width.text-white.text-weight-bold.mobile-hero-subtitle",
+          "opaqueNativePairAndShadow": true
+        }
+      ],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:15:23.745039+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "J",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/J.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "a95aab86af0cc120e17fb8eb75352b6a4977db48496ea030a8445e2dd28527df",
+      "capturedAt": "2026-10-25T19:35:28.172Z",
+      "title": "Variant J Box Office",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 73,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 75,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:32:59.569418+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "K",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/K.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "50ee3f19037dba0d0b9c4997735721b96720416e35d41fdf3be5a20b4ed9d037",
+      "capturedAt": "2026-10-25T19:35:33.340Z",
+      "title": "Variant K Clubhouse",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 71,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 73,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:33:35.299413+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    },
+    {
+      "variant": "L",
+      "palette": "test",
+      "mode": "phone",
+      "source": "evidence/admin-controls-completion/qa-test-phone/L.json",
+      "eligible": true,
+      "reasons": [],
+      "sourceSha256": "30d422b305e9e83c04e66367e68da279566e9d9f0ef13bed17015b27eed958ab",
+      "capturedAt": "2026-10-25T19:35:37.842Z",
+      "title": "Variant L Midnight Lounge",
+      "summary": {
+        "decorative-empty-loyalty-slot-excluded": 0,
+        "disabled-control-excluded": 2,
+        "fail": 0,
+        "manual-image-or-group-compositing-check": 0,
+        "pass": 75,
+        "unparsed-foreground": 0
+      },
+      "captions": 0,
+      "textSamples": 77,
+      "manualBounds": [],
+      "actualPalette": {
+        "background": "#f7fafc",
+        "dark": "#122c43",
+        "primary": "#176b9d",
+        "secondary": "#f2ca52"
+      },
+      "captionRoleChecks": [],
+      "nativeReadbackFreshnessCutoff": "2026-10-25T19:34:06.839252+00:00",
+      "nativeReadbackFreshnessSource": "immutable-hash-bound-journal-nativeSavedVerifiedAt",
+      "viewport": {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      }
+    }
+  ],
+  "evidenceRules": [
+    "Only the four named final-QA directories are aggregated. Earlier cycle audits are historical and excluded.",
+    "Require exact body palette, current sampler completeness/media readiness, correct viewport, zero measured text failures, no overflow, and mathematically resolved known decorations.",
+    "Capture timestamps must follow the latest relevant sealed journal nativeSavedVerifiedAt. Each timestamp is bound to the exact retained native artifact SHA-256, with an immutable manifest. These root-attested local readback times are not INDY server save times; checkout filesystem mtimes do not affect acceptance. Report/guide rebuilds never create or refresh seals.",
+    "Only visible current sampled states are certified. No all-slide, hover/focus, destination-site Library, form delivery or future populated programming certification is inferred.",
+    "Screenshots require independent loaded-pixel review. DOM/media readiness alone does not prove the raster captured after paint."
+  ],
+  "scope": {
+    "completedImplementation": "A\u2013L maintained Primary/Secondary/Dark roles and Background canvas, native-form/caption/action bridges, semantic Odd tier colors; approved CSS-field corrections saved and scoped pages published per native journal.",
+    "notCertified": [
+      "Arbitrary unvalidated palettes",
+      "Editable template typography or arbitrary slant/layout presets",
+      "Source HTML/editorial product data bindings",
+      "CSS-generated customer wording relocation",
+      "Destination-site Library copy/link/unlink workflow",
+      "Form delivery/booking/product configuration",
+      "Every film/image/hover/focus/drawer state"
+    ],
+    "completedScreenshotWork": "66 reviewed native clips ingested byte-identically into the customer catalog; separate capture/ingestion evidence, not inferred from native saves."
+  },
+  "manualReviewSummary": [
+    {
+      "palette": "original",
+      "review": "C-constant-gradient",
+      "acceptedSampleCount": 12,
+      "minimumRatio": 7.8,
+      "allMathPass": true
+    },
+    {
+      "palette": "original",
+      "review": "D-ruled-notepaper-label",
+      "acceptedSampleCount": 2,
+      "minimumRatio": 5.12,
+      "allMathPass": true
+    },
+    {
+      "palette": "test",
+      "review": "C-constant-gradient",
+      "acceptedSampleCount": 12,
+      "minimumRatio": 9.29,
+      "allMathPass": true
+    },
+    {
+      "palette": "test",
+      "review": "D-ruled-notepaper-label",
+      "acceptedSampleCount": 2,
+      "minimumRatio": 5.62,
+      "allMathPass": true
+    }
+  ],
+  "catalogScreenshotRefresh": {
+    "status": "applied-byte-identically",
+    "clipCount": 66,
+    "appliedAt": "2026-10-25T20:04:14.001337+00:00",
+    "evidence": "evidence/admin-controls-completion/captures/admin-controls-published-clips-001/ingestion.json",
+    "evidenceSha256": "3b1e190a7b8373363e19e343d996a5a7530a383583e9e3788e82f2e8a0d54d5b",
+    "completedAsSeparateEvidence": true,
+    "boundary": "Genuine native pixels copied unchanged with independent hash-bound review. Source product placeholders remain native output; no missing media was fabricated."
+  }
+}

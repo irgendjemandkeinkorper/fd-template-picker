@@ -1,0 +1,187 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+[class*="section-"] {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+/* Variant F / Concrete — page-only adapter for the published cn-* markup.
+   Keep source content and native products/forms intact. The Reference Print
+   carousel has no configured image and the voucher image source is empty;
+   these remain content caveats, not assets supplied by this stylesheet. */
+[class*="section-"][class*="-f---"] { --cn-paper:var(--fd-background); --cn-ink:var(--fd-dark); --cn-rule:var(--fd-line-on-paper); }
+[class*="section-hero-f---index-sheet"],
+[class*="section-hero-f---reference-print"],
+[class*="section-events-f---hire-schedule"],
+[class*="section-food-f---price-table"],
+[class*="section-contact-f---ledger"],
+[class*="section-find-us-f---coordinates"],
+[class*="section-membership-f---tariff"],
+[class*="section-gift-cards-f---voucher-line"] {
+  background:var(--cn-paper) !important; color:var(--cn-ink) !important;
+  font-family:"IBM Plex Mono","Courier New",monospace !important;
+  border-bottom:1px solid var(--cn-ink); padding:0 !important;
+}
+.cn-wrap,.cn-wrap * { box-sizing:border-box; font-family:"IBM Plex Mono","Courier New",monospace !important; color:var(--fd-dark) !important; }
+.cn-wrap { max-width:1200px; margin:0 auto; padding:48px 40px; font-size:0; line-height:0; }
+.cn-wrap > * { font-size:14px; line-height:1.6; }
+.cn-wrap p { margin:0 0 16px; }
+.cn-wrap a { color:var(--fd-dark) !important; text-decoration:underline !important; text-underline-offset:4px; }
+.cn-wrap a:focus-visible { outline:2px solid var(--fd-dark); outline-offset:4px; }
+.cn-head { display:flow-root; font-size:0; line-height:0; padding-bottom:28px; margin-bottom:28px; border-bottom:2px solid var(--fd-dark); }
+.cn-head .cn-big { float:left; font-size:clamp(40px,6vw,80px) !important; font-weight:700; letter-spacing:-.07em; line-height:1 !important; margin:0; text-transform:uppercase; }
+.cn-head > p:not(.cn-big) { float:right; max-width:430px; font-size:12px; line-height:1.6; margin:0; }
+.cn-index__rows { margin:0; font-size:0; line-height:0; }
+.cn-index__rows > div { display:grid; grid-template-columns:48px minmax(140px,1fr) minmax(0,2fr); gap:20px; padding:18px 0; border-bottom:1px solid var(--fd-line-on-paper); font-size:14px; line-height:1.5; }
+.cn-index__rows dt,.cn-index__rows dd { margin:0; }
+.cn-index__rows dd:first-of-type { font-weight:700; text-transform:uppercase; }
+.cn-table { display:table; width:100%; border-collapse:collapse; margin:0 0 24px; font-size:13px !important; line-height:1.6; }
+.cn-table th,.cn-table td { text-align:left; vertical-align:top; padding:18px 16px 18px 0; border-bottom:1px solid var(--fd-line-on-paper); }
+.cn-table th { border-bottom:2px solid var(--fd-dark); font-weight:700; text-transform:uppercase; font-size:11px; letter-spacing:.06em; }
+.cn-table td:first-child { width:48px; }
+.cn-table td:nth-child(2) { font-weight:700; }
+.cn-table td:last-child,.cn-table th:last-child { padding-right:0; }
+.cn-table td[data-label="From"],.cn-table td[data-label="Per month"] { white-space:nowrap; }
+.cn-block,.cn-outline { display:inline-block; padding:14px 24px; border:1px solid var(--fd-dark); text-transform:uppercase; font-weight:700; letter-spacing:.06em; font-size:12px !important; line-height:1.5 !important; }
+.cn-wrap a.cn-block { background:var(--fd-dark) !important; color:var(--fd-background) !important; text-decoration:none !important; }
+.cn-tariff__note { max-width:720px; font-size:12px; }
+.cn-hire,.cn-tariff { overflow-x:auto; }
+.cn-coord { display:flow-root; font-size:0; line-height:0; }
+.cn-coord > div { width:50%; float:left; font-size:13px; line-height:1.6; }
+.cn-coord > div:first-child { padding-right:32px; }
+.cn-coord__rows { margin:0 0 28px; }
+.cn-coord__rows > div { display:grid; grid-template-columns:90px minmax(0,1fr); gap:16px; border-bottom:1px solid var(--fd-line-on-paper); padding:14px 0; }
+.cn-coord__rows dt,.cn-coord__rows dd { margin:0; }
+.cn-coord__rows dt { text-transform:uppercase; font-size:10px; letter-spacing:.06em; font-weight:700; }
+.cn-coord__map { min-height:380px; border:1px solid var(--fd-dark); }
+.cn-coord__map iframe { display:block; width:100%; height:380px; border:0; filter:grayscale(1); }
+
+/* The native Reference Print carousel is a text placeholder until its image is configured. */
+[class*="section-hero-f---reference-print"] .row.justify-center.position-relative { background-color:var(--fd-background) !important; min-height:240px; }
+[class*="section-hero-f---reference-print"] .hero-title,
+[class*="section-hero-f---reference-print"] .hero-subtitle { color:var(--fd-dark) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; }
+[class*="section-hero-f---reference-print"] .hero-title { font-size:32px !important; text-transform:uppercase; }
+[class*="section-hero-f---reference-print"] .hero-subtitle { font-size:13px !important; font-weight:400 !important; }
+
+/* Native product cards remain product cards, with the same seven catalog items. */
+[class*="section-food-f---price-table"] { padding:40px !important; }
+[class*="section-food-f---price-table"] :is(h2,.text-primary,.text-body1,.text-responsive,.category-filter-column .q-btn) { color:var(--fd-dark) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; }
+[class*="section-food-f---price-table"] h2 { font-size:40px !important; text-transform:uppercase; font-weight:700 !important; letter-spacing:-.04em !important; justify-content:flex-start !important; text-align:left !important; }
+[class*="section-food-f---price-table"] .container > .row { justify-content:flex-start !important; }
+[class*="section-food-f---price-table"] .category-filter-column { height:auto !important; min-height:140px; }
+[class*="section-food-f---price-table"] .q-scrollarea__container,
+[class*="section-food-f---price-table"] .q-scrollarea__content { position:relative !important; height:auto !important; overflow:visible !important; }
+[class*="section-food-f---price-table"] .category-filter-column .q-btn { border-bottom:1px solid var(--fd-line-on-paper); border-radius:0 !important; font-size:12px !important; font-weight:700; text-transform:uppercase; }
+[class*="section-food-f---price-table"] .concessions-menu-category-sections-root > div > .row.text-primary { border-bottom:2px solid var(--fd-dark); padding-bottom:12px; }
+[class*="section-food-f---price-table"] .concessions-menu-category-sections-root > div > .row.text-primary p { font-size:14px !important; font-weight:700; text-transform:uppercase; }
+[class*="section-food-f---price-table"] .row.justify-start.items-stretch { display:grid !important; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 !important; border-top:1px solid var(--fd-dark); border-left:1px solid var(--fd-dark); }
+[class*="section-food-f---price-table"] .concessions-menu-category-sections-root .q-card { width:100% !important; min-width:0; background:var(--fd-background) !important; color:var(--fd-dark) !important; border:0 !important; border-right:1px solid var(--fd-dark) !important; border-bottom:1px solid var(--fd-dark) !important; border-radius:0 !important; }
+[class*="section-food-f---price-table"] .q-card > .q-mt-md { margin:0 !important; }
+[class*="section-food-f---price-table"] .q-card .q-card__section { padding:22px 18px !important; }
+[class*="section-food-f---price-table"] .q-card :is(.text-subtitle2,.text-body2,.text-weight-bold,.text-weight-regular,span) { color:var(--fd-dark) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; }
+[class*="section-food-f---price-table"] .q-card .text-weight-bold { font-size:15px !important; line-height:1.35 !important; }
+[class*="section-food-f---price-table"] .q-card .text-body2 { font-size:12px !important; line-height:1.6 !important; }
+
+/* Native form and voucher controls: readable against the existing global palette. */
+[class*="section-contact-f---ledger"],
+[class*="section-gift-cards-f---voucher-line"] { padding:40px !important; }
+[class*="section-contact-f---ledger"] :is(h2,.text-primary,.text-body1),
+[class*="section-gift-cards-f---voucher-line"] :is(h2,.text-primary,.text-body1,.text-responsive,.text-caption,.text-h6) { color:var(--fd-dark) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; }
+[class*="section-contact-f---ledger"] h2,
+[class*="section-gift-cards-f---voucher-line"] h2 { font-size:40px !important; text-transform:uppercase; letter-spacing:-.04em !important; font-weight:700 !important; }
+[class*="section-contact-f---ledger"] .q-form { padding:0 !important; }
+[class*="section-contact-f---ledger"] .q-field { --generic-form-field-background:var(--fd-background) !important; --generic-form-field-text:var(--fd-dark) !important; --generic-form-field-label:var(--fd-dark) !important; --generic-form-field-border:var(--fd-dark) !important; --generic-form-field-placeholder:var(--fd-muted-on-paper) !important; --generic-form-field-focus:var(--fd-dark) !important; }
+[class*="section-contact-f---ledger"] .q-field__control { background:var(--fd-background) !important; border-radius:0 !important; color:var(--fd-dark) !important; }
+[class*="section-contact-f---ledger"] :is(.q-field__native,.q-field__label) { color:var(--fd-dark) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; }
+[class*="section-contact-f---ledger"] .q-btn,
+[class*="section-gift-cards-f---voucher-line"] .q-btn { border-radius:0 !important; background:var(--fd-dark) !important; color:var(--fd-background) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; font-size:13px !important; box-shadow:none !important; }
+[class*="section-contact-f---ledger"] .q-btn *,
+[class*="section-gift-cards-f---voucher-line"] .q-btn * { color:var(--fd-background) !important; font-family:"IBM Plex Mono","Courier New",monospace !important; }
+[class*="section-gift-cards-f---voucher-line"] .q-card .q-card { border:1px solid var(--fd-dark) !important; border-radius:0 !important; }
+
+@media (max-width:720px) {
+  .cn-wrap { padding:32px 20px; }
+  .cn-head { margin-bottom:20px; padding-bottom:20px; }
+  .cn-head .cn-big,.cn-head > p:not(.cn-big) { float:none; }
+  .cn-head > p:not(.cn-big) { margin-top:16px; }
+  .cn-head .cn-big { float:left; font-size:44px !important; }
+  .cn-index__rows > div { grid-template-columns:28px minmax(0,1fr); gap:10px; }
+  .cn-index__rows dd:last-child { grid-column:2; font-size:12px; }
+  .cn-table { min-width:640px; font-size:12px !important; }
+  .cn-table th,.cn-table td { padding:14px 16px 14px 0; }
+  .cn-coord > div { float:none; width:100%; }
+  .cn-coord > div:first-child { padding-right:0; margin-bottom:28px; }
+  .cn-coord__map,.cn-coord__map iframe { min-height:300px; height:300px; }
+  [class*="section-food-f---price-table"],
+  [class*="section-contact-f---ledger"],
+  [class*="section-gift-cards-f---voucher-line"] { padding:32px 20px !important; }
+  [class*="section-food-f---price-table"] .full-width.q-py-md.row > .col-2 { width:100% !important; padding:0 0 20px !important; }
+  [class*="section-food-f---price-table"] .full-width.q-py-md.row > .col-12 { width:100% !important; }
+  [class*="section-food-f---price-table"] .category-filter-column { min-height:0; }
+  [class*="section-food-f---price-table"] .q-scrollarea__content { display:flex !important; flex-wrap:wrap; gap:8px; }
+  [class*="section-food-f---price-table"] .q-scrollarea__content > .full-width { width:auto !important; }
+  [class*="section-food-f---price-table"] .row.justify-start.items-stretch { grid-template-columns:1fr; }
+  [class*="section-contact-f---ledger"] .q-col-gutter-md > .col-6 { width:100% !important; }
+}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+[class*="section-"] .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }
+
+/* Readable media captions. Solid backing protects every image frame. */
+[class*="section-hero-f---reference-print-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle) {
+  color: var(--q-dark) !important;
+  background-color: var(--q-background) !important;
+  box-shadow: 0 0 0 .18em var(--q-background) !important;
+  text-shadow: 0 .04em .08em color-mix(in srgb, var(--q-background) 85%, transparent) !important;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+/* Keep empty native captions from painting blank bars. */
+[class*="section-hero-f---reference-print-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle):empty {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Icons remain visible over light and dark frames without intercepting input. */
+[class*="section-hero-f---reference-print-"] :is(.swiper-button-prev,.swiper-button-next) {
+  color: var(--q-background) !important;
+  background-color: var(--q-dark) !important;
+  text-shadow: 0 .05em .12em var(--q-dark) !important;
+}

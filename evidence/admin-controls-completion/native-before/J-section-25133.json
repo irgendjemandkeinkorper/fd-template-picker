@@ -1,0 +1,86 @@
+{
+  "letter": "J",
+  "id": "25133",
+  "name": "Contact J - Enquiry Desk",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nFull Width\narrow_drop_down",
+      "value": "Full Width"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-j-contact"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-j-contact{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f3eee5;color:#241c19;font-family:Arial,sans-serif;} &.fdp-j-contact h2{color:#241c19;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-j-contact h3{color:#241c19;font-family:Arial,sans-serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-j-contact p{color:#241c19;line-height:1.7;}\n/* Native widget controls; confirm these selectors against rendered output */\n &.fdp-j-contact form{max-width:900px;margin:24px auto 0;} &.fdp-j-contact .q-field{margin:18px 0;} &.fdp-j-contact .q-field__control{background:#fffaf2;color:#241c19;border-radius:0;} &.fdp-j-contact .q-field__native,&.fdp-j-contact .q-field__input,&.fdp-j-contact .q-field__label{color:#241c19;} &.fdp-j-contact .q-field--focused .q-field__control:after{border-color:#a94728;} &.fdp-j-contact .q-btn{min-height:48px;padding:12px 24px;background:#a94728;color:#fffaf1;font-weight:700;} &.fdp-j-contact .q-btn:focus-visible{outline:3px solid #241c19;outline-offset:4px;}\n/* Keep content within the section on narrow screens */\n&.fdp-j-contact,&.fdp-j-contact *{box-sizing:border-box;}&.fdp-j-contact .fdp-content,&.fdp-j-contact .fdp-content>*,&.fdp-j-contact .fdp-content article,&.fdp-j-contact .fdp-content aside{min-width:0;}&.fdp-j-contact p,&.fdp-j-contact li,&.fdp-j-contact a{overflow-wrap:break-word;}\n&.fdp-j-contact{background:#f3eee5!important;} &.fdp-j-contact h2{color:#241c19!important;}"
+    }
+  ]
+}

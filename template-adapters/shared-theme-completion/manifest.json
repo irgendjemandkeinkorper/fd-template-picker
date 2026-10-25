@@ -1,0 +1,60 @@
+{
+  "status": "prepared-not-applied",
+  "target": [
+    "US-BETA",
+    "INDY Demo",
+    "Adam Template Testing 2"
+  ],
+  "nativeField": "Theme & Style / Custom Styles",
+  "source": "evidence/component-controls-repairs/site-theme-after.css",
+  "sourceSha256": "0ac8235181cf3ffcdc1f04aa4f0da241903659ae3a3d9a3188e17d900a9f1b9a",
+  "proposedSha256": "b2d8ad2fc3ba1036944f59f73b874149a736cd7dad6fbf8ce66d5a0ef0d101ce",
+  "counts": {
+    "#08080a": 1,
+    "#cfc4b2": 2,
+    "#a34b3c": 2,
+    "#f5f0e6": 4,
+    "#1c1c21": 2,
+    "#571726": 1,
+    "#bf9b45": 1,
+    "rgba(232,223,209,.12)": 1,
+    "rgba(20,20,24,.14)": 2,
+    "rgba(8,8,10,.55)": 1,
+    "rgba(191,155,69,.55)": 1,
+    "var(--q-header)": 7,
+    "var(--q-accent)": 1
+  },
+  "scope": [
+    "a-circuit",
+    "b-rep",
+    "c-late",
+    "d-odd",
+    "e-grid",
+    "f-concrete",
+    "g-cut",
+    "h-storybook",
+    "i-ma",
+    "j-box-office",
+    "k-clubhouse",
+    "l-midnight-lounge"
+  ],
+  "unchanged": [
+    "Parlor and native information-page rules",
+    "retired A/B/C nav-page rules",
+    "all font families and sizes",
+    "all transforms and page geometry",
+    "Concrete approved containment block"
+  ],
+  "roles": {
+    "Primary": "--q-primary",
+    "Secondary": "--q-secondary",
+    "Dark": "--q-dark",
+    "Background": "--q-background"
+  },
+  "gates": [
+    "current native field readback hash",
+    "saved desktop/mobile previews including open drawers",
+    "current and second native palettes without CSS changes",
+    "native published state and public recheck"
+  ]
+}

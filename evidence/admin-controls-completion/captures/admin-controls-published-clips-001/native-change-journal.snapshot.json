@@ -1,0 +1,890 @@
+{
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "siteId": 170
+  },
+  "authorization": "User approved full named native-field batch, scoped publication and temporary palette/restore on 2026-10-25",
+  "status": "applying",
+  "fields": [
+    {
+      "field": "site-theme",
+      "status": "saved",
+      "proposedSha256": "b2d8ad2fc3ba1036944f59f73b874149a736cd7dad6fbf8ce66d5a0ef0d101ce",
+      "savedSha256": "b2d8ad2fc3ba1036944f59f73b874149a736cd7dad6fbf8ce66d5a0ef0d101ce",
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "B-page",
+      "status": "saved-draft",
+      "savedSha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+      "proposedSha256": "2f9804555cbdd561936ee4177e49c2f7399cd2315edab35749026b08c4e2e160",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "B-section-25132",
+      "status": "saved-draft",
+      "savedSha256": "ebefe7e11b63367bf5659a1e63867567a3faed46ed9f10219630640e9081f9d9",
+      "proposedSha256": "1ff5d91a50f6e40ab29c33752641a41523d8ee44be5ac948f26c922ecc5d9b53",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "C-page",
+      "status": "saved-draft",
+      "savedSha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+      "proposedSha256": "49d29685d84b91e1eddde321e47fa78c4599fd29a95edc3bc56114ab89dbdd31",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "D-page",
+      "status": "saved-draft",
+      "savedSha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+      "proposedSha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/D-page-v7.css"
+    },
+    {
+      "field": "D-membership-24781",
+      "status": "saved-draft",
+      "classes": [
+        "fd-tier-primary",
+        "fd-tier-secondary",
+        "fd-tier-dark"
+      ],
+      "nativeSaveDisabled": true,
+      "savedSha256": "79b86e7a0eea8252c5e36e0d615bdc6620a129546738d98f261c040f8c37a71f"
+    },
+    {
+      "field": "E-page",
+      "status": "saved-draft",
+      "savedSha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+      "proposedSha256": "ab97afe461a471370c798091553017f587eb4997ea273996b1cd6b58eeb2967a",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "F-page",
+      "status": "saved-draft",
+      "savedSha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+      "proposedSha256": "a1335408f5cc60bc162655dc95a8f54cf35cce11b57d3e30614db03dabe0f9ba",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "G-page",
+      "status": "saved-draft",
+      "savedSha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+      "proposedSha256": "fa6c20c0e7acd40aa2a166c22c4849dd1c624f9b068eb59ec4bfe0b34992d017",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/G-page-v3.css"
+    },
+    {
+      "field": "G-section-25116",
+      "status": "saved-draft",
+      "savedSha256": "6b4067461fd4c3e1bca8e7d8308a7391acff6f4e36afd3f0e382702a7c47f9d0",
+      "proposedSha256": "6b4067461fd4c3e1bca8e7d8308a7391acff6f4e36afd3f0e382702a7c47f9d0",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/G-section-25116-v2.css"
+    },
+    {
+      "field": "H-page",
+      "status": "saved-draft",
+      "savedSha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+      "proposedSha256": "1df1f000a0d00ce051167fbcd309ea3ae5a7d5a8ac3fa43701ae1969b9161f31",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "H-section-25120",
+      "status": "saved-draft",
+      "savedSha256": "4540139df2e1a384d516418e9f1bcb053a40f0d6f9078dc356e9a9a90e2403e2",
+      "proposedSha256": "ab647ca8e7ce27fbb195f4a372f145326ec56d675e1937bc628c04e1d8ba2b98",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "I-page",
+      "status": "saved-draft",
+      "savedSha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+      "proposedSha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/I-page-v2.css"
+    },
+    {
+      "field": "I-section-25123",
+      "status": "saved-draft",
+      "savedSha256": "f7a9d2e539730b6d921e78c3bcfc3e1466479a63724234ef63ff9619a203da30",
+      "proposedSha256": "3da358523b174a68807d795892e39a42aab239b3e0491e85ca3217cedc8baa74",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "J-page",
+      "status": "saved-draft",
+      "savedSha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+      "proposedSha256": "95b8eb81ae44cec22853247159e2966abdb4b9e347e13fef92b03adf0ed198f5",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/J-page-v2.css"
+    },
+    {
+      "field": "J-section-25127",
+      "status": "saved-draft",
+      "savedSha256": "ad1d61603f38779fdbaa3db2200de43a31b23b779ba44d07c2f6e276ac428e9b",
+      "proposedSha256": "ad1d61603f38779fdbaa3db2200de43a31b23b779ba44d07c2f6e276ac428e9b",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/J-section-25127-v2.css"
+    },
+    {
+      "field": "J-section-25129",
+      "status": "saved-draft",
+      "savedSha256": "1a64a5259ca8bea0d65e3201a69051286e4876af6886af16bbb79e6331ac62de",
+      "proposedSha256": "ec03c63ab33255a8817aca5cd7993da28e0ba430c474eb94f817e5ef45a14855",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "J-section-25131",
+      "status": "saved-draft",
+      "savedSha256": "7759ef2314cb0ed9964f46b3de98dc915d2047e040122949a9c04486b50ed46c",
+      "proposedSha256": "2b55cc6418249ba716a6b51a482aacd56776c2892944c6b96ffbdd77430042be",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "J-section-25133",
+      "status": "saved-draft",
+      "savedSha256": "35f08fd63e9d4c612b7582d76458a6d9cb79ab19df543f02e6609869383d797c",
+      "proposedSha256": "1185eab070248c7c216eb1e17e24a2e105ec9ca2067cd49b9f218663962fd4a3",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "K-page",
+      "status": "saved-draft",
+      "savedSha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+      "proposedSha256": "0b17ce62fdbb7e77ed95445b16104cace9dd75eb55af6876796aee8968b45056",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/K-page-v3.css"
+    },
+    {
+      "field": "K-section-25122",
+      "status": "saved-draft",
+      "savedSha256": "39908e874c0e42ec4141e7364faebc111baf7a09f08037e1a02f2f6de75bdb3d",
+      "proposedSha256": "39908e874c0e42ec4141e7364faebc111baf7a09f08037e1a02f2f6de75bdb3d",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/K-section-25122-v2.css"
+    },
+    {
+      "field": "K-section-25128",
+      "status": "saved-draft",
+      "savedSha256": "a416cd1af1fc521031b8e8b38e4c45386e4c9290e56571ef24a0c5c0f6fe3ffd",
+      "proposedSha256": "4b0220ac5815925fc4e33e59a6ae731293a82ddf22447072fcd3ca14d3ed7ce7",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "K-section-24894",
+      "status": "saved-draft",
+      "savedSha256": "aa692e91cc6025d0c3ae1199215c7daaa7e9bf8a1f7f0c9f7a1e942ff5bbdc20",
+      "proposedSha256": "f509675f20670fcbf77e065a6cec798fcc6f8b4c7109d2708593057abb38a4c8",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "K-section-25117",
+      "status": "saved-draft",
+      "savedSha256": "5d247281b9e37a88a21aea83a6ef9677b6249ceaf62625537c5ba764d3c10741",
+      "proposedSha256": "26495a6e09a109086f1d0b7167a0f031d57de411603860aeb313ddfcccfad91f",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "L-page",
+      "status": "saved-draft",
+      "savedSha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+      "proposedSha256": "0605e65507a8bd871646f02b21e4dc9cb1aa9295c8609ac19ff1fcd462a0daec",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "evidence/admin-controls-completion/qa-corrections/L-page-v3.css"
+    },
+    {
+      "field": "L-section-25119",
+      "status": "saved-draft",
+      "savedSha256": "4c9b85a925580028755a6cf57202f435e37afbc8454faddcf00e7c6bb21f9f0b",
+      "proposedSha256": "050ef87ab4d9ff490eec2ab9a815c57c38fc38bd5d02c04cd15aeb1c1b442752",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "L-section-25124",
+      "status": "saved-draft",
+      "savedSha256": "5aa4ed176fd725641b0c133a41c4bb292f972dc6122979d128f71adec464f20a",
+      "proposedSha256": "c174add35718f5f537f88b7bcbd3ebb3f79226f750483565a4b310b802d09933",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "L-section-25126",
+      "status": "saved-draft",
+      "savedSha256": "a9345b3efa2c5d4ae577663c5f93beda15fd86755bcadae6fa966da67d8cef4f",
+      "proposedSha256": "0af7e21e3448ddf8948cf81d275d0cda4bf42f6a0507e8a7fd0f0fe7c83c5bf9",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "L-section-25130",
+      "status": "saved-draft",
+      "savedSha256": "2343ce8d0ba06e000518629eb899db8315a5a511c00cc6870b25c64332ae1e42",
+      "proposedSha256": "b125c76da26922d0fb3545f5c8db830e93083183cd427bc6c313c86005a14025",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true
+    },
+    {
+      "field": "A-page",
+      "status": "saved-draft",
+      "savedSha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+      "proposedSha256": "d61b994ceebd3e7e94af39f851998be0cd1475fff39233d752b9d36ffa8216c5",
+      "matchesProposalAfterNativeNewlineNormalization": true,
+      "nativeSaveDisabled": true,
+      "proposalRevision": "qa-corrections/A-page-v2.css"
+    }
+  ],
+  "pages": [
+    {
+      "variant": "B",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "B-saved-draft-previews.json"
+    },
+    {
+      "variant": "C",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "C-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "E",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "E-saved-draft-previews.json"
+    },
+    {
+      "variant": "F",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "F-saved-draft-previews.json"
+    },
+    {
+      "variant": "G",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "G-saved-draft-previews.json"
+    },
+    {
+      "variant": "H",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "H-saved-draft-previews.json"
+    },
+    {
+      "variant": "I",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "I-saved-draft-previews.json"
+    },
+    {
+      "variant": "J",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "J-saved-draft-previews.json"
+    },
+    {
+      "variant": "K",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "K-saved-draft-previews.json"
+    },
+    {
+      "variant": "L",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "L-saved-draft-previews.json"
+    },
+    {
+      "variant": "A",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "A-saved-draft-previews.json"
+    },
+    {
+      "variant": "A",
+      "title": "Variant A Circuit",
+      "status": "published",
+      "nativeRow": "5659\n\t\nVariant A Circuit\n\t\nvariant-a-circuit\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "B",
+      "title": "Variant B Rep",
+      "status": "published",
+      "nativeRow": "5661\n\t\nVariant B Rep\n\t\nvariant-b-rep\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "C",
+      "title": "Variant C Late",
+      "status": "published",
+      "nativeRow": "5663\n\t\nVariant C Late\n\t\nvariant-c-late\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "E",
+      "title": "Variant E Grid",
+      "status": "published",
+      "nativeRow": "5901\n\t\nVariant E Grid\n\t\nvariant-e-grid\n\t\n11\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "F",
+      "title": "Variant F Concrete",
+      "status": "published",
+      "nativeRow": "5903\n\t\nVariant F Concrete\n\t\nvariant-f-concrete\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "G",
+      "title": "Variant G Cut",
+      "status": "published",
+      "nativeRow": "5905\n\t\nVariant G Cut\n\t\nvariant-g-cut\n\t\n5\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "H",
+      "title": "Variant H Storybook",
+      "status": "published",
+      "nativeRow": "5909\n\t\nVariant H Storybook\n\t\nvariant-h-storybook\n\t\n5\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "I",
+      "title": "Variant I Ma",
+      "status": "published",
+      "nativeRow": "5911\n\t\nVariant I Ma\n\t\nvariant-i-ma\n\t\n5\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "J",
+      "title": "Variant J Box Office",
+      "status": "published",
+      "nativeRow": "5913\n\t\nVariant J Box Office\n\t\nvariant-j-box-office\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "K",
+      "title": "Variant K Clubhouse",
+      "status": "published",
+      "nativeRow": "5915\n\t\nVariant K Clubhouse\n\t\nvariant-k-clubhouse\n\t\n8\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "L",
+      "title": "Variant L Midnight Lounge",
+      "status": "published",
+      "nativeRow": "5917\n\t\nVariant L Midnight Lounge\n\t\nvariant-l-midnight-lounge\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "A",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "A-saved-draft-previews.json"
+    },
+    {
+      "variant": "A",
+      "title": "Variant A Circuit",
+      "status": "published",
+      "nativeRow": "5659\n\t\nVariant A Circuit\n\t\nvariant-a-circuit\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "G",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "G-saved-draft-previews.json"
+    },
+    {
+      "variant": "I",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "I-saved-draft-previews.json"
+    },
+    {
+      "variant": "J",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "J-saved-draft-previews.json"
+    },
+    {
+      "variant": "K",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "K-saved-draft-previews.json"
+    },
+    {
+      "variant": "L",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "L-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "G",
+      "title": "Variant G Cut",
+      "status": "published",
+      "nativeRow": "5905\n\t\nVariant G Cut\n\t\nvariant-g-cut\n\t\n5\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "I",
+      "title": "Variant I Ma",
+      "status": "published",
+      "nativeRow": "5911\n\t\nVariant I Ma\n\t\nvariant-i-ma\n\t\n5\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "J",
+      "title": "Variant J Box Office",
+      "status": "published",
+      "nativeRow": "5913\n\t\nVariant J Box Office\n\t\nvariant-j-box-office\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "K",
+      "title": "Variant K Clubhouse",
+      "status": "published",
+      "nativeRow": "5915\n\t\nVariant K Clubhouse\n\t\nvariant-k-clubhouse\n\t\n8\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "L",
+      "title": "Variant L Midnight Lounge",
+      "status": "published",
+      "nativeRow": "5917\n\t\nVariant L Midnight Lounge\n\t\nvariant-l-midnight-lounge\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "G",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "G-saved-draft-previews.json"
+    },
+    {
+      "variant": "G",
+      "title": "Variant G Cut",
+      "status": "published",
+      "nativeRow": "5905\n\t\nVariant G Cut\n\t\nvariant-g-cut\n\t\n5\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "J",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "J-saved-draft-previews.json"
+    },
+    {
+      "variant": "K",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "K-saved-draft-previews.json"
+    },
+    {
+      "variant": "L",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "L-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "J",
+      "title": "Variant J Box Office",
+      "status": "published",
+      "nativeRow": "5913\n\t\nVariant J Box Office\n\t\nvariant-j-box-office\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "K",
+      "title": "Variant K Clubhouse",
+      "status": "published",
+      "nativeRow": "5915\n\t\nVariant K Clubhouse\n\t\nvariant-k-clubhouse\n\t\n8\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "L",
+      "title": "Variant L Midnight Lounge",
+      "status": "published",
+      "nativeRow": "5917\n\t\nVariant L Midnight Lounge\n\t\nvariant-l-midnight-lounge\n\t\n9\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    },
+    {
+      "variant": "D",
+      "status": "saved-draft-previewed",
+      "modes": [
+        "Desktop Web",
+        "Mobile Web"
+      ],
+      "paletteNote": "Native Admin preview uses Admin framework colors; current/second site palettes require public checks",
+      "evidence": "D-saved-draft-previews.json"
+    },
+    {
+      "variant": "D",
+      "title": "Variant D Odd",
+      "status": "published",
+      "nativeRow": "5899\n\t\nVariant D Odd\n\t\nvariant-d-odd\n\t\n10\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert"
+    }
+  ],
+  "palette": {
+    "original": {
+      "primary": "#e06b4a",
+      "secondary": "#c4553a",
+      "dark": "#38264a",
+      "background": "#fbefe2"
+    },
+    "test": {
+      "primary": "#176B9D",
+      "secondary": "#F2CA52",
+      "dark": "#122C43",
+      "background": "#F7FAFC"
+    },
+    "status": "original-restored-native-save-verified",
+    "nativeSavedVerifiedAt": "2026-10-25T19:27:44.277Z",
+    "testCompletedAt": "2026-10-25T19:35:37.940Z",
+    "restoredAt": "2026-10-25T20:02:27.184Z",
+    "restoreNativeSaveDisabled": true,
+    "themeCssUnchanged": true,
+    "finalDOddRetest": "qa-test-desktop/D.json and qa-test-phone/D.json",
+    "finalNativeColorReadback": [
+      "Primary\n#e06b4a",
+      "Secondary\n#c4553a",
+      "Dark\n#38264a",
+      "Background\n#fbefe2"
+    ]
+  },
+  "qaCorrections": [
+    {
+      "field": "A-page",
+      "reason": "Remove circular native Primary override on contact section",
+      "revision": "qa-corrections/A-page-v2.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "D-page",
+      "reason": "Two kicker labels3.61 over strong Secondary scraps; native Dark expected5.59. Seven unearned punch-slot X glyphs deliberately transparent; unchanged.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/D-page-v2.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "G-page",
+      "reason": "Exact old submit-content selector overrides generic foreground; set that owned declaration Dark. First membership number uses Secondary on Dark surface2.61; set its native Section base foreground Background, retaining featured-card overrides.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/G-page-v2.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "G-section-25116",
+      "reason": "Exact old submit-content selector overrides generic foreground; set that owned declaration Dark. First membership number uses Secondary on Dark surface2.61; set its native Section base foreground Background, retaining featured-card overrides.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/G-section-25116-v2.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "I-page",
+      "reason": "Existing higher-specificity Ma caption backdrop still88%; make its existing custom property opaque Dark.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/I-page-v2.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "J-section-25127",
+      "reason": "Native food-category foreground correction",
+      "revision": "evidence/admin-controls-completion/qa-corrections/J-section-25127-v2.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "K-page",
+      "reason": "Native editable section color bridge",
+      "revision": "evidence/admin-controls-completion/qa-corrections/K-page-v2.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "K-section-25122",
+      "reason": "Native food-category foreground correction",
+      "revision": "evidence/admin-controls-completion/qa-corrections/K-section-25122-v2.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "L-page",
+      "reason": "Native editable section color bridge",
+      "revision": "evidence/admin-controls-completion/qa-corrections/L-page-v2.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "G-page",
+      "reason": "Only max899px, actual mobile-caption-containing canvas/overlay reflow;40px top/28px sides;44–62px title,line-height1 and−3deg tilt. Existing opaque backings/shadows remain.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/G-page-v3.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "D-page",
+      "reason": "Three visible earned is-stamped glyphs and outlines use Secondary on nearly-white card1.53:1. Change their owned Page foreground/border to native Dark; preserve seven transparent unearned slots and tilts.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/D-page-v3.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "J-page",
+      "reason": "Native intro and visit text-current-color headings use Primary on Dark2.47:1. Bind those exact known Dark panels and h2/h3 heading foreground to native Dark/Background.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/J-page-v2.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "K-page",
+      "reason": "Native featured heading Primary/Dark2.47 and empty widget .text-h5.text-grey-9 gray/Dark1.42. Bind that exact Dark panel, heading and empty-state foreground to Dark/Background.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/K-page-v3.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "L-page",
+      "reason": "Native opening-note text-current-color heading Primary/Dark2.47. Bind its exact Dark panel and h2/h3 heading foreground to native Dark/Background.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/L-page-v3.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "D-page",
+      "reason": "Only actual mobile-caption branch: flow native overlay after existing collage print; remove fixed400px message height; grow native carousel canvas around image/title/CTA; anchor absolute stamp to relative print canvas.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/D-page-v4.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "D-page",
+      "reason": "Change only owned right:-12px to right:8px, moving each sticker20px inward before the native horizontal clip.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/D-page-v5.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "D-page",
+      "reason": "Only max1023px owned mobile price right:-8px becomes right:8px. Base right:8px from v5 remains. All two source price positioning rules now inset8px.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/D-page-v6.css",
+      "status": "superseded-by-verified-final-revision",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    },
+    {
+      "field": "D-page",
+      "reason": "Only max1023px owned mobile price top:-8px becomes top:-38px, lifting the sticker30px onto the bottom photo area. Both right:8px insets remain.",
+      "revision": "evidence/admin-controls-completion/qa-corrections/D-page-v7.css",
+      "status": "verified-current-native-published-state",
+      "verificationReport": "evidence/admin-controls-completion/final-qa-report.json"
+    }
+  ],
+  "verification": {
+    "status": "complete-for-authorized-color-and-overlay-scope",
+    "verifiedAt": "2026-10-25T20:03:28.879Z",
+    "report": "evidence/admin-controls-completion/final-qa-report.json",
+    "nativeFields": 30,
+    "publishedPages": 12,
+    "desktopAndPhonePaletteChecks": 48,
+    "measuredTextContrastFailures": 0,
+    "originalPaletteRestored": true,
+    "captionReadability": "Opaque native-palette backing and text shadow verified in sampled A-I media captions; D/G mobile containment corrected",
+    "limits": [
+      "Arbitrary unvalidated palettes",
+      "Editable template typography or arbitrary slant/layout presets",
+      "Source HTML/editorial product data bindings",
+      "CSS-generated customer wording relocation",
+      "Destination-site Library copy/link/unlink workflow",
+      "Form delivery/booking/product configuration",
+      "Every film/image/hover/focus/drawer state",
+      "Picker screenshot/catalog refresh until separate capture review"
+    ]
+  }
+}

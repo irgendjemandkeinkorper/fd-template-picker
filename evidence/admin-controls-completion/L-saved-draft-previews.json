@@ -1,0 +1,118 @@
+[
+  {
+    "captions": [],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "section-l-opening-note-24900 q-px-xs section-l-opening-note-24900 bg-dark zoom",
+        "height": 151.60000610351562,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent row justify-center section-l-tickets-after-dark-24901 q-px-xs section-l-tickets-after-dark-24901 zoom",
+        "height": 112.3000030517578,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-l-lounge-ritual-24903 q-px-xs section-l-lounge-ritual-24903 bg-primary zoom",
+        "height": 168,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-l-one-more-24904 q-px-xs section-l-one-more-24904 bg-secondary zoom",
+        "height": 172.40000915527344,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-l-food section-food-l---after-dark-menu-25119 q-px-xs section-food-l---after-dark-menu-25119 zoom",
+        "height": 1902.300048828125,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-l-private-parties section-private-parties-l---an-evening-of-your-own-25124 q-px-xs section-private-parties-l---an-evening-of-your-own-25124 zoom",
+        "height": 883.6124877929688,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-l-membership section-membership-l---after-dark-regular-25126 q-px-xs section-membership-l---after-dark-regular-25126 zoom",
+        "height": 923.9625244140624,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent fdp-l-contact section-contact-l---a-note-after-dark-25130 q-px-xs section-contact-l---a-note-after-dark-25130 zoom",
+        "height": 857.4750366210938,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "section-l-opening-note-24900 q-px-xs section-l-opening-note-24900 bg-dark",
+        "height": 151.60000610351562,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-l-tickets-after-dark-24901 q-px-xs section-l-tickets-after-dark-24901",
+        "height": 272.3000183105469,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-l-lounge-ritual-24903 q-px-xs section-l-lounge-ritual-24903 bg-primary",
+        "height": 168,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-l-one-more-24904 q-px-xs section-l-one-more-24904 bg-secondary",
+        "height": 172.40000915527344,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-l-food section-food-l---after-dark-menu-25119 q-px-xs section-food-l---after-dark-menu-25119",
+        "height": 1793.4500732421875,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-l-private-parties section-private-parties-l---an-evening-of-your-own-25124 q-px-xs section-private-parties-l---an-evening-of-your-own-25124",
+        "height": 883.6124877929688,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-l-membership section-membership-l---after-dark-regular-25126 q-px-xs section-membership-l---after-dark-regular-25126",
+        "height": 923.9625244140624,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent fdp-l-contact section-contact-l---a-note-after-dark-25130 q-px-xs section-contact-l---a-note-after-dark-25130",
+        "height": 833.4750366210938,
+        "primary": "#027be3",
+        "width": 1020
+      }
+    ]
+  }
+]

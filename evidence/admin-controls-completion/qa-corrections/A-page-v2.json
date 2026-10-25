@@ -1,0 +1,45 @@
+{
+  "schema": "fd-native-qa-correction/v1",
+  "status": "prepared-for-authorized-qa-correction-not-applied-by-generator",
+  "variant": "A",
+  "field": "Page Custom Styles (CSS)",
+  "editablePageId": 5660,
+  "publishedPageId": 5659,
+  "sourceFrozenProposal": "evidence/admin-controls-completion/native-proposals/A-page.proposed.css",
+  "sourceFrozenSha256": "ae800439052c76e410aa4ba9e08f2f6394b838aaef4f4b71064a5fcee6921972",
+  "correction": "evidence/admin-controls-completion/qa-corrections/A-page-v2.css",
+  "correctionSha256": "d61b994ceebd3e7e94af39f851998be0cd1475fff39233d752b9d36ffa8216c5",
+  "removedNativeOverrides": [
+    {
+      "property": "--q-primary",
+      "oldValue": "var(--fd-primary)",
+      "reason": "Inherit maintained native body palette; prevent template shadow and fd/q alias cycle."
+    }
+  ],
+  "change": "Remove the single template-owned --q-primary declaration. All other approved CSS bytes remain unchanged.",
+  "liveFindingReportedByRoot": {
+    "bodyPrimary": "#e06b4a",
+    "contactPrimary": "empty",
+    "contactFdPrimary": "empty",
+    "contactPrimaryTint": "empty",
+    "symptom": "Send text Dark on Dark after publication"
+  },
+  "expectedAfterNativeSave": {
+    "contactPrimary": "Inherited #e06b4a from native body",
+    "fdPrimary": "Resolves to inherited native Primary",
+    "fdPrimaryTint": "Resolves to Primary16%/Background surface",
+    "send": "Dark text on Primary tint, current expected ratio10.24"
+  },
+  "nativeOverrideAudit": [
+    {
+      "source": "evidence/admin-controls-completion/native-before/A-page.css",
+      "nativeCustomPropertyWrites": [
+        {
+          "property": "--q-primary",
+          "value": "#A34B3C"
+        }
+      ]
+    }
+  ],
+  "statusPreserved": "No other --q-* template writes found in current raw CSS backups; --q-warning/status/error references retained. No frozen proposal or manifest modified."
+}

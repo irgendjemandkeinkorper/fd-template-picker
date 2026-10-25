@@ -1,0 +1,2611 @@
+{
+  "schema": "fd-native-field-proposals/v1",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2"
+  },
+  "status": "prepared-from-current-native-backups-not-applied",
+  "fields": [
+    {
+      "field": "A-page",
+      "variant": "A",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/A-page.css",
+      "beforeBytesSha256": "cff9a81acfdd5ffbe3306e52d951cb3a2df2fac4777822c4865f23401eee0886",
+      "beforeTextSha256": "cff9a81acfdd5ffbe3306e52d951cb3a2df2fac4777822c4865f23401eee0886",
+      "beforeCharacters": 28635,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/A-page.proposed.css",
+      "proposedBytesSha256": "ae800439052c76e410aa4ba9e08f2f6394b838aaef4f4b71064a5fcee6921972",
+      "proposedCharacters": 35563,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#08080A",
+            "role": "header",
+            "replacement": "var(--fd-header)",
+            "count": 5
+          },
+          {
+            "literal": "#A89C89",
+            "role": "muted-on-dark",
+            "replacement": "var(--fd-muted-on-dark)",
+            "count": 7
+          },
+          {
+            "literal": "#F5F0E6",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 24
+          },
+          {
+            "literal": "#1C1C21",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 6
+          },
+          {
+            "literal": "#CFC4B2",
+            "role": "muted-on-dark",
+            "replacement": "var(--fd-muted-on-dark)",
+            "count": 3
+          },
+          {
+            "literal": "#A34B3C",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 26
+          },
+          {
+            "literal": "#140E0C",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 11
+          },
+          {
+            "literal": "rgba(163,75,60,.45)",
+            "role": "primary",
+            "replacement": "color-mix(in srgb, var(--fd-primary) 45%, transparent)",
+            "count": 5
+          },
+          {
+            "literal": "rgba(245,240,230,.18)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 18%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.6)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 60%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "rgba(245,240,230,.10)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 10%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.5)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "rgba(245,240,230,.3)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 30%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "#E8A38F",
+            "role": "primary-tint",
+            "replacement": "var(--fd-primary-tint)",
+            "count": 5
+          },
+          {
+            "literal": "rgba(245,240,230,.68)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 68%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.1)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 10%, transparent)",
+            "count": 4
+          },
+          {
+            "literal": "#1C1411",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 3
+          },
+          {
+            "literal": "#241814",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#2B1A15",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#E7E0D0",
+            "role": "paper-muted",
+            "replacement": "var(--fd-paper-muted)",
+            "count": 1
+          },
+          {
+            "literal": "#BF9B45",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 1
+          },
+          {
+            "literal": "#C96B57",
+            "role": "primary-tint",
+            "replacement": "var(--fd-primary-tint)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.42)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 42%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.78)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 78%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "rgba(245,240,230,.07)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 7%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.7)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 70%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.45)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 45%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.12)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 12%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.65)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 65%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.09)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 9%, transparent)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "A",
+        "kind": "page",
+        "sourceSha256": "cff9a81acfdd5ffbe3306e52d951cb3a2df2fac4777822c4865f23401eee0886",
+        "proposedSha256": "7247a3e2a3785f9fbd8e81b36b7cb7544f986c487e3fccd0d401edf3d8996f6d",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 60%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 50%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 60%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 68%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 42%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 78%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 70%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 45%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 65%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 78%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          }
+        ]
+      }
+    },
+    {
+      "field": "A-section-23725",
+      "variant": "A",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/A-section-23725.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "A-section-23730",
+      "variant": "A",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/A-section-23730.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "A-section-23737",
+      "variant": "A",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/A-section-23737.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "A-section-23746",
+      "variant": "A",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/A-section-23746.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "A-section-23752",
+      "variant": "A",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/A-section-23752.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "A-section-23776",
+      "variant": "A",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/A-section-23776.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "B-page",
+      "variant": "B",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/B-page.css",
+      "beforeBytesSha256": "306fcc371ca78e10d5a3d7872488364c25bea12cf95949fb6f4cfdf31cd6f85a",
+      "beforeTextSha256": "306fcc371ca78e10d5a3d7872488364c25bea12cf95949fb6f4cfdf31cd6f85a",
+      "beforeCharacters": 24691,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/B-page.proposed.css",
+      "proposedBytesSha256": "2f9804555cbdd561936ee4177e49c2f7399cd2315edab35749026b08c4e2e160",
+      "proposedCharacters": 30565,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#F5F0E6",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 11
+          },
+          {
+            "literal": "#7C7263",
+            "role": "muted-on-paper",
+            "replacement": "var(--fd-muted-on-paper)",
+            "count": 1
+          },
+          {
+            "literal": "#141418",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 8
+          },
+          {
+            "literal": "rgba(191,155,69,.55)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 55%, transparent)",
+            "count": 4
+          },
+          {
+            "literal": "rgba(20,20,24,.14)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 14%, transparent)",
+            "count": 5
+          },
+          {
+            "literal": "#544D43",
+            "role": "muted-on-paper",
+            "replacement": "var(--fd-muted-on-paper)",
+            "count": 4
+          },
+          {
+            "literal": "#1C1C21",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 4
+          },
+          {
+            "literal": "#571726",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 23
+          },
+          {
+            "literal": "rgba(87,23,38,.4)",
+            "role": "primary",
+            "replacement": "color-mix(in srgb, var(--fd-primary) 40%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "#2B2622",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 13
+          },
+          {
+            "literal": "#6B615A",
+            "role": "muted-on-paper",
+            "replacement": "var(--fd-muted-on-paper)",
+            "count": 7
+          },
+          {
+            "literal": "rgba(43,38,34,.28)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 28%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(43,38,34,.3)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 30%, transparent)",
+            "count": 4
+          },
+          {
+            "literal": "rgba(87,23,38,.5)",
+            "role": "primary",
+            "replacement": "color-mix(in srgb, var(--fd-primary) 50%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "#4A423B",
+            "role": "muted-on-paper",
+            "replacement": "var(--fd-muted-on-paper)",
+            "count": 6
+          },
+          {
+            "literal": "rgba(43,38,34,.2)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 20%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(43,38,34,.16)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 16%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "#EDE6D8",
+            "role": "paper-muted",
+            "replacement": "var(--fd-paper-muted)",
+            "count": 2
+          },
+          {
+            "literal": "rgba(43,38,34,.25)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 25%, transparent)",
+            "count": 2
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "B",
+        "kind": "page",
+        "sourceSha256": "306fcc371ca78e10d5a3d7872488364c25bea12cf95949fb6f4cfdf31cd6f85a",
+        "proposedSha256": "d4d76ea1871240f26e2f5e2438680968d952f31d563e2a6e2b8d6c919001ab4e",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          }
+        ]
+      }
+    },
+    {
+      "field": "B-section-25132",
+      "variant": "B",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/B-section-25132.css",
+      "beforeBytesSha256": "b5300db81ce0de4fdc587e914834de4b27bd730d67095140e5cba53388a3f71a",
+      "beforeTextSha256": "b5300db81ce0de4fdc587e914834de4b27bd730d67095140e5cba53388a3f71a",
+      "beforeCharacters": 3705,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/B-section-25132.proposed.css",
+      "proposedBytesSha256": "1ff5d91a50f6e40ab29c33752641a41523d8ee44be5ac948f26c922ecc5d9b53",
+      "proposedCharacters": 6770,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f6f1e6",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#28221f",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 7
+          },
+          {
+            "literal": "#fffdf7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#b7a896",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 6
+          },
+          {
+            "literal": "#713d35",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "B",
+        "kind": "section",
+        "sourceSha256": "b5300db81ce0de4fdc587e914834de4b27bd730d67095140e5cba53388a3f71a",
+        "proposedSha256": "ebefe7e11b63367bf5659a1e63867567a3faed46ed9f10219630640e9081f9d9",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "C-page",
+      "variant": "C",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/C-page.css",
+      "beforeBytesSha256": "afaf62b7b5d0e01e24523cfbc4abf08ddc1aa3991ed56f4758363e0ff3cfc9a0",
+      "beforeTextSha256": "afaf62b7b5d0e01e24523cfbc4abf08ddc1aa3991ed56f4758363e0ff3cfc9a0",
+      "beforeCharacters": 28120,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/C-page.proposed.css",
+      "proposedBytesSha256": "49d29685d84b91e1eddde321e47fa78c4599fd29a95edc3bc56114ab89dbdd31",
+      "proposedCharacters": 35752,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#08080A",
+            "role": "header",
+            "replacement": "var(--fd-header)",
+            "count": 3
+          },
+          {
+            "literal": "#2C0A12",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 13
+          },
+          {
+            "literal": "rgba(191,155,69,.55)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 55%, transparent)",
+            "count": 8
+          },
+          {
+            "literal": "#BF9B45",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 32
+          },
+          {
+            "literal": "#D4B36A",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 3
+          },
+          {
+            "literal": "#F5F0E6",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 15
+          },
+          {
+            "literal": "#CFC4B2",
+            "role": "muted-on-dark",
+            "replacement": "var(--fd-muted-on-dark)",
+            "count": 3
+          },
+          {
+            "literal": "#C08A3E",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 4
+          },
+          {
+            "literal": "rgba(8,8,10,.96)",
+            "role": "header",
+            "replacement": "color-mix(in srgb, var(--fd-header) 96%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(8,8,10,.72)",
+            "role": "header",
+            "replacement": "color-mix(in srgb, var(--fd-header) 72%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(8,8,10,0)",
+            "role": "header",
+            "replacement": "color-mix(in srgb, var(--fd-header) 0%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(8,8,10,.94)",
+            "role": "header",
+            "replacement": "color-mix(in srgb, var(--fd-header) 94%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(8,8,10,.35)",
+            "role": "header",
+            "replacement": "color-mix(in srgb, var(--fd-header) 35%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(8,8,10,.55)",
+            "role": "header",
+            "replacement": "color-mix(in srgb, var(--fd-header) 55%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "#A89C89",
+            "role": "muted-on-dark",
+            "replacement": "var(--fd-muted-on-dark)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(191,155,69,.35)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 35%, transparent)",
+            "count": 8
+          },
+          {
+            "literal": "rgba(191,155,69,.4)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 40%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "rgba(245,240,230,.65)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 65%, transparent)",
+            "count": 3
+          },
+          {
+            "literal": "rgba(191,155,69,.12)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 12%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(191,155,69,.28)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 28%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.5)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+            "count": 3
+          },
+          {
+            "literal": "rgba(245,240,230,.72)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 72%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "rgba(191,155,69,.5)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 50%, transparent)",
+            "count": 2
+          },
+          {
+            "literal": "#1B060C",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 7
+          },
+          {
+            "literal": "rgba(245,240,230,.68)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 68%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "#24080F",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#3A1119",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#5A2A16",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(191,155,69,.65)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 65%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(191,155,69,.18)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 18%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(191,155,69,.45)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 45%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.08)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 8%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(191,155,69,.25)",
+            "role": "accent",
+            "replacement": "color-mix(in srgb, var(--fd-accent) 25%, transparent)",
+            "count": 3
+          },
+          {
+            "literal": "rgba(27,6,12,.94)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 94%, transparent)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(245,240,230,.75)",
+            "role": "background",
+            "replacement": "color-mix(in srgb, var(--fd-background) 75%, transparent)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "C",
+        "kind": "page",
+        "sourceSha256": "afaf62b7b5d0e01e24523cfbc4abf08ddc1aa3991ed56f4758363e0ff3cfc9a0",
+        "proposedSha256": "1546e6f473321167ab99685f88c31ae81dced84ca8ac4e441fe2a93ca2290e8b",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 65%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 50%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 72%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 68%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 72%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 65%, transparent) !important",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 65%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "color-mix(in srgb, var(--fd-background) 75%, transparent)",
+            "after": "color-mix(in srgb, var(--fd-background) 85%, transparent)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-accent) !important",
+            "after": "var(--fd-copy-emphasis) !important"
+          }
+        ]
+      }
+    },
+    {
+      "field": "D-page",
+      "variant": "D",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/D-page.css",
+      "beforeBytesSha256": "48a6d88d607b15e245a37261634b74853869685aab4ab230d0d434c10495032a",
+      "beforeTextSha256": "48a6d88d607b15e245a37261634b74853869685aab4ab230d0d434c10495032a",
+      "beforeCharacters": 49264,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/D-page.proposed.css",
+      "proposedBytesSha256": "312d90a25513ec948b756ecde41ca1857364189a045eab39c73c657dd5b41dc1",
+      "proposedCharacters": 55151,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [
+          {
+            "property": "--v-paper",
+            "oldValue": "#F5F0E6"
+          },
+          {
+            "property": "--v-ink",
+            "oldValue": "#141418"
+          },
+          {
+            "property": "--v-go",
+            "oldValue": "#3F6B4E"
+          },
+          {
+            "property": "--v-stamp",
+            "oldValue": "#A34B3C"
+          },
+          {
+            "property": "--v-pop",
+            "oldValue": "#9DBCA6"
+          }
+        ],
+        "variant": "D",
+        "kind": "page",
+        "sourceSha256": "48a6d88d607b15e245a37261634b74853869685aab4ab230d0d434c10495032a",
+        "proposedSha256": "2aeba8738ac3052f7916c4719b159c8166820225d31b3c49a7c198bf47d2f799",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "verified",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "D-section-24781",
+      "variant": "D",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/D-section-24781.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "captured-empty-no-change-required"
+    },
+    {
+      "field": "E-page",
+      "variant": "E",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/E-page.css",
+      "beforeBytesSha256": "b9ed3e802754725e2be0939462c61759d864d3120395eb242d2adc4f821d932d",
+      "beforeTextSha256": "b9ed3e802754725e2be0939462c61759d864d3120395eb242d2adc4f821d932d",
+      "beforeCharacters": 45767,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/E-page.proposed.css",
+      "proposedBytesSha256": "ab97afe461a471370c798091553017f587eb4997ea273996b1cd6b58eeb2967a",
+      "proposedCharacters": 50057,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [
+          {
+            "property": "--v-ground",
+            "oldValue": "#0E0E11"
+          },
+          {
+            "property": "--v-text",
+            "oldValue": "#F5F0E6"
+          },
+          {
+            "property": "--v-brand",
+            "oldValue": "#BF9B45"
+          },
+          {
+            "property": "--v-brand-2",
+            "oldValue": "#D4B36A"
+          },
+          {
+            "property": "--v-ok",
+            "oldValue": "#5C8A6B"
+          },
+          {
+            "property": "--v-warn",
+            "oldValue": "#C08A3E"
+          }
+        ],
+        "variant": "E",
+        "kind": "page",
+        "sourceSha256": "b9ed3e802754725e2be0939462c61759d864d3120395eb242d2adc4f821d932d",
+        "proposedSha256": "791b6289fb5ee3ca4e8e050f4ca4bca4d47555b913230df5a92c5d9b36abe3b4",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "F-page",
+      "variant": "F",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/F-page.css",
+      "beforeBytesSha256": "04345a4a5edb1c38b45490589bde4506ca923eadf5005833587641bf83af4bc3",
+      "beforeTextSha256": "04345a4a5edb1c38b45490589bde4506ca923eadf5005833587641bf83af4bc3",
+      "beforeCharacters": 11164,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/F-page.proposed.css",
+      "proposedBytesSha256": "a1335408f5cc60bc162655dc95a8f54cf35cce11b57d3e30614db03dabe0f9ba",
+      "proposedCharacters": 15477,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#e8e5de",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 8
+          },
+          {
+            "literal": "#181818",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 27
+          },
+          {
+            "literal": "#a7a49d",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 5
+          },
+          {
+            "literal": "#484640",
+            "role": "muted-on-paper",
+            "replacement": "var(--fd-muted-on-paper)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "F",
+        "kind": "page",
+        "sourceSha256": "04345a4a5edb1c38b45490589bde4506ca923eadf5005833587641bf83af4bc3",
+        "proposedSha256": "21701bae133e835fa0c88178f616c19a58da529f9b48ed211b751415342878cf",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "G-page",
+      "variant": "G",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/G-page.css",
+      "beforeBytesSha256": "58ac6cb89c506f5593369c7f1bfcf8a288557860e9c7049f0ef7ac22b76b27c8",
+      "beforeTextSha256": "58ac6cb89c506f5593369c7f1bfcf8a288557860e9c7049f0ef7ac22b76b27c8",
+      "beforeCharacters": 20547,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/G-page.proposed.css",
+      "proposedBytesSha256": "db7601fe68f1ea7227a71ab05a76c283d649391d9517d48e016dad7c1d9a111c",
+      "proposedCharacters": 26439,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#F5F0E6",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#151515",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#A34B3C",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 1
+          },
+          {
+            "literal": "#D89A2B",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "G",
+        "kind": "page",
+        "sourceSha256": "58ac6cb89c506f5593369c7f1bfcf8a288557860e9c7049f0ef7ac22b76b27c8",
+        "proposedSha256": "cf7577cc97971aa06ee93e151feb06fe2a683ef1e6a33318f3c8db9d1bb4aa39",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "G-section-25116",
+      "variant": "G",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/G-section-25116.css",
+      "beforeBytesSha256": "74aae1c96cd61ff2bd43c37e8ea96fa65ce4864de412307182a22f4f86d83d8b",
+      "beforeTextSha256": "74aae1c96cd61ff2bd43c37e8ea96fa65ce4864de412307182a22f4f86d83d8b",
+      "beforeCharacters": 3637,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/G-section-25116.proposed.css",
+      "proposedBytesSha256": "77da963d840fc9cce1910a86b96d017ed40ea8e802569e2c3f7d7ce49d294293",
+      "proposedCharacters": 6474,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#141414",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 5
+          },
+          {
+            "literal": "#fff4df",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 12
+          },
+          {
+            "literal": "#202020",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#f5bf32",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 4
+          },
+          {
+            "literal": "#201725",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#a54b3e",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "G",
+        "kind": "section",
+        "sourceSha256": "74aae1c96cd61ff2bd43c37e8ea96fa65ce4864de412307182a22f4f86d83d8b",
+        "proposedSha256": "b123675a687a43463aa63f0747a80ffc689619ab3dc54f776ed5f51eda7093b6",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "H-page",
+      "variant": "H",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/H-page.css",
+      "beforeBytesSha256": "5ed06a506066162dc4cc324f034b8b945fb1ddbbec18afd761d1fb1c7605936c",
+      "beforeTextSha256": "5ed06a506066162dc4cc324f034b8b945fb1ddbbec18afd761d1fb1c7605936c",
+      "beforeCharacters": 17316,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/H-page.proposed.css",
+      "proposedBytesSha256": "1df1f000a0d00ce051167fbcd309ea3ae5a7d5a8ac3fa43701ae1969b9161f31",
+      "proposedCharacters": 21329,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#FAF4EA",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#F3D6D2",
+            "role": "primary-tint",
+            "replacement": "var(--fd-primary-tint)",
+            "count": 1
+          },
+          {
+            "literal": "#DCE9DC",
+            "role": "secondary-tint",
+            "replacement": "var(--fd-secondary-tint)",
+            "count": 1
+          },
+          {
+            "literal": "#F3E5B8",
+            "role": "accent-tint",
+            "replacement": "var(--fd-accent-tint)",
+            "count": 1
+          },
+          {
+            "literal": "#571726",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(87,23,38,.28)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 28%, transparent)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "H",
+        "kind": "page",
+        "sourceSha256": "5ed06a506066162dc4cc324f034b8b945fb1ddbbec18afd761d1fb1c7605936c",
+        "proposedSha256": "0cafbe1a830ccb322e4b3074aafadf06c493fa27333783b1dc0221c0842b721b",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "H-section-25120",
+      "variant": "H",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/H-section-25120.css",
+      "beforeBytesSha256": "48a747e4ea780c648254b146e8e43e1f3a3b044bd1076241ec4a3a77a942d479",
+      "beforeTextSha256": "48a747e4ea780c648254b146e8e43e1f3a3b044bd1076241ec4a3a77a942d479",
+      "beforeCharacters": 3528,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/H-section-25120.proposed.css",
+      "proposedBytesSha256": "ab647ca8e7ce27fbb195f4a372f145326ec56d675e1937bc628c04e1d8ba2b98",
+      "proposedCharacters": 6407,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f8eee4",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#3d2730",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 7
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 3
+          },
+          {
+            "literal": "#bea687",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 5
+          },
+          {
+            "literal": "#7b2945",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 3
+          },
+          {
+            "literal": "#f3d6d0",
+            "role": "primary-tint",
+            "replacement": "var(--fd-primary-tint)",
+            "count": 2
+          },
+          {
+            "literal": "#5f2235",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 5
+          },
+          {
+            "literal": "#fbf4e8",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "H",
+        "kind": "section",
+        "sourceSha256": "48a747e4ea780c648254b146e8e43e1f3a3b044bd1076241ec4a3a77a942d479",
+        "proposedSha256": "4540139df2e1a384d516418e9f1bcb053a40f0d6f9078dc356e9a9a90e2403e2",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "I-page",
+      "variant": "I",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/I-page.css",
+      "beforeBytesSha256": "b4d5ac144304087ba638f93cc5b96636596fc094d2387bbac51b8ed5ec980aa3",
+      "beforeTextSha256": "b4d5ac144304087ba638f93cc5b96636596fc094d2387bbac51b8ed5ec980aa3",
+      "beforeCharacters": 16051,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/I-page.proposed.css",
+      "proposedBytesSha256": "612218cc80ec632e45b2395d04bca12cad344d04da4489ad71a2b6a652592e44",
+      "proposedCharacters": 20286,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#FAF4EA",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#1F2326",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#A53B2A",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 1
+          },
+          {
+            "literal": "rgba(31,35,38,.28)",
+            "role": "dark",
+            "replacement": "color-mix(in srgb, var(--fd-dark) 28%, transparent)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "I",
+        "kind": "page",
+        "sourceSha256": "b4d5ac144304087ba638f93cc5b96636596fc094d2387bbac51b8ed5ec980aa3",
+        "proposedSha256": "943896de59390dd5c4f3281b7969de033a153e9bb058d231ddb0d9e0ae4b5e9e",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "I-section-25123",
+      "variant": "I",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/I-section-25123.css",
+      "beforeBytesSha256": "3ece41b0f5609373687f9077c5ce34d297e7023aef1c8ef07da492a8f7e2cb76",
+      "beforeTextSha256": "3ece41b0f5609373687f9077c5ce34d297e7023aef1c8ef07da492a8f7e2cb76",
+      "beforeCharacters": 3462,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/I-section-25123.proposed.css",
+      "proposedBytesSha256": "3da358523b174a68807d795892e39a42aab239b3e0491e85ca3217cedc8baa74",
+      "proposedCharacters": 6466,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f8f5ef",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 3
+          },
+          {
+            "literal": "#2c2b29",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 8
+          },
+          {
+            "literal": "#cec6ba",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 3
+          },
+          {
+            "literal": "#944b35",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 3
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "I",
+        "kind": "section",
+        "sourceSha256": "3ece41b0f5609373687f9077c5ce34d297e7023aef1c8ef07da492a8f7e2cb76",
+        "proposedSha256": "f7a9d2e539730b6d921e78c3bcfc3e1466479a63724234ef63ff9619a203da30",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "J-page",
+      "variant": "J",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/J-page.css",
+      "beforeBytesSha256": "9d6f167626e5d54ba9b0a345829a0ac69933b72e9a15b227fbdb63c05e9e4965",
+      "beforeTextSha256": "9d6f167626e5d54ba9b0a345829a0ac69933b72e9a15b227fbdb63c05e9e4965",
+      "beforeCharacters": 1606,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/J-page.proposed.css",
+      "proposedBytesSha256": "17fbb783e33d09474f8f6bcc6a7c025714a8d4f66afd5acfabed10cfc3d6db31",
+      "proposedCharacters": 4335,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f5eee8",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#241c19",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          },
+          {
+            "literal": "#a84327",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 1
+          },
+          {
+            "literal": "#fff8ec",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "J",
+        "kind": "page",
+        "sourceSha256": "9d6f167626e5d54ba9b0a345829a0ac69933b72e9a15b227fbdb63c05e9e4965",
+        "proposedSha256": "ed2346dbd8c2b3b6507d1fd9edf0fabbe23f23d1c5aeef5f4a004097307bfd1c",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "J-section-25127",
+      "variant": "J",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/J-section-25127.css",
+      "beforeBytesSha256": "fbc6f1d9319918b77d54760559bd1490cdd6b973dd1e7895374a894ae9e40e58",
+      "beforeTextSha256": "fbc6f1d9319918b77d54760559bd1490cdd6b973dd1e7895374a894ae9e40e58",
+      "beforeCharacters": 1305,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/J-section-25127.proposed.css",
+      "proposedBytesSha256": "a5719628c4404a2c15505f15c1bc098f1c70649918e35c3ca88dc55499c436a7",
+      "proposedCharacters": 4013,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f3eee5",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#241c19",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 7
+          },
+          {
+            "literal": "#fffaf2",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#a89e91",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 1
+          },
+          {
+            "literal": "#a94728",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "J",
+        "kind": "section",
+        "sourceSha256": "fbc6f1d9319918b77d54760559bd1490cdd6b973dd1e7895374a894ae9e40e58",
+        "proposedSha256": "4538a8965cc85295c1ab9a42c55701299f52790200301e699791effd3ad76c4b",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "J-section-25129",
+      "variant": "J",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/J-section-25129.css",
+      "beforeBytesSha256": "fc7db5d3823e0d444becb36faf1092e1ba1d6008389c568fce47401a3889797b",
+      "beforeTextSha256": "fc7db5d3823e0d444becb36faf1092e1ba1d6008389c568fce47401a3889797b",
+      "beforeCharacters": 3167,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/J-section-25129.proposed.css",
+      "proposedBytesSha256": "ec03c63ab33255a8817aca5cd7993da28e0ba430c474eb94f817e5ef45a14855",
+      "proposedCharacters": 5933,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f3eee5",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#241c19",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 7
+          },
+          {
+            "literal": "#fffaf2",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#a89e91",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 3
+          },
+          {
+            "literal": "#a94728",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "J",
+        "kind": "section",
+        "sourceSha256": "fc7db5d3823e0d444becb36faf1092e1ba1d6008389c568fce47401a3889797b",
+        "proposedSha256": "1a64a5259ca8bea0d65e3201a69051286e4876af6886af16bbb79e6331ac62de",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "J-section-25131",
+      "variant": "J",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/J-section-25131.css",
+      "beforeBytesSha256": "2ac6b7a06288c7abf6500eacbfbb2f267793c87aa11ee6fdc5c47bdefb6b3476",
+      "beforeTextSha256": "2ac6b7a06288c7abf6500eacbfbb2f267793c87aa11ee6fdc5c47bdefb6b3476",
+      "beforeCharacters": 3061,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/J-section-25131.proposed.css",
+      "proposedBytesSha256": "2b55cc6418249ba716a6b51a482aacd56776c2892944c6b96ffbdd77430042be",
+      "proposedCharacters": 5860,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f3eee5",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#241c19",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 7
+          },
+          {
+            "literal": "#fffaf2",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#a89e91",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 4
+          },
+          {
+            "literal": "#a94728",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#ece1d0",
+            "role": "secondary-tint",
+            "replacement": "var(--fd-secondary-tint)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "J",
+        "kind": "section",
+        "sourceSha256": "2ac6b7a06288c7abf6500eacbfbb2f267793c87aa11ee6fdc5c47bdefb6b3476",
+        "proposedSha256": "7759ef2314cb0ed9964f46b3de98dc915d2047e040122949a9c04486b50ed46c",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "J-section-25133",
+      "variant": "J",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/J-section-25133.css",
+      "beforeBytesSha256": "62120879fc9365223fc367a7a2a0908f097536c8c780e326b34d28b1a5989fc6",
+      "beforeTextSha256": "62120879fc9365223fc367a7a2a0908f097536c8c780e326b34d28b1a5989fc6",
+      "beforeCharacters": 1542,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/J-section-25133.proposed.css",
+      "proposedBytesSha256": "1185eab070248c7c216eb1e17e24a2e105ec9ca2067cd49b9f218663962fd4a3",
+      "proposedCharacters": 4248,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f3eee5",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#241c19",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 8
+          },
+          {
+            "literal": "#fffaf2",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#a94728",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "J",
+        "kind": "section",
+        "sourceSha256": "62120879fc9365223fc367a7a2a0908f097536c8c780e326b34d28b1a5989fc6",
+        "proposedSha256": "35f08fd63e9d4c612b7582d76458a6d9cb79ab19df543f02e6609869383d797c",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "K-page",
+      "variant": "K",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/K-page.css",
+      "beforeBytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "beforeCharacters": 0,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/K-page.proposed.css",
+      "proposedBytesSha256": "f97b45059dd905a7f0750d930d770e003cbf1eb7221037792248ea1246b3f7cd",
+      "proposedCharacters": 2686,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "K",
+        "kind": "page",
+        "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "proposedSha256": "5bc5ce9b34d30e1ad0546a5c68911507484044a9baf79877f34e705f46e01b32",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "K-section-24894",
+      "variant": "K",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/K-section-24894.css",
+      "beforeBytesSha256": "c74f5611718025d57bb9e3695bb653333a78fe9afb7f36a597df650ef1f967b5",
+      "beforeTextSha256": "c74f5611718025d57bb9e3695bb653333a78fe9afb7f36a597df650ef1f967b5",
+      "beforeCharacters": 3260,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/K-section-24894.proposed.css",
+      "proposedBytesSha256": "f509675f20670fcbf77e065a6cec798fcc6f8b4c7109d2708593057abb38a4c8",
+      "proposedCharacters": 6067,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f8ead7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#44251e",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 8
+          },
+          {
+            "literal": "#fff8e9",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#d9af8e",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 3
+          },
+          {
+            "literal": "#923b2c",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 3
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#df9d78",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 2
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "K",
+        "kind": "section",
+        "sourceSha256": "c74f5611718025d57bb9e3695bb653333a78fe9afb7f36a597df650ef1f967b5",
+        "proposedSha256": "aa692e91cc6025d0c3ae1199215c7daaa7e9bf8a1f7f0c9f7a1e942ff5bbdc20",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          },
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "K-section-25117",
+      "variant": "K",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/K-section-25117.css",
+      "beforeBytesSha256": "08be137cf6581f6c988b9607a3b0480e2129c3e364db8ceb5a8ed55a894d7870",
+      "beforeTextSha256": "08be137cf6581f6c988b9607a3b0480e2129c3e364db8ceb5a8ed55a894d7870",
+      "beforeCharacters": 2196,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/K-section-25117.proposed.css",
+      "proposedBytesSha256": "26495a6e09a109086f1d0b7167a0f031d57de411603860aeb313ddfcccfad91f",
+      "proposedCharacters": 4988,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f8ead7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#44251e",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 12
+          },
+          {
+            "literal": "#fff8e9",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#923b2c",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 4
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 3
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "K",
+        "kind": "section",
+        "sourceSha256": "08be137cf6581f6c988b9607a3b0480e2129c3e364db8ceb5a8ed55a894d7870",
+        "proposedSha256": "5d247281b9e37a88a21aea83a6ef9677b6249ceaf62625537c5ba764d3c10741",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "K-section-25122",
+      "variant": "K",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/K-section-25122.css",
+      "beforeBytesSha256": "0f10420a6145d2c7db4c1ded1ba2e21834914eb7b651a7884850a8ec04ee3fac",
+      "beforeTextSha256": "0f10420a6145d2c7db4c1ded1ba2e21834914eb7b651a7884850a8ec04ee3fac",
+      "beforeCharacters": 1365,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/K-section-25122.proposed.css",
+      "proposedBytesSha256": "9971ac206179ec028946ae6246eb9d1fd9db6483586f8a0e70dd14e563f5106e",
+      "proposedCharacters": 4080,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f8ead7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#44251e",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 8
+          },
+          {
+            "literal": "#fff8e9",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#d9af8e",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 1
+          },
+          {
+            "literal": "#923b2c",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "K",
+        "kind": "section",
+        "sourceSha256": "0f10420a6145d2c7db4c1ded1ba2e21834914eb7b651a7884850a8ec04ee3fac",
+        "proposedSha256": "5f9b4b48a95974fe5f4d995753484ceb37f3e51434f796b47d3213e334b08bc2",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "K-section-25128",
+      "variant": "K",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/K-section-25128.css",
+      "beforeBytesSha256": "534fa37da4bf7bd07e76f969c2cd4578c431a3dd98d32cf791ae734341655ea2",
+      "beforeTextSha256": "534fa37da4bf7bd07e76f969c2cd4578c431a3dd98d32cf791ae734341655ea2",
+      "beforeCharacters": 3391,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/K-section-25128.proposed.css",
+      "proposedBytesSha256": "4b0220ac5815925fc4e33e59a6ae731293a82ddf22447072fcd3ca14d3ed7ce7",
+      "proposedCharacters": 6168,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#f8ead7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 2
+          },
+          {
+            "literal": "#44251e",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 8
+          },
+          {
+            "literal": "#fff8e9",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#d9af8e",
+            "role": "line-on-paper",
+            "replacement": "var(--fd-line-on-paper)",
+            "count": 3
+          },
+          {
+            "literal": "#923b2c",
+            "role": "primary",
+            "replacement": "var(--fd-primary)",
+            "count": 2
+          },
+          {
+            "literal": "#fffaf1",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 1
+          },
+          {
+            "literal": "#e8bb96",
+            "role": "secondary-tint",
+            "replacement": "var(--fd-secondary-tint)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "K",
+        "kind": "section",
+        "sourceSha256": "534fa37da4bf7bd07e76f969c2cd4578c431a3dd98d32cf791ae734341655ea2",
+        "proposedSha256": "a416cd1af1fc521031b8e8b38e4c45386e4c9290e56571ef24a0c5c0f6fe3ffd",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-primary)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "L-page",
+      "variant": "L",
+      "kind": "page",
+      "before": "evidence/admin-controls-completion/native-before/L-page.css",
+      "beforeBytesSha256": "fede939fa28e887ccf86ba647d7dd20edbe8ef8bcd7d1ddf149fd92fdda53054",
+      "beforeTextSha256": "fede939fa28e887ccf86ba647d7dd20edbe8ef8bcd7d1ddf149fd92fdda53054",
+      "beforeCharacters": 177,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/L-page.proposed.css",
+      "proposedBytesSha256": "4611d31f1d0fab935096715c7b03303cf154ff68eb99a2590105daac49906798",
+      "proposedCharacters": 2878,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#e6c17c",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 1
+          },
+          {
+            "literal": "#201725",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "L",
+        "kind": "page",
+        "sourceSha256": "fede939fa28e887ccf86ba647d7dd20edbe8ef8bcd7d1ddf149fd92fdda53054",
+        "proposedSha256": "1f3a1924c2de23b62093ca4e15bbe53f4e70e03be796ba5e9527f7a64e911e06",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "L-section-25119",
+      "variant": "L",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/L-section-25119.css",
+      "beforeBytesSha256": "e31c32a5ac43a3b019ca678062ce3ffe04cfdd6699d5c47c125a19029a61d864",
+      "beforeTextSha256": "e31c32a5ac43a3b019ca678062ce3ffe04cfdd6699d5c47c125a19029a61d864",
+      "beforeCharacters": 1645,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/L-section-25119.proposed.css",
+      "proposedBytesSha256": "050ef87ab4d9ff490eec2ab9a815c57c38fc38bd5d02c04cd15aeb1c1b442752",
+      "proposedCharacters": 4479,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#291d3b",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#fff1d7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 11
+          },
+          {
+            "literal": "#352649",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 3
+          },
+          {
+            "literal": "#82688f",
+            "role": "line-on-dark",
+            "replacement": "var(--fd-line-on-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#e6c17c",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 2
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "L",
+        "kind": "section",
+        "sourceSha256": "e31c32a5ac43a3b019ca678062ce3ffe04cfdd6699d5c47c125a19029a61d864",
+        "proposedSha256": "4c9b85a925580028755a6cf57202f435e37afbc8454faddcf00e7c6bb21f9f0b",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "L-section-25124",
+      "variant": "L",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/L-section-25124.css",
+      "beforeBytesSha256": "e3f903de70f5aa6b085362152dd9774ab5ccacc1eebddf09105cf4212b574d6d",
+      "beforeTextSha256": "e3f903de70f5aa6b085362152dd9774ab5ccacc1eebddf09105cf4212b574d6d",
+      "beforeCharacters": 3335,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/L-section-25124.proposed.css",
+      "proposedBytesSha256": "c174add35718f5f537f88b7bcbd3ebb3f79226f750483565a4b310b802d09933",
+      "proposedCharacters": 6152,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#291d3b",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#fff1d7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 8
+          },
+          {
+            "literal": "#352649",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#82688f",
+            "role": "line-on-dark",
+            "replacement": "var(--fd-line-on-dark)",
+            "count": 4
+          },
+          {
+            "literal": "#e6c17c",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 2
+          },
+          {
+            "literal": "#201725",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "L",
+        "kind": "section",
+        "sourceSha256": "e3f903de70f5aa6b085362152dd9774ab5ccacc1eebddf09105cf4212b574d6d",
+        "proposedSha256": "5aa4ed176fd725641b0c133a41c4bb292f972dc6122979d128f71adec464f20a",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "L-section-25126",
+      "variant": "L",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/L-section-25126.css",
+      "beforeBytesSha256": "df81096eff806262679e3e8a3c2d41af870d13c024b79c8a1e7ed2d1c7564f5a",
+      "beforeTextSha256": "df81096eff806262679e3e8a3c2d41af870d13c024b79c8a1e7ed2d1c7564f5a",
+      "beforeCharacters": 3181,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/L-section-25126.proposed.css",
+      "proposedBytesSha256": "0af7e21e3448ddf8948cf81d275d0cda4bf42f6a0507e8a7fd0f0fe7c83c5bf9",
+      "proposedCharacters": 5998,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#291d3b",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#fff1d7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 8
+          },
+          {
+            "literal": "#352649",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#82688f",
+            "role": "line-on-dark",
+            "replacement": "var(--fd-line-on-dark)",
+            "count": 4
+          },
+          {
+            "literal": "#e6c17c",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 2
+          },
+          {
+            "literal": "#201725",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "L",
+        "kind": "section",
+        "sourceSha256": "df81096eff806262679e3e8a3c2d41af870d13c024b79c8a1e7ed2d1c7564f5a",
+        "proposedSha256": "a9345b3efa2c5d4ae577663c5f93beda15fd86755bcadae6fa966da67d8cef4f",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": [
+          {
+            "property": "color",
+            "before": "var(--fd-accent)",
+            "after": "var(--fd-copy-emphasis)"
+          }
+        ]
+      }
+    },
+    {
+      "field": "L-section-25130",
+      "variant": "L",
+      "kind": "section",
+      "before": "evidence/admin-controls-completion/native-before/L-section-25130.css",
+      "beforeBytesSha256": "1aba7bc2bd5b86523a01cf7a4596d46e83628ea577f667d9bc4f4912d5efb14c",
+      "beforeTextSha256": "1aba7bc2bd5b86523a01cf7a4596d46e83628ea577f667d9bc4f4912d5efb14c",
+      "beforeCharacters": 1967,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/L-section-25130.proposed.css",
+      "proposedBytesSha256": "b125c76da26922d0fb3545f5c8db830e93083183cd427bc6c313c86005a14025",
+      "proposedCharacters": 4787,
+      "originalGeometryPreserved": true,
+      "report": {
+        "replacements": [
+          {
+            "literal": "#291d3b",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#fff1d7",
+            "role": "background",
+            "replacement": "var(--fd-background)",
+            "count": 11
+          },
+          {
+            "literal": "#352649",
+            "role": "surface-dark",
+            "replacement": "var(--fd-surface-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#e6c17c",
+            "role": "accent",
+            "replacement": "var(--fd-accent)",
+            "count": 3
+          },
+          {
+            "literal": "#201725",
+            "role": "dark",
+            "replacement": "var(--fd-dark)",
+            "count": 2
+          },
+          {
+            "literal": "#82688f",
+            "role": "line-on-dark",
+            "replacement": "var(--fd-line-on-dark)",
+            "count": 1
+          }
+        ],
+        "unknownLiteralColors": {},
+        "removedDemoDeclarations": [],
+        "variant": "L",
+        "kind": "section",
+        "sourceSha256": "1aba7bc2bd5b86523a01cf7a4596d46e83628ea577f667d9bc4f4912d5efb14c",
+        "proposedSha256": "2343ce8d0ba06e000518629eb899db8315a5a511c00cc6870b25c64332ae1e42",
+        "status": "prepared-native-field-not-applied",
+        "nativeScopePreserved": true,
+        "paletteGate": "Verify Background/Dark, actual tints, muted roles and all rendered states. No arbitrary-palette guarantee.",
+        "oddClassGate": "not-verified; role CSS omitted",
+        "foregroundRoleChanges": []
+      }
+    },
+    {
+      "field": "D-membership-24781",
+      "variant": "D",
+      "kind": "editorial-html",
+      "before": "evidence/admin-controls-completion/native-before/D-membership-24781.html",
+      "beforeBytesSha256": "cd78c2f7a9762b1af10425912311319ad8ef4c91dda1ff447cbb9eeec0748ed1",
+      "beforeTextSha256": "cd78c2f7a9762b1af10425912311319ad8ef4c91dda1ff447cbb9eeec0748ed1",
+      "beforeCharacters": 1776,
+      "status": "prepared-not-applied",
+      "proposed": "evidence/admin-controls-completion/native-proposals/D-membership-24781.proposed.html",
+      "proposedBytesSha256": "60d626ba4a54990292681bd0abe67cc05be2dc51a2eeef4c67b692ecf075b14e",
+      "proposedCharacters": 1823,
+      "operation": "Only append fd-tier-primary/secondary/dark to verified card wrappers. Preserve all content, hrefs, spacing and existing classes."
+    }
+  ],
+  "summary": {
+    "prepared-not-applied": 29,
+    "captured-empty-no-change-required": 7,
+    "blocked-review-required": 0
+  },
+  "gates": [
+    "Compare the actual current native field with beforeTextSha256 immediately before saving.",
+    "Page and Section proposals are distinct native fields; never paste compiled public CSS.",
+    "Preview desktop/mobile before publishing the named page.",
+    "Odd semantic role adapter is included only after exact backed-up card class/name matching; save HTML and CSS atomically.",
+    "Native second-palette test and actual state/contrast verification remain required."
+  ],
+  "coverage": {
+    "expectedNativeChanges": 29,
+    "preparedExpectedChanges": 29,
+    "missingOrBlocked": [],
+    "sharedTheme": "Separate shared-theme-completion bundle; not counted among these29 field changes."
+  }
+}
