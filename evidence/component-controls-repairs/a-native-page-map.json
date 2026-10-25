@@ -1,0 +1,15 @@
+{
+  "heading": "close\narrow_back\narrow_forward\nEdit Page (5660)\nstore\nrefresh\nhistory\nREVERT\nSAVE\nSAVE AND CLOSE\nTitle\nURL Slu",
+  "rows": [
+    "ID\tName\tType\tVisibility\tActions",
+    "23736\n\t\nHero A - Showtimes Shelf\n\t\nGeneric Carousel\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23737\n\t\nHero A - Shelf\n\t\nCustom\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23752\n\t\nNow Playing A - Departure Board\n\t\nShowtimes\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23725\n\t\nEvents A - Rate Card\n\t\nCustom\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23730\n\t\nFood A - Chip Rail\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23746\n\t\nContact A - Compressed Column\n\t\nGeneric Form\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23776\n\t\nFind Us A - Map Strip\n\t\nCustom\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23764\n\t\nMembership A - Tier Rail\n\t\nCustom\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "23770\n\t\nGift Cards A - Denomination Rail\n\t\nGift Card Sales Widget\n\t\ntoggle_off\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

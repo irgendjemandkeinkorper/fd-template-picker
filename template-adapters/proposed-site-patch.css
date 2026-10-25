@@ -1,0 +1,136 @@
+/* REVIEW PROPOSAL ONLY — append once to the exported Site CSS after approval.
+   Target: US-BETA / INDY Demo / Adam Template Testing 2 (site-170).
+   Source: evidence/admin-controls-audit/site-theme-before.css, 25 Oct 2026.
+   Scope: Concrete desktop navigation only. No global text recoloring. */
+
+/* Concrete desktop navigation containment. Existing native Theme & Style
+   --q-header / --q-background / --q-primary colors are retained. Mobile is
+   deliberately outside this rule. Every selector exists in f-header-dom.json. */
+@media (min-width: 1024px) {
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header {
+    width: 240px !important;
+    max-width: 240px !important;
+    height: 100dvh !important;
+    box-sizing: border-box;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .q-toolbar__title {
+    flex: 0 0 96px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .q-toolbar__title a.link {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header img.title-logo {
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: 32px !important;
+    object-fit: contain;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu {
+    flex: 1 1 auto !important;
+    flex-wrap: nowrap !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  /* Quasar's q-gutter-lg adds margins to direct children as well as the row. */
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu > .list-complete-item {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu a.q-btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* Restore Quasar's surface pseudo-element; put the counter in content flow. */
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu a.q-btn::before {
+    content: "" !important;
+    margin: 0 !important;
+    opacity: 1;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu a.q-btn > .q-btn__content {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu a.q-btn > .q-btn__content::before {
+    content: counter(navf, decimal-leading-zero);
+    position: static !important;
+    display: block;
+    flex: 0 0 2ch;
+    width: 2ch;
+    margin: 0 14px 0 0;
+    opacity: .55;
+    line-height: inherit;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .desktop-navigation-dropdown__trigger-label {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+    text-align: left;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu > .list-complete-item:last-child {
+    margin-top: auto !important;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .row.menu > .list-complete-item:last-child a.q-btn > .q-btn__content::before {
+    content: none;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .col-auto.row.justify-end {
+    flex: 0 0 auto !important;
+    justify-content: center !important;
+    gap: 8px;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header .col-auto.row.justify-end > .q-btn {
+    margin: 0 !important;
+  }
+}

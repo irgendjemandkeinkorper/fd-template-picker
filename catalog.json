@@ -435,7 +435,7 @@
           ],
           "image": "screenshots/header/variant-f-concrete.jpg",
           "width": 240,
-          "height": 639,
+          "height": 640,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -452,9 +452,11 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
-            "selectors": [],
+            "capturedAt": "2026-10-25T17:21:28.361Z",
+            "method": "live-browser-section-clips",
+            "selectors": [
+              "body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header"
+            ],
             "sourceBounds": {
               "x": 0,
               "y": 0,
@@ -465,20 +467,26 @@
               "x": 0,
               "y": 0,
               "width": 240,
-              "height": 639
+              "height": 640
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-0.jpg",
+                "image": "evidence/component-controls-repairs/f-navigation-live.jpg",
                 "scrollY": 0,
                 "sourceDocumentY": [
                   0,
-                  639
+                  639.2000122070312
                 ],
                 "outputY": [
                   0,
-                  639
-                ]
+                  640
+                ],
+                "rawImageSha256": "036dd44ad810b8d9b8af90d31d2a6912ca26ddc60d4b90f29dda9dae587d5779",
+                "viewport": {
+                  "width": 1536,
+                  "height": 639
+                },
+                "documentWidth": 1520.800048828125
               }
             ],
             "missingDocumentY": [],
@@ -487,7 +495,7 @@
             "sampleDataInjected": false,
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs.",
-              "This header is a sidebar. Full layout and Theme & Style settings must be reviewed on the source page."
+              "Approved source Site CSS repairs align the 01–06 counters with Home, Films, Menu & Bar, Visit, Membership and Events & Late Nights. The logo is centered; Private Events and search/account controls remain inside the 240px header. Native section clip rounds the 639.200012px source height outward to 640 raster pixels. The published source was intentionally repaired; capture uses no temporary browser CSS, fixtures or altered pixels."
             ]
           },
           "presentation": {
@@ -497,13 +505,13 @@
           },
           "visualReview": {
             "status": "passed",
-            "reviewedAt": "2026-10-25",
-            "captureKey": "[\"screenshots/header/variant-f-concrete.jpg\",240,639,\"2026-10-25\",[]]",
+            "reviewedAt": "2026-10-25T17:35:38.032Z",
+            "captureKey": "[\"screenshots/header/variant-f-concrete.jpg\",240,640,\"2026-10-25T17:21:28.361Z\",[]]",
+            "imageSha256": "036dd44ad810b8d9b8af90d31d2a6912ca26ddc60d4b90f29dda9dae587d5779",
             "method": "local-image-pixel-and-label-review",
-            "notes": "Vertical dark plum sidebar: numbered Home/Films/Menu & Bar/Visit/Membership/Events & Late Nights, Private Events button and utility icons at bottom.",
+            "notes": "Dark plum vertical navigation with centered logo, 01 Home, 02 Films, 03 Menu & Bar, 04 Visit, 05 Membership and 06 Events & Late Nights on their own inline rows; coral Private Events action and search/account icons are fully visible within the sidebar. No cropped links, duplicated image tiles or missing menu items.",
             "issues": [],
-            "evidence": "evidence/catalog-pixel-audit-2.json",
-            "imageSha256": "bed5a512df2ffe13e6eb81abe1b10bfe40d96b8e0db34d464dc21d7a883cf1f4"
+            "evidence": "evidence/component-controls-repairs/README.md"
           }
         },
         {
@@ -589,6 +597,13 @@
             ],
             "evidence": "evidence/catalog-pixel-audit-2.json",
             "imageSha256": "ef89bd064d0a8d268be75539a158d5bba9e13303ce212ab5ba3e5d332ae44069"
+          },
+          "customerDesign": {
+            "id": "navigation-standard",
+            "label": "Standard",
+            "representativeOptionId": "header--variant-g-cut",
+            "reviewedAt": "2026-10-25",
+            "notes": "The G–L navigation captures show the same reviewed design. Present one customer choice while retaining every source record and screenshot."
           }
         },
         {
@@ -674,6 +689,13 @@
             ],
             "evidence": "evidence/catalog-pixel-audit-2.json",
             "imageSha256": "f4ca250ae184d9da916b5c4b42a4195e17cf103b7afbf0c2162a13f04bccf5b2"
+          },
+          "customerDesign": {
+            "id": "navigation-standard",
+            "label": "Standard",
+            "representativeOptionId": "header--variant-g-cut",
+            "reviewedAt": "2026-10-25",
+            "notes": "The G–L navigation captures show the same reviewed design. Present one customer choice while retaining every source record and screenshot."
           }
         },
         {
@@ -759,6 +781,13 @@
             ],
             "evidence": "evidence/catalog-pixel-audit-2.json",
             "imageSha256": "d6dd6d8727a4122f01a5239a03d8cfb9de0d26461ad696808cfb8f26ab2a0003"
+          },
+          "customerDesign": {
+            "id": "navigation-standard",
+            "label": "Standard",
+            "representativeOptionId": "header--variant-g-cut",
+            "reviewedAt": "2026-10-25",
+            "notes": "The G–L navigation captures show the same reviewed design. Present one customer choice while retaining every source record and screenshot."
           }
         },
         {
@@ -844,6 +873,13 @@
             ],
             "evidence": "evidence/catalog-pixel-audit-2.json",
             "imageSha256": "a825768678429cb827df604e94707689404638bdb4ec7d2f8b665978dc54e61b"
+          },
+          "customerDesign": {
+            "id": "navigation-standard",
+            "label": "Standard",
+            "representativeOptionId": "header--variant-g-cut",
+            "reviewedAt": "2026-10-25",
+            "notes": "The G–L navigation captures show the same reviewed design. Present one customer choice while retaining every source record and screenshot."
           }
         },
         {
@@ -929,6 +965,13 @@
             ],
             "evidence": "evidence/catalog-pixel-audit-2.json",
             "imageSha256": "be6a530aeea971cd4f5af3fe235c2b1087cb11005d94fab252eb228e20d11449"
+          },
+          "customerDesign": {
+            "id": "navigation-standard",
+            "label": "Standard",
+            "representativeOptionId": "header--variant-g-cut",
+            "reviewedAt": "2026-10-25",
+            "notes": "The G–L navigation captures show the same reviewed design. Present one customer choice while retaining every source record and screenshot."
           }
         },
         {
@@ -1014,6 +1057,13 @@
             ],
             "evidence": "evidence/catalog-pixel-audit-2.json",
             "imageSha256": "72e917946de5c76dea40cefa44aca726345881f17d029613b6fa69092bcd045e"
+          },
+          "customerDesign": {
+            "id": "navigation-standard",
+            "label": "Standard",
+            "representativeOptionId": "header--variant-g-cut",
+            "reviewedAt": "2026-10-25",
+            "notes": "The G–L navigation captures show the same reviewed design. Present one customer choice while retaining every source record and screenshot."
           }
         }
       ]
@@ -1794,7 +1844,7 @@
             "variant-i-ma"
           ],
           "image": "screenshots/hero/variant-i-ma.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 736,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
           "sourcePageTitle": "Variant I Ma | Adam Template Testing 2",
@@ -1814,26 +1864,26 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:43:02.134Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T17:32:55.146Z",
+            "method": "live-browser-section-clips",
             "selectors": [
-              ".section-hero-i---one-still-one-line-24872"
+              ".page-variant-i-ma-5911 .section-hero-i---one-still-one-line-24872"
             ],
             "sourceBounds": {
               "x": 0,
               "y": 99,
-              "width": 1536,
+              "width": 1520.800048828125,
               "height": 736
             },
             "captureBounds": {
               "x": 0,
               "y": 99,
-              "width": 1536,
+              "width": 1521,
               "height": 736
             },
             "evidence": [
               {
-                "image": "variant-i-ma-parity-full-page.jpg",
+                "image": "evidence/component-controls-repairs/i-hero-live.jpg",
                 "scrollY": 0,
                 "sourceDocumentY": [
                   99,
@@ -1842,7 +1892,13 @@
                 "outputY": [
                   0,
                   736
-                ]
+                ],
+                "rawImageSha256": "6e9077b3d698070a5362fa71af8095827de95f702d391414a831a633c014123b",
+                "viewport": {
+                  "width": 1536,
+                  "height": 639
+                },
+                "documentWidth": 1520.800048828125
               }
             ],
             "missingDocumentY": [],
@@ -1850,18 +1906,19 @@
             "appearanceAltered": false,
             "sampleDataInjected": false,
             "notes": [
-              "Actual published appearance; no data fixtures or CSS repairs."
+              "Actual published appearance; no data fixtures or CSS repairs.",
+              "Published Ma hero after native Light Text was enabled and the approved page CSS removed foreground overrides, added caption backdrops/shadows and anchored the desktop subtitle inside the image frame. Published section 24872 is retained; editable source section is 24876 on page 5912. The 1520.800049px section width rounds outward to 1521 raster pixels. Capture uses no temporary browser CSS, fixtures or altered pixels."
             ]
           },
           "visualReview": {
             "status": "passed",
-            "reviewedAt": "2026-10-25",
-            "captureKey": "[\"screenshots/hero/variant-i-ma.jpg\",1536,736,\"2026-10-25T13:43:02.134Z\",[\"24872\"]]",
+            "reviewedAt": "2026-10-25T17:35:38.032Z",
+            "captureKey": "[\"screenshots/hero/variant-i-ma.jpg\",1521,736,\"2026-10-25T17:32:55.146Z\",[\"24872\"]]",
+            "imageSha256": "6e9077b3d698070a5362fa71af8095827de95f702d391414a831a633c014123b",
             "method": "local-image-pixel-and-label-review",
-            "notes": "Cream panel with Ghost in the Shell still, small vertical text and red square.",
+            "notes": "Cream hero panel containing the actual Ghost in the Shell city still. The complete vertical white title “One still. One line.” is readable on a dark plum strip at the image right; the full subtitle “A quiet room · one film · tonight at seven.” appears on its own dark strip inside the image bottom. Red seal remains visible. Both captions are contained and legible; no blank image or repeated tiles.",
             "issues": [],
-            "evidence": "evidence/catalog-pixel-audit-2.json",
-            "imageSha256": "2c73383b2ece5c127fc5910660b720b789e31ea436410f040acddc544caad3df"
+            "evidence": "evidence/component-controls-repairs/README.md"
           }
         },
         {

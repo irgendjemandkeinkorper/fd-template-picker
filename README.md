@@ -15,7 +15,7 @@ Choose a cinema website one step at a time. The customer flow shows one decision
 
 A displayed default is a starting preview. A choice counts only after the customer confirms it with the next-step button. Later steps unlock in order, and completed steps remain available for editing. Changing a confirmed color pair or section choice requires confirmation again. The customer flow keeps the six sections in a fixed order and presents only template choices.
 
-The six section steps offer **71 checked section choices** from variants A–L on **US-BETA / INDY Demo / Adam Template Testing 2**: 12 choices per section except Hero, which has 11. F's hero is excluded while its missing image is unresolved. Only present source components with a current, passed visual review and an unaltered live screenshot are available. Rejected, stale, partial and unchecked previews stay outside the customer choices. Several variants share a navigation appearance.
+The six section steps offer **66 checked section choices** from variants A–L on **US-BETA / INDY Demo / Adam Template Testing 2**: seven Navigation designs, 11 Hero choices and 12 choices in each of the other four sections. The matching G–L navigation designs appear once as **Standard**, represented by G's reviewed capture. F's hero is excluded while its missing image is unresolved. Only present source components with a current, passed visual review and an unaltered live screenshot are available. Rejected, stale, partial and unchecked previews stay outside the customer choices.
 
 Use **View larger** to inspect a selected style. Tall sections scroll vertically; navigation previews preserve enough width to inspect menu labels. The previews are screenshots with sample content. They do not operate booking, ordering or contact widgets.
 
@@ -29,7 +29,7 @@ The color step shows both combinations: secondary text on primary, and primary t
 
 Progress saves on the current device in the browser. **Copy link**, available at Review, includes the cinema name, colors, section choices and recorded confirmations in the URL fragment so the selection can be reopened. **Download summary** creates a `.txt` file with the colors, contrast result and six section choices. **Start over** asks for confirmation before clearing the current guided selection.
 
-Older saved selections and selection links are normalized into the guided flow. Compatible section choices are retained; legacy selections without checklist confirmations begin unconfirmed. The underlying model still supports versioned JSON import/export and source metadata for development and handoff, while the customer interface uses the selection link and plain-text summary.
+Older saved selections and selection links are normalized into the guided flow. Compatible section choices are retained; legacy selections without checklist confirmations begin unconfirmed. Saved H–L navigation picks map to Standard and require confirmation again. The underlying model still supports versioned JSON import/export and source metadata for development and handoff, while the customer interface uses the selection link and plain-text summary.
 
 ## Run locally
 
@@ -49,6 +49,12 @@ node --test
 
 The [demo readiness report](docs/DEMO-READINESS.md) records the verified customer journeys, screenshots, test results and remaining installation limits.
 
+## Template maintenance
+
+The [editability audit](docs/TEMPLATE-EDITABILITY-AUDIT.md) maps ownership and current maintenance gaps across all 72 core source components. The [brand color review bundle](template-adapters/brand-tokens/README.md) proposes system-variable mappings for the twelve templates' captured page and section styles. These proposals are not installed: native field mapping, shared header styles, readable color pairings and a second palette still need validation. Screenshot acceptance does not certify Admin-only maintenance.
+
+The approved Concrete navigation and Ma caption repairs are [saved, published where required, and recaptured](evidence/component-controls-repairs/changes-journal.json). Other overlay and brand-control changes remain separate. Internal support guides are maintained outside this public customer site.
+
 ## Catalog and screenshot evidence
 
 `catalog.json` is the editable collection. Its explicit `variants` array records the admin inventory, while `slots[].options[]` records only captured section choices. An option includes its INDY component names, source route, verified page/section IDs, image dimensions, and capture notes. Library records remain `not-created` until the corresponding object and transfer are verified.
@@ -56,6 +62,8 @@ The [demo readiness report](docs/DEMO-READINESS.md) records the verified custome
 Canonical coverage lives alongside the original section categories. An audited option may declare `canonicalComponent` (for example `private-parties`) and `componentStatus: "partial"` when it only partially serves that purpose. Generic Events, Experience and Visit sections are never automatically relabeled or counted as private parties, food or contact. `componentAudit` entries use `{ variant, component, status: "present" | "partial" | "missing", notes }` to distinguish source content from screenshot availability. A missing catalog choice without an audit is labeled **Needs audit**, rather than assumed absent. Refresh an audit entry after repairing the source page.
 
 Image review is recorded separately in each option's `visualReview`: `passed`, `rejected`, `needs-review` or `not-reviewed`. The review is bound to `visualCaptureKey(option)` (image, size, capture date and source section IDs); a changed capture returns to unchecked until reviewed. Passed images also store a SHA-256 fingerprint checked by the tests. [The second pixel audit](evidence/catalog-pixel-audit-2.md) found incorrect B captures, incomplete navigation crops and other visual issues despite the source components being present. Display labels can describe actual appearance while `sourceName` and `components` retain original INDY aliases, as with F's Product Cards and Standard Form.
+
+The optional `customerDesign` metadata records reviewed design equivalence, a customer label and the preferred representative option. The workflow groups these explicit markers instead of comparing image hashes. All 12 Navigation source records and their screenshots remain in the catalog; the six G–L records share `navigation-standard`, represented by `header--variant-g-cut` and displayed as Standard.
 
 The [current component audit](docs/COMPONENT-PARITY.md) records all **72 required components present across A–L**, following 15 additions and one enriched membership module on the authorized test site. The retained original baseline had 56 present, 2 partial and 14 missing components. Each variant preset includes all six required components. G–L share one navigation appearance, and J–L still need a deliberate hero-design pass. Private-party options retain the stable `events` IDs while displaying as **Private Parties**; B's original public Playbill is optional Programme content.
 

@@ -111,3 +111,48 @@ test('customer summary contains only chosen core styles and brand details', () =
   assert.match(summary, /6\. Contact Us: A · Circuit/);
   assert.doesNotMatch(summary, /movie-a|now-playing|Library|INDY|Page ID|nav-a|source|capture/i);
 });
+
+test('reviewed design groups present one representative while preserving all source choices', () => {
+  const catalog = fixture(), slot = catalog.slots[0];
+  const design = { id: 'navigation-standard', label: 'Standard', representativeOptionId: 'nav-g', reviewedAt: '2026-10-25' };
+  slot.options.push(...['h', 'g', 'i', 'j', 'k', 'l'].map((variant) => passedOption('header', `nav-${variant}`, { variant, customerDesign: { ...design } })));
+  const workflow = createWorkflow(catalog);
+  assert.deepEqual(workflow.choicesFor('navigation').map(({ option }) => option.id), ['nav-a', 'nav-g']);
+  assert.equal(slot.options.length, 7, 'Grouping must not remove source records.');
+  for (const variant of ['h', 'i', 'j', 'k', 'l']) {
+    const state = createModel(catalog).defaultState();
+    state.picks.header = `nav-${variant}`;
+    state.workflow = workflow.normalizeProgress({ currentStep: 'review', confirmed: { navigation: `nav-${variant}`, hero: 'hero-a' } });
+    const normalized = workflow.normalizeGuidedSelection(state);
+    assert.equal(normalized.picks.header, 'nav-g');
+    assert.equal(normalized.workflow.confirmed.navigation, undefined, 'A remapped choice needs customer confirmation.');
+    assert.equal(normalized.workflow.confirmed.hero, 'hero-a', 'Other confirmations must survive.');
+    assert.equal(workflow.completed(normalized.workflow, normalized, 'navigation'), false);
+    assert.match(workflow.buildCustomerSummary(normalized), /1\. Navigation: Standard/);
+    assert.equal(state.picks.header, `nav-${variant}`, 'Normalization must not mutate saved source state.');
+  }
+});
+
+test('design grouping requires a review marker and never promotes an unchecked representative', () => {
+  const catalog = fixture(), slot = catalog.slots[0];
+  const design = { id: 'navigation-standard', label: 'Standard', representativeOptionId: 'nav-g', reviewedAt: '2026-10-25' };
+  slot.options.push(passedOption('header', 'nav-g', { customerDesign: design }), passedOption('header', 'nav-h', { customerDesign: design }));
+  slot.options[1].visualReview.status = 'needs-review';
+  let workflow = createWorkflow(catalog);
+  assert.deepEqual(workflow.choicesFor('navigation').map(({ option }) => option.id), ['nav-a', 'nav-h']);
+  delete slot.options[2].customerDesign.reviewedAt;
+  slot.options.push(passedOption('header', 'nav-i', { customerDesign: { id: design.id } }));
+  workflow = createWorkflow(catalog);
+  assert.deepEqual(workflow.choicesFor('navigation').map(({ option }) => option.id), ['nav-a', 'nav-h', 'nav-i'], 'Unreviewed equivalence must not deduplicate choices.');
+});
+
+test('repository navigation offers seven reviewed designs and retains twelve source records', async () => {
+  const catalog = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
+  const workflow = createWorkflow(catalog), slot = catalog.slots.find((entry) => entry.id === 'header');
+  assert.equal(slot.options.length, 12);
+  assert.equal(workflow.choicesFor('navigation').length, 7);
+  assert.equal(GUIDE_STEPS.filter((step) => step.kind === 'section').reduce((total, step) => total + workflow.choicesFor(step.id).length, 0), 66);
+  const grouped = slot.options.filter((option) => option.customerDesign?.id === 'navigation-standard');
+  assert.equal(grouped.length, 6);
+  assert.ok(grouped.every((option) => option.customerDesign.label === 'Standard' && option.customerDesign.representativeOptionId === 'header--variant-g-cut'));
+});

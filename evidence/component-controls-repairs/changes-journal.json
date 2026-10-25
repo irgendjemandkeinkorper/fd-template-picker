@@ -1,0 +1,105 @@
+{
+  "status": "applied-published-and-recaptured",
+  "recordedAt": "2026-10-25T17:35:38.032Z",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "siteId": 170
+  },
+  "authorization": "User approved the Ma native text and Concrete navigation batch; changes applied by root through INDY Admin.",
+  "scope": [
+    {
+      "change": "Concrete desktop navigation Site CSS append",
+      "pageId": 5903,
+      "applicationStatus": "saved-live-verified",
+      "desktopVerification": "All seven navigation links inside x=0..238.4; centered logo; 01–06 counters inline. Raw header clip independently pixel-reviewed.",
+      "mobileVerification": "Root verified all seven mobile menu links, 390px viewport and no horizontal overflow; mobile rules were outside the desktop append."
+    },
+    {
+      "change": "Ma native Light Text enabled and page CSS foreground/position/backdrop/shadow adapter",
+      "publishedPageId": 5911,
+      "editablePageId": 5912,
+      "publishedSectionId": 24872,
+      "editableSectionId": 24876,
+      "applicationStatus": "saved-and-published",
+      "desktopEvidence": "ma-published-desktop.json",
+      "mobileEvidence": [
+        "ma-mobile-final.jpg",
+        "ma-mobile-final.json"
+      ],
+      "mobileVerification": "Both native mobile caption roles are white with dark 88% backdrops and shadows; each width 327px. clientWidth=scrollWidth=375 inside 390px viewport."
+    }
+  ],
+  "captures": [
+    {
+      "optionId": "header--variant-f-concrete",
+      "capturedAt": "2026-10-25T17:21:28.361Z",
+      "timestampBasis": "Raw screenshot file last-write time in UTC.",
+      "rawSourceFile": "f-navigation-after.jpg",
+      "evidenceFile": "f-navigation-live.jpg",
+      "imageSha256": "036dd44ad810b8d9b8af90d31d2a6912ca26ddc60d4b90f29dda9dae587d5779",
+      "previousImageSha256": "bed5a512df2ffe13e6eb81abe1b10bfe40d96b8e0db34d464dc21d7a883cf1f4",
+      "processing": "Byte-identical copy of the native JPEG section clip; no resize, crop, recolor, stitching or re-encoding.",
+      "sourceBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 639.2000122070312
+      },
+      "captureBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 640
+      }
+    },
+    {
+      "optionId": "hero--variant-i-ma",
+      "capturedAt": "2026-10-25T17:32:55.146Z",
+      "timestampBasis": "Raw screenshot file last-write time in UTC.",
+      "rawSourceFile": "i-hero-after.jpg",
+      "evidenceFile": "i-hero-live.jpg",
+      "imageSha256": "6e9077b3d698070a5362fa71af8095827de95f702d391414a831a633c014123b",
+      "previousImageSha256": "2c73383b2ece5c127fc5910660b720b789e31ea436410f040acddc544caad3df",
+      "processing": "Byte-identical copy of the native JPEG section clip; no resize, crop, recolor, stitching or re-encoding.",
+      "sourceBounds": {
+        "x": 0,
+        "y": 99,
+        "width": 1520.800048828125,
+        "height": 736
+      },
+      "captureBounds": {
+        "x": 0,
+        "y": 99,
+        "width": 1521,
+        "height": 736
+      }
+    }
+  ],
+  "semanticPolicy": "Only the two declared existing options capture fields and pixel reviews are ingested. All source semantic metadata, customerDesign groups and other catalog options remain unchanged.",
+  "unaffectedScope": [
+    "No other published page changed.",
+    "No Library objects or links changed.",
+    "No booking, membership, form, purchase or other customer action was submitted."
+  ],
+  "broaderBrandTokenBundle": "Not applied: all 12 migration outputs and the D pilot remain proposals only.",
+  "globalOverlayMigration": "Not completed across A–L; this media-copy repair is Ma only.",
+  "catalogBeforeSha256": "85628b85030f4faf88be65b1787c0cf89c6407d4f4397f55f8a9daa3fe7380d1",
+  "catalogAfterSha256": "86ff3805a49b3ab25d3dc69b90514b5923739d54fbac8f94b3672f91b15da6c2",
+  "ingestionVerification": {
+    "correctedOptions": 2,
+    "unchangedOptions": 108,
+    "semanticMetadataPreserved": true,
+    "reviewHashesMatchPixels": true,
+    "archivedIReadbackMatchesFinalProposalAfterTrim": true,
+    "archivedIReadback": "i-page-css-final-saved.css"
+  },
+  "iPageFinalSavedCss": {
+    "file": "i-page-css-final-saved.css",
+    "sha256": "b4d5ac144304087ba638f93cc5b96636596fc094d2387bbac51b8ed5ec980aa3",
+    "matchesAppliedSourceAfterTrim": true,
+    "containsMobileHeroSubtitle": true
+  },
+  "publishState": "Root verified Ma published page 5911 and no pending publication icon on its editable row."
+}

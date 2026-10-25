@@ -1,0 +1,23 @@
+{
+  "reviewedAt": "2026-10-25T17:35:38.032Z",
+  "method": "local-image-pixel-and-label-review",
+  "evidence": "evidence/component-controls-repairs/README.md",
+  "reviews": [
+    {
+      "optionId": "header--variant-f-concrete",
+      "status": "passed",
+      "reviewedAt": "2026-10-25T17:35:38.032Z",
+      "imageSha256": "036dd44ad810b8d9b8af90d31d2a6912ca26ddc60d4b90f29dda9dae587d5779",
+      "notes": "Dark plum vertical navigation with centered logo, 01 Home, 02 Films, 03 Menu & Bar, 04 Visit, 05 Membership and 06 Events & Late Nights on their own inline rows; coral Private Events action and search/account icons are fully visible within the sidebar. No cropped links, duplicated image tiles or missing menu items.",
+      "issues": []
+    },
+    {
+      "optionId": "hero--variant-i-ma",
+      "status": "passed",
+      "reviewedAt": "2026-10-25T17:35:38.032Z",
+      "imageSha256": "6e9077b3d698070a5362fa71af8095827de95f702d391414a831a633c014123b",
+      "notes": "Cream hero panel containing the actual Ghost in the Shell city still. The complete vertical white title “One still. One line.” is readable on a dark plum strip at the image right; the full subtitle “A quiet room · one film · tonight at seven.” appears on its own dark strip inside the image bottom. Red seal remains visible. Both captions are contained and legible; no blank image or repeated tiles.",
+      "issues": []
+    }
+  ]
+}

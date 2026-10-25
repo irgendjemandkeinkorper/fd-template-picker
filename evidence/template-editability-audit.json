@@ -1,0 +1,3456 @@
+{
+  "schema": "fd-template-editability-audit/v1",
+  "auditedAt": "2026-10-25",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2"
+  },
+  "scope": "Read-only audit of captured authoring/current public CSS and native UI facts, updated with root-approved Ma/Concrete repair journal. This audit writer performed no INDY mutations or Library transfers.",
+  "releaseStatus": "not-certified-for-admin-only-maintenance",
+  "method": {
+    "inventory": "All72 source core options mapped; customer UI may collapse shared navigation.",
+    "evidence": "Current site CSS plus prior applied styles/backups/proposed payloads/publication journals. Payload alone is not saved-state proof.",
+    "controlBoundary": "Ownership is maintenance contract/inference where live fields were not inspected. Exact controls/current saved values require Admin readback.",
+    "screenshotBoundary": "Appearance approval is not editability, data, palette or portability certification.",
+    "freshPublicStyleUpdate": "All12 public page/section paint sources captured; Ma rebased to final approved published CSS, other11 retain valid earlier page/section snapshots. K section rules are separate CSSOM evidence. Shared Site Theme/header source is audited separately and excluded from migration proposals."
+  },
+  "adminReadback": {
+    "source": "Root authenticated current Admin observation",
+    "colors": {
+      "Primary": "#e06b4a",
+      "Secondary": "#c4553a",
+      "Header": "#241a2e",
+      "Accent": "#f4c67a",
+      "Dark": "#38264a",
+      "Background": "#fbefe2"
+    },
+    "runtimeScope": "Read system values on BODY, not documentElement defaults.",
+    "localSource": "evidence/admin-controls-audit/site-theme-before.css"
+  },
+  "summary": {
+    "variants": 12,
+    "coreSourceOptions": 72,
+    "navigationDesigns": 7,
+    "editorialParityModulesWithBodyHtml": 10,
+    "parityPayloadModules": 16,
+    "parityPayloadsWithNoSystemColorReferences": 16,
+    "certifiedAdminOnlyOptions": 0,
+    "sourceIncompleteOptions": 0,
+    "currentPublicCompiledStylesCompleteVariants": 12,
+    "nativeAdminControlContractsCertified": 0,
+    "approvedPartialClosures": 2,
+    "brandTokenMigrationCoverageScope": "page-and-section-compiled-css-only",
+    "sharedSiteThemeOrHeaderMigrationsPrepared": 0
+  },
+  "systemColorContract": {
+    "observedInAuthoringSource": [
+      "--q-primary",
+      "--q-secondary",
+      "--q-dark",
+      "--q-background",
+      "--q-header",
+      "--q-accent",
+      "--q-warning"
+    ],
+    "requiredRoles": [
+      "primary",
+      "secondary",
+      "dark",
+      "background",
+      "header",
+      "on-primary",
+      "on-secondary",
+      "on-dark",
+      "on-background",
+      "on-header",
+      "border",
+      "muted",
+      "focus",
+      "overlay-foreground",
+      "overlay-scrim"
+    ],
+    "rules": [
+      "Active native roles; additional brand roles editable natively or centrally derived.",
+      "Do not assume Background passes as text on Primary/Secondary/Dark.",
+      "Picker Primary/Secondary contrast covers one pairing only.",
+      "Protect image-overlay copy independently of slide colors.",
+      "No demo fallback that silently ignores native admin changes."
+    ]
+  },
+  "findings": [
+    {
+      "id": "EDIT-01",
+      "priority": "high",
+      "title": "Literal and demo palettes bypass theme changes",
+      "description": "D/E native aliases are overridden by demo hex. B/C/G/H/I and F adapter use literal palettes. All16 parity payloads have literal hex and zero --q-* references.",
+      "action": "One-time shared implementation: remove reusable demo overrides, bind all paint roles to active native values, retain the same CSS across clients."
+    },
+    {
+      "id": "EDIT-02",
+      "priority": "high",
+      "title": "Overlay source disables text shadows",
+      "description": "Original D/E/G/H/I hero source explicitly sets text-shadow:none!important. Some type is off-image; any text crossing imagery needs protection.",
+      "action": "Scoped text shadow plus backing/scrim or solid panel. Test every slide/light-dark frame; shadow alone cannot guarantee arbitrary-image contrast.",
+      "status": "partially-closed-ma-only",
+      "partialClosure": "2026-10-25: Ma Light Text enabled and conflicting ink/shadow reset removed; published desktop/phone protected captions verified. D/E/G/H and broader overlay coverage remain uninstalled."
+    },
+    {
+      "id": "EDIT-03",
+      "priority": "high",
+      "title": "Odd membership emphasis depends on position",
+      "description": "Tier1 --v-white/-1.5deg; tier2 --v-scrap/+1.5deg; tier3 --v-scrap-2/-.8deg. Scrap uses Accent, scrap2 uses Dark; CTA uses Primary. Demo hex bypasses active admin settings.",
+      "action": "Stable Primary/Secondary/Dark role classes and contrast-safe foregrounds. Keep slants as documented preset or expose finite class choices in native editor; no per-client CSS."
+    },
+    {
+      "id": "EDIT-04",
+      "priority": "high",
+      "title": "Native editorial blocks still contain authored HTML",
+      "description": "Ten parity Text Blocks contain cards/anchors in bodyHtml. Original membership/hire tables contain static tier/rate copy. Native widget type is not proof of data bindings or individual card controls.",
+      "action": "Document exact editable fields/classes. Keep structure stable, change copy/links in intended editors, and distinguish editorial information from native products/inventory."
+    },
+    {
+      "id": "EDIT-05",
+      "priority": "medium",
+      "title": "Customer wording is generated by CSS",
+      "description": "Storybook hero injects Now showing; food injects Bill of fare. Ordinary content editors cannot update/localize these strings.",
+      "action": "Move meaningful text into native fields; generated CSS content for decoration only."
+    },
+    {
+      "id": "EDIT-06",
+      "priority": "medium",
+      "title": "Source-ID and DOM-dependent selectors are fragile to copying",
+      "description": "Selectors use source page slugs/IDs, generated section-name fragments, q-* wrappers and nth-child. Library copies can receive different identities/markup.",
+      "action": "Stable reusable section classes, scoped versioned adapters and a real destination-site copy/unlink test."
+    },
+    {
+      "id": "EDIT-07",
+      "priority": "medium",
+      "title": "Template fonts can override editable theme fonts",
+      "description": "Global/page rules pin Georgia/Arial and Bodoni Moda/Jost/IBM Plex Mono, often!important. Site CSS imports Google Fonts.",
+      "action": "Decide fixed design fonts versus editable typography roles; bind editable roles to verified native controls. Native font variable names unverified."
+    },
+    {
+      "id": "EDIT-08",
+      "priority": "high",
+      "title": "Visible forms/CTAs do not prove service configuration",
+      "description": "J/K/L form journals show blank notification/submission recipients and no delivery test. Copies need local routes, products, channels and handling.",
+      "action": "Native build handoff checks and authorized functional validation before client launch."
+    }
+  ],
+  "variantNotes": {
+    "A": [
+      "Native editable Page5660 confirms Carousel+Custom hero, Custom Rate Card and Custom Tier Rail; membership GrapesJS visual surface inspected without edits. Remaining fields and per-card role presets unverified."
+    ],
+    "B": [
+      "Printed Menu uses native concessions data; prices/descriptions remain catalog-owned.",
+      "Subscriber Bill tiers are editorial HTML; native membership-product binding unproven."
+    ],
+    "C": [
+      "Hero Dock is authored companion content; times/prices cannot be assumed live booking data.",
+      "Navigation override must be consolidated with shared theme."
+    ],
+    "D": [
+      "Tier colors/slants are nth-child-dependent, with Accent-derived second card.",
+      "Hero adapter inherits native background image."
+    ],
+    "E": [
+      "Dark is ground, Background is foreground; derived mixes need separate contrast checks.",
+      "Accent/Warning status dots retain semantic ownership."
+    ],
+    "F": [
+      "2026-10-25 approved navigation containment/logo/counter repair published and recaptured; seven desktop/mobile links verified. Broader token migration remains proposed.",
+      "Reference Print lacks native image in prior evidence; excluded from customer hero choices.",
+      "Tariff/hire tables are editorial, not native product/capacity data."
+    ],
+    "G": [
+      "Structural wrapper repair did not remove literal palette.",
+      "Hero title/subtitle explicitly disable shadows."
+    ],
+    "H": [
+      "Customer wording Now showing and Bill of fare is injected in CSS.",
+      "Pastels need maintained or derived system roles."
+    ],
+    "I": [
+      "2026-10-25 approved Ma-only Light Text/backdrop/shadow repair published and recaptured on desktop/phone. Broader all-template overlay/token migration remains proposed.",
+      "Image filter/writing mode are fixed template treatments."
+    ],
+    "J": [
+      "Native form recipient fields blank in result evidence; no delivery test."
+    ],
+    "K": [
+      "Native form recipient fields blank; no delivery test.",
+      "Membership enriched original section24899; avoid duplicate."
+    ],
+    "L": [
+      "Native form recipient fields blank; no delivery test.",
+      "Gold submit button is repeated in page and section CSS."
+    ]
+  },
+  "paletteSummary": {
+    "A": "Original page stylesheet absent locally. Shared site CSS controls navigation and inherited base palette.",
+    "B": "Original page CSS writes literal hex/rgba throughout. New private-party section repeats literals.",
+    "C": "Original page CSS writes literal hex/rgba throughout; navigation repair also pins cream text.",
+    "D": "System aliases exist, then same-scope DEMO PALETTE overrides all five with hex.",
+    "E": "System aliases exist, then same-scope DEMO PALETTE overrides all six with hex.",
+    "F": "Adapter defines literal --cn-paper/ink/rule and repeats direct hex for cn-* and form variables.",
+    "G": "--cut-bone/ink/rust/amber are literals; membership has a separate literal palette.",
+    "H": "--sb-ground/blush/mint/butter/wine are literals; membership has another literal palette.",
+    "I": "--ma-paper/ink/seal/hairline are literals; membership has another literal palette.",
+    "J": "Four added modules use literal palettes, reinforced by page-level text/submit overrides. Intro pins cream.",
+    "K": "Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty.",
+    "L": "Four modules use literal palettes. Page-level submit button repeats gold/plum hex."
+  },
+  "sources": {
+    "site-theme": {
+      "path": "evidence/admin-controls-audit/site-theme-before.css",
+      "jsonField": null,
+      "sha256": "ee2f19bbd2f8bfc9f60cc9eacd6bd6d8fa9c9299181c0509ef8b052e92b8a66e",
+      "meaning": "Current authenticated Site Theme & Style Custom CSS copied by root during audit.",
+      "stats": {
+        "cssCharacters": 32569,
+        "literalHexOccurrences": 27,
+        "literalHexValues": [
+          "#08080a",
+          "#14100f",
+          "#171211",
+          "#1c1c21",
+          "#211817",
+          "#322522",
+          "#571726",
+          "#72544c",
+          "#9c3158",
+          "#a34b3c",
+          "#bdaaa3",
+          "#bf9b45",
+          "#cfc4b2",
+          "#d77a9b",
+          "#e8ecef",
+          "#efe7e0",
+          "#f5f0e6",
+          "#f7eee4",
+          "#fbf3e8",
+          "#fff"
+        ],
+        "systemColorReferences": [
+          "--q-accent",
+          "--q-background",
+          "--q-dark",
+          "--q-header",
+          "--q-primary"
+        ],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 15
+      }
+    },
+    "B-page": {
+      "path": "evidence/indy-backups/variant-b-rep/before-private-parties.json",
+      "jsonField": "css",
+      "sha256": "ffa4b484826df4d7c8cf08ee5ba8c2faa664e7317957cd1dbb4af443fa693760",
+      "meaning": "Admin page CSS before parity section addition; original rules retained.",
+      "stats": {
+        "cssCharacters": 24691,
+        "literalHexOccurrences": 79,
+        "literalHexValues": [
+          "#141418",
+          "#1c1c21",
+          "#2b2622",
+          "#4a423b",
+          "#544d43",
+          "#571726",
+          "#6b615a",
+          "#7c7263",
+          "#ede6d8",
+          "#f5f0e6"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 19
+      }
+    },
+    "B-parties": {
+      "path": "evidence/b-private-parties-applied.scss",
+      "jsonField": null,
+      "sha256": "b5300db81ce0de4fdc587e914834de4b27bd730d67095140e5cba53388a3f71a",
+      "meaning": "Applied native section stylesheet.",
+      "stats": {
+        "cssCharacters": 3705,
+        "literalHexOccurrences": 19,
+        "literalHexValues": [
+          "#28221f",
+          "#713d35",
+          "#b7a896",
+          "#f6f1e6",
+          "#fffaf1",
+          "#fffdf7"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 1
+      }
+    },
+    "C-page": {
+      "path": "evidence/recapture-2/c-page-css-applied.txt",
+      "jsonField": null,
+      "sha256": "afaf62b7b5d0e01e24523cfbc4abf08ddc1aa3991ed56f4758363e0ff3cfc9a0",
+      "meaning": "Applied C page stylesheet after navigation repair.",
+      "stats": {
+        "cssCharacters": 28120,
+        "literalHexOccurrences": 85,
+        "literalHexValues": [
+          "#08080a",
+          "#1b060c",
+          "#24080f",
+          "#2c0a12",
+          "#3a1119",
+          "#5a2a16",
+          "#a89c89",
+          "#bf9b45",
+          "#c08a3e",
+          "#cfc4b2",
+          "#d4b36a",
+          "#f5f0e6"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 36
+      }
+    },
+    "D-page": {
+      "path": "evidence/recapture-2/d-page-css-before.txt",
+      "jsonField": null,
+      "sha256": "962a4bce84ea37fde514ec43b1c87e3508be4e425de9adc4e6821dbc3c3bdb8b",
+      "meaning": "Admin page CSS before hero adapter; membership/base tokens retained.",
+      "stats": {
+        "cssCharacters": 46022,
+        "literalHexOccurrences": 5,
+        "literalHexValues": [
+          "#141418",
+          "#3f6b4e",
+          "#9dbca6",
+          "#a34b3c",
+          "#f5f0e6"
+        ],
+        "systemColorReferences": [
+          "--q-accent",
+          "--q-background",
+          "--q-dark",
+          "--q-primary",
+          "--q-secondary"
+        ],
+        "textShadowNoneDeclarations": 3,
+        "shapeDeclarations": 68
+      }
+    },
+    "D-adapter": {
+      "path": "fd-template-picker/evidence/source-style-patches/variant-d-page-delta.css",
+      "jsonField": null,
+      "sha256": "5913ddf176ae381dd0fff0dd3f2d6f2748417e3b95600df8fb43734a46f03fc3",
+      "meaning": "Applied native carousel layout adapter.",
+      "stats": {
+        "cssCharacters": 3243,
+        "literalHexOccurrences": 0,
+        "literalHexValues": [],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 4
+      }
+    },
+    "E-page": {
+      "path": "evidence/recapture-2/e-page-css-applied.txt",
+      "jsonField": null,
+      "sha256": "b9ed3e802754725e2be0939462c61759d864d3120395eb242d2adc4f821d932d",
+      "meaning": "Applied E page CSS after rich text repair.",
+      "stats": {
+        "cssCharacters": 45767,
+        "literalHexOccurrences": 6,
+        "literalHexValues": [
+          "#0e0e11",
+          "#5c8a6b",
+          "#bf9b45",
+          "#c08a3e",
+          "#d4b36a",
+          "#f5f0e6"
+        ],
+        "systemColorReferences": [
+          "--q-accent",
+          "--q-background",
+          "--q-dark",
+          "--q-primary",
+          "--q-secondary",
+          "--q-warning"
+        ],
+        "textShadowNoneDeclarations": 3,
+        "shapeDeclarations": 8
+      }
+    },
+    "F-page": {
+      "path": "fd-template-picker/evidence/source-style-patches/variant-f-concrete.css",
+      "jsonField": null,
+      "sha256": "a4c6c0912831ade9e7f6fbe600931e7db12ba833268525dee7f781e3608e39cf",
+      "meaning": "Applied F page adapter. Original CSS backup was empty.",
+      "stats": {
+        "cssCharacters": 11166,
+        "literalHexOccurrences": 41,
+        "literalHexValues": [
+          "#181818",
+          "#484640",
+          "#a7a49d",
+          "#e8e5de"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 10
+      }
+    },
+    "G-page": {
+      "path": "evidence/recapture-2/g-page-css-applied.txt",
+      "jsonField": null,
+      "sha256": "58ac6cb89c506f5593369c7f1bfcf8a288557860e9c7049f0ef7ac22b76b27c8",
+      "meaning": "Applied G page CSS after wrapper repair.",
+      "stats": {
+        "cssCharacters": 20547,
+        "literalHexOccurrences": 4,
+        "literalHexValues": [
+          "#151515",
+          "#a34b3c",
+          "#d89a2b",
+          "#f5f0e6"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 2,
+        "shapeDeclarations": 25
+      }
+    },
+    "H-page": {
+      "path": "evidence/indy-backups/variant-h-storybook/before-membership.json",
+      "jsonField": "css",
+      "sha256": "a960edffba7e3475623637ce3e652f0ee31524ca560310359edf27ac87d4613a",
+      "meaning": "Admin page CSS before membership addition.",
+      "stats": {
+        "cssCharacters": 17316,
+        "literalHexOccurrences": 5,
+        "literalHexValues": [
+          "#571726",
+          "#dce9dc",
+          "#f3d6d2",
+          "#f3e5b8",
+          "#faf4ea"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 2,
+        "shapeDeclarations": 1
+      }
+    },
+    "I-page": {
+      "path": "evidence/indy-backups/variant-i-ma/before-membership.json",
+      "jsonField": "css",
+      "sha256": "a0b255bf87b6a52a42059cf7846a940547e5f68ef221d324af50ccc9cb6a6d7f",
+      "meaning": "Admin page CSS before membership addition.",
+      "stats": {
+        "cssCharacters": 14505,
+        "literalHexOccurrences": 3,
+        "literalHexValues": [
+          "#1f2326",
+          "#a53b2a",
+          "#faf4ea"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 2,
+        "shapeDeclarations": 1
+      }
+    },
+    "G-member": {
+      "path": "evidence/g-membership-applied.scss",
+      "jsonField": null,
+      "sha256": "74aae1c96cd61ff2bd43c37e8ea96fa65ce4864de412307182a22f4f86d83d8b",
+      "meaning": "Applied membership CSS.",
+      "stats": {
+        "cssCharacters": 3637,
+        "literalHexOccurrences": 24,
+        "literalHexValues": [
+          "#141414",
+          "#201725",
+          "#202020",
+          "#a54b3e",
+          "#f5bf32",
+          "#fff4df"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 2
+      }
+    },
+    "H-member": {
+      "path": "evidence/h-membership-applied.scss",
+      "jsonField": null,
+      "sha256": "48a747e4ea780c648254b146e8e43e1f3a3b044bd1076241ec4a3a77a942d479",
+      "meaning": "Applied membership CSS.",
+      "stats": {
+        "cssCharacters": 3528,
+        "literalHexOccurrences": 27,
+        "literalHexValues": [
+          "#3d2730",
+          "#5f2235",
+          "#7b2945",
+          "#bea687",
+          "#f3d6d0",
+          "#f8eee4",
+          "#fbf4e8",
+          "#fffaf1"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 1
+      }
+    },
+    "I-member": {
+      "path": "evidence/i-membership-applied.scss",
+      "jsonField": null,
+      "sha256": "3ece41b0f5609373687f9077c5ce34d297e7023aef1c8ef07da492a8f7e2cb76",
+      "meaning": "Applied membership CSS.",
+      "stats": {
+        "cssCharacters": 3462,
+        "literalHexOccurrences": 18,
+        "literalHexValues": [
+          "#2c2b29",
+          "#944b35",
+          "#cec6ba",
+          "#f8f5ef",
+          "#fffaf1"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 1
+      }
+    },
+    "J-page": {
+      "path": "evidence/j-final-page.css",
+      "jsonField": null,
+      "sha256": "52098d1c07f454911c340e08c15e9463f883e3fbefebec569955a40d3bbc684c",
+      "meaning": "Applied page repairs including form submit override.",
+      "stats": {
+        "cssCharacters": 1607,
+        "literalHexOccurrences": 4,
+        "literalHexValues": [
+          "#241c19",
+          "#a84327",
+          "#f5eee8",
+          "#fff8ec"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 0
+      }
+    },
+    "J-food": {
+      "path": "evidence/j-food-section.css",
+      "jsonField": null,
+      "sha256": "8f4f4c148b7cd0654ed11c476c9a002a2c3db3a1aeff13481438b5a69276c117",
+      "meaning": "Applied native menu CSS.",
+      "stats": {
+        "cssCharacters": 1306,
+        "literalHexOccurrences": 13,
+        "literalHexValues": [
+          "#241c19",
+          "#a89e91",
+          "#a94728",
+          "#f3eee5",
+          "#fffaf2"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 0
+      }
+    },
+    "J-parties": {
+      "path": "evidence/j-private-parties-section.css",
+      "jsonField": null,
+      "sha256": "f3fbce8abe0eabfe76739cba21a48bdd03dc43c054f38f0b9d65127c908f9eff",
+      "meaning": "Applied editorial section CSS.",
+      "stats": {
+        "cssCharacters": 3168,
+        "literalHexOccurrences": 17,
+        "literalHexValues": [
+          "#241c19",
+          "#a89e91",
+          "#a94728",
+          "#f3eee5",
+          "#fffaf1",
+          "#fffaf2"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 1
+      }
+    },
+    "J-member": {
+      "path": "evidence/j-membership-section.css",
+      "jsonField": null,
+      "sha256": "264b5d4127181f44150370b8bccbc81d6982312893c4968bad06c7973c214022",
+      "meaning": "Applied editorial section CSS.",
+      "stats": {
+        "cssCharacters": 3062,
+        "literalHexOccurrences": 19,
+        "literalHexValues": [
+          "#241c19",
+          "#a89e91",
+          "#a94728",
+          "#ece1d0",
+          "#f3eee5",
+          "#fffaf1",
+          "#fffaf2"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 1
+      }
+    },
+    "J-contact": {
+      "path": "evidence/j-contact-section.css",
+      "jsonField": null,
+      "sha256": "8b46c135030121727154f454e680e368e8ef91a1f8b40a7db43913531fd70e06",
+      "meaning": "Applied form CSS.",
+      "stats": {
+        "cssCharacters": 1543,
+        "literalHexOccurrences": 14,
+        "literalHexValues": [
+          "#241c19",
+          "#a94728",
+          "#f3eee5",
+          "#fffaf1",
+          "#fffaf2"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 0
+      }
+    },
+    "K-contact": {
+      "path": "evidence/k-contact-applied.scss",
+      "jsonField": null,
+      "sha256": "08be137cf6581f6c988b9607a3b0480e2129c3e364db8ceb5a8ed55a894d7870",
+      "meaning": "Applied form CSS.",
+      "stats": {
+        "cssCharacters": 2196,
+        "literalHexOccurrences": 23,
+        "literalHexValues": [
+          "#44251e",
+          "#923b2c",
+          "#f8ead7",
+          "#fff8e9",
+          "#fffaf1"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 0
+      }
+    },
+    "L-page": {
+      "path": "evidence/l-final-page.css",
+      "jsonField": null,
+      "sha256": "dd3ab46b95aaccd332aa210572c31043ac7d6689f6023f504283f69c47fba4cf",
+      "meaning": "Applied form button override; module styles in section settings.",
+      "stats": {
+        "cssCharacters": 179,
+        "literalHexOccurrences": 2,
+        "literalHexValues": [
+          "#201725",
+          "#e6c17c"
+        ],
+        "systemColorReferences": [],
+        "textShadowNoneDeclarations": 0,
+        "shapeDeclarations": 0
+      }
+    },
+    "G-payload-membership": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/0",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 19,
+        "systemColorReferences": []
+      }
+    },
+    "H-payload-membership": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/1",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 23,
+        "systemColorReferences": []
+      }
+    },
+    "I-payload-membership": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/2",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 15,
+        "systemColorReferences": []
+      }
+    },
+    "J-payload-membership": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/3",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 17,
+        "systemColorReferences": []
+      }
+    },
+    "K-payload-membership": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/4",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 17,
+        "systemColorReferences": []
+      }
+    },
+    "L-payload-membership": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/5",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 15,
+        "systemColorReferences": []
+      }
+    },
+    "B-payload-private-parties": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/6",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 15,
+        "systemColorReferences": []
+      }
+    },
+    "J-payload-private-parties": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/7",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 15,
+        "systemColorReferences": []
+      }
+    },
+    "K-payload-private-parties": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/8",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 14,
+        "systemColorReferences": []
+      }
+    },
+    "L-payload-private-parties": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/9",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 15,
+        "systemColorReferences": []
+      }
+    },
+    "J-payload-food": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/10",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 11,
+        "systemColorReferences": []
+      }
+    },
+    "K-payload-food": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/11",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 11,
+        "systemColorReferences": []
+      }
+    },
+    "L-payload-food": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/12",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 11,
+        "systemColorReferences": []
+      }
+    },
+    "J-payload-contact": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/13",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 12,
+        "systemColorReferences": []
+      }
+    },
+    "K-payload-contact": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/14",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 12,
+        "systemColorReferences": []
+      }
+    },
+    "L-payload-contact": {
+      "path": "evidence/parity-section-payloads.json",
+      "jsonPointer": "/modules/15",
+      "meaning": "Authored payload; saved-state proof requires result journals/catalog IDs.",
+      "stats": {
+        "literalHexOccurrences": 12,
+        "systemColorReferences": []
+      }
+    },
+    "live-A": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/0/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:13:51.949Z"
+    },
+    "live-B": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/1/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:13:55.228Z"
+    },
+    "live-C": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/2/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:13:58.050Z"
+    },
+    "live-D": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/3/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:01.412Z"
+    },
+    "live-E": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/4/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:04.817Z"
+    },
+    "live-F": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/5/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:07.378Z"
+    },
+    "live-G": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/6/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:09.972Z"
+    },
+    "live-H": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/7/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:12.581Z"
+    },
+    "live-I": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/8/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:15.212Z"
+    },
+    "live-J": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/9/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:18.083Z"
+    },
+    "live-K": {
+      "path": "evidence/admin-controls-audit/k-all-styles.json",
+      "jsonPointer": "/sheets",
+      "sha256": "17fce2ae8cb14cd2a4b86e3e98ffd6702b98e3c3b21a80ea6ebc62bd4e975d9d",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:20.967Z"
+    },
+    "live-L": {
+      "path": "evidence/admin-controls-audit/live-template-styles.json",
+      "jsonPointer": "/11/styles",
+      "sha256": "435fc152a1490428e6b0b959a58c8da62d82f37cf3c026e5d1a07ff71421bb2a",
+      "meaning": "Fresh current public compiled style/CSSOM capture. Complete paint evidence, not editable native field export.",
+      "capturedAt": "2026-10-25T17:14:23.837Z"
+    },
+    "approved-component-repairs": {
+      "path": "fd-template-picker/evidence/component-controls-repairs/changes-journal.json",
+      "sha256": "9bd2be2bd00ee4c16e0126d88b82ad8763b43ba2877c4456f8b0363e6bd280cc",
+      "meaning": "Root-approved applied, published and recaptured Ma hero / Concrete navigation repairs. No broader token or overlay installation."
+    },
+    "A-native-page-map": {
+      "path": "evidence/admin-controls-audit/a-native-page-map.json",
+      "sha256": "450859b074e28087c7c60240cd284ed57d2a6a892c226e513f2ceef75ffc671c",
+      "meaning": "Authenticated editable Page5660 row map; published page5659 and sectionIDs differ."
+    },
+    "live-I-final": {
+      "path": "evidence/admin-controls-audit/live-template-styles-final.json",
+      "jsonPointer": "/8/styles",
+      "sha256": "387957e40b53efbe0465ea5c9596a8eada8d9c9878d37ef911b41feb0887b623",
+      "capturedAt": "2026-10-25T17:40:12.196Z",
+      "meaning": "Final published Ma page/section compiled CSS, including approved Light Text/backdrop/shadow and caption positioning repair. Shared Site Theme excluded from token migration."
+    },
+    "site-theme-after": {
+      "path": "evidence/admin-controls-audit/site-theme-after.css",
+      "sha256": "0ac8235181cf3ffcdc1f04aa4f0da241903659ae3a3d9a3188e17d900a9f1b9a",
+      "meaning": "Shared Site Theme saved CSS after approved Concrete navigation repair; audited evidence, excluded from brand-token migration proposals."
+    }
+  },
+  "options": [
+    {
+      "optionId": "header--variant-a-circuit",
+      "variant": "variant-a-circuit",
+      "variantLabel": "A · Circuit",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": 5659,
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "A-native-page-map",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "native-row-types-confirmed; Custom visual surface inspected on membership only; remaining field mapping unverified"
+    },
+    {
+      "optionId": "hero--variant-a-circuit",
+      "variant": "variant-a-circuit",
+      "variantLabel": "A · Circuit",
+      "section": "hero",
+      "sourceName": "Hero A - Showtimes Shelf + Hero A - Shelf",
+      "pageId": 5659,
+      "sectionIds": [
+        "23738",
+        "23739"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "nativeWidgetType": "Generic Carousel + Custom",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "live-A",
+        "A-native-page-map"
+      ],
+      "ownership": {
+        "content": "Native Generic Carousel slide fields plus a separate Custom shelf. A Custom visual builder is confirmed on membership; exact shelf fields and per-component controls require mapping.",
+        "paint": "Original page stylesheet absent locally. Shared site CSS controls navigation and inherited base palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "native-row-types-confirmed; Custom visual surface inspected on membership only; remaining field mapping unverified",
+      "observedEditableSectionIds": [
+        "23736",
+        "23737"
+      ]
+    },
+    {
+      "optionId": "food--variant-a-circuit",
+      "variant": "variant-a-circuit",
+      "variantLabel": "A · Circuit",
+      "section": "food",
+      "sourceName": "Food A - Chip Rail",
+      "pageId": 5659,
+      "sectionIds": [
+        "23731"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "live-A",
+        "A-native-page-map"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Original page stylesheet absent locally. Shared site CSS controls navigation and inherited base palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "native-row-types-confirmed; Custom visual surface inspected on membership only; remaining field mapping unverified",
+      "observedEditableSectionIds": [
+        "23730"
+      ]
+    },
+    {
+      "optionId": "events--variant-a-circuit",
+      "variant": "variant-a-circuit",
+      "variantLabel": "A · Circuit",
+      "section": "private-parties",
+      "sourceName": "Events A - Rate Card",
+      "pageId": 5659,
+      "sectionIds": [
+        "23724"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "nativeWidgetType": "Custom",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "live-A",
+        "A-native-page-map"
+      ],
+      "ownership": {
+        "content": "Native Custom Rate Card component confirmed by editable page row. Exact editable fields/visual component controls are pending; not a verified Rich Text body editor.",
+        "paint": "Original page stylesheet absent locally. Shared site CSS controls navigation and inherited base palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "native-row-types-confirmed; Custom visual surface inspected on membership only; remaining field mapping unverified",
+      "observedEditableSectionIds": [
+        "23725"
+      ]
+    },
+    {
+      "optionId": "membership--variant-a-circuit",
+      "variant": "variant-a-circuit",
+      "variantLabel": "A · Circuit",
+      "section": "membership",
+      "sourceName": "Membership A - Tier Rail",
+      "pageId": 5659,
+      "sectionIds": [
+        "23765"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "nativeWidgetType": "Custom",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "live-A",
+        "A-native-page-map"
+      ],
+      "ownership": {
+        "content": "Native Custom Tier Rail component. Existing rendered content opens in a GrapesJS iframe visual builder with View Components, Preview, Fullscreen, Edit Code, Style Manager, Settings, Layers and Blocks. No content edited; individual tier-role controls remain unverified.",
+        "paint": "Original page stylesheet absent locally. Shared site CSS controls navigation and inherited base palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "Existing visual/style editing surface observed. Fixed card/slant implementation and per-card presets are not certified for ordinary staff updates.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "native-row-types-confirmed; Custom visual surface inspected on membership only; remaining field mapping unverified",
+      "observedEditableSectionIds": [
+        "23764"
+      ]
+    },
+    {
+      "optionId": "contact--variant-a-circuit",
+      "variant": "variant-a-circuit",
+      "variantLabel": "A · Circuit",
+      "section": "contact",
+      "sourceName": "Contact A - Compressed Column",
+      "pageId": 5659,
+      "sectionIds": [
+        "23747"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "live-A",
+        "A-native-page-map"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Original page stylesheet absent locally. Shared site CSS controls navigation and inherited base palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "native-row-types-confirmed; Custom visual surface inspected on membership only; remaining field mapping unverified",
+      "observedEditableSectionIds": [
+        "23746"
+      ]
+    },
+    {
+      "optionId": "header--variant-b-rep",
+      "variant": "variant-b-rep",
+      "variantLabel": "B · Rep",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5661",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-b-rep",
+      "variant": "variant-b-rep",
+      "variantLabel": "B · Rep",
+      "section": "hero",
+      "sourceName": "Hero B - Plate And Note",
+      "pageId": "5661",
+      "sectionIds": [
+        "23741"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "B-page",
+        "live-B"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "Original page CSS writes literal hex/rgba throughout. New private-party section repeats literals.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-b-rep",
+      "variant": "variant-b-rep",
+      "variantLabel": "B · Rep",
+      "section": "food",
+      "sourceName": "Food B - Printed Menu",
+      "pageId": "5661",
+      "sectionIds": [
+        "23733"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "B-page",
+        "live-B"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Original page CSS writes literal hex/rgba throughout. New private-party section repeats literals.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-b-rep",
+      "variant": "variant-b-rep",
+      "variantLabel": "B · Rep",
+      "section": "private-parties",
+      "sourceName": "Private Parties B - Your Own Evening",
+      "pageId": "5661",
+      "sectionIds": [
+        "25134"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "B-parties",
+        "B-payload-private-parties",
+        "live-B"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "Original page CSS writes literal hex/rgba throughout. New private-party section repeats literals.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-b-rep",
+      "variant": "variant-b-rep",
+      "variantLabel": "B · Rep",
+      "section": "membership",
+      "sourceName": "Membership B - Subscriber Bill",
+      "pageId": "5661",
+      "sectionIds": [
+        "23767"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "B-page",
+        "live-B"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "Original page CSS writes literal hex/rgba throughout. New private-party section repeats literals.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-b-rep",
+      "variant": "variant-b-rep",
+      "variantLabel": "B · Rep",
+      "section": "contact",
+      "sourceName": "Contact B - Split Desk",
+      "pageId": "5661",
+      "sectionIds": [
+        "23749"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "B-page",
+        "live-B"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Original page CSS writes literal hex/rgba throughout. New private-party section repeats literals.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-c-late",
+      "variant": "variant-c-late",
+      "variantLabel": "C · Late",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": 5663,
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "C-page",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-c-late",
+      "variant": "variant-c-late",
+      "variantLabel": "C · Late",
+      "section": "hero",
+      "sourceName": "Hero C - Marquee + Hero C - Dock",
+      "pageId": 5663,
+      "sectionIds": [
+        "23744",
+        "23745"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "C-page",
+        "live-C"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "Original page CSS writes literal hex/rgba throughout; navigation repair also pins cream text.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-c-late",
+      "variant": "variant-c-late",
+      "variantLabel": "C · Late",
+      "section": "food",
+      "sourceName": "Food C - Tile Wall",
+      "pageId": 5663,
+      "sectionIds": [
+        "23735"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "C-page",
+        "live-C"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Original page CSS writes literal hex/rgba throughout; navigation repair also pins cream text.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-c-late",
+      "variant": "variant-c-late",
+      "variantLabel": "C · Late",
+      "section": "private-parties",
+      "sourceName": "Events C - Ticket Stack",
+      "pageId": 5663,
+      "sectionIds": [
+        "23728"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "C-page",
+        "live-C"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "Original page CSS writes literal hex/rgba throughout; navigation repair also pins cream text.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-c-late",
+      "variant": "variant-c-late",
+      "variantLabel": "C · Late",
+      "section": "membership",
+      "sourceName": "Membership C - Card Ledger",
+      "pageId": 5663,
+      "sectionIds": [
+        "23769"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "C-page",
+        "live-C"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "Original page CSS writes literal hex/rgba throughout; navigation repair also pins cream text.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-c-late",
+      "variant": "variant-c-late",
+      "variantLabel": "C · Late",
+      "section": "contact",
+      "sourceName": "Contact C - Statement Line",
+      "pageId": 5663,
+      "sectionIds": [
+        "23751"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "C-page",
+        "live-C"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Original page CSS writes literal hex/rgba throughout; navigation repair also pins cream text.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-d-odd",
+      "variant": "variant-d-odd",
+      "variantLabel": "D · Odd",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": 5899,
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Own rules use system --q-*; inherited literal site paint and contrast still need verification.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "inherited-literal-theme-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-d-odd",
+      "variant": "variant-d-odd",
+      "variantLabel": "D · Odd",
+      "section": "hero",
+      "sourceName": "Hero D - Collage + Hero D - Ruth Line",
+      "pageId": 5899,
+      "sectionIds": [
+        "24790",
+        "24791"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "D-page",
+        "D-adapter",
+        "live-D"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all five with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens",
+        "original-explicit-text-shadow-none"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-d-odd",
+      "variant": "variant-d-odd",
+      "variantLabel": "D · Odd",
+      "section": "food",
+      "sourceName": "Food D - Sticker Sheet",
+      "pageId": 5899,
+      "sectionIds": [
+        "24794"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "D-page",
+        "live-D"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all five with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-d-odd",
+      "variant": "variant-d-odd",
+      "variantLabel": "D · Odd",
+      "section": "private-parties",
+      "sourceName": "Events D - Noticeboard",
+      "pageId": 5899,
+      "sectionIds": [
+        "24793"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "D-page",
+        "live-D"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all five with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-d-odd",
+      "variant": "variant-d-odd",
+      "variantLabel": "D · Odd",
+      "section": "membership",
+      "sourceName": "Membership D - Loyalty Card",
+      "pageId": 5899,
+      "sectionIds": [
+        "24797"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "D-page",
+        "live-D"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all five with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens",
+        "positional-tier-paint-and-slant",
+        "accent-used-for-tier2"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-d-odd",
+      "variant": "variant-d-odd",
+      "variantLabel": "D · Odd",
+      "section": "contact",
+      "sourceName": "Contact D - Postcard",
+      "pageId": 5899,
+      "sectionIds": [
+        "24795"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "D-page",
+        "live-D"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all five with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-e-grid",
+      "variant": "variant-e-grid",
+      "variantLabel": "E · Grid",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": 5901,
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Own rules use system --q-*; inherited literal site paint and contrast still need verification.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "inherited-literal-theme-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-e-grid",
+      "variant": "variant-e-grid",
+      "variantLabel": "E · Grid",
+      "section": "hero",
+      "sourceName": "Hero E - Product Panel + Hero E - Quick Selector",
+      "pageId": 5901,
+      "sectionIds": [
+        "24806",
+        "24807"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "E-page",
+        "live-E"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all six with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens",
+        "original-explicit-text-shadow-none"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-e-grid",
+      "variant": "variant-e-grid",
+      "variantLabel": "E · Grid",
+      "section": "food",
+      "sourceName": "Food E - Catalogue",
+      "pageId": 5901,
+      "sectionIds": [
+        "24810"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "E-page",
+        "live-E"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all six with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-e-grid",
+      "variant": "variant-e-grid",
+      "variantLabel": "E · Grid",
+      "section": "private-parties",
+      "sourceName": "Events E - Packages",
+      "pageId": 5901,
+      "sectionIds": [
+        "24809"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "E-page",
+        "live-E"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all six with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-e-grid",
+      "variant": "variant-e-grid",
+      "variantLabel": "E · Grid",
+      "section": "membership",
+      "sourceName": "Membership E - Tiers",
+      "pageId": 5901,
+      "sectionIds": [
+        "24814"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "E-page",
+        "live-E"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all six with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-e-grid",
+      "variant": "variant-e-grid",
+      "variantLabel": "E · Grid",
+      "section": "contact",
+      "sourceName": "Contact E - Support Panel",
+      "pageId": 5901,
+      "sectionIds": [
+        "24811"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "E-page",
+        "live-E"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "System aliases exist, then same-scope DEMO PALETTE overrides all six with hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "demo-palette-shadows-system-tokens"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "variantLabel": "F · Concrete",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": 5903,
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "approved-component-repairs",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Own rules use system --q-*; inherited literal site paint and contrast still need verification.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "inherited-literal-theme-paint"
+      ],
+      "partialClosureRef": "partialClosures[0]"
+    },
+    {
+      "optionId": "hero--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "variantLabel": "F · Concrete",
+      "section": "hero",
+      "sourceName": "Hero F - Index & Text Introduction",
+      "pageId": 5903,
+      "sectionIds": [
+        "24826",
+        "24828"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "F-page",
+        "live-F"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "Adapter defines literal --cn-paper/ink/rule and repeats direct hex for cn-* and form variables.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "missing-native-reference-image"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "variantLabel": "F · Concrete",
+      "section": "food",
+      "sourceName": "Food F - Product Cards",
+      "pageId": 5903,
+      "sectionIds": [
+        "24830"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "F-page",
+        "live-F"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Adapter defines literal --cn-paper/ink/rule and repeats direct hex for cn-* and form variables.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "variantLabel": "F · Concrete",
+      "section": "private-parties",
+      "sourceName": "Events F - Hire Schedule",
+      "pageId": 5903,
+      "sectionIds": [
+        "24829"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "F-page",
+        "live-F"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "Adapter defines literal --cn-paper/ink/rule and repeats direct hex for cn-* and form variables.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "variantLabel": "F · Concrete",
+      "section": "membership",
+      "sourceName": "Membership F - Tariff",
+      "pageId": 5903,
+      "sectionIds": [
+        "24833"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "F-page",
+        "live-F"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "Adapter defines literal --cn-paper/ink/rule and repeats direct hex for cn-* and form variables.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-f-concrete",
+      "variant": "variant-f-concrete",
+      "variantLabel": "F · Concrete",
+      "section": "contact",
+      "sourceName": "Contact F - Standard Form",
+      "pageId": 5903,
+      "sectionIds": [
+        "24831"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "F-page",
+        "live-F"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Adapter defines literal --cn-paper/ink/rule and repeats direct hex for cn-* and form variables.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-g-cut",
+      "variant": "variant-g-cut",
+      "variantLabel": "G · Cut",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5905",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "shared-navigation-design",
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-g-cut",
+      "variant": "variant-g-cut",
+      "variantLabel": "G · Cut",
+      "section": "hero",
+      "sourceName": "Hero G - Poster Block",
+      "pageId": "5905",
+      "sectionIds": [
+        "24850"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "G-page",
+        "live-G"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "--cut-bone/ink/rust/amber are literals; membership has a separate literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "original-explicit-text-shadow-none"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-g-cut",
+      "variant": "variant-g-cut",
+      "variantLabel": "G · Cut",
+      "section": "food",
+      "sourceName": "Food G - Colour Tile Wall",
+      "pageId": "5905",
+      "sectionIds": [
+        "24852"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "G-page",
+        "live-G"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "--cut-bone/ink/rust/amber are literals; membership has a separate literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-g-cut",
+      "variant": "variant-g-cut",
+      "variantLabel": "G · Cut",
+      "section": "private-parties",
+      "sourceName": "Events G - Diagonal Stack",
+      "pageId": "5905",
+      "sectionIds": [
+        "24851"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "G-page",
+        "live-G"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "--cut-bone/ink/rust/amber are literals; membership has a separate literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-g-cut",
+      "variant": "variant-g-cut",
+      "variantLabel": "G · Cut",
+      "section": "membership",
+      "sourceName": "Membership G - Poster Pass",
+      "pageId": "5905",
+      "sectionIds": [
+        "25118"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "G-member",
+        "G-payload-membership",
+        "live-G"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "--cut-bone/ink/rust/amber are literals; membership has a separate literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-g-cut",
+      "variant": "variant-g-cut",
+      "variantLabel": "G · Cut",
+      "section": "contact",
+      "sourceName": "Contact G - Two Tone Split",
+      "pageId": "5905",
+      "sectionIds": [
+        "24853"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "G-page",
+        "live-G"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "--cut-bone/ink/rust/amber are literals; membership has a separate literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "variantLabel": "H · Storybook",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5909",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "shared-navigation-design",
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "variantLabel": "H · Storybook",
+      "section": "hero",
+      "sourceName": "Hero H - Framed Plate",
+      "pageId": "5909",
+      "sectionIds": [
+        "24864"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "H-page",
+        "live-H"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "--sb-ground/blush/mint/butter/wine are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "original-explicit-text-shadow-none",
+        "customer-copy-in-css-content"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "variantLabel": "H · Storybook",
+      "section": "food",
+      "sourceName": "Food H - Framed Bill Of Fare",
+      "pageId": "5909",
+      "sectionIds": [
+        "24866"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "H-page",
+        "live-H"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "--sb-ground/blush/mint/butter/wine are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint",
+        "customer-copy-in-css-content"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "variantLabel": "H · Storybook",
+      "section": "private-parties",
+      "sourceName": "Events H - Invitations",
+      "pageId": "5909",
+      "sectionIds": [
+        "24865"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "H-page",
+        "live-H"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "--sb-ground/blush/mint/butter/wine are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "variantLabel": "H · Storybook",
+      "section": "membership",
+      "sourceName": "Membership H - Subscribers Invitation",
+      "pageId": "5909",
+      "sectionIds": [
+        "25121"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "H-member",
+        "H-payload-membership",
+        "live-H"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "--sb-ground/blush/mint/butter/wine are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-h-storybook",
+      "variant": "variant-h-storybook",
+      "variantLabel": "H · Storybook",
+      "section": "contact",
+      "sourceName": "Contact H - The Letter",
+      "pageId": "5909",
+      "sectionIds": [
+        "24867"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "H-page",
+        "live-H"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "--sb-ground/blush/mint/butter/wine are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-i-ma",
+      "variant": "variant-i-ma",
+      "variantLabel": "I · Ma",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5911",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "shared-navigation-design",
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-i-ma",
+      "variant": "variant-i-ma",
+      "variantLabel": "I · Ma",
+      "section": "hero",
+      "sourceName": "Hero I - One Still One Line",
+      "pageId": "5911",
+      "sectionIds": [
+        "24872"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "nativeWidgetType": "Generic Carousel with editorial/booking companions; exact section types need readback",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "I-page",
+        "approved-component-repairs",
+        "live-I-final"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "--ma-paper/ink/seal/hairline are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "Approved Ma-only adapter preserves native carousel content while applying protected foreground/backdrops/shadows and responsive caption sizing. Full control contract, other slides/images and second-palette acceptance remain open.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "Light Text native control confirmed enabled, saved and published; remaining section controls not certified",
+      "partialClosureRef": "partialClosures[1]"
+    },
+    {
+      "optionId": "food--variant-i-ma",
+      "variant": "variant-i-ma",
+      "variantLabel": "I · Ma",
+      "section": "food",
+      "sourceName": "Food I - Few Items Wide Margins",
+      "pageId": "5911",
+      "sectionIds": [
+        "24874"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "I-page",
+        "live-I-final"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "--ma-paper/ink/seal/hairline are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-i-ma",
+      "variant": "variant-i-ma",
+      "variantLabel": "I · Ma",
+      "section": "private-parties",
+      "sourceName": "Events I - One Occasion At A Time",
+      "pageId": "5911",
+      "sectionIds": [
+        "24873"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "nativeWidgetType": "Rich Text / editorial HTML; exact native type readback pending",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "I-page",
+        "live-I-final"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "--ma-paper/ink/seal/hairline are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-i-ma",
+      "variant": "variant-i-ma",
+      "variantLabel": "I · Ma",
+      "section": "membership",
+      "sourceName": "Membership I - Quiet Return",
+      "pageId": "5911",
+      "sectionIds": [
+        "25125"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "I-member",
+        "I-payload-membership",
+        "live-I-final"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "--ma-paper/ink/seal/hairline are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-i-ma",
+      "variant": "variant-i-ma",
+      "variantLabel": "I · Ma",
+      "section": "contact",
+      "sourceName": "Contact I - One Question At A Time",
+      "pageId": "5911",
+      "sectionIds": [
+        "24875"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "I-page",
+        "live-I-final"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "--ma-paper/ink/seal/hairline are literals; membership has another literal palette.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "variantLabel": "J · Box Office",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5913",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "shared-navigation-design",
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "variantLabel": "J · Box Office",
+      "section": "hero",
+      "sourceName": "J Intro",
+      "pageId": "5913",
+      "sectionIds": [
+        "24885"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "J-page",
+        "live-J"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "Four added modules use literal palettes, reinforced by page-level text/submit overrides. Intro pins cream.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "variantLabel": "J · Box Office",
+      "section": "food",
+      "sourceName": "Food J - Counter Menu",
+      "pageId": "5913",
+      "sectionIds": [
+        "25142"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": "nativeConcessionsMenu",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "J-food",
+        "J-payload-food",
+        "J-page",
+        "live-J"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Four added modules use literal palettes, reinforced by page-level text/submit overrides. Intro pins cream.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "variantLabel": "J · Box Office",
+      "section": "private-parties",
+      "sourceName": "Private Parties J - Group Booking Desk",
+      "pageId": "5913",
+      "sectionIds": [
+        "25143"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "J-parties",
+        "J-payload-private-parties",
+        "J-page",
+        "live-J"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "Four added modules use literal palettes, reinforced by page-level text/submit overrides. Intro pins cream.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "variantLabel": "J · Box Office",
+      "section": "membership",
+      "sourceName": "Membership J - Box Office Pass",
+      "pageId": "5913",
+      "sectionIds": [
+        "25144"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "J-member",
+        "J-payload-membership",
+        "J-page",
+        "live-J"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "Four added modules use literal palettes, reinforced by page-level text/submit overrides. Intro pins cream.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-j-box-office",
+      "variant": "variant-j-box-office",
+      "variantLabel": "J · Box Office",
+      "section": "contact",
+      "sourceName": "Contact J - Enquiry Desk",
+      "pageId": "5913",
+      "sectionIds": [
+        "25145"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": "nativeGenericForm",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "J-contact",
+        "J-payload-contact",
+        "J-page",
+        "live-J"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Four added modules use literal palettes, reinforced by page-level text/submit overrides. Intro pins cream.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "variantLabel": "K · Clubhouse",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5915",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "shared-navigation-design",
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "variantLabel": "K · Clubhouse",
+      "section": "hero",
+      "sourceName": "K Welcome",
+      "pageId": "5915",
+      "sectionIds": [
+        "24895"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "live-K"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "variantLabel": "K · Clubhouse",
+      "section": "food",
+      "sourceName": "Food K - Clubhouse Kitchen",
+      "pageId": "5915",
+      "sectionIds": [
+        "25135"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": "nativeConcessionsMenu",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "K-payload-food",
+        "live-K"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "variantLabel": "K · Clubhouse",
+      "section": "private-parties",
+      "sourceName": "Private Parties K - Gather Your People",
+      "pageId": "5915",
+      "sectionIds": [
+        "25136"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "K-payload-private-parties",
+        "live-K"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "variantLabel": "K · Clubhouse",
+      "section": "membership",
+      "sourceName": "Membership K - Your Place In The Clubhouse",
+      "pageId": "5915",
+      "sectionIds": [
+        "24899"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "K-payload-membership",
+        "live-K"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-k-clubhouse",
+      "variant": "variant-k-clubhouse",
+      "variantLabel": "K · Clubhouse",
+      "section": "contact",
+      "sourceName": "Contact K - Say Hello",
+      "pageId": "5915",
+      "sectionIds": [
+        "25137"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": "nativeGenericForm",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "K-contact",
+        "K-payload-contact",
+        "live-K"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Four modules use literal palettes. Contact has applied overrides; original welcome CSS backup empty.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "header--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "variantLabel": "L · Midnight Lounge",
+      "section": "navigation",
+      "sourceName": "Site header",
+      "pageId": "5917",
+      "sectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "nativeWidgetType": "Native site header / Navigation",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-css",
+      "sourceRefs": [
+        "site-theme",
+        "site-theme-after"
+      ],
+      "ownership": {
+        "content": "Navigation records own labels/order/destinations; native theme owns logo. Exact assignment and fields need live verification.",
+        "paint": "Shared Site Custom CSS and A/B/C-specific rules use literal paint.",
+        "typography": "Inspected source hardcodes display/UI/mono font families, often!important; native editable font contract not certified.",
+        "shapeAndLayout": "Central site CSS owns responsive layout and per-position CTA emphasis. Native layout preset unverified.",
+        "assets": "Native theme logo; B invert(1) filter may distort replacement assets.",
+        "linksAndBehavior": "Native Navigation ownership; assigned records and destinations need readback."
+      },
+      "findings": [
+        "shared-navigation-design",
+        "literal-brand-paint"
+      ]
+    },
+    {
+      "optionId": "hero--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "variantLabel": "L · Midnight Lounge",
+      "section": "hero",
+      "sourceName": "L Opening Note",
+      "pageId": "5917",
+      "sectionIds": [
+        "24905"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": null,
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "L-page",
+        "live-L"
+      ],
+      "ownership": {
+        "content": "Native slide fields own media/title/subtitle/CTA. Companion editorial/native booking sections are separate. J/K/L are Text Block intros.",
+        "paint": "Four modules use literal palettes. Page-level submit button repeats gold/plum hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns crop/overlay/responsive arrangement. Preserve native controls and all companion sections.",
+        "assets": "Native carousel/section media; do not pin URLs in CSS. Missing F Reference Print noted.",
+        "linksAndBehavior": "Slide CTA or authored companion href; booking companions require programmed shows."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "food--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "variantLabel": "L · Midnight Lounge",
+      "section": "food",
+      "sourceName": "Food L - After Dark Menu",
+      "pageId": "5917",
+      "sectionIds": [
+        "25138"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "nativeWidgetType": "Concessions Menu",
+      "recordedNativeWidgetType": "nativeConcessionsMenu",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "L-payload-food",
+        "L-page",
+        "live-L"
+      ],
+      "ownership": {
+        "content": "Native items/categories/variations/prices/media and Website sales channels own data. Menu section owns heading/native view options.",
+        "paint": "Four modules use literal palettes. Page-level submit button repeats gold/plum hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns columns, hidden images, rails and card treatment. Native view setting conflict needs check.",
+        "assets": "Concessions item/category media, sometimes hidden/cropped/filtered by CSS.",
+        "linksAndBehavior": "Native ordering/product availability; no transaction test."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "events--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "variantLabel": "L · Midnight Lounge",
+      "section": "private-parties",
+      "sourceName": "Private Parties L - An Evening Of Your Own",
+      "pageId": "5917",
+      "sectionIds": [
+        "25139"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "L-payload-private-parties",
+        "L-page",
+        "live-L"
+      ],
+      "ownership": {
+        "content": "Editorial section owns occasions/package/rate copy and CTA body HTML. Not live booking availability.",
+        "paint": "Four modules use literal palettes. Page-level submit button repeats gold/plum hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns grids/diagonal panels and emphasis. Retain wrappers; positional paint needs stable role classes.",
+        "assets": "No required media in new payloads. Original native background source needs readback.",
+        "linksAndBehavior": "Authored href must target destination local private-hire page."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "membership--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "variantLabel": "L · Midnight Lounge",
+      "section": "membership",
+      "sourceName": "Membership L - After Dark Regular",
+      "pageId": "5917",
+      "sectionIds": [
+        "25140"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "nativeWidgetType": "Text Block",
+      "recordedNativeWidgetType": "nativeTextBlock",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "L-payload-membership",
+        "L-page",
+        "live-L"
+      ],
+      "ownership": {
+        "content": "Editorial heading/subtitle/body HTML owns intro, tier copy and CTA. Native membership products/prices/checkout are separate; binding unproven.",
+        "paint": "Four modules use literal palettes. Page-level submit button repeats gold/plum hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS owns card/table geometry and decoration; retain body classes. Native per-card slant/color control unproven.",
+        "assets": "CSS decorative cards/stamps/lines. No required image identified in new payloads.",
+        "linksAndBehavior": "Authored body href; changing caption does not change destination. Verify local membership route."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    },
+    {
+      "optionId": "contact--variant-l-midnight-lounge",
+      "variant": "variant-l-midnight-lounge",
+      "variantLabel": "L · Midnight Lounge",
+      "section": "contact",
+      "sourceName": "Contact L - A Note After Dark",
+      "pageId": "5917",
+      "sectionIds": [
+        "25141"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "nativeWidgetType": "Generic Form",
+      "recordedNativeWidgetType": "nativeGenericForm",
+      "editabilityStatus": "not-certified",
+      "sourceConfidence": "current-public-compiled-css",
+      "sourceRefs": [
+        "L-payload-contact",
+        "L-page",
+        "live-L"
+      ],
+      "ownership": {
+        "content": "Native form owns fields/labels/required rules/submit caption/handling. Visible UI does not prove delivery.",
+        "paint": "Four modules use literal palettes. Page-level submit button repeats gold/plum hex.",
+        "typography": "Current compiled template rules show fixed font-family choices; native theme typography editability requires field readback.",
+        "shapeAndLayout": "CSS positions native fields/buttons; preserve native validation/focus semantics.",
+        "assets": "No required contact image identified. Native section background not fully inventoried.",
+        "linksAndBehavior": "Native routing; no message sent. J/K/L blank recipients remain build dependency."
+      },
+      "findings": [
+        "literal-brand-paint"
+      ],
+      "nativeAuthoringControlConfidence": "pending-current-admin-field-readback"
+    }
+  ],
+  "verificationRequired": [
+    "Prepare separate shared Site Theme/header paint migration, preserving approved Concrete navigation containment/logo/counters; page/section12/12 is not full-template coverage.",
+    "Finish native controls and remaining editable-field mapping using current source evidence; A Custom visual surface is confirmed only on membership.",
+    "Apply a second distinct palette through Theme & Style only; compare six core sections desktop/mobile without CSS edits.",
+    "Change ordinary copy/media/CTA labels+href/product data/form labels through intended native editors.",
+    "Test all slide frames, focus/hover/active/disabled states, dropdowns and mobile drawer contrast.",
+    "Copy a single-section Library carrier into a separately authorized destination; verify unlink/update status, stable classes, local routes/assets/dependencies.",
+    "Keep internal FAQ behind existing staff access boundary; hiding its link is not authorization."
+  ],
+  "limitations": [
+    "Includes the dated Ma/Concrete partial closures; broader token/overlay adapters still need native installation, saved-state and second-palette proof.",
+    "Exact typography variables, shape presets and per-card editors not verified.",
+    "No membership plan/order/form submission changed or tested by this audit.",
+    "Custom visual authoring is confirmed on Circuit A membership only. No per-card role/slant preset, saved Custom Block, Library transfer or destination-copy behavior was verified.",
+    "Page/section token proposals now retain final Ma protection. Shared Site Theme/header CSS is outside this migration bundle, and its literal-paint migration remains unprepared."
+  ],
+  "proposalArtifacts": {
+    "path": "template-adapters/brand-tokens/",
+    "status": "local-review-only-not-applied",
+    "coverageScope": "page-and-section-compiled-css-only",
+    "summary": "12/12 page+section literal-color substitutions complete with no unknown colors in that scope. Shared Site Theme/header migration is excluded and unprepared; zero client certifications.",
+    "maRebase": {
+      "source": "evidence/admin-controls-audit/live-template-styles-final.json",
+      "capturedAt": "2026-10-25T17:40:12.196Z",
+      "preserved": [
+        "Native Light Text class behavior",
+        "Desktop/mobile caption selectors",
+        "88% Dark backdrop",
+        "Text shadow",
+        "Positive24pxdesktopcaptionoffsets"
+      ],
+      "structuralTests": "9/9 pass"
+    },
+    "headerMigrationGate": "A/B/C and sharedG-L Site Theme/header literal paints remain a separate unprepared migration. D/E/F token-based own rules still inherit shared theme styling. Preserve approved Concrete navigation repair when preparing that work.",
+    "installationGate": "Compiled proposals must be mapped to current native page/section editable fields before installation."
+  },
+  "nativeUiObservations": {
+    "recordedAt": "2026-10-25",
+    "aCircuit": {
+      "publishedPageId": 5659,
+      "editablePageId": 5660,
+      "source": "A-native-page-map",
+      "sectionRows": [
+        {
+          "editableSectionId": 23736,
+          "name": "Hero A - Showtimes Shelf",
+          "type": "Generic Carousel"
+        },
+        {
+          "editableSectionId": 23737,
+          "name": "Hero A - Shelf",
+          "type": "Custom"
+        },
+        {
+          "editableSectionId": 23725,
+          "name": "Events A - Rate Card",
+          "type": "Custom"
+        },
+        {
+          "editableSectionId": 23730,
+          "name": "Food A - Chip Rail",
+          "type": "Concessions Menu"
+        },
+        {
+          "editableSectionId": 23746,
+          "name": "Contact A - Compressed Column",
+          "type": "Generic Form"
+        },
+        {
+          "editableSectionId": 23764,
+          "name": "Membership A - Tier Rail",
+          "type": "Custom"
+        }
+      ],
+      "membershipVisualEditor": {
+        "editableSectionId": 23764,
+        "type": "Custom",
+        "renderedContentObserved": true,
+        "surface": "GrapesJS iframe visual builder",
+        "observedControls": [
+          "View Components",
+          "Preview",
+          "Fullscreen",
+          "Edit Code",
+          "Style Manager",
+          "Settings",
+          "Layers",
+          "Blocks"
+        ],
+        "observationProvenance": "Root authenticated read-only native UI inspection",
+        "contentEdited": false,
+        "verifiedScope": "Circuit A only",
+        "perCardColorRolePresetsVerified": false,
+        "perCardSlantPresetsVerified": false
+      }
+    },
+    "customBlocks": {
+      "collectionStatus": "Empty native collection observed",
+      "addFromLibraryAvailable": true,
+      "unsavedVisualBuilderInspected": true,
+      "createdOrSaved": false,
+      "transferTested": false,
+      "observationProvenance": "Root authenticated read-only native UI inspection"
+    },
+    "maHero": {
+      "editablePageId": 5912,
+      "publishedPageId": 5911,
+      "editableSectionId": 24876,
+      "publishedSectionId": 24872,
+      "nativeControl": "Light Text",
+      "currentValue": true,
+      "state": "saved-and-published",
+      "source": "approved-component-repairs",
+      "perCardOrRolePresetsVerified": false
+    }
+  },
+  "partialClosures": [
+    {
+      "recordedAt": "2026-10-25T17:35:38.032Z",
+      "optionId": "header--variant-f-concrete",
+      "status": "applied-published-and-recaptured",
+      "source": "approved-component-repairs",
+      "closedScope": "Concrete navigation containment, centered logo and inline 01–06 counters; seven links checked on desktop and phone",
+      "evidence": [
+        "evidence/component-controls-repairs/f-navigation-live.jpg",
+        "evidence/component-controls-repairs/changes-journal.json"
+      ],
+      "capture": {
+        "optionId": "header--variant-f-concrete",
+        "capturedAt": "2026-10-25T17:21:28.361Z",
+        "timestampBasis": "Raw screenshot file last-write time in UTC.",
+        "rawSourceFile": "f-navigation-after.jpg",
+        "evidenceFile": "f-navigation-live.jpg",
+        "imageSha256": "036dd44ad810b8d9b8af90d31d2a6912ca26ddc60d4b90f29dda9dae587d5779",
+        "previousImageSha256": "bed5a512df2ffe13e6eb81abe1b10bfe40d96b8e0db34d464dc21d7a883cf1f4",
+        "processing": "Byte-identical copy of the native JPEG section clip; no resize, crop, recolor, stitching or re-encoding.",
+        "sourceBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 639.2000122070312
+        },
+        "captureBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 640
+        }
+      },
+      "doesNotCertify": [
+        "Full-template admin-only maintenance",
+        "Brand-token migration",
+        "Library portability"
+      ]
+    },
+    {
+      "recordedAt": "2026-10-25T17:35:38.032Z",
+      "optionId": "hero--variant-i-ma",
+      "status": "saved-published-and-recaptured",
+      "source": "approved-component-repairs",
+      "closedScope": "Ma native Light Text enabled; conflicting ink and text-shadow:none overrides removed; title/subtitle protected by foreground, dark backdrop and shadow on published desktop and phone",
+      "evidence": [
+        "evidence/component-controls-repairs/i-hero-live.jpg",
+        "evidence/component-controls-repairs/ma-published-desktop.json",
+        "evidence/component-controls-repairs/ma-mobile-final.jpg",
+        "evidence/component-controls-repairs/ma-mobile-final.json",
+        "evidence/component-controls-repairs/i-page-css-final-saved.css"
+      ],
+      "capture": {
+        "optionId": "hero--variant-i-ma",
+        "capturedAt": "2026-10-25T17:32:55.146Z",
+        "timestampBasis": "Raw screenshot file last-write time in UTC.",
+        "rawSourceFile": "i-hero-after.jpg",
+        "evidenceFile": "i-hero-live.jpg",
+        "imageSha256": "6e9077b3d698070a5362fa71af8095827de95f702d391414a831a633c014123b",
+        "previousImageSha256": "2c73383b2ece5c127fc5910660b720b789e31ea436410f040acddc544caad3df",
+        "processing": "Byte-identical copy of the native JPEG section clip; no resize, crop, recolor, stitching or re-encoding.",
+        "sourceBounds": {
+          "x": 0,
+          "y": 99,
+          "width": 1520.800048828125,
+          "height": 736
+        },
+        "captureBounds": {
+          "x": 0,
+          "y": 99,
+          "width": 1521,
+          "height": 736
+        }
+      },
+      "phoneReadback": "Both native caption roles white with dark88% backdrops and shadows;327px widths;clientWidth=scrollWidth=375 within390pxviewport.",
+      "doesNotCertify": [
+        "All-template overlay protection",
+        "Arbitrary-image contrast guarantee",
+        "Brand-token migration",
+        "Admin-only maintenance"
+      ]
+    }
+  ]
+}

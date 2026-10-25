@@ -21,9 +21,21 @@ export function isDemoOption(catalog, slot, option) {
 export function createWorkflow(catalog) {
   const stepIds = new Set(GUIDE_STEPS.map((step) => step.id));
   const sectionSteps = GUIDE_STEPS.filter((step) => step.kind === 'section');
-  const choices = new Map(sectionSteps.map((step) => [step.id, catalog.slots.flatMap((slot) => slot.options
+  const availableChoices = new Map(sectionSteps.map((step) => [step.id, catalog.slots.flatMap((slot) => slot.options
     .filter((option) => componentForOption(slot, option) === step.id && isDemoOption(catalog, slot, option))
     .map((option) => ({ slotId: slot.id, slot, option })))]));
+  // Group only explicitly reviewed design equivalences; separate captures remain source evidence.
+  const designKey = (option) => option.customerDesign?.id && option.customerDesign?.reviewedAt
+    ? `design:${option.customerDesign.id}` : `option:${option.id}`;
+  const choices = new Map(sectionSteps.map((step) => {
+    const groups = new Map();
+    for (const choice of availableChoices.get(step.id)) {
+      const key = designKey(choice.option);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(choice);
+    }
+    return [step.id, [...groups.values()].map((group) => group.find(({ option }) => option.id === option.customerDesign?.representativeOptionId) ?? group[0])];
+  }));
   const choicesFor = (stepId) => choices.get(stepId) ?? [];
   const selectedChoice = (state, stepId) => choicesFor(stepId).find(({ slotId, option }) => !state.excluded?.[slotId] && state.picks?.[slotId] === option.id) ?? null;
   const selectionKey = (state, stepId, { colorsKey = '', colorsValid = false } = {}) => stepId === 'colors'
@@ -31,15 +43,19 @@ export function createWorkflow(catalog) {
 
   function normalizeGuidedSelection(state) {
     const picks = { ...state.picks }, excluded = Object.fromEntries(catalog.slots.map((slot) => [slot.id, true]));
+    const confirmed = { ...state.workflow?.confirmed };
     const requiredOrder = sectionSteps.map((step) => {
       const available = choicesFor(step.id);
-      const choice = available.find(({ slotId, option }) => state.picks?.[slotId] === option.id) ?? available[0];
+      const previous = availableChoices.get(step.id).find(({ slotId, option }) => state.picks?.[slotId] === option.id);
+      const choice = available.find(({ slotId, option }) => state.picks?.[slotId] === option.id)
+        ?? (previous ? available.find(({ option }) => designKey(option) === designKey(previous.option)) : null) ?? available[0];
       if (!choice) throw new Error(`No reviewed ${step.label.toLowerCase()} styles are available.`);
+      if (!previous || previous.option.id !== choice.option.id) delete confirmed[step.id];
       picks[choice.slotId] = choice.option.id;
       delete excluded[choice.slotId];
       return choice.slotId;
     });
-    return { ...state, picks, excluded, order: [...new Set([...requiredOrder, ...catalog.slots.map((slot) => slot.id)])] };
+    return { ...state, picks, excluded, ...(state.workflow ? { workflow: { ...state.workflow, confirmed } } : {}), order: [...new Set([...requiredOrder, ...catalog.slots.map((slot) => slot.id)])] };
   }
 
   function buildCustomerSummary(state) {
@@ -50,7 +66,7 @@ export function createWorkflow(catalog) {
       BRAND_COLOR_NOTE, '', 'Your sections'];
     for (const [index, step] of sectionSteps.entries()) {
       const choice = selectedChoice(state, step.id);
-      lines.push(`${index + 1}. ${step.label}: ${choice?.option.variantLabel ?? 'Not selected'}`);
+      lines.push(`${index + 1}. ${step.label}: ${choice ? choice.option.customerDesign?.label ?? choice.option.variantLabel : 'Not selected'}`);
     }
     return `${lines.join('\n')}\n`;
   }

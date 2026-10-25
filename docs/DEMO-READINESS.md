@@ -6,6 +6,8 @@ Verified 25 October 2026 against the local app at `http://127.0.0.1:4180/`.
 
 **Achievable for the guided selection demo.** A cinema customer chooses brand colors, then Navigation, Hero, Food & Drink, Private Parties, Membership and Contact Us in order. Review provides a selection link and a plain-text summary for the website team. The interface presents one section preview at a time and requires seven explicit confirmations.
 
+The customer checklist offers 66 reviewed section choices: seven Navigation designs, 11 Hero choices and 12 choices for each remaining section. Matching G–L navigation captures are one **Standard** customer choice, represented by G. All 12 source Navigation records remain available as implementation evidence. Saved H–L navigation selections map to Standard and require confirmation again.
+
 This selects an implementation brief. It does not assemble or publish an INDY website. Library transfer and mixed-page assembly remain separate, unverified work described in [INDY-LIBRARY.md](INDY-LIBRARY.md). The demo currently runs locally; this pass did not deploy a public picker URL.
 
 ## Three perspectives
@@ -44,7 +46,7 @@ Navigation examples retain their original desktop width. A contained horizontal 
 |---|---|---|---|---|---|---|---|---|
 | Next | DEMO-01 | Deploy a stable picker URL | Local links are limited to this computer | Decision makers can reopen the demo elsewhere | High | Small | High | Approved hosting destination |
 | Next | LIB-01 | Pilot one Library copy and unlink | Selection does not install native components | Prove a reusable INDY template workflow | High | Medium | High | Named source Library and test destination |
-| Later | STYLE-01 | Restore the Concrete hero preview | That one source style lacks a valid preview | All 72 core source choices eligible | Medium | Small | High | Repair source image and review new capture |
+| Later | STYLE-01 | Restore the Concrete hero preview | That one source style lacks a valid preview | All core source previews eligible; 67 customer choices after grouping shared navigation | Medium | Small | High | Repair source image and review new capture |
 
 The existing local persistence, shared links and downloaded summary cover demo recovery; accounts are not needed for this selection demo.
 
@@ -55,10 +57,18 @@ The existing local persistence, shared links and downloaded summary cover demo r
 3. **Retention:** preserve six choices and colors through refresh, shared link and download. Verify these journeys after persistence changes.
 4. **Next release:** address DEMO-01, then validate LIB-01 separately before promising installation. Recheck STYLE-01 only after new source pixels exist.
 
-Validation: **37 Node tests and 12 Python capture-pipeline tests pass**; JavaScript syntax and diff whitespace checks pass.
+Validation: **40 Node tests and 12 Python capture-pipeline tests pass**; JavaScript syntax and diff whitespace checks pass. Nine additional migration checks cover the proposed color substitutions. The current browser follow-up verified seven navigation choices, the Standard representative and the new Concrete/Ma asset hashes while preserving the existing Test1 selections.
+
+## Follow-up: source controls and previews
+
+The shared G–L navigation now appears once as **Standard**, giving seven navigation designs and 66 eligible customer section choices. All twelve source navigation records remain available to the audit. Legacy shared navigation picks map to Standard and require confirmation again.
+
+An explicitly approved source repair saved desktop-only Concrete sidebar rules in Site Theme and published Ma's native Light Text and page CSS changes. Fresh, independently reviewed native screenshots replace only Concrete navigation and Ma hero. Ma's desktop and phone captions have a dark backing and text shadow; Concrete's desktop numbers, logo and buttons fit within its sidebar, and its phone menu opens all seven items. See the [scoped source journal](../evidence/component-controls-repairs/changes-journal.json).
+
+The [editability audit](TEMPLATE-EDITABILITY-AUDIT.md) maps all 72 core source components. Its color migration proposals remain uninstalled and unvalidated through a second native palette. No template is certified for routine Admin-only maintenance yet. The twelve support guides are separate local staff artifacts, outside the public customer host.
 
 ## Test limits and next pass
 
-Tested in logged-in Chrome on Windows against the local anonymous picker at the normal desktop viewport and a temporary 390 × 844 viewport. The viewport override was reset afterward. No INDY content, memberships, bookings, forms, payments or Library records were changed during this presentation pass. Keyboard behavior was sampled; screen-reader, exhaustive accessibility, performance and security audits were not performed.
+Tested in logged-in Chrome on Windows against the local anonymous picker and the two affected published source pages at the normal desktop viewport and a temporary 390 × 844 viewport. Viewport overrides were reset afterward. The initial presentation pass changed no INDY content; the approved follow-up changed only the Concrete-scoped Site CSS and Ma's page/hero configuration described above. No bookings, memberships, forms, payments or Library records were submitted or changed. Keyboard behavior was sampled; screen-reader, exhaustive accessibility, performance and security audits were not performed.
 
 The next useful validation is a short first-time customer walkthrough on the deployed picker, followed by a separately scoped Library installation pilot.

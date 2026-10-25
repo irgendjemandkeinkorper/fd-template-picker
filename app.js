@@ -10,7 +10,7 @@ const button = (text, className, action) => el('button', { type: 'button', class
 const link = (text, href, className = '') => el('a', { textContent: text, href, className, target: '_blank', rel: 'noopener noreferrer' });
 const encodeState = (value) => btoa(Array.from(new TextEncoder().encode(JSON.stringify(value)), (c) => String.fromCharCode(c)).join(''));
 const decodeState = (value) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(value), (c) => c.charCodeAt(0))));
-const styleName = (option) => option.variantLabel.replace(/^[A-Z]\s*·\s*/, '');
+const styleName = (option) => option.customerDesign?.label ?? option.variantLabel.replace(/^[A-Z]\s*·\s*/, '');
 const formatRatio = (ratio) => (Math.floor(ratio * 100) / 100).toFixed(2);
 const stepCopy = {
   colors: ['Make it yours.', 'Pick a primary and secondary color for your website.'],
