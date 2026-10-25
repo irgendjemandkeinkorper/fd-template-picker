@@ -1,0 +1,134 @@
+{
+  "capturedAt": "2026-10-25T20:59:25.846Z",
+  "cards": [
+    {
+      "rect": {
+        "height": 316.4624938964844,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": -1721.75
+      },
+      "text": "Marquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00"
+    },
+    {
+      "rect": {
+        "height": 340.4624938964844,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": -1393.2874755859375
+      },
+      "text": "No Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00"
+    },
+    {
+      "rect": {
+        "height": 340.4624938964844,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": -1040.8250732421875
+      },
+      "text": "The Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.\n$11.00"
+    },
+    {
+      "rect": {
+        "height": 241.2624969482422,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": -615.5625
+      },
+      "text": "Soda\nStarting at$6.00"
+    },
+    {
+      "rect": {
+        "height": 316.4624938964844,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": -289.5
+      },
+      "text": "Pie Hard\nWarm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.\n$10.00"
+    },
+    {
+      "rect": {
+        "height": 340.4624938964844,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": 38.962501525878906
+      },
+      "text": "Sundae, Bloody Sundae\nThree scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.\n$10.00"
+    },
+    {
+      "rect": {
+        "height": 316.4624938964844,
+        "width": 232,
+        "x": 642.4000244140625,
+        "y": 389.4250183105469
+      },
+      "text": "Movie Candy\nSour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.\n$5.00"
+    }
+  ],
+  "clientWidth": 376,
+  "colors": {
+    "background": "#eeeeee",
+    "dark": "#1d1d1d",
+    "primary": "#027be3"
+  },
+  "heading": {
+    "font": "Georgia, \"Times New Roman\", serif",
+    "fontSize": "62px",
+    "rect": {
+      "height": 319.25,
+      "width": 216,
+      "x": 650.4000244140625,
+      "y": -2258.800048828125
+    },
+    "text": "Good company. Good things to share. "
+  },
+  "images": [
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress"
+    },
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress"
+    },
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress"
+    },
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress"
+    },
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/idiojv2s2nx8q53tcq6ojjxsfztb?w=600&h=374&fit=crop&fill=solid&fill-color=954f1a&bg=954f1a&auto=format,compress"
+    },
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/131qdkyu1tf7cmgd85jz9mcq79lt?w=600&h=374&fit=crop&fill=solid&fill-color=844d1a&bg=844d1a&auto=format,compress"
+    },
+    {
+      "loaded": true,
+      "src": "https://indy-systems.imgix.net/q3lfwe0d637i2cj6sx63llvhlitk?w=600&h=374&fit=crop&fill=solid&fill-color=895317&bg=895317&auto=format,compress"
+    }
+  ],
+  "limitations": [
+    "Native Admin framework palette, not consumer Theme palette",
+    "Simulated frame does not change outer browser viewport used by CSS vw units",
+    "Real consumer phone, destination catalogue and global CSS isolation remain unverified"
+  ],
+  "mode": "native Admin Page phone preview",
+  "outerViewport": {
+    "height": 695,
+    "width": 1536
+  },
+  "pageId": "5970",
+  "scrollWidth": 379,
+  "section": {
+    "height": 3161.6875,
+    "width": 376,
+    "x": 570.4000244140625,
+    "y": -2349.800048828125
+  },
+  "sectionId": "25151"
+}

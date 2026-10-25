@@ -1,0 +1,265 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 toolbar
+			3 button
+			4 text INDY Admin
+			5 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+			6 button
+			7 switch 0
+			8 button
+			9 container
+				10 text Region US-BETA
+				11 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+			12 container
+				13 text Circuit INDY Demo
+				14 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+			15 container
+				16 text Site Adam Template Testing 2
+				17 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing 2, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+			18 button Menu
+		19 container
+			20 content list
+				21 container
+					22 text Operations
+			23 content list
+				24 container
+					25 text Reports
+			26 content list
+				27 container
+					28 text Settings
+			29 text Favorites
+			30 content list
+				31 container
+					32 text Theme and Style
+			33 content list
+				34 container
+					35 text Pages
+			36 content list
+				37 container
+					38 text Release Notes
+			39 content list
+				40 container
+					41 text How To Guides
+			42 content list
+				43 container
+					44 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+			45 content list
+				46 container
+					47 text Developer
+			48 switch Description: Demo Mode, Value: 0
+				49 text Demo Mode
+		50 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+		51 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+		52 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+		53 content list
+			54 container
+				55 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+					56 text Page Settings
+					57 text Manage site-wide page behaviour
+			58 container
+				59 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+					60 text Pages
+					61 text Create or manage page content, for desktop and mobile websites and apps
+				62 container
+					63 text Pages
+					64 button
+					65 button
+					66 container
+						67 text field (settable) f_a063725b-3ab0-443a-9fa0-0e7cf1c77cae
+						68 button
+					69 button SET ORDER
+					70 button ADD FROM LIBRARY
+						71 text ADD FROM LIBRARY
+					72 button CREATE PAGE
+						73 container
+						74 text CREATE PAGE
+					75 table
+						76 row
+							77 cell
+								78 text ID
+							79 cell
+								80 text Title
+							81 cell
+								82 text Slug
+							83 cell
+								84 text Sections
+							85 cell
+								86 text Views
+							87 cell
+								88 text Visibility
+							89 cell
+								90 text Library
+							91 cell
+								92 text Actions
+						93 row
+							94 cell
+								95 text 5969
+							96 cell
+								97 text variant-k-clubhouse_food
+							98 cell
+								99 text variant-k-clubhouse-food
+							100 cell
+								101 text 1
+							102 cell
+								103 button  Not Linked
+									104 text  Not Linked
+							105 cell
+								106 button
+								107 button
+								108 button EDIT
+								109 button
+						110 row
+							111 cell
+								112 text 5917
+							113 cell
+								114 text Variant L Midnight Lounge
+							115 cell
+								116 text variant-l-midnight-lounge
+							117 cell
+								118 text 9
+							119 cell
+								120 button  Not Linked
+									121 text  Not Linked
+							122 cell
+								123 button
+								124 button EDIT
+								125 button
+						126 row
+							127 cell
+								128 text 5915
+							129 cell
+								130 text Variant K Clubhouse
+							131 cell
+								132 text variant-k-clubhouse
+							133 cell
+								134 text 8
+							135 cell
+								136 button  Not Linked
+									137 text  Not Linked
+							138 cell
+								139 button
+								140 button EDIT
+								141 button
+						142 row
+							143 cell
+								144 text 5913
+							145 cell
+								146 text Variant J Box Office
+							147 cell
+								148 text variant-j-box-office
+							149 cell
+								150 text 9
+							151 cell
+								152 button  Not Linked
+									153 text  Not Linked
+							154 cell
+								155 button
+								156 button EDIT
+								157 button
+						158 row
+							159 cell
+								160 text 5911
+							161 cell
+								162 text Variant I Ma
+							163 cell
+								164 text variant-i-ma
+							165 cell
+								166 text 5
+							167 cell
+								168 button  Not Linked
+									169 text  Not Linked
+							170 cell
+								171 button
+								172 button EDIT
+								173 button
+						174 row
+							175 cell
+								176 text 5909
+							177 cell
+								178 text Variant H Storybook
+							179 cell
+								180 text variant-h-storybook
+							181 cell
+								182 text 5
+							183 cell
+								184 button  Not Linked
+									185 text  Not Linked
+							186 cell
+								187 button
+								188 button EDIT
+								189 button
+						190 row
+							191 cell
+								192 text 5905
+							193 cell
+								194 text Variant G Cut
+							195 cell
+								196 text variant-g-cut
+							197 cell
+								198 text 5
+							199 cell
+								200 button  Not Linked
+									201 text  Not Linked
+							202 cell
+								203 button
+								204 button EDIT
+								205 button
+						206 row
+							207 cell
+								208 text 5903
+							209 cell
+								210 text Variant F Concrete
+							211 cell
+								212 text variant-f-concrete
+							213 cell
+								214 text 10
+							215 cell
+								216 button  Not Linked
+									217 text  Not Linked
+							218 cell
+								219 button
+								220 button EDIT
+								221 button
+						222 row
+							223 cell
+								224 text 5901
+							225 cell
+								226 text Variant E Grid
+							227 cell
+								228 text variant-e-grid
+							229 cell
+								230 text 11
+							231 cell
+								232 button  Not Linked
+									233 text  Not Linked
+							234 cell
+								235 button
+								236 button EDIT
+								237 button
+						238 row
+							239 cell
+								240 text 5899
+							241 cell
+								242 text Variant D Odd
+							243 cell
+								244 text variant-d-odd
+							245 cell
+								246 text 10
+							247 cell
+								248 button  Not Linked
+									249 text  Not Linked
+							250 cell
+								251 button
+								252 button EDIT
+								253 button
+					254 text Records per page:
+					255 container
+						256 text 10
+						257 combo box (collapsed, settable) 10, ID: f_cdce4cda-ffe2-489f-be2b-9e51cca375ca, Secondary Actions: Expand
+					258 text 1-10  of 41
+					259 button
+					260 button
+	261 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+
+The focused UI element is 73 container

@@ -1,0 +1,166 @@
+{
+  "schema": "fd-library-k-food-pilot/v1",
+  "scope": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "siteId": "170"
+  },
+  "authorization": {
+    "action": "Create/save unpublished food-only carrier and preview desktop/phone",
+    "confirmedByUser": true,
+    "independentDestinationCopy": true,
+    "libraryTransferConfirmedByUser": true
+  },
+  "carrier": {
+    "pageId": "5969",
+    "title": "variant-k-clubhouse_food",
+    "slug": "variant-k-clubhouse-food",
+    "published": false,
+    "libraryStatus": "Linked with Updates",
+    "sectionCount": 1,
+    "pageCss": "",
+    "sectionId": "25150",
+    "sectionCssLogicalMatch": true,
+    "previewStatus": "Persisted editable draft reviewed in Admin desktop and phone previews; actual consumer/destination checks pending",
+    "editablePageId": "5970",
+    "initialSectionId": "25150",
+    "editableSectionId": "25151",
+    "draftReopenVerified": true
+  },
+  "steps": [
+    {
+      "at": "2026-10-25T20:49:02.891Z",
+      "action": "Create Page",
+      "result": "Edit Page (5969); Unpublished Changes; Save disabled; zero Sections; Not Linked"
+    },
+    {
+      "at": "2026-10-25T20:51:14.761Z",
+      "action": "Create Section",
+      "result": "Edit Section (25150); Save disabled; Website/Block/Grid; 3 desktop /1 mobile; source catalogue displayed"
+    },
+    {
+      "at": "2026-10-25T20:54:58.411Z",
+      "action": "Read back saved CSS and preview",
+      "result": "Saved Section CSS equals prepared proposal after newline normalization; empty Page CSS; desktop/phone Admin previews reviewed with recorded limits; no publication"
+    },
+    {
+      "at": "2026-10-25T20:55:54.194Z",
+      "action": "Reopen persisted Page",
+      "result": "Page list 5969 shows one Section25150; editable draft5970 reopened with zero Sections. Draft must be populated and rechecked before readiness."
+    },
+    {
+      "at": "2026-10-25T20:59:52.066Z",
+      "action": "Complete and reopen editable draft",
+      "result": "Created native ConcessionsMenu25151 on editablePage5970; reopened stable with exactly one Section, saved settings and exact proposed CSS after newline normalization. Page CSS empty; Save disabled; unpublished. Original sourcePage5915 stilleightSections/NotLinked."
+    },
+    {
+      "at": "2026-10-25T21:06:38.720Z",
+      "action": "Create New Library Page and Save changes",
+      "result": "Food-only carrier now Linked with Updates; native chip LIB ID5971; originalK remainsNotLinked"
+    },
+    {
+      "at": "2026-10-25T21:09:30.066Z",
+      "action": "Import and unlink destination copy",
+      "result": "One new Page5973; oneSection; slugvariant-k-clubhouse-food; LinkedwithUpdatesfromLIBID5971 thenUnlink/Save verifiedNotLinked; visibilityoff/unpublished; six existing destinationPagesunchanged"
+    },
+    {
+      "at": "2026-10-25T21:10:55.917Z",
+      "action": "Local edit after verified Unlink",
+      "result": "Destination editablePage5974 Section25155 internalName renamed Food - Clubhouse Kitchen, saved and reopened; CSS matches proposal; currentsettings Website/Block/Grid3/1/emptycategoryoverride; seven local products"
+    },
+    {
+      "at": "2026-10-25T21:17:26.254Z",
+      "action": "Compare Library master after local rename",
+      "result": "MasterSection25153 nameFood K - ClubhouseKitchen andCSS unchanged; oneSection/PageCSSempty. DestinationrenameexposesnativecompiledCSSscopecacheissue; comment-onlyrefreshprepared pendingconfirmation."
+    }
+  ],
+  "libraryTransfer": "verified-one-section-page-import-and-unlink",
+  "insertionIntoExistingPage": "not-tested",
+  "previews": {
+    "desktop": {
+      "pageId": "5970",
+      "sectionId": "25151",
+      "width": 1024,
+      "columns": 3,
+      "cards": 7,
+      "loadedImages": 7,
+      "overflowPx": 0,
+      "evidence": "carrier-draft-desktop-dom.json"
+    },
+    "phone": {
+      "pageId": "5970",
+      "sectionId": "25151",
+      "width": 376,
+      "columns": 1,
+      "cards": 7,
+      "loadedImages": 7,
+      "overflowPx": 3,
+      "evidence": "carrier-draft-phone-dom.json",
+      "limitation": "Admin simulated frame uses outer browser viewport for CSS vw sizing; actual phone and consumer palette not certified"
+    }
+  },
+  "consumerRouteCheck": {
+    "requested": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse-food/",
+    "result": "redirected to /fandango-cinema-template-test/",
+    "published": false
+  },
+  "library": {
+    "site": "LIBRARY",
+    "siteId": "138",
+    "scope": "US-BETA / INDY Demo Circuit Library",
+    "pageId": "5971",
+    "editablePageId": "5972",
+    "editableSectionId": "25153",
+    "sectionCount": 1,
+    "published": false
+  },
+  "destination": {
+    "site": "Adam Template Testing",
+    "chosenByUser": true,
+    "policy": "independently editable",
+    "published": false,
+    "pageId": "5973",
+    "libraryStatus": "Not Linked",
+    "editablePageId": "5974",
+    "editableSectionId": "25155",
+    "sectionName": "Food - Clubhouse Kitchen",
+    "sectionCount": 1,
+    "pageCss": "",
+    "sectionCssLogicalMatch": true,
+    "categoryIds": [
+      {
+        "id": "589",
+        "text": "Snacks"
+      },
+      {
+        "id": "590",
+        "text": "Drinks"
+      },
+      {
+        "id": "591",
+        "text": "Desserts"
+      }
+    ],
+    "nativeBindingEvidence": "destination IDs589/590/591 differ from source596/597/598; Library master preview26products vs destination7; category override remains empty",
+    "cssScopeRefresh": "pending-action-time-confirmation"
+  },
+  "independenceCheck": {
+    "name": "Food K - Clubhouse Kitchen",
+    "nameUnchanged": true,
+    "cssUnchanged": true,
+    "sectionCount": 1,
+    "pageCssEmpty": true,
+    "notes": "Read-only comparison after destination unlink and local Section name change; no master fields saved"
+  },
+  "pendingScopeRefresh": {
+    "targetSite": "Adam Template Testing",
+    "editablePageId": "5974",
+    "sectionId": "25155",
+    "field": "Custom CSS",
+    "proposal": "template-adapters/library-k-food/destination-scope-refresh.proposed.css",
+    "proposalSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+    "change": "One trailing comment; all design rules unchanged",
+    "status": "awaiting-user-action-time-confirmation"
+  }
+}

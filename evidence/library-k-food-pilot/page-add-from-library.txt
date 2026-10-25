@@ -1,0 +1,79 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 262-331
+~		260 container Add From Library Pages Records per page: 10 10 1-10 of 18 ADD PAGES FROM THE LIBRARY (0)
+~			261 container
++				262 text Add From Library
++				263 button
++				264 container
++					265 text Pages
++					266 button
++					267 button
++					268 container
++						269 text field (settable) f_34e6a9bf-255a-4a03-9501-d8caaa63b23a
++						270 button
++					271 table
++						272 row
++							273 cell
++								274 checkbox 0
++							275 cell
++								276 text Title
++						277 row
++							278 cell
++								279 checkbox 0
++							280 cell
++								281 text Contact Us
++						282 row
++							283 cell
++								284 checkbox 0
++							285 cell
++								286 text Variant C Late
++						287 row
++							288 cell
++								289 checkbox 0
++							290 cell
++								291 text Movies
++						292 row
++							293 cell
++								294 checkbox 0
++							295 cell
++								296 text HW 4 TEST
++						297 row
++							298 cell
++								299 checkbox 0
++							300 cell
++								301 text Special Events AAA
++						302 row
++							303 cell
++								304 checkbox 0
++							305 cell
++								306 text Menu
++						307 row
++							308 cell
++								309 checkbox 0
++							310 cell
++								311 text Beacon Club
++						312 row
++							313 cell
++								314 checkbox 0
++							315 cell
++								316 text Beacon Pass
++						317 row
++							318 cell
++								319 checkbox 0
++							320 cell
++								321 text The Reservation
++						322 row
++							323 cell
++								324 checkbox 0
++							325 cell
++								326 text Test
++					327 text Records per page:
++					328 container
++						329 text 10
++						330 combo box (collapsed, settable) 10, ID: f_e35fb017-efb3-4d37-b243-293d68357564, Secondary Actions: Expand
++					331 text 1-10  of 18
++					332 button
++					333 button
++				334 button (disabled) ADD PAGES FROM THE LIBRARY (0)
+The focused UI element is 260 container Add From Library Pages Records per page: 10 10 1-10 of 18 ADD PAGES FROM THE LIBRARY (0)

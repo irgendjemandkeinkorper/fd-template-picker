@@ -3,3 +3,5 @@ catalog.json text eol=lf
 evidence/admin-controls-completion/** -text
 template-adapters/admin-controls-completion/** -text
 template-adapters/shared-theme-completion/** -text
+evidence/library-k-food-pilot/** -text
+template-adapters/library-k-food/** -text

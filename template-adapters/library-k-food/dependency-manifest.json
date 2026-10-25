@@ -1,0 +1,637 @@
+{
+  "schema": "fd-library-module-dependencies/v1",
+  "preparedAt": "2026-10-25T21:22:33.725451+00:00",
+  "moduleId": "variant-k-clubhouse_food",
+  "status": "library-transfer-verified-destination-style-review-pending",
+  "source": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "siteId": "170",
+    "pageTitle": "Variant K Clubhouse",
+    "publishedPageId": "5915",
+    "editablePageId": "5916",
+    "sectionName": "Food K - Clubhouse Kitchen",
+    "nativeWidgetType": "Concessions Menu",
+    "publishedSectionId": "25135",
+    "editableSectionId": "25122",
+    "stableSectionClass": "fdp-k-food",
+    "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+    "heading": "Good company. Good things to share.",
+    "subtitle": "Explore the kitchen and bar before you settle in.",
+    "catalogOptionId": "food--variant-k-clubhouse",
+    "catalogPublishedSectionIds": [
+      "25135"
+    ],
+    "catalogEditableSectionIds": [
+      "25122"
+    ],
+    "observedNativeConfigurationOlderJournal": {
+      "salesChannel": "Website",
+      "displayMode": "Block",
+      "viewMode": "Grid",
+      "itemsPerRowDesktop": 3,
+      "itemsPerRowMobile": 1,
+      "catalog": "Existing site concessions catalog; no product, category or price mutation."
+    },
+    "nativeWidgetMainFieldsCapturedCompletely": true,
+    "currentNativeWidgetConfiguration": {
+      "showHeading": true,
+      "heading": "Good company. Good things to share.",
+      "headingFontSize": "H 2",
+      "headingFont": "Default",
+      "headingTextAlign": "Center",
+      "headingColorField": "Primary",
+      "headingStyle": "Default",
+      "description": "Explore the kitchen and bar before you settle in.",
+      "salesChannelVisibility": "Website",
+      "categoriesVisibilityOverride": [],
+      "showCategoryFilters": true,
+      "categoryFiltersPosition": "Left",
+      "displayMode": "Block",
+      "viewMode": "Grid",
+      "itemsPerRow": 3,
+      "itemsPerRowInMobile": 1,
+      "spacing": 12,
+      "showCategoryDivider": true,
+      "showCategoryName": true,
+      "categoryNameFontSizePx": 24,
+      "categoryNameAlignment": "Left",
+      "categoryNameStyle": "Default",
+      "categoryNameColorField": "Primary",
+      "showImage": true,
+      "showDescription": true,
+      "showPrice": true,
+      "itemCardTheme": "Frame",
+      "itemBackgroundColor": "Default",
+      "itemBorderRadius": 8,
+      "itemShadow": 0,
+      "titleFontSizePx": 20,
+      "descriptionFontSizePx": 16,
+      "priceFontSizePx": 16
+    },
+    "currentSectionSettings": {
+      "visible": true,
+      "visibleFor": [
+        "Desktop Web",
+        "Mobile Web",
+        "Mobile App"
+      ],
+      "whoCanSee": "Everyone",
+      "startDate": "",
+      "endDate": "",
+      "widthMode": "Centered",
+      "marginSides": "Extra Small",
+      "marginTop": "",
+      "marginBottom": "",
+      "backgroundColor": "",
+      "backgroundImage": null,
+      "square": true,
+      "flat": true,
+      "classes": "fdp-k-food",
+      "styles": ""
+    },
+    "renderedSourceCategoriesForEvidenceOnly": [
+      {
+        "id": "596",
+        "name": "Snacks"
+      },
+      {
+        "id": "597",
+        "name": "Drinks"
+      },
+      {
+        "id": "598",
+        "name": "Desserts"
+      }
+    ],
+    "renderedCategoryIdsAreWidgetConfiguration": false,
+    "sectionSettingsRawLabelValues": [
+      {
+        "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+        "value": "Desktop Web, Mobile Web, Mobile App"
+      },
+      {
+        "label": "Who can see this section?\nEveryone\narrow_drop_down",
+        "value": "Everyone"
+      },
+      {
+        "label": "Start Date\nevent",
+        "value": ""
+      },
+      {
+        "label": "End Date\nevent",
+        "value": ""
+      },
+      {
+        "label": "Width Mode\nCentered\narrow_drop_down",
+        "value": "Centered"
+      },
+      {
+        "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+        "value": "Extra Small"
+      },
+      {
+        "label": "Margin Top\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Margin Bottom\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Background Color\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Image Fit\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Image Position\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Repeat\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Attachment\narrow_drop_down",
+        "value": ""
+      },
+      {
+        "label": "Classes\ncancel",
+        "value": "fdp-k-food"
+      },
+      {
+        "label": "Styles",
+        "value": ""
+      }
+    ]
+  },
+  "sourceArtifacts": [
+    {
+      "path": "evidence/admin-controls-completion/native-saved/K-section-25122.css",
+      "sha256": "39908e874c0e42ec4141e7364faebc111baf7a09f08037e1a02f2f6de75bdb3d"
+    },
+    {
+      "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+      "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293"
+    },
+    {
+      "path": "evidence/admin-controls-completion/native-before/K-section-25122.json",
+      "sha256": "c549b2cbafee9f9c3e33e5a22e74f7f7773cae8c55acd4434b642e8a98c57462"
+    },
+    {
+      "path": "evidence/admin-controls-completion/native-before/K-page.json",
+      "sha256": "7ceec49e868089adfe15fa439d4b914564786696583363043775e59b8ca031d6"
+    },
+    {
+      "path": "template-adapters/shared-theme-completion/site-theme.proposed.css",
+      "sha256": "b2d8ad2fc3ba1036944f59f73b874149a736cd7dad6fbf8ce66d5a0ef0d101ce"
+    },
+    {
+      "path": "evidence/admin-controls-completion/native-clips/K-dom.json",
+      "sha256": "8186a3f9feb6b9ae38ae573a3ec7ab30043c00fcd1d6e62b7f66a5894112761f"
+    },
+    {
+      "path": "evidence/indy-parity-changes.json",
+      "sha256": "34ac3a6e98f07a9819ab4d2d60ff5bcba9d7b20d798caa53088c772c2cbbdb51"
+    },
+    {
+      "path": "evidence/library-k-food-pilot/source-k-food-dom-desktop.json",
+      "sha256": "8e8718197039439df4499aa2316b563e8c46f2f7b19471a4966b57f6a54d782c"
+    },
+    {
+      "path": "evidence/library-k-food-pilot/source-k-food-widget.txt",
+      "sha256": "8b4796803092ff4ec5674e3e7aac738bd206322025439c30f59fd91a82faaf1f"
+    },
+    {
+      "path": "evidence/library-k-food-pilot/source-k-food-section-settings.json",
+      "sha256": "5e4e9e7c6494105209e36b49e4d863a2013a11a4e73861f060d1e4eb25dd20a4"
+    },
+    {
+      "path": "evidence/library-k-food-pilot/source-k-food-section.css",
+      "sha256": "39908e874c0e42ec4141e7364faebc111baf7a09f08037e1a02f2f6de75bdb3d"
+    }
+  ],
+  "pilot": {
+    "scope": {
+      "region": "US-BETA",
+      "circuit": "INDY Demo",
+      "site": "Adam Template Testing 2",
+      "siteId": "170"
+    },
+    "authorization": {
+      "action": "Create/save unpublished food-only carrier and preview desktop/phone",
+      "confirmedByUser": true,
+      "independentDestinationCopy": true,
+      "libraryTransferConfirmedByUser": true
+    },
+    "carrier": {
+      "pageId": "5969",
+      "title": "variant-k-clubhouse_food",
+      "slug": "variant-k-clubhouse-food",
+      "published": false,
+      "libraryStatus": "Linked with Updates",
+      "sectionCount": 1,
+      "pageCss": "",
+      "sectionId": "25150",
+      "sectionCssLogicalMatch": true,
+      "previewStatus": "Persisted editable draft reviewed in Admin desktop and phone previews; actual consumer/destination checks pending",
+      "editablePageId": "5970",
+      "initialSectionId": "25150",
+      "editableSectionId": "25151",
+      "draftReopenVerified": true
+    },
+    "currentEditableObject": {
+      "pageId": "5970",
+      "sectionId": "25151",
+      "reopenVerified": true
+    },
+    "initialBaseObject": {
+      "pageId": "5969",
+      "sectionId": "25150",
+      "meaning": "Initial unpublished base/list object; not the current editable draft"
+    },
+    "savedPageFields": "evidence/library-k-food-pilot/carrier-draft-5970-fields.json",
+    "savedPageCssEmpty": true,
+    "nativePageSaveDisabled": true,
+    "savedSectionCss": "evidence/library-k-food-pilot/carrier-draft-section-25151.saved.css",
+    "savedSectionCssSha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee",
+    "savedCssLogicallyMatchesPreparedFile": true,
+    "journal": "evidence/library-k-food-pilot/pilot-journal.json",
+    "nativeSavedSettings": "evidence/library-k-food-pilot/carrier-draft-section-25151-settings.json",
+    "nativeSavedWidget": "evidence/library-k-food-pilot/carrier-draft-section-25151-widget.txt",
+    "desktopAdminPreviewEvidence": "evidence/library-k-food-pilot/carrier-draft-desktop-dom.json",
+    "phoneAdminPreviewEvidence": "evidence/library-k-food-pilot/carrier-draft-phone-dom.json",
+    "desktopAdminPreview": {
+      "mode": "native Admin Page desktop preview",
+      "capturedAt": "2026-10-25T20:59:01.492Z",
+      "pageId": "5970",
+      "sectionId": "25151",
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "overflowPx": 0,
+      "cards": 7,
+      "images": 7,
+      "loadedImages": 7
+    },
+    "phoneAdminPreview": {
+      "mode": "native Admin Page phone preview",
+      "capturedAt": "2026-10-25T20:59:25.846Z",
+      "pageId": "5970",
+      "sectionId": "25151",
+      "clientWidth": 376,
+      "scrollWidth": 379,
+      "overflowPx": 3,
+      "cards": 7,
+      "images": 7,
+      "loadedImages": 7,
+      "headingFontSize": "62px",
+      "limitations": [
+        "Native Admin framework palette, not consumer Theme palette",
+        "Simulated frame does not change outer browser viewport used by CSS vw units",
+        "Real consumer phone, destination catalogue and global CSS isolation remain unverified"
+      ],
+      "outerChromeViewportWidth": 1536,
+      "observedSidePaddingPx": 72
+    },
+    "previewPalette": "Admin framework, not consumer Site Theme",
+    "unpublishedConsumerRoute": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse-food/",
+    "unpublishedConsumerRouteObservation": "redirects-to-homepage; no published carrier render",
+    "librarySelected": {
+      "site": "LIBRARY",
+      "siteId": "138",
+      "scope": "US-BETA / INDY Demo Circuit Library",
+      "pageId": "5971",
+      "editablePageId": "5972",
+      "editableSectionId": "25153",
+      "sectionCount": 1,
+      "published": false
+    },
+    "destinationSiteSelected": "Adam Template Testing",
+    "destinationCopyPolicy": "independent-unlinked-copy",
+    "policyMeaning": "Unlink and verify Not Linked before destination customization. Disabled automatic updates still leaves a link that Force Update can refresh.",
+    "libraryPromotionPerformed": true,
+    "libraryImportPerformed": true,
+    "sourceCarrierLibraryId": "5971",
+    "historicalPreviewEvidence": [
+      {
+        "path": "evidence/library-k-food-pilot/carrier-desktop-dom.json",
+        "meaning": "Initial unpublished base Page preview; superseded by persisted editable draft preview"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/carrier-phone-dom.json",
+        "meaning": "Initial unpublished base Page preview; superseded by persisted editable draft preview"
+      }
+    ]
+  },
+  "libraryTransfer": {
+    "status": "verified-one-section-page-import-and-unlink",
+    "library": {
+      "site": "LIBRARY",
+      "siteId": "138",
+      "scope": "US-BETA / INDY Demo Circuit Library",
+      "pageId": "5971",
+      "editablePageId": "5972",
+      "editableSectionId": "25153",
+      "sectionCount": 1,
+      "published": false
+    },
+    "destination": {
+      "site": "Adam Template Testing",
+      "chosenByUser": true,
+      "policy": "independently editable",
+      "published": false,
+      "pageId": "5973",
+      "libraryStatus": "Not Linked",
+      "editablePageId": "5974",
+      "editableSectionId": "25155",
+      "sectionName": "Food - Clubhouse Kitchen",
+      "sectionCount": 1,
+      "pageCss": "",
+      "sectionCssLogicalMatch": true,
+      "categoryIds": [
+        {
+          "id": "589",
+          "text": "Snacks"
+        },
+        {
+          "id": "590",
+          "text": "Drinks"
+        },
+        {
+          "id": "591",
+          "text": "Desserts"
+        }
+      ],
+      "nativeBindingEvidence": "destination IDs589/590/591 differ from source596/597/598; Library master preview26products vs destination7; category override remains empty",
+      "cssScopeRefresh": "pending-action-time-confirmation"
+    },
+    "sourceCarrierLibraryStatus": "Linked with Updates",
+    "independentDestination": {
+      "policy": "Unlink / Save / verify Not Linked before local customization",
+      "localInternalName": "Food - Clubhouse Kitchen",
+      "masterAfterLocalEdit": {
+        "name": "Food K - Clubhouse Kitchen",
+        "nameUnchanged": true,
+        "cssUnchanged": true,
+        "sectionCount": 1,
+        "pageCssEmpty": true,
+        "notes": "Read-only comparison after destination unlink and local Section name change; no master fields saved"
+      },
+      "verification": "Destination local Name saved/reopened; Library master Name and CSS unchanged"
+    },
+    "catalogueRuntimeBinding": {
+      "sourceCategoryIds": [
+        "596",
+        "597",
+        "598"
+      ],
+      "destinationCategories": [
+        {
+          "id": "589",
+          "text": "Snacks"
+        },
+        {
+          "id": "590",
+          "text": "Drinks"
+        },
+        {
+          "id": "591",
+          "text": "Desserts"
+        }
+      ],
+      "destinationProductCount": 7,
+      "libraryRuntimeCategories": [
+        {
+          "id": "465",
+          "text": "Snacks"
+        },
+        {
+          "id": "467",
+          "text": "Burgers & Sandwiches"
+        },
+        {
+          "id": "468",
+          "text": "Pizza"
+        },
+        {
+          "id": "470",
+          "text": "Desserts"
+        },
+        {
+          "id": "471",
+          "text": "Beer"
+        },
+        {
+          "id": "473",
+          "text": "Cocktail"
+        },
+        {
+          "id": "578",
+          "text": "Merchandise"
+        }
+      ],
+      "libraryRuntimeProductCount": 26,
+      "categoriesVisibilityOverride": [],
+      "status": "verified-local-native-runtime-categories-and-product-count",
+      "meaning": "Widget resolves local Site catalogue; no product records or category IDs were copied by this pilot",
+      "commerceCheckoutVerified": false
+    },
+    "evidence": [
+      {
+        "path": "evidence/library-k-food-pilot/library-master-before.json",
+        "sha256": "26e1c8c9d6bcc7fa38dd84862d795986be979c32b7f3d6fea65ae7dc00622497"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/library-master-section-25153.css",
+        "sha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/library-master-independence-check.json",
+        "sha256": "b4629b4dc9357c7c7a484f2807547642d78f2ad061a2c2f2cb7b30091f910c93"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/library-master-section-25153-after-local-edit.css",
+        "sha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/destination-menu-before-local-edit.json",
+        "sha256": "04bdbbd26a45b6b19820ccb05cd4049cba42e7e3638dd9cdfe1e0e2806f9cbc5"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/destination-section-25155.css",
+        "sha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/destination-section-25155-settings.json",
+        "sha256": "54896df216a05231cc501a3cd5a66a8691e06767f1048086ca07db462322c227"
+      },
+      {
+        "path": "evidence/library-k-food-pilot/destination-style-before-reopen.json",
+        "sha256": "c20916c92c70cd9ee89d3950fca794b63defd8e51b59b9c78c8b34387b163a73"
+      }
+    ],
+    "existingDestinationPages": {
+      "count": 6,
+      "status": "unchanged; only one new carrier Page imported"
+    },
+    "publication": "source carrier, Library master and destination carrier all unpublished",
+    "existingPageInsertion": "not-tested; successful separate Page import does not prove Section insertion",
+    "nativeScopeIssue": {
+      "status": "pending-action-time-confirmation",
+      "trigger": "Local internal Section Name changed from Food K - Clubhouse Kitchen to Food - Clubhouse Kitchen",
+      "actualRootClass": "fdp-k-food section-food---clubhouse-kitchen-25155 q-px-xs section-food---clubhouse-kitchen-25155 zoom",
+      "actualGeneratedRoot": "section-food---clubhouse-kitchen-25155",
+      "staleCompiledGeneratedRoot": "section-food-k---clubhouse-kitchen-25155",
+      "observedHeadingFont": "Roboto, -apple-system, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "expectedHeadingFont": "Georgia, Times New Roman, serif",
+      "reopeningPageFixedIssue": false,
+      "destinationVisualQa": "not-passed; native scoped style does not match renamed root",
+      "refreshProposal": "destination-scope-refresh.proposed.css",
+      "refreshProposalSha256": "fac22b6cf5a6ec54a2b9039f0885ee99eb7116a2b6512af869ee6c544074f48a",
+      "refreshProposalChange": "One appended comment only; comment-stripped CSS and dependencies unchanged",
+      "routineEditing": "Edit Heading and Description for customer-facing copy. Keep internal Name stable; renaming requires a maintainer scope check."
+    }
+  },
+  "package": {
+    "carrierPageTitleProposed": "variant-k-clubhouse_food",
+    "carrierPageCss": "",
+    "sectionCount": 1,
+    "nativeWidgetType": "Concessions Menu",
+    "sectionClasses": "fdp-k-food",
+    "sectionCss": "section.proposed.css",
+    "sectionCssSha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee",
+    "cssField": "Section Settings > Custom CSS",
+    "cssScopingSyntax": "&.fdp-k-food",
+    "nativeThemeInputsRead": [
+      "--q-background",
+      "--q-dark",
+      "--q-primary"
+    ],
+    "nativeThemeInputsWritten": [],
+    "privateAliasesRead": [],
+    "sourceSiteOrGeneratedIdSelectors": [],
+    "pageCssRequired": false,
+    "sourceSiteThemeCssRequired": false,
+    "customBlockRequired": false,
+    "sourceProductRecordsIncluded": false,
+    "externalFontImportsRequired": [],
+    "systemFontStacks": [
+      [
+        "Georgia",
+        "serif"
+      ],
+      [
+        "Georgia",
+        "Times New Roman",
+        "serif"
+      ],
+      [
+        "Arial",
+        "Helvetica Neue",
+        "sans-serif"
+      ]
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "native-concessions-runtime",
+      "owner": "INDY",
+      "kind": "native-widget",
+      "required": true,
+      "action": "Retain the native widget; do not replace live catalogue markup with static HTML."
+    },
+    {
+      "id": "destination-theme-palette",
+      "owner": "destination-site",
+      "kind": "native-theme",
+      "required": true,
+      "action": "Configure Primary, Dark and Background, then check rendered text and all native control states."
+    },
+    {
+      "id": "destination-catalogue",
+      "owner": "destination-site",
+      "kind": "data",
+      "required": true,
+      "action": "Bind destination items, categories, variations, prices, descriptions and images. Confirm Website sales-channel availability."
+    },
+    {
+      "id": "native-widget-configuration",
+      "owner": "module",
+      "kind": "configuration",
+      "required": true,
+      "action": "Copy currentNativeWidgetConfiguration and currentSectionSettings. Keep category override empty unless destination requirements explicitly change it; do not copy rendered category IDs."
+    },
+    {
+      "id": "module-section-css",
+      "owner": "module",
+      "kind": "style",
+      "required": true,
+      "action": "Carry the fdp-k-food class and the complete proposed Section CSS; leave carrier Page CSS empty."
+    },
+    {
+      "id": "destination-global-css-review",
+      "owner": "destination-site",
+      "kind": "compatibility",
+      "required": true,
+      "action": "Check destination global selectors for overrides during actual import; arbitrary global CSS cannot be guaranteed harmless."
+    }
+  ],
+  "notPartOfModule": [
+    "K Welcome",
+    "K Featured",
+    "K Reserve",
+    "Private Parties K - Gather Your People",
+    "K Stay Awhile",
+    "Membership K - Your Place In The Clubhouse",
+    "Contact K - Say Hello",
+    "global header/navigation",
+    "global footer",
+    "source-site Google Fonts imports"
+  ],
+  "sourceCouplingAudit": {
+    "savedSectionUsesGeneratedIdOrPageSelector": false,
+    "savedSectionDefinesOwnFdAliases": true,
+    "savedSectionContainsUnrelatedGenericFormBridge": true,
+    "savedSectionInheritsSourceSiteHeadingAndButtonTreatment": true,
+    "proposalChanges": [
+      "Use destination native palette variables directly; remove all private alias declarations and references.",
+      "Bring the source Theme heading/button/focus treatment inside the stable Section scope.",
+      "Bind observed subtitle/native body text and category button labels to Dark instead of native black defaults.",
+      "Remove unrelated Generic Form bridge and unused roles."
+    ]
+  },
+  "verification": {
+    "sourceRender": "published K checked previously at desktop and phone in two palettes",
+    "staticDependencyClosure": "run test_portability.py",
+    "isolatedNativeCarrier": "saved-draft-admin-preview-reviewed-consumer-isolation-pending",
+    "consumerTheme": "not-tested",
+    "realPhoneConsumerViewport": "not-tested",
+    "libraryTransfer": "verified-one-section-page-import-and-unlink",
+    "destinationCatalogueRebinding": "verified-local-native-runtime-categories-and-product-count",
+    "localCopyIndependence": "verified-destination-local-name-change-leaves-master-name-and-css-unchanged",
+    "destinationVisualQa": "not-passed-native-scope-refresh-pending",
+    "insertionIntoExistingPage": "not-tested",
+    "mobileApp": "not-tested"
+  },
+  "openQuestions": [
+    "Resolve and verify the native compiled-scope mismatch after the destination internal Section Name change; comment-only refresh awaits action-time confirmation.",
+    "Verify actual consumer rendering and phone geometry of the saved unpublished carrier; Admin-frame mobile has 3px overflow and uses outer viewport units.",
+    "Verify consumer Theme colors, real phone geometry and a controlled empty catalogue on the destination; no consumer publication occurred.",
+    "Verify Library update/version propagation separately; independent destination is already unlinked.",
+    "Verify a supported insertion operation separately from separate-Page Library import."
+  ],
+  "historicalReferenceCaveats": [
+    {
+      "path": "docs/INDY-LIBRARY.md",
+      "reason": "Earlier revision proposed the Experience-only module; current findings are maintained separately from these retained source hashes."
+    },
+    {
+      "path": "../library-research.md",
+      "reason": "Older inventory predates the native Clubhouse Kitchen food Section."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 toolbar
+			3 button
+			4 text INDY Admin
+			5 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+			6 switch 0
+			7 button
+			8 container
+				9 text Region US-BETA
+				10 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+			11 container
+				12 text Circuit INDY Demo
+				13 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+			14 container
+				15 text Site Adam Template Testing 2
+				16 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing 2, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+			17 button Menu
+		18 container
+			19 content list
+				20 container
+					21 text Operations
+			22 content list
+				23 container
+					24 text Reports
+			25 content list
+				26 container
+					27 text Settings
+			28 text Favorites
+			29 content list
+				30 container
+					31 text Theme and Style
+			32 content list
+				33 container
+					34 text Pages
+			35 content list
+				36 container
+					37 text Release Notes
+			38 content list
+				39 container
+					40 text How To Guides
+			41 content list
+				42 container
+					43 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+			44 content list
+				45 container
+					46 text Developer
+			47 switch Description: Demo Mode, Value: 0
+				48 text Demo Mode
+		49 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+		50 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+		51 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+		52 content list
+			53 container
+				54 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+					55 text Page Settings
+					56 text Manage site-wide page behaviour
+			57 container
+				58 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+					59 text Pages
+					60 text Create or manage page content, for desktop and mobile websites and apps
+				61 container
+					62 text Pages
+					63 button
+					64 button
+					65 container
+						66 text field (settable) f_221c0f75-210c-48c4-a4dd-247cd8334fb7
+						67 button
+					68 button SET ORDER
+					69 button ADD FROM LIBRARY
+					70 button CREATE PAGE
+					71 table
+						72 row
+							73 cell
+								74 text ID
+							75 cell
+								76 text Title
+							77 cell
+								78 text Slug
+							79 cell
+								80 text Sections
+							81 cell
+								82 text Views
+							83 cell
+								84 text Visibility
+							85 cell
+								86 text Library
+							87 cell
+								88 text Actions
+						89 row
+							90 cell
+								91 text 5969
+							92 cell
+								93 text variant-k-clubhouse_food
+							94 cell
+								95 text variant-k-clubhouse-food
+							96 cell
+								97 text 1
+							98 cell
+								99 button  Not Linked
+									100 text  Not Linked
+							101 cell
+								102 button
+								103 button
+								104 button EDIT
+								105 button
+						106 row
+							107 cell
+								108 text 5917
+							109 cell
+								110 text Variant L Midnight Lounge
+							111 cell
+								112 text variant-l-midnight-lounge
+							113 cell
+								114 text 9
+							115 cell
+								116 button  Not Linked
+									117 text  Not Linked
+							118 cell
+								119 button
+								120 button EDIT
+								121 button
+						122 row
+							123 cell
+								124 text 5915
+							125 cell
+								126 text Variant K Clubhouse
+							127 cell
+								128 text variant-k-clubhouse
+							129 cell
+								130 text 8
+							131 cell
+								132 button  Not Linked
+									133 text  Not Linked
+							134 cell
+								135 button
+								136 button EDIT
+								137 button
+						138 row
+							139 cell
+								140 text 5913
+							141 cell
+								142 text Variant J Box Office
+							143 cell
+								144 text variant-j-box-office
+							145 cell
+								146 text 9
+							147 cell
+								148 button  Not Linked
+									149 text  Not Linked
+							150 cell
+								151 button
+								152 button EDIT
+								153 button
+						154 row
+							155 cell
+								156 text 5911
+							157 cell
+								158 text Variant I Ma
+							159 cell
+								160 text variant-i-ma
+							161 cell
+								162 text 5
+							163 cell
+								164 button  Not Linked
+									165 text  Not Linked
+							166 cell
+								167 button
+								168 button EDIT
+								169 button
+						170 row
+							171 cell
+								172 text 5909
+							173 cell
+								174 text Variant H Storybook
+							175 cell
+								176 text variant-h-storybook
+							177 cell
+								178 text 5
+							179 cell
+								180 button  Not Linked
+									181 text  Not Linked
+							182 cell
+								183 button
+								184 button EDIT
+								185 button
+						186 row
+							187 cell
+								188 text 5905
+							189 cell
+								190 text Variant G Cut
+							191 cell
+								192 text variant-g-cut
+							193 cell
+								194 text 5
+							195 cell
+								196 button  Not Linked
+									197 text  Not Linked
+							198 cell
+								199 button
+								200 button EDIT
+								201 button
+						202 row
+							203 cell
+								204 text 5903
+							205 cell
+								206 text Variant F Concrete
+							207 cell
+								208 text variant-f-concrete
+							209 cell
+								210 text 10
+							211 cell
+								212 button  Not Linked
+									213 text  Not Linked
+							214 cell
+								215 button
+								216 button EDIT
+								217 button
+						218 row
+							219 cell
+								220 text 5901
+							221 cell
+								222 text Variant E Grid
+							223 cell
+								224 text variant-e-grid
+							225 cell
+								226 text 11
+							227 cell
+								228 button  Not Linked
+									229 text  Not Linked
+							230 cell
+								231 button
+								232 button EDIT
+								233 button
+						234 row
+							235 cell
+								236 text 5899
+							237 cell
+								238 text Variant D Odd
+							239 cell
+								240 text variant-d-odd
+							241 cell
+								242 text 10
+							243 cell
+								244 button  Not Linked
+									245 text  Not Linked
+							246 cell
+								247 button
+								248 button EDIT
+								249 button
+					250 text Records per page:
+					251 container
+						252 text 10
+						253 combo box (collapsed, settable) 10, ID: f_a22c6020-a816-43b7-b3e5-88dcd09fe7b1, Secondary Actions: Expand
+					254 text 1-10  of 41
+					255 button
+					256 button
+	257 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+	258 content list
+		259 text variant-k-clubhouse_food
+		260 container
+			261 button (disabled)  Force Update
+			262 text Force sync all content from the linked Library Page, to ensure everything is up to date.
+		263 container
+			264 radio button  Link to Library, Value: 1
+				265 text  Link to Library
+			266 text Connect this Page to the Library. It will receive automatic updates from the Library.
+		267 container
+			268 radio button (disabled)  Enable Updates, Value: 0
+				269 text  Enable Updates
+			270 text Stay linked to the Library and receive automatic updates.
+		271 container
+			272 radio button (disabled)  Disable Updates, Value: 0
+				273 text  Disable Updates
+			274 text Stay linked to the Library but without automatic updates.
+		275 button Save changes
+	276 content list
+		277 container
+			278 text Link  variant-k-clubhouse_food  to:
+		279 container
+			280 text field (settable) Clear, Value: variant-k-clubhouse_food, ID: f_8694d768-ced4-423a-9cc7-5d7e57b49f94
+			281 button Clear
+		282 container
+			283 text Create New Library Page
+			284 text Use this if no suitable match exists.
+
+The focused UI element is 285 container

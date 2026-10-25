@@ -1,0 +1,46 @@
+{
+  "buttons": [
+    {
+      "disabled": true,
+      "text": "SAVE"
+    },
+    {
+      "disabled": true,
+      "text": "SAVE AND CLOSE"
+    }
+  ],
+  "fields": [
+    {
+      "label": "Title",
+      "value": "variant-k-clubhouse_food"
+    },
+    {
+      "label": "URL Slug",
+      "value": "variant-k-clubhouse-food"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Description",
+      "value": ""
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": ""
+    }
+  ],
+  "sectionRows": [
+    "ID\tName\tType\tVisibility\tActions",
+    "25151\n\t\nFood K - Clubhouse Kitchen\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

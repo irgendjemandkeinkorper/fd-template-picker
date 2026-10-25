@@ -1,0 +1,20 @@
+  - textbox "Name"
+  - generic: Email
+  - textbox "Email"
+  - generic: Message
+  - textbox "Message"
+  - button "Send a hello":
+    - generic: Send a hello
+- menu [active]:
+  - list:
+    - generic: edit
+    - generic: Edit
+    - separator
+    - generic: content_copy
+    - generic: Duplicate
+    - separator
+    - generic: delete
+    - generic: Delete
+    - separator
+    - generic: history
+    - generic: View History
