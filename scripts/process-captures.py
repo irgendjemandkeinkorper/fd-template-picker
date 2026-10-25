@@ -13,7 +13,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageStat
 
 
 REPO = Path(__file__).resolve().parents[1]
@@ -130,6 +130,62 @@ def resolve_image(path, evidence_dir):
     raise FileNotFoundError(path)
 
 
+def repeated_viewport_period(image, viewport_height, scale):
+    """Find obvious repeated top viewports, not repeated colors or menu cards.
+
+    Full-page browser captures can silently repeat a stale viewport. Dimensions
+    alone still look valid. Require a detailed top band to match at two later
+    multiples of the same near-viewport period before rejecting the input.
+    """
+    if not viewport_height:
+        return None
+    viewport_pixels = float(viewport_height) * scale
+    band_height = min(300, max(1, round(viewport_pixels * .65)))
+    first_period = max(band_height, round(viewport_pixels * .6))
+    last_period = min(round(viewport_pixels * 1.6), (image.height - band_height) // 2)
+    if last_period < first_period:
+        return None
+    sample = image.resize((min(96, image.width), image.height), Image.Resampling.LANCZOS)
+    reference = sample.crop((0, 0, sample.width, band_height))
+    # A uniform page background is not evidence of a repeated viewport.
+    if sum(ImageStat.Stat(reference).stddev) / 3 < 16:
+        return None
+
+    def error_at(y):
+        other = sample.crop((0, y, sample.width, y + band_height))
+        return sum(ImageStat.Stat(ImageChops.difference(reference, other)).mean) / 3
+
+    for period in range(first_period, last_period + 1):
+        if error_at(period) <= 2 and error_at(period * 2) <= 2:
+            return period
+    return None
+
+
+def validate_tile_image(variant, image, css_width, css_height, filename):
+    """Reject dimension/scale contradictions before cropping any source pixels."""
+    label = variant.get("slug") or variant.get("id") or variant.get("variant") or "variant"
+    prefix = f"{label}: invalid capture {filename}: "
+    if not all(math.isfinite(value) and value > 0 for value in (css_width, css_height)):
+        raise ValueError(prefix + "CSS image dimensions must be positive finite numbers")
+    scale_x = image.width / css_width
+    expected_height = css_height * scale_x
+    # Permit rounded CSS geometry and a final missing pixel, but not a browser
+    # resize, stretched image or different X/Y scaling disguised as a full page.
+    if abs(image.height - expected_height) > max(2, expected_height * .01):
+        raise ValueError(prefix + f"inconsistent image scale (X {scale_x:.4f}, Y {image.height / css_height:.4f}); recapture at a stable viewport")
+    viewport = variant.get("viewport", {})
+    section_clip = variant.get("captureMethod") == "live-browser-section-clips"
+    viewport_width = viewport.get("width")
+    if not section_clip and viewport_width and abs(css_width - float(viewport_width)) > 2:
+        raise ValueError(prefix + "tile CSS width differs from the recorded viewport; recapture without resizing")
+    if variant.get("captureMethod") == "live-browser-full-page":
+        period = repeated_viewport_period(image, viewport.get("height"), scale_x)
+        if period:
+            raise ValueError(prefix + f"repeated top viewport every {period} image pixels; use fresh overlapping viewport captures")
+    elif not section_clip and viewport.get("height") and abs(css_height - float(viewport["height"])) > 2:
+        raise ValueError(prefix + "tile CSS height differs from the recorded viewport; recapture without resizing")
+
+
 def load_tiles(variant, evidence_dir):
     tiles = []
     for item in variant.get("tiles", []):
@@ -137,11 +193,12 @@ def load_tiles(variant, evidence_dir):
         path = resolve_image(filename, evidence_dir)
         im = Image.open(path).convert("RGB")
         css_width = float(item.get("cssWidth", item.get("width", im.width)))
+        requested_height = float(item.get("cssHeight", item.get("height", im.height)))
+        validate_tile_image(variant, im, css_width, requested_height, filename)
         # CUA metadata rounds viewport height to an integer; its screenshot is
         # uniformly scaled. Recover the fractional height from that same scale
         # to avoid incorrectly reporting a missing final pixel at the page end.
         native_height = im.height / (im.width / css_width)
-        requested_height = float(item.get("cssHeight", item.get("height", im.height)))
         if variant.get("captureMethod") == "live-browser-full-page":
             # Native full-page captures have uniform pixel scale. A rounded
             # scrollHeight can exceed the actual image by one bottom pixel;
@@ -150,16 +207,30 @@ def load_tiles(variant, evidence_dir):
         else:
             css_height = float(item["cssHeight"]) if item.get("cssHeight") is not None else max(requested_height, native_height)
         scale_x, scale_y = im.width / css_width, im.height / css_height
+        if tiles and abs(scale_x - tiles[0]["scaleX"]) > max(.01, tiles[0]["scaleX"] * .01):
+            raise ValueError(f"{variant.get('slug', 'variant')}: screenshot scale changed between viewport tiles; recapture without resizing")
         header = rect_of(variant.get("header", {}))
         # Variant F uses a fixed left sidebar. It never covers content below
         # the top edge, and the content rectangles already exclude its width.
         top_overlay = header["height"] if header["width"] > css_width * .75 else 0
+        if variant.get("captureMethod") == "live-browser-section-clips":
+            top_overlay = 0  # Exact document clips already exclude any overlay.
         tiles.append({**item, "imageObject": im, "resolvedPath": str(path),
                       "scrollY": float(item.get("scrollY", item.get("y", 0))),
                       "width": css_width, "height": css_height,
                       "headerHeight": item.get("headerHeight", top_overlay),
                       "scaleX": scale_x, "scaleY": scale_y})
     return sorted(tiles, key=lambda tile: tile["scrollY"])
+
+
+def preflight_captures(variants, evidence_dir, variant_metadata=None):
+    """Validate every input before main writes or replaces any output assets."""
+    variant_metadata = variant_metadata or {}
+    for variant in variants:
+        slug = variant.get("slug") or variant.get("id") or variant.get("variant")
+        tiles = load_tiles({**variant, **variant_metadata.get(slug, {})}, evidence_dir)
+        for tile in tiles:
+            tile["imageObject"].close()
 
 
 def crop_section(bounds, tiles, include_header=False):
@@ -321,6 +392,7 @@ def main():
     parser.add_argument("--output", default=str(WORKSPACE / "evidence" / "captured-options.json"))
     parser.add_argument("--baseline", help="Preserve unchanged variants from this earlier capture manifest.")
     parser.add_argument("--metadata", help="Reviewed metadata sidecar matched by variant, slot, and exact published section IDs.")
+    parser.add_argument("--validate-only", action="store_true", help="Check every input image without writing screenshots, a manifest or a contact sheet.")
     args = parser.parse_args()
     input_path = Path(args.input)
     data = json.loads(input_path.read_text(encoding="utf-8-sig"))
@@ -347,6 +419,12 @@ def main():
         if absent:
             raise ValueError("Reviewed published sources are absent from the capture manifest: " +
                              ", ".join(f"{item['variant']}/{item.get('slot', item.get('slotId'))}/{item.get('sectionIds', [])}" for item in absent))
+    # A late invalid variant must not leave earlier screenshots replaced by a
+    # half-completed ingestion. Preflight all files, then crop the valid set.
+    preflight_captures(variants, input_path.parent, variant_metadata)
+    if args.validate_only:
+        print(f"Validated {len(variants)} capture manifests; no output files were written.", flush=True)
+        return
     options = []
     observed_variants = []
     for variant in variants:

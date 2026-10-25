@@ -18,10 +18,18 @@ export function componentForOption(slot, option) {
 }
 
 const noteText = (notes) => Array.isArray(notes) ? notes.join(' ') : notes ?? '';
+export const visualCaptureKey = (option) => JSON.stringify([option.image ?? null, option.width ?? null, option.height ?? null, option.capture?.capturedAt ?? null, option.sectionIds ?? []]);
+export function visualReviewForOption(option) {
+  const review = option.visualReview;
+  const current = Boolean(review && review.captureKey === visualCaptureKey(option));
+  return { ...(review ?? {}), status: current ? review.status : 'not-reviewed', current,
+    notes: current ? noteText(review.notes) : 'This preview has not been checked against its label.' };
+}
 const captureState = (option) => option.captureStatus === 'not-rendered' ? 'not-visible'
   : (option.captureStatus === 'partial' || option.capture?.mode === 'partial') ? 'partial-capture'
     : option.captureStatus === 'captured-live' && option.image && option.width > 0 && option.height > 0 && option.capture?.mode === 'live'
-      && !option.capture.appearanceAltered && !option.capture.sampleDataInjected ? 'captured' : 'capture-pending';
+      && !option.capture.appearanceAltered && !option.capture.sampleDataInjected
+      ? ({ passed: 'captured', rejected: 'visual-rejected', 'needs-review': 'visual-review' }[visualReviewForOption(option).status] ?? 'visual-pending') : 'capture-pending';
 function assessOption(catalog, slot, option, variant = option.variant) {
   const component = componentForOption(slot, option);
   const audit = catalog.componentAudit?.find((entry) => entry.variant === variant && entry.component === component);
@@ -29,7 +37,8 @@ function assessOption(catalog, slot, option, variant = option.variant) {
   return { component, sourceStatus,
     status: sourceStatus === 'missing' ? 'missing-source' : sourceStatus === 'partial' ? 'partial-source'
       : sourceStatus === 'unverified' ? 'needs-audit' : captureState(option),
-    notes: noteText(option.componentNote || audit?.notes), auditedAt: option.componentAuditedAt ?? audit?.auditedAt ?? null };
+    notes: noteText(option.componentNote || audit?.notes), auditedAt: option.componentAuditedAt ?? audit?.auditedAt ?? null,
+    visualReview: visualReviewForOption(option) };
 }
 
 export function buildCoverage(catalog) {
@@ -40,7 +49,7 @@ export function buildCoverage(catalog) {
         .filter((option) => (option.sharedBy ?? [option.variant]).includes(variant.id) && componentForOption(slot, option) === component.id)
         .map((option) => ({ slot, option })));
       const audit = catalog.componentAudit?.find((entry) => entry.variant === variant.id && entry.component === component.id);
-      const rank = { captured: 0, 'partial-capture': 1, 'capture-pending': 2, 'not-visible': 3, 'partial-source': 4, 'needs-audit': 5, 'missing-source': 6 };
+      const rank = { captured: 0, 'visual-pending': 1, 'visual-review': 2, 'visual-rejected': 3, 'partial-capture': 4, 'capture-pending': 5, 'not-visible': 6, 'partial-source': 7, 'needs-audit': 8, 'missing-source': 9 };
       matches.sort((a, b) => rank[assessOption(catalog, a.slot, a.option, variant.id).status] - rank[assessOption(catalog, b.slot, b.option, variant.id).status]);
       const match = matches[0];
       const assessment = match ? assessOption(catalog, match.slot, match.option, variant.id) : null;
@@ -50,14 +59,15 @@ export function buildCoverage(catalog) {
       return { component: component.id, label: component.label, status, sourceStatus,
         slotId: match?.slot.id ?? null, optionId: match?.option.id ?? null,
         notes: assessment?.notes || noteText(audit?.notes), auditedAt: assessment?.auditedAt ?? audit?.auditedAt ?? null,
-        designNote: match?.option.designNote ?? null };
+        designNote: match?.option.designNote ?? null, visualReview: assessment?.visualReview ?? null };
     });
     const captured = components.filter((component) => component.status === 'captured').length;
-    return { variant: variant.id, label: variant.label, captured, total: REQUIRED_COMPONENTS.length,
+    return { variant: variant.id, label: variant.label, captured, sourcePresent: components.filter((component) => component.sourceStatus === 'present').length, total: REQUIRED_COMPONENTS.length,
       complete: captured === REQUIRED_COMPONENTS.length, components };
   });
   return { scope: 'catalog', required: REQUIRED_COMPONENTS, rows,
     captured: rows.reduce((total, row) => total + row.captured, 0),
+    sourcePresent: rows.reduce((total, row) => total + row.sourcePresent, 0),
     total: rows.length * REQUIRED_COMPONENTS.length,
     completeVariants: rows.filter((row) => row.complete).length };
 }
@@ -72,7 +82,7 @@ export function buildSelectionCoverage(catalog, state) {
     return { component: component.id, label: component.label, ...(match ?? { status: 'missing-selection', sourceStatus: null, slotId: null, optionId: null, variant: null, notes: 'No matching component is included in this selection.' }) };
   });
   const captured = components.filter((component) => component.status === 'captured').length;
-  return { scope: 'included-selection', captured, total: REQUIRED_COMPONENTS.length, complete: captured === REQUIRED_COMPONENTS.length, components };
+  return { scope: 'included-selection', captured, sourcePresent: components.filter((component) => component.sourceStatus === 'present').length, total: REQUIRED_COMPONENTS.length, complete: captured === REQUIRED_COMPONENTS.length, components };
 }
 
 export function createModel(catalog) {
@@ -181,12 +191,14 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
       return {
         position: i + 1, slot: slotId, slotLabel: slot.label, included: !state.excluded[slotId],
         optionId: option.id, variant: option.variant, variantLabel: option.variantLabel,
+        displayName: option.name, sourceName: option.sourceName ?? option.name, sourceAliasNote: option.sourceAliasNote ?? null,
         sharedBy: option.sharedBy ?? [option.variant], components: option.components,
         sourceUrl: option.sourceUrl, sourcePageTitle: option.sourcePageTitle ?? option.variant,
         publishedPageId: option.pageId ?? null, draftPageId: option.draftId ?? null,
         adminUrl: option.adminUrl ?? null, sectionIds: option.sectionIds ?? [], draftSectionIds: option.draftSectionIds ?? [],
         screenshot: absolute(option.image), screenshots: Object.fromEntries(Object.entries(option.screenshots ?? { desktop: { image: option.image, width: option.width, height: option.height } }).map(([device, capture]) => [device, { ...capture, image: absolute(capture.image) }])),
         captureStatus: option.captureStatus ?? null, capture: option.capture ?? null, library: libraryPlan(slot, option),
+        visualReview: assessment.visualReview,
         canonicalComponent: componentForOption(slot, option),
         componentGroup: MOVIE_COMPONENTS.has(slotId) ? 'optional-movie-module' : componentForOption(slot, option) ? 'required-component' : 'additional-section',
         componentStatus: assessment.component ? assessment.sourceStatus : null,
@@ -204,7 +216,7 @@ export function buildHandoff(data) {
     'This is a visual selection and transfer plan. It does not create INDY pages or prove that Library copies are ready.', ''];
   if (data.selectionComponentCoverage) {
     const coverage = data.selectionComponentCoverage;
-    lines.push(`Required components in this selection: ${coverage.captured}/${coverage.total} captured.`, '');
+    lines.push(`Required source components in this selection: ${coverage.sourcePresent}/${coverage.total} present.`, `Required previews visually checked: ${coverage.captured}/${coverage.total}.`, '');
     for (const component of coverage.components.filter((entry) => entry.status !== 'captured')) lines.push(`- ${component.label}: ${component.status.replaceAll('-', ' ')}. ${component.notes}`);
     lines.push('', 'Movie discovery and booking modules are optional design choices while native layouts are verified.', '');
   }
@@ -216,6 +228,8 @@ export function buildHandoff(data) {
       `- Transfer object: ${section.library.proposedPageTitle || 'Site-level configuration'}`,
       `- Transfer policy: ${section.library.importPolicy}`);
     lines.push(`- Transfer notes: ${section.library.notes}`);
+    lines.push(`- Preview review: ${section.visualReview?.status ?? 'not-reviewed'}. ${section.visualReview?.notes ?? ''}`);
+    if (section.sourceAliasNote) lines.push(`- Source alias: ${section.sourceAliasNote}`);
     if (section.componentStatus === 'partial') lines.push(`- Required component coverage: partial ${section.canonicalComponent ?? 'source section'}; review before use.`);
     if (section.componentNote) lines.push(`- Component audit: ${section.componentNote}`);
     if (section.designNote) lines.push(`- Design review: ${section.designNote}`);

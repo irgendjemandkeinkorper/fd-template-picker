@@ -76,6 +76,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-a-circuit.jpg\",1521,57,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Black horizontal bar: logo, Home/Films/Menu & Bar/Visit/Membership/Events & Late Nights/Private Events and utility icons.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "46dddd8d2b1ac5df2ddcc6747a6587d13de2ab0690f31e3b8e674226af456203"
           }
         },
         {
@@ -94,7 +104,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/header/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 135,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -112,24 +122,24 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [],
             "sourceBounds": {
               "x": 0,
               "y": 0,
-              "width": 1536,
+              "width": 1520.800048828125,
               "height": 134.5625
             },
             "captureBounds": {
               "x": 0,
               "y": 0,
-              "width": 1536,
+              "width": 1521,
               "height": 135
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-header-clip.jpg",
                 "scrollY": 0,
                 "sourceDocumentY": [
                   0,
@@ -148,6 +158,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-b-rep.jpg\",1521,135,\"2026-10-25T15:29:29.848Z\",[]]",
+            "imageSha256": "16630fcf4c3924889e582d2cd0e38e4cd35fe3241d17d9bd7e698746a25f294b",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "Centre logo and all seven navigation labels are visible in the corrected direct clip; no material clipping.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -184,14 +204,14 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:40:28.787Z",
+            "method": "live-browser-section-clips",
             "selectors": [],
             "sourceBounds": {
               "x": 0,
               "y": 0,
-              "width": 1520.800048828125,
-              "height": 64.80000305175781
+              "width": 1520.8,
+              "height": 64.8
             },
             "captureBounds": {
               "x": 0,
@@ -201,7 +221,7 @@
             },
             "evidence": [
               {
-                "image": "variant-c-late-tile-0.jpg",
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/c-navigation.jpg",
                 "scrollY": 0,
                 "sourceDocumentY": [
                   0,
@@ -219,6 +239,18 @@
             "sampleDataInjected": false,
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
+            ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-c-late.jpg\",1521,65,\"2026-10-25T15:40:28.787Z\",[]]",
+            "imageSha256": "2e1ab7480a70b89b74996d9b81e162b846fdaed9adf0f570bda492276a57dd4d",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "All seven navigation labels are visible in the corrected capture.",
+            "issues": [],
+            "evidence": [
+              "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/c-navigation.jpg"
             ]
           }
         },
@@ -292,6 +324,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-d-odd.jpg\",1521,153,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream scrapbook-style header: tilted logo card, visible link chips, Private Events button, utility icons.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "ae658bae9b1b57606c5c20c6f7d0f32f725f117f4321ff76e0c25ee055f923df"
           }
         },
         {
@@ -364,6 +406,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-e-grid.jpg\",1521,65,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark plum horizontal bar: logo, visible navigation labels and Private Events button, utility icons.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "e810faa048da1e3000ba85bb187d604c7c86bddac3a1db81a3cf6eb4c03869ab"
           }
         },
         {
@@ -442,6 +494,16 @@
             "kind": "sidebar",
             "width": 240,
             "canvasWidth": 1520.800048828125
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-f-concrete.jpg\",240,639,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Vertical dark plum sidebar: numbered Home/Films/Menu & Bar/Visit/Membership/Events & Late Nights, Private Events button and utility icons at bottom.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "bed5a512df2ffe13e6eb81abe1b10bfe40d96b8e0db34d464dc21d7a883cf1f4"
           }
         },
         {
@@ -515,6 +577,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-g-cut.jpg\",1536,99,\"2026-10-25T14:09:57.788Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+            "issues": [
+              "shared-navigation-design"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "ef89bd064d0a8d268be75539a158d5bba9e13303ce212ab5ba3e5d332ae44069"
           }
         },
         {
@@ -588,6 +662,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-h-storybook.jpg\",1536,99,\"2026-10-25T13:42:57.456Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+            "issues": [
+              "shared-navigation-design"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "f4ca250ae184d9da916b5c4b42a4195e17cf103b7afbf0c2162a13f04bccf5b2"
           }
         },
         {
@@ -661,6 +747,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-i-ma.jpg\",1536,99,\"2026-10-25T13:43:02.134Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+            "issues": [
+              "shared-navigation-design"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "d6dd6d8727a4122f01a5239a03d8cfb9de0d26461ad696808cfb8f26ab2a0003"
           }
         },
         {
@@ -734,6 +832,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-j-box-office.jpg\",1536,99,\"2026-10-25T14:18:50.101Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+            "issues": [
+              "shared-navigation-design"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "a825768678429cb827df604e94707689404638bdb4ec7d2f8b665978dc54e61b"
           }
         },
         {
@@ -807,6 +917,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-k-clubhouse.jpg\",1536,99,\"2026-10-25T14:16:44.201Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+            "issues": [
+              "shared-navigation-design"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "be6a530aeea971cd4f5af3fe235c2b1087cb11005d94fab252eb228e20d11449"
           }
         },
         {
@@ -880,6 +1002,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/header/variant-l-midnight-lounge.jpg\",1536,99,\"2026-10-25T14:17:36.494Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+            "issues": [
+              "shared-navigation-design"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "72e917946de5c76dea40cefa44aca726345881f17d029613b6fa69092bcd045e"
           }
         }
       ]
@@ -977,6 +1111,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-a-circuit.jpg\",1521,952,\"2026-10-25\",[\"23738\",\"23739\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Ghost in the Shell image with film caption and four showtime cards beneath.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6f03b2a0bf84357b6fb450694b2894caaece083df976e059a17492db1703dd05"
           }
         },
         {
@@ -995,7 +1139,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/hero/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 907,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -1015,27 +1159,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-hero-b---plate-and-note-23741"
             ],
             "sourceBounds": {
               "x": 0,
               "y": 135,
-              "width": 1536,
+              "width": 1520.800048828125,
               "height": 906.5875244140624
             },
             "captureBounds": {
               "x": 0,
               "y": 135,
-              "width": 1536,
+              "width": 1521,
               "height": 907
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-section-0.jpg",
+                "scrollY": 135,
                 "sourceDocumentY": [
                   135,
                   1042
@@ -1053,6 +1197,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-b-rep.jpg\",1521,907,\"2026-10-25T15:29:29.848Z\",[\"23741\"]]",
+            "imageSha256": "0ae219143b758101c80d42d4df3f7de717f1040504ae3b0f63e2b2dd460bcbb4",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "One complete Katy Perry photo and readable film title/description; no repeated viewport or sticky overlay.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -1144,6 +1298,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-c-late.jpg\",1521,705,\"2026-10-25\",[\"23744\",\"23745\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Pulp band image with film title and three-column Screen/Kitchen/Late information strip.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6eacad9c143662bd1099d1700d2d501db0666d8a1f91859e1c7c8bf96576c6ef"
           }
         },
         {
@@ -1164,7 +1328,7 @@
           ],
           "image": "screenshots/hero/variant-d-odd.jpg",
           "width": 1521,
-          "height": 515,
+          "height": 845,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
           "sourcePageTitle": "Variant D Odd",
           "pageId": 5899,
@@ -1184,8 +1348,8 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:45:35.559Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-hero-d---collage-24790",
               ".section-hero-d---ruth-line-24791"
@@ -1194,37 +1358,25 @@
               "x": 0,
               "y": 153,
               "width": 1520.800048828125,
-              "height": 515.5
+              "height": 845.2999877929688
             },
             "captureBounds": {
               "x": 0,
               "y": 153,
               "width": 1521,
-              "height": 515
+              "height": 845
             },
             "evidence": [
               {
-                "image": "variant-d-odd-tile-0.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/d-hero.jpg",
+                "scrollY": 153,
                 "sourceDocumentY": [
                   153,
-                  639
+                  998
                 ],
                 "outputY": [
                   0,
-                  486
-                ]
-              },
-              {
-                "image": "variant-d-odd-tile-1.jpg",
-                "scrollY": 415.2000122070313,
-                "sourceDocumentY": [
-                  639,
-                  668
-                ],
-                "outputY": [
-                  486,
-                  515
+                  845
                 ]
               }
             ],
@@ -1235,6 +1387,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-d-odd.jpg\",1521,845,\"2026-10-25T15:45:35.559Z\",[\"24790\",\"24791\"]]",
+            "imageSha256": "41234e986b62d6666c0678180fdbb37ba0b9fb6ed33dc794aa1a1590c1c66136",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Actual Pulp band photo in tilted paper frame, green Now Screening tag, full black film heading, Explore Films action and Ruth-line caption. The previous black-on-black failure is resolved. Small purple source-header decorative sliver at the top edge; no content is obscured or cut off.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         },
         {
@@ -1326,13 +1488,23 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-e-grid.jpg\",1521,642,\"2026-10-25\",[\"24806\",\"24807\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Fast and Furious film photo, black product information panel, booking selector strip.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "bf8e219b66e9fd15b1ffb1e63dd8e671b626d400f0b401c01da5c4ac76465cff"
           }
         },
         {
           "id": "hero--variant-f-concrete",
           "variant": "variant-f-concrete",
           "variantLabel": "F · Concrete",
-          "name": "Hero F - Index Sheet + Hero F - Reference Print",
+          "name": "Hero F - Index & Text Introduction",
           "canonicalComponent": "hero",
           "componentStatus": "present",
           "componentNote": "",
@@ -1346,7 +1518,7 @@
           ],
           "image": "screenshots/hero/variant-f-concrete.jpg",
           "width": 1281,
-          "height": 1328,
+          "height": 1040,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -1366,8 +1538,8 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-hero-f---index-sheet-24826",
               ".section-hero-f---reference-print-24828"
@@ -1376,17 +1548,17 @@
               "x": 240,
               "y": 0,
               "width": 1280.800048828125,
-              "height": 1328
+              "height": 1039.8000183105469
             },
             "captureBounds": {
               "x": 240,
               "y": 0,
               "width": 1281,
-              "height": 1328
+              "height": 1040
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-0.jpg",
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-0.jpg",
                 "scrollY": 0,
                 "sourceDocumentY": [
                   0,
@@ -1398,27 +1570,15 @@
                 ]
               },
               {
-                "image": "variant-f-concrete-tile-1.jpg",
-                "scrollY": 415.2000122070313,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-1.jpg",
+                "scrollY": 639,
                 "sourceDocumentY": [
                   639,
-                  1054
+                  1040
                 ],
                 "outputY": [
                   639,
-                  1054
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-2.jpg",
-                "scrollY": 831.2000122070312,
-                "sourceDocumentY": [
-                  1054,
-                  1328
-                ],
-                "outputY": [
-                  1054,
-                  1328
+                  1040
                 ]
               }
             ],
@@ -1429,7 +1589,22 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
-          }
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-f-concrete.jpg\",1281,1040,\"2026-10-25T15:46:30.613Z\",[\"24826\",\"24828\"]]",
+            "imageSha256": "9c6d51c2de307ab2f7d0bbec4b27c509ff7f15ce540b853f9eddb560a2fb31e7",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "The index is readable, but the Reference Print area still needs an image.",
+            "issues": [
+              "missing-source-image"
+            ],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
+          },
+          "sourceName": "Hero F - Index Sheet + Hero F - Reference Print",
+          "displayName": "Hero F - Index & Text Introduction",
+          "sourceAliasNote": "Reference Print configured without image; preview includes index and text placeholder"
         },
         {
           "id": "hero--variant-g-cut",
@@ -1505,6 +1680,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-g-cut.jpg\",1536,520,\"2026-10-25T14:09:57.788Z\",[\"24850\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Black poster panel with large tilted CUT TO PICTURE type and yellow Tickets button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6f03f042aafc7a0ef027e779bece20cbd5e743a8086b344ca97ae32feea40b1f"
           }
         },
         {
@@ -1581,6 +1766,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-h-storybook.jpg\",1536,536,\"2026-10-25T13:42:57.456Z\",[\"24864\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Pink panel surrounding a cream/black frame: Once upon a picture and Reserve Seats button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "8e3cc049920a7c924cfbe81058faccacbca28ee6081362b3029f7b991f93c314"
           }
         },
         {
@@ -1657,6 +1852,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-i-ma.jpg\",1536,736,\"2026-10-25T13:43:02.134Z\",[\"24872\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream panel with Ghost in the Shell still, small vertical text and red square.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "2c73383b2ece5c127fc5910660b720b789e31ea436410f040acddc544caad3df"
           }
         },
         {
@@ -1734,6 +1939,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-j-box-office.jpg\",1536,131,\"2026-10-25T14:18:50.101Z\",[\"24885\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short brown text-only TONIGHT AT THE BOX OFFICE introduction.",
+            "issues": [
+              "hero-is-short-text-introduction"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "233178db779f84381bc7d4e3b30a7385f401a6c8dac994845a60dcbe57da5b4c"
           }
         },
         {
@@ -1813,6 +2030,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-k-clubhouse.jpg\",1536,117,\"2026-10-25T14:16:44.201Z\",[\"24895\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short orange text-only WELCOME TO THE CLUBHOUSE introduction.",
+            "issues": [
+              "hero-is-short-text-introduction"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "ca58d310176bf511eb9878a9a273b67e91c981c9e7b978a6246b426dc0600182"
           }
         },
         {
@@ -1890,6 +2119,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/hero/variant-l-midnight-lounge.jpg\",1536,131,\"2026-10-25T14:17:36.494Z\",[\"24905\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short purple text-only MEET ME AT MIDNIGHT introduction.",
+            "issues": [
+              "hero-is-short-text-introduction"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "0d103fcc3fe6df274a0a65eea5cab538e4e2d29af54ca4e5e0ecfbbb9ee16a40"
           }
         }
       ]
@@ -1992,6 +2233,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/now-playing/variant-a-circuit.jpg\",1521,475,\"2026-10-25\",[\"23753\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark NOW PLAYING heading and Nothing Scheduled empty state. No film cards or Departure Board content.",
+            "issues": [
+              "empty-movie-widget-only"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "fa66c680a6717fe478b914ee402564d691990b02bf16bfbbb4d153d6f59874c6"
           }
         },
         {
@@ -2064,6 +2317,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/now-playing/variant-j-box-office.jpg\",1536,335,\"2026-10-25T14:18:50.101Z\",[\"24887\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Brown NOW SHOWING heading and Nothing Scheduled empty state.",
+            "issues": [
+              "empty-movie-widget-only"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "dcf887b7301f55c59fd04938d1ffe5c2d3644e8e9c5c35453a10589737732980"
           }
         },
         {
@@ -2138,6 +2403,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/now-playing/variant-k-clubhouse.jpg\",1536,189,\"2026-10-25T14:16:44.201Z\",[\"24896\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Brown SELECTED FOR THE CLUB heading and faint NO MOVIES HERE empty state.",
+            "issues": [
+              "empty-movie-widget-only"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "62e5b88d83e093d32d2325756c872948fddb317345af9a1574ceab9d92c005c4"
           }
         },
         {
@@ -2198,6 +2475,15 @@
               "Published component has zero visible height.",
               "This published section currently renders at zero height, so no visible screenshot is available."
             ]
+          },
+          "visualReview": {
+            "status": "not-reviewed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[null,1536,0,\"2026-10-25T14:17:36.494Z\",[\"24907\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Zero-height section with no screenshot.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json"
           }
         }
       ]
@@ -2292,6 +2578,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-a-circuit.jpg\",1521,534,\"2026-10-25\",[\"23724\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Private Hire rate-card grid containing six occasions and Enquire links.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "4150edd7f48239bda3be4573bcef61a3b65766056c1253880df0a029db2bae25"
           }
         },
         {
@@ -2310,7 +2606,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/events/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 798,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -2332,27 +2628,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-private-parties-b---your-own-evening-25134"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 7533.3125,
-              "width": 1536,
+              "y": 7533.312606811523,
+              "width": 1520.800048828125,
               "height": 797.25
             },
             "captureBounds": {
               "x": 0,
               "y": 7533,
-              "width": 1536,
+              "width": 1521,
               "height": 798
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-party.jpg",
+                "scrollY": 7533.312606811523,
                 "sourceDocumentY": [
                   7533,
                   8331
@@ -2370,6 +2666,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-b-rep.jpg\",1521,798,\"2026-10-25T15:29:29.848Z\",[\"25134\"]]",
+            "imageSha256": "61d74ccbea472dbb7296a90a40a75de46d7922b8a7720f1dcf4e6f00a6173145",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "An evening of your own, introductory text, Make it your occasion, both paragraphs, CTA and all three occasion descriptions are visible.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -2470,6 +2776,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-c-late.jpg\",1521,768,\"2026-10-25\",[\"23728\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Burgundy horizontal occasion tickets: weddings, private hire, late show, supper club, company nights.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "c6416e1f38e1650e725ab1c83241faae43b4d5e5a074c43b0179ab60d23113dd"
           }
         },
         {
@@ -2582,6 +2898,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-d-odd.jpg\",1521,1526,\"2026-10-25\",[\"24793\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream noticeboard with taped, rotated private-hire occasion cards and enquiry links.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "5bbe19947bdb9a1861038176900dc042fe456b862f226695efe0279aeba5bfa6"
           }
         },
         {
@@ -2601,7 +2927,7 @@
           ],
           "image": "screenshots/events/variant-e-grid.jpg",
           "width": 1521,
-          "height": 2406,
+          "height": 1067,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
           "sourcePageTitle": "Variant E Grid",
           "pageId": 5901,
@@ -2620,8 +2946,8 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:45:32.331Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-events-e---packages-24809"
             ],
@@ -2629,85 +2955,25 @@
               "x": 0,
               "y": 707.2999877929688,
               "width": 1520.800048828125,
-              "height": 2405.60009765625
+              "height": 1067
             },
             "captureBounds": {
               "x": 0,
               "y": 707,
               "width": 1521,
-              "height": 2406
+              "height": 1067
             },
             "evidence": [
               {
-                "image": "variant-e-grid-tile-1.jpg",
-                "scrollY": 415.2000122070313,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-e-grid-0.jpg",
+                "scrollY": 707.2999877929688,
                 "sourceDocumentY": [
                   707,
-                  1054
+                  1774
                 ],
                 "outputY": [
                   0,
-                  347
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-2.jpg",
-                "scrollY": 831.2000122070312,
-                "sourceDocumentY": [
-                  1054,
-                  1470
-                ],
-                "outputY": [
-                  347,
-                  763
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-3.jpg",
-                "scrollY": 1246.4000244140625,
-                "sourceDocumentY": [
-                  1470,
-                  1886
-                ],
-                "outputY": [
-                  763,
-                  1179
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-4.jpg",
-                "scrollY": 1661.5999755859375,
-                "sourceDocumentY": [
-                  1886,
-                  2301
-                ],
-                "outputY": [
-                  1179,
-                  1594
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-5.jpg",
-                "scrollY": 2077.60009765625,
-                "sourceDocumentY": [
-                  2301,
-                  2717
-                ],
-                "outputY": [
-                  1594,
-                  2010
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-6.jpg",
-                "scrollY": 2492.800048828125,
-                "sourceDocumentY": [
-                  2717,
-                  3113
-                ],
-                "outputY": [
-                  2010,
-                  2406
+                  1067
                 ]
               }
             ],
@@ -2718,6 +2984,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-e-grid.jpg\",1521,1067,\"2026-10-25T15:45:32.331Z\",[\"24809\"]]",
+            "imageSha256": "20777e218378a1552f98591ecc26d290483e6e48ddafbed0437e61c925b6c448",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Private hire, three ways: three aligned package cards with prices/benefits, visible Enquire actions and complete FAQ rows beneath. The staggered layout is resolved.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         },
         {
@@ -2737,7 +3013,7 @@
           ],
           "image": "screenshots/events/variant-f-concrete.jpg",
           "width": 1281,
-          "height": 364,
+          "height": 591,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -2756,46 +3032,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-events-f---hire-schedule-24829"
             ],
             "sourceBounds": {
               "x": 240,
-              "y": 1328,
+              "y": 1039.800048828125,
               "width": 1280.800048828125,
-              "height": 363.6000061035156
+              "height": 591.6000366210938
             },
             "captureBounds": {
               "x": 240,
-              "y": 1328,
+              "y": 1040,
               "width": 1281,
-              "height": 364
+              "height": 591
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-2.jpg",
-                "scrollY": 831.2000122070312,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-2.jpg",
+                "scrollY": 1039.800048828125,
                 "sourceDocumentY": [
-                  1328,
-                  1470
+                  1040,
+                  1631
                 ],
                 "outputY": [
                   0,
-                  142
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-3.jpg",
-                "scrollY": 1246.4000244140625,
-                "sourceDocumentY": [
-                  1470,
-                  1692
-                ],
-                "outputY": [
-                  142,
-                  364
+                  591
                 ]
               }
             ],
@@ -2806,6 +3070,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-f-concrete.jpg\",1281,591,\"2026-10-25T15:46:30.613Z\",[\"24829\"]]",
+            "imageSha256": "f388494e4c0fe943031c00349c804a8658c9820ec2cd636b2f9cd766c403b7c1",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Concrete Hire heading, capacity note, legible four-row native table with occasion/capacity/from/notes columns, and complete Enquire action.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         },
         {
@@ -2824,8 +3098,8 @@
             "variant-g-cut"
           ],
           "image": "screenshots/events/variant-g-cut.jpg",
-          "width": 1536,
-          "height": 1353,
+          "width": 1521,
+          "height": 1793,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
           "sourcePageTitle": "Variant G Cut",
           "pageId": "5905",
@@ -2844,34 +3118,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T14:09:57.788Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:40:28.833Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-events-g---diagonal-stack-24851"
             ],
             "sourceBounds": {
               "x": 0,
               "y": 619,
-              "width": 1536,
-              "height": 1352.9500732421875
+              "width": 1520.800048828125,
+              "height": 1792.9500732421875
             },
             "captureBounds": {
               "x": 0,
               "y": 619,
-              "width": 1536,
-              "height": 1353
+              "width": 1521,
+              "height": 1793
             },
             "evidence": [
               {
-                "image": "variant-g-cut-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/g-events.jpg",
+                "scrollY": 619,
                 "sourceDocumentY": [
                   619,
-                  1972
+                  2412
                 ],
                 "outputY": [
                   0,
-                  1353
+                  1793
                 ]
               }
             ],
@@ -2881,6 +3155,18 @@
             "sampleDataInjected": false,
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
+            ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-g-cut.jpg\",1521,1793,\"2026-10-25T15:40:28.833Z\",[\"24851\"]]",
+            "imageSha256": "0b798748c50bddda017ded4eda5c06c3fdd3f3702a1faa37f897b0c5d1e5ad76",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "All four coloured occasion panels show their headings, descriptions and enquiry buttons.",
+            "issues": [],
+            "evidence": [
+              "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/g-events.jpg"
             ]
           }
         },
@@ -2958,6 +3244,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-h-storybook.jpg\",1536,633,\"2026-10-25T13:42:57.456Z\",[\"24865\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream section: You are invited with three pastel Weddings/Birthdays/Private Screenings invitation cards.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "9bf1f9eae44552cf35c6961abf98a4f53269d9ca256c55311b75f1197d8c2aae"
           }
         },
         {
@@ -3034,6 +3330,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-i-ma.jpg\",1536,1320,\"2026-10-25T13:43:02.134Z\",[\"24873\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream wide-margin numbered private screening/quiet celebration/table after film entries and Enquire links.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "0d554e26cbf56feb6afa9a3bb4f2b0b4e2c2bad5bfc4a1ee167e33ee200451fd"
           }
         },
         {
@@ -3112,6 +3418,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-j-box-office.jpg\",1536,771,\"2026-10-25T14:18:50.101Z\",[\"25143\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream YOUR SCREEN. YOUR OCCASION. section with three occasion rows and booking-details sidebar.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "5f2bd28c2078fad5bfb1e340198c6b289f180ae18d367216e51a6bdbfc3242a8"
           }
         },
         {
@@ -3190,6 +3506,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-k-clubhouse.jpg\",1536,797,\"2026-10-25T14:16:44.201Z\",[\"25136\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream Make room for your people section with three occasion cards and Plan a private gathering button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "d20d4543d546b724f3b3713ef0675bf95a2a221a9fedcdcf6d29803b1610248b"
           }
         },
         {
@@ -3268,6 +3594,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/events/variant-l-midnight-lounge.jpg\",1536,851,\"2026-10-25T14:17:36.494Z\",[\"25139\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Plum Take over the evening section with invitation card, three occasion rows and Explore private evenings button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "412bbd83a4f04065d1e640356c54bfeab7f1721e94c128b4d4736101d10cbffe"
           }
         }
       ]
@@ -3374,6 +3710,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-a-circuit.jpg\",1440,846,\"2026-10-25\",[\"23731\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark compact product rows with thumbnail, name and price grouped under Snacks/Drinks/Desserts.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "11800d9653332930dba4db6e2bf02b663c83b4a6e0c55ea60ec280141aa4920d"
           }
         },
         {
@@ -3392,7 +3738,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/food/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 2207,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -3412,27 +3758,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-food-b---printed-menu-23733"
             ],
             "sourceBounds": {
               "x": 0,
               "y": 2462.3125,
-              "width": 1536,
+              "width": 1520.800048828125,
               "height": 2206.550048828125
             },
             "captureBounds": {
               "x": 0,
               "y": 2462,
-              "width": 1536,
+              "width": 1521,
               "height": 2207
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-section-2.jpg",
+                "scrollY": 2462.3125,
                 "sourceDocumentY": [
                   2462,
                   4669
@@ -3450,6 +3796,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-b-rep.jpg\",1521,2207,\"2026-10-25T15:29:29.848Z\",[\"23733\"]]",
+            "imageSha256": "59c8662e9343b096cea68df4649b75625a88436fb14672cd3db07ce30964bf0e",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "The menu, all three categories, all seven products and their loaded photographs are visible. No hero pixels or repeated viewport. The native sticky category rail appears once near the dessert rows without covering content.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -3550,6 +3906,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-c-late.jpg\",1521,850,\"2026-10-25\",[\"23735\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark food photo tile wall grouped into Snacks/Drinks/Desserts.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "89029f72ba965d4eecfbc881200e4a52f9bc96be57b4c600bfb227833821d84a"
           }
         },
         {
@@ -3674,6 +4040,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-d-odd.jpg\",1521,1757,\"2026-10-25\",[\"24794\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream menu with tilted photo/paper product cards and red price stickers.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6a8673b6642423c409684e8365591bdc1029e84aaaa5f6186560c34718ea5dfd"
           }
         },
         {
@@ -3798,13 +4174,23 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-e-grid.jpg\",1521,1592,\"2026-10-25\",[\"24810\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark three-column food photo catalogue with descriptions and prices grouped by category.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "ed7569a884962dd69a6024cfbb2d28276dbfa42c5b73d5310823339c09c1d58d"
           }
         },
         {
           "id": "food--variant-f-concrete",
           "variant": "variant-f-concrete",
           "variantLabel": "F · Concrete",
-          "name": "Food F - Price Table",
+          "name": "Food F - Product Cards",
           "canonicalComponent": "food",
           "componentStatus": "present",
           "componentNote": "",
@@ -3817,7 +4203,7 @@
           ],
           "image": "screenshots/food/variant-f-concrete.jpg",
           "width": 1281,
-          "height": 979,
+          "height": 897,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -3836,58 +4222,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-food-f---price-table-24830"
             ],
             "sourceBounds": {
               "x": 240,
-              "y": 1691.5999755859375,
+              "y": 1631.4000244140625,
               "width": 1280.800048828125,
-              "height": 979
+              "height": 896.5499877929688
             },
             "captureBounds": {
               "x": 240,
-              "y": 1692,
+              "y": 1631,
               "width": 1281,
-              "height": 979
+              "height": 897
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-3.jpg",
-                "scrollY": 1246.4000244140625,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-3.jpg",
+                "scrollY": 1631.4000244140625,
                 "sourceDocumentY": [
-                  1692,
-                  1886
+                  1631,
+                  2528
                 ],
                 "outputY": [
                   0,
-                  194
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-4.jpg",
-                "scrollY": 1661.5999755859375,
-                "sourceDocumentY": [
-                  1886,
-                  2301
-                ],
-                "outputY": [
-                  194,
-                  609
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-5.jpg",
-                "scrollY": 2077.60009765625,
-                "sourceDocumentY": [
-                  2301,
-                  2671
-                ],
-                "outputY": [
-                  609,
-                  979
+                  897
                 ]
               }
             ],
@@ -3898,7 +4260,19 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
-          }
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-f-concrete.jpg\",1281,897,\"2026-10-25T15:46:30.613Z\",[\"24830\"]]",
+            "imageSha256": "b005462936742877194e3c5c767b7db3599fe8ff4dc6ded06f8ce64ecfa9c368",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Concrete native menu shows all seven product cards across Snacks/Drinks/Desserts, readable category rail, descriptions and prices. Three snack cards, one Soda card and three dessert cards are visible. Display as Food F - Product Cards; the raw INDY alias Price Table remains a source alias. Native description ellipses are intentional content clamping, not image crop failure.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
+          },
+          "sourceName": "Food F - Price Table",
+          "sourceAliasNote": "The source section is named \"Food F - Price Table\" in INDY. The picker label describes its current appearance; the original name is retained in the source components."
         },
         {
           "id": "food--variant-g-cut",
@@ -3974,6 +4348,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-g-cut.jpg\",1536,1632,\"2026-10-25T14:09:57.788Z\",[\"24852\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream menu with black/red/yellow color tiles and large printed product price text, no food photography.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6fad7532c4b0ff7f0460a060d2c80f53836b43faaa4417ce9dc309acea24178a"
           }
         },
         {
@@ -4050,6 +4434,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-h-storybook.jpg\",1536,1818,\"2026-10-25T13:42:57.456Z\",[\"24866\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Pale yellow bill of fare with cream horizontal item strips, centered prices and category headings.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "1d7a327f08c9292a65fb2a2ea73e5a87dff04d676b1b1cd73768bb02f4860ede"
           }
         },
         {
@@ -4126,6 +4520,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-i-ma.jpg\",1536,2226,\"2026-10-25T13:43:02.134Z\",[\"24874\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream wide-margin text-only item list, descriptions/prices and thin horizontal rules.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "21d16daad827fc6f75d2be11e6eff4ffd7f7e2f188180e4d554852296d1b5bee"
           }
         },
         {
@@ -4204,6 +4608,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-j-box-office.jpg\",1536,1828,\"2026-10-25T14:18:50.101Z\",[\"25142\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream AT THE COUNTER with horizontal product rows, thumbnails, descriptions and prices.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "709681fb027ef09edb966e7de59acafe942dac242d5b67acf792173dab9b25ec"
           }
         },
         {
@@ -4282,6 +4696,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-k-clubhouse.jpg\",1536,1704,\"2026-10-25T14:16:44.201Z\",[\"25135\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream Good company heading and three-column photo food cards, left category rail.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "2399511b365f6879b0548fdada8b9aadf7a53127d558b61d9f39d36d6efb05d2"
           }
         },
         {
@@ -4360,6 +4784,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/food/variant-l-midnight-lounge.jpg\",1536,1782,\"2026-10-25T14:17:36.494Z\",[\"25138\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Plum After Dark menu with horizontal photo rows, product details/prices and left category buttons.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "b12dc128de53ad844731873c2e5bc0e1b9700a8825e4c962907ddcb669cbbac7"
           }
         }
       ]
@@ -4454,6 +4888,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-a-circuit.jpg\",1521,589,\"2026-10-25\",[\"23747\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark narrow form: Ask us anything, name/email/message fields and wide red Send button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "a4e35920fec0bc622f6354e2a4a70b76d73a912cb80e935ae21acc1dd81b0257"
           }
         },
         {
@@ -4472,7 +4916,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/contact/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 689,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -4492,27 +4936,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-contact-b---split-desk-23749"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 4668.86279296875,
-              "width": 1536,
+              "y": 4668.862548828125,
+              "width": 1520.800048828125,
               "height": 688.7750244140625
             },
             "captureBounds": {
               "x": 0,
               "y": 4669,
-              "width": 1536,
+              "width": 1521,
               "height": 689
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-section-3.jpg",
+                "scrollY": 4668.862548828125,
                 "sourceDocumentY": [
                   4669,
                   5358
@@ -4530,6 +4974,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-b-rep.jpg\",1521,689,\"2026-10-25T15:29:29.848Z\",[\"23749\"]]",
+            "imageSha256": "79fa440de24261cc84f9622aa04641f534fa9ca873092133aaedef8d5bdab711",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "Write to us, Name, Email, What you have in mind and Send the note are visible; the blank right side is the actual source layout.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -4618,6 +5072,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-c-late.jpg\",1521,494,\"2026-10-25\",[\"23751\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Burgundy Tell us what you want to take over heading; single row of name/email/message fields and Send.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "2aa186178b7deb7eaac26fa546c1ee227f3f495a36211252b1dab51b64ea04fe"
           }
         },
         {
@@ -4718,6 +5182,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-d-odd.jpg\",1521,553,\"2026-10-25\",[\"24795\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream tilted postcard form with message lines left, name/email right, green Post It button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "1e571a798993bc586ad00789bf13ddd45e19d83ccf49e509251e439bd3dbf8d5"
           }
         },
         {
@@ -4818,13 +5292,23 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-e-grid.jpg\",1521,541,\"2026-10-25\",[\"24811\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark bordered Support Panel with name/email top row, message and yellow Send Message.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "7ce222a70eb0a36f028e8498db0fa2dcd27e27c5fd73fbe8a38157b8f6b789b1"
           }
         },
         {
           "id": "contact--variant-f-concrete",
           "variant": "variant-f-concrete",
           "variantLabel": "F · Concrete",
-          "name": "Contact F - Ledger",
+          "name": "Contact F - Standard Form",
           "canonicalComponent": "contact",
           "componentStatus": "present",
           "componentNote": "Captured native contact form includes name, email, message and send action. Submission routing was not tested.",
@@ -4856,57 +5340,33 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-contact-f---ledger-24831"
             ],
             "sourceBounds": {
               "x": 240,
-              "y": 2670.60009765625,
+              "y": 2527.949951171875,
               "width": 1280.800048828125,
-              "height": 524.5250244140625
+              "height": 524.4249877929688
             },
             "captureBounds": {
               "x": 240,
-              "y": 2671,
+              "y": 2528,
               "width": 1281,
               "height": 524
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-5.jpg",
-                "scrollY": 2077.60009765625,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-4.jpg",
+                "scrollY": 2527.949951171875,
                 "sourceDocumentY": [
-                  2671,
-                  2717
+                  2528,
+                  3052
                 ],
                 "outputY": [
                   0,
-                  46
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-6.jpg",
-                "scrollY": 2492.800048828125,
-                "sourceDocumentY": [
-                  2717,
-                  3132
-                ],
-                "outputY": [
-                  46,
-                  461
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-7.jpg",
-                "scrollY": 2908,
-                "sourceDocumentY": [
-                  3132,
-                  3195
-                ],
-                "outputY": [
-                  461,
                   524
                 ]
               }
@@ -4918,7 +5378,19 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
-          }
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-f-concrete.jpg\",1281,524,\"2026-10-25T15:46:30.613Z\",[\"24831\"]]",
+            "imageSha256": "b686184f9a555125d9336300e23763e5bd6e4824120796bdf460d98333e56cb7",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Concrete Standard Form has readable Contact heading, complete Name/Email/Message fields and visible Send action, with no overlap or clipping. Display as Contact F - Standard Form; Ledger remains the raw source alias. This is visual review only, with no form submission tested.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
+          },
+          "sourceName": "Contact F - Ledger",
+          "sourceAliasNote": "The source section is named \"Contact F - Ledger\" in INDY. The picker label describes its current appearance; the original name is retained in the source components."
         },
         {
           "id": "contact--variant-g-cut",
@@ -4994,6 +5466,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-g-cut.jpg\",1536,907,\"2026-10-25T14:09:57.788Z\",[\"24853\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream form with red angled Say something panel above left-aligned line fields and black Send.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "71cc70753497b2acfa9f1140f65aed44dbd0b34570e58141e740a36f76e88db1"
           }
         },
         {
@@ -5070,6 +5552,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-h-storybook.jpg\",1536,821,\"2026-10-25T13:42:57.456Z\",[\"24867\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Mint background and framed letter-style cream form with Write to us, fields, Send Message.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "9be513b8bb9cb3b4c02473f5c7f104cb2dafc6fb511741c083e956b5bb268571"
           }
         },
         {
@@ -5146,6 +5638,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-i-ma.jpg\",1536,1221,\"2026-10-25T13:43:02.134Z\",[\"24875\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream widely spaced name/email/message lines under Tell us one thing and small Send.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "96646c9be9dc97b1b04bc11e7f05498d1cbfcdc855dc9be96612cf14ba321f83"
           }
         },
         {
@@ -5224,6 +5726,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-j-box-office.jpg\",1536,799,\"2026-10-25T14:18:50.101Z\",[\"25145\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream CONTACT THE BOX OFFICE form with visible name/email/message and orange Send Message.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "a4325cfbc6e66275d96ae7bb72c3df2a95b166cb054e5841afdc11abe8902e44"
           }
         },
         {
@@ -5302,6 +5814,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-k-clubhouse.jpg\",1536,831,\"2026-10-25T14:16:44.201Z\",[\"25137\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Warm cream Pull up a chair. Say hello form with outlined inputs and brown Send a hello.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "59250ab45c65c93c7e899f861d23cc583e0b11bfbfd87e38f50445100354ba80"
           }
         },
         {
@@ -5380,6 +5902,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact/variant-l-midnight-lounge.jpg\",1536,832,\"2026-10-25T14:17:36.494Z\",[\"25141\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Plum Leave us a note form with subtly outlined inputs and gold Send your note.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "a28ac35410e68f526bd93c6827815bb478202f585db5296dcf773d873490e3f0"
           }
         }
       ]
@@ -5482,6 +6014,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/find-us/variant-a-circuit.jpg\",1521,554,\"2026-10-25\",[\"23777\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Brown address/hours/transit/access information on right, empty left region; no visible map.",
+            "issues": [
+              "map-not-visible"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "b116a8014d56816dfca5fade80dc5563682c0797a3e838b2cdb30a2035624e4b"
           }
         },
         {
@@ -5496,7 +6040,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/find-us/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 918,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -5516,27 +6060,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-find-us-b---street-plate-23779"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 5357.6376953125,
-              "width": 1536,
+              "y": 5357.6375732421875,
+              "width": 1520.800048828125,
               "height": 918.5375366210938
             },
             "captureBounds": {
               "x": 0,
               "y": 5358,
-              "width": 1536,
+              "width": 1521,
               "height": 918
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-section-4.jpg",
+                "scrollY": 5357.6375732421875,
                 "sourceDocumentY": [
                   5358,
                   6276
@@ -5554,6 +6098,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/find-us/variant-b-rep.jpg\",1521,918,\"2026-10-25T15:29:29.848Z\",[\"23779\"]]",
+            "imageSha256": "644623db7fd406e320f221aaa5f48763772d08aaefda0906d485b17638ee14a8",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "Correct Getting Here section and information columns are visible, but its large bordered map region remains blank. The screenshot does not establish a loaded map.",
+            "issues": [
+              "blank-map-region"
+            ],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -5638,6 +6194,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/find-us/variant-c-late.jpg\",1521,601,\"2026-10-25\",[\"23781\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Burgundy address card left, empty large map region right and hours/transit/access strip below. No visible map.",
+            "issues": [
+              "map-not-visible"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "2aaadab7f7fc959a03723631504b77261bc1603052300bd0480cf5201d16ecd2"
           }
         },
         {
@@ -5746,6 +6314,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/find-us/variant-d-odd.jpg\",1521,1272,\"2026-10-25\",[\"24796\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream taped empty white map frame on right, then address/details card below; left region empty.",
+            "issues": [
+              "map-not-visible"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6b843971dc4a9d4fef720eac4c5ae9ef3d55b0183a752c92906d81449bce0f92"
           }
         },
         {
@@ -5761,7 +6341,7 @@
           ],
           "image": "screenshots/find-us/variant-e-grid.jpg",
           "width": 1521,
-          "height": 1226,
+          "height": 555,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
           "sourcePageTitle": "Variant E Grid",
           "pageId": 5901,
@@ -5780,70 +6360,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:45:32.331Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-find-us-e---location-card-24813"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 6016.25,
+              "y": 4184.05029296875,
               "width": 1520.800048828125,
-              "height": 1226
+              "height": 555.4000244140625
             },
             "captureBounds": {
               "x": 0,
-              "y": 6016,
+              "y": 4184,
               "width": 1521,
-              "height": 1226
+              "height": 555
             },
             "evidence": [
               {
-                "image": "variant-e-grid-tile-13.jpg",
-                "scrollY": 5401.60009765625,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-e-grid-2.jpg",
+                "scrollY": 4184.05029296875,
                 "sourceDocumentY": [
-                  6016,
-                  6041
+                  4184,
+                  4739
                 ],
                 "outputY": [
                   0,
-                  25
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-14.jpg",
-                "scrollY": 5816.7998046875,
-                "sourceDocumentY": [
-                  6041,
-                  6456
-                ],
-                "outputY": [
-                  25,
-                  440
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-15.jpg",
-                "scrollY": 6232,
-                "sourceDocumentY": [
-                  6456,
-                  6871
-                ],
-                "outputY": [
-                  440,
-                  855
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-16.jpg",
-                "scrollY": 6648,
-                "sourceDocumentY": [
-                  6871,
-                  7242
-                ],
-                "outputY": [
-                  855,
-                  1226
+                  555
                 ]
               }
             ],
@@ -5854,6 +6398,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/find-us/variant-e-grid.jpg\",1521,555,\"2026-10-25T15:45:32.331Z\",[\"24813\"]]",
+            "imageSha256": "e88f5982a9a186deef0c5fd4304bf4e7ed729d6711c686f6937727f5269a720d",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Location layout now has a wide left map panel and readable right address/details card with Open in Maps action. The map panel is entirely blank. Map imagery must load and be captured before this is treated as a complete location/map preview. The pixel audit cannot determine whether this is lazy loading or a source/network issue.",
+            "issues": [
+              "map-not-visible"
+            ],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         },
         {
@@ -5869,7 +6425,7 @@
           ],
           "image": "screenshots/find-us/variant-f-concrete.jpg",
           "width": 1281,
-          "height": 896,
+          "height": 795,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -5888,58 +6444,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-find-us-f---coordinates-24832"
             ],
             "sourceBounds": {
               "x": 240,
-              "y": 3195.125,
+              "y": 3052.375,
               "width": 1280.800048828125,
-              "height": 895.6000366210938
+              "height": 794.7999877929688
             },
             "captureBounds": {
               "x": 240,
-              "y": 3195,
+              "y": 3052,
               "width": 1281,
-              "height": 896
+              "height": 795
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-7.jpg",
-                "scrollY": 2908,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-5.jpg",
+                "scrollY": 3052.375,
                 "sourceDocumentY": [
-                  3195,
-                  3547
+                  3052,
+                  3847
                 ],
                 "outputY": [
                   0,
-                  352
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-8.jpg",
-                "scrollY": 3324,
-                "sourceDocumentY": [
-                  3547,
-                  3963
-                ],
-                "outputY": [
-                  352,
-                  768
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-9.jpg",
-                "scrollY": 3739.199951171875,
-                "sourceDocumentY": [
-                  3963,
-                  4091
-                ],
-                "outputY": [
-                  768,
-                  896
+                  795
                 ]
               }
             ],
@@ -5950,6 +6482,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/find-us/variant-f-concrete.jpg\",1281,795,\"2026-10-25T15:46:30.613Z\",[\"24832\"]]",
+            "imageSha256": "23cd2cb4776d1cf0b7b3605128081831c802e54e1d4fb7a1901795f93951b16e",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Concrete Find heading and coordinates, complete address/entrance/transit/parking/hours/phone rows, Open Map action, and a large outlined map area. The map area is blank. Load and recapture the map, or clearly describe this as an incomplete map state. The image establishes text/layout presence, not map availability.",
+            "issues": [
+              "map-not-visible"
+            ],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         }
       ]
@@ -6056,6 +6600,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-a-circuit.jpg\",1521,955,\"2026-10-25\",[\"23765\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark three-tier membership rail with benefits, join buttons and redemption points strip.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "92cf5733402c6a955594868ccd60718184242ee5d4e2180acb01e882d0e7ef6f"
           }
         },
         {
@@ -6074,7 +6628,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/membership/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 1257,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -6094,27 +6648,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-membership-b---subscriber-bill-23767"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 6276.17529296875,
-              "width": 1536,
+              "y": 6276.175109863281,
+              "width": 1520.800048828125,
               "height": 1257.1375732421875
             },
             "captureBounds": {
               "x": 0,
               "y": 6276,
-              "width": 1536,
+              "width": 1521,
               "height": 1257
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-section-5.jpg",
+                "scrollY": 6276.175109863281,
                 "sourceDocumentY": [
                   6276,
                   7533
@@ -6132,6 +6686,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-b-rep.jpg\",1521,1257,\"2026-10-25T15:29:29.848Z\",[\"23767\"]]",
+            "imageSha256": "e0c58b35ee39ddeb1a85429bf0c83862d859cbb33a52ca020c1584b801583faa",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "Belong to the Rep, all three tier rows, five reward values and expiry/subscription paragraph are visible after recapture; previous sticky navigation overlay is gone.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -6244,6 +6808,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-c-late.jpg\",1521,1280,\"2026-10-25\",[\"23769\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Burgundy three membership cards, benefit ledger and redemption row.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "998c7973265031ce0b274b7446d4ce70e1d933dd0026ce8cdd1b763740f1f4c1"
           }
         },
         {
@@ -6368,6 +6942,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-d-odd.jpg\",1521,1889,\"2026-10-25\",[\"24797\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream Ten stamps headline, loyalty stamp card, three taped plan cards arranged staggered.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "8bb2650a6d431ae242f8ca635c23f8369b01d5ed35d6a431bf0cc47e0b347e65"
           }
         },
         {
@@ -6387,7 +6971,7 @@
           ],
           "image": "screenshots/membership/variant-e-grid.jpg",
           "width": 1521,
-          "height": 2043,
+          "height": 996,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
           "sourcePageTitle": "Variant E Grid",
           "pageId": 5901,
@@ -6406,94 +6990,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:45:32.331Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-membership-e---tiers-24814"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 7242.25,
+              "y": 4739.4501953125,
               "width": 1520.800048828125,
-              "height": 2043
+              "height": 996
             },
             "captureBounds": {
               "x": 0,
-              "y": 7242,
+              "y": 4739,
               "width": 1521,
-              "height": 2043
+              "height": 996
             },
             "evidence": [
               {
-                "image": "variant-e-grid-tile-16.jpg",
-                "scrollY": 6648,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-e-grid-3.jpg",
+                "scrollY": 4739.4501953125,
                 "sourceDocumentY": [
-                  7242,
-                  7287
+                  4739,
+                  5735
                 ],
                 "outputY": [
                   0,
-                  45
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-17.jpg",
-                "scrollY": 7063.2001953125,
-                "sourceDocumentY": [
-                  7287,
-                  7702
-                ],
-                "outputY": [
-                  45,
-                  460
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-18.jpg",
-                "scrollY": 7478.39990234375,
-                "sourceDocumentY": [
-                  7702,
-                  8118
-                ],
-                "outputY": [
-                  460,
-                  876
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-19.jpg",
-                "scrollY": 7894.39990234375,
-                "sourceDocumentY": [
-                  8118,
-                  8534
-                ],
-                "outputY": [
-                  876,
-                  1292
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-20.jpg",
-                "scrollY": 8309.599609375,
-                "sourceDocumentY": [
-                  8534,
-                  8949
-                ],
-                "outputY": [
-                  1292,
-                  1707
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-21.jpg",
-                "scrollY": 8724.7998046875,
-                "sourceDocumentY": [
-                  8949,
-                  9285
-                ],
-                "outputY": [
-                  1707,
-                  2043
+                  996
                 ]
               }
             ],
@@ -6504,6 +7028,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-e-grid.jpg\",1521,996,\"2026-10-25T15:45:32.331Z\",[\"24814\"]]",
+            "imageSha256": "1693046227754314b6832803c0205f3d814eb45e4d21d90548b0d15123ac5503",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Three aligned Standard/Plus/Premier cards with visible prices, benefits and join actions; full comparison table below. The staggered layout is resolved.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         },
         {
@@ -6523,7 +7057,7 @@
           ],
           "image": "screenshots/membership/variant-f-concrete.jpg",
           "width": 1281,
-          "height": 328,
+          "height": 569,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -6542,46 +7076,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-membership-f---tariff-24833"
             ],
             "sourceBounds": {
               "x": 240,
-              "y": 4090.72509765625,
+              "y": 3847.175048828125,
               "width": 1280.800048828125,
-              "height": 328
+              "height": 569.2000122070312
             },
             "captureBounds": {
               "x": 240,
-              "y": 4091,
+              "y": 3847,
               "width": 1281,
-              "height": 328
+              "height": 569
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-9.jpg",
-                "scrollY": 3739.199951171875,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-6.jpg",
+                "scrollY": 3847.175048828125,
                 "sourceDocumentY": [
-                  4091,
-                  4378
+                  3847,
+                  4416
                 ],
                 "outputY": [
                   0,
-                  287
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-10.jpg",
-                "scrollY": 4155.2001953125,
-                "sourceDocumentY": [
-                  4378,
-                  4419
-                ],
-                "outputY": [
-                  287,
-                  328
+                  569
                 ]
               }
             ],
@@ -6592,6 +7114,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-f-concrete.jpg\",1281,569,\"2026-10-25T15:46:30.613Z\",[\"24833\"]]",
+            "imageSha256": "b569b0b85391984c272b0a21efb97ef251ba1d6c7cd3ced9ad92bd72be66b042",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Concrete Tariff heading and note, readable Standard/Plus/Premier native table, points note and visible Join action.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         },
         {
@@ -6670,6 +7202,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-g-cut.jpg\",1536,690,\"2026-10-25T14:09:57.788Z\",[\"25118\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Black Become a regular heading; black/yellow/red editorial cards and Explore membership button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "764530d78f45dbf566383e3d423cbf50339a55bfdd315840c81b90c38f86f863"
           }
         },
         {
@@ -6748,6 +7290,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-h-storybook.jpg\",1536,851,\"2026-10-25T13:42:57.456Z\",[\"25121\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Pink invitation containing framed cream card, three benefit columns and Discover membership button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "93373e14bf1cfae7f544d1f81dcf2e59eca2ea79a2aae3ad97088411c1f164c0"
           }
         },
         {
@@ -6826,6 +7378,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-i-ma.jpg\",1536,854,\"2026-10-25T13:43:02.134Z\",[\"25125\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream Come back heading with three numbered guidance rows and View membership link.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "c54ff4428f4af1abb7187a7897a3b98b8993420f6268d629f7d53f444266e71e"
           }
         },
         {
@@ -6904,6 +7466,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-j-box-office.jpg\",1536,700,\"2026-10-25T14:18:50.101Z\",[\"25144\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream Keep cinema on the calendar two-column information card and View membership button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "cad43c61a06a75f7c723a8dd144e0ec17075b5448e8bf979bb4cdbfa7c6425ab"
           }
         },
         {
@@ -6982,6 +7554,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-k-clubhouse.jpg\",1536,789,\"2026-10-25T14:16:44.201Z\",[\"24899\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Warm cream two-column membership intro and large card with Your next chapter starts here, CTA.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "b93be95e8191606af845f656691998a21872f6d59e2b1d1d1f81e7d4864cef59"
           }
         },
         {
@@ -7060,6 +7642,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/membership/variant-l-midnight-lounge.jpg\",1536,839,\"2026-10-25T14:17:36.494Z\",[\"25140\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Plum Make a habit of the evening two-column membership card and Explore membership button.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "faa75ca65570f4d844cc57cd105e24ba0960a7e3157867eb0227250098e6695f"
           }
         }
       ]
@@ -7150,6 +7742,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/gift-cards/variant-d-odd.jpg\",1521,428,\"2026-10-25\",[\"24798\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Cream paper-chit Gift cards module: quantity 0, subtotal $0.00, Continue. No available denomination/product visible.",
+            "issues": [
+              "no-gift-card-products-shown"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "e93f22eb470ba919bde9c8a3b81810bb2ad92dc6ec83f674f398ffc6d4160213"
           }
         },
         {
@@ -7234,6 +7838,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/gift-cards/variant-e-grid.jpg\",1521,338,\"2026-10-25\",[\"24815\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark Gift Cards panel: quantity 0, subtotal $0.00 and Continue. No available denomination/product visible.",
+            "issues": [
+              "no-gift-card-products-shown"
+            ],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "0f88b7570ecc2fa212f969917c7b24577eecc2697a8916eee2e86bd76bdfe5ca"
           }
         },
         {
@@ -7249,7 +7865,7 @@
           ],
           "image": "screenshots/gift-cards/variant-f-concrete.jpg",
           "width": 1281,
-          "height": 509,
+          "height": 567,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
           "sourcePageTitle": "Variant F Concrete",
           "pageId": 5903,
@@ -7268,46 +7884,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:46:30.613Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-gift-cards-f---voucher-line-24834"
             ],
             "sourceBounds": {
               "x": 240,
-              "y": 4418.72509765625,
+              "y": 4416.375,
               "width": 1280.800048828125,
-              "height": 509.4250183105469
+              "height": 566.2000122070312
             },
             "captureBounds": {
               "x": 240,
-              "y": 4419,
+              "y": 4416,
               "width": 1281,
-              "height": 509
+              "height": 567
             },
             "evidence": [
               {
-                "image": "variant-f-concrete-tile-10.jpg",
-                "scrollY": 4155.2001953125,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-f-concrete-7.jpg",
+                "scrollY": 4416.375,
                 "sourceDocumentY": [
-                  4419,
-                  4794
+                  4416,
+                  4983
                 ],
                 "outputY": [
                   0,
-                  375
-                ]
-              },
-              {
-                "image": "variant-f-concrete-tile-11.jpg",
-                "scrollY": 4570.39990234375,
-                "sourceDocumentY": [
-                  4794,
-                  4928
-                ],
-                "outputY": [
-                  375,
-                  509
+                  567
                 ]
               }
             ],
@@ -7318,6 +7922,18 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "needs-review",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/gift-cards/variant-f-concrete.jpg\",1281,567,\"2026-10-25T15:46:30.613Z\",[\"24834\"]]",
+            "imageSha256": "5ebc059bda5bc38df6edf5e78b4559c068f422ea95ce6c3be6af3f157bb59d63",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "The voucher image is missing. Add it before using this preview as a finished design.",
+            "issues": [
+              "missing-source-image"
+            ],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         }
       ]
@@ -7384,6 +8000,15 @@
               "Published component has zero visible height.",
               "This published section currently renders at zero height, so no visible screenshot is available."
             ]
+          },
+          "visualReview": {
+            "status": "not-reviewed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[null,1521,0,\"2026-10-25\",[\"24925\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Zero-height anchor with no screenshot.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json"
           }
         },
         {
@@ -7444,6 +8069,15 @@
               "Published component has zero visible height.",
               "This published section currently renders at zero height, so no visible screenshot is available."
             ]
+          },
+          "visualReview": {
+            "status": "not-reviewed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[null,1521,0,\"2026-10-25\",[\"24927\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Zero-height anchor with no screenshot.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json"
           }
         },
         {
@@ -7504,6 +8138,15 @@
               "Published component has zero visible height.",
               "This published section currently renders at zero height, so no visible screenshot is available."
             ]
+          },
+          "visualReview": {
+            "status": "not-reviewed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[null,1281,0,\"2026-10-25\",[\"25065\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Zero-height anchor with no screenshot.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json"
           }
         }
       ]
@@ -7525,7 +8168,7 @@
           ],
           "image": "screenshots/contact-channels/variant-e-grid.jpg",
           "width": 1521,
-          "height": 770,
+          "height": 277,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
           "sourcePageTitle": "Variant E Grid",
           "pageId": 5901,
@@ -7544,46 +8187,34 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25",
-            "method": "browser-viewport-tiles",
+            "capturedAt": "2026-10-25T15:45:32.331Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-contact-e---channels-24812"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 5246.05029296875,
+              "y": 3907.449951171875,
               "width": 1520.800048828125,
-              "height": 770.2000122070312
+              "height": 276.6000061035156
             },
             "captureBounds": {
               "x": 0,
-              "y": 5246,
+              "y": 3907,
               "width": 1521,
-              "height": 770
+              "height": 277
             },
             "evidence": [
               {
-                "image": "variant-e-grid-tile-12.jpg",
-                "scrollY": 4985.60009765625,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/variant-e-grid-1.jpg",
+                "scrollY": 3907.449951171875,
                 "sourceDocumentY": [
-                  5246,
-                  5625
+                  3907,
+                  4184
                 ],
                 "outputY": [
                   0,
-                  379
-                ]
-              },
-              {
-                "image": "variant-e-grid-tile-13.jpg",
-                "scrollY": 5401.60009765625,
-                "sourceDocumentY": [
-                  5625,
-                  6016
-                ],
-                "outputY": [
-                  379,
-                  770
+                  277
                 ]
               }
             ],
@@ -7594,6 +8225,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/contact-channels/variant-e-grid.jpg\",1521,277,\"2026-10-25T15:45:32.331Z\",[\"24812\"]]",
+            "imageSha256": "8a92a61da626578d9fc47f3d9ef80d02cca89872a95e60d7229d8387825c26bc",
+            "method": "native-resolution-local-pixel-and-label-review",
+            "notes": "Phone, email and hours information appears in three aligned, fully visible cards beneath the response-time note.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/def-pixel-review.json"
           }
         }
       ]
@@ -7672,6 +8313,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/ticket-finder/variant-j-box-office.jpg\",1536,112,\"2026-10-25T14:18:50.101Z\",[\"24886\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Brown strip containing Select Movie, Select Date & Time, Buy Tickets with ticket icon.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "6880921aa41eef5eaaed527cbc0da996979e7f16294ba91b026433c96a91e56a"
           }
         },
         {
@@ -7746,6 +8397,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/ticket-finder/variant-k-clubhouse.jpg\",1536,88,\"2026-10-25T14:16:44.201Z\",[\"24897\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Brown strip containing Select Movie, Select Date & Time and Buy Tickets.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "970076755904856d212a32825cf267357d7bd735f003946f4a2d2e865c3cf058"
           }
         },
         {
@@ -7818,6 +8479,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/ticket-finder/variant-l-midnight-lounge.jpg\",1536,112,\"2026-10-25T14:17:36.494Z\",[\"24906\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Brown strip containing Select Movie, Select Date & Time, Buy Tickets with ticket icon.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "bd1ed38757161f6ba3da8111f092da3eff5e6e6cff751ad3e996d816699b0d1a"
           }
         }
       ]
@@ -7884,6 +8555,15 @@
               "Published component has zero visible height.",
               "This published section currently renders at zero height, so no visible screenshot is available."
             ]
+          },
+          "visualReview": {
+            "status": "not-reviewed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[null,1536,0,\"2026-10-25T14:18:50.101Z\",[\"24888\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Zero-height widget with no screenshot.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json"
           }
         }
       ]
@@ -7962,6 +8642,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/visit/variant-j-box-office.jpg\",1536,143,\"2026-10-25T14:18:50.101Z\",[\"24889\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short brown PLAN YOUR VISIT informational text band.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "7ff8ed42a1fab94d71bed48d06cef569a1176b4e5871095b3177ad81261ef764"
           }
         }
       ]
@@ -8042,6 +8732,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/experience/variant-k-clubhouse.jpg\",1536,131,\"2026-10-25T14:16:44.201Z\",[\"24898\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short orange STAY AWHILE introductory text band.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "4947f3bd041c32808c540492ba558b8f3b6056bb673e582b79c9804d56996b07"
           }
         },
         {
@@ -8114,6 +8814,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/experience/variant-l-midnight-lounge.jpg\",1536,168,\"2026-10-25T14:17:36.494Z\",[\"24908\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short orange THE LOUNGE RITUAL list of arrive/find frame/last call text.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "264c95e6db99934a03c180e5770703d079bb64b65c738a5935f1e29bef2ae840"
           }
         }
       ]
@@ -8192,6 +8902,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/after-show/variant-l-midnight-lounge.jpg\",1536,131,\"2026-10-25T14:17:36.494Z\",[\"24909\"]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Short terracotta STAY FOR ONE MORE informational text band.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "f8b1c930b807b4cb891de03a79c20b13476e8cff61546c0908fb228b76bbad64"
           }
         }
       ]
@@ -8215,7 +8935,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/programme/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 1420,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -8235,27 +8955,27 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [
               ".section-events-b---playbill-23726"
             ],
             "sourceBounds": {
               "x": 0,
-              "y": 1041.5875244140625,
-              "width": 1536,
+              "y": 1041.58740234375,
+              "width": 1520.800048828125,
               "height": 1420.7249755859375
             },
             "captureBounds": {
               "x": 0,
               "y": 1042,
-              "width": 1536,
+              "width": 1521,
               "height": 1420
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-section-1.jpg",
+                "scrollY": 1041.58740234375,
                 "sourceDocumentY": [
                   1042,
                   2462
@@ -8273,6 +8993,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/programme/variant-b-rep.jpg\",1521,1420,\"2026-10-25T15:29:29.848Z\",[\"23726\"]]",
+            "imageSha256": "c78989df3aadbb2a127f77f8aaef02ac04cbb0a86eba268d747d314f8bd1cb14",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "THE PROGRAMME / Occasions, all four named entries/descriptions and the final enquiry CTA are visible; public programme stays separate from private parties.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         }
       ]
@@ -8365,6 +9095,16 @@
               "Actual published appearance; no data fixtures or CSS repairs.",
               "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-a-circuit.jpg\",1521,284,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "2fb67da55454276464826790ad3337958f0cc56d6b99274e6c622b33dbc2463e"
           }
         },
         {
@@ -8379,7 +9119,7 @@
             "variant-b-rep"
           ],
           "image": "screenshots/footer/variant-b-rep.jpg",
-          "width": 1536,
+          "width": 1521,
           "height": 284,
           "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
           "sourcePageTitle": "Variant B Rep",
@@ -8397,25 +9137,25 @@
           "dependenciesStatus": "unverified",
           "capture": {
             "mode": "live",
-            "capturedAt": "2026-10-25T13:41:35.868Z",
-            "method": "live-browser-full-page",
+            "capturedAt": "2026-10-25T15:29:29.848Z",
+            "method": "live-browser-section-clips",
             "selectors": [],
             "sourceBounds": {
               "x": 0,
-              "y": 8330.5625,
-              "width": 1536,
+              "y": 8330.562622070312,
+              "width": 1520.800048828125,
               "height": 284.8000183105469
             },
             "captureBounds": {
               "x": 0,
               "y": 8331,
-              "width": 1536,
+              "width": 1521,
               "height": 284
             },
             "evidence": [
               {
-                "image": "variant-b-rep-parity-full-page.jpg",
-                "scrollY": 0,
+                "image": "C:/Users/mxz/OneDrive/Documents/ChatGPT/INDY/evidence/recapture-2/b-footer.jpg",
+                "scrollY": 8330.562622070312,
                 "sourceDocumentY": [
                   8331,
                   8615
@@ -8433,6 +9173,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-b-rep.jpg\",1521,284,\"2026-10-25T15:29:29.848Z\",[]]",
+            "imageSha256": "f726f07b96bbd6191db55ed0e759151c06b68fe23603271e4675b397a6d86983",
+            "method": "independent-and-root-native-image-pixel-review",
+            "notes": "Dark footer, complete link list, copyright and Shaped by INDY are visible with no hero leakage or sticky overlay.",
+            "issues": [],
+            "evidence": "../evidence/recapture-2/b-pixel-review.md"
           }
         },
         {
@@ -8513,6 +9263,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-c-late.jpg\",1521,284,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "ab23bb9463b24eeaf2fd0cbcac581258819b774a68b5bb2b71d3edb519a77ffb"
           }
         },
         {
@@ -8593,6 +9353,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-d-odd.jpg\",1521,284,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "35ff69e0537f696e05cfa2258a3fd31a05873e399dac61eb4b5ff07620f751c8"
           }
         },
         {
@@ -8673,6 +9443,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-e-grid.jpg\",1521,285,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "9755e7669cee4c499d5f224b67e1d86fe8bd1f81badce169ded2256cf747dc8d"
           }
         },
         {
@@ -8753,6 +9533,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-f-concrete.jpg\",1281,285,\"2026-10-25\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "ae103adb5a1c55a553115e6268fe0cb9d054e2073d85666888a71b594a2f2730"
           }
         },
         {
@@ -8821,6 +9611,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-g-cut.jpg\",1536,285,\"2026-10-25T14:09:57.788Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "65c0485886ad70536eea0925848136370fc1688db957bb32618cb86b12dd5c05"
           }
         },
         {
@@ -8889,6 +9689,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-h-storybook.jpg\",1536,285,\"2026-10-25T13:42:57.456Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "4025c8b6ce8bc8c00b8dee4593c6f52ca2c8eb062fbd105f1bb0f9d5b4d98f6f"
           }
         },
         {
@@ -8963,6 +9773,16 @@
               "Actual published appearance; no data fixtures or CSS repairs.",
               "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-i-ma.jpg\",1536,284,\"2026-10-25T13:43:02.134Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "eb6d9164307d19b3a185732bcd7451d8cd6629a8e6040e61a24eeec171855158"
           }
         },
         {
@@ -9037,6 +9857,16 @@
               "Actual published appearance; no data fixtures or CSS repairs.",
               "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-j-box-office.jpg\",1536,284,\"2026-10-25T14:18:50.101Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "13a1405038fd4e666f570fdb93fe6fa5d49e9414232b9f2db818073516af2285"
           }
         },
         {
@@ -9105,6 +9935,16 @@
             "notes": [
               "Actual published appearance; no data fixtures or CSS repairs."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-k-clubhouse.jpg\",1536,284,\"2026-10-25T14:16:44.201Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "e601cb5a9bb84adde99f2a1127b03a19eb262ad42da26cb9ce1857b0ec909a02"
           }
         },
         {
@@ -9179,6 +10019,16 @@
               "Actual published appearance; no data fixtures or CSS repairs.",
               "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
             ]
+          },
+          "visualReview": {
+            "status": "passed",
+            "reviewedAt": "2026-10-25",
+            "captureKey": "[\"screenshots/footer/variant-l-midnight-lounge.jpg\",1536,284,\"2026-10-25T14:17:36.494Z\",[]]",
+            "method": "local-image-pixel-and-label-review",
+            "notes": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+            "issues": [],
+            "evidence": "evidence/catalog-pixel-audit-2.json",
+            "imageSha256": "be18c4868dde18b260ad160077232c7421ed22757fefb7fe98ce72893b4b6682"
           }
         }
       ]
@@ -10481,5 +11331,11 @@
     "status": "optional-pending-live-verification",
     "note": "Native movie widgets can support distinct layouts. Keep discovery and booking choices separate from the six required design components until implemented presets have populated desktop/mobile evidence. Empty states do not prove a unique layout.",
     "research": "docs/MOVIE-WIDGETS.md"
+  },
+  "visualReviewSource": {
+    "file": "evidence/catalog-pixel-audit-2.json",
+    "reviewedAt": "2026-10-25",
+    "scope": "Image pixels and labels reviewed independently of component presence. A refreshed capture requires a new visual review.",
+    "capturedImageCount": 105
   }
 }

@@ -4,6 +4,7 @@ import { mkdtemp, mkdir, copyFile, writeFile, readFile, rm } from 'node:fs/promi
 import { tmpdir } from 'node:os';
 import { basename, dirname, join, resolve } from 'node:path';
 import { execFileSync } from 'node:child_process';
+import { visualCaptureKey, visualReviewForOption } from '../model.mjs';
 
 async function fixture(t, variant = 'variant-b-rep') {
   const workspace = await mkdtemp(join(tmpdir(), 'fd-picker-evidence-'));
@@ -76,6 +77,55 @@ test('normalized capture ingestion keeps verified draft identities and multiple 
   assert.notEqual(programmes[0].image, programmes[1].image);
   assert.equal(await readFile(join(root, programmes[0].image), 'utf8'), 'first screenshot bytes');
   assert.equal(await readFile(join(root, programmes[1].image), 'utf8'), 'second screenshot bytes');
+});
+
+test('capture sync preserves reviewed display aliases and invalidates a changed preview without autopassing it', async (t) => {
+  const { workspace, root, variant, catalog } = await fixture(t, 'variant-f-concrete');
+  const originalName = 'Food F - Price Table';
+  const entry = catalog.slots[0].options[0];
+  Object.assign(entry, { name: 'Food F - Product Cards', sourceName: originalName,
+    sourceAliasNote: 'The source alias is Price Table; the image shows product cards.', components: [originalName],
+    image: `screenshots/events/${variant}.jpg`, width: 1440, height: 500,
+    captureStatus: 'captured-live', capture: { mode: 'live', capturedAt: '2026-10-25' } });
+  entry.visualReview = { status: 'passed', captureKey: visualCaptureKey(entry), notes: 'Reviewed image.', imageSha256: 'review-fingerprint' };
+  await writeFile(join(root, 'catalog.json'), JSON.stringify(catalog));
+  const sourceImage = join(workspace, 'source.jpg');
+  await writeFile(sourceImage, 'unchanged screenshot bytes');
+  const input = join(workspace, 'observation.json');
+  const section = { slotId: 'events', name: originalName, components: [originalName], sectionIds: ['1'],
+    image: sourceImage, width: 1440, height: 500, captureStatus: 'captured-live', capture: { ...entry.capture } };
+  const ingest = async () => {
+    await writeFile(input, JSON.stringify({ capturedAt: section.capture.capturedAt, variants: [{ id: variant, sections: [section] }] }));
+    execFileSync(process.execPath, [join(root, 'scripts', 'sync-evidence.mjs'), input]);
+    return JSON.parse(await readFile(join(root, 'catalog.json'), 'utf8')).slots[0].options[0];
+  };
+  let synced = await ingest();
+  assert.equal(synced.name, 'Food F - Product Cards');
+  assert.equal(synced.displayName, 'Food F - Product Cards');
+  assert.equal(synced.sourceName, originalName);
+  assert.equal(synced.sourceAliasNote, entry.sourceAliasNote);
+  assert.deepEqual(synced.components, [originalName]);
+  assert.deepEqual(synced.visualReview, entry.visualReview);
+  assert.equal(visualReviewForOption(synced).status, 'passed');
+
+  section.capture.capturedAt = '2026-10-26';
+  synced = await ingest();
+  assert.equal(synced.name, 'Food F - Product Cards');
+  assert.deepEqual(synced.visualReview, entry.visualReview);
+  assert.equal(visualReviewForOption(synced).status, 'not-reviewed');
+  section.width = 1280;
+  synced = await ingest();
+  assert.equal(visualReviewForOption(synced).status, 'not-reviewed');
+
+  section.displayName = 'Food F - Reviewed Cards';
+  synced = await ingest();
+  assert.equal(synced.name, 'Food F - Reviewed Cards');
+  assert.equal(synced.sourceName, originalName);
+  section.displayName = null;
+  section.sourceAliasNote = null;
+  synced = await ingest();
+  assert.equal(synced.name, originalName);
+  assert.equal(synced.sourceAliasNote, null);
 });
 
 test('semantic audit ingestion rejects another source site before writing the catalog', async (t) => {

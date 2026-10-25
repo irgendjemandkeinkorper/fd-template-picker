@@ -1,0 +1,266 @@
+{
+  "schema": "fd-indy-source-visual-repairs/v1",
+  "recordedAt": "2026-10-25T15:48:40Z",
+  "recordedAtMeaning": "Journal consolidation time, not an inferred publication or screenshot timestamp.",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2"
+  },
+  "status": "Five page-level CSS repairs published and desktop verified by the root operator. Mobile checks complete for C/D/E/F/G, with D native mobile title/action absence and F missing media retained as caveats.",
+  "summary": {
+    "publishedPagesChanged": 5,
+    "operation": "page-custom-css",
+    "createdOrRemovedModules": 0,
+    "sourceSectionIdsChanged": false,
+    "sourceContentChanged": false,
+    "correctedPreviewsReplaced": 23,
+    "correctedPreviewReview": {
+      "passed": 18,
+      "needsReview": 5
+    },
+    "finalCatalogVisualReview": {
+      "passed": 92,
+      "needsReview": 13,
+      "zeroHeight": 5
+    },
+    "requiredPreviewsPassed": 71,
+    "requiredPreviewsTotal": 72,
+    "remainingRequiredPreview": "F hero: the Reference Print source image is unconfigured."
+  },
+  "historicalCorrection": "The original 72 required-component coverage records established source purpose, selector presence and geometry. They did not prove screenshot identity, readable pixels, complete navigation labels or finished design. The second pass found repeated B viewport pixels, incomplete navigation previews and source styling defects. Coverage counts must not be presented as visual acceptance.",
+  "scope": {
+    "allowedSite": "US-BETA / INDY Demo / Adam Template Testing 2 only",
+    "globalTheme": "Unchanged; C's navigation override is scoped to its page from page-level CSS.",
+    "navigationRecords": "Unchanged",
+    "libraryRecords": "Unchanged; no Library actions or cross-site transfer performed.",
+    "formsAndCommerce": "No form submitted and no purchase or transaction performed.",
+    "programmingAndCatalog": "Unchanged",
+    "sourceIdentity": "Published page and section IDs retained. Existing copy, image URLs, menu products and form configuration retained."
+  },
+  "verificationProvenance": {
+    "publicationAndDesktop": "Root operator reported each exact page published and verified on its public consumer route; this is not inferred from CSS proposal files.",
+    "captureReview": "All 23 corrected previews received independent native-resolution pixel review; 18 passed and 5 remain flagged. D/E/F observations and exact image hashes are archived in evidence/recapture-def-pixel-review.json and .md.",
+    "mobile": "C menu, E stacked cards, F form and contained tables, and G readable occasion panels were verified. D photo/stamp fit is verified, with native mobile title/action absence retained. See evidence/source-repair-mobile-qa.json.",
+    "workspaceEvidenceRoot": "../evidence/recapture-2/ relative to the repository root; these recovery and preparation files are retained in the shared workspace, not claimed as repository attachments."
+  },
+  "changes": [
+    {
+      "variant": "variant-c-late",
+      "publishedPageId": 5663,
+      "draftPageId": 5664,
+      "affectedPublishedSectionIds": [],
+      "component": "navigation",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "operation": "append-page-scoped-navigation-override",
+      "previousDefect": "The page-specific theme hid the desktop row.menu, so the rendered header lacked the navigation labels.",
+      "repair": "Page Custom CSS restores the desktop menu and readable label typography only when the layout contains .page-variant-c-late-5663. Its explicit root selector reaches the header outside the page-content wrapper without editing global Theme & Style or navigation records.",
+      "state": "published",
+      "desktopVerification": "Seven navigation labels visible in the fresh native direct clip.",
+      "mobileVerification": {
+        "state": "verified-by-root",
+        "viewportWidth": 390,
+        "clientWidth": 375,
+        "pageHorizontalOverflow": false,
+        "menu": "Native Open Main Menu opens all seven correct navigation links; pixels reviewed.",
+        "workspaceEvidence": "../evidence/recapture-2/c-mobile-menu.jpg"
+      },
+      "beforeCss": {
+        "workspacePath": "../evidence/recapture-2/c-page-css-before.txt",
+        "sha256": "88560e46654b746fc89e40a2fb3231111b7e58789ec527bccc8bd0bcc0cba742"
+      },
+      "appliedCss": {
+        "workspacePath": "../evidence/recapture-2/c-page-css-applied.txt",
+        "sha256": "afaf62b7b5d0e01e24523cfbc4abf08ddc1aa3991ed56f4758363e0ff3cfc9a0"
+      },
+      "reviewablePatch": {
+        "repositoryPath": "evidence/source-style-patches/variant-c-page-delta.scss",
+        "sha256": "1aa0aff60b67e0f8509db341bf0b46f09a6fd0191be348b58c39177620d02224",
+        "bytes": 675,
+        "application": "append exact delta to saved page CSS"
+      }
+    },
+    {
+      "variant": "variant-d-odd",
+      "publishedPageId": 5899,
+      "draftPageId": 5900,
+      "affectedPublishedSectionIds": [
+        24790
+      ],
+      "component": "hero",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "operation": "append-native-background-carousel-adapter",
+      "previousDefect": "The original design expected img.full-width and an absolute-bottom overlay. The actual native carousel used an inline background image and absolute-center overlay. Dark title text sat on a dark stage, the native full-width subtitle became a strip, and Swiper's 400px cap constrained flow.",
+      "repair": "The adapter preserves the loaded Pulp image URL and the original paper/ink collage design, renders the native background as a framed print, flows the actual text wrapper under it, bounds the stamp, and removes the height cap. Only D's collage hero is targeted; its separate Ruth Line remains unchanged.",
+      "state": "published",
+      "desktopVerification": "Published native hero and fresh direct screenshot reviewed by root; image, title, stamp and action are visible.",
+      "mobileVerification": {
+        "state": "media-fit-verified-with-native-content-caveat",
+        "viewportWidth": 390,
+        "pageHorizontalOverflow": false,
+        "result": "Photo and stamp fit. The native widget omits its title and CTA on mobile; this repair does not claim to restore them.",
+        "workspaceEvidence": "../evidence/recapture-2/d-mobile-hero.jpg"
+      },
+      "beforeCss": {
+        "workspacePath": "../evidence/recapture-2/d-page-css-before.txt",
+        "sha256": "962a4bce84ea37fde514ec43b1c87e3508be4e425de9adc4e6821dbc3c3bdb8b"
+      },
+      "appliedCss": {
+        "workspacePath": "../evidence/recapture-2/proposed-d-css.txt",
+        "sha256": "a7d43de52a292ee18b49c85dbd894cdd0649f36810e84be7998a97fbca7e19b9",
+        "note": "Prepared file confirmed by root as the applied page CSS; original 46073 bytes preserved and hero adapter appended."
+      },
+      "reviewablePatch": {
+        "repositoryPath": "evidence/source-style-patches/variant-d-page-delta.css",
+        "sha256": "5913ddf176ae381dd0fff0dd3f2d6f2748417e3b95600df8fb43734a46f03fc3",
+        "bytes": 3245,
+        "application": "append exact delta to saved page CSS"
+      }
+    },
+    {
+      "variant": "variant-e-grid",
+      "publishedPageId": 5901,
+      "draftPageId": 5902,
+      "affectedPublishedSectionIds": [
+        24809,
+        24812,
+        24813,
+        24814
+      ],
+      "components": [
+        "private-parties",
+        "contact-channels",
+        "find-us",
+        "membership"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "operation": "append-rich-text-layout-repair",
+      "previousDefect": "Saved rich-text HTML contained NBSP-only indentation nodes. In its grid/flex layouts those nodes created anonymous items, pushing cards into staggered rows and leaving large empty regions.",
+      "repair": "CSS neutralizes non-content indentation in the four affected bodies and spaces actual card/map elements while retaining original tokens, card treatments, copy, links and breakpoints. The saved rich-text bodies and section IDs are unchanged.",
+      "state": "published",
+      "desktopVerification": "Fresh published direct clips show aligned package, channel and membership cards and a corrected location layout.",
+      "mobileVerification": {
+        "state": "verified-by-root",
+        "viewportWidth": 390,
+        "pageHorizontalOverflow": false,
+        "result": "The three card groups stack inside 343px containers beginning at x=16; featured-first order is retained.",
+        "workspaceEvidence": "../evidence/recapture-2/e-mobile-cards.jpg"
+      },
+      "beforeCss": {
+        "workspacePath": "../evidence/recapture-2/e-page-css-before.txt",
+        "sha256": "b2ebeb0c1f68589fadf245876470672bf1cc393b750bf45a3b2a9901827e1577"
+      },
+      "appliedCss": {
+        "workspacePath": "../evidence/recapture-2/e-page-css-applied.txt",
+        "sha256": "b9ed3e802754725e2be0939462c61759d864d3120395eb242d2adc4f821d932d"
+      },
+      "reviewablePatch": {
+        "repositoryPath": "evidence/source-style-patches/variant-e-rich-text-layout.css",
+        "sha256": "41ad00030702316a89e308caa620a861775ce4431589821884e4b0b4becb6100",
+        "bytes": 4109,
+        "application": "append exact rich-text layout repair to saved page CSS"
+      }
+    },
+    {
+      "variant": "variant-f-concrete",
+      "publishedPageId": 5903,
+      "draftPageId": 5904,
+      "affectedPublishedSectionIds": [
+        24826,
+        24828,
+        24829,
+        24830,
+        24831,
+        24832,
+        24833,
+        24834
+      ],
+      "components": [
+        "hero",
+        "private-parties",
+        "food",
+        "contact",
+        "find-us",
+        "membership",
+        "gift-cards"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "operation": "add-page-styles-for-existing-cn-markup-and-native-widgets",
+      "previousDefect": "The page Custom CSS field was empty. Existing cn-* rich text and native sections rendered as plain copy, small unstyled tables, default links and mismatched form/menu treatments.",
+      "repair": "New page CSS styles the actual existing cn-* markup and native menu/form/widget structures with the Concrete paper, ink, mono and rule treatment. It preserves content, product inventory, form configuration and source IDs.",
+      "state": "published",
+      "prepublicationVerification": "Native editor preview checked index, hire table and contact; hire proof retained at ../evidence/recapture-2/f-draft-hire-qa.jpg. Required preview review completed before publication.",
+      "desktopVerification": "Published native sections and fresh direct screenshots reviewed by root.",
+      "mobileVerification": {
+        "state": "verified-with-content-caveats-by-root",
+        "viewportWidth": 390,
+        "clientWidth": 375,
+        "pageHorizontalOverflow": false,
+        "formFieldBounds": {
+          "x": 48,
+          "width": 279
+        },
+        "result": "Native form fields stack within the viewport. The two 640px Hire/Tariff tables scroll horizontally within 375px containers instead of widening the page. Missing hero/voucher media remains flagged separately.",
+        "workspaceEvidence": "../evidence/recapture-2/f-mobile-form.jpg"
+      },
+      "remainingContentCaveats": [
+        "Reference Print has no configured image; no substitute image was invented.",
+        "The voucher image source is empty; CSS does not supply a fabricated product asset.",
+        "Food remains a native product menu rather than a literal price table; catalog display labeling must reflect its actual treatment."
+      ],
+      "beforeCss": {
+        "workspacePath": "../evidence/recapture-2/f-page-css-before.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "appliedCss": {
+        "workspacePath": "../evidence/recapture-2/proposed-f-css.txt",
+        "sha256": "a4c6c0912831ade9e7f6fbe600931e7db12ba833268525dee7f781e3608e39cf",
+        "note": "Prepared file confirmed by root as the applied page CSS."
+      },
+      "reviewablePatch": {
+        "repositoryPath": "evidence/source-style-patches/variant-f-concrete.css",
+        "sha256": "a4c6c0912831ade9e7f6fbe600931e7db12ba833268525dee7f781e3608e39cf",
+        "bytes": 11170,
+        "application": "replace the previously empty page CSS with this exact stylesheet"
+      }
+    },
+    {
+      "variant": "variant-g-cut",
+      "publishedPageId": 5905,
+      "draftPageId": 5906,
+      "affectedPublishedSectionIds": [
+        24851
+      ],
+      "component": "private-parties",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "operation": "correct-card-selectors-for-native-rich-text-markup",
+      "previousDefect": "The stylesheet expected div:has(> h2) panels, but the saved cards were article.cut-event elements. Intended panel colours/padding did not apply, so dark inherited headings and descriptions disappeared on the dark root and only ENQUIRE buttons remained visible.",
+      "repair": "Card styling selectors now address the actual article.cut-event elements. The four occasion cards regain their coloured panels, readable text and padding without changing the Rich Text content or source ID.",
+      "state": "published",
+      "desktopVerification": "Root reviewed four coloured cards with Weddings, Birthdays, Private screenings and Brand nights content in the published source and direct clip.",
+      "mobileVerification": {
+        "state": "verified-by-root",
+        "viewportWidth": 390,
+        "clientWidth": 375,
+        "pageHorizontalOverflow": false,
+        "result": "All four occasion headings fit inside the viewport, including wrapped Private screenings; text and buttons remain visible.",
+        "workspaceEvidence": "../evidence/recapture-2/g-mobile-events.jpg"
+      },
+      "beforeCss": {
+        "workspacePath": "../evidence/recapture-2/g-page-css-before.txt",
+        "sha256": "9f343c2aa9a597b93037eb104c241df1d4558819bf2facc3ca5f44372219e969"
+      },
+      "appliedCss": {
+        "workspacePath": "../evidence/recapture-2/g-page-css-applied.txt",
+        "sha256": "58ac6cb89c506f5593369c7f1bfcf8a288557860e9c7049f0ef7ac22b76b27c8"
+      },
+      "reviewablePatch": {
+        "repositoryPath": "evidence/source-style-patches/variant-g-event-selectors.patch",
+        "sha256": "b25e3207c825686f6bd8662bd398f2754157cbd3578b968409ff53fb23313103",
+        "bytes": 1728,
+        "application": "unified diff from saved before CSS to applied CSS"
+      }
+    }
+  ]
+}

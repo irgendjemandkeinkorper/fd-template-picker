@@ -14,11 +14,11 @@ It can be hosted on GitHub Pages, Netlify, or another static host. `npm start` a
 
 ## Choose and hand off a page
 
-- **Required component coverage** compares every variant against Navigation, Hero, Food & Drink, Private Parties, Membership and Contact Us. Only matching, fully captured live sections count toward completion. Confirmed source gaps, partial source content, capture gaps and unreviewed entries stay visible.
+- **Required component coverage** compares every variant against Navigation, Hero, Food & Drink, Private Parties, Membership and Contact Us. Source presence is separate from preview quality. Only current live images that pass a pixel-and-label review count as checked previews; rejected, pending and review-needed images remain flagged.
 - The section view starts with **Required components**. Use **Optional movie modules** for Now Playing, Coming Soon and Ticket Finder while their customization is assessed; **Additional sections** retains the rest of the collection.
 - **Explore the variant collection** shows the published source pages and screenshot coverage.
 - **Start from** selects that variant's available sections in source order. A missing section stays excluded; another variant is never substituted silently.
-- **Browse styles** opens a visual comparison for one section. Select a style directly or use the previous/next controls. Arrow keys also cycle styles.
+- **Browse styles** opens a visual comparison for one section. Select a style directly or use the previous/next controls. Arrow keys also cycle styles. **Open full-size preview** opens the original image; navigation previews also scroll horizontally to preserve readable menu labels.
 - Reorder middle sections, leave sections out, and add project or section notes. Header/footer stay at the ends.
 - Section and text filters affect the editor view. **Preview page** shows the entire included selection as captured images.
 - Selections save in the browser. **Copy link** shares the complete selection, including notes, in the URL fragment.
@@ -32,6 +32,8 @@ The visual preview does not combine live widgets or verify booking, ordering, fo
 `catalog.json` is the editable collection. Its explicit `variants` array records the admin inventory, while `slots[].options[]` records only captured section choices. An option includes its INDY component names, source route, verified page/section IDs, image dimensions, and capture notes. Library records remain `not-created` until the corresponding object and transfer are verified.
 
 Canonical coverage lives alongside the original section categories. An audited option may declare `canonicalComponent` (for example `private-parties`) and `componentStatus: "partial"` when it only partially serves that purpose. Generic Events, Experience and Visit sections are never automatically relabeled or counted as private parties, food or contact. `componentAudit` entries use `{ variant, component, status: "present" | "partial" | "missing", notes }` to distinguish source content from screenshot availability. A missing catalog choice without an audit is labeled **Needs audit**, rather than assumed absent. Refresh an audit entry after repairing the source page.
+
+Image review is recorded separately in each option's `visualReview`: `passed`, `rejected`, `needs-review` or `not-reviewed`. The review is bound to `visualCaptureKey(option)` (image, size, capture date and source section IDs); a changed capture returns to unchecked until reviewed. Passed images also store a SHA-256 fingerprint checked by the tests. [The second pixel audit](evidence/catalog-pixel-audit-2.md) found incorrect B captures, incomplete navigation crops and other visual issues despite the source components being present. Display labels can describe actual appearance while `sourceName` and `components` retain original INDY aliases, as with F's Product Cards and Standard Form.
 
 The [current component audit](docs/COMPONENT-PARITY.md) records all **72 required components present across A–L**, following 15 additions and one enriched membership module on the authorized test site. The retained original baseline had 56 present, 2 partial and 14 missing components. Each variant preset includes all six required components. G–L share one navigation appearance, and J–L still need a deliberate hero-design pass. Private-party options retain the stable `events` IDs while displaying as **Private Parties**; B's original public Playbill is optional Programme content.
 
@@ -49,6 +51,8 @@ node scripts/sync-evidence.mjs ../evidence/observations.json
 The observations format is `{ capturedAt, variants: [{ id, sections: [{ slotId, name, components, image, width, height, sectionIds, capture }] }] }`. Only inventory-verified variant IDs are accepted. Each included variant is a complete rendered-page observation: older options absent from that observation are removed. Image paths resolve relative to the observations file and must stay within the INDY workspace.
 
 For a repaired component, include explicit `canonicalComponent`, `componentStatus: "present"` and `componentNote` describing the reviewed source content. This updates that component's audit record. A screenshot refresh alone preserves existing audit caveats; a changed section identity without semantic review is marked unverified. Use `designNote: null` to clear a resolved design caveat. Required private-party captures use the existing `events` slot; unrelated public programme content belongs in an additional category.
+
+Ingestion retains reviewed display labels and original `sourceName`/`sourceAliasNote` metadata. Use an explicit `displayName` to replace a picker label, or `displayName: null` to return to the observed native name. Existing `visualReview` metadata keeps its original capture key, so refreshed images become unchecked; supplying new capture data never passes a review automatically.
 
 To apply a complete, site-matched semantic audit to the catalog:
 

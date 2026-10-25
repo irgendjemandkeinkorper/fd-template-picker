@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-25T15:50:16.847Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "checks": [
+    {
+      "variant": "variant-c-late",
+      "status": "passed",
+      "evidence": "c-mobile-menu.jpg",
+      "notes": "Seven menu links visible after opening the native main menu; no page overflow."
+    },
+    {
+      "variant": "variant-d-odd",
+      "status": "passed-with-native-caveat",
+      "evidence": "d-mobile-hero.jpg",
+      "notes": "Photo and stamp fit without page overflow. Native carousel omits its title/CTA on mobile; no mobile title/CTA repair claimed."
+    },
+    {
+      "variant": "variant-e-grid",
+      "status": "passed",
+      "evidence": "e-mobile-cards.jpg",
+      "notes": "Package, membership and contact cards stack inside the viewport; existing featured-first ordering retained; no page overflow."
+    },
+    {
+      "variant": "variant-f-concrete",
+      "status": "passed-with-content-caveats",
+      "evidence": "f-mobile-form.jpg",
+      "notes": "Native form stacks inside the viewport; Hire/Tariff tables use contained horizontal scrolling; no page overflow. Missing hero/voucher media remains flagged separately."
+    },
+    {
+      "variant": "variant-g-cut",
+      "status": "passed",
+      "evidence": "g-mobile-events.jpg",
+      "notes": "All four occasion headings fit within the viewport, including wrapped Private screenings; text and buttons are visible; no page overflow."
+    }
+  ],
+  "workspaceEvidenceRoot": "../evidence/recapture-2/ relative to the repository root. Named screenshots remain in the shared workspace; this compact report does not claim they are committed attachments."
+}

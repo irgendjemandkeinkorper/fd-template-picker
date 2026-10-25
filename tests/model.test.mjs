@@ -1,9 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { createModel, buildCoverage, buildSelectionCoverage, buildExport, buildHandoff } from '../model.mjs';
+import { createHash } from 'node:crypto';
+import { createModel, visualCaptureKey, visualReviewForOption, buildCoverage, buildSelectionCoverage, buildExport, buildHandoff } from '../model.mjs';
 
 const option = (slot, variant) => ({ id: `${slot}--${variant}`, variant, variantLabel: variant, components: [`${slot} ${variant}`], sharedBy: [variant], sourceUrl: `https://example.com/${variant}/`, image: `screenshots/${slot}/${variant}.jpg`, width: 1440, height: 500, pageId: 100, draftId: 101, sectionIds: ['200'], draftSectionIds: ['201'] });
+const checked = (entry) => ({ ...entry, visualReview: { status: 'passed', captureKey: visualCaptureKey(entry), notes: 'Pixels match the label.' } });
 const catalog = { source: 'https://example.com', variants: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B', sectionOrder: ['food', 'hero'] }, { id: 'c', label: 'C' }], slots: [
   { id: 'header', label: 'Header', options: [{ ...option('header', 'a'), sharedBy: ['a', 'b'] }] },
   { id: 'hero', label: 'Hero', options: [option('hero', 'a'), option('hero', 'b')] },
@@ -67,7 +69,7 @@ test('repository catalog has valid selection IDs and existing screenshot files',
 });
 
 test('required coverage never counts generic events, experience copy, or partial source as complete', () => {
-  const captured = (slot, variant, extra = {}) => ({ ...option(slot, variant), captureStatus: 'captured-live', capture: { mode: 'live' }, ...extra });
+  const captured = (slot, variant, extra = {}) => checked({ ...option(slot, variant), captureStatus: 'captured-live', capture: { mode: 'live' }, ...extra });
   const example = { variants: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B' }], slots: [
     { id: 'header', options: [captured('header', 'a'), captured('header', 'b')] },
     { id: 'hero', options: [captured('hero', 'a')] },
@@ -92,7 +94,7 @@ test('required coverage never counts generic events, experience copy, or partial
 });
 
 test('exports assess included selections separately from the catalog and retain source caveats', () => {
-  const captured = (slot, extra = {}) => ({ ...option(slot, 'a'), captureStatus: 'captured-live', capture: { mode: 'live' }, ...extra });
+  const captured = (slot, extra = {}) => checked({ ...option(slot, 'a'), captureStatus: 'captured-live', capture: { mode: 'live' }, ...extra });
   const example = { source: 'https://example.com', variants: [{ id: 'a', label: 'A' }], slots: [
     { id: 'header', label: 'Navigation', options: [captured('header')] },
     { id: 'hero', label: 'Hero', options: [captured('hero')] },
@@ -117,7 +119,7 @@ test('exports assess included selections separately from the catalog and retain 
   assert.equal(parties.componentGroup, 'required-component');
   assert.equal(parties.library.proposedPageTitle, 'a_private_parties');
   assert.equal(data.sections.find((section) => section.slot === 'now-playing').componentGroup, 'optional-movie-module');
-  assert.match(buildHandoff(data), /Required components in this selection: 4\/6 captured/);
+  assert.match(buildHandoff(data), /Required previews visually checked: 4\/6/);
   assert.match(buildHandoff(data), /Food & Drink: missing selection/);
   assert.match(buildHandoff(data), /Mixed public programme and private hire/);
   assert.deepEqual(model.normalize(data), state);
@@ -146,5 +148,34 @@ test('repository audit covers the shared component contract and references real 
     assert.ok(option, `Missing audited source: ${audit.sourceOptionId}`);
     assert.equal(option.canonicalComponent, audit.component);
     assert.equal(option.componentStatus, audit.status);
+  }
+});
+
+test('source presence stays separate from failed, pending and passed visual reviews', () => {
+  const hero = { ...option('hero', 'a'), componentStatus: 'present', captureStatus: 'captured-live', capture: { mode: 'live', capturedAt: '2026-10-25' } };
+  const example = { variants: [{ id: 'a', label: 'A' }], slots: [{ id: 'hero', options: [hero] }] };
+  const assessment = () => buildCoverage(example).rows[0].components.find((entry) => entry.component === 'hero');
+  assert.equal(assessment().status, 'visual-pending');
+  for (const [reviewStatus, expected] of [['rejected', 'visual-rejected'], ['needs-review', 'visual-review'], ['passed', 'captured']]) {
+    hero.visualReview = { status: reviewStatus, captureKey: visualCaptureKey(hero), notes: 'Image inspection.' };
+    assert.equal(assessment().status, expected);
+    assert.equal(assessment().sourceStatus, 'present');
+    assert.equal(buildCoverage(example).sourcePresent, 1);
+    assert.equal(buildCoverage(example).captured, reviewStatus === 'passed' ? 1 : 0);
+  }
+  const data = buildExport(example, createModel(example).defaultState('a'), 'https://picker.test/');
+  assert.equal(data.sections[0].visualReview.status, 'passed');
+  hero.capture.capturedAt = '2026-10-26';
+  assert.equal(visualReviewForOption(hero).status, 'not-reviewed');
+  assert.equal(assessment().status, 'visual-pending');
+  assert.equal(buildCoverage(example).sourcePresent, 1);
+});
+
+test('changed pixels cannot silently keep a checked review in the repository catalog', async () => {
+  const live = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
+  for (const entry of live.slots.flatMap((slot) => slot.options).filter((entry) => entry.visualReview?.status === 'passed')) {
+    assert.equal(entry.visualReview.captureKey, visualCaptureKey(entry), `Stale capture review: ${entry.id}`);
+    const pixels = await readFile(new URL(`../${entry.image}`, import.meta.url));
+    assert.equal(entry.visualReview.imageSha256, createHash('sha256').update(pixels).digest('hex'), `Changed image requires a visual review: ${entry.id}`);
   }
 });

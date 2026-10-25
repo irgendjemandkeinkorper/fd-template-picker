@@ -10,12 +10,11 @@ test('every A-L preset represents all six required source components', async () 
   const coverage = buildCoverage(catalog);
   assert.equal(catalog.variants.length, 12);
   assert.equal(coverage.total, 72);
-  assert.equal(coverage.captured, 72);
-  assert.equal(coverage.completeVariants, 12);
+  assert.equal(coverage.sourcePresent, 72);
   const model = createModel(catalog);
   for (const variant of catalog.variants) {
     const selected = buildSelectionCoverage(catalog, model.defaultState(variant.id));
-    assert.equal(selected.captured, 6, variant.id);
+    assert.equal(selected.sourcePresent, 6, variant.id);
     assert.ok(selected.components.every((component) => component.variant === variant.id), `A different variant was substituted into ${variant.id}`);
   }
 });

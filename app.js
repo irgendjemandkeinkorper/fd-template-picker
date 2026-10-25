@@ -1,4 +1,4 @@
-import { SUPPORTED_SCHEMAS, PINNED, MOVIE_COMPONENTS, componentForOption, buildCoverage, createModel, libraryPlan, buildExport as exportSelection, buildHandoff } from './model.mjs';
+import { SUPPORTED_SCHEMAS, PINNED, MOVIE_COMPONENTS, componentForOption, visualReviewForOption, buildCoverage, createModel, libraryPlan, buildExport as exportSelection, buildHandoff } from './model.mjs';
 
 const STORAGE_KEY = 'fd-template-picker:selection';
 const $ = (id) => document.getElementById(id);
@@ -13,7 +13,7 @@ const decodeState = (s) => JSON.parse(new TextDecoder().decode(Uint8Array.from(a
 
 let catalog, model;
 try {
-  const response = await fetch('catalog.json');
+  const response = await fetch('catalog.json', { cache: 'no-store' });
   if (!response.ok) throw new Error(`Catalog returned ${response.status}`);
   catalog = await response.json();
   model = createModel(catalog);
@@ -23,7 +23,7 @@ try {
 }
 const { variants, capturedVariants, slotById, optionForVariant, applyVariant, defaultState, normalize } = model;
 const coverage = buildCoverage(catalog);
-const coverageLabels = { captured: 'Captured', 'partial-source': 'Partial source', 'missing-source': 'Missing source', 'needs-audit': 'Needs audit', 'capture-pending': 'Capture pending', 'partial-capture': 'Partial capture', 'not-visible': 'Not visible' };
+const coverageLabels = { captured: 'Preview checked', 'visual-rejected': 'Replace preview', 'visual-review': 'Review preview', 'visual-pending': 'Preview unchecked', 'partial-source': 'Partial source', 'missing-source': 'Missing source', 'needs-audit': 'Needs audit', 'capture-pending': 'Capture pending', 'partial-capture': 'Partial capture', 'not-visible': 'Not visible' };
 const groupForSlot = (slot) => MOVIE_COMPONENTS.has(slot.id) ? 'movies' : slot.options.some((option) => componentForOption(slot, option)) ? 'required' : 'additional';
 function retiredChoices(raw) {
   const picks = Array.isArray(raw?.sections) ? Object.fromEntries(raw.sections.filter(Boolean).map((s) => [s.slot, s.optionId])) : raw?.picks ?? {};
@@ -89,10 +89,16 @@ function chooseVariant(id) {
   commit();
   toast(`Started from ${variants.find((v) => v.id === id)?.label}. Mix individual sections below.`);
 }
+function previewImageUrl(option) {
+  if (!option.image) return null;
+  const version = option.visualReview?.imageSha256?.slice(0, 12) ?? option.capture?.capturedAt;
+  return version ? `${option.image}${option.image.includes('?') ? '&' : '?'}v=${encodeURIComponent(version)}` : option.image;
+}
+
 function screenshot(option, className = '') {
   if (option.captureStatus === 'not-rendered') return el('div', { className: 'image-missing', textContent: 'No visible content on the published source page. This section currently renders at zero height.' });
   if (!option.image) return el('div', { className: 'image-missing', textContent: 'Screenshot pending' });
-  const img = el('img', { src: option.image, alt: option.name, width: option.width, height: option.height, loading: 'lazy', className: `${className}${option.presentation?.kind === 'sidebar' ? ' sidebar-reference' : ''}`.trim() });
+  const img = el('img', { src: previewImageUrl(option), alt: option.name, width: option.width, height: option.height, loading: 'lazy', className: `${className}${option.presentation?.kind === 'sidebar' ? ' sidebar-reference' : ''}`.trim() });
   img.onerror = () => { img.replaceWith(el('div', { className: 'image-missing', textContent: 'Screenshot unavailable — open the source page to view this style.' })); };
   return img;
 }
@@ -102,6 +108,15 @@ function captureDescription(option) {
   if (option.capture?.mode === 'live') return 'Live page capture';
   if (option.capture?.mode === 'illustrative') return 'Illustrative capture · adjusted from the live page';
   return 'Capture details pending';
+}
+function reviewNotice(option, className = '') {
+  if (!option.image) return null;
+  const review = visualReviewForOption(option);
+  const labels = { passed: 'Preview checked', rejected: 'Needs a new screenshot', 'needs-review': 'Preview needs review', 'not-reviewed': 'Preview unchecked' };
+  return el('p', { className: `visual-review visual-review--${review.status} ${className}`.trim(), textContent: `${labels[review.status] ?? labels['not-reviewed']}${review.status === 'passed' ? '' : ` · ${review.notes}`}` });
+}
+function fullSizeLink(option) {
+  return option.image ? link('Open full-size preview ↗', previewImageUrl(option), 'full-size-link') : null;
 }
 function renderSource(slot, option) {
   const plan = libraryPlan(slot, option);
@@ -117,6 +132,7 @@ function renderSource(slot, option) {
     el('p', { textContent: `Dependency review: ${plan.dependenciesStatus}` }),
   );
   if (option.componentStatus === 'partial') content.append(el('p', { className: 'capture-note', textContent: `Partial required component: ${option.componentNote || 'This section only covers part of the required purpose.'}` }));
+  if (option.sourceAliasNote) content.append(el('p', { textContent: option.sourceAliasNote }));
   if (option.designNote) content.append(el('p', { className: 'capture-note', textContent: option.designNote }));
   if (option.adminUrl) content.append(link('Open in INDY Admin ↗', option.adminUrl));
   if (option.capture?.notes?.length) content.append(el('p', { className: 'capture-note', textContent: option.capture.notes.join(' ') }));
@@ -144,6 +160,7 @@ function renderSlot(slotId) {
     el('span', { className: 'slot__name' }, el('strong', { textContent: option.variantLabel }), ` · ${option.name}`),
     el('div', { className: 'slot__tools' },
       iconBtn('browse', 'Browse styles', 'Browse all styles', () => openGallery(slotId)),
+      ...(option.image ? [fullSizeLink(option)] : []),
       iconBtn('prev', '‹', 'Previous style', () => cycle(slotId, -1), { disabled: single || off }),
       el('span', { className: 'slot__count', textContent: `${index + 1} / ${slot.options.length}` }),
       iconBtn('next', '›', 'Next style', () => cycle(slotId, 1), { disabled: single || off }),
@@ -151,13 +168,15 @@ function renderSlot(slotId) {
       iconBtn('down', '↓', 'Move down', () => move(slotId, 1), { disabled: pinned || position >= state.order.length - 1 || PINNED.has(state.order[position + 1]) }), toggle,
     ),
   );
-  const stage = el('div', { className: 'slot__stage' }, screenshot(option));
+  const stage = el('div', { className: `slot__stage${componentForOption(slot, option) === 'navigation' ? ' slot__stage--navigation' : ''}` }, screenshot(option));
   const note = el('textarea', { className: 'slot__note', rows: 1,
     placeholder: `Notes about the ${slot.label.toLowerCase()} (optional)`, value: state.slotNotes[slotId] ?? '',
     oninput: (event) => { if (event.target.value.trim()) state.slotNotes[slotId] = event.target.value; else delete state.slotNotes[slotId]; save(); },
   });
   note.setAttribute('aria-label', `Note about ${slot.label}`);
   const section = el('section', { className: `slot${off ? ' slot--off' : ''}${option.captureStatus === 'not-rendered' ? ' slot--not-rendered' : ''}` }, bar, stage, renderSource(slot, option), note);
+  const review = reviewNotice(option, 'slot__visual-review');
+  if (review) stage.before(review);
   if (option.componentStatus === 'partial') stage.before(el('p', { className: 'slot__warning capture-note', textContent: `Partial source: ${option.componentNote || 'Needs more content to meet the required component purpose.'}` }));
   section.dataset.slot = slotId;
   if (option.presentation?.kind === 'sidebar') section.style.setProperty('--sidebar-width', `${option.presentation.width}px`);
@@ -187,13 +206,14 @@ function renderGallery() {
       $('gallery').close(); commit(slot.id, 'browse');
     } });
     button.setAttribute('aria-pressed', String(selected));
-    return el('article', { className: `style-card${selected ? ' style-card--selected' : ''}` },
-      el('div', { className: 'style-card__image' }, screenshot(option)),
+    return el('article', { className: `style-card${selected ? ' style-card--selected' : ''}${componentForOption(slot, option) === 'navigation' ? ' style-card--navigation' : ''}` },
+      el('div', { className: `style-card__image${componentForOption(slot, option) === 'navigation' ? ' style-card__image--navigation' : ''}` }, screenshot(option)),
       el('div', { className: 'style-card__body' }, el('h3', { textContent: option.variantLabel }),
         el('p', { textContent: option.name }), el('p', { className: 'muted', textContent: captureDescription(option) }),
+        ...(option.image ? [reviewNotice(option)] : []),
         ...(option.componentStatus === 'partial' ? [el('p', { className: 'capture-note', textContent: `Partial source: ${option.componentNote || 'Needs more content to meet the required component purpose.'}` })] : []),
         ...(option.designNote ? [el('p', { className: 'capture-note', textContent: option.designNote })] : []),
-        el('div', { className: 'card-actions' }, button, link('View source ↗', option.sourceUrl))),
+        el('div', { className: 'card-actions' }, button, ...(option.image ? [fullSizeLink(option)] : []), link('View source ↗', option.sourceUrl))),
     );
   }));
   if (!options.length) $('galleryCards').append(el('p', { className: 'empty', textContent: 'No captured style for this variant in this section yet.' }));
@@ -213,9 +233,9 @@ function renderVariants() {
     );
     const row = coverage.rows.find((entry) => entry.variant === variant.id);
     if (row) {
-      body.append(el('p', { className: `variant-coverage${row.complete ? ' variant-coverage--complete' : ''}`, textContent: `${row.captured}/${row.total} required component styles captured` }));
+      body.append(el('p', { className: `variant-coverage${row.complete ? ' variant-coverage--complete' : ''}`, textContent: `${row.sourcePresent}/${row.total} source components · ${row.captured}/${row.total} previews checked` }));
       const pending = row.components.filter((component) => component.status !== 'captured');
-      if (pending.length) body.append(el('p', { className: 'muted', textContent: `To complete: ${pending.map((component) => `${component.label} (${coverageLabels[component.status].toLowerCase()})`).join('; ')}.` }));
+      if (pending.length) body.append(el('p', { className: 'muted', textContent: `To review: ${pending.map((component) => `${component.label} (${coverageLabels[component.status].toLowerCase()})`).join('; ')}.` }));
     }
     if (variant.sectionCount) body.append(el('p', { className: 'muted', textContent: `${variant.sectionCount} configured page sections in INDY; screenshots also include the header and footer.` }));
     const actions = el('div', { className: 'card-actions' });
@@ -230,14 +250,14 @@ function renderVariants() {
 }
 
 function renderCoverage() {
-  $('coverageCount').textContent = `${coverage.captured}/${coverage.total} captured`;
-  $('coverageSummary').textContent = `${coverage.completeVariants} of ${coverage.rows.length} variants have all six required component styles captured. Navigation, hero, food, private parties, membership and contact form the shared baseline. Now Playing, Coming Soon and Ticket Finder are tracked separately.`;
+  $('coverageCount').textContent = `${coverage.captured}/${coverage.total} previews checked`;
+  $('coverageSummary').textContent = `${coverage.sourcePresent}/${coverage.total} required components are present on the source pages. ${coverage.captured}/${coverage.total} previews have passed a visual check against their labels. Source presence and screenshot quality are tracked separately; movie modules remain optional.`;
   const header = el('tr', {}, el('th', { scope: 'col', textContent: 'Variant' }), ...coverage.required.map((component) => el('th', { scope: 'col', textContent: component.label })));
   const rows = coverage.rows.map((row) => el('tr', {}, el('th', { scope: 'row', textContent: row.label }), ...row.components.map((component) => {
     const label = coverageLabels[component.status];
     const cell = el('td', { className: `coverage-cell coverage-cell--${component.status}` });
     if (component.optionId) {
-      const button = el('button', { type: 'button', textContent: label, title: component.notes || `${row.label}: ${component.label}`, onclick: () => { openGallery(component.slotId); $('galleryVariant').value = row.variant; renderGallery(); } });
+      const button = el('button', { type: 'button', textContent: label, title: component.visualReview?.notes || component.notes || `${row.label}: ${component.label}`, onclick: () => { openGallery(component.slotId); $('galleryVariant').value = row.variant; renderGallery(); } });
       button.setAttribute('aria-label', `${row.label}, ${component.label}: ${label}. Browse source style.`);
       cell.append(button);
     } else cell.append(el('span', { textContent: label, title: component.notes }));

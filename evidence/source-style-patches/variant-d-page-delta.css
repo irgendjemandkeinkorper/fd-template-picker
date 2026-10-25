@@ -1,0 +1,99 @@
+
+
+/* Native background carousel adapter — retain D's paper print, stamp and ink. */
+[class*="section-hero-d---collage-"] .swiper,
+[class*="section-hero-d---collage-"] .swiper-wrapper,
+[class*="section-hero-d---collage-"] .swiper-slide {
+  height: auto !important;
+  max-height: none !important;
+}
+[class*="section-hero-d---collage-"] .swiper-slide > a {
+  display: block;
+}
+[class*="section-hero-d---collage-"] .swiper-slide .row.justify-center.position-relative {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 28px 28% 0 8% !important;
+  background-color: var(--v-paper) !important;
+  background-size: 0 0 !important;
+}
+/* The native inline background URL is inherited by the print; no image is replaced. */
+[class*="section-hero-d---collage-"] .swiper-slide .row.justify-center.position-relative::before {
+  content: "";
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: var(--v-white);
+  background-image: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid var(--v-white);
+  border-bottom-width: 36px;
+  outline: 1px solid var(--v-ink);
+  transform: rotate(-1.5deg);
+}
+[class*="section-hero-d---collage-"] .swiper-slide:nth-child(even) .row.justify-center.position-relative::before {
+  transform: rotate(1.2deg);
+}
+/* Native slides use absolute-center; the original rules expected absolute-bottom. */
+[class*="section-hero-d---collage-"] .flex.absolute-center {
+  position: static !important;
+  inset: auto !important;
+  transform: none !important;
+  display: block !important;
+  height: auto !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-top: -0.55em !important;
+  background: transparent !important;
+}
+[class*="section-hero-d---collage-"] .flex.absolute-center .container {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+}
+[class*="section-hero-d---collage-"] .col.message {
+  position: static !important;
+  height: auto !important;
+  min-height: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 0 0 8% !important;
+  overflow: visible !important;
+  background: transparent !important;
+}
+[class*="section-hero-d---collage-"] .subtitle {
+  position: absolute !important;
+  top: 24px !important;
+  right: 20% !important;
+  bottom: auto !important;
+  width: 120px !important;
+  max-width: 120px !important;
+  height: 120px !important;
+  min-height: 120px !important;
+}
+@media (max-width: 1023px) {
+  [class*="section-hero-d---collage-"] .swiper-slide .row.justify-center.position-relative {
+    padding: 20px 20px 0 !important;
+  }
+  [class*="section-hero-d---collage-"] .swiper-slide .row.justify-center.position-relative::before {
+    border-width: 6px;
+    border-bottom-width: 24px;
+    transform: rotate(-1deg);
+  }
+  [class*="section-hero-d---collage-"] .col.message {
+    padding: 16px 0 0 !important;
+  }
+  [class*="section-hero-d---collage-"] .subtitle {
+    top: 16px !important;
+    right: 24px !important;
+    width: 84px !important;
+    max-width: 84px !important;
+    height: 84px !important;
+    min-height: 84px !important;
+  }
+}

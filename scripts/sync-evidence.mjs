@@ -97,7 +97,14 @@ if (process.argv[2]) {
       }
       const previous = previousById.get(optionId) ?? previousOptions.get(slot.id);
       const sameSource = JSON.stringify([...(section.sectionIds ?? [])].sort()) === JSON.stringify([...(previous?.sectionIds ?? [])].sort());
-      const option = { id: optionId, variant: variant.id, variantLabel: variant.label, name: section.name,
+      // A reviewed picker label is independent of the native section name.
+      // Raw source observations must not silently restore an inaccurate alias.
+      const displayName = Object.hasOwn(section, 'displayName') ? section.displayName
+        : previous?.displayName ?? (previous?.sourceName && previous.name !== previous.sourceName ? previous.name : undefined);
+      const sourceName = section.sourceName ?? section.name ?? previous?.sourceName ?? previous?.name;
+      const option = { id: optionId, variant: variant.id, variantLabel: variant.label, name: displayName ?? sourceName,
+        displayName, sourceName,
+        sourceAliasNote: Object.hasOwn(section, 'sourceAliasNote') ? section.sourceAliasNote : previous?.sourceAliasNote,
         canonicalComponent: section.canonicalComponent ?? previous?.canonicalComponent,
         componentStatus: section.componentStatus ?? (sameSource ? previous?.componentStatus : 'unverified'),
         componentNote: section.componentNote ?? (sameSource ? previous?.componentNote : 'Source sections changed; component purpose needs review.'),
@@ -109,6 +116,9 @@ if (process.argv[2]) {
         draftSectionIds: section.draftSectionIds ?? (sameSource ? previous?.draftSectionIds : null) ?? [],
         nativeWidgetType: section.nativeWidgetType ?? (sameSource ? previous?.nativeWidgetType : null) ?? null,
         captureStatus: section.captureStatus ?? 'captured-live',
+        // Keep the original key: the model invalidates the review when capture
+        // date, geometry, image path or section identity changes. Never autopass.
+        visualReview: Object.hasOwn(section, 'visualReview') ? section.visualReview : previous?.visualReview,
         library: section.library ?? { status: 'not-created' }, dependencies: section.dependencies ?? [], dependenciesStatus: section.dependenciesStatus ?? 'unverified',
         capture: section.capture ?? { mode: 'live', capturedAt: observation.capturedAt, notes: [] },
       };

@@ -1,0 +1,31 @@
+Capture root-cause audit (local evidence only)
+
+Confirmed defect
+- All nine B catalog images derive from ../evidence/variant-b-rep-parity-full-page.jpg and need replacement. The 1536 x 8615 upstream file repeats the same top viewport every 799px. The first300px rich image band matches10 later bands at mean RGB error0.218-0.391/255; this cannot represent the menu, membership, contact, programme, parties and footer documented in the DOM.
+- B food source semantic metadata is correct: Food B - Printed Menu, section23733, y2462.3125, h2206.55. Its screenshot is wrong because its upstream image pixels are wrong. Changing the label would hide the defect.
+- B source header DOM y0-134.56 is correct for the baseline viewport tile. In the corrupted full-page image, centered logo is at x960 rather than CSS center768, nav text y140, hero y168. These are consistent with an unaccounted1.25 scale and right clipping. Therefore simply increasing Bheader crop bounds is unsafe; source recapture needed.
+
+Navigation evidence
+- Current original image assets show nav labels for A,D,E,F,G,H,I,J,K,L. B asset clips labels; C has no labels even in baseline viewport tile. C is a real published appearance/design issue or an unloaded/hidden navigation state, not a crop correction that can be inferred locally.
+- Gallery renders full-width desktop navigation images in about310-360px cards, making labels roughly3px. Native image review or a zoom view is required to assess readable labels. This does not explain B or C defects.
+- Current component audit says all headers present because a header element exists. That overstates functional navigation for C. Navigation presence should require visible link text or a visible, operable menu trigger.
+
+Other observations
+- The other6 full-page files do not show repeated viewport periods. G private parties looks largely black with only ENQUIRE links in several large panels; inspect live CSS/text contrast before calling the screenshot representative.
+- Processor scripts/process-captures.py:133 derives scale from outer image dimensions, which cannot detect internally scaled-and-clipped screenshots. At406, captureStatus=captured-live is based on geometry/gaps only. Coverage is not image-content certification. Existing tests cover synthetic geometry and source-ID matching, not pixel identity.
+- scripts/capture.mjs cannot currently refresh navigation because header option selectors are empty; it silently skips those jobs. It is an alternate workflow and is not the cause of existing B corruption.
+
+Recommended pass criteria
+1. Record source URL,page ID,actual viewport,DPR,scrollY,heading/link/form/menu signatures and bounds together per capture after content settles; verify no window resize during collection.
+2. Prefer viewport tiles with fresh actual scroll positions. When full-page capture is used, compare top/middle/bottom image patches to independent settled viewport references at known scroll positions and reject scaling/repetition mismatches.
+3. Validate crop dimensions, full coverage, per-image content identity and semantic identity separately. Geometry alone must never mark semantic/visual review complete.
+4. Navigation: visible, readable labels in output or open mobile menu state plus a working menu trigger, links in bounds, no unexpected clipping. Include native zoom/large-view in picker for desktop images reduced into cards.
+5. Food: visible heading, at least one actual menu item/category or intentional menu CTA, no hero/nav inside crop. Contact: expected field labels. Membership/private parties: expected heading/body/CTA visible. Source selector and published ID must match crop.
+6. Review all72 required screenshots as a labeled contact sheet then open questionable images at native scale; maintain explicit reviewed/failed/pending status. Invalid screenshots should not count as captured coverage.
+
+Proof files added only; no source, catalog or existing images changed:
+- evidence/header-audit-contact-sheet.jpg
+- evidence/audit-b-first-850.jpg
+- evidence/audit-variant-b-rep-parity-full-page.jpg
+- evidence/audit-variant-g-cut-parity-full-page.jpg
+- evidence/capture-root-cause-pixel-audit.json

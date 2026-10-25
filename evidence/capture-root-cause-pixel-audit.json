@@ -1,0 +1,158 @@
+{
+  "method": "Read-only pixel comparison of rich first300px against later bands; repeated viewport flag requires at least2 periodic bands and all meanerrors below5/255. This is a diagnostic, not universal semantic certification.",
+  "sources": [
+    {
+      "variant": "variant-b-rep",
+      "source": "..\\evidence\\variant-b-rep-parity-full-page.jpg",
+      "size": [
+        1536,
+        8615
+      ],
+      "bestRepeatedTopBandOffset": 799,
+      "bestRepeatedTopBandMeanError": 0.302,
+      "subsequentPeriodicBandErrors": [
+        0.302,
+        0.318,
+        0.339,
+        0.356,
+        0.354,
+        0.354,
+        0.354,
+        0.218,
+        0.391,
+        0.375
+      ],
+      "suspectedRepeatedViewport": true,
+      "topBandStddev": 94.13
+    },
+    {
+      "variant": "variant-h-storybook",
+      "source": "..\\evidence\\variant-h-storybook-parity-full-page.jpg",
+      "size": [
+        1536,
+        5043
+      ],
+      "bestRepeatedTopBandOffset": 465,
+      "bestRepeatedTopBandMeanError": 65.797,
+      "subsequentPeriodicBandErrors": [
+        65.797,
+        82.26,
+        80.637,
+        84.226,
+        79.935,
+        84.074,
+        82.557,
+        81.072,
+        83.129,
+        188.002
+      ],
+      "suspectedRepeatedViewport": false,
+      "topBandStddev": 96.191
+    },
+    {
+      "variant": "variant-i-ma",
+      "source": "..\\evidence\\variant-i-ma-parity-full-page.jpg",
+      "size": [
+        1536,
+        6740
+      ],
+      "bestRepeatedTopBandOffset": 616,
+      "bestRepeatedTopBandMeanError": 61.49,
+      "subsequentPeriodicBandErrors": [
+        61.49,
+        89.93,
+        90.208,
+        90.74,
+        90.506,
+        90.702,
+        90.28,
+        90.471,
+        93.316,
+        92.98
+      ],
+      "suspectedRepeatedViewport": false,
+      "topBandStddev": 100.655
+    },
+    {
+      "variant": "variant-j-box-office",
+      "source": "..\\evidence\\variant-j-box-office-parity-full-page.jpg",
+      "size": [
+        1536,
+        5302
+      ],
+      "bestRepeatedTopBandOffset": 661,
+      "bestRepeatedTopBandMeanError": 21.411,
+      "subsequentPeriodicBandErrors": [
+        21.411,
+        171.377,
+        177.566,
+        174.712,
+        181.019,
+        177.729,
+        186.803
+      ],
+      "suspectedRepeatedViewport": false,
+      "topBandStddev": 68.503
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "source": "..\\evidence\\variant-k-clubhouse-parity-full-page.jpg",
+      "size": [
+        1536,
+        5029
+      ],
+      "bestRepeatedTopBandOffset": 731,
+      "bestRepeatedTopBandMeanError": 119.013,
+      "subsequentPeriodicBandErrors": [
+        119.013,
+        134.071,
+        153.313,
+        119.415,
+        155.294,
+        159.964
+      ],
+      "suspectedRepeatedViewport": false,
+      "topBandStddev": 55.082
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "source": "..\\evidence\\variant-l-midnight-lounge-parity-full-page.jpg",
+      "size": [
+        1536,
+        5229
+      ],
+      "bestRepeatedTopBandOffset": 1488,
+      "bestRepeatedTopBandMeanError": 38.268,
+      "subsequentPeriodicBandErrors": [
+        38.268,
+        40.691,
+        35.903
+      ],
+      "suspectedRepeatedViewport": false,
+      "topBandStddev": 66.371
+    },
+    {
+      "variant": "variant-g-cut",
+      "source": "..\\evidence\\variant-g-cut-parity-full-page.jpg",
+      "size": [
+        1536,
+        5486
+      ],
+      "bestRepeatedTopBandOffset": 523,
+      "bestRepeatedTopBandMeanError": 11.112,
+      "subsequentPeriodicBandErrors": [
+        11.112,
+        13.592,
+        12.407,
+        191.299,
+        177.352,
+        159.217,
+        156.591,
+        201.769,
+        55.125
+      ],
+      "suspectedRepeatedViewport": false,
+      "topBandStddev": 29.844
+    }
+  ]
+}
