@@ -1,0 +1,22 @@
+{
+  "variantCount": 12,
+  "optionCount": 95,
+  "screenshotCount": 90,
+  "statusCounts": {
+    "captured-live": 90,
+    "not-rendered": 5
+  },
+  "excludedPixels": [
+    {
+      "id": "footer--variant-a-circuit",
+      "excludedDocumentY": [
+        [
+          5246,
+          5247
+        ]
+      ],
+      "note": "The final 1 CSS pixel of the source footer was outside the captured viewport and is omitted. Original source bounds are retained."
+    }
+  ],
+  "errors": []
+}

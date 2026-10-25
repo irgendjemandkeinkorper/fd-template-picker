@@ -5,7 +5,8 @@
   "description": "Pick INDY component styles slot by slot and export the selection as JSON for the design team.",
   "type": "module",
   "scripts": {
-    "start": "npx --yes serve -l 4173 .",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test",
     "capture": "node scripts/capture.mjs"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pick INDY component styles slot by slot and export the selection for the design team.">
+  <meta name="description" content="Explore INDY cinema variants, mix page sections, and export a designer handoff with source and Library details.">
   <title>FD Template Picker</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,28 +17,31 @@
         <button id="btnPreview" type="button" class="btn" aria-pressed="false">Preview page</button>
         <button id="btnShare" type="button" class="btn">Copy link</button>
         <button id="btnImport" type="button" class="btn">Import</button>
+        <button id="btnHandoff" type="button" class="btn">Designer handoff</button>
         <button id="btnExport" type="button" class="btn btn--primary">Export JSON</button>
         <input id="fileImport" type="file" accept="application/json,.json" hidden>
       </div>
     </div>
     <div class="topbar__row topbar__row--sub">
-      <span class="sub-label">Start from</span>
-      <div id="presets" class="presets"></div>
-      <button id="btnShuffle" type="button" class="btn btn--small">Shuffle</button>
-      <span id="summary" class="summary"></span>
+      <label class="sub-label" for="presetSelect">Start from</label>
+      <select id="presetSelect" aria-label="Start from a variant"><option value="">Mixed variants</option></select>
+      <button id="btnShuffle" type="button" class="btn btn--small">Shuffle styles</button>
+      <span id="summary" class="summary" aria-live="polite"></span>
     </div>
   </header>
-
-  <main id="slots" class="slots" aria-label="Page sections"></main>
-
-  <section class="brief">
-    <label for="notes">Notes for the design team</label>
-    <textarea id="notes" rows="4" placeholder="Brand colours, fonts, anything the screenshots don't say…"></textarea>
-  </section>
-
+  <div class="workspace-intro">
+    <div class="intro-heading"><div><p class="eyebrow">Cinema website collection</p><h2>One starting point. Your own combination.</h2></div><span id="catalogCount" class="catalog-count"></span></div>
+    <p class="muted">Start with a complete variant, then browse and mix individual section styles. Preview your selection and export the source details for the design team.</p>
+    <p id="catalogContext" class="context"></p>
+    <details id="variantLibrary" class="variant-library"><summary>Explore the variant collection</summary><div id="variantCards" class="variant-grid"></div></details>
+    <details class="capture-notes"><summary>About these screenshots &amp; Library reuse</summary><div id="captureNotes"></div><p>Previews show captured images. They do not test booking or combine the source pages' interactive behavior. Library transfer status appears with each section; proposed page names are a plan until verified in INDY.</p></details>
+    <div class="filterbar"><label for="filterSection">Show</label><select id="filterSection"><option value="">All sections</option></select><input id="filterText" type="search" placeholder="Find in your selection…" aria-label="Search selected sections"><span id="shownCount" class="muted"></span></div>
+  </div>
+  <main id="slots" class="slots" aria-label="Selected page sections"><p class="empty">Loading the template collection…</p></main>
+  <section class="brief"><label for="notes">Notes for the design team</label><textarea id="notes" rows="4" placeholder="Brand colours, fonts, content changes, and anything the screenshots don't say…"></textarea></section>
+  <dialog id="gallery" class="gallery" aria-labelledby="galleryTitle"><div class="gallery__heading"><div><p class="eyebrow">Section collection</p><h2 id="galleryTitle">Section styles</h2></div><button id="galleryClose" type="button" class="btn" aria-label="Close style browser">Close ×</button></div><div class="gallery__filter"><label for="galleryVariant">Variant</label><select id="galleryVariant"><option value="">All variants</option></select></div><div id="galleryCards" class="style-grid"></div></dialog>
   <button id="btnExitPreview" type="button" class="exit-preview">Exit preview</button>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
   <script type="module" src="app.js"></script>
 </body>
 </html>
