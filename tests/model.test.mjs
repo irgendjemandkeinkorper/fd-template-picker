@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { createModel, visualCaptureKey, visualReviewForOption, buildCoverage, buildSelectionCoverage, buildExport, buildHandoff } from '../model.mjs';
+import { DEFAULT_BRAND_COLORS, assessBrandColors, BRAND_COLOR_NOTE } from '../colors.mjs';
 
 const option = (slot, variant) => ({ id: `${slot}--${variant}`, variant, variantLabel: variant, components: [`${slot} ${variant}`], sharedBy: [variant], sourceUrl: `https://example.com/${variant}/`, image: `screenshots/${slot}/${variant}.jpg`, width: 1440, height: 500, pageId: 100, draftId: 101, sectionIds: ['200'], draftSectionIds: ['201'] });
 const checked = (entry) => ({ ...entry, visualReview: { status: 'passed', captureKey: visualCaptureKey(entry), notes: 'Pixels match the label.' } });
@@ -49,6 +50,59 @@ test('v1 imports and v2 exports round trip order, selections, exclusions and not
   assert.equal(data.sections.find((s) => s.slot === 'header').library.proposedPageTitle, null);
   assert.match(buildHandoff(data), /Keep text short/);
   assert.doesNotMatch(buildHandoff(data), /## 2\. Food/);
+});
+
+test('brand colors survive saved-state links, exports and imports without changing screenshot colors', () => {
+  const model = createModel(catalog), state = model.defaultState('b');
+  state.brandColors = { primary: '#183b4e', secondary: '#fed' };
+  const data = buildExport(catalog, state, 'https://picker.test/');
+  const expected = { primary: '#183B4E', secondary: '#FFEEDD' };
+  assert.deepEqual(data.brandColors, expected);
+  assert.deepEqual(data.brandColorAssessment, assessBrandColors(expected));
+  assert.deepEqual(model.normalize(data).brandColors, expected);
+  // Shared links serialize the saved state directly, then run it through normalize.
+  const shared = JSON.parse(Buffer.from(Buffer.from(JSON.stringify(state)).toString('base64'), 'base64').toString());
+  assert.deepEqual(model.normalize(shared).brandColors, expected);
+  assert.equal(data.sections.find((section) => section.slot === 'hero').screenshot, 'https://picker.test/screenshots/hero/b.jpg');
+  const handoff = buildHandoff(data);
+  assert.match(handoff, /Primary: #183B4E/);
+  assert.match(handoff, /Secondary: #FFEEDD/);
+  assert.ok(handoff.includes(`${data.brandColorAssessment.ratio.toFixed(2)}:1`));
+  assert.ok(handoff.includes(BRAND_COLOR_NOTE));
+});
+
+test('legacy saved selections receive safe defaults and malformed imported color values are repaired', () => {
+  const model = createModel(catalog);
+  assert.deepEqual(model.normalize({ project: 'Legacy', order: ['header', 'hero', 'footer'] }).brandColors, DEFAULT_BRAND_COLORS);
+  assert.deepEqual(model.normalize({ brandColors: { primary: 'not a color', secondary: '#000' } }).brandColors,
+    { primary: DEFAULT_BRAND_COLORS.primary, secondary: '#000000' });
+  const first = model.defaultState(), second = model.defaultState();
+  first.brandColors.primary = '#FFFFFF';
+  assert.deepEqual(second.brandColors, DEFAULT_BRAND_COLORS, 'New selections must not share a mutable default object.');
+});
+
+test('guided progress round trips explicit confirmations without inventing completion for older selections', () => {
+  const model = createModel(catalog), state = model.defaultState('a');
+  assert.deepEqual(state.workflow, { currentStep: 'colors', confirmed: {} });
+  assert.deepEqual(model.normalize({ schema: 'fd-template-picker/v1', sections: [] }).workflow, { currentStep: 'colors', confirmed: {} });
+  state.workflow = { currentStep: 'food', confirmed: { colors: '#183B4E|#F4EEE4', navigation: 'header--a', hero: 'hero--a' } };
+  const data = buildExport(catalog, state, 'https://picker.test/');
+  assert.deepEqual(data.workflow, state.workflow);
+  assert.deepEqual(model.normalize(data).workflow, state.workflow);
+  assert.deepEqual(model.normalize(JSON.parse(JSON.stringify(state))).workflow, state.workflow);
+  assert.match(buildHandoff(data), /Checklist saved at: Food & Drink/);
+  assert.match(buildHandoff(data), /Recorded confirmations: Brand colors, Navigation, Hero/);
+});
+
+test('malformed progress is clamped and missing, altered or unreadable colors cannot retain confirmation', () => {
+  const model = createModel(catalog);
+  const workflow = { currentStep: 'bogus', confirmed: { colors: '#183B4E|#F4EEE4', navigation: 'header--a', hero: 1, review: 'done', bogus: 'done' } };
+  assert.deepEqual(model.normalize({ workflow }).workflow, { currentStep: 'colors', confirmed: { navigation: 'header--a' } });
+  const confirm = (brandColors, key = '#183B4E|#F4EEE4') => model.normalize({ brandColors, workflow: { currentStep: 'review', confirmed: { colors: key } } }).workflow.confirmed;
+  assert.deepEqual(confirm({ primary: 'invalid', secondary: DEFAULT_BRAND_COLORS.secondary }), {});
+  assert.deepEqual(confirm({ primary: '#000000', secondary: '#FFFFFF' }), {});
+  assert.deepEqual(confirm({ primary: '#000000', secondary: '#000000' }, '#000000|#000000'), {});
+  assert.deepEqual(confirm(DEFAULT_BRAND_COLORS), { colors: '#183B4E|#F4EEE4' });
 });
 
 test('an older selection excludes newly cataloged slots instead of adding unrequested sections', () => {

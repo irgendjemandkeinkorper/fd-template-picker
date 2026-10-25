@@ -3,45 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore INDY cinema variants, mix page sections, and export a designer handoff with source and Library details.">
-  <title>FD Template Picker</title>
+  <meta name="description" content="Choose your cinema website, one step at a time. Pick your colors and favorite section styles, then share your selections.">
+  <meta name="theme-color" content="#183b4e">
+  <title>Website Studio · Cinema website builder</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#stepTitle">Skip to current step</a>
   <header class="topbar">
-    <div class="topbar__row">
-      <h1 class="brand">FD <span>Template Picker</span></h1>
-      <input id="project" class="project" type="text" placeholder="Client / site name" aria-label="Client or site name" autocomplete="off">
-      <span id="saved" class="saved" role="status" aria-live="polite"></span>
-      <div class="actions">
-        <button id="btnPreview" type="button" class="btn" aria-pressed="false">Preview page</button>
-        <button id="btnShare" type="button" class="btn">Copy link</button>
-        <button id="btnImport" type="button" class="btn">Import</button>
-        <button id="btnHandoff" type="button" class="btn">Designer handoff</button>
-        <button id="btnExport" type="button" class="btn btn--primary">Export JSON</button>
-        <input id="fileImport" type="file" accept="application/json,.json" hidden>
-      </div>
-    </div>
-    <div class="topbar__row topbar__row--sub">
-      <label class="sub-label" for="presetSelect">Start from</label>
-      <select id="presetSelect" aria-label="Start from a variant"><option value="">Mixed variants</option></select>
-      <button id="btnShuffle" type="button" class="btn btn--small">Shuffle styles</button>
-      <span id="summary" class="summary" aria-live="polite"></span>
-    </div>
+    <div class="wordmark"><span class="brand-mark" aria-hidden="true">F</span><div><strong>Website Studio</strong><span>Made for your cinema</span></div></div>
+    <div class="topbar__actions"><span id="saved" class="saved" role="status" aria-live="polite">Progress saves on this device</span><button id="restart" class="text-button" type="button">Start over</button></div>
   </header>
-  <div class="workspace-intro">
-    <div class="intro-heading"><div><p class="eyebrow">Cinema website collection</p><h2>One starting point. Your own combination.</h2></div><span id="catalogCount" class="catalog-count"></span></div>
-    <p class="muted">Every variant should offer the same six core components. Check source coverage, then browse and mix the captured styles. Movie modules are optional while their styling is reviewed.</p>
-    <p id="catalogContext" class="context"></p>
-    <section class="coverage" aria-labelledby="coverageHeading"><div class="coverage__heading"><div><p class="eyebrow">Equal representation</p><h2 id="coverageHeading">Required component coverage</h2></div><span id="coverageCount" class="catalog-count"></span></div><p id="coverageSummary" class="muted"></p><div class="coverage__scroll" tabindex="0" role="region" aria-label="Component coverage by variant"><table id="coverageTable" class="coverage-table"></table></div><p class="coverage__key muted">Preview checked = the image was reviewed against its label. Replace preview = the image fails that check. Review preview = appearance or label needs another look. A component can exist on the source page while its preview still needs work.</p></section>
-    <details id="variantLibrary" class="variant-library"><summary>Explore the variant collection</summary><div id="variantCards" class="variant-grid"></div></details>
-    <details class="capture-notes"><summary>About these screenshots &amp; Library reuse</summary><div id="captureNotes"></div><p>Previews show captured images. They do not test booking or combine the source pages' interactive behavior. Library transfer status appears with each section; proposed page names are a plan until verified in INDY.</p></details>
-    <div class="filterbar"><label for="filterGroup">Show</label><select id="filterGroup"><option value="required">Required components</option><option value="movies">Optional movie modules</option><option value="additional">Additional sections</option><option value="">All sections</option></select><select id="filterSection" aria-label="Filter by section"><option value="">Any section</option></select><input id="filterText" type="search" placeholder="Find in your selection…" aria-label="Search selected sections"><span id="shownCount" class="muted"></span></div>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Your website checklist">
+      <div class="sidebar__heading"><span class="eyebrow">Your website</span><h1>One choice<br>at a time.</h1></div>
+      <nav aria-label="Build steps"><ol id="checklist" class="checklist"></ol></nav>
+      <div class="progress-block"><div><span>Your progress</span><strong id="progressLabel">0 of 7</strong></div><progress id="progress" max="7" value="0" aria-label="Completed choices"></progress><p>Take a look. Pick a favorite.<br>We’ll bring it together.</p></div>
+    </aside>
+    <main id="stepPanel" class="step-panel" aria-label="Current checklist step"><div class="step-content"><p class="loading" role="status">Getting your styles ready…</p></div></main>
   </div>
-  <main id="slots" class="slots" aria-label="Selected page sections"><p class="empty">Loading the template collection…</p></main>
-  <section class="brief"><label for="notes">Notes for the design team</label><textarea id="notes" rows="4" placeholder="Brand colours, fonts, content changes, and anything the screenshots don't say…"></textarea></section>
-  <dialog id="gallery" class="gallery" aria-labelledby="galleryTitle"><div class="gallery__heading"><div><p class="eyebrow">Section collection</p><h2 id="galleryTitle">Section styles</h2></div><button id="galleryClose" type="button" class="btn" aria-label="Close style browser">Close ×</button></div><div class="gallery__filter"><label for="galleryVariant">Variant</label><select id="galleryVariant"><option value="">All variants</option></select></div><div id="galleryCards" class="style-grid"></div></dialog>
-  <button id="btnExitPreview" type="button" class="exit-preview">Exit preview</button>
+  <dialog id="previewDialog" class="preview-dialog" aria-labelledby="previewTitle">
+    <div class="dialog-heading"><div><p id="previewCategory" class="eyebrow"></p><h2 id="previewTitle">Style preview</h2></div><button id="closePreview" class="close-button" type="button" aria-label="Close preview">×</button></div>
+    <div id="previewImage" class="dialog-image"></div><p class="dialog-note">Layout preview with sample content and original colors.</p>
+  </dialog>
+  <dialog id="restartDialog" class="restart-dialog" aria-labelledby="restartTitle">
+    <p class="eyebrow">A fresh start</p><h2 id="restartTitle">Start a new selection?</h2><p>Your current choices on this device will be cleared. Download your summary first if you want to keep them.</p><div class="restart-actions"><button id="cancelRestart" class="button button--secondary" type="button">Keep my choices</button><button id="confirmRestart" class="button button--primary" type="button">Start over</button></div>
+  </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script type="module" src="app.js"></script>
 </body>

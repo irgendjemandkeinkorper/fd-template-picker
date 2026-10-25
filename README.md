@@ -1,31 +1,53 @@
-# FD Template Picker
+# FD Template Picker · Website Studio
 
-Explore the verified variants from **US-BETA / INDY Demo / Adam Template Testing 2**, start from a variant, then mix INDY sections and export a designer handoff. The admin inventory on 25 October 2026 contains **A through L**. A variant can be inventoried before all of its screenshots are ready; the picker displays capture availability separately.
+Choose a cinema website one step at a time. The customer flow shows one decision at a time, with a checklist, a preview, and a clear next action. Customers choose from the reviewed template styles, then share their colors and six section choices with the website team.
 
-This is a static website with no build or production dependencies.
+## Customer flow
+
+1. **Brand colors:** choose primary and secondary colors with the color pickers or hex fields. The cinema name is optional.
+2. **Navigation:** choose the menu style.
+3. **Hero:** choose the opening section.
+4. **Food & Drink:** choose the menu presentation.
+5. **Private Parties:** choose the celebration and private-screening section.
+6. **Membership:** choose the membership section.
+7. **Contact Us:** choose the contact section.
+8. **Review:** check all seven choices, edit any step, then copy a selection link or download a plain-text summary.
+
+A displayed default is a starting preview. A choice counts only after the customer confirms it with the next-step button. Later steps unlock in order, and completed steps remain available for editing. Changing a confirmed color pair or section choice requires confirmation again. The customer flow keeps the six sections in a fixed order and presents only template choices.
+
+The six section steps offer **71 checked section choices** from variants A–L on **US-BETA / INDY Demo / Adam Template Testing 2**: 12 choices per section except Hero, which has 11. F's hero is excluded while its missing image is unresolved. Only present source components with a current, passed visual review and an unaltered live screenshot are available. Rejected, stale, partial and unchecked previews stay outside the customer choices. Several variants share a navigation appearance.
+
+Use **View larger** to inspect a selected style. Tall sections scroll vertically; navigation previews preserve enough width to inspect menu labels. The previews are screenshots with sample content. They do not operate booking, ordering or contact widgets.
+
+## Colors and contrast
+
+The color step shows both combinations: secondary text on primary, and primary text on secondary. It uses the [WCAG 2.2 sRGB relative-luminance formula](https://www.w3.org/TR/WCAG22/#contrast-minimum) and requires an **unrounded ratio of at least 4.5:1** before continuing. A pair that reaches 3:1 but falls below 4.5:1 is identified as suitable for large text only and still needs adjustment for this flow. Invalid hex values cannot pass. A contrasting-secondary suggestion offers black or white when a valid pair needs more contrast.
+
+**Demo images keep their original colors. The selected primary and secondary colors will be used when building the website.** The color-pair check does not assess the completed website.
+
+## Save and share
+
+Progress saves on the current device in the browser. **Copy link**, available at Review, includes the cinema name, colors, section choices and recorded confirmations in the URL fragment so the selection can be reopened. **Download summary** creates a `.txt` file with the colors, contrast result and six section choices. **Start over** asks for confirmation before clearing the current guided selection.
+
+Older saved selections and selection links are normalized into the guided flow. Compatible section choices are retained; legacy selections without checklist confirmations begin unconfirmed. The underlying model still supports versioned JSON import/export and source metadata for development and handoff, while the customer interface uses the selection link and plain-text summary.
+
+## Run locally
+
+This is a static website with no build or production dependencies. From the repository directory:
 
 ```sh
 node scripts/serve.mjs
-# http://localhost:4173
+```
+
+Open `http://localhost:4173`. To run the automated checks:
+
+```sh
 node --test
 ```
 
-It can be hosted on GitHub Pages, Netlify, or another static host. `npm start` and `npm test` are aliases when npm is installed.
+`npm start` and `npm test` are aliases when npm is installed. The site can be hosted on GitHub Pages, Netlify, or another static host.
 
-## Choose and hand off a page
-
-- **Required component coverage** compares every variant against Navigation, Hero, Food & Drink, Private Parties, Membership and Contact Us. Source presence is separate from preview quality. Only current live images that pass a pixel-and-label review count as checked previews; rejected, pending and review-needed images remain flagged.
-- The section view starts with **Required components**. Use **Optional movie modules** for Now Playing, Coming Soon and Ticket Finder while their customization is assessed; **Additional sections** retains the rest of the collection.
-- **Explore the variant collection** shows the published source pages and screenshot coverage.
-- **Start from** selects that variant's available sections in source order. A missing section stays excluded; another variant is never substituted silently.
-- **Browse styles** opens a visual comparison for one section. Select a style directly or use the previous/next controls. Arrow keys also cycle styles. **Open full-size preview** opens the original image; navigation previews also scroll horizontally to preserve readable menu labels.
-- Reorder middle sections, leave sections out, and add project or section notes. Header/footer stay at the ends.
-- Section and text filters affect the editor view. **Preview page** shows the entire included selection as captured images.
-- Selections save in the browser. **Copy link** shares the complete selection, including notes, in the URL fragment.
-- **Export JSON** includes source page, admin and section identifiers when verified, screenshot provenance, Library transfer metadata, catalog coverage, and separate coverage for the included selection. **Designer handoff** lists any missing or partial required components in the selected combination.
-- **Import** accepts both the original v1 and current v2 exports. Existing saved selections and links remain supported. Newly cataloged sections remain excluded when restoring an older selection.
-
-The visual preview does not combine live widgets or verify booking, ordering, forms, or mobile behavior. Open the source page to inspect the working example.
+The [demo readiness report](docs/DEMO-READINESS.md) records the verified customer journeys, screenshots, test results and remaining installation limits.
 
 ## Catalog and screenshot evidence
 
@@ -39,7 +61,7 @@ The [current component audit](docs/COMPONENT-PARITY.md) records all **72 require
 
 The current catalog contains **110 choices across 18 section categories: 105 actual screenshots and 5 verified zero-height optional/support sections**. It preserves published empty states. Footer captures A/I/J/L omit a documented final 1 CSS pixel; original DOM bounds remain in their capture notes. Configured components absent from the observed published DOM do not retain stale choices. Repaired B/G/H/I/J/K/L have actual 390px mobile geometry evidence and a manual pixel review; all 16 new or enriched modules fit without measured horizontal overflow and preserve readable content, loaded menu images and visible actions. See [the parity report and mobile proof](docs/COMPONENT-PARITY.md).
 
-The original 20 October A–C screenshot set used fictional showtimes; Hero B also received a browser-only selector correction. That set has been replaced, and unused legacy images removed. Fresh captures must preserve the real page, including empty programming states, with no data fixtures or CSS corrections. The UI supports explicitly labeled illustrative or partial captures if a future collection needs them.
+The original 20 October A–C screenshot set used fictional showtimes; Hero B also received a browser-only selector correction. That set has been replaced, and unused legacy images removed. Fresh captures must preserve the real page, including empty programming states, with no data fixtures or CSS corrections. Illustrative or partial captures may remain catalog evidence, but are excluded from customer choices.
 
 To ingest a verified inventory and capture observations from the sibling `evidence` directory:
 
@@ -73,7 +95,7 @@ npm run capture -- --variant=variant-k-clubhouse --mobile
 
 The refresh script requires exact, verified `capture.selectors` (or `sectionSelectors`) for each option. It skips unverified mappings, fails if a selector stops resolving uniquely, and preserves the catalog when no capture jobs are available. It does not inject fixtures, repair the source page, publish INDY content, or deploy the picker.
 
-Native movie widgets have useful layout controls, documented in [movie-widget research and policy](docs/MOVIE-WIDGETS.md). Keep a shared Movies function in the site baseline, while presenting Now Playing, Coming Soon and Ticket Finder as optional picker choices until actual layouts have populated desktop/mobile evidence. A compact booking selector is not a replacement for film discovery.
+Native movie widgets have useful layout controls, documented in [movie-widget research and policy](docs/MOVIE-WIDGETS.md). Keep a shared Movies function in the eventual website baseline. Now Playing, Coming Soon and Ticket Finder remain research choices in the underlying catalog, outside this customer checklist, until actual layouts have populated desktop/mobile evidence. A compact booking selector is not a replacement for film discovery.
 
 ## Library reuse model
 
@@ -81,12 +103,14 @@ Keep a full variant as its reference page. When INDY Library reuse is page-based
 
 Before promoting a section, record its native widgets, section/page CSS, Theme & Style dependencies, media, links, and dynamic data needs. Header, navigation, and footer need separate site-level handling. Test one section and one destination copy before creating the full collection.
 
-For an independent local starting template, the destination workflow is **Add From Library → Unlink → verify Not Linked → customize**. Turning Library Updates off retains the link and a Force Update can still refresh it. Keep a link active only when synchronized upstream updates are intended. The export records this policy and the current verification status; it never creates or unlinks pages automatically. See [the verified Library investigation](docs/INDY-LIBRARY.md) for the rollout and unresolved checks.
+For an independent local starting template, the destination workflow is **Add From Library → Unlink → verify Not Linked → customize**. Turning Library Updates off retains the link and a Force Update can still refresh it. Keep a link active only when synchronized upstream updates are intended. The model export records this policy and the current verification status; it never creates or unlinks pages automatically. Cross-site Library transfer and assembly into an existing homepage remain unverified. See [the Library investigation](docs/INDY-LIBRARY.md) for the rollout and unresolved checks.
 
 ## Files
 
 - `app.js`, `index.html`, `styles.css`: browser UI.
 - `model.mjs`: selection normalization, presets, versioned export and transfer planning.
+- `workflow.mjs`: ordered steps, eligible choices, explicit confirmations and customer summary.
+- `colors.mjs`: hex normalization, brand colors and WCAG contrast calculation.
 - `catalog.json`, `screenshots/`: verified collection and image assets.
 - `scripts/serve.mjs`: local static preview server.
 - `scripts/sync-evidence.mjs`: inventory/capture ingestion.
@@ -94,4 +118,5 @@ For an independent local starting template, the destination workflow is **Add Fr
 - `scripts/prepare-parity-metadata.mjs`, `scripts/process-captures.py`: exact-source semantic metadata and genuine browser-image processing.
 - `scripts/capture.mjs`: opt-in refresh of verified selectors.
 - `tests/model.test.mjs`: selection migration, missing sections, export and asset integrity.
+- `tests/colors.test.mjs`, `tests/workflow.test.mjs`: contrast boundaries, saved confirmations, fixed customer choices and summary behavior.
 - `tests/parity-catalog.test.mjs`, `tests/evidence-sync.test.mjs`, `tests/process-captures.test.py`: six-component presets, capture provenance, source identity, crop coverage and ingestion checks.
