@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
 import { dirname, resolve, join, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { componentForOption } from '../model.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const evidenceRoot = resolve(root, '..', 'evidence');
@@ -44,7 +45,9 @@ if (process.argv[2]) {
   const observation = JSON.parse(await readFile(file, 'utf8'));
   observation.capturedAt ??= observation.generatedAt;
   if (Array.isArray(observation.options)) {
-    observation.variants = [...new Set(observation.options.map((o) => o.variant))].map((id) => ({ id,
+    const variantDetails = new Map((observation.variants ?? []).map((variant) => [variant.id, variant]));
+    observation.variants = [...new Set(observation.options.map((o) => o.variant))].map((id) => ({
+      ...variantDetails.get(id), id,
       sections: observation.options.filter((o) => o.variant === id).sort((a, b) => (a.sourceBounds?.y ?? 0) - (b.sourceBounds?.y ?? 0)).map((o) => ({
         ...o, slotId: o.slot, label: o.slotLabel, image: o.image ? resolve(root, o.image) : null,
         capture: { mode: o.captureStatus === 'partial' ? 'partial' : 'live', capturedAt: o.capturedAt,
@@ -62,6 +65,8 @@ if (process.argv[2]) {
     if (!variant) throw new Error(`Unverified variant ${observed.id}`);
     Object.assign(variant, Object.fromEntries(Object.entries(observed).filter(([key]) => key !== 'sections')));
     variant.sectionOrder = [...new Set(observed.sections.map((s) => s.slotId))];
+    const previousOptions = new Map(catalog.slots.map((slot) => [slot.id, slot.options.find((option) => (option.sharedBy ?? [option.variant]).includes(variant.id))]));
+    const previousById = new Map(catalog.slots.flatMap((slot) => slot.options).map((option) => [option.id, option]));
     // Observations are a complete rendered-page snapshot. Do not leave an old
     // illustrative choice available after that section disappears from the DOM.
     for (const slot of catalog.slots) {
@@ -72,43 +77,59 @@ if (process.argv[2]) {
         return [{ ...existing, id: `${slot.id}--legacy-shared-${sharedBy.join('_')}`, sharedBy }];
       });
     }
+    const slotCounts = new Map();
     for (const section of observed.sections) {
       let slot = catalog.slots.find((s) => s.id === section.slotId);
       if (!slot) { slot = { id: section.slotId, label: section.label ?? section.slotId, options: [] }; catalog.slots.splice(catalog.slots.length - 1, 0, slot); }
+      const sameSlot = slotCounts.get(slot.id) ?? 0;
+      slotCounts.set(slot.id, sameSlot + 1);
+      const suffix = sameSlot ? `-${sameSlot + 1}` : '';
+      const optionId = `${slot.id}--${variant.id}${suffix}`;
       let image = section.image;
       if (image) {
         const sourceFile = resolve(dirname(file), image);
         const allowed = resolve(root, '..');
         if (!sourceFile.startsWith(allowed + sep)) throw new Error('Capture images must be within the INDY workspace.');
-        image = `screenshots/${section.slotId}/${variant.id}${sourceFile.toLowerCase().endsWith('.png') ? '.png' : '.jpg'}`;
+        image = `screenshots/${section.slotId}/${variant.id}${suffix}${sourceFile.toLowerCase().endsWith('.png') ? '.png' : '.jpg'}`;
         const target = join(root, image);
         await mkdir(dirname(target), { recursive: true });
         if (sourceFile !== target) await copyFile(sourceFile, target);
       }
-      const option = { id: `${slot.id}--${variant.id}`, variant: variant.id, variantLabel: variant.label, name: section.name,
+      const previous = previousById.get(optionId) ?? previousOptions.get(slot.id);
+      const sameSource = JSON.stringify([...(section.sectionIds ?? [])].sort()) === JSON.stringify([...(previous?.sectionIds ?? [])].sort());
+      const option = { id: optionId, variant: variant.id, variantLabel: variant.label, name: section.name,
+        canonicalComponent: section.canonicalComponent ?? previous?.canonicalComponent,
+        componentStatus: section.componentStatus ?? (sameSource ? previous?.componentStatus : 'unverified'),
+        componentNote: section.componentNote ?? (sameSource ? previous?.componentNote : 'Source sections changed; component purpose needs review.'),
+        componentAuditedAt: section.componentAuditedAt ?? (section.componentStatus ? observation.capturedAt : sameSource ? previous?.componentAuditedAt : null),
+        designNote: Object.hasOwn(section, 'designNote') ? section.designNote : previous?.designNote,
         components: section.components ?? [section.name], sharedBy: [variant.id], image, width: section.width, height: section.height,
         sourceUrl: variant.sourceUrl, sourcePageTitle: variant.pageTitle, pageId: variant.pageId, draftId: variant.draftId ?? null,
-        adminUrl: variant.adminUrl ?? null, sectionIds: section.sectionIds ?? [], draftSectionIds: section.draftSectionIds ?? [],
+        adminUrl: variant.adminUrl ?? null, sectionIds: section.sectionIds ?? [],
+        draftSectionIds: section.draftSectionIds ?? (sameSource ? previous?.draftSectionIds : null) ?? [],
+        nativeWidgetType: section.nativeWidgetType ?? (sameSource ? previous?.nativeWidgetType : null) ?? null,
         captureStatus: section.captureStatus ?? 'captured-live',
         library: section.library ?? { status: 'not-created' }, dependencies: section.dependencies ?? [], dependenciesStatus: section.dependenciesStatus ?? 'unverified',
         capture: section.capture ?? { mode: 'live', capturedAt: observation.capturedAt, notes: [] },
       };
       slot.options.push(option);
+      // A screenshot refresh alone must not turn a source gap into a completed
+      // component. Only explicitly reviewed semantic metadata updates the audit.
+      const component = componentForOption(slot, option);
+      if (component && ['present', 'partial', 'missing'].includes(section.componentStatus)) {
+        catalog.componentAudit ??= [];
+        const entry = { variant: variant.id, component, status: section.componentStatus,
+          sourceOptionId: option.id, sourceSectionIds: option.sectionIds, sourceUrl: option.sourceUrl,
+          auditedAt: section.componentAuditedAt ?? observation.capturedAt,
+          notes: section.componentNote ? [section.componentNote] : ['Explicit component status supplied with refreshed evidence.'] };
+        const index = catalog.componentAudit.findIndex((audit) => audit.variant === variant.id && audit.component === component);
+        if (index < 0) catalog.componentAudit.push(entry); else catalog.componentAudit[index] = entry;
+      }
     }
   }
   catalog.generatedAt = observation.capturedAt ?? new Date().toISOString();
 }
 catalog.slots = catalog.slots.filter((slot) => slot.options.length);
-// K's draft identity was separately inspected in Admin; do not infer draft IDs
-// for the other variants from numbering patterns.
-const clubhouse = catalog.variants.find((variant) => variant.id === 'variant-k-clubhouse');
-if (clubhouse) clubhouse.draftId = '5916';
-const clubhouseDraftSections = { '24895': '24890', '24896': '24891', '24897': '24892', '24898': '24893', '24899': '24894' };
-for (const slot of catalog.slots) for (const option of slot.options) {
-  if (option.variant !== 'variant-k-clubhouse') continue;
-  option.draftId = '5916';
-  option.draftSectionIds = (option.sectionIds ?? []).map((id) => clubhouseDraftSections[id]).filter(Boolean);
-}
 for (const option of catalog.slots.find((slot) => slot.id === 'header')?.options ?? []) {
   if (option.width >= 500 || option.height <= option.width) continue;
   const variantOptions = catalog.slots.flatMap((slot) => slot.options).filter((other) => other.variant === option.variant);

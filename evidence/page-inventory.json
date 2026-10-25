@@ -4,66 +4,66 @@
     "circuit": "INDY Demo",
     "site": "Adam Template Testing 2"
   },
-  "capturedAt": "2026-10-25",
+  "capturedAt": "2026-10-25T13:43:27.975Z",
   "rows": [
     [
       "5917",
       "Variant L Midnight Lounge",
       "variant-l-midnight-lounge",
-      "5",
+      "9",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
       "5915",
       "Variant K Clubhouse",
       "variant-k-clubhouse",
-      "5",
+      "8",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
       "5913",
       "Variant J Box Office",
       "variant-j-box-office",
-      "5",
+      "9",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
       "5911",
       "Variant I Ma",
       "variant-i-ma",
-      "4",
+      "5",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
       "5909",
       "Variant H Storybook",
       "variant-h-storybook",
-      "4",
+      "5",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
       "5905",
       "Variant G Cut",
       "variant-g-cut",
-      "4",
+      "5",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -73,7 +73,7 @@
       "10",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -83,7 +83,7 @@
       "11",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -93,7 +93,7 @@
       "10",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -103,7 +103,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nundo\nEDIT\nmore_vert"
     ],
     [
@@ -113,7 +113,7 @@
       "0",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nundo\nEDIT\nmore_vert"
     ],
     [
@@ -123,17 +123,17 @@
       "9",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
       "5661",
       "Variant B Rep",
       "variant-b-rep",
-      "8",
+      "9",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -143,7 +143,7 @@
       "9",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -153,7 +153,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -163,7 +163,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -173,7 +173,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -183,7 +183,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -193,7 +193,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -203,7 +203,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -213,7 +213,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -223,7 +223,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nundo\nEDIT\nmore_vert"
     ],
     [
@@ -233,7 +233,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -243,7 +243,7 @@
       "2",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -253,7 +253,7 @@
       "2",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -263,7 +263,7 @@
       "2",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -273,7 +273,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -283,7 +283,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -293,7 +293,7 @@
       "1",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nundo\nEDIT\nmore_vert"
     ],
     [
@@ -303,7 +303,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -313,7 +313,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -323,7 +323,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -333,7 +333,7 @@
       "4",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -343,7 +343,7 @@
       "3",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -353,7 +353,7 @@
       "3",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -363,7 +363,7 @@
       "2",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -373,7 +373,7 @@
       "2",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -383,7 +383,7 @@
       "4",
       "",
       "toggle_on",
-      " Not Linked",
+      "Not Linked",
       "published_with_changes\nundo\nvisibility_off\nEDIT\nmore_vert"
     ],
     [
@@ -393,7 +393,7 @@
       "4",
       "",
       "toggle_off",
-      " Not Linked",
+      "Not Linked",
       "publish\nEDIT\nmore_vert"
     ],
     [
@@ -403,7 +403,7 @@
       "8",
       "",
       "home",
-      " Not Linked",
+      "Not Linked",
       "visibility_off\nEDIT\nmore_vert"
     ]
   ]

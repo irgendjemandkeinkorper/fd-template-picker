@@ -1,0 +1,410 @@
+{
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2"
+  },
+  "capturedAt": "2026-10-25",
+  "rows": [
+    [
+      "5917",
+      "Variant L Midnight Lounge",
+      "variant-l-midnight-lounge",
+      "5",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5915",
+      "Variant K Clubhouse",
+      "variant-k-clubhouse",
+      "5",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5913",
+      "Variant J Box Office",
+      "variant-j-box-office",
+      "5",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5911",
+      "Variant I Ma",
+      "variant-i-ma",
+      "4",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5909",
+      "Variant H Storybook",
+      "variant-h-storybook",
+      "4",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5905",
+      "Variant G Cut",
+      "variant-g-cut",
+      "4",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5903",
+      "Variant F Concrete",
+      "variant-f-concrete",
+      "10",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5901",
+      "Variant E Grid",
+      "variant-e-grid",
+      "11",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5899",
+      "Variant D Odd",
+      "variant-d-odd",
+      "10",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5897",
+      "Template D Family Matinee",
+      "template-d-family-matinee",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nundo\nEDIT\nmore_vert"
+    ],
+    [
+      "5669",
+      "QA Scratch (unpublished)",
+      "qa-scratch-unpublished",
+      "0",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nundo\nEDIT\nmore_vert"
+    ],
+    [
+      "5663",
+      "Variant C Late",
+      "variant-c-late",
+      "9",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5661",
+      "Variant B Rep",
+      "variant-b-rep",
+      "8",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5659",
+      "Variant A Circuit",
+      "variant-a-circuit",
+      "9",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5657",
+      "Variant C Special Events",
+      "variant-c-special-events",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5655",
+      "Variant B Special Events",
+      "variant-b-special-events",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5653",
+      "Variant A Special Events",
+      "variant-a-special-events",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5651",
+      "Variant C Contact",
+      "variant-c-contact",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5649",
+      "Variant B Contact",
+      "variant-b-contact",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5647",
+      "Variant A Contact",
+      "variant-a-contact",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5645",
+      "Variant C Food Ordering",
+      "variant-c-food-ordering",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5643",
+      "Variant B Food Ordering",
+      "variant-b-food-ordering",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nundo\nEDIT\nmore_vert"
+    ],
+    [
+      "5641",
+      "Variant A Food Ordering",
+      "variant-a-food-ordering",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5639",
+      "Variant C Hero",
+      "variant-c-hero",
+      "2",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5637",
+      "Variant B Hero",
+      "variant-b-hero",
+      "2",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5635",
+      "Variant A Hero",
+      "variant-a-hero",
+      "2",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5633",
+      "Variant C Nav",
+      "variant-c-nav",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5631",
+      "Variant B Nav",
+      "variant-b-nav",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5629",
+      "Variant A Nav",
+      "variant-a-nav",
+      "1",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nundo\nEDIT\nmore_vert"
+    ],
+    [
+      "5625",
+      "Private Hire",
+      "private-hire",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5623",
+      "Events Late Nights",
+      "events-late-nights",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5621",
+      "Membership",
+      "membership",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5619",
+      "Lobby Riot",
+      "lobby-riot",
+      "4",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5617",
+      "Projectionists Programme",
+      "projectionists-programme",
+      "3",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5608",
+      "Movie Lineup",
+      "movie-lineup",
+      "3",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5607",
+      "Food Drink",
+      "food-drink",
+      "2",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5606",
+      "Food Drink",
+      "food-drink",
+      "2",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5604",
+      "Visit",
+      "visit",
+      "4",
+      "",
+      "toggle_on",
+      " Not Linked",
+      "published_with_changes\nundo\nvisibility_off\nEDIT\nmore_vert"
+    ],
+    [
+      "5602",
+      "Movies",
+      "movies",
+      "4",
+      "",
+      "toggle_off",
+      " Not Linked",
+      "publish\nEDIT\nmore_vert"
+    ],
+    [
+      "5601",
+      "Fandango Cinema Template Test",
+      "fandango-cinema-template-test",
+      "8",
+      "",
+      "home",
+      " Not Linked",
+      "visibility_off\nEDIT\nmore_vert"
+    ]
+  ]
+}

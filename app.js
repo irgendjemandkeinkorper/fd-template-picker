@@ -1,4 +1,4 @@
-import { SUPPORTED_SCHEMAS, PINNED, createModel, libraryPlan, buildExport as exportSelection, buildHandoff } from './model.mjs';
+import { SUPPORTED_SCHEMAS, PINNED, MOVIE_COMPONENTS, componentForOption, buildCoverage, createModel, libraryPlan, buildExport as exportSelection, buildHandoff } from './model.mjs';
 
 const STORAGE_KEY = 'fd-template-picker:selection';
 const $ = (id) => document.getElementById(id);
@@ -22,6 +22,9 @@ try {
   throw error;
 }
 const { variants, capturedVariants, slotById, optionForVariant, applyVariant, defaultState, normalize } = model;
+const coverage = buildCoverage(catalog);
+const coverageLabels = { captured: 'Captured', 'partial-source': 'Partial source', 'missing-source': 'Missing source', 'needs-audit': 'Needs audit', 'capture-pending': 'Capture pending', 'partial-capture': 'Partial capture', 'not-visible': 'Not visible' };
+const groupForSlot = (slot) => MOVIE_COMPONENTS.has(slot.id) ? 'movies' : slot.options.some((option) => componentForOption(slot, option)) ? 'required' : 'additional';
 function retiredChoices(raw) {
   const picks = Array.isArray(raw?.sections) ? Object.fromEntries(raw.sections.filter(Boolean).map((s) => [s.slot, s.optionId])) : raw?.picks ?? {};
   return Object.entries(picks).filter(([id, pick]) => !slotById.get(id)?.options.some((o) => o.id === pick)).length;
@@ -82,7 +85,7 @@ function move(slotId, step) {
 }
 function chooseVariant(id) {
   applyVariant(state, id);
-  $('filterSection').value = ''; $('filterText').value = '';
+  $('filterGroup').value = 'required'; $('filterSection').value = ''; $('filterText').value = '';
   commit();
   toast(`Started from ${variants.find((v) => v.id === id)?.label}. Mix individual sections below.`);
 }
@@ -113,6 +116,8 @@ function renderSource(slot, option) {
     el('p', { textContent: plan.importPolicy }),
     el('p', { textContent: `Dependency review: ${plan.dependenciesStatus}` }),
   );
+  if (option.componentStatus === 'partial') content.append(el('p', { className: 'capture-note', textContent: `Partial required component: ${option.componentNote || 'This section only covers part of the required purpose.'}` }));
+  if (option.designNote) content.append(el('p', { className: 'capture-note', textContent: option.designNote }));
   if (option.adminUrl) content.append(link('Open in INDY Admin ↗', option.adminUrl));
   if (option.capture?.notes?.length) content.append(el('p', { className: 'capture-note', textContent: option.capture.notes.join(' ') }));
   if (plan.dependencies.length) content.append(el('p', { textContent: `Depends on: ${plan.dependencies.join('; ')}` }));
@@ -153,6 +158,7 @@ function renderSlot(slotId) {
   });
   note.setAttribute('aria-label', `Note about ${slot.label}`);
   const section = el('section', { className: `slot${off ? ' slot--off' : ''}${option.captureStatus === 'not-rendered' ? ' slot--not-rendered' : ''}` }, bar, stage, renderSource(slot, option), note);
+  if (option.componentStatus === 'partial') stage.before(el('p', { className: 'slot__warning capture-note', textContent: `Partial source: ${option.componentNote || 'Needs more content to meet the required component purpose.'}` }));
   section.dataset.slot = slotId;
   if (option.presentation?.kind === 'sidebar') section.style.setProperty('--sidebar-width', `${option.presentation.width}px`);
   section.setAttribute('aria-label', slot.label);
@@ -185,6 +191,8 @@ function renderGallery() {
       el('div', { className: 'style-card__image' }, screenshot(option)),
       el('div', { className: 'style-card__body' }, el('h3', { textContent: option.variantLabel }),
         el('p', { textContent: option.name }), el('p', { className: 'muted', textContent: captureDescription(option) }),
+        ...(option.componentStatus === 'partial' ? [el('p', { className: 'capture-note', textContent: `Partial source: ${option.componentNote || 'Needs more content to meet the required component purpose.'}` })] : []),
+        ...(option.designNote ? [el('p', { className: 'capture-note', textContent: option.designNote })] : []),
         el('div', { className: 'card-actions' }, button, link('View source ↗', option.sourceUrl))),
     );
   }));
@@ -203,6 +211,12 @@ function renderVariants() {
       el('h3', { textContent: variant.label }),
       el('p', { className: 'muted', textContent: `${images} screenshots · ${available.length} section choices${partial ? ` · ${partial} partial` : ''}` }),
     );
+    const row = coverage.rows.find((entry) => entry.variant === variant.id);
+    if (row) {
+      body.append(el('p', { className: `variant-coverage${row.complete ? ' variant-coverage--complete' : ''}`, textContent: `${row.captured}/${row.total} required component styles captured` }));
+      const pending = row.components.filter((component) => component.status !== 'captured');
+      if (pending.length) body.append(el('p', { className: 'muted', textContent: `To complete: ${pending.map((component) => `${component.label} (${coverageLabels[component.status].toLowerCase()})`).join('; ')}.` }));
+    }
     if (variant.sectionCount) body.append(el('p', { className: 'muted', textContent: `${variant.sectionCount} configured page sections in INDY; screenshots also include the header and footer.` }));
     const actions = el('div', { className: 'card-actions' });
     actions.append(el('button', { type: 'button', className: 'btn btn--small', textContent: available.length ? 'Start with this variant' : 'Capture pending', disabled: !available.length, onclick: () => { chooseVariant(variant.id); $('variantLibrary').open = false; } }));
@@ -215,12 +229,29 @@ function renderVariants() {
   }));
 }
 
+function renderCoverage() {
+  $('coverageCount').textContent = `${coverage.captured}/${coverage.total} captured`;
+  $('coverageSummary').textContent = `${coverage.completeVariants} of ${coverage.rows.length} variants have all six required component styles captured. Navigation, hero, food, private parties, membership and contact form the shared baseline. Now Playing, Coming Soon and Ticket Finder are tracked separately.`;
+  const header = el('tr', {}, el('th', { scope: 'col', textContent: 'Variant' }), ...coverage.required.map((component) => el('th', { scope: 'col', textContent: component.label })));
+  const rows = coverage.rows.map((row) => el('tr', {}, el('th', { scope: 'row', textContent: row.label }), ...row.components.map((component) => {
+    const label = coverageLabels[component.status];
+    const cell = el('td', { className: `coverage-cell coverage-cell--${component.status}` });
+    if (component.optionId) {
+      const button = el('button', { type: 'button', textContent: label, title: component.notes || `${row.label}: ${component.label}`, onclick: () => { openGallery(component.slotId); $('galleryVariant').value = row.variant; renderGallery(); } });
+      button.setAttribute('aria-label', `${row.label}, ${component.label}: ${label}. Browse source style.`);
+      cell.append(button);
+    } else cell.append(el('span', { textContent: label, title: component.notes }));
+    return cell;
+  })));
+  $('coverageTable').replaceChildren(el('thead', {}, header), el('tbody', {}, ...rows));
+}
+
 function render() {
-  const sectionFilter = $('filterSection').value, query = $('filterText').value.toLowerCase().trim();
+  const groupFilter = $('filterGroup').value, sectionFilter = $('filterSection').value, query = $('filterText').value.toLowerCase().trim();
   const order = state.order.filter((id) => {
     if (document.body.classList.contains('preview')) return true;
     const slot = slotById.get(id), option = pickedOption(id);
-    return (!sectionFilter || id === sectionFilter) && (!query || `${slot.label} ${option.variantLabel} ${option.name}`.toLowerCase().includes(query));
+    return (!groupFilter || groupForSlot(slot) === groupFilter) && (!sectionFilter || id === sectionFilter) && (!query || `${slot.label} ${option.variantLabel} ${option.name}`.toLowerCase().includes(query));
   });
   $('slots').replaceChildren(...order.map(renderSlot));
   const header = slotById.has('header') ? pickedOption('header') : null;
@@ -260,7 +291,8 @@ $('presetSelect').onchange = (event) => { if (event.target.value) chooseVariant(
 $('galleryVariant').onchange = renderGallery;
 $('galleryClose').onclick = () => $('gallery').close();
 $('gallery').addEventListener('click', (event) => { if (event.target === $('gallery')) $('gallery').close(); });
-$('filterSection').onchange = render;
+$('filterSection').onchange = () => { const slot = slotById.get($('filterSection').value); if (slot) $('filterGroup').value = groupForSlot(slot); render(); };
+$('filterGroup').onchange = () => { $('filterSection').value = ''; render(); };
 $('filterText').oninput = render;
 $('btnShuffle').onclick = () => {
   for (const slot of catalog.slots) state.picks[slot.id] = slot.options[Math.floor(Math.random() * slot.options.length)].id;
@@ -301,5 +333,5 @@ $('fileImport').onchange = async (event) => {
 $('catalogCount').textContent = `${variants.length} variants · ${catalog.slots.reduce((n, s) => n + s.options.length, 0)} section choices`;
 $('catalogContext').textContent = catalog.sourceSite ? `${catalog.sourceSite.region} / ${catalog.sourceSite.circuit} / ${catalog.sourceSite.site}` : 'Adam Template Testing 2';
 $('captureNotes').replaceChildren(...(catalog.captureNotes ?? []).map((text) => el('p', { textContent: text })));
-renderVariants(); render();
+renderCoverage(); renderVariants(); render();
 if (restoreMessage) toast(restoreMessage);

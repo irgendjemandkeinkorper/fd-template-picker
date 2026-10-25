@@ -20,8 +20,8 @@ REPO = Path(__file__).resolve().parents[1]
 WORKSPACE = REPO.parent
 
 SLOT_LABELS = {
-    "header": "Header", "hero": "Hero", "now-playing": "Now Playing",
-    "events": "Events", "food": "Food & Drink", "contact": "Contact",
+    "header": "Navigation", "hero": "Hero", "now-playing": "Now Playing",
+    "events": "Private Parties", "food": "Food & Drink", "contact": "Contact Us",
     "find-us": "Find Us", "membership": "Membership", "gift-cards": "Gift Cards",
     "footer": "Footer", "ticket-finder": "Ticket Finder", "experience": "Cinema Experience",
     "programme": "Programme", "about": "About", "newsletter": "Newsletter",
@@ -58,6 +58,17 @@ def semantic_slot(section, index):
     # Match component classes before editorial headings: the classes preserve
     # named CMS components when the visible copy uses different language.
     classes = section.get("classes", "").lower()
+    # These reviewed native additions have stable purpose classes. Private
+    # parties retain the existing picker slot ID `events` for saved selections.
+    purpose = re.search(r"\bfdp-[a-l]-(private-parties|food|membership|contact)\b", classes)
+    if purpose:
+        return "events" if purpose[1] == "private-parties" else purpose[1]
+    if "section-private-parties-" in classes:
+        return "events"
+    # B's original Playbill mixes public programming and one hire item. Keep it
+    # as an optional programme after adding a dedicated private-party module.
+    if re.search(r"\bsection-events-b---playbill-\d+\b", classes):
+        return "programme"
     if "section-contact-" in classes and "---anchor-" in classes:
         return "contact-anchor"
     if "section-contact-" in classes and "---channels-" in classes:
@@ -125,11 +136,19 @@ def load_tiles(variant, evidence_dir):
         filename = item.get("image") or item.get("path") or item.get("file")
         path = resolve_image(filename, evidence_dir)
         im = Image.open(path).convert("RGB")
-        css_width = float(item.get("width", im.width))
+        css_width = float(item.get("cssWidth", item.get("width", im.width)))
         # CUA metadata rounds viewport height to an integer; its screenshot is
         # uniformly scaled. Recover the fractional height from that same scale
         # to avoid incorrectly reporting a missing final pixel at the page end.
-        css_height = max(float(item.get("height", im.height)), im.height / (im.width / css_width))
+        native_height = im.height / (im.width / css_width)
+        requested_height = float(item.get("cssHeight", item.get("height", im.height)))
+        if variant.get("captureMethod") == "live-browser-full-page":
+            # Native full-page captures have uniform pixel scale. A rounded
+            # scrollHeight can exceed the actual image by one bottom pixel;
+            # keep that exclusion visible instead of stretching the page.
+            css_height = min(requested_height, native_height)
+        else:
+            css_height = float(item["cssHeight"]) if item.get("cssHeight") is not None else max(requested_height, native_height)
         scale_x, scale_y = im.width / css_width, im.height / css_height
         header = rect_of(variant.get("header", {}))
         # Variant F uses a fixed left sidebar. It never covers content below
@@ -214,6 +233,57 @@ def variant_clips(variant):
     return clips
 
 
+def source_ids(sections):
+    ids = []
+    for section in sections:
+        named = next((c for c in section.get("classes", "").split() if c.startswith("section-")), "")
+        match = re.search(r"-(\d+)$", named)
+        value = section.get("id") or (match[1] if match else None)
+        if value is not None:
+            ids.append(str(value))
+    return ids
+
+
+REVIEW_FIELDS = (
+    "canonicalComponent", "componentStatus", "componentNote", "componentAuditedAt",
+    "designNote", "draftSectionIds", "nativeWidgetType", "dependencies", "dependenciesStatus",
+)
+
+
+def reviewed_metadata(variant, clip, metadata):
+    """Only carry a review that identifies these exact published source IDs.
+
+    A screenshot or a recognizable class name alone cannot certify parity.
+    Metadata may be embedded in a single captured section or supplied by a
+    separately reviewed sidecar (including header/footer reviews with no IDs).
+    """
+    result = {}
+    if len(clip["sections"]) == 1:
+        section = clip["sections"][0]
+        result.update({key: section[key] for key in REVIEW_FIELDS if key in section})
+        if section.get("draftSectionId") is not None:
+            result["draftSectionIds"] = [str(section["draftSectionId"])]
+    slug = variant.get("slug") or variant.get("id") or variant.get("variant")
+    ids = sorted(source_ids(clip["sections"]))
+    matches = [item for item in metadata.get("options", [])
+               if item.get("variant") == slug and item.get("slot", item.get("slotId")) == clip["slot"]
+               and sorted(str(value) for value in item.get("sectionIds", [])) == ids]
+    if len(matches) > 1:
+        raise ValueError(f"Duplicate reviewed metadata: {slug}/{clip['slot']}/{ids}")
+    if matches:
+        result.update({key: matches[0][key] for key in REVIEW_FIELDS if key in matches[0]})
+    if result.get("componentStatus") and result["componentStatus"] not in ("present", "partial", "missing", "unverified"):
+        raise ValueError(f"Invalid component status: {slug}/{clip['slot']}")
+    return result
+
+
+def capture_variants(data):
+    variants = data if isinstance(data, list) else data.get("variants", data.get("captures", []))
+    if isinstance(variants, dict):
+        return [{"slug": slug, **variant} for slug, variant in variants.items()]
+    return variants
+
+
 def write_contact_sheet(options, path):
     by_variant = {}
     for option in options:
@@ -249,20 +319,48 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("input", nargs="?", default=str(WORKSPACE / "evidence" / "captures.json"))
     parser.add_argument("--output", default=str(WORKSPACE / "evidence" / "captured-options.json"))
+    parser.add_argument("--baseline", help="Preserve unchanged variants from this earlier capture manifest.")
+    parser.add_argument("--metadata", help="Reviewed metadata sidecar matched by variant, slot, and exact published section IDs.")
     args = parser.parse_args()
     input_path = Path(args.input)
     data = json.loads(input_path.read_text(encoding="utf-8-sig"))
-    variants = data if isinstance(data, list) else data.get("variants", data.get("captures", []))
-    if isinstance(variants, dict):
-        variants = [{"slug": slug, **variant} for slug, variant in variants.items()]
+    variants = capture_variants(data)
+    if args.baseline:
+        baseline = json.loads(Path(args.baseline).read_text(encoding="utf-8-sig"))
+        combined = {item.get("slug") or item.get("id") or item.get("variant"): item for item in capture_variants(baseline)}
+        combined.update({item.get("slug") or item.get("id") or item.get("variant"): item for item in variants})
+        variants = list(combined.values())
+    metadata = json.loads(Path(args.metadata).read_text(encoding="utf-8-sig")) if args.metadata else {}
+    expected_site = metadata.get("sourceSite", {}).get("url", "").rstrip("/")
+    if expected_site and any(not (item.get("sourceUrl") or item.get("url", "")).startswith(expected_site + "/") for item in variants):
+        raise ValueError("Capture metadata belongs to another source site.")
+    variant_metadata = {item["id"]: item for item in metadata.get("variants", [])}
     variants = sorted(variants, key=lambda variant: variant.get("slug") or variant.get("id") or variant.get("variant"))
+    if metadata.get("requireAllReviewedOptions"):
+        captured_keys = set()
+        for variant in variants:
+            slug = variant.get("slug") or variant.get("id") or variant.get("variant")
+            for clip in variant_clips(variant):
+                captured_keys.add((slug, clip["slot"], tuple(sorted(source_ids(clip["sections"])))))
+        absent = [item for item in metadata.get("options", []) if
+                  (item["variant"], item.get("slot", item.get("slotId")), tuple(sorted(str(value) for value in item.get("sectionIds", [])))) not in captured_keys]
+        if absent:
+            raise ValueError("Reviewed published sources are absent from the capture manifest: " +
+                             ", ".join(f"{item['variant']}/{item.get('slot', item.get('slotId'))}/{item.get('sectionIds', [])}" for item in absent))
     options = []
+    observed_variants = []
     for variant in variants:
         slug = variant.get("slug") or variant.get("id") or variant.get("variant")
+        variant = {**variant, **variant_metadata.get(slug, {})}
         tiles = load_tiles(variant, input_path.parent)
         if not tiles:
             print(f"SKIP {slug}: no viewport tiles", flush=True)
             continue
+        observed_variants.append({"id": slug, "pageId": variant.get("pageId"),
+            "pageTitle": variant.get("title") or variant.get("pageTitle"),
+            "sourceUrl": variant.get("sourceUrl") or variant.get("url"),
+            "sectionCount": variant.get("sectionCount", len(variant.get("sections", []))),
+            **{key: variant[key] for key in ("draftId", "adminUrl", "sourceVerifiedAt", "renderedSectionCount") if key in variant}})
         for clip in variant_clips(variant):
             # A single semantic slot may legitimately have multiple panels.
             # Keep distinct options when they are not consecutive hero panels.
@@ -275,15 +373,15 @@ def main():
                 image, evidence, gaps = None, [], []
             else:
                 image, evidence, gaps = crop_section(clip["bounds"], tiles, clip["slot"] == "header")
-                # The final A footer extends one rounded CSS pixel beyond the
-                # captured document bottom. Keep a truthful one-pixel crop;
-                # retain original DOM bounds and disclose the exact exclusion.
+                # A fractional document bottom can extend one rounded CSS pixel
+                # beyond the native image. Keep a truthful one-pixel footer
+                # crop; retain original DOM bounds and disclose the exclusion.
                 rounded_bottom = round(clip["bounds"]["y"] + clip["bounds"]["height"])
-                if slug == "variant-a-circuit" and clip["slot"] == "footer" and gaps == [[rounded_bottom - 1, rounded_bottom]]:
+                if clip["slot"] == "footer" and gaps == [[rounded_bottom - 1, rounded_bottom]]:
                     excluded = gaps
                     gaps = []
                     image = image.crop((0, 0, image.width, image.height - 1))
-                    capture_note = "The final 1 CSS pixel of the source footer was outside the captured viewport and is omitted. Original source bounds are retained."
+                    capture_note = "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
                 target = REPO / image_path
                 target.parent.mkdir(parents=True, exist_ok=True)
                 image.save(target, quality=91, subsampling=0)
@@ -292,7 +390,8 @@ def main():
                 classes = section.get("classes", "").split()
                 named = next((c for c in classes if c.startswith("section-")), classes[0] if classes else None)
                 published_id = re.search(r"-(\d+)$", named or "")
-                selectors.append({"id": section.get("id") or (published_id[1] if published_id else None), "classes": section.get("classes", ""),
+                source_id = section.get("id") or (published_id[1] if published_id else None)
+                selectors.append({"id": str(source_id) if source_id is not None else None, "classes": section.get("classes", ""),
                                   "selector": f".{named}" if named else section.get("selector"),
                                   "headings": section.get("headings", [])})
             option = {"id": f"{clip['slot']}--{slug}{suffix}", "slot": clip["slot"],
@@ -305,7 +404,7 @@ def main():
                       "sourcePageTitle": variant.get("title"), "pageId": variant.get("pageId"),
                       "sectionIds": [s["id"] for s in selectors if s["id"]],
                       "captureStatus": "not-rendered" if image is None else "partial" if gaps else "captured-live",
-                      "captureMethod": "browser-viewport-tiles",
+                      "captureMethod": variant.get("captureMethod", "browser-viewport-tiles"),
                       "capturedAt": variant.get("capturedAt") or (data.get("capturedAt") if isinstance(data, dict) else None),
                       "sectionSelectors": selectors, "sourceBounds": clip["bounds"],
                       "captureBounds": {"x": round(clip["bounds"]["x"]), "y": round(clip["bounds"]["y"]),
@@ -313,6 +412,7 @@ def main():
                       "captureEvidence": evidence, "missingDocumentY": gaps,
                       "excludedDocumentY": excluded,
                       "appearanceAltered": False, "sampleDataInjected": False}
+            option.update(reviewed_metadata(variant, clip, metadata))
             if image is None:
                 option["captureNote"] = "This published section currently renders at zero height, so no visible screenshot is available."
             elif capture_note:
@@ -322,7 +422,9 @@ def main():
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps({"generatedAt": datetime.now(timezone.utc).isoformat(),
-                                     "sourceEvidence": str(input_path), "options": options}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+                                     "sourceEvidence": str(input_path),
+                                     "baselineEvidence": args.baseline, "reviewedMetadata": args.metadata,
+                                     "variants": observed_variants, "options": options}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_contact_sheet(options, output_path.parent / "variant-contact-sheet.jpg")
     print(f"Wrote {len(options)} options to {output_path}", flush=True)
 

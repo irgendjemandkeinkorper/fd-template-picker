@@ -1,0 +1,1765 @@
+{
+  "schema": "fd-component-parity-audit/v1",
+  "auditedAt": "2026-10-25",
+  "sourceSite": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "url": "https://adam-template-testing-2-indy-consumer.netlify.app",
+    "inventoryVerifiedAt": "2026-10-25"
+  },
+  "evidence": [
+    "evidence/captures.json",
+    "fd-template-picker/catalog.json",
+    "fd-template-picker/screenshots/header/",
+    "evidence/variant-contact-sheet.jpg"
+  ],
+  "scope": "Semantic and visible published-snapshot parity only; no browser access or INDY mutation by this audit.",
+  "requiredComponents": [
+    {
+      "id": "navigation",
+      "label": "Navigation",
+      "contract": "Visible logo and usable primary navigation. Compare common destinations and mobile-menu behavior; record shared designs explicitly."
+    },
+    {
+      "id": "hero",
+      "label": "Hero",
+      "contract": "Recognizable primary page introduction with a deliberate visual identity. Compare the same movie/campaign content when styling."
+    },
+    {
+      "id": "food",
+      "label": "Food & Drink",
+      "contract": "Dedicated native Concessions Menu using the same actual site catalog, with section heading and variant-specific styling."
+    },
+    {
+      "id": "private-parties",
+      "label": "Private Parties",
+      "contract": "Dedicated private-hire content that identifies occasions or use cases and links to the verified private-hire route. Public programme content alone does not qualify."
+    },
+    {
+      "id": "membership",
+      "label": "Membership",
+      "contract": "Dedicated membership introduction, meaningful details or next-step guidance, and an explicit link to the actual membership route. A mailing-list signpost alone is partial."
+    },
+    {
+      "id": "contact",
+      "label": "Contact Us",
+      "contract": "Native Generic Form with name/email/message and visible send action. Preserve actual configured handling; never invent notification recipients."
+    }
+  ],
+  "statusDefinitions": {
+    "present": "Dedicated visible source treatment exists. This does not certify behavior, visual completeness or production readiness.",
+    "partial": "Related source content exists but does not meet the component purpose fully.",
+    "missing": "No dedicated equivalent in the captured page.",
+    "notRendered": "Source section is declared but captured height is0. Rendering cause is unverified."
+  },
+  "summary": {
+    "variants": 12,
+    "requiredSlots": 72,
+    "present": 56,
+    "partial": 2,
+    "missing": 14,
+    "gaps": 16
+  },
+  "matrix": [
+    {
+      "variant": "variant-a-circuit",
+      "label": "A · Circuit",
+      "pageId": "5659",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "present",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-b-rep",
+      "label": "B · Rep",
+      "pageId": "5661",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "partial",
+        "membership": "present",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-c-late",
+      "label": "C · Late",
+      "pageId": "5663",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "present",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-d-odd",
+      "label": "D · Odd",
+      "pageId": "5899",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "present",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-e-grid",
+      "label": "E · Grid",
+      "pageId": "5901",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "present",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-f-concrete",
+      "label": "F · Concrete",
+      "pageId": "5903",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "present",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-g-cut",
+      "label": "G · Cut",
+      "pageId": "5905",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "missing",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-h-storybook",
+      "label": "H · Storybook",
+      "pageId": "5909",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "missing",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-i-ma",
+      "label": "I · Ma",
+      "pageId": "5911",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "present",
+        "private-parties": "present",
+        "membership": "missing",
+        "contact": "present"
+      }
+    },
+    {
+      "variant": "variant-j-box-office",
+      "label": "J · Box Office",
+      "pageId": "5913",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "missing",
+        "private-parties": "missing",
+        "membership": "missing",
+        "contact": "missing"
+      }
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "label": "K · Clubhouse",
+      "pageId": "5915",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "missing",
+        "private-parties": "missing",
+        "membership": "partial",
+        "contact": "missing"
+      }
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "label": "L · Midnight Lounge",
+      "pageId": "5917",
+      "components": {
+        "navigation": "present",
+        "hero": "present",
+        "food": "missing",
+        "private-parties": "missing",
+        "membership": "missing",
+        "contact": "missing"
+      }
+    }
+  ],
+  "componentAudit": [
+    {
+      "variant": "variant-a-circuit",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-a-circuit",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 56.79999923706055,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit."
+      ]
+    },
+    {
+      "variant": "variant-a-circuit",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-a-circuit",
+      "sourceName": "Hero A - Showtimes Shelf + Hero A - Shelf",
+      "sourceSectionIds": [
+        "23738",
+        "23739"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-a---showtimes-shelf-23738 q-px-xs section-hero-a---showtimes-shelf-23738",
+          "height": 765.2250366210938,
+          "textExcerpt": "Ghost In The Shell 30th Anniversary"
+        },
+        {
+          "classes": "section-hero-a---shelf-23739 q-px-xs section-hero-a---shelf-23739",
+          "height": 187.25,
+          "textExcerpt": "35MM\n\nGhost In The Shell\n\n3:00pm\n\nBOOK\n\nDCP\n\nAli G: Who Iz It?\n\n3:00pm\n\nBOOK\n\nDCP\n\nPulp: Encore\n\n3:00pm\n\nBOOK\n\n70MM\n\nCars 20th\n\n3:00pm\n\nBOOK"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-a-circuit",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-a-circuit",
+      "sourceName": "Food A - Chip Rail",
+      "sourceSectionIds": [
+        "23731"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-a---chip-rail-23731 q-px-xs section-food-a---chip-rail-23731",
+          "height": 846.1500244140625,
+          "textExcerpt": "Kitchen and bar\nSNACKS\nDRINKS\nDESSERTS\n\nSNACKS\n\nMarquee Popcorn\nStarting at$7.00\nNo Country for Old Nachos\n$14.00\nThe Pretzel Identity\n$11.00\n\nDRINKS\n\nSoda\nStarting at$6.00\n\nDESSERTS\n\nPie Hard\n$10.00\nSundae, Bloody Sundae\n$10.00\nMovie Candy\n$5.00"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-a-circuit",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-a-circuit",
+      "sourceName": "Events A - Rate Card",
+      "sourceSectionIds": [
+        "23724"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-a---rate-card-23724 q-px-xs section-events-a---rate-card-23724",
+          "height": 534.5499877929688,
+          "textExcerpt": "PRIVATE HIRE\n\nSix ways to take the room\nPrivate screening\n\n42 seats · 600 minimum · 10 days' notice\n\nENQUIRE\nCorporate hire\n\n42 seats · 900 minimum · 14 days' notice\n\nENQUIRE\nBirthday party\n\n28 seats · 350 minimum · 7 days' notice\n\nENQUIRE\nWedding reception\n\n84 seats · 2,400 minimum · 60 days' notice\n\nENQUIRE\nLate show takeover\n\n14 seats · 280 minimum · 5 days' notice\n\nENQUIRE\nSchools and groups\n\n42 seats · 300 minim"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-a-circuit",
+      "component": "membership",
+      "status": "present",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-a-circuit",
+      "sourceName": "Membership A - Tier Rail",
+      "sourceSectionIds": [
+        "23765"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-membership-a---tier-rail-23765 q-px-xs section-membership-a---tier-rail-23765",
+          "height": 954.7000122070312,
+          "textExcerpt": "MEMBERSHIP & REWARDS\n\nTHREE WAYS TO GO MORE OFTEN\n\nPoints on everything, cheaper tickets, and a seat held when you are running late. Cancel any month; points keep for a year.\n\nPARTERRE\n\nFree\n\nJOIN IN 30 SECONDS\n\n1 point per dollar\n$3 off every Tuesday\nFree size upgrade on popcorn\nBirthday ticket on us\nJOIN PARTERRE\n\nBALCONY\n\n$7 / month\n\nMOST MEMBERS PICK THIS\n\nEverything in Parterre\n1 free ticket every month\n2 points"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-a-circuit",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-a-circuit",
+      "sourceName": "Contact A - Compressed Column",
+      "sourceSectionIds": [
+        "23747"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-a---compressed-column-23747 q-px-xs section-contact-a---compressed-column-23747",
+          "height": 589.0625,
+          "textExcerpt": "Ask us anything\nNAME\nEMAIL\nWHAT YOU HAVE IN MIND\nSEND"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-b-rep",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-b-rep",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 134.5625,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit."
+      ]
+    },
+    {
+      "variant": "variant-b-rep",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-b-rep",
+      "sourceName": "Hero B - Plate And Note",
+      "sourceSectionIds": [
+        "23741"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-b---plate-and-note-23741 q-px-xs section-hero-b---plate-and-note-23741",
+          "height": 906.5875244140624,
+          "textExcerpt": "Katy Perry: The Lifetimes Tour - Live From Paris\nShot over two nights in Paris and cut for the room. Doors at seven, and the bar stays open through the credits."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-b-rep",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-b-rep",
+      "sourceName": "Food B - Printed Menu",
+      "sourceSectionIds": [
+        "23733"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-b---printed-menu-23733 q-px-xs section-food-b---printed-menu-23733",
+          "height": 2206.550048828125,
+          "textExcerpt": "The menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00\nThe Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-b-rep",
+      "component": "private-parties",
+      "status": "partial",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-b-rep",
+      "sourceName": "Events B - Playbill",
+      "sourceSectionIds": [
+        "23726"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-b---playbill-23726 q-px-xs section-events-b---playbill-23726",
+          "height": 1420.7249755859375,
+          "textExcerpt": "THE PROGRAMME\n\nOccasions\n\nFirst Sunday monthly\n\nCarols and Kubrick\n\nDoors at six, and the bar stays open through the credits. Mulled wine is poured from five, and we will keep your seats for ten minutes.\n\nSecond Friday monthly\n\nA night of 35mm\n\nThree reels, one projectionist, and an interval long enough for a proper drink. Prints are shown as they arrive, scratches and all.\n\nLast Saturday monthly\n\nThe long supper\n\nA "
+        }
+      ],
+      "notes": [
+        "Mixed public programme and private hire: only Your own evening explicitly covers weddings, birthdays and company nights. Dedicated private-party layout is still needed."
+      ]
+    },
+    {
+      "variant": "variant-b-rep",
+      "component": "membership",
+      "status": "present",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-b-rep",
+      "sourceName": "Membership B - Subscriber Bill",
+      "sourceSectionIds": [
+        "23767"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-membership-b---subscriber-bill-23767 q-px-xs section-membership-b---subscriber-bill-23767",
+          "height": 1257.1375732421875,
+          "textExcerpt": "MEMBERSHIP\n\nBelong to the Rep\n\nThree tiers, named after the three places you can sit. All of them earn points; two of them pay for themselves.\n\nI\n\nParterre\n\nNO SUBSCRIPTION\n\nBECOME A MEMBER\n\nMembership is free. You give us an email address; we give you a card and a reason to use it.\n\nOne point for every dollar\nMembers-only Tuesday price\nA ticket on your birthday\nFirst sight of the season programme\n\nII\n\nBalcony\n\n$7 A "
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-b-rep",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-b-rep",
+      "sourceName": "Contact B - Split Desk",
+      "sourceSectionIds": [
+        "23749"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-b---split-desk-23749 q-px-xs section-contact-b---split-desk-23749",
+          "height": 688.7750244140625,
+          "textExcerpt": "Write to us\nName\nEmail\nWhat you have in mind\nSend the note"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-c-late",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-c-late",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 64.80000305175781,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit."
+      ]
+    },
+    {
+      "variant": "variant-c-late",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-c-late",
+      "sourceName": "Hero C - Marquee + Hero C - Dock",
+      "sourceSectionIds": [
+        "23744",
+        "23745"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-c---marquee-23744 q-px-xs section-hero-c---marquee-23744",
+          "height": 559.9375,
+          "textExcerpt": "PULP: WHAT DO YOU DO FOR AN ENCORE?"
+        },
+        {
+          "classes": "section-hero-c---dock-23745 q-px-xs section-hero-c---dock-23745",
+          "height": 145,
+          "textExcerpt": "SCREEN\n\nPulp: Encore\n9:00pm\n\nGhost In The Shell\n11:15pm\n\nAli G: Who Iz It?\n1:00am\n\nKITCHEN\n\nSmall plates\nuntil 12:30am\n\nThe only popcorn\nall night\n\nLate toastie\nuntil 1:00am\n\nLATE\n\nProjectionist's pick\nThursdays\n\nVinyl in the bar\nfrom 10:00pm\n\nLast orders\n1:30am"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-c-late",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-c-late",
+      "sourceName": "Food C - Tile Wall",
+      "sourceSectionIds": [
+        "23735"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-c---tile-wall-23735 q-px-xs section-food-c---tile-wall-23735",
+          "height": 849.4125366210938,
+          "textExcerpt": "KITCHEN TILL ONE\nSNACKS\nDRINKS\nDESSERTS\nMARQUEE POPCORN\nStarting at$7.00\nNO COUNTRY FOR OLD NACHOS\n$14.00\nTHE PRETZEL IDENTITY\n$11.00\nSODA\nStarting at$6.00\nPIE HARD\n$10.00\nSUNDAE, BLOODY SUNDAE\n$10.00\nMOVIE CANDY\n$5.00"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-c-late",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-c-late",
+      "sourceName": "Events C - Ticket Stack",
+      "sourceSectionIds": [
+        "23728"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-c---ticket-stack-23728 q-px-xs section-events-c---ticket-stack-23728",
+          "height": 768.5,
+          "textExcerpt": "WEDDINGS\n\nTake the whole house\n\nThree rooms · up to 84\n\nPRIVATE HIRE\n\nOne room, one night\n\nFrom 600\n\nLATE SHOW\n\nDoors at eleven\n\nKitchen until 1am\n\nSUPPER CLUB\n\nA film and four courses\n\nOne sitting · 28\n\nCOMPANY NIGHTS\n\nBring the whole floor\n\nFrom 900"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-c-late",
+      "component": "membership",
+      "status": "present",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-c-late",
+      "sourceName": "Membership C - Card Ledger",
+      "sourceSectionIds": [
+        "23769"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-membership-c---card-ledger-23769 q-px-xs section-membership-c---card-ledger-23769",
+          "height": 1279.4124755859375,
+          "textExcerpt": "MEMBERSHIP\n\nCARRY THE CARD\n\nThree tiers. No queue, no booking fee, and a tab that remembers you. Points post overnight and never round down.\n\nPARTERRE\n\nFREE · NO COMMITMENT\n\n1× points\n\nBALCONY\n\n$7 / MONTH\n\n2× points\n\nCIRCLE\n\n$19 / MONTH\n\n3× points\n\nBENEFIT\tPARTERRE\tBALCONY\tCIRCLE\nPoints per dollar\t1×\t2×\t3×\nFree films per month\t—\t1\t4\nBooking fees\tStandard\tWaived\tWaived\nSeat held past showtime\t—\t10 min\t20 min\nGuest com"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-c-late",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-c-late",
+      "sourceName": "Contact C - Statement Line",
+      "sourceSectionIds": [
+        "23751"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-c---statement-line-23751 q-px-xs section-contact-c---statement-line-23751",
+          "height": 494.2625122070313,
+          "textExcerpt": "Tell us what you want to take over. We will find a night for it.\nName\nEmail\nWhat you want to take over\nSend"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-d-odd",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-d-odd",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 152.8000030517578,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit."
+      ]
+    },
+    {
+      "variant": "variant-d-odd",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-d-odd",
+      "sourceName": "Hero D - Collage + Hero D - Ruth Line",
+      "sourceSectionIds": [
+        "24790",
+        "24791"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-d---collage-24790 q-px-xs section-hero-d---collage-24790",
+          "height": 456,
+          "textExcerpt": "Pulp: What Do You Do For An Encore?\nNOW SCREENING\nEXPLORE FILMS"
+        },
+        {
+          "classes": "section-hero-d---ruth-line-24791 q-px-xs section-hero-d---ruth-line-24791",
+          "height": 59.5,
+          "textExcerpt": "Programmed by people with opinions. Complaints to the box office, compliments to the projectionist."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-d-odd",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-d-odd",
+      "sourceName": "Food D - Sticker Sheet",
+      "sourceSectionIds": [
+        "24794"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-d---sticker-sheet-24794 q-px-xs section-food-d---sticker-sheet-24794",
+          "height": 1756.675048828125,
+          "textExcerpt": "Snacks, mostly\nwe make these ourselves\nSNACKS\nDRINKS\nDESSERTS\n\nSnacks\n\nMarquee Popcorn\nStarting at$7.00\nNo Country for Old Nachos\n$14.00\nThe Pretzel Identity\n$11.00\n\nDrinks\n\nSoda\nStarting at$6.00\n\nDesserts\n\nPie Hard\n$10.00\nSundae, Bloody Sundae\n$10.00\nMovie Candy\n$5.00"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-d-odd",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-d-odd",
+      "sourceName": "Events D - Noticeboard",
+      "sourceSectionIds": [
+        "24793"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-d---noticeboard-24793 q-px-xs section-events-d---noticeboard-24793",
+          "height": 1525.675048828125,
+          "textExcerpt": " \n\nPRIVATE HIRE & OCCASIONS\n\n \nThings we will happily let you do in here\n \n   \n\nBIRTHDAYS\n\nWe'll put your name on the screen before the trailers.\n\nCake is your problem. · 14–42 seats · from $280 · a week's notice\n\nPICK A DATE\n   \n\nPRIVATE SCREENING\n\nYour film. Our popcorn. Nobody else's phone.\n\nBring a Blu-ray, a drive, or a title we can book · 42 seats · from $450\n\nASK ABOUT A NIGHT\n   \n\nLATE SHOW TAKEOVER\n\nDoors at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-d-odd",
+      "component": "membership",
+      "status": "present",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-d-odd",
+      "sourceName": "Membership D - Loyalty Card",
+      "sourceSectionIds": [
+        "24797"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-membership-d---loyalty-card-24797 q-px-xs section-membership-d---loyalty-card-24797",
+          "height": 1889.112548828125,
+          "textExcerpt": " \n   \n\nTHE CLUB\n\n   \nTen stamps. The eleventh ticket is on us.\n   \n\nEvery visit gets a stamp. No app, no password reset, no \"points expire Tuesday\". Lose the card and we will believe you, once.\n\n \n \n   \n\nLOYALTY CARD · NO. 0042\n\n   \n✕\n✕\n✕\n✕\n✕\n✕\n✕\n✕\n✕\n✕\n   \n\nValid at the box office, the bar and the popcorn counter. Not valid as ID.\n\n \n \n   \n\nRegular\n\nFree\n\nA stamp per visit\n$3 off every Tuesday\nBirthday ticket on us\nG"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-d-odd",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-d-odd",
+      "sourceName": "Contact D - Postcard",
+      "sourceSectionIds": [
+        "24795"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-d---postcard-24795 q-px-xs section-contact-d---postcard-24795",
+          "height": 552.9125366210938,
+          "textExcerpt": "Dear Adam Template Testing 2,\nNAME\nEMAIL\nMESSAGE\nPOST IT"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-e-grid",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-e-grid",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 64.8125,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit."
+      ]
+    },
+    {
+      "variant": "variant-e-grid",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-e-grid",
+      "sourceName": "Hero E - Product Panel + Hero E - Quick Selector",
+      "sourceSectionIds": [
+        "24806",
+        "24807"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-e---product-panel-24806",
+          "height": 432,
+          "textExcerpt": "The Fast And The Furious 25th Anniversary\nNow showing · PG-13 · 106 min · 4K\nBook tickets"
+        },
+        {
+          "classes": "section-hero-e---quick-selector-24807",
+          "height": 210.3000030517578,
+          "textExcerpt": "Select Movie\narrow_drop_down\nSelect Date & Time\narrow_drop_down\nconfirmation_number\nBuy Tickets"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-e-grid",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-e-grid",
+      "sourceName": "Food E - Catalogue",
+      "sourceSectionIds": [
+        "24810"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-e---catalogue-24810",
+          "height": 1592.3499755859375,
+          "textExcerpt": "Menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00\nThe Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea sal"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-e-grid",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-e-grid",
+      "sourceName": "Events E - Packages",
+      "sourceSectionIds": [
+        "24809"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-e---packages-24809",
+          "height": 2405.60009765625,
+          "textExcerpt": " \n   \nPrivate hire, three ways\n   \n\nPick a package and tell us the date. Weddings, birthdays and corporate screenings all fit one of these.\n\n \n \n   \n     \n\nScreening\n\n     \n\nfrom $450\n\n     \n       \nUp to 42 guests\n       \nTwo hours, one film\n       \nYour film or ours\n       \nConcessions counter open\n       \nA host on hand throughout\n     \n     \nEnquire\n   \n   \n     \n\nMost booked\n\n     \n\nScreening + bar\n\n     \n\nfrom "
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-e-grid",
+      "component": "membership",
+      "status": "present",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-e-grid",
+      "sourceName": "Membership E - Tiers",
+      "sourceSectionIds": [
+        "24814"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-membership-e---tiers-24814",
+          "height": 2043,
+          "textExcerpt": " \n   \nMembership\n   \n\nPoints on everything, cheaper tickets, and a seat held when you are running late. Cancel any month.\n\n \n \n   \n     \n\nStandard\n\n     \n\nFree\n\n     \n       \n1 point per dollar\n       \n$3 off every Tuesday\n       \nBirthday ticket\n     \n     \nJoin free\n   \n   \n     \n\nMost popular\n\n     \n\nPlus\n\n     \n\n$7 / month\n\n     \n       \nEverything in Standard\n       \n1 free ticket every month\n       \n2 points pe"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-e-grid",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-e-grid",
+      "sourceName": "Contact E - Support Panel",
+      "sourceSectionIds": [
+        "24811"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-e---support-panel-24811",
+          "height": 540.7999877929688,
+          "textExcerpt": "Send us a message\nName\nEmail\nMessage\nSend message"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-f-concrete",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-f-concrete",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 639.2000122070312,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "Captured desktop header is a narrow vertical layout about639px high; review intended layout and responsive treatment."
+      ]
+    },
+    {
+      "variant": "variant-f-concrete",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-f-concrete",
+      "sourceName": "Hero F - Index Sheet + Hero F - Reference Print",
+      "sourceSectionIds": [
+        "24826",
+        "24828"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-f---index-sheet-24826 q-px-xs section-hero-f---index-sheet-24826",
+          "height": 912,
+          "textExcerpt": " \n   \n\nToday\n\n   \n\nMon 20 Oct 2026 · Doors 12:00 · Two screens\n\n \n \n   \n01\nProgramme\nBelow. Times are door times. No adverts.\n   \n02\nHire\nFour formats, one table, one price each.\n   \n03\nMenu\nPriced per item. No combos.\n   \n04\nContact\nOne form. One working day to reply.\n   \n05\nFind\nCoordinates, transit, hours.\n   \n06\nTariff\nMembership, three lines.\n   \n07\nVoucher\nAny value. No expiry.\n "
+        },
+        {
+          "classes": "section-hero-f---reference-print-24828 q-px-xs section-hero-f---reference-print-24828",
+          "height": 400,
+          "textExcerpt": "Reference Print\nOne screen. One image. One ticket."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-f-concrete",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-f-concrete",
+      "sourceName": "Food F - Price Table",
+      "sourceSectionIds": [
+        "24830"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-f---price-table-24830 q-px-xs section-food-f---price-table-24830",
+          "height": 979,
+          "textExcerpt": "Menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00\nThe Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea sal"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-f-concrete",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-f-concrete",
+      "sourceName": "Events F - Hire Schedule",
+      "sourceSectionIds": [
+        "24829"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-f---hire-schedule-24829 q-px-xs section-events-f---hire-schedule-24829",
+          "height": 363.6000061035156,
+          "textExcerpt": " \n   \n\nHire\n\n   \n\nScreen 1 seats 42. Screen 2 seats 98. Lobby holds 140 standing.\n\n \n                                                 \nNo.\tOccasion\tCapacity\tFrom\tNotes\n01\tPrivate screening\t42\t$450\tTwo hours. Your film or ours. Rights checked within a day.\n02\tScreening with bar\t42\t$900\tThree hours. Bar before and after. 18+ after 21:00.\n03\tLarge screening\t98\t$1,200\tScreen 2. Q&A microphone and lectern included.\n04\tWho"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-f-concrete",
+      "component": "membership",
+      "status": "present",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-f-concrete",
+      "sourceName": "Membership F - Tariff",
+      "sourceSectionIds": [
+        "24833"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-membership-f---tariff-24833 q-px-xs section-membership-f---tariff-24833",
+          "height": 328,
+          "textExcerpt": " \n\nTariff\n\nMonthly. Cancel any time. Prices include tax.\n\n                                 \nNo.\tTier\tPer month\tIncludes\n01\tStandard\t$0\t1 point per dollar. $3 off Tuesdays. Birthday ticket.\n02\tPlus\t$7\tStandard, plus one ticket a month, 2 points per dollar, no booking fees, seat held 10 min.\n03\tPremier\t$19\tPlus, plus four tickets a month, 3 points per dollar, guest free on Sundays, two hire hours a year.\n \n\nPoints are "
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-f-concrete",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-f-concrete",
+      "sourceName": "Contact F - Ledger",
+      "sourceSectionIds": [
+        "24831"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-f---ledger-24831 q-px-xs section-contact-f---ledger-24831",
+          "height": 524.5250244140625,
+          "textExcerpt": "Contact\nName\nEmail\nMessage\nSend"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-g-cut",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "G through L share the same visible logo, dark header and link arrangement; this is representation, not six visually distinct navigation designs."
+      ]
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-g-cut",
+      "sourceName": "Hero G - Poster Block",
+      "sourceSectionIds": [
+        "24850"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-g---poster-block-24850 q-px-xs section-hero-g---poster-block-24850",
+          "height": 520,
+          "textExcerpt": "CUT TO PICTURE.\nEVERY SCREEN IS A POSTER. ONE FILM, ONE SHARP CHOICE.\nTICKETS"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-g-cut",
+      "sourceName": "Food G - Colour Tile Wall",
+      "sourceSectionIds": [
+        "24852"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-g---colour-tile-wall-24852 q-px-xs section-food-g---colour-tile-wall-24852",
+          "height": 1631.9375,
+          "textExcerpt": "Menu\nSnacks\nDrinks\nDesserts\n\nSNACKS\n\nMARQUEE POPCORN\nSTARTING AT$7.00\nNO COUNTRY FOR OLD NACHOS\n$14.00\nTHE PRETZEL IDENTITY\n$11.00\n\nDRINKS\n\nSODA\nSTARTING AT$6.00\n\nDESSERTS\n\nPIE HARD\n$10.00\nSUNDAE, BLOODY SUNDAE\n$10.00\nMOVIE CANDY\n$5.00"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-g-cut",
+      "sourceName": "Events G - Diagonal Stack",
+      "sourceSectionIds": [
+        "24851"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-g---diagonal-stack-24851 q-px-xs section-events-g---diagonal-stack-24851",
+          "height": 1352.9500732421875,
+          "textExcerpt": " \n   \nWeddings.\n   \n\nUP TO 42 GUESTS. ONE ROOM, ONE SCREEN, ONE PERFECT CUE.\n\n   \n\nENQUIRE\n\n \n \n   \nBirthdays.\n   \n\nDOORS AT SIX, FILM AT SEVEN.\n\n   \n\nENQUIRE\n\n \n \n   \nPrivate screenings.\n   \n\nONE ROOM. ONE FILM. YOURS FOR TWO HOURS.\n\n   \n\nENQUIRE\n\n \n \n   \nBrand nights.\n   \n\nBOTH SCREENS. LOBBY FOR 140 STANDING.\n\n   \n\nENQUIRE\n\n "
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "membership",
+      "status": "missing",
+      "sourceSlot": "membership",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-g-cut",
+      "sourceName": "Contact G - Two Tone Split",
+      "sourceSectionIds": [
+        "24853"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-g---two-tone-split-24853 q-px-xs section-contact-g---two-tone-split-24853",
+          "height": 907.2999877929688,
+          "textExcerpt": "Say something.\nNAME\nEMAIL\nMESSAGE\nSEND"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-h-storybook",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "G through L share the same visible logo, dark header and link arrangement; this is representation, not six visually distinct navigation designs."
+      ]
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-h-storybook",
+      "sourceName": "Hero H - Framed Plate",
+      "sourceSectionIds": [
+        "24864"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-h---framed-plate-24864 q-px-xs section-hero-h---framed-plate-24864",
+          "height": 536,
+          "textExcerpt": "Once upon a picture.\n118 min · 35 mm · Presented with an intermission.\nReserve seats"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-h-storybook",
+      "sourceName": "Food H - Framed Bill Of Fare",
+      "sourceSectionIds": [
+        "24866"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-h---framed-bill-of-fare-24866 q-px-xs section-food-h---framed-bill-of-fare-24866",
+          "height": 1818.4000244140625,
+          "textExcerpt": "Menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nStarting at$7.00\nNo Country for Old Nachos\n$14.00\nThe Pretzel Identity\n$11.00\n\nDrinks\n\nSoda\nStarting at$6.00\n\nDesserts\n\nPie Hard\n$10.00\nSundae, Bloody Sundae\n$10.00\nMovie Candy\n$5.00"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-h-storybook",
+      "sourceName": "Events H - Invitations",
+      "sourceSectionIds": [
+        "24865"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-h---invitations-24865 q-px-xs section-events-h---invitations-24865",
+          "height": 632.8500366210938,
+          "textExcerpt": "Private occasions\n\nYou are invited\n\nAn evening to remember\n\nWeddings\n\nWe request the pleasure of your company for a ceremony, supper and a film chosen for the two of you.\n\nEnquire\n\nA celebration on screen\n\nBirthdays\n\nGather your favourite people for cake, a private screening and a little theatre all your own.\n\nEnquire\n\nThe room is yours\n\nPrivate screenings\n\nSelect the film, invite your guests and we shall set the sta"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "membership",
+      "status": "missing",
+      "sourceSlot": "membership",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-h-storybook",
+      "sourceName": "Contact H - The Letter",
+      "sourceSectionIds": [
+        "24867"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-h---the-letter-24867 q-px-xs section-contact-h---the-letter-24867",
+          "height": 821,
+          "textExcerpt": "Write to us\nName\nEmail\nMessage\nSend message"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-i-ma",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "G through L share the same visible logo, dark header and link arrangement; this is representation, not six visually distinct navigation designs."
+      ]
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-i-ma",
+      "sourceName": "Hero I - One Still One Line",
+      "sourceSectionIds": [
+        "24872"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-hero-i---one-still-one-line-24872 q-px-xs section-hero-i---one-still-one-line-24872",
+          "height": 736,
+          "textExcerpt": "One still. One line.\nA quiet room · one film · tonight at seven."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "food",
+      "status": "present",
+      "sourceSlot": "food",
+      "sourceOptionId": "food--variant-i-ma",
+      "sourceName": "Food I - Few Items Wide Margins",
+      "sourceSectionIds": [
+        "24874"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-food-i---few-items-wide-margins-24874 q-px-xs section-food-i---few-items-wide-margins-24874",
+          "height": 2225.449951171875,
+          "textExcerpt": "A few things\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00\nThe Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies i"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "private-parties",
+      "status": "present",
+      "sourceSlot": "events",
+      "sourceOptionId": "events--variant-i-ma",
+      "sourceName": "Events I - One Occasion At A Time",
+      "sourceSectionIds": [
+        "24873"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-events-i---one-occasion-at-a-time-24873 q-px-xs section-events-i---one-occasion-at-a-time-24873",
+          "height": 1320.25,
+          "textExcerpt": "Private occasions · 01—03\n\n01\nA private screening\n\nFourteen seats, one film, and the room is yours for two unhurried hours.\n\nEnquire\n02\nA quiet celebration\n\nGather the people who matter, choose the picture, and let the evening arrive at its own pace.\n\nEnquire\n03\nA table after the film\n\nBegin with the screen, then stay for a small supper prepared for your guests.\n\nEnquire"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "membership",
+      "status": "missing",
+      "sourceSlot": "membership",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "contact",
+      "status": "present",
+      "sourceSlot": "contact",
+      "sourceOptionId": "contact--variant-i-ma",
+      "sourceName": "Contact I - One Question At A Time",
+      "sourceSectionIds": [
+        "24875"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-contact-i---one-question-at-a-time-24875 q-px-xs section-contact-i---one-question-at-a-time-24875",
+          "height": 1221.7125244140625,
+          "textExcerpt": "Tell us one thing\nName\nEmail\nMessage\nSend"
+        }
+      ],
+      "notes": [
+        "Captured native contact form includes name, email, message and send action. Submission routing was not tested."
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-j-box-office",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "G through L share the same visible logo, dark header and link arrangement; this is representation, not six visually distinct navigation designs."
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-j-box-office",
+      "sourceName": "J Intro",
+      "sourceSectionIds": [
+        "24885"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-j-intro-24885 q-px-xs section-j-intro-24885",
+          "height": 131.03750610351562,
+          "textExcerpt": "TONIGHT AT THE BOX OFFICE\nTickets first. Everything else can wait.\nChoose a film, pick a time, and head straight to checkout. Fresh schedules and the quickest route to your seat—right here."
+        }
+      ],
+      "notes": [
+        "Visible editorial introduction, approximately117–131px tall. Design is materially less developed than A through I; enrich it as a deliberate hero while preserving variant identity."
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "food",
+      "status": "missing",
+      "sourceSlot": "food",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "private-parties",
+      "status": "missing",
+      "sourceSlot": "events",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "membership",
+      "status": "missing",
+      "sourceSlot": "membership",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "contact",
+      "status": "missing",
+      "sourceSlot": "contact",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "Plan Your Visit is editorial copy without the enquiry fields shown on A through I; it does not satisfy contact parity.",
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-k-clubhouse",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "G through L share the same visible logo, dark header and link arrangement; this is representation, not six visually distinct navigation designs."
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-k-clubhouse",
+      "sourceName": "K Welcome",
+      "sourceSectionIds": [
+        "24895"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-k-welcome-24895 q-px-xs section-k-welcome-24895 bg-primary",
+          "height": 116.6125030517578,
+          "textExcerpt": "WELCOME TO THE CLUBHOUSE\nA neighborhood cinema with a little more room to linger.\nMeet friends, settle into a favorite seat, and make a night of it. The Clubhouse pairs an easy path to tickets with a warm, social rhythm before and after the show."
+        }
+      ],
+      "notes": [
+        "Visible editorial introduction, approximately117–131px tall. Design is materially less developed than A through I; enrich it as a deliberate hero while preserving variant identity."
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "food",
+      "status": "missing",
+      "sourceSlot": "food",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "Stay Awhile/Lounge Ritual prose is experience content, not a food menu. Do not relabel it as food for parity.",
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "private-parties",
+      "status": "missing",
+      "sourceSlot": "events",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "membership",
+      "status": "partial",
+      "sourceSlot": "membership",
+      "sourceOptionId": "membership--variant-k-clubhouse",
+      "sourceName": "K Join The Club",
+      "sourceSectionIds": [
+        "24899"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-k-join-the-club-24899 q-px-xs section-k-join-the-club-24899 bg-primary",
+          "height": 116.6125030517578,
+          "textExcerpt": "JOIN THE CLUB\nYour seat at the table starts here.\nWant the first word on new programs, special screenings, and clubhouse events? Ask a team member at the box office how to join the Clubhouse list during your next visit."
+        }
+      ],
+      "notes": [
+        "Join the club is a list invitation directing visitors to ask a team member. No online action, benefits or membership comparison in the captured section."
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "contact",
+      "status": "missing",
+      "sourceSlot": "contact",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "navigation",
+      "status": "present",
+      "sourceSlot": "header",
+      "sourceOptionId": "header--variant-l-midnight-lounge",
+      "sourceName": "Site header",
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "captureStatus": "captured-live",
+      "sourceBounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      },
+      "notes": [
+        "Visible native site header. Link destinations and mobile menu were not verified by this local audit.",
+        "G through L share the same visible logo, dark header and link arrangement; this is representation, not six visually distinct navigation designs."
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "hero",
+      "status": "present",
+      "sourceSlot": "hero",
+      "sourceOptionId": "hero--variant-l-midnight-lounge",
+      "sourceName": "L Opening Note",
+      "sourceSectionIds": [
+        "24905"
+      ],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "captureStatus": "captured-live",
+      "sourceBounds": [
+        {
+          "classes": "section-l-opening-note-24905 q-px-xs section-l-opening-note-24905 bg-dark",
+          "height": 131.03750610351562,
+          "textExcerpt": "MEET ME AT MIDNIGHT\nLate shows. Low lights. One more round before the trailers.\nThe Midnight Lounge turns a movie into the whole evening—an intimate place to arrive early, settle in, and stay out a little later."
+        }
+      ],
+      "notes": [
+        "Visible editorial introduction, approximately117–131px tall. Design is materially less developed than A through I; enrich it as a deliberate hero while preserving variant identity."
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "food",
+      "status": "missing",
+      "sourceSlot": "food",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "Stay Awhile/Lounge Ritual prose is experience content, not a food menu. Do not relabel it as food for parity.",
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "private-parties",
+      "status": "missing",
+      "sourceSlot": "events",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "membership",
+      "status": "missing",
+      "sourceSlot": "membership",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "contact",
+      "status": "missing",
+      "sourceSlot": "contact",
+      "sourceOptionId": null,
+      "sourceName": null,
+      "sourceSectionIds": [],
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "captureStatus": "absent-from-capture",
+      "sourceBounds": [],
+      "notes": [
+        "No dedicated equivalent option or source section in the captured published page. A shared navigation link or footer is not counted as a dedicated section."
+      ]
+    }
+  ],
+  "dynamicEvidence": [
+    {
+      "variant": "variant-l-midnight-lounge",
+      "classes": "section-l-late-lineup-24907 q-px-xs section-l-late-lineup-24907",
+      "height": 0,
+      "state": "not-rendered",
+      "text": "",
+      "note": "Source section exists but has no rendered height in snapshot. Cause is unverified; do not assume intentionally hidden."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "classes": "section-j-today-24887 q-px-xs section-j-today-24887",
+      "height": 334.4375,
+      "state": "visible-empty-state",
+      "text": "NOW SHOWING\n...\nNothing Scheduled",
+      "note": "Empty state is not evidence of populated widget styling."
+    },
+    {
+      "variant": "variant-j-box-office",
+      "classes": "section-j-coming-up-24888 q-px-xs section-j-coming-up-24888",
+      "height": 0,
+      "state": "not-rendered",
+      "text": "",
+      "note": "Source section exists but has no rendered height in snapshot. Cause is unverified; do not assume intentionally hidden."
+    },
+    {
+      "variant": "variant-a-circuit",
+      "classes": "section-now-playing-a---departure-board-23753 q-px-xs section-now-playing-a---departure-board-23753",
+      "height": 474.2000122070313,
+      "state": "visible-empty-state",
+      "text": "NOW PLAYING\n...\nNothing Scheduled",
+      "note": "Empty state is not evidence of populated widget styling."
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "classes": "section-k-featured-24896 q-px-xs section-k-featured-24896",
+      "height": 189.4375,
+      "state": "visible-empty-state",
+      "text": "SELECTED FOR THE CLUB\nNo movies here",
+      "note": "Empty state is not evidence of populated widget styling."
+    }
+  ],
+  "implementationPriorities": [
+    "Create membership G/H/I/J/L and replace or enrich K membership.",
+    "Create native food menus J/K/L with the same site catalog already used by A–I.",
+    "Create dedicated private parties B/J/K/L. Keep B public programme as optional extra.",
+    "Create native contact forms J/K/L by matching existing site form handling.",
+    "Review G–L shared navigation and J–L basic heroes as a separate design-completeness pass.",
+    "Keep Now Playing/Coming Soon optional until native settings show meaningful visual variation against populated real inventory."
+  ],
+  "limitations": [
+    "Snapshot captured2026-10-25. Draft-only sections and changes after capture are not represented.",
+    "No form submission, actual membership purchase, checkout, mobile-menu or link-target behavior verified.",
+    "Section names are not treated as proof of purpose; rendered text and bounds were inspected.",
+    "Zero-height anchors D/E/F are support hooks, not missing forms. Their adjacent contact forms are visible.",
+    "Dynamic native widgets lack populated inventory in this evidence; no claim that blank sections are broken or intentionally hidden."
+  ]
+}

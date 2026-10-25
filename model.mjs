@@ -1,6 +1,79 @@
 export const SCHEMA = 'fd-template-picker/v2';
 export const SUPPORTED_SCHEMAS = new Set(['fd-template-picker/v1', SCHEMA]);
 export const PINNED = new Set(['header', 'footer']);
+export const REQUIRED_COMPONENTS = Object.freeze([
+  { id: 'navigation', label: 'Navigation', slotIds: ['header', 'navigation'] },
+  { id: 'hero', label: 'Hero', slotIds: ['hero'] },
+  { id: 'food', label: 'Food & Drink', slotIds: ['food'] },
+  { id: 'private-parties', label: 'Private Parties', slotIds: ['private-parties'] },
+  { id: 'membership', label: 'Membership', slotIds: ['membership'] },
+  { id: 'contact', label: 'Contact Us', slotIds: ['contact'] },
+]);
+export const MOVIE_COMPONENTS = new Set(['now-playing', 'coming-soon', 'ticket-finder']);
+
+// A generic Events or Experience section is not evidence of private hire or food.
+// An audited option can explicitly declare its canonical purpose when its slot differs.
+export function componentForOption(slot, option) {
+  return option.canonicalComponent ?? slot.canonicalComponent ?? REQUIRED_COMPONENTS.find((component) => component.slotIds.includes(slot.id))?.id ?? null;
+}
+
+const noteText = (notes) => Array.isArray(notes) ? notes.join(' ') : notes ?? '';
+const captureState = (option) => option.captureStatus === 'not-rendered' ? 'not-visible'
+  : (option.captureStatus === 'partial' || option.capture?.mode === 'partial') ? 'partial-capture'
+    : option.captureStatus === 'captured-live' && option.image && option.width > 0 && option.height > 0 && option.capture?.mode === 'live'
+      && !option.capture.appearanceAltered && !option.capture.sampleDataInjected ? 'captured' : 'capture-pending';
+function assessOption(catalog, slot, option, variant = option.variant) {
+  const component = componentForOption(slot, option);
+  const audit = catalog.componentAudit?.find((entry) => entry.variant === variant && entry.component === component);
+  const sourceStatus = option.componentStatus ?? audit?.status ?? 'present';
+  return { component, sourceStatus,
+    status: sourceStatus === 'missing' ? 'missing-source' : sourceStatus === 'partial' ? 'partial-source'
+      : sourceStatus === 'unverified' ? 'needs-audit' : captureState(option),
+    notes: noteText(option.componentNote || audit?.notes), auditedAt: option.componentAuditedAt ?? audit?.auditedAt ?? null };
+}
+
+export function buildCoverage(catalog) {
+  const { variants } = createModel(catalog);
+  const rows = variants.map((variant) => {
+    const components = REQUIRED_COMPONENTS.map((component) => {
+      const matches = catalog.slots.flatMap((slot) => slot.options
+        .filter((option) => (option.sharedBy ?? [option.variant]).includes(variant.id) && componentForOption(slot, option) === component.id)
+        .map((option) => ({ slot, option })));
+      const audit = catalog.componentAudit?.find((entry) => entry.variant === variant.id && entry.component === component.id);
+      const rank = { captured: 0, 'partial-capture': 1, 'capture-pending': 2, 'not-visible': 3, 'partial-source': 4, 'needs-audit': 5, 'missing-source': 6 };
+      matches.sort((a, b) => rank[assessOption(catalog, a.slot, a.option, variant.id).status] - rank[assessOption(catalog, b.slot, b.option, variant.id).status]);
+      const match = matches[0];
+      const assessment = match ? assessOption(catalog, match.slot, match.option, variant.id) : null;
+      const sourceStatus = assessment?.sourceStatus ?? audit?.status ?? 'unverified';
+      const status = assessment?.status ?? (sourceStatus === 'missing' ? 'missing-source' : sourceStatus === 'partial' ? 'partial-source'
+        : sourceStatus === 'present' ? 'capture-pending' : 'needs-audit');
+      return { component: component.id, label: component.label, status, sourceStatus,
+        slotId: match?.slot.id ?? null, optionId: match?.option.id ?? null,
+        notes: assessment?.notes || noteText(audit?.notes), auditedAt: assessment?.auditedAt ?? audit?.auditedAt ?? null,
+        designNote: match?.option.designNote ?? null };
+    });
+    const captured = components.filter((component) => component.status === 'captured').length;
+    return { variant: variant.id, label: variant.label, captured, total: REQUIRED_COMPONENTS.length,
+      complete: captured === REQUIRED_COMPONENTS.length, components };
+  });
+  return { scope: 'catalog', required: REQUIRED_COMPONENTS, rows,
+    captured: rows.reduce((total, row) => total + row.captured, 0),
+    total: rows.length * REQUIRED_COMPONENTS.length,
+    completeVariants: rows.filter((row) => row.complete).length };
+}
+
+export function buildSelectionCoverage(catalog, state) {
+  const model = createModel(catalog);
+  const components = REQUIRED_COMPONENTS.map((component) => {
+    const selected = state.order.filter((id) => !state.excluded[id]).map((id) => ({ slot: model.slotById.get(id), option: model.pickedOption(state, id) }))
+      .filter(({ slot, option }) => componentForOption(slot, option) === component.id);
+    const assessed = selected.map(({ slot, option }) => ({ ...assessOption(catalog, slot, option), slotId: slot.id, optionId: option.id, variant: option.variant }));
+    const match = assessed.find((entry) => entry.status === 'captured') ?? assessed[0];
+    return { component: component.id, label: component.label, ...(match ?? { status: 'missing-selection', sourceStatus: null, slotId: null, optionId: null, variant: null, notes: 'No matching component is included in this selection.' }) };
+  });
+  const captured = components.filter((component) => component.status === 'captured').length;
+  return { scope: 'included-selection', captured, total: REQUIRED_COMPONENTS.length, complete: captured === REQUIRED_COMPONENTS.length, components };
+}
 
 export function createModel(catalog) {
   if (!Array.isArray(catalog?.slots) || !catalog.slots.length) throw new Error('The catalog has no sections.');
@@ -78,7 +151,7 @@ export function libraryPlan(slot, option) {
   return {
     status: option.library?.status ?? 'not-created',
     sourcePageTitle: option.sourcePageTitle ?? option.variant,
-    proposedPageTitle: global ? null : (option.library?.pageTitle ?? `${option.variant}_${slot.id.replaceAll('-', '_')}`),
+    proposedPageTitle: global ? null : (option.library?.pageTitle ?? `${option.variant}_${(componentForOption(slot, option) ?? slot.id).replaceAll('-', '_')}`),
     libraryPageId: option.library?.pageId ?? null,
     libraryScope: option.library?.scope ?? null,
     importPolicy: global ? 'Inspect and recreate the required Theme & Style, Navigations and Global Widgets at the destination. Page Library import does not transfer these site-level settings.' : 'Add From Library, then Unlink and verify Not Linked before local customization. Disabling Library Updates alone retains a link that Force Update can refresh.',
@@ -98,9 +171,13 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
     catalogGeneratedAt: catalog.generatedAt,
     sourceSite: catalog.sourceSite ?? { url: catalog.source },
     captureNotes: catalog.captureNotes ?? [],
+    requiredComponentCoverage: buildCoverage(catalog),
+    selectionComponentCoverage: buildSelectionCoverage(catalog, state),
+    movieModulePolicy: catalog.movieModulePolicy ?? null,
     sections: state.order.map((slotId, i) => {
       const slot = model.slotById.get(slotId);
       const option = model.pickedOption(state, slotId);
+      const assessment = assessOption(catalog, slot, option);
       return {
         position: i + 1, slot: slotId, slotLabel: slot.label, included: !state.excluded[slotId],
         optionId: option.id, variant: option.variant, variantLabel: option.variantLabel,
@@ -109,7 +186,12 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
         publishedPageId: option.pageId ?? null, draftPageId: option.draftId ?? null,
         adminUrl: option.adminUrl ?? null, sectionIds: option.sectionIds ?? [], draftSectionIds: option.draftSectionIds ?? [],
         screenshot: absolute(option.image), screenshots: Object.fromEntries(Object.entries(option.screenshots ?? { desktop: { image: option.image, width: option.width, height: option.height } }).map(([device, capture]) => [device, { ...capture, image: absolute(capture.image) }])),
-        capture: option.capture ?? null, library: libraryPlan(slot, option),
+        captureStatus: option.captureStatus ?? null, capture: option.capture ?? null, library: libraryPlan(slot, option),
+        canonicalComponent: componentForOption(slot, option),
+        componentGroup: MOVIE_COMPONENTS.has(slotId) ? 'optional-movie-module' : componentForOption(slot, option) ? 'required-component' : 'additional-section',
+        componentStatus: assessment.component ? assessment.sourceStatus : null,
+        componentNote: assessment.notes, componentAuditedAt: assessment.auditedAt,
+        designNote: option.designNote ?? null,
         presentation: option.presentation ?? null,
         note: state.slotNotes[slotId] ?? '',
       };
@@ -120,6 +202,12 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
 export function buildHandoff(data) {
   const lines = [`# ${data.project || 'Cinema'} template handoff`, '', `Exported: ${data.exportedAt}`, '',
     'This is a visual selection and transfer plan. It does not create INDY pages or prove that Library copies are ready.', ''];
+  if (data.selectionComponentCoverage) {
+    const coverage = data.selectionComponentCoverage;
+    lines.push(`Required components in this selection: ${coverage.captured}/${coverage.total} captured.`, '');
+    for (const component of coverage.components.filter((entry) => entry.status !== 'captured')) lines.push(`- ${component.label}: ${component.status.replaceAll('-', ' ')}. ${component.notes}`);
+    lines.push('', 'Movie discovery and booking modules are optional design choices while native layouts are verified.', '');
+  }
   for (const section of data.sections.filter((s) => s.included)) {
     lines.push(`## ${section.position}. ${section.slotLabel} — ${section.variantLabel}`, '',
       `- Components: ${section.components.join(' + ')}`, `- Source: ${section.sourceUrl}`,
@@ -128,6 +216,9 @@ export function buildHandoff(data) {
       `- Transfer object: ${section.library.proposedPageTitle || 'Site-level configuration'}`,
       `- Transfer policy: ${section.library.importPolicy}`);
     lines.push(`- Transfer notes: ${section.library.notes}`);
+    if (section.componentStatus === 'partial') lines.push(`- Required component coverage: partial ${section.canonicalComponent ?? 'source section'}; review before use.`);
+    if (section.componentNote) lines.push(`- Component audit: ${section.componentNote}`);
+    if (section.designNote) lines.push(`- Design review: ${section.designNote}`);
     if (section.draftPageId) lines.push(`- Separate editable draft: ${section.draftPageId}; draft sections: ${section.draftSectionIds.join(', ') || 'Unverified'}`);
     lines.push(`- Dependency review: ${section.library.dependenciesStatus}`);
     if (section.library.dependencies.length) lines.push(`- Dependencies: ${section.library.dependencies.join('; ')}`);
