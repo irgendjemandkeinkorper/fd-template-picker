@@ -80,7 +80,7 @@ class FoodPortabilityTests(unittest.TestCase):
         self.assertEqual(MANIFEST['package']['sectionCount'], 1)
         self.assertEqual(MANIFEST['package']['carrierPageCss'], '')
         self.assertFalse(MANIFEST['package']['sourceProductRecordsIncluded'])
-        for key in ('consumerTheme', 'realPhoneConsumerViewport', 'insertionIntoExistingPage'):
+        for key in ('consumerTheme', 'realPhoneConsumerViewport', 'directLibrarySectionImport', 'crossPageSectionCopy'):
             self.assertEqual(MANIFEST['verification'][key], 'not-tested')
 
     def test_saved_carrier_and_admin_preview_limits_match_native_pilot_evidence(self):
@@ -189,6 +189,57 @@ class FoodPortabilityTests(unittest.TestCase):
         self.assertEqual(resolution['phoneAdminPreview']['overflowPx'], 3)
         for entry in resolution['evidence']:
             self.assertEqual(hashlib.sha256((REPO / entry['path']).read_bytes()).hexdigest(), entry['sha256'])
+
+    def test_existing_page_assembly_preserves_originals_and_inserts_only_new_menu(self):
+        assembly = MANIFEST['existingPageAssembly']
+        journal = json.loads((REPO / assembly['journal']).read_text(encoding='utf-8'))
+        self.assertEqual(assembly['status'], journal['status'])
+        self.assertTrue(assembly['authorization']['confirmedByUser'])
+        self.assertTrue(assembly['result']['savedUnpublishedDraft'])
+        self.assertEqual(assembly['target']['pageListId'], '5585')
+        self.assertEqual(assembly['target']['editablePageId'], '5586')
+        self.assertEqual(assembly['newSectionId'], '25156')
+        order = [row['id'] for row in assembly['savedSectionRows']]
+        self.assertEqual(order, journal['result']['sectionOrder'])
+        self.assertEqual(len(order), 9)
+        index = order.index(assembly['newSectionId'])
+        self.assertEqual(order[index-1:index+2], ['23540','25156','23541'])
+        self.assertEqual([id_ for id_ in order if id_ != assembly['newSectionId']], assembly['originalSectionIdsInOrder'])
+        before = json.loads((REPO / 'evidence/library-k-food-assembly/target-5586-before-fields.json').read_text(encoding='utf-8'))
+        after = json.loads((REPO / 'evidence/library-k-food-assembly/target-5586-final-page-state.json').read_text(encoding='utf-8'))
+        self.assertEqual(before['fields'], after['fields'])
+        self.assertEqual(assembly['savedPageFieldCount'], 7)
+        self.assertTrue(assembly['savedPageFieldsUnchanged'])
+        saved_css = REPO / assembly['newSectionCss']
+        self.assertEqual(saved_css.read_bytes(), (HERE/'section.proposed.css').read_bytes())
+        self.assertEqual(hashlib.sha256(saved_css.read_bytes()).hexdigest(), assembly['newSectionCssSha256'])
+        self.assertTrue(assembly['allRecordedFieldChecksMatch'])
+        self.assertGreaterEqual(len(assembly['recordedFieldChecks']), 45)
+        self.assertTrue(all(check['matches'] for check in assembly['recordedFieldChecks']))
+        for entry in assembly['evidence']:
+            self.assertEqual(hashlib.sha256((REPO/entry['path']).read_bytes()).hexdigest(), entry['sha256'])
+
+    def test_existing_page_preview_is_bounded_and_direct_section_import_is_unproven(self):
+        assembly = MANIFEST['existingPageAssembly']
+        self.assertFalse(assembly['directLibrarySectionImportVerified'])
+        self.assertFalse(assembly['crossPageCopyVerified'])
+        for mode in ('desktopAdminPreview','phoneAdminPreview'):
+            row = assembly[mode]
+            evidence = json.loads((REPO/assembly[mode+'Evidence']).read_text(encoding='utf-8'))
+            self.assertEqual(row['pageId'], assembly['target']['editablePageId'])
+            self.assertEqual(row['sectionId'], assembly['newSectionId'])
+            self.assertTrue(row['compiledCurrentScope'])
+            self.assertIn('Georgia', row['headingFont'])
+            self.assertEqual(row['cards'], len(evidence['cards']))
+            self.assertEqual(row['loadedImages'], sum(bool(image.get('loaded')) for image in evidence['images']))
+            self.assertTrue(row['limitations'])
+        self.assertEqual(assembly['desktopAdminPreview']['overflowPx'],0)
+        self.assertEqual(assembly['phoneAdminPreview']['overflowPx'],3)
+        bar = assembly['adjacentMenuCategoryBar']['observation']
+        self.assertEqual(bar['position'],'fixed')
+        self.assertIn('23540',bar['oldMenuRoot'])
+        self.assertIn(assembly['newSectionId'],bar['newMenuRoot'])
+        self.assertIn('no fix applied',assembly['adjacentMenuCategoryBar']['status'])
 
 
 if __name__ == '__main__':

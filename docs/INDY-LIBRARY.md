@@ -1,6 +1,6 @@
 # INDY Library templates
 
-Verified context: **US-BETA / INDY Demo**, 25 October 2026. The approved pilot created a food-only carrier at **Adam Template Testing 2**, promoted it to Circuit **LIBRARY**, and imported one independent copy at **Adam Template Testing**. All remain **unpublished**. Cross-site transfer, new identifiers, preserved settings/CSS and destination-catalogue binding are demonstrated. A native compiled-style issue after a local Section rename was fixed and verified after reopening; bounded desktop/phone Admin preview review is complete. Actual consumer Theme and phone checks remain pending. See [the pilot journal](../evidence/library-k-food-pilot/pilot-journal.json).
+Verified context: **US-BETA / INDY Demo**, 25 October 2026. The approved pilot created a food-only carrier at **Adam Template Testing 2**, promoted it to Circuit **LIBRARY**, and imported one independent copy at **Adam Template Testing**. Those carriers remain **unpublished**. A second approved step recreated the same native widget inside existing Page **5585** / editable draft **5586** as Section **25156**, saved without publication. Both separate-Page Library transfer and local native-widget assembly are demonstrated; direct Library Section insertion/cross-page copying remain unverified. Actual consumer Theme and phone checks remain pending. See the [Library pilot journal](../evidence/library-k-food-pilot/pilot-journal.json) and [existing-Page assembly journal](../evidence/library-k-food-assembly/assembly-journal.json).
 
 ## Current recommendation
 
@@ -8,7 +8,7 @@ Use a **food-only Page containing one native Concessions Menu Section**, titled 
 
 The widget settings, portable Section CSS, dependency manifest and acceptance checks are in [the Clubhouse Kitchen package](../template-adapters/library-k-food/README.md). Baseline CSS transferred exactly, native settings and the stable class survived, and each runtime used its own catalogue. The destination Section's subsequent internal Name change exposed a stale compiled CSS scope. A user-approved comment-only CSS re-save restored the scope without changing design rules or other fields. Actual phone and consumer Theme verification remain open.
 
-A food-only Library Page distributes a **separate food Page**. This pilot does **not** establish a way to append the Section to an existing homepage. Keep carrier isolation, cross-site Library transfer and insertion into an existing Page as separate outcomes.
+A food-only Library Page distributes a **separate food Page**. For an existing Page, **Add Section → native Concessions Menu**, then apply the recorded settings/class/Section CSS. This local recreation route is now verified on Page `5585`; it does not import the Library Section or move an existing Section between Pages. Keep these mechanisms separate in installation instructions.
 
 ## Actual K Food source
 
@@ -55,17 +55,27 @@ The refreshed destination [desktop Admin measurements](../evidence/library-k-foo
 
 For ordinary content changes, edit the widget's **Heading** and **Description** and keep its internal **Name** stable. An internal Name change can leave compiled CSS stale. In this case, a comment-only re-save of the same Section CSS triggered recompilation; verify the saved fields and reopened compiled scope before using that remedy elsewhere. Do not treat correct stored CSS as proof of correct rendering.
 
+## Verified assembly inside an existing Page
+
+At **Adam Template Testing → Fandango Cinema Template Test**, Page-list/base **5585** / editable draft **5586**, the approved batch created exactly one new native **Concessions Menu `25156`**. It uses final internal Name **Food - Clubhouse Kitchen**, class `fdp-k-food`, exact baseline Section CSS and recorded native settings. The Name was set before first Create/Save; after reopening the compiled scope matches and Georgia typography applies without the earlier rename/re-save workaround. Existing Page CSS and captured Page fields compare unchanged.
+
+The reopened draft has **nine Sections** in order: `23550, 23536, 23537, 23549, 23538, 23539, 23540, 25156, 23541`. The new menu is after **Concessions - Snacks Worth the Credits (`23540`)** and before **Visit - Plan Your Night (`23541`)**. All eight original IDs and their relative order remain intact. The Page is Not Linked with **Unpublished Changes**; its previous published version was not updated. See the [assembly evidence guide](../evidence/library-k-food-assembly/README.md), [final Page state](../evidence/library-k-food-assembly/target-5586-final-page-state.json) and [nine-Section screenshot](../evidence/library-k-food-assembly/target-5586-nine-sections.jpg).
+
+Bounded [desktop Admin review](../evidence/library-k-food-assembly/mixed-desktop-dom.json) shows 1024px, three columns, seven loaded photos and zero overflow. [Simulated phone](../evidence/library-k-food-assembly/mixed-phone-dom.json) shows 376px, one column and seven loaded photos, with the known 3px outer-viewport limitation. The new menu's [Desserts control](../evidence/library-k-food-assembly/category-interaction.json) navigated within its own Georgia-styled menu. Consumer Theme, actual phone, controlled empty state, catalogue availability, Mobile App and commerce checks remain pending.
+
+**Comparison limitation:** with both native food menus retained, the original menu's floating category bar can remain over Clubhouse in Admin preview; see [the coexistence measurements](../evidence/library-k-food-assembly/adjacent-menu-category-bar.json) and [desktop screenshot](../evidence/library-k-food-assembly/mixed-desktop.jpg). The existing menu was preserved under the approved scope. A finished slot would normally use one chosen food module. Removing or changing the old menu is a separate action, not a completed result of this comparison.
+
 ## Current controls and limits
 
 | Inspected surface | Observed controls | What this establishes |
 | --- | --- | --- |
 | K Food Section menu | Edit, Duplicate, Delete, View History | In-page duplication exists. No cross-page Copy/Move or Section Library action was visible. |
-| Add Section | Native widget Type choices | No import-from-page or Section Library control was visible in the inspected flow. |
-| Pages | Add From Library selection table; one food-only Page imported into the named destination | Separate-Page transfer is demonstrated. Repeated imports and existing-Page insertion remain untested. |
+| Add Section | Native widget Type choices; one new Concessions Menu assembled on existing Page `5585` | Local native-widget recreation is demonstrated. No import-from-page or Section Library control was visible. |
+| Pages | Add From Library selection table; one food-only Page imported into the named destination | Separate-Page transfer is demonstrated. Repeated imports and direct Library Section insertion remain untested. |
 | Source carrier Library chip | Create New Library Page, then saved Linked with Updates / Library ID `5971` | Promotion created the one-Section Circuit Library master. Original full K stays Not Linked. |
 | Custom Blocks | Add From Library opens a record table; unsaved builder offers Image, Text, Link, Button, Video, Map and grid blocks | No native Concessions Menu appeared in the inspected builder palette. Native-widget nesting remains unproven. The builder was closed without creating a block. |
 
-Force Update is disabled while a Page is Not Linked. Its visible description says it synchronizes all content from a linked Library Page. This pilot verifies one separate-Page import with new record IDs, preserved CSS/settings and local catalogue binding. It does not establish repeated import behavior, every dependency type, future update propagation or insertion into another Page.
+Force Update is disabled while a Page is Not Linked. Its visible description says it synchronizes all content from a linked Library Page. The Library pilot verifies one separate-Page import with new record IDs, preserved CSS/settings and local catalogue binding. The assembly step separately verifies native widget recreation inside an existing Page. Neither establishes automated cross-page copying, direct Library Section insertion, repeated import behavior, every dependency type or future update propagation.
 
 The former Pages help article (`12856828`) still returns a missing-page response, and Help Center search found no replacement dedicated Pages article. Use the observed tenant controls for the pilot instead of treating old Page-copy guidance as current proof.
 
@@ -86,9 +96,9 @@ A Library is a separate scope from the source Site. This pilot used the user-aut
 5. **Completed transfer:** used Create New Library Page for master `5971` / draft `5972`, then destination Add From Library for Page `5973` / draft `5974`. Library website publication was not required. New IDs, exactly one native widget, empty Page CSS, stable class and baseline CSS/settings were verified.
 6. **Completed local independence check:** Unlinked, saved and verified Not Linked before the destination-only internal Name edit. The master Name and CSS stayed unchanged. Destination category IDs and product count demonstrate its own runtime catalogue.
 7. **Completed within Admin:** saved the exact approved comment-only refresh; reopened and verified current scope, absent stale scope, restored typography, unchanged other fields, seven loaded photos and final unpublished/Not Linked status. Desktop preview has no overflow; simulated phone retains the documented 3px limitation. **Still pending:** actual consumer Theme colors, real phone rendering, controlled empty state, catalogue availability and complete interaction checks. The destination's initial Theme CSS was empty, but Admin framework colors cannot certify consumer Theme behavior. Mobile App remains untested.
-8. Record **Library transfer** separately from **insertion into an existing Page**. If no native insertion action exists, recreate this native widget and its recorded Section settings on the intended Page. Do not describe separate-Page import as automatic homepage assembly.
+8. **Completed native assembly:** after separate approval, recreated one native widget on existing draft `5586` as Section `25156`, with exact baseline CSS, intended order, preserved captured Page fields and correct compiled scope. Record this independently from Library transfer. Direct Library Section insertion and automated cross-page copy remain unverified; separate-Page import is not automatic homepage assembly.
 
-The user authorized the carrier, Library promotion, exactly one destination import, Unlink, destination-only internal Name edit and exact comment-only CSS refresh, while keeping everything unpublished. Publication and hosting rebuilds are outside this pilot.
+The user authorized the carrier, Library promotion, exactly one destination import, Unlink, destination-only internal Name edit and exact comment-only CSS refresh. A later exact batch authorized one new locally recreated Section inside existing draft `5586`, positioned between `23540` and `23541`, preserving all original Sections and Page fields. Both batches kept new work unpublished. Publication and hosting rebuilds remain outside scope.
 
 ## Package boundaries
 
@@ -123,6 +133,7 @@ Current statuses:
 - **Cross-site Library transfer:** one separate Page imported successfully without Library website publication; destination is unpublished, visibility off and Not Linked. Repeated imports and general Library version/update behavior remain untested.
 - **Native scope restoration / bounded Admin preview review:** complete after the approved comment-only re-save and reopen. Current scope matches, stale scope is absent and Georgia is restored. Desktop: 1024px, three columns, seven loaded photos, zero overflow. Simulated phone: 376px, one column, seven loaded photos, documented 3px limitation.
 - **Local independence:** destination-only Name saved/reopened and master Name/CSS unchanged. No upstream update was pushed to test future propagation.
-- **Insertion into an existing Page:** no supported action established.
+- **Native assembly inside an existing Page:** verified on draft `5586`, Section `25156`, nine-Section order and baseline CSS/settings preserved after reopen. Comparison retains both food menus; the original menu's floating category bar can overlap the new module in Admin preview.
+- **Direct Library Section insertion / automated cross-page copy:** no action established by inspected controls or documentation; remains unverified.
 
 The picker remains a visual selection and handoff tool. A choice or screenshot does not create live widgets. Do not advance a readiness stage from a successful earlier stage alone.

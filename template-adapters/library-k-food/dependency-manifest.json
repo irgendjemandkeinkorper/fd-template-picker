@@ -1,6 +1,6 @@
 {
   "schema": "fd-library-module-dependencies/v1",
-  "preparedAt": "2026-10-25T21:50:17.455819+00:00",
+  "preparedAt": "2026-10-25T23:32:27.855685+00:00",
   "moduleId": "variant-k-clubhouse_food",
   "status": "library-transfer-and-destination-admin-scope-restoration-verified",
   "source": {
@@ -483,7 +483,7 @@
       "status": "unchanged; only one new carrier Page imported"
     },
     "publication": "source carrier, Library master and destination carrier all unpublished",
-    "existingPageInsertion": "not-tested; successful separate Page import does not prove Section insertion",
+    "existingPageInsertion": "Direct Library Section import/cross-page copy remains unverified; native recreation on an existing Page is verified separately under existingPageAssembly",
     "nativeScopeIssue": {
       "status": "verified-after-reopen",
       "trigger": "Local internal Section Name changed from Food K - Clubhouse Kitchen to Food - Clubhouse Kitchen",
@@ -637,6 +637,567 @@
       "routineEditing": "Edit Heading and Description for customer-facing copy. Keep internal Name stable; renaming requires a maintainer scope check."
     }
   },
+  "existingPageAssembly": {
+    "status": "saved-reopened-native-assembly-verified",
+    "method": "Native Add Section > Concessions Menu; recreate recorded module fields/class/Section CSS, then native Set Order",
+    "directLibrarySectionImportVerified": false,
+    "crossPageCopyVerified": false,
+    "target": {
+      "region": "US-BETA",
+      "circuit": "INDY Demo",
+      "site": "Adam Template Testing",
+      "pageTitle": "Fandango Cinema Template Test",
+      "pageListId": "5585",
+      "editablePageId": "5586",
+      "slug": "fandango-cinema-template-test",
+      "currentState": "Published version unchanged; editable draft saved with Unpublished Changes",
+      "libraryStatus": "Not Linked"
+    },
+    "authorization": {
+      "confirmedByUser": true,
+      "scope": "Create, save, order, reopen and preview one new Clubhouse Food Section on editable Page 5586; no publication"
+    },
+    "result": {
+      "newSectionId": "25156",
+      "savedUnpublishedDraft": true,
+      "pageLibraryState": "Not Linked",
+      "newSectionCssMatchesApprovedBaseline": true,
+      "pageFieldsUnchanged": true,
+      "sectionOrder": [
+        "23550",
+        "23536",
+        "23537",
+        "23549",
+        "23538",
+        "23539",
+        "23540",
+        "25156",
+        "23541"
+      ],
+      "originalSectionIdsAndRelativeOrderUnchanged": true,
+      "sectionCount": 9,
+      "desktop": {
+        "width": 1024,
+        "columns": 3,
+        "cards": 7,
+        "loadedImages": 7,
+        "overflowPx": 0,
+        "headingFont": "Georgia, \"Times New Roman\", serif",
+        "currentCompiledScope": true
+      },
+      "simulatedPhone": {
+        "width": 376,
+        "columns": 1,
+        "cards": 7,
+        "loadedImages": 7,
+        "overflowPx": 3,
+        "headingFont": "Georgia, \"Times New Roman\", serif",
+        "currentCompiledScope": true
+      },
+      "newMenuCategoryInteraction": "Desserts click navigated to the new Georgia-styled menu Desserts group with Visit below; see category-interaction.json",
+      "limitations": [
+        "Original native menu floating category bar can remain over the new Section in Admin preview while both menus are present; old Section kept unchanged as approved",
+        "Simulated phone has the known 3px overflow and outer-viewport vw sizing limitation; actual consumer Theme/phone untested",
+        "This demonstrates native widget recreation inside an existing Page, not direct Library Section import or automated cross-page copy",
+        "No publication, checkout, Mobile App or controlled empty-state verification"
+      ]
+    },
+    "journal": "evidence/library-k-food-assembly/assembly-journal.json",
+    "newSectionId": "25156",
+    "newSectionCss": "evidence/library-k-food-assembly/new-section-25156.css",
+    "newSectionCssSha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee",
+    "newSectionCssMatchesBaseline": true,
+    "originalSectionIdsInOrder": [
+      "23550",
+      "23536",
+      "23537",
+      "23549",
+      "23538",
+      "23539",
+      "23540",
+      "23541"
+    ],
+    "savedSectionRows": [
+      {
+        "id": "23550",
+        "name": "Featured - Three Films",
+        "type": "Generic Carousel",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23536",
+        "name": "Hero - Big Stories",
+        "type": "Text Block",
+        "visibilityIcons": "toggle_off\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23537",
+        "name": "Book - Showtime Quick Selector",
+        "type": "Showtime Quick Selector",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23549",
+        "name": "Showtimes - Pick a Showtime",
+        "type": "Showtimes",
+        "visibilityIcons": "toggle_off\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23538",
+        "name": "Movies - Seven Stories",
+        "type": "Poster Carousel",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23539",
+        "name": "Features - More Than a Movie",
+        "type": "Text Block",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23540",
+        "name": "Concessions - Snacks Worth the Credits",
+        "type": "Concessions Menu",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      },
+      {
+        "id": "25156",
+        "name": "Food - Clubhouse Kitchen",
+        "type": "Concessions Menu",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      },
+      {
+        "id": "23541",
+        "name": "Visit - Plan Your Night",
+        "type": "Text Block",
+        "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+      }
+    ],
+    "savedPageFieldsUnchanged": true,
+    "savedPageFieldCount": 7,
+    "recordedFieldChecks": [
+      {
+        "field": "heading",
+        "expected": "Good company. Good things to share.",
+        "observed": "Good company. Good things to share.",
+        "matches": true
+      },
+      {
+        "field": "headingFontSize",
+        "expected": "H 2",
+        "observed": "H 2",
+        "matches": true
+      },
+      {
+        "field": "headingFont",
+        "expected": "Default",
+        "observed": "Default",
+        "matches": true
+      },
+      {
+        "field": "headingTextAlign",
+        "expected": "Center",
+        "observed": "Center",
+        "matches": true
+      },
+      {
+        "field": "headingColorField",
+        "expected": "Primary",
+        "observed": "Primary",
+        "matches": true
+      },
+      {
+        "field": "headingStyle",
+        "expected": "Default",
+        "observed": "Default",
+        "matches": true
+      },
+      {
+        "field": "salesChannelVisibility",
+        "expected": "Website",
+        "observed": "Website",
+        "matches": true
+      },
+      {
+        "field": "categoryFiltersPosition",
+        "expected": "Left",
+        "observed": "Left",
+        "matches": true
+      },
+      {
+        "field": "displayMode",
+        "expected": "Block",
+        "observed": "Block",
+        "matches": true
+      },
+      {
+        "field": "viewMode",
+        "expected": "Grid",
+        "observed": "Grid",
+        "matches": true
+      },
+      {
+        "field": "categoryNameAlignment",
+        "expected": "Left",
+        "observed": "Left",
+        "matches": true
+      },
+      {
+        "field": "categoryNameStyle",
+        "expected": "Default",
+        "observed": "Default",
+        "matches": true
+      },
+      {
+        "field": "categoryNameColorField",
+        "expected": "Primary",
+        "observed": "Primary",
+        "matches": true
+      },
+      {
+        "field": "itemCardTheme",
+        "expected": "Frame",
+        "observed": "Frame",
+        "matches": true
+      },
+      {
+        "field": "itemBackgroundColor",
+        "expected": "Default",
+        "observed": "Default",
+        "matches": true
+      },
+      {
+        "field": "categoryNameFontSizePx",
+        "expected": 24,
+        "observed": 24,
+        "matches": true
+      },
+      {
+        "field": "titleFontSizePx",
+        "expected": 20,
+        "observed": 20,
+        "matches": true
+      },
+      {
+        "field": "descriptionFontSizePx",
+        "expected": 16,
+        "observed": 16,
+        "matches": true
+      },
+      {
+        "field": "priceFontSizePx",
+        "expected": 16,
+        "observed": 16,
+        "matches": true
+      },
+      {
+        "field": "showHeading",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "showCategoryFilters",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "showCategoryDivider",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "showCategoryName",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "showImage",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "showDescription",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "showPrice",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "itemsPerRow",
+        "expected": 3,
+        "observed": 3,
+        "matches": true
+      },
+      {
+        "field": "itemsPerRowInMobile",
+        "expected": 1,
+        "observed": 1,
+        "matches": true
+      },
+      {
+        "field": "spacing",
+        "expected": 12,
+        "observed": 12,
+        "matches": true
+      },
+      {
+        "field": "itemBorderRadius",
+        "expected": 8,
+        "observed": 8,
+        "matches": true
+      },
+      {
+        "field": "itemShadow",
+        "expected": 0,
+        "observed": 0,
+        "matches": true
+      },
+      {
+        "field": "description",
+        "expected": "Explore the kitchen and bar before you settle in.",
+        "observed": "Explore the kitchen and bar before you settle in.",
+        "matches": true
+      },
+      {
+        "field": "categoriesVisibilityOverride",
+        "expected": [],
+        "observed": [],
+        "matches": true
+      },
+      {
+        "field": "finalInternalName",
+        "expected": "Food - Clubhouse Kitchen",
+        "observed": "Food - Clubhouse Kitchen",
+        "matches": true
+      },
+      {
+        "field": "widthMode",
+        "expected": "Centered",
+        "observed": "Centered",
+        "matches": true
+      },
+      {
+        "field": "marginSides",
+        "expected": "Extra Small",
+        "observed": "Extra Small",
+        "matches": true
+      },
+      {
+        "field": "marginTop",
+        "expected": "",
+        "observed": "",
+        "matches": true
+      },
+      {
+        "field": "marginBottom",
+        "expected": "",
+        "observed": "",
+        "matches": true
+      },
+      {
+        "field": "backgroundColor",
+        "expected": "",
+        "observed": "",
+        "matches": true
+      },
+      {
+        "field": "classes",
+        "expected": "fdp-k-food",
+        "observed": "fdp-k-food",
+        "matches": true
+      },
+      {
+        "field": "styles",
+        "expected": "",
+        "observed": "",
+        "matches": true
+      },
+      {
+        "field": "whoCanSee",
+        "expected": "Everyone",
+        "observed": "Everyone",
+        "matches": true
+      },
+      {
+        "field": "square",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "flat",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "visible",
+        "expected": true,
+        "observed": true,
+        "matches": true
+      },
+      {
+        "field": "startDate",
+        "expected": "",
+        "observed": "",
+        "matches": true
+      },
+      {
+        "field": "endDate",
+        "expected": "",
+        "observed": "",
+        "matches": true
+      },
+      {
+        "field": "visibleFor",
+        "expected": [
+          "Desktop Web",
+          "Mobile Web",
+          "Mobile App"
+        ],
+        "observed": [
+          "Desktop Web",
+          "Mobile Web",
+          "Mobile App"
+        ],
+        "matches": true
+      }
+    ],
+    "allRecordedFieldChecksMatch": true,
+    "fieldReadbackEvidence": [
+      "evidence/library-k-food-assembly/new-section-25156-settings-readback.json",
+      "evidence/library-k-food-assembly/new-section-25156-reopened-main.txt",
+      "evidence/library-k-food-assembly/new-section-25156-reopened-settings.txt"
+    ],
+    "draftState": "Saved/reopened with Save disabled and Unpublished Changes; existing published Page was not updated",
+    "desktopAdminPreview": {
+      "mode": "desktop",
+      "capturedAt": "2026-10-25T23:24:13.147Z",
+      "pageId": "5586",
+      "sectionId": "25156",
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "overflowPx": 0,
+      "columns": 3,
+      "cards": 7,
+      "images": 7,
+      "loadedImages": 7,
+      "headingFont": "Georgia, \"Times New Roman\", serif",
+      "compiledCurrentScope": true,
+      "limitations": [
+        "Native Admin framework colors do not certify consumer Theme palette",
+        "Simulated phone frame does not change outer browser viewport used by CSS vw units",
+        "No consumer publication, real phone, Mobile App, empty-catalogue or checkout verification"
+      ]
+    },
+    "phoneAdminPreview": {
+      "mode": "simulated-phone",
+      "capturedAt": "2026-10-25T23:25:58.490Z",
+      "pageId": "5586",
+      "sectionId": "25156",
+      "clientWidth": 376,
+      "scrollWidth": 379,
+      "overflowPx": 3,
+      "columns": 1,
+      "cards": 7,
+      "images": 7,
+      "loadedImages": 7,
+      "headingFont": "Georgia, \"Times New Roman\", serif",
+      "compiledCurrentScope": true,
+      "limitations": [
+        "Native Admin framework colors do not certify consumer Theme palette",
+        "Simulated phone frame does not change outer browser viewport used by CSS vw units",
+        "No consumer publication, real phone, Mobile App, empty-catalogue or checkout verification"
+      ]
+    },
+    "desktopAdminPreviewEvidence": "evidence/library-k-food-assembly/mixed-desktop-dom.json",
+    "phoneAdminPreviewEvidence": "evidence/library-k-food-assembly/mixed-phone-dom.json",
+    "desktopImage": "evidence/library-k-food-assembly/mixed-desktop.jpg",
+    "phoneImage": "evidence/library-k-food-assembly/mixed-phone.jpg",
+    "categoryInteraction": "Desserts click navigated to the new Georgia-styled menu Desserts group with Visit below; see category-interaction.json",
+    "adjacentMenuCategoryBar": {
+      "evidence": "evidence/library-k-food-assembly/adjacent-menu-category-bar.json",
+      "observation": {
+        "barClass": "q-page-sticky row flex-center fixed-top q-page-sticky--expand bg-responsive border-bottom q-pa-md",
+        "display": "flex",
+        "newMenuRoot": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156 zoom",
+        "observation": "The existing menu floating category bar remains visible in the Admin preview while viewing the new Clubhouse menu; original Section retained as approved. Consumer behavior untested.",
+        "oldMenuRoot": "section-concessions---snacks-worth-the-credits-23540 q-px-xs section-concessions---snacks-worth-the-credits-23540 zoom",
+        "position": "fixed",
+        "rect": {
+          "height": 76.80000305175781,
+          "width": 824,
+          "x": 448.3999938964844,
+          "y": 36.60000228881836
+        },
+        "text": "Snacks\nDrinks\nDesserts",
+        "transform": "matrix(1, 0, 0, 1, 0, 56)"
+      },
+      "status": "Observed Admin-preview limitation; original menu preserved and no fix applied",
+      "finishedPageGuidance": "Normally choose one food Section per finished slot. Removing or changing the original menu needs separate authorization."
+    },
+    "evidence": [
+      {
+        "path": "evidence/library-k-food-assembly/assembly-journal.json",
+        "sha256": "f8c9de6cc53d437cf54c1ab4ea13f7a4c955abc257b5f5632ccb55df60b3de60"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/assembly-proposal.json",
+        "sha256": "090513fab3cf62205235552b19a2062017ebbe434a8719df5e0b201d74914a6e"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/target-5586-before-fields.json",
+        "sha256": "53585e1bae57152daf24e4e8db7b5aaa12ce2cde57267511cb19eda142e7737e"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/target-5586-final-page-state.json",
+        "sha256": "cb1713319ad0bde83b8e2f1dc181f6618ba1f370f8e12501a2f64d757f590edb"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/new-section-25156-settings-readback.json",
+        "sha256": "4f46a8a8fb02d44075732642a098cc45009371ccdc4ebe8859b352461b9e962d"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/new-section-25156-reopened-main.txt",
+        "sha256": "0e256fc06841cd2e5fe82a318d810533a39d6ff97edc8d5f408fa0ec0c15c9d3"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/new-section-25156-reopened-settings.txt",
+        "sha256": "8b4bdcd91eb36c986ccf6a1b3eca8ec9b2edf28ac60786988c13aae875182178"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/new-section-25156.css",
+        "sha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/mixed-desktop-dom.json",
+        "sha256": "eeff0dddeed611edc8726e7cd9b17bfe5f4257a54a8fa20fb32d0f423835e1d1"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/mixed-phone-dom.json",
+        "sha256": "2a84fd8250c39c1c00205ea9ac33bea25fa667e32edddc1f59ffb4a36f5e3737"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/category-interaction.json",
+        "sha256": "a0eefda6cc766b2fa228e1496bae878a4142e1159846977b84ab9fc544bb0f13"
+      },
+      {
+        "path": "evidence/library-k-food-assembly/adjacent-menu-category-bar.json",
+        "sha256": "46c7518c7d6289eb444c14fbd6b7f4e21b238481559ee4d1d350e562fe70884a"
+      }
+    ],
+    "verificationScope": "Existing-Page native widget recreation, saved order/settings and bounded Admin preview only; consumer Theme/real phone/publication/checkout remain unverified"
+  },
   "package": {
     "carrierPageTitleProposed": "variant-k-clubhouse_food",
     "carrierPageCss": "",
@@ -757,14 +1318,17 @@
     "destinationVisualQa": "native-scope-restored-in-Admin; consumer-visual-QA-not-tested",
     "destinationAdminScopeRestoration": "verified-after-reopen",
     "destinationAdminPhoneGeometry": "reviewed-3px-overflow-in-simulated-frame; real-phone-not-tested",
-    "insertionIntoExistingPage": "not-tested",
+    "insertionIntoExistingPage": "verified-native-recreation-and-ordering; direct-Library-section-import-not-tested",
+    "directLibrarySectionImport": "not-tested",
+    "crossPageSectionCopy": "not-tested",
     "mobileApp": "not-tested"
   },
   "openQuestions": [
     "Verify actual consumer rendering and phone geometry of the saved unpublished carrier; Admin-frame mobile has 3px overflow and uses outer viewport units.",
     "Verify consumer Theme colors, real phone geometry and a controlled empty catalogue on the destination; no consumer publication occurred.",
     "Verify Library update/version propagation separately; independent destination is already unlinked.",
-    "Verify a supported insertion operation separately from separate-Page Library import."
+    "Verify a direct Library Section import or native cross-page copy operation separately; current existing-Page proof uses native recreation.",
+    "Choose one food Section per finished slot, or separately authorize and verify handling of adjacent native menu floating category bars."
   ],
   "historicalReferenceCaveats": [
     {

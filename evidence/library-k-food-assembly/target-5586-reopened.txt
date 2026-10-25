@@ -1,0 +1,523 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 container
+			3 toolbar
+				4 button
+				5 text INDY Admin
+				6 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+				7 button
+				8 switch 0
+				9 button
+				10 container
+					11 text Region US-BETA
+					12 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+				13 container
+					14 text Circuit INDY Demo
+					15 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+				16 container
+					17 text Site Adam Template Testing
+					18 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+				19 button Menu
+			20 container
+				21 content list
+					22 container
+						23 text Operations
+				24 content list
+					25 container
+						26 text Reports
+				27 content list
+					28 container
+						29 text Settings
+				30 text Favorites
+				31 content list
+					32 container
+						33 text Theme and Style
+				34 content list
+					35 container
+						36 text Pages
+				37 content list
+					38 container
+						39 text Release Notes
+				40 content list
+					41 container
+						42 text How To Guides
+				43 content list
+					44 container
+						45 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				46 content list
+					47 container
+						48 text Developer
+				49 switch Description: Demo Mode, Value: 0
+					50 text Demo Mode
+			51 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+			52 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+			53 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+			54 content list
+				55 container
+					56 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+						57 text Page Settings
+						58 text Manage site-wide page behaviour
+				59 container
+					60 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+						61 text Pages
+						62 text Create or manage page content, for desktop and mobile websites and apps
+					63 container
+						64 text Pages
+						65 button
+						66 button
+						67 container
+							68 text field (settable) f_221c0f75-210c-48c4-a4dd-247cd8334fb7
+							69 button
+						70 button SET ORDER
+						71 button ADD FROM LIBRARY
+							72 text ADD FROM LIBRARY
+						73 button CREATE PAGE
+						74 table
+							75 row
+								76 cell
+									77 text ID
+								78 cell
+									79 text Title
+								80 cell
+									81 text Slug
+								82 cell
+									83 text Sections
+								84 cell
+									85 text Views
+								86 cell
+									87 text Visibility
+								88 cell
+									89 text Library
+								90 cell
+									91 text Actions
+							92 row
+								93 cell
+									94 text 5973
+								95 cell
+									96 text variant-k-clubhouse_food
+								97 cell
+									98 text variant-k-clubhouse-food
+								99 cell
+									100 text 1
+								101 cell
+									102 button  Not Linked
+										103 text  Not Linked
+								104 cell
+									105 button
+									106 button
+									107 button EDIT
+										108 text EDIT
+									109 button
+							110 row
+								111 cell
+									112 text 5599
+								113 cell
+									114 text Movie Lineup
+								115 cell
+									116 text movie-lineup
+								117 cell
+									118 text 3
+								119 cell
+									120 button  Not Linked
+										121 text  Not Linked
+								122 cell
+									123 button
+									124 button EDIT
+									125 button
+							126 row
+								127 cell
+									128 text 5597
+								129 cell
+									130 text Food Drink
+								131 cell
+									132 text food-drink
+								133 cell
+									134 text 2
+								135 cell
+									136 button  Not Linked
+										137 text  Not Linked
+								138 cell
+									139 button
+									140 button EDIT
+									141 button
+							142 row
+								143 cell
+									144 text 5595
+								145 cell
+									146 text Food Drink
+								147 cell
+									148 text food-drink
+								149 cell
+									150 text 2
+								151 cell
+									152 button  Not Linked
+										153 text  Not Linked
+								154 cell
+									155 button
+									156 button EDIT
+									157 button
+							158 row
+								159 cell
+									160 text 5591
+								161 cell
+									162 text Visit
+								163 cell
+									164 text visit
+								165 cell
+									166 text 4
+								167 cell
+									168 button  Not Linked
+										169 text  Not Linked
+								170 cell
+									171 button
+									172 button EDIT
+									173 button
+							174 row
+								175 cell
+									176 text 5587
+								177 cell
+									178 text Movies
+								179 cell
+									180 text movies
+								181 cell
+									182 text 4
+								183 cell
+									184 button  Not Linked
+										185 text  Not Linked
+								186 cell
+									187 button
+									188 button EDIT
+									189 button
+							190 row
+								191 cell
+									192 text 5585
+								193 cell
+									194 text Fandango Cinema Template Test
+								195 cell
+									196 text fandango-cinema-template-test
+								197 cell
+									198 text 8
+								199 cell
+									200 button  Not Linked
+										201 text  Not Linked
+								202 cell
+									203 button
+									204 button
+									205 button
+									206 button EDIT
+										207 text EDIT
+									208 button
+						209 text Records per page:
+						210 container
+							211 text 10
+							212 combo box (collapsed, settable) 10, ID: f_a22c6020-a816-43b7-b3e5-88dcd09fe7b1, Secondary Actions: Expand
+						213 text 1-10  of 7
+		214 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		215 container Edit Page (5586) Unpublished Changes
+			216 container
+				217 button Close
+				218 button
+				219 button
+				220 container v-0-0-0-0-4-0-4-0-2-0-0-0-0-1-1-0-0-0-1-0
+					221 text Edit Page (5586)  Unpublished Changes
+				222 button
+				223 button
+				224 button (disabled) REVERT
+				225 button (disabled) SAVE
+				226 button (disabled) SAVE AND CLOSE
+				227 container
+					228 container
+						229 text Title
+						230 text field (settable) Description: Title, Value: Fandango Cinema Template Test, ID: f_ef719a32-5660-4d50-9a41-e1c6bad6353b
+				231 container
+					232 container
+						233 text URL Slug
+						234 text field Description: URL Slug, Value: fandango-cinema-template-test, ID: f_0e1cd1b7-90b5-4b5d-9d74-c021e473718b
+				235 container
+					236 container
+						237 text Start Date
+						238 text field (settable) Description: Start Date, ID: f_a4880bb8-6c60-4e2a-b5e6-29c290047322
+					239 button Open date picker
+				240 container
+					241 container
+						242 text End Date
+						243 text field (settable) Description: End Date, ID: f_bceb8346-77eb-42d1-aecb-9a509b71b91c
+					244 button Open date picker
+				245 button VIEW PAGE
+				246 container
+					247 container
+						248 text Header Placement Override Same As Site
+				249 container
+					250 text Overrides the site’s header placement for this page. Only available when the header background is transparent (opacity is less than 1). Otherwise, page content starts below the header.
+				251 container
+					252 text Sections
+					253 button SET ORDER
+					254 button ADD SECTION
+					255 table
+						256 row
+							257 cell
+								258 text ID
+							259 cell
+								260 text Name
+							261 cell
+								262 text Type
+							263 cell
+								264 text Visibility
+							265 cell
+								266 text Actions
+						267 row
+							268 cell
+								269 text 23550
+							270 cell
+								271 text Featured - Three Films
+							272 cell
+								273 text Generic Carousel
+							274 cell
+								275 button
+							276 cell
+								277 button EDIT
+								278 button
+						279 row
+							280 cell
+								281 text 23536
+							282 cell
+								283 text Hero - Big Stories
+							284 cell
+								285 text Text Block
+							286 cell
+								287 button
+							288 cell
+								289 button EDIT
+								290 button
+						291 row
+							292 cell
+								293 text 23537
+							294 cell
+								295 text Book - Showtime Quick Selector
+							296 cell
+								297 text Showtime Quick Selector
+							298 cell
+								299 button
+							300 cell
+								301 button EDIT
+								302 button
+						303 row
+							304 cell
+								305 text 23549
+							306 cell
+								307 text Showtimes - Pick a Showtime
+							308 cell
+								309 text Showtimes
+							310 cell
+								311 button
+							312 cell
+								313 button EDIT
+								314 button
+						315 row
+							316 cell
+								317 text 23538
+							318 cell
+								319 text Movies - Seven Stories
+							320 cell
+								321 text Poster Carousel
+							322 cell
+								323 button
+							324 cell
+								325 button EDIT
+								326 button
+						327 row
+							328 cell
+								329 text 23539
+							330 cell
+								331 text Features - More Than a Movie
+							332 cell
+								333 text Text Block
+							334 cell
+								335 button
+							336 cell
+								337 button EDIT
+								338 button
+						339 row
+							340 cell
+								341 text 23540
+							342 cell
+								343 text Concessions - Snacks Worth the Credits
+							344 cell
+								345 text Concessions Menu
+							346 cell
+								347 button
+							348 cell
+								349 button EDIT
+								350 button
+						351 row
+							352 cell
+								353 text 25156
+							354 cell
+								355 text Food - Clubhouse Kitchen
+							356 cell
+								357 text Concessions Menu
+							358 cell
+								359 button
+							360 cell
+								361 button EDIT
+								362 button
+						363 row
+							364 cell
+								365 text 23541
+							366 cell
+								367 text Visit - Plan Your Night
+							368 cell
+								369 text Text Block
+							370 cell
+								371 button
+							372 cell
+								373 button EDIT
+								374 button
+				375 container
+					376 container
+						377 text Search Engine Title
+						378 text field (settable) Description: Search Engine Title, Value: Cinema Template Test | Adam Template Testing, ID: f_fecf662b-2e84-433b-9387-6e799857bb54
+				379 container
+					380 container
+						381 text Search Engine Description
+						382 text entry area (settable) Description: Search Engine Description, ID: f_8621fe5d-01ad-4a53-b329-5621b0d354aa, Value: A US-BETA cinema website template prototype combining neighborhood, cinematic, and task-first wireframe patterns.
+					383 text Used for search engine description. Truncated by search engines at ~160 characters.
+					384 text 113
+				385 switch Description: Visible to Search Engines, Value: 0
+					386 text Visible to Search Engines
+				387 container
+					388 container
+						389 text Custom Styles (CSS)
+						390 text entry area (settable) Description: Custom Styles (CSS), ID: f_2ee9bea2-5fa0-49c6-805e-7c6d48490362, Value: /* Home — shared cinematic shell, scoped to this INDY page */
+:root { --dusk-ink:#241a2e; --dusk-paper:#fbefe2; --dusk-coral:#e06b4a; --dusk-gold:#f4c67a; }
+.q-page-container { background:var(--dusk-paper); }
+.q-page { max-width:1440px; margin:0 auto; }
+.q-page h3 { letter-spacing:-.055em; line-height:.92; }
+.q-page button { border-radius:999px; border:1px solid rgba(36,26,46,.15); box-shadow:none; transition:transform .18s ease, box-shadow .18s ease; }
+.q-page button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(36,26,46,.13); }
+.q-page [class*="card"] { border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(36,26,46,.10); }
+.q-page [class*="card"] img { object-fit:cover; }
+.q-page [class*="swiper"] { border-radius:0 0 28px 28px; overflow:hidden; }
+.q-page [class*="swiper"] button { border-radius:999px; }
+.q-page input, .q-page [role="combobox"] { border-radius:14px; }
+@media (max-width:640px) { .q-page { overflow:hidden; } }
+				391 container
+					392 button (collapsed) Expand
+						393 text SEO Health Preview
+						394 text Needs Attention
+				395 container
+					396 text Preview
+					397 container
+						398 button DESKTOP WEB
+						399 button MOBILE WEB
+						400 button APP
+					401 container
+						402 container
+							403 container Featured carousel
+								404 container swiper-wrapper-ac5a3e4c0caad767
+									405 container Slide 3 of 3: Katy Perry: The Lifetimes Tour - Live From Paris
+									406 container Slide 1 of 3: Cars 20th Anniversary
+										407 link Value: admin-us-beta.indy.systems/#/movie/cars-20th-anniversary, Description: Cars 20th Anniversary THE ROAD STILL CALLS. CATCH THE 20TH ANNIVERSARY ON THE BIG SCREEN. Rated G | 117 min | Animation VIEW SHOWTIMES
+									408 container Slide 2 of 3: Ghost In The Shell 30th Anniversary
+								409 container
+									410 button Go to slide 1
+									411 button Go to slide 2
+									412 button Go to slide 3
+								413 button Previous slide
+									414 text prev
+								415 button Next slide
+									416 text next
+							417 text Displaying slide 1 of 3: Cars 20th Anniversary
+						418 container
+							419 container
+								420 text Select Movie
+								421 combo box (collapsed, settable) Select Movie, ID: f_cac6f554-8f6c-47d5-a645-2420506f4dae, Secondary Actions: Expand
+							422 text Select Date & Time
+							423 container Please select a Movie to get started
+								424 button (disabled) BUY TICKETS
+									425 text BUY TICKETS
+						426 heading MORE THAN A MOVIE, Value: 3
+							427 text MORE THAN A MOVIE
+						428 text SNACKS, SPECIAL EVENTS, AND BIG-NIGHT ENERGY. A flexible cinema template for food, live events, memberships, private screenings, and everything that makes a local venue feel electric.
+						429 heading SNACKS WORTH THE CREDITS, Value: 3
+							430 text SNACKS WORTH THE CREDITS
+						431 text Popcorn, candy, cold drinks, and a few scene-stealing favorites.
+						432 container
+							433 button Snacks
+								434 text Snacks
+							435 button Drinks
+								436 text Drinks
+							437 button Desserts
+								438 text Desserts
+						439 text Snacks
+						440 container
+							441 container
+								442 text Marquee Popcorn
+								443 text Fresh-popped, hot-buttered. Small, large, or bottomless.
+								444 container
+									445 text Starting at $ 7 . 00
+							446 container
+								447 text No Country for Old Nachos
+								448 text House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.
+								449 container
+									450 text $ 14 . 00
+							451 container
+								452 text The Pretzel Identity
+								453 text Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.
+								454 container
+									455 text $ 11 . 00
+						456 text Drinks
+						457 container
+							458 text Soda
+							459 container
+								460 text Starting at $ 6 . 00
+						461 text Desserts
+						462 container
+							463 container
+								464 text Pie Hard
+								465 text Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.
+								466 container
+									467 text $ 10 . 00
+							468 container
+								469 text Sundae, Bloody Sundae
+								470 text Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.
+								471 container
+									472 text $ 10 . 00
+							473 container
+								474 text Movie Candy
+								475 text Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.
+								476 container
+									477 text $ 5 . 00
+						478 heading Good company. Good things to share., Value: 2
+							479 text Good company. Good things to share.
+						480 text Explore the kitchen and bar before you settle in.
+						481 container
+							482 button Snacks
+								483 text Snacks
+							484 button Drinks
+								485 text Drinks
+							486 button Desserts
+								487 text Desserts
+						488 text Snacks
+						489 container
+							490 text Marquee Popcorn Fresh-popped, hot-buttered. Small, large, or bottomless. Starting at $ 7 . 00
+						491 container
+							492 text No Country for Old Nachos House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't. $ 14 . 00
+						493 container
+							494 text The Pretzel Identity Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package. $ 11 . 00
+						495 text Drinks
+						496 container
+							497 text Soda Starting at $ 6 . 00
+						498 text Desserts
+						499 container
+							500 text Pie Hard Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers. $ 10 . 00
+						501 container
+							502 text Sundae, Bloody Sundae Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore. $ 10 . 00
+						503 container
+							504 text Movie Candy Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic. $ 5 . 00
+						505 heading PLAN YOUR NIGHT, Value: 3
+							506 text PLAN YOUR NIGHT
+						507 text ARRIVE READY. LEAVE TALKING. Doors open 30 minutes before the first advertised showtime. Complimentary lot parking, step-free entry, and assistive listening devices make arrival simple. This US-BETA site uses demonstration venue information.
+
+The focused UI element is 230 text field (settable) Description: Title, Value: Fandango Cinema Template Test, ID: f_ef719a32-5660-4d50-9a41-e1c6bad6353b

@@ -1,0 +1,364 @@
+{
+  "classes": "fdp-k-food",
+  "css": "/* Clubhouse Kitchen: native Concessions Menu, Section Settings > Custom CSS.\n   Keep the Section class fdp-k-food. This field owns the complete preset;\n   no source Page CSS, generated record IDs, or source Theme CSS is required. */\n&.fdp-k-food {\n  box-sizing: border-box;\n  min-width: 0;\n  padding: clamp(28px,5vw,76px) clamp(18px,5vw,72px);\n  background: var(--q-background) !important;\n  color: var(--q-dark) !important;\n  font-family: Georgia, serif;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 1.5;\n}\n\n/* Include the source Theme's heading treatment locally. System fonts need no import. */\n&.fdp-k-food :is(h1,h2,h3,h4,.title,.poster-title) {\n  color: var(--q-dark) !important;\n  font-family: Georgia, \"Times New Roman\", serif !important;\n  font-weight: 600 !important;\n  letter-spacing: -.025em;\n  line-height: 1.03;\n  text-transform: none;\n}\n&.fdp-k-food h2 {\n  font-size: clamp(32px,4.4vw,62px);\n  line-height: 1.03;\n}\n&.fdp-k-food h3 {\n  font-size: clamp(21px,2.1vw,30px);\n  line-height: 1.15;\n  margin: 0 0 14px;\n}\n&.fdp-k-food p {\n  color: var(--q-dark);\n  line-height: 1.7;\n}\n&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4,.text-current-color,.text-body1,.text-body2) {\n  color: var(--q-dark) !important;\n}\n\n/* Native Concessions Menu owns its product layout, data, and category controls. */\n&.fdp-k-food .q-card {\n  background: var(--q-background);\n  color: var(--q-dark);\n  border: 1px solid color-mix(in srgb,var(--q-dark) 45%,var(--q-background));\n  box-shadow: none;\n}\n&.fdp-k-food .q-tab {\n  color: var(--q-dark);\n}\n&.fdp-k-food .q-tab--active {\n  color: color-mix(in srgb,var(--q-dark) 85%,var(--q-background));\n}\n&.fdp-k-food :is(.q-btn,button) {\n  min-height: 44px;\n  border-radius: .35rem !important;\n  box-shadow: none;\n  font-family: Arial, \"Helvetica Neue\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 0;\n  text-transform: none;\n}\n&.fdp-k-food .q-btn.bg-primary {\n  background: color-mix(in srgb,var(--q-primary) 16%,var(--q-background)) !important;\n  color: var(--q-dark) !important;\n  border-color: var(--q-primary) !important;\n}\n&.fdp-k-food .q-btn.bg-primary :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n/* Category labels otherwise use the native black default on the source. */\n&.fdp-k-food [data-category-id] .q-btn,\n&.fdp-k-food [data-category-id] .q-btn :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n&.fdp-k-food .q-focus-helper {\n  border-radius: inherit;\n}\n&.fdp-k-food :is(a,button,.q-btn):focus-visible {\n  outline: 2px solid var(--q-dark) !important;\n  outline-offset: 2px;\n  box-shadow: 0 0 0 4px var(--q-background) !important;\n}\n&.fdp-k-food .q-btn.bg-primary:hover {\n  text-decoration: underline;\n}\n\n/* Preserve the native responsive grid; only contain editorial overflow. */\n&.fdp-k-food * {\n  box-sizing: border-box;\n}\n&.fdp-k-food :is(.fdp-content,.fdp-content>*,.fdp-content article,.fdp-content aside) {\n  min-width: 0;\n}\n&.fdp-k-food :is(p,li,a) {\n  overflow-wrap: break-word;\n}\n",
+  "description": [
+    "Explore the kitchen and bar before you settle in."
+  ],
+  "fields": [
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Region",
+      "value": "US-BETA"
+    },
+    {
+      "label": "Circuit",
+      "value": "INDY Demo "
+    },
+    {
+      "label": "Site",
+      "value": "Adam Template Testing"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Web Home Page",
+      "value": ""
+    },
+    {
+      "label": "App Home Page",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "10"
+    },
+    {
+      "label": "Title",
+      "value": "Fandango Cinema Template Test"
+    },
+    {
+      "label": "URL Slug",
+      "value": "fandango-cinema-template-test"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": "Cinema Template Test | Adam Template Testing"
+    },
+    {
+      "label": "Search Engine Description",
+      "value": "A US-BETA cinema website template prototype combining neighborhood, cinematic, and task-first wireframe patterns."
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": "/* Home — shared cinematic shell, scoped to this INDY page */\n:root { --dusk-ink:#241a2e; --dusk-paper:#fbefe2; --dusk-coral:#e06b4a; --dusk-gold:#f4c67a; }\n.q-page-container { background:var(--dusk-paper); }\n.q-page { max-width:1440px; margin:0 auto; }\n.q-page h3 { letter-spacing:-.055em; line-height:.92; }\n.q-page button { border-radius:999px; border:1px solid rgba(36,26,46,.15); box-shadow:none; transition:transform .18s ease, box-shadow .18s ease; }\n.q-page button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(36,26,46,.13); }\n.q-page [class*=\"card\"] { border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(36,26,46,.10); }\n.q-page [class*=\"card\"] img { object-fit:cover; }\n.q-page [class*=\"swiper\"] { border-radius:0 0 28px 28px; overflow:hidden; }\n.q-page [class*=\"swiper\"] button { border-radius:999px; }\n.q-page input, .q-page [role=\"combobox\"] { border-radius:14px; }\n@media (max-width:640px) { .q-page { overflow:hidden; } }"
+    },
+    {
+      "label": null,
+      "value": "Select Movie"
+    },
+    {
+      "label": "Type",
+      "value": "Concessions Menu"
+    },
+    {
+      "label": "Name",
+      "value": "Food - Clubhouse Kitchen"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Heading",
+      "value": "Good company. Good things to share."
+    },
+    {
+      "label": "Font Size",
+      "value": "H 2"
+    },
+    {
+      "label": "Fonts",
+      "value": "Default"
+    },
+    {
+      "label": "Text Align",
+      "value": "Center"
+    },
+    {
+      "label": "Color",
+      "value": "Primary"
+    },
+    {
+      "label": "Style",
+      "value": "Default"
+    },
+    {
+      "label": "Sales Channel Visibility",
+      "value": "Website"
+    },
+    {
+      "label": "Categories Visibility Override",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Category Filters Position",
+      "value": "Left"
+    },
+    {
+      "label": "Display Mode",
+      "value": "Block"
+    },
+    {
+      "label": "View Mode",
+      "value": "Grid"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Category Name Font Size",
+      "value": "24"
+    },
+    {
+      "label": "Category Name Alignment",
+      "value": "Left"
+    },
+    {
+      "label": "Style",
+      "value": "Default"
+    },
+    {
+      "label": "Color",
+      "value": "Primary"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Item Card Theme",
+      "value": "Frame"
+    },
+    {
+      "label": "Item Background Color",
+      "value": "Default"
+    },
+    {
+      "label": "Title Font Size",
+      "value": "20"
+    },
+    {
+      "label": "Description Font Size",
+      "value": "16"
+    },
+    {
+      "label": "Price Font Size",
+      "value": "16"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Visible For",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Width Mode",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom",
+      "value": ""
+    },
+    {
+      "label": "Background Color",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": "Image Fit",
+      "value": ""
+    },
+    {
+      "label": "Image Position",
+      "value": ""
+    },
+    {
+      "label": "Repeat",
+      "value": ""
+    },
+    {
+      "label": "Attachment",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Classes",
+      "value": "fdp-k-food"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Clubhouse Kitchen: native Concessions Menu, Section Settings > Custom CSS.\n   Keep the Section class fdp-k-food. This field owns the complete preset;\n   no source Page CSS, generated record IDs, or source Theme CSS is required. */\n&.fdp-k-food {\n  box-sizing: border-box;\n  min-width: 0;\n  padding: clamp(28px,5vw,76px) clamp(18px,5vw,72px);\n  background: var(--q-background) !important;\n  color: var(--q-dark) !important;\n  font-family: Georgia, serif;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 1.5;\n}\n\n/* Include the source Theme's heading treatment locally. System fonts need no import. */\n&.fdp-k-food :is(h1,h2,h3,h4,.title,.poster-title) {\n  color: var(--q-dark) !important;\n  font-family: Georgia, \"Times New Roman\", serif !important;\n  font-weight: 600 !important;\n  letter-spacing: -.025em;\n  line-height: 1.03;\n  text-transform: none;\n}\n&.fdp-k-food h2 {\n  font-size: clamp(32px,4.4vw,62px);\n  line-height: 1.03;\n}\n&.fdp-k-food h3 {\n  font-size: clamp(21px,2.1vw,30px);\n  line-height: 1.15;\n  margin: 0 0 14px;\n}\n&.fdp-k-food p {\n  color: var(--q-dark);\n  line-height: 1.7;\n}\n&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4,.text-current-color,.text-body1,.text-body2) {\n  color: var(--q-dark) !important;\n}\n\n/* Native Concessions Menu owns its product layout, data, and category controls. */\n&.fdp-k-food .q-card {\n  background: var(--q-background);\n  color: var(--q-dark);\n  border: 1px solid color-mix(in srgb,var(--q-dark) 45%,var(--q-background));\n  box-shadow: none;\n}\n&.fdp-k-food .q-tab {\n  color: var(--q-dark);\n}\n&.fdp-k-food .q-tab--active {\n  color: color-mix(in srgb,var(--q-dark) 85%,var(--q-background));\n}\n&.fdp-k-food :is(.q-btn,button) {\n  min-height: 44px;\n  border-radius: .35rem !important;\n  box-shadow: none;\n  font-family: Arial, \"Helvetica Neue\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 0;\n  text-transform: none;\n}\n&.fdp-k-food .q-btn.bg-primary {\n  background: color-mix(in srgb,var(--q-primary) 16%,var(--q-background)) !important;\n  color: var(--q-dark) !important;\n  border-color: var(--q-primary) !important;\n}\n&.fdp-k-food .q-btn.bg-primary :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n/* Category labels otherwise use the native black default on the source. */\n&.fdp-k-food [data-category-id] .q-btn,\n&.fdp-k-food [data-category-id] .q-btn :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n&.fdp-k-food .q-focus-helper {\n  border-radius: inherit;\n}\n&.fdp-k-food :is(a,button,.q-btn):focus-visible {\n  outline: 2px solid var(--q-dark) !important;\n  outline-offset: 2px;\n  box-shadow: 0 0 0 4px var(--q-background) !important;\n}\n&.fdp-k-food .q-btn.bg-primary:hover {\n  text-decoration: underline;\n}\n\n/* Preserve the native responsive grid; only contain editorial overflow. */\n&.fdp-k-food * {\n  box-sizing: border-box;\n}\n&.fdp-k-food :is(.fdp-content,.fdp-content>*,.fdp-content article,.fdp-content aside) {\n  min-width: 0;\n}\n&.fdp-k-food :is(p,li,a) {\n  overflow-wrap: break-word;\n}\n"
+    }
+  ],
+  "sliders": [
+    "3",
+    "1",
+    "12",
+    "8",
+    "0"
+  ],
+  "switches": [
+    {
+      "checked": "false",
+      "label": null,
+      "text": "clear"
+    },
+    {
+      "checked": "false",
+      "label": "Demo Mode",
+      "text": "Demo Mode"
+    },
+    {
+      "checked": "false",
+      "label": "Visible to Search Engines",
+      "text": "clear\nVisible to Search Engines"
+    },
+    {
+      "checked": "true",
+      "label": "Show Heading",
+      "text": "Show Heading"
+    },
+    {
+      "checked": "true",
+      "label": "Show Category Filters",
+      "text": "Show Category Filters"
+    },
+    {
+      "checked": "true",
+      "label": "Show Category Divider",
+      "text": "Show Category Divider"
+    },
+    {
+      "checked": "true",
+      "label": "Show Category Name",
+      "text": "Show Category Name"
+    },
+    {
+      "checked": "true",
+      "label": "Show Image",
+      "text": "Show Image"
+    },
+    {
+      "checked": "true",
+      "label": "Show Description",
+      "text": "Show Description"
+    },
+    {
+      "checked": "true",
+      "label": "Show Price",
+      "text": "Show Price"
+    },
+    {
+      "checked": "true",
+      "label": "On",
+      "text": "check\nOn"
+    },
+    {
+      "checked": "false",
+      "label": null,
+      "text": ""
+    },
+    {
+      "checked": "true",
+      "label": "Square",
+      "text": "Square"
+    },
+    {
+      "checked": "true",
+      "label": "Flat",
+      "text": "Flat"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "capturedAt": "2026-10-25T23:20:51.208Z",
+  "fields": [
+    {
+      "label": "Title",
+      "value": "Fandango Cinema Template Test"
+    },
+    {
+      "label": "URL Slug",
+      "value": "fandango-cinema-template-test"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": "Cinema Template Test | Adam Template Testing"
+    },
+    {
+      "label": "Search Engine Description",
+      "value": "A US-BETA cinema website template prototype combining neighborhood, cinematic, and task-first wireframe patterns."
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": "/* Home — shared cinematic shell, scoped to this INDY page */\n:root { --dusk-ink:#241a2e; --dusk-paper:#fbefe2; --dusk-coral:#e06b4a; --dusk-gold:#f4c67a; }\n.q-page-container { background:var(--dusk-paper); }\n.q-page { max-width:1440px; margin:0 auto; }\n.q-page h3 { letter-spacing:-.055em; line-height:.92; }\n.q-page button { border-radius:999px; border:1px solid rgba(36,26,46,.15); box-shadow:none; transition:transform .18s ease, box-shadow .18s ease; }\n.q-page button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(36,26,46,.13); }\n.q-page [class*=\"card\"] { border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(36,26,46,.10); }\n.q-page [class*=\"card\"] img { object-fit:cover; }\n.q-page [class*=\"swiper\"] { border-radius:0 0 28px 28px; overflow:hidden; }\n.q-page [class*=\"swiper\"] button { border-radius:999px; }\n.q-page input, .q-page [role=\"combobox\"] { border-radius:14px; }\n@media (max-width:640px) { .q-page { overflow:hidden; } }"
+    }
+  ],
+  "roots": [
+    {
+      "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-featured---three-films-23550 q-px-xs section-featured---three-films-23550 zoom",
+      "rect": {
+        "h": 400,
+        "w": 1024,
+        "x": 248.40000915527344,
+        "y": 1420.5999755859375
+      }
+    },
+    {
+      "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent row justify-center section-book---showtime-quick-selector-23537 q-px-xs section-book---showtime-quick-selector-23537 zoom",
+      "rect": {
+        "h": 112.3000030517578,
+        "w": 1024,
+        "x": 248.40000915527344,
+        "y": 1820.5999755859375
+      }
+    },
+    {
+      "class": "section-features---more-than-a-movie-23539 q-px-xs section-features---more-than-a-movie-23539 bg-dark zoom",
+      "heading": "MORE THAN A MOVIE ",
+      "rect": {
+        "h": 172.40000915527344,
+        "w": 1024,
+        "x": 248.40000915527344,
+        "y": 1932.9000244140625
+      }
+    },
+    {
+      "class": "section-concessions---snacks-worth-the-credits-23540 q-px-xs section-concessions---snacks-worth-the-credits-23540 zoom",
+      "heading": "SNACKS WORTH THE CREDITS ",
+      "rect": {
+        "h": 1470.487548828125,
+        "w": 1024,
+        "x": 248.40000915527344,
+        "y": 2105.300048828125
+      }
+    },
+    {
+      "class": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156 zoom",
+      "heading": "Good company. Good things to share. ",
+      "rect": {
+        "h": 1586.5750732421875,
+        "w": 1024,
+        "x": 248.40000915527344,
+        "y": 3575.78759765625
+      }
+    },
+    {
+      "class": "section-visit---plan-your-night-23541 q-px-xs section-visit---plan-your-night-23541 zoom",
+      "heading": "PLAN YOUR NIGHT ",
+      "rect": {
+        "h": 172.40000915527344,
+        "w": 1024,
+        "x": 248.40000915527344,
+        "y": 5162.36279296875
+      }
+    }
+  ],
+  "tables": [
+    "ID\tTitle\tSlug\tSections\tViews\tVisibility\tLibrary\tActions\n\n5973\n\t\nvariant-k-clubhouse_food\n\t\nvariant-k-clubhouse-food\n\t\n1\n\t\n\t\ntoggle_off\n\t\n Not Linked\n\t\npublish\nundo\nEDIT\nmore_vert\n\n\n5599\n\t\nMovie Lineup\n\t\nmovie-lineup\n\t\n3\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert\n\n\n5597\n\t\nFood Drink\n\t\nfood-drink\n\t\n2\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert\n\n\n5595\n\t\nFood Drink\n\t\nfood-drink\n\t\n2\n\t\n\t\ntoggle_off\n\t\n Not Linked\n\t\npublish\nEDIT\nmore_vert\n\n\n5591\n\t\nVisit\n\t\nvisit\n\t\n4\n\t\n\t\ntoggle_on\n\t\n Not Linked\n\t\nvisibility_off\nEDIT\nmore_vert\n\n\n5587\n\t\nMovies\n\t\nmovies\n\t\n4\n\t\n\t\ntoggle_off\n\t\n Not Linked\n\t\npublish\nEDIT\nmore_vert\n\n\n5585\n\t\nFandango Cinema Template Test\n\t\nfandango-cinema-template-test\n\t\n8\n\t\n\t\nhome\n\t\n Not Linked\n\t\npublished_with_changes\nundo\nvisibility_off\nEDIT\nmore_vert",
+    "ID\tName\tType\tVisibility\tActions\n\n23550\n\t\nFeatured - Three Films\n\t\nGeneric Carousel\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23536\n\t\nHero - Big Stories\n\t\nText Block\n\t\ntoggle_off\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23537\n\t\nBook - Showtime Quick Selector\n\t\nShowtime Quick Selector\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23549\n\t\nShowtimes - Pick a Showtime\n\t\nShowtimes\n\t\ntoggle_off\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23538\n\t\nMovies - Seven Stories\n\t\nPoster Carousel\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23539\n\t\nFeatures - More Than a Movie\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23540\n\t\nConcessions - Snacks Worth the Credits\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n25156\n\t\nFood - Clubhouse Kitchen\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert\n\n\n23541\n\t\nVisit - Plan Your Night\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

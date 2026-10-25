@@ -1,6 +1,7 @@
 """Record dependencies from retained evidence; never edits native or older artifacts."""
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -71,6 +72,79 @@ def build():
         'evidence/library-k-food-pilot/destination-section-25155-settings.json',
         'evidence/library-k-food-pilot/destination-style-before-reopen.json',
     ]
+    assembly_base = REPO / 'evidence/library-k-food-assembly'
+    assembly = json.loads((assembly_base / 'assembly-journal.json').read_text(encoding='utf-8'))
+    assembly_proposal = json.loads((assembly_base / 'assembly-proposal.json').read_text(encoding='utf-8'))
+    assembly_before = json.loads((assembly_base / 'target-5586-before-fields.json').read_text(encoding='utf-8'))
+    assembly_after = json.loads((assembly_base / 'target-5586-final-page-state.json').read_text(encoding='utf-8'))
+    assembly_desktop = json.loads((assembly_base / 'mixed-desktop-dom.json').read_text(encoding='utf-8'))
+    assembly_phone = json.loads((assembly_base / 'mixed-phone-dom.json').read_text(encoding='utf-8'))
+    assembly_adjacent_menu = json.loads((assembly_base / 'adjacent-menu-category-bar.json').read_text(encoding='utf-8'))
+    assembly_readback = json.loads((assembly_base / 'new-section-25156-settings-readback.json').read_text(encoding='utf-8'))
+    assembly_main_ax = (assembly_base / 'new-section-25156-reopened-main.txt').read_text(encoding='utf-8').split('container Edit Section (25156)')[-1]
+    assembly_settings_ax = (assembly_base / 'new-section-25156-reopened-settings.txt').read_text(encoding='utf-8').split('text Section Settings')[-1]
+    field_values = {}
+    for field in assembly_readback['fields']:
+        if field.get('label'):
+            field_values.setdefault(field['label'], []).append(field['value'])
+    field_checks = []
+
+    def record_check(field, expected, observed):
+        field_checks.append({'field': field, 'expected': expected, 'observed': observed, 'matches': expected == observed})
+
+    main_fields = assembly_proposal['newSection']['mainWidgetFields']
+    section_fields = assembly_proposal['newSection']['sectionSettings']
+    for key, label, index in [
+        ('heading','Heading',0), ('headingFontSize','Font Size',0), ('headingFont','Fonts',0),
+        ('headingTextAlign','Text Align',0), ('headingColorField','Color',0), ('headingStyle','Style',0),
+        ('salesChannelVisibility','Sales Channel Visibility',0), ('categoryFiltersPosition','Category Filters Position',0),
+        ('displayMode','Display Mode',0), ('viewMode','View Mode',0),
+        ('categoryNameAlignment','Category Name Alignment',0), ('categoryNameStyle','Style',1),
+        ('categoryNameColorField','Color',1), ('itemCardTheme','Item Card Theme',0), ('itemBackgroundColor','Item Background Color',0),
+    ]:
+        record_check(key, main_fields[key], field_values[label][index])
+    for key, label in [('categoryNameFontSizePx','Category Name Font Size'),('titleFontSizePx','Title Font Size'),
+                       ('descriptionFontSizePx','Description Font Size'),('priceFontSizePx','Price Font Size')]:
+        record_check(key, main_fields[key], int(field_values[label][0]))
+    for key, label in [('showHeading','Show Heading'),('showCategoryFilters','Show Category Filters'),
+                       ('showCategoryDivider','Show Category Divider'),('showCategoryName','Show Category Name'),
+                       ('showImage','Show Image'),('showDescription','Show Description'),('showPrice','Show Price')]:
+        value = re.search(r'switch Description: '+re.escape(label)+r', Value: ([01])', assembly_main_ax)
+        record_check(key, main_fields[key], value is not None and value[1] == '1')
+    for key, label in [('itemsPerRow','Items Per Row'),('itemsPerRowInMobile','Items Per Row in Mobile'),
+                       ('spacing','Spacing'),('itemBorderRadius','Item Border Radius'),('itemShadow','Item Shadow')]:
+        value = re.search(r'text '+re.escape(label)+r'\s+\d+ slider (\d+)', assembly_main_ax)
+        record_check(key, main_fields[key], int(value[1]) if value else None)
+    record_check('description', main_fields['description'], '\n'.join(assembly_readback['description']))
+    record_check('categoriesVisibilityOverride', main_fields['categoriesVisibilityOverride'],
+                 [] if field_values['Categories Visibility Override'][0] == '' else field_values['Categories Visibility Override'][0])
+    record_check('finalInternalName', assembly_proposal['newSection']['name'], field_values['Name'][0])
+    for key, label in [('widthMode','Width Mode'),('marginSides','Margin Sides'),('marginTop','Margin Top'),
+                       ('marginBottom','Margin Bottom'),('backgroundColor','Background Color'),
+                       ('classes','Classes'),('styles','Styles'),('whoCanSee','Who can see this section?')]:
+        record_check(key, section_fields[key], field_values[label][-1])
+    for key, label in [('square','Square'),('flat','Flat')]:
+        value = re.search(r'checkbox Description: '+label+r', Value: ([01])', assembly_settings_ax)
+        record_check(key, section_fields[key], value is not None and value[1] == '1')
+    visible = re.search(r'switch Description: On, Value: ([01])', assembly_settings_ax)
+    record_check('visible', section_fields['visible'], visible is not None and visible[1] == '1')
+    for key, label in [('startDate','Start Date'),('endDate','End Date')]:
+        record_check(key, section_fields[key], field_values[label][-1])
+    record_check('visibleFor', section_fields['visibleFor'], field_values['Visible For'][0].split(', '))
+    assembly_evidence_paths = [
+        'evidence/library-k-food-assembly/assembly-journal.json',
+        'evidence/library-k-food-assembly/assembly-proposal.json',
+        'evidence/library-k-food-assembly/target-5586-before-fields.json',
+        'evidence/library-k-food-assembly/target-5586-final-page-state.json',
+        'evidence/library-k-food-assembly/new-section-25156-settings-readback.json',
+        'evidence/library-k-food-assembly/new-section-25156-reopened-main.txt',
+        'evidence/library-k-food-assembly/new-section-25156-reopened-settings.txt',
+        'evidence/library-k-food-assembly/new-section-25156.css',
+        'evidence/library-k-food-assembly/mixed-desktop-dom.json',
+        'evidence/library-k-food-assembly/mixed-phone-dom.json',
+        'evidence/library-k-food-assembly/category-interaction.json',
+        'evidence/library-k-food-assembly/adjacent-menu-category-bar.json',
+    ]
 
     def preview_summary(data):
         return {'mode': data['mode'], 'capturedAt': data['capturedAt'],
@@ -79,6 +153,16 @@ def build():
                 'overflowPx': max(0, data['scrollWidth'] - data['clientWidth']),
                 'cards': len(data['cards']), 'images': len(data['images']),
                 'loadedImages': sum(bool(image.get('loaded')) for image in data['images'])}
+
+    def assembly_preview_summary(data):
+        return {'mode': data['mode'], 'capturedAt': data['capturedAt'],
+                'pageId': data['pageId'], 'sectionId': data['sectionId'],
+                'clientWidth': data['root']['clientWidth'], 'scrollWidth': data['root']['scrollWidth'],
+                'overflowPx': data['overflowPx'], 'columns': data['columns'],
+                'cards': len(data['cards']), 'images': len(data['images']),
+                'loadedImages': sum(bool(image.get('loaded')) for image in data['images']),
+                'headingFont': data['heading']['fontFamily'], 'compiledCurrentScope': data['compiledCurrentScope'],
+                'limitations': data['limitations']}
 
     manifest = {
         'schema': 'fd-library-module-dependencies/v1',
@@ -193,7 +277,7 @@ def build():
             'evidence': [{'path': path, 'sha256': sha256(REPO / path)} for path in transfer_evidence_paths],
             'existingDestinationPages': {'count': 6, 'status': 'unchanged; only one new carrier Page imported'},
             'publication': 'source carrier, Library master and destination carrier all unpublished',
-            'existingPageInsertion': 'not-tested; successful separate Page import does not prove Section insertion',
+            'existingPageInsertion': 'Direct Library Section import/cross-page copy remains unverified; native recreation on an existing Page is verified separately under existingPageAssembly',
             'nativeScopeIssue': {
                 'status': pilot['destination']['cssScopeRefresh'],
                 'trigger': 'Local internal Section Name changed from Food K - Clubhouse Kitchen to Food - Clubhouse Kitchen',
@@ -239,6 +323,41 @@ def build():
                 },
                 'routineEditing': 'Edit Heading and Description for customer-facing copy. Keep internal Name stable; renaming requires a maintainer scope check.',
             },
+        },
+        'existingPageAssembly': {
+            'status': assembly['status'],
+            'method': 'Native Add Section > Concessions Menu; recreate recorded module fields/class/Section CSS, then native Set Order',
+            'directLibrarySectionImportVerified': False, 'crossPageCopyVerified': False,
+            'target': assembly['target'], 'authorization': assembly['authorization'],
+            'result': assembly['result'],
+            'journal': 'evidence/library-k-food-assembly/assembly-journal.json',
+            'newSectionId': assembly['newSectionId'],
+            'newSectionCss': 'evidence/library-k-food-assembly/new-section-25156.css',
+            'newSectionCssSha256': sha256(assembly_base / 'new-section-25156.css'),
+            'newSectionCssMatchesBaseline': (assembly_base / 'new-section-25156.css').read_text(encoding='utf-8').strip() == (HERE / 'section.proposed.css').read_text(encoding='utf-8').strip(),
+            'originalSectionIdsInOrder': [row['id'] for row in assembly_proposal['before']['originalSectionsInOrder']],
+            'savedSectionRows': assembly_after['sectionRows'],
+            'savedPageFieldsUnchanged': assembly_before['fields'] == assembly_after['fields'],
+            'savedPageFieldCount': len(assembly_after['fields']),
+            'recordedFieldChecks': field_checks,
+            'allRecordedFieldChecksMatch': all(check['matches'] for check in field_checks),
+            'fieldReadbackEvidence': ['evidence/library-k-food-assembly/new-section-25156-settings-readback.json',
+                'evidence/library-k-food-assembly/new-section-25156-reopened-main.txt',
+                'evidence/library-k-food-assembly/new-section-25156-reopened-settings.txt'],
+            'draftState': 'Saved/reopened with Save disabled and Unpublished Changes; existing published Page was not updated',
+            'desktopAdminPreview': assembly_preview_summary(assembly_desktop),
+            'phoneAdminPreview': assembly_preview_summary(assembly_phone),
+            'desktopAdminPreviewEvidence': 'evidence/library-k-food-assembly/mixed-desktop-dom.json',
+            'phoneAdminPreviewEvidence': 'evidence/library-k-food-assembly/mixed-phone-dom.json',
+            'desktopImage': 'evidence/library-k-food-assembly/mixed-desktop.jpg',
+            'phoneImage': 'evidence/library-k-food-assembly/mixed-phone.jpg',
+            'categoryInteraction': assembly['result']['newMenuCategoryInteraction'],
+            'adjacentMenuCategoryBar': {'evidence': 'evidence/library-k-food-assembly/adjacent-menu-category-bar.json',
+                                      'observation': assembly_adjacent_menu,
+                                      'status': 'Observed Admin-preview limitation; original menu preserved and no fix applied',
+                                      'finishedPageGuidance': 'Normally choose one food Section per finished slot. Removing or changing the original menu needs separate authorization.'},
+            'evidence': [{'path': path, 'sha256': sha256(REPO / path)} for path in assembly_evidence_paths],
+            'verificationScope': 'Existing-Page native widget recreation, saved order/settings and bounded Admin preview only; consumer Theme/real phone/publication/checkout remain unverified',
         },
         'package': {
             'carrierPageTitleProposed': 'variant-k-clubhouse_food',
@@ -306,14 +425,17 @@ def build():
             'destinationVisualQa': 'native-scope-restored-in-Admin; consumer-visual-QA-not-tested',
             'destinationAdminScopeRestoration': pilot['destination']['cssScopeRefresh'],
             'destinationAdminPhoneGeometry': 'reviewed-3px-overflow-in-simulated-frame; real-phone-not-tested',
-            'insertionIntoExistingPage': 'not-tested',
+            'insertionIntoExistingPage': 'verified-native-recreation-and-ordering; direct-Library-section-import-not-tested',
+            'directLibrarySectionImport': 'not-tested',
+            'crossPageSectionCopy': 'not-tested',
             'mobileApp': 'not-tested',
         },
         'openQuestions': [
             'Verify actual consumer rendering and phone geometry of the saved unpublished carrier; Admin-frame mobile has 3px overflow and uses outer viewport units.',
             'Verify consumer Theme colors, real phone geometry and a controlled empty catalogue on the destination; no consumer publication occurred.',
             'Verify Library update/version propagation separately; independent destination is already unlinked.',
-            'Verify a supported insertion operation separately from separate-Page Library import.',
+            'Verify a direct Library Section import or native cross-page copy operation separately; current existing-Page proof uses native recreation.',
+            'Choose one food Section per finished slot, or separately authorize and verify handling of adjacent native menu floating category bars.',
         ],
         'historicalReferenceCaveats': [
             {'path': 'docs/INDY-LIBRARY.md', 'reason': 'Earlier revision proposed the Experience-only module; current findings are maintained separately from these retained source hashes.'},
