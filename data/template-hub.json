@@ -2,7 +2,7 @@
   "schema": "fd-template-hub/v1",
   "title": "Explore the templates.",
   "description": "Nine starting points for your cinema. Take a look around and find the feel you like.",
-  "notice": "Eight dedicated demos are published and verified on desktop and phone. Showcase remains held; its existing source preview stays available. Showtimes are display-only. Library packaging and separate section showcase pages remain deferred.",
+  "notice": "Nine dedicated demos with distinct palettes, shared movies and food, and a native showtimes opener. Showtimes are display-only. Separate section showcase pages and Library packaging are deferred.",
   "nameStatus": "approved",
   "namingApproval": {
     "approvedLetters": [
@@ -23,7 +23,7 @@
   "scope": {
     "region": "US-BETA",
     "circuit": "INDY Demo",
-    "siteProvisioningStatus": "eight-published-display-only-showcase-held",
+    "siteProvisioningStatus": "nine-published-display-only",
     "sourceSite": {
       "name": "Adam Template Testing 2",
       "siteId": 170,
@@ -52,12 +52,43 @@
       "description": "A classic cinema layout with clear schedules and a strong focus on booking.",
       "thumbnailSlotId": "hero",
       "demoSite": {
-        "status": "shell-provisioned",
-        "nativeSiteId": 184,
-        "homepageUrl": null,
+        "status": "published-display-only",
+        "nativeSiteId": 193,
+        "homepageUrl": "https://template-showcase-demo-indy-consumer.netlify.app/",
         "showcaseUrl": null,
-        "rolloutStatus": "held-incomplete-by-user",
-        "replacementCreated": false
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T12:28:15.334Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/components/showcase-hero.jpg",
+          "width": 1521,
+          "height": 609,
+          "imageSha256": "ddc440040318064a50bb7165c1bd8f5f12541c5c1a35e3f41204038b40f27cab",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
+          "sourceUrl": "https://template-showcase-demo-indy-consumer.netlify.app/variant-a-circuit/",
+          "method": "live-browser-section-clips",
+          "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#d8ab4f",
+          "background": "#f8f4e8",
+          "dark": "#1e2630",
+          "header": "#191b25",
+          "primary": "#a37721",
+          "secondary": "#e4c873"
+        }
       }
     },
     {
@@ -75,10 +106,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -89,14 +120,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/reel-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "7b4e4052019f5453fc32e366daee8af4c808a64fa25d12b99146441b679abf8b",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/reel-hero.jpg",
+          "width": 1521,
+          "height": 531,
+          "imageSha256": "045f06b921f797b689bb64b9a0462b1d82950292f0d0baffcca47ee22da82ca4",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-reel-indy-consumer.netlify.app/variant-b-rep/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#bd8055",
+          "background": "#faf4ef",
+          "dark": "#30232a",
+          "header": "#34202c",
+          "primary": "#8e344a",
+          "secondary": "#dfb2ba"
         }
       }
     },
@@ -115,10 +154,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -129,14 +168,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/neon-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "877a40db13e502e9da1a3da81b7105129b8367ac79e8b6f06685087a938e265c",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/neon-hero.jpg",
+          "width": 1521,
+          "height": 450,
+          "imageSha256": "466e8e9d6fcda48d82cd30d15f96fa04e13421b9e1fbc1a274b841c04fa82833",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-neon-indy-consumer.netlify.app/variant-c-late/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#ceef68",
+          "background": "#f0faf7",
+          "dark": "#102e33",
+          "header": "#092d34",
+          "primary": "#087f82",
+          "secondary": "#71dbcc"
         }
       }
     },
@@ -155,10 +202,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -169,14 +216,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/cameo-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "3a841a1f7d040be0b959cf107ceb230acfcb193083028c10e8db6ed03943914e",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/cameo-hero.jpg",
+          "width": 1521,
+          "height": 609,
+          "imageSha256": "82a540cc2755d7069cb6fb361fc532d14e6d379b49f49a4c7138eaddb6bd09c8",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-cameo-indy-consumer.netlify.app/variant-d-odd/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#da8f48",
+          "background": "#fff4eb",
+          "dark": "#3d2531",
+          "header": "#432a36",
+          "primary": "#b84f3a",
+          "secondary": "#f2b7a0"
         }
       }
     },
@@ -195,10 +250,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -209,14 +264,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/metropolis-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "1418bc80b06e8c49543647b4c7309c3499e2df40971731da26d0a77501f5b70a",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/metropolis-hero.jpg",
+          "width": 1521,
+          "height": 619,
+          "imageSha256": "a65b40f067aa99cff6b12ed019f2d8307f195678255ebb3865753b877a245fd1",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-metropolis-indy-consumer.netlify.app/variant-e-grid/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#d9ac54",
+          "background": "#f1f5fa",
+          "dark": "#152f4a",
+          "header": "#102e4c",
+          "primary": "#235d98",
+          "secondary": "#b0cde9"
         }
       }
     },
@@ -235,10 +298,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -249,14 +312,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/encore-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "66a6ca0e4a436ba05b45364906cbda526b05b729d2ffaac42097315d66cf01f0",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/encore-hero.jpg",
+          "width": 1281,
+          "height": 450,
+          "imageSha256": "45f8aa787b02db106002a5d17326068acc3d042686168041ec4471e8e50ec350",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-encore-indy-consumer.netlify.app/variant-f-concrete/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#b9a576",
+          "background": "#f5f2e9",
+          "dark": "#27282e",
+          "header": "#202126",
+          "primary": "#55565c",
+          "secondary": "#d0c9ba"
         }
       }
     },
@@ -275,10 +346,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -289,14 +360,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/splice-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "81a0f930dbe05a7460813fae7a3757e829c819d303eb55e6c896acaa7c179962",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/splice-hero.jpg",
+          "width": 1521,
+          "height": 609,
+          "imageSha256": "4a48ff51c06172f66846658ca32e749414635b784b619868329311ff97330cc9",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-splice-indy-consumer.netlify.app/variant-g-cut/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#d6a5cf",
+          "background": "#f7f1fb",
+          "dark": "#302240",
+          "header": "#28203d",
+          "primary": "#704cb0",
+          "secondary": "#d4b7ef"
         }
       }
     },
@@ -315,10 +394,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -329,14 +408,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/prologue-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "8238d893c60ee7f7705c74668b12c881fc706a6d1bb261b0b2cce306e9bf01fd",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/prologue-hero.jpg",
+          "width": 1521,
+          "height": 609,
+          "imageSha256": "16d88c0b2beb3a0d37347077ca87ecd7bec29bf7b9a1a87895e1005a1c729d1a",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-prologue-indy-consumer.netlify.app/variant-h-storybook/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#c0a066",
+          "background": "#f6f4e9",
+          "dark": "#263d30",
+          "header": "#1e342a",
+          "primary": "#35674c",
+          "secondary": "#bccfad"
         }
       }
     },
@@ -355,10 +442,10 @@
         "showcaseUrl": null,
         "sectionShowcasePagesStatus": "deferred",
         "verification": {
-          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "checkedAt": "2026-10-26T12:28:15.334Z",
           "desktop": "passed",
           "phone": "passed",
-          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "evidence": "evidence/demo-refresh/desktop-captures.json",
           "publishedScreenings": 16,
           "dates": [
             "2026-10-26",
@@ -369,14 +456,22 @@
           "ticketing": "display-only"
         },
         "preview": {
-          "image": "screenshots/demos/pause-desktop.jpg",
-          "width": 1425,
-          "height": 891,
-          "imageSha256": "07b5a701eeac8a33de567d67774e73d158df378647141d6f67d29797c2303d80",
-          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "image": "screenshots/demos/components/pause-hero.jpg",
+          "width": 1521,
+          "height": 609,
+          "imageSha256": "2e371e73ee44ed4471a599c43f58acc413463e55b1b6527ec199498082044fac",
+          "reviewedAt": "2026-10-26T12:28:15.334Z",
           "sourceUrl": "https://template-pause-indy-consumer.netlify.app/variant-i-ma/",
-          "method": "live-browser-viewport",
+          "method": "live-browser-section-clips",
           "appearanceAltered": false
+        },
+        "palette": {
+          "accent": "#a7b9b3",
+          "background": "#f2f6f6",
+          "dark": "#2e4149",
+          "header": "#253740",
+          "primary": "#526d7a",
+          "secondary": "#ccd8db"
         }
       }
     }

@@ -118,7 +118,10 @@ test('repository catalog has valid selection IDs and existing screenshot files',
   const model = createModel(live);
   assert.ok(model.capturedVariants.length >= 3);
   for (const slot of live.slots) for (const o of slot.options) {
-    assert.ok(o.sourceUrl.startsWith(live.source));
+    const source = o.sourceSite ?? live.sourceSite;
+    const allowed = [live.source, ...(live.sourceSites ?? []).map(s => s.url)];
+    assert.ok(allowed.some(url => new URL(o.sourceUrl).origin === new URL(url).origin));
+    if (o.demoProvenance) assert.equal(source.siteId, o.demoProvenance.siteId);
     if (o.image) assert.ok((await readFile(new URL(`../${o.image}`, import.meta.url))).length > 0);
   }
 });

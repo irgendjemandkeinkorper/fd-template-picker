@@ -12,7 +12,11 @@ for (const slot of catalog.slots) for (const option of slot.options) {
   const variant = option.variant.match(/^variant-([a-l])-/)?.[1].toUpperCase();
   const entry = { moduleVersion: 1, readiness: 'unverified-portability', installationMethod: global ? 'destination-global-configuration-review' : 'manual-source-review-and-native-recreation',
     artifacts: [], limitations: ['Visual capture review does not certify installation on a new Site.', 'Source IDs must never be used as destination IDs.'] };
-  if (variant) entry.artifacts.push(await artifact(`evidence/admin-controls-completion/native-saved/${variant}-page.css`, 'Source Page CSS reference; not a self-contained section package.'));
+  if (option.demoProvenance) {
+    entry.artifacts.push(await artifact(option.demoProvenance.nativePageCss, 'Current live demo Page CSS reference; not a self-contained Section package.'));
+    if (option.demoProvenance.nativeRecipe) entry.artifacts.push(await artifact(option.demoProvenance.nativeRecipe, 'Native Showtimes hero settings and per-design overrides.'));
+    entry.limitations.push('Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.', 'Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing.');
+  } else if (variant) entry.artifacts.push(await artifact(`evidence/admin-controls-completion/native-saved/${variant}-page.css`, 'Source Page CSS reference; not a self-contained section package.'));
   if (kFood) {
     const path = 'template-adapters/library-k-food/dependency-manifest.json';
     const manifest = JSON.parse(await readFile(new URL(path, root), 'utf8'));

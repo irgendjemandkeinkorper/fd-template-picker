@@ -1,6 +1,6 @@
 {
   "schema": "fd-picker-module-index/v1",
-  "catalogSha256": "9dd64dd3ece5f0e43f6be228a50e9b05e9dbdea259ce827150bd7b74279c74d0",
+  "catalogSha256": "e2aefc823a4a316e8c9076512663db19396972ddb8a3bb0d4fefb6f63c2d23d6",
   "sourceOnly": true,
   "modules": {
     "header--variant-a-circuit": {
@@ -9,15 +9,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
-          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/showcase-193-independent-role-published.css",
+          "sha256": "803d77a8adfc257a147ca127f0658fe10f2407be653c87bfa92955d7fca4c2fc",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-b-rep": {
@@ -26,15 +28,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
-          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/reel-independent-role-published.css",
+          "sha256": "2521ecd69510a2f64d24677362e20100cf0d34d235d45cb467c4ef14b318ca5c",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-c-late": {
@@ -43,15 +47,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
-          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/neon-independent-role-published.css",
+          "sha256": "27ae7f8e7bb0b95528e64c47cdd6ec05ad300891d53eab12cefe20e652a14822",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-d-odd": {
@@ -60,15 +66,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
-          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/cameo-independent-role-published.css",
+          "sha256": "b6ef342c08955f71c88e3efaa738482d7c156af450d634fd0c623f638bbb1f61",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-e-grid": {
@@ -77,15 +85,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
-          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/metropolis-independent-role-published.css",
+          "sha256": "e7ba28d09062d3c4fc46c5159d54a34d475b0880e95bab06ef6ebd3ab67e840d",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-f-concrete": {
@@ -94,15 +104,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
-          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/encore-independent-role-published.css",
+          "sha256": "213c047f2714ab7fc524d0e6365dd042240b85e230968a0a8ca21fae9b48e195",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-g-cut": {
@@ -111,15 +123,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
-          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/splice-independent-role-published.css",
+          "sha256": "4f2a411ac9ccfc9dbeefce1426e3a25486dc7e2fbdb112e974d86735213f8303",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-h-storybook": {
@@ -128,15 +142,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
-          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/prologue-independent-role-published.css",
+          "sha256": "c290c01482ae5c503c4b72d8c98c7fffbce3d34f3b3b4070eeba494e376c2607",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-i-ma": {
@@ -145,15 +161,17 @@
       "installationMethod": "destination-global-configuration-review",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
-          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/pause-independent-role-published.css",
+          "sha256": "fca698c1eaa73c5c4b6d00ff6ca5160d2963180639097e1c12adb415355c5aee",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "header--variant-j-box-office": {
@@ -213,15 +231,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
-          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/showcase-193-independent-role-published.css",
+          "sha256": "803d77a8adfc257a147ca127f0658fe10f2407be653c87bfa92955d7fca4c2fc",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-b-rep": {
@@ -230,15 +256,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
-          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/reel-independent-role-published.css",
+          "sha256": "2521ecd69510a2f64d24677362e20100cf0d34d235d45cb467c4ef14b318ca5c",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-c-late": {
@@ -247,15 +281,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
-          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/neon-independent-role-published.css",
+          "sha256": "27ae7f8e7bb0b95528e64c47cdd6ec05ad300891d53eab12cefe20e652a14822",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-d-odd": {
@@ -264,15 +306,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
-          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/cameo-independent-role-published.css",
+          "sha256": "b6ef342c08955f71c88e3efaa738482d7c156af450d634fd0c623f638bbb1f61",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-e-grid": {
@@ -281,15 +331,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
-          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/metropolis-independent-role-published.css",
+          "sha256": "e7ba28d09062d3c4fc46c5159d54a34d475b0880e95bab06ef6ebd3ab67e840d",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-f-concrete": {
@@ -298,15 +356,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
-          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/encore-independent-role-published.css",
+          "sha256": "213c047f2714ab7fc524d0e6365dd042240b85e230968a0a8ca21fae9b48e195",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-g-cut": {
@@ -315,15 +381,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
-          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/splice-independent-role-published.css",
+          "sha256": "4f2a411ac9ccfc9dbeefce1426e3a25486dc7e2fbdb112e974d86735213f8303",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-h-storybook": {
@@ -332,15 +406,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
-          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/prologue-independent-role-published.css",
+          "sha256": "c290c01482ae5c503c4b72d8c98c7fffbce3d34f3b3b4070eeba494e376c2607",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-i-ma": {
@@ -349,15 +431,23 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
-          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/pause-independent-role-published.css",
+          "sha256": "fca698c1eaa73c5c4b6d00ff6ca5160d2963180639097e1c12adb415355c5aee",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/demo-refresh/showtimes-recipe.json",
+          "sha256": "5ecb8759d93af3864df5ad84538f4985ce840ad6d0c81225f119a7b58cc049ec",
+          "purpose": "Native Showtimes hero settings and per-design overrides.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "hero--variant-j-box-office": {
@@ -485,15 +575,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
-          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/showcase-193-independent-role-published.css",
+          "sha256": "803d77a8adfc257a147ca127f0658fe10f2407be653c87bfa92955d7fca4c2fc",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-b-rep": {
@@ -502,15 +594,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
-          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/reel-independent-role-published.css",
+          "sha256": "2521ecd69510a2f64d24677362e20100cf0d34d235d45cb467c4ef14b318ca5c",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-c-late": {
@@ -519,15 +613,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
-          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/neon-independent-role-published.css",
+          "sha256": "27ae7f8e7bb0b95528e64c47cdd6ec05ad300891d53eab12cefe20e652a14822",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-d-odd": {
@@ -536,15 +632,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
-          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/cameo-independent-role-published.css",
+          "sha256": "b6ef342c08955f71c88e3efaa738482d7c156af450d634fd0c623f638bbb1f61",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-e-grid": {
@@ -553,15 +651,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
-          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/metropolis-independent-role-published.css",
+          "sha256": "e7ba28d09062d3c4fc46c5159d54a34d475b0880e95bab06ef6ebd3ab67e840d",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-f-concrete": {
@@ -570,15 +670,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
-          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/encore-independent-role-published.css",
+          "sha256": "213c047f2714ab7fc524d0e6365dd042240b85e230968a0a8ca21fae9b48e195",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-g-cut": {
@@ -587,15 +689,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
-          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/splice-independent-role-published.css",
+          "sha256": "4f2a411ac9ccfc9dbeefce1426e3a25486dc7e2fbdb112e974d86735213f8303",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-h-storybook": {
@@ -604,15 +708,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
-          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/prologue-independent-role-published.css",
+          "sha256": "c290c01482ae5c503c4b72d8c98c7fffbce3d34f3b3b4070eeba494e376c2607",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-i-ma": {
@@ -621,15 +727,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
-          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/pause-independent-role-published.css",
+          "sha256": "fca698c1eaa73c5c4b6d00ff6ca5160d2963180639097e1c12adb415355c5aee",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "events--variant-j-box-office": {
@@ -689,15 +797,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
-          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/showcase-193-independent-role-published.css",
+          "sha256": "803d77a8adfc257a147ca127f0658fe10f2407be653c87bfa92955d7fca4c2fc",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-b-rep": {
@@ -706,15 +816,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
-          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/reel-independent-role-published.css",
+          "sha256": "2521ecd69510a2f64d24677362e20100cf0d34d235d45cb467c4ef14b318ca5c",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-c-late": {
@@ -723,15 +835,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
-          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/neon-independent-role-published.css",
+          "sha256": "27ae7f8e7bb0b95528e64c47cdd6ec05ad300891d53eab12cefe20e652a14822",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-d-odd": {
@@ -740,15 +854,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
-          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/cameo-independent-role-published.css",
+          "sha256": "b6ef342c08955f71c88e3efaa738482d7c156af450d634fd0c623f638bbb1f61",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-e-grid": {
@@ -757,15 +873,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
-          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/metropolis-independent-role-published.css",
+          "sha256": "e7ba28d09062d3c4fc46c5159d54a34d475b0880e95bab06ef6ebd3ab67e840d",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-f-concrete": {
@@ -774,15 +892,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
-          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/encore-independent-role-published.css",
+          "sha256": "213c047f2714ab7fc524d0e6365dd042240b85e230968a0a8ca21fae9b48e195",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-g-cut": {
@@ -791,15 +911,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
-          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/splice-independent-role-published.css",
+          "sha256": "4f2a411ac9ccfc9dbeefce1426e3a25486dc7e2fbdb112e974d86735213f8303",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-h-storybook": {
@@ -808,15 +930,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
-          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/prologue-independent-role-published.css",
+          "sha256": "c290c01482ae5c503c4b72d8c98c7fffbce3d34f3b3b4070eeba494e376c2607",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-i-ma": {
@@ -825,15 +949,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
-          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/pause-independent-role-published.css",
+          "sha256": "fca698c1eaa73c5c4b6d00ff6ca5160d2963180639097e1c12adb415355c5aee",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "food--variant-j-box-office": {
@@ -1051,15 +1177,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
-          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/showcase-193-independent-role-published.css",
+          "sha256": "803d77a8adfc257a147ca127f0658fe10f2407be653c87bfa92955d7fca4c2fc",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-b-rep": {
@@ -1068,15 +1196,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
-          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/reel-independent-role-published.css",
+          "sha256": "2521ecd69510a2f64d24677362e20100cf0d34d235d45cb467c4ef14b318ca5c",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-c-late": {
@@ -1085,15 +1215,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
-          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/neon-independent-role-published.css",
+          "sha256": "27ae7f8e7bb0b95528e64c47cdd6ec05ad300891d53eab12cefe20e652a14822",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-d-odd": {
@@ -1102,15 +1234,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
-          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/cameo-independent-role-published.css",
+          "sha256": "b6ef342c08955f71c88e3efaa738482d7c156af450d634fd0c623f638bbb1f61",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-e-grid": {
@@ -1119,15 +1253,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
-          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/metropolis-independent-role-published.css",
+          "sha256": "e7ba28d09062d3c4fc46c5159d54a34d475b0880e95bab06ef6ebd3ab67e840d",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-f-concrete": {
@@ -1136,15 +1272,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
-          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/encore-independent-role-published.css",
+          "sha256": "213c047f2714ab7fc524d0e6365dd042240b85e230968a0a8ca21fae9b48e195",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-g-cut": {
@@ -1153,15 +1291,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
-          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/splice-independent-role-published.css",
+          "sha256": "4f2a411ac9ccfc9dbeefce1426e3a25486dc7e2fbdb112e974d86735213f8303",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-h-storybook": {
@@ -1170,15 +1310,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
-          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/prologue-independent-role-published.css",
+          "sha256": "c290c01482ae5c503c4b72d8c98c7fffbce3d34f3b3b4070eeba494e376c2607",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-i-ma": {
@@ -1187,15 +1329,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
-          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/pause-independent-role-published.css",
+          "sha256": "fca698c1eaa73c5c4b6d00ff6ca5160d2963180639097e1c12adb415355c5aee",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "contact--variant-j-box-office": {
@@ -1357,15 +1501,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
-          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/showcase-193-independent-role-published.css",
+          "sha256": "803d77a8adfc257a147ca127f0658fe10f2407be653c87bfa92955d7fca4c2fc",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-b-rep": {
@@ -1374,15 +1520,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
-          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/reel-independent-role-published.css",
+          "sha256": "2521ecd69510a2f64d24677362e20100cf0d34d235d45cb467c4ef14b318ca5c",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-c-late": {
@@ -1391,15 +1539,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
-          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/neon-independent-role-published.css",
+          "sha256": "27ae7f8e7bb0b95528e64c47cdd6ec05ad300891d53eab12cefe20e652a14822",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-d-odd": {
@@ -1408,15 +1558,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
-          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/cameo-independent-role-published.css",
+          "sha256": "b6ef342c08955f71c88e3efaa738482d7c156af450d634fd0c623f638bbb1f61",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-e-grid": {
@@ -1425,15 +1577,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
-          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/metropolis-independent-role-published.css",
+          "sha256": "e7ba28d09062d3c4fc46c5159d54a34d475b0880e95bab06ef6ebd3ab67e840d",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-f-concrete": {
@@ -1442,15 +1596,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
-          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/encore-independent-role-published.css",
+          "sha256": "213c047f2714ab7fc524d0e6365dd042240b85e230968a0a8ca21fae9b48e195",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-g-cut": {
@@ -1459,15 +1615,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
-          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/splice-independent-role-published.css",
+          "sha256": "4f2a411ac9ccfc9dbeefce1426e3a25486dc7e2fbdb112e974d86735213f8303",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-h-storybook": {
@@ -1476,15 +1634,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
-          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/prologue-independent-role-published.css",
+          "sha256": "c290c01482ae5c503c4b72d8c98c7fffbce3d34f3b3b4070eeba494e376c2607",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-i-ma": {
@@ -1493,15 +1653,17 @@
       "installationMethod": "manual-source-review-and-native-recreation",
       "artifacts": [
         {
-          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
-          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
-          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "path": "evidence/demo-refresh/pages/pause-independent-role-published.css",
+          "sha256": "fca698c1eaa73c5c4b6d00ff6ca5160d2963180639097e1c12adb415355c5aee",
+          "purpose": "Current live demo Page CSS reference; not a self-contained Section package.",
           "sourceOnly": true
         }
       ],
       "limitations": [
         "Visual capture review does not certify installation on a new Site.",
-        "Source IDs must never be used as destination IDs."
+        "Source IDs must never be used as destination IDs.",
+        "Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.",
+        "Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing."
       ]
     },
     "membership--variant-j-box-office": {

@@ -319,11 +319,23 @@ dialog::backdrop { background: #132f3db3; backdrop-filter: blur(3px); }
 .advanced-colors > p, .palette-bindings p { margin: 10px 0 15px; max-width: 680px; color: var(--muted); font-size: 11px; line-height: 1.65; }
 .color-fields--advanced { margin-top: 14px; }
 .palette-bindings { grid-area: bindings; }
+.color-role-hint { margin: 7px 0 0; color: var(--muted); font-size: 10px; line-height: 1.6; }
+.role-example { max-width: 680px; overflow: hidden; border: 1px solid var(--line); border-radius: 9px; }
+.role-example__header { display: flex; justify-content: space-between; gap: 16px; padding: 18px; background: var(--sample-header); color: var(--sample-background); border-bottom: 3px solid var(--sample-accent); font-size: 12px; }
+.role-example__body { padding: 22px; background: var(--sample-background); color: var(--sample-dark); }
+.role-example__body h3 { margin: 12px 0 20px; }
+.role-example__eyebrow { border-bottom: 2px solid var(--sample-accent); padding-bottom: 6px; font-size: 11px; }
+.role-example__button { display: inline-block; padding: 10px 16px; background: var(--sample-primary); color: var(--sample-secondary); border-radius: 4px; font-size: 12px; }
 .body-color-sample { display: flex; flex-direction: column; gap: 5px; margin: 22px 0 10px; padding: 18px; border: 1px solid #00000018; border-radius: 8px; }
 .body-color-sample strong { font-size: 17px; }
 .body-color-sample span { font-size: 11px; }
 .contrast-detail.is-failing { color: var(--danger); }
 .palette-check-note { margin: 18px 0 0; color: var(--muted); font-size: 10px; line-height: 1.7; }
+.contrast-acknowledgment { margin-top: 18px; padding: 14px; border: 1px solid #c8a961; border-radius: 8px; background: #fff9e9; color: #56431b; font-size: 12px; line-height: 1.6; }
+.contrast-acknowledgment p { margin: 0 0 12px; }
+.contrast-acknowledgment label { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; }
+.contrast-acknowledgment input { flex: 0 0 auto; width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--ink); }
+.contrast-blocked { margin-top: 18px; color: var(--danger); font-size: 12px; line-height: 1.6; }
 .review-advanced-colors { margin: -10px 0 20px; }
 .advanced-swatches { display: flex; flex-wrap: wrap; gap: 15px 22px; padding-top: 14px; }
 .templates-pane { min-height: 0; overflow: auto; padding: 36px; }

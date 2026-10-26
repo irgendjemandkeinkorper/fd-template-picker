@@ -274,6 +274,27 @@
         "publishedScreenings": 16,
         "qa": "desktop and phone passed"
       }
+    },
+    {
+      "name": "Showcase",
+      "siteId": 193,
+      "creationName": "template-showcase-demo",
+      "replacementExplicitlyApproved": true,
+      "sourceSiteId": 170,
+      "createConsumerWebsite": true,
+      "creationSubmittedOnce": true,
+      "createResponse": "504; native Site and hosting persisted, verified without retry",
+      "homePage": 6797,
+      "editablePage": 6840,
+      "homePublished": true,
+      "publishedScreenings": 16,
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Showcase",
+        "homepageUrl": "https://template-showcase-demo-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and 390px phone passed"
+      }
     }
   ],
   "notes": [
@@ -319,22 +340,32 @@
   "nineNativeCopiesVerified": true,
   "replacementApproval": "Required; question will be sent. Existing184 configuration still unhosted. Avoid any unproven hosting operation that might share the earlier183 branch.",
   "finalStatus": {
-    "checkedAt": "2026-10-26T10:53:05.950Z",
-    "publishedDemos": 8,
-    "showcase": "held incomplete at user request; no replacement created",
-    "publishedScreenings": 128,
-    "screeningDates": [
+    "status": "nine-published-display-only",
+    "demoSiteIds": [
+      193,
+      185,
+      186,
+      187,
+      188,
+      191,
+      189,
+      190,
+      192
+    ],
+    "screeningsPerSite": 16,
+    "dates": [
       "2026-10-26",
       "2026-10-27",
       "2026-10-28",
       "2026-10-29"
     ],
-    "screeningBatch": "approved and applied to eight working demos",
-    "ticketing": "display-only; enable approval superseded before mutation",
-    "desktopAndPhoneQa": "passed all eight homepages; see live-qa.json",
-    "source170Changed": false,
-    "earlier183ChangedDuringRollout": false,
-    "cacheCleared": false,
-    "separateSectionShowcasePages": "deferred"
+    "source170Preserved": true,
+    "earlier183Preserved": true,
+    "incomplete184Preserved": true,
+    "ticketing": "OFF/display-only",
+    "palettes": "six independent native colors; distinct per design",
+    "picker": "nine names, 54 section captures, seven navigation layouts plus nine each other required component",
+    "contrastPolicy": "Both checked pairs >=3; acknowledgment required below4.5; exact palette/timestamp exported",
+    "evidence": "evidence/demo-refresh/"
   }
 }

@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildExport, buildBuildBrief } from '../model.mjs';
 import { createWorkflow, GUIDE_STEPS } from '../workflow.mjs';
-import { COLOR_ROLES, DEFAULT_PALETTE_ROLES, normalizeHexColor, normalizePalette, paletteForState, paletteKey, assessPalette, NATIVE_COLOR_BINDINGS } from '../colors.mjs';
+import { COLOR_ROLES, DEFAULT_PALETTE_ROLES, normalizeHexColor, normalizePalette, paletteForState, paletteKey, assessPalette, NATIVE_COLOR_BINDINGS, paletteProceedStatus, CONTRAST_REVIEW_POLICY, CONTRAST_ACKNOWLEDGMENT } from '../colors.mjs';
 
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const catalogBytes = await readFile(new URL('../catalog.json', import.meta.url));
@@ -23,11 +23,44 @@ function completedState() {
 test('palette exposes six core and seven advanced roles with honest native binding metadata', () => {
   assert.equal(COLOR_ROLES.filter(({ advanced }) => !advanced).length, 6);
   assert.equal(COLOR_ROLES.filter(({ advanced }) => advanced).length, 7);
-  assert.equal(NATIVE_COLOR_BINDINGS.header.templateRole, 'dark');
-  assert.equal(NATIVE_COLOR_BINDINGS.accent.templateRole, 'secondary');
+  assert.equal(NATIVE_COLOR_BINDINGS.header.templateRole, 'header');
+  assert.equal(NATIVE_COLOR_BINDINGS.accent.templateRole, 'accent');
   assert.equal(NATIVE_COLOR_BINDINGS.splashBackground.adminField, 'SplashBackground');
   assert.equal(NATIVE_COLOR_BINDINGS.seatAvailable.cssVariable, null, 'Do not invent unverified native CSS-variable names.');
   assert.match(normalizePalette().defaultsPolicy, /Suggested starter/);
+});
+
+test('contrast review allows 3–4.5 only with a palette-bound acknowledgment, never below 3', () => {
+  const state = completedState();
+  state.brandColors = { primary: '#FF0000', secondary: '#FFFFFF' };
+  Object.assign(state.palette.roles, state.brandColors);
+  const palette = paletteForState(state);
+  const ack = { policy: CONTRAST_REVIEW_POLICY, paletteKey: paletteKey(palette), acknowledgedAt: '2026-10-26T12:00:00Z' };
+  assert.equal(assessPalette(palette).passes, false);
+  assert.equal(paletteProceedStatus(palette).canProceed, false);
+  assert.equal(paletteProceedStatus(palette, ack).canProceed, true);
+  state.colorAcknowledgment = ack;
+  state.workflow.confirmed.colors = paletteKey(palette);
+  const exported = buildBuildBrief(catalog, state, 'https://picker.test/', context);
+  assert.equal(exported.buildContract.checklistComplete, true);
+  assert.equal(exported.paletteAssessment.passes, false, 'Consent must not claim WCAG compliance.');
+  assert.equal(exported.colorReview.status, 'acknowledged-for-review');
+  assert.equal(exported.colorAcknowledgment.statement, CONTRAST_ACKNOWLEDGMENT);
+  assert.equal(model.normalize(exported).workflow.confirmed.colors, paletteKey(palette));
+  assert.match(workflow.buildCustomerSummary(model.normalize(exported)), /Contrast exception acknowledged/);
+  const changed = structuredClone(exported); changed.palette.roles.accent = '#123456';
+  assert.equal(model.normalize(changed).workflow.confirmed.colors, undefined);
+  assert.equal(model.normalize(changed).colorAcknowledgment, null);
+  palette.roles.primary = '#959595'; palette.roles.secondary = '#FFFFFF';
+  ack.paletteKey = paletteKey(palette);
+  assert.equal(paletteProceedStatus(palette, ack).canProceed, false);
+  assert.equal(paletteProceedStatus(palette, ack).status, 'blocked');
+  palette.roles.primary = '#949494'; ack.paletteKey = paletteKey(palette);
+  assert.equal(paletteProceedStatus(palette, ack).canProceed, true);
+  palette.roles.dark = palette.roles.background;
+  ack.paletteKey = paletteKey(palette);
+  assert.equal(paletteProceedStatus(palette, ack).canProceed, false, 'Body text below 3 cannot be waived.');
+  for (const bad of [{ ...ack, acknowledgedAt: 'nonsense' }, { ...ack, policy: 'other' }]) assert.equal(paletteProceedStatus(normalizePalette(), bad).acknowledgment, null);
 });
 
 test('v1/v2 state and links preserve colors, styles and matching progress during palette migration', () => {
@@ -115,7 +148,7 @@ test('registered artifact hashes match local bytes and K has bounded Library and
   assert.equal(moduleIndex.catalogSha256, hash(catalogBytes));
   const uniqueArtifacts = new Map(Object.values(moduleIndex.modules).flatMap(({ artifacts }) => artifacts).map((artifact) => [artifact.path, artifact]));
   for (const artifact of uniqueArtifacts.values()) assert.equal(hash(await readFile(new URL(`../${artifact.path}`, import.meta.url))), artifact.sha256, artifact.path);
-  const state = workflow.normalizeGuidedSelection(model.defaultState('variant-k-clubhouse'));
+  const state = model.defaultState('variant-k-clubhouse');
   const data = buildBuildBrief(catalog, state, 'https://picker.test/', context);
   const food = data.buildContract.modules.find(({ component }) => component === 'food');
   assert.equal(food.optionId, 'food--variant-k-clubhouse');

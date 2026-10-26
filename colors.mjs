@@ -7,14 +7,24 @@ export const COLOR_ROLES = Object.freeze([
 ].map(([id, label], index) => Object.freeze({ id, label, advanced: index >= 6 })));
 // Suggested starter values, not captured Admin values or canonical INDY defaults.
 export const DEFAULT_PALETTE_ROLES = Object.freeze({ ...DEFAULT_BRAND_COLORS, header: '#183B4E', accent: '#F4EEE4', dark: '#183B4E', background: '#F4EEE4', positive: '#217A43', negative: '#B42318', info: '#126E9B', warning: '#F2C037', splashBackground: '#183B4E', seatSelected: '#183B4E', seatAvailable: '#DCE7DF' });
-export const PALETTE_BINDING_NOTE = 'Header and Accent are saved as requested colors. Current template styling uses Dark for Header and Secondary for Accent; these two independent choices need adapter updates before they can appear separately.';
+export const PALETTE_BINDING_NOTE = 'Header colors the navigation band on most designs and menu lettering on Reel and Cameo. Showcase and Neon also use it on dark section panels. Accent colors decorative rules and outlines, such as Reel’s menu dividers, Neon’s ticket stubs and Splice’s highlight details. Primary colors main actions; Secondary supplies supporting fills; Dark and Background form the main text pair. Exact placement varies by section.';
+export const COLOR_EXAMPLES = Object.freeze({
+  primary: 'Main actions and selected showtimes; some designs use a softer tint behind text.',
+  secondary: 'Supporting fills and alternate membership cards.',
+  header: 'Navigation band, or menu lettering on Reel and Cameo. Also dark panels on Showcase and Neon.',
+  accent: 'Detail rules and outlines: Reel menu dividers, Neon ticket stubs and Splice highlights.',
+  dark: 'Body text, headings and dark surfaces.',
+  background: 'Main page surface and light text on dark panels.',
+});
 export const NATIVE_COLOR_BINDINGS = Object.freeze(Object.fromEntries(COLOR_ROLES.map(({ id, label, advanced }) => [id, {
   adminField: `${id[0].toUpperCase()}${id.slice(1)}`,
   cssVariable: ['splashBackground', 'seatSelected', 'seatAvailable'].includes(id) ? null : `--q-${id}`,
-  templateRole: id === 'header' ? 'dark' : id === 'accent' ? 'secondary' : advanced ? null : id,
-  status: ['header', 'accent'].includes(id) ? 'aliased-in-current-adapters' : advanced ? 'native-field-mapping-and-rendered-states-require-verification' : 'current-template-input',
+  templateRole: advanced ? null : id,
+  status: advanced ? 'native-field-mapping-and-rendered-states-require-verification' : 'demo-homepage-input; legacy-source-adapter-requires-role-binding-update',
 }])));
 export const CONTRAST_STANDARD_URL = 'https://www.w3.org/TR/WCAG22/#contrast-minimum';
+export const CONTRAST_REVIEW_POLICY = 'contrast-review/v1';
+export const CONTRAST_ACKNOWLEDGMENT = 'I understand these colors do not meet the 4.5:1 accessibility requirement for regular text. I want to continue with this palette for review.';
 
 export function normalizeHexColor(value) {
   if (typeof value !== 'string') return null;
@@ -43,7 +53,7 @@ export function paletteForState(state) {
   for (const id of ['primary', 'secondary']) if (state?.brandColors?.[id] !== undefined) palette.roles[id] = state.brandColors[id];
   return palette;
 }
-export const paletteKey = (palette) => `palette/v${PALETTE_VERSION}|${COLOR_ROLES.map(({ id }) => `${id}:${normalizeHexColor(palette?.roles?.[id]) ?? 'invalid'}`).join('|')}|header:dark|accent:secondary`;
+export const paletteKey = (palette) => `palette/v${PALETTE_VERSION}|${COLOR_ROLES.map(({ id }) => `${id}:${normalizeHexColor(palette?.roles?.[id]) ?? 'invalid'}`).join('|')}|header:header|accent:accent`;
 export function assessPalette(palette) {
   const roles = palette?.roles ?? {};
   const pairs = [
@@ -51,8 +61,26 @@ export function assessPalette(palette) {
     ['body', 'Dark / Background', 'dark', 'background'],
   ].map(([id, label, foreground, background]) => { const ratio = contrastRatio(roles[foreground], roles[background]); return { id, label, foreground, background, ratio, passes: ratio !== null && ratio >= 4.5, minimum: 4.5 }; });
   const valid = COLOR_ROLES.every(({ id }) => normalizeHexColor(roles[id]));
-  return { valid: Boolean(valid), pairs, passes: Boolean(valid) && pairs.every((pair) => pair.passes),
+  const blocked = !valid || pairs.some(({ ratio }) => ratio === null || ratio < 3);
+  return { valid: Boolean(valid), pairs, passes: Boolean(valid) && pairs.every((pair) => pair.passes), blocked,
+    needsAcknowledgment: !blocked && pairs.some((pair) => !pair.passes),
     scope: 'Two base text pairs only. Derived surfaces, overlays, semantic states, seats and final native pages still require rendered checks.', standardUrl: CONTRAST_STANDARD_URL };
+}
+
+// Approval is for the exact palette. It never changes the WCAG pass/fail result.
+export function normalizeColorAcknowledgment(value, palette) {
+  const assessment = assessPalette(palette);
+  if (!assessment.needsAcknowledgment || value?.policy !== CONTRAST_REVIEW_POLICY
+    || value.paletteKey !== paletteKey(palette) || typeof value.acknowledgedAt !== 'string'
+    || !Number.isFinite(Date.parse(value.acknowledgedAt))) return null;
+  return { policy: CONTRAST_REVIEW_POLICY, paletteKey: value.paletteKey, acknowledgedAt: value.acknowledgedAt, statement: CONTRAST_ACKNOWLEDGMENT };
+}
+export function paletteProceedStatus(palette, acknowledgment) {
+  const assessment = assessPalette(palette);
+  const accepted = normalizeColorAcknowledgment(acknowledgment, palette);
+  return { ...assessment, acknowledgment: accepted,
+    canProceed: !assessment.blocked && (assessment.passes || Boolean(accepted)),
+    status: assessment.blocked ? 'blocked' : assessment.passes ? 'passes-base-text-checks' : accepted ? 'acknowledged-for-review' : 'acknowledgment-required' };
 }
 
 // WCAG 2.2 sRGB relative luminance. Invalid colors must never receive a passing ratio.

@@ -1,0 +1,3685 @@
+[
+  {
+    "name": "Showcase",
+    "id": 193,
+    "slug": "variant-a-circuit",
+    "host": "https://template-showcase-demo-indy-consumer.netlify.app/",
+    "capturedAt": "2026-10-26T12:00:48.990Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-193",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-28122",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-28122",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-showcase-demo-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-showcase-demo-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-a-circuit/",
+          "text": "HOME",
+          "width": 41.41250228881836
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 38.400001525878906
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 85.7874984741211
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 33.32500076293945
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 87.0250015258789
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 160.3125
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 150.3249969482422
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Showcase Cinema",
+      "url": "https://template-showcase-demo-indy-consumer.netlify.app/variant-a-circuit/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Showcase",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 4143,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(25, 27, 37)",
+      "border": "rgb(216, 171, 79)",
+      "bounds": {
+        "height": 56.79999923706055,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-a-circuit-6797",
+    "nativeColors": {
+      "accent": "#d8ab4f",
+      "background": "#f8f4e8",
+      "dark": "#1e2630",
+      "header": "#191b25",
+      "primary": "#a37721",
+      "secondary": "#e4c873"
+    },
+    "sections": [
+      {
+        "accentRole": "#d8ab4f",
+        "bounds": {
+          "height": 608.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 57
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-28122",
+        "headerRole": "#191b25",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#d8ab4f",
+        "bounds": {
+          "height": 534.5499877929688,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 665.4000244140625
+        },
+        "className": "section-events-a---rate-card-28123 q-px-xs section-events-a---rate-card-28123",
+        "headerRole": "#191b25",
+        "text": "PRIVATE HIRE\n\nSix ways to take the room\nPrivate screening\n\n42 seats · 600 minimum · 10 days' notice\n\nENQUIRE\nCorporate hire\n\n42 seats · 900 minimum · 14 days' notice\n\nENQUIRE\nBirthday party\n\n28 seats · 350 minimum · 7 da"
+      },
+      {
+        "accentRole": "#d8ab4f",
+        "bounds": {
+          "height": 846.1500244140625,
+          "width": 1440,
+          "x": 40.400001525878906,
+          "y": 1199.9500732421875
+        },
+        "className": "section-food-a---chip-rail-28124 q-px-xs section-food-a---chip-rail-28124",
+        "headerRole": "#191b25",
+        "text": "Kitchen and bar\nSNACKS\nDRINKS\nDESSERTS\n\nSNACKS\n\nMarquee Popcorn\nStarting at$7.00\nNo Country for Old Nachos\n$14.00\nThe Pretzel Identity\n$11.00\n\nDRINKS\n\nSoda\nStarting at$6.00\n\nDESSERTS\n\nPie Hard\n$10.00\nSundae, Bloody Sunda"
+      },
+      {
+        "accentRole": "#d8ab4f",
+        "bounds": {
+          "height": 589.0625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2046.0999755859375
+        },
+        "className": "section-contact-a---compressed-column-28125 q-px-xs section-contact-a---compressed-column-28125",
+        "headerRole": "#191b25",
+        "text": "Ask us anything\nNAME\nEMAIL\nWHAT YOU HAVE IN MIND\nSEND"
+      },
+      {
+        "accentRole": "#d8ab4f",
+        "bounds": {
+          "height": 553.6124877929688,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2635.16259765625
+        },
+        "className": "section-find-us-a---map-strip-28126 q-px-xs section-find-us-a---map-strip-28126",
+        "headerRole": "#191b25",
+        "text": "FIND US\n\n120 EXAMPLE STREET\n\nChicago, IL 60622\nCorner of Example and Sample, two blocks from the Blue Line.\n\nBOX OFFICE\nOpens 45 minutes before the first show\nBAR & KITCHEN\nNoon until last call, seven days\nPARKING\nGarage"
+      },
+      {
+        "accentRole": "#d8ab4f",
+        "bounds": {
+          "height": 954.7000122070312,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3188.775146484375
+        },
+        "className": "section-membership-a---tier-rail-28127 q-px-xs section-membership-a---tier-rail-28127",
+        "headerRole": "#191b25",
+        "text": "MEMBERSHIP & REWARDS\n\nTHREE WAYS TO GO MORE OFTEN\n\nPoints on everything, cheaper tickets, and a seat held when you are running late. Cancel any month; points keep for a year.\n\nPARTERRE\n\nFree\n\nJOIN IN 30 SECONDS\n\n1 point "
+      }
+    ],
+    "title": "Showcase Cinema",
+    "url": "https://template-showcase-demo-indy-consumer.netlify.app/variant-a-circuit/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 57
+        },
+        "parts": [
+          {
+            "image": "showcase-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 57
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/showcase-header.jpg",
+        "width": 1521,
+        "height": 57
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-28122",
+        "bounds": {
+          "x": 0,
+          "y": 57,
+          "width": 1521,
+          "height": 609
+        },
+        "parts": [
+          {
+            "image": "showcase-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 57,
+              "width": 1521,
+              "height": 609
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/showcase-hero.jpg",
+        "width": 1521,
+        "height": 609
+      },
+      {
+        "slot": "food",
+        "className": "section-food-a---chip-rail-28124 q-px-xs section-food-a---chip-rail-28124",
+        "bounds": {
+          "x": 40,
+          "y": 1199,
+          "width": 1440,
+          "height": 847
+        },
+        "parts": [
+          {
+            "image": "showcase-food-part0.jpg",
+            "bounds": {
+              "x": 40,
+              "y": 1199,
+              "width": 1440,
+              "height": 847
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/showcase-food.jpg",
+        "width": 1440,
+        "height": 847
+      },
+      {
+        "slot": "events",
+        "className": "section-events-a---rate-card-28123 q-px-xs section-events-a---rate-card-28123",
+        "bounds": {
+          "x": 0,
+          "y": 665,
+          "width": 1521,
+          "height": 535
+        },
+        "parts": [
+          {
+            "image": "showcase-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 665,
+              "width": 1521,
+              "height": 535
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/showcase-events.jpg",
+        "width": 1521,
+        "height": 535
+      },
+      {
+        "slot": "membership",
+        "className": "section-membership-a---tier-rail-28127 q-px-xs section-membership-a---tier-rail-28127",
+        "bounds": {
+          "x": 0,
+          "y": 3188,
+          "width": 1521,
+          "height": 955
+        },
+        "parts": [
+          {
+            "image": "showcase-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3188,
+              "width": 1521,
+              "height": 955
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/showcase-membership.jpg",
+        "width": 1521,
+        "height": 955
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-a---compressed-column-28125 q-px-xs section-contact-a---compressed-column-28125",
+        "bounds": {
+          "x": 0,
+          "y": 2046,
+          "width": 1521,
+          "height": 590
+        },
+        "parts": [
+          {
+            "image": "showcase-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2046,
+              "width": 1521,
+              "height": 590
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/showcase-contact.jpg",
+        "width": 1521,
+        "height": 590
+      }
+    ]
+  },
+  {
+    "name": "Reel",
+    "id": 185,
+    "slug": "variant-b-rep",
+    "capturedAt": "2026-10-26T12:14:46.712Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-185",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-25598",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-25598",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nplay_arrow\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nplay_arrow\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-reel-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-reel-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-b-rep/",
+          "text": "HOME",
+          "width": 43.025001525878906
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 41.4375
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 91.20000457763672
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 36.76250076293945
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 92.3375015258789
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 171.97500610351562
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 118.63750457763672
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Reel Cinema",
+      "url": "https://template-reel-indy-consumer.netlify.app/variant-b-rep/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Reel",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 7954,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(250, 244, 239)",
+      "border": "rgb(189, 128, 85)",
+      "bounds": {
+        "height": 134.5625,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-b-rep-6110",
+    "nativeColors": {
+      "accent": "#bd8055",
+      "background": "#faf4ef",
+      "dark": "#30232a",
+      "header": "#34202c",
+      "primary": "#8e344a",
+      "secondary": "#dfb2ba"
+    },
+    "sections": [
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 530.6000366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 135
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-25598",
+        "headerRole": "#34202c",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 1420.7249755859375,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 665.6000366210938
+        },
+        "className": "section-events-b---playbill-25596 q-px-xs section-events-b---playbill-25596",
+        "headerRole": "#34202c",
+        "text": "THE PROGRAMME\n\nOccasions\n\nFirst Sunday monthly\n\nCarols and Kubrick\n\nDoors at six, and the bar stays open through the credits. Mulled wine is poured from five, and we will keep your seats for ten minutes.\n\nSecond Friday m"
+      },
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 2206.550048828125,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2086.324951171875
+        },
+        "className": "section-food-b---printed-menu-25597 q-px-xs section-food-b---printed-menu-25597",
+        "headerRole": "#34202c",
+        "text": "The menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickle"
+      },
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 688.7750244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4292.875
+        },
+        "className": "section-contact-b---split-desk-25599 q-px-xs section-contact-b---split-desk-25599",
+        "headerRole": "#34202c",
+        "text": "Write to us\nName\nEmail\nWhat you have in mind\nSend the note"
+      },
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 918.5375366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4981.64990234375
+        },
+        "className": "section-find-us-b---street-plate-25600 q-px-xs section-find-us-b---street-plate-25600",
+        "headerRole": "#34202c",
+        "text": "GETTING HERE\n\n18 Example Avenue\n\nAnn Arbor, Michigan · opposite the library, under the vertical sign.\n\nHOURS\n\nBox office opens an hour before the first film.\nBar from four, seven days.\nClosed Christmas Day.\n\nGETTING HERE"
+      },
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 1257.1375732421875,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 5900.1875
+        },
+        "className": "section-membership-b---subscriber-bill-25601 q-px-xs section-membership-b---subscriber-bill-25601",
+        "headerRole": "#34202c",
+        "text": "MEMBERSHIP\n\nBelong to the Rep\n\nThree tiers, named after the three places you can sit. All of them earn points; two of them pay for themselves.\n\nI\n\nParterre\n\nNO SUBSCRIPTION\n\nBECOME A MEMBER\n\nMembership is free. You give "
+      },
+      {
+        "accentRole": "#bd8055",
+        "bounds": {
+          "height": 797.25,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 7157.3251953125
+        },
+        "className": "fdp-b-private-parties section-private-parties-b---your-own-evening-25603 q-px-xs section-private-parties-b---your-own-evening-25603",
+        "headerRole": "#34202c",
+        "text": "An evening of your own.\nA room, a screen, and the people you choose.\n\nPRIVATE HIRE / BY ARRANGEMENT\n\nMake it your occasion.\n\nA birthday, a celebration, a company gathering, or simply a film shared with your favourite peo"
+      }
+    ],
+    "title": "Reel Cinema",
+    "url": "https://template-reel-indy-consumer.netlify.app/variant-b-rep/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 135
+        },
+        "parts": [
+          {
+            "image": "reel-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 135
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/reel-header.jpg",
+        "width": 1521,
+        "height": 135
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-25598",
+        "bounds": {
+          "x": 0,
+          "y": 135,
+          "width": 1521,
+          "height": 531
+        },
+        "parts": [
+          {
+            "image": "reel-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 135,
+              "width": 1521,
+              "height": 531
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/reel-hero.jpg",
+        "width": 1521,
+        "height": 531
+      },
+      {
+        "slot": "food",
+        "className": "section-food-b---printed-menu-25597 q-px-xs section-food-b---printed-menu-25597",
+        "bounds": {
+          "x": 0,
+          "y": 2086,
+          "width": 1521,
+          "height": 2207
+        },
+        "parts": [
+          {
+            "image": "reel-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2086,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "reel-food-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3486,
+              "width": 1521,
+              "height": 807
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/reel-food.jpg",
+        "width": 1521,
+        "height": 2207
+      },
+      {
+        "slot": "events",
+        "className": "fdp-b-private-parties section-private-parties-b---your-own-evening-25603 q-px-xs section-private-parties-b---your-own-evening-25603",
+        "bounds": {
+          "x": 0,
+          "y": 7157,
+          "width": 1521,
+          "height": 798
+        },
+        "parts": [
+          {
+            "image": "reel-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 7157,
+              "width": 1521,
+              "height": 798
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/reel-events.jpg",
+        "width": 1521,
+        "height": 798
+      },
+      {
+        "slot": "membership",
+        "className": "section-membership-b---subscriber-bill-25601 q-px-xs section-membership-b---subscriber-bill-25601",
+        "bounds": {
+          "x": 0,
+          "y": 5900,
+          "width": 1521,
+          "height": 1258
+        },
+        "parts": [
+          {
+            "image": "reel-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 5900,
+              "width": 1521,
+              "height": 1258
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/reel-membership.jpg",
+        "width": 1521,
+        "height": 1258
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-b---split-desk-25599 q-px-xs section-contact-b---split-desk-25599",
+        "bounds": {
+          "x": 0,
+          "y": 4292,
+          "width": 1521,
+          "height": 689
+        },
+        "parts": [
+          {
+            "image": "reel-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 4292,
+              "width": 1521,
+              "height": 689
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/reel-contact.jpg",
+        "width": 1521,
+        "height": 689
+      }
+    ]
+  },
+  {
+    "name": "Neon",
+    "id": 186,
+    "slug": "variant-c-late",
+    "capturedAt": "2026-10-26T12:01:14.391Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-186",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-25922",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-25922",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min·\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min·Animation·\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min·Comedy·\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min·Action·\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-neon-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-neon-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-c-late/",
+          "text": "HOME",
+          "width": 42.837501525878906
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 44.875
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 81.5875015258789
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 39.92499923706055
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 86.8125
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 143.28750610351562
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 105.1875
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Neon Cinema",
+      "url": "https://template-neon-indy-consumer.netlify.app/variant-c-late/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Neon",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 4507,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(9, 45, 52)",
+      "border": "rgb(206, 239, 104)",
+      "bounds": {
+        "height": 64.80000305175781,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-c-late-6197",
+    "nativeColors": {
+      "accent": "#ceef68",
+      "background": "#f0faf7",
+      "dark": "#102e33",
+      "header": "#092d34",
+      "primary": "#087f82",
+      "secondary": "#71dbcc"
+    },
+    "sections": [
+      {
+        "accentRole": "#ceef68",
+        "bounds": {
+          "height": 449.3999938964844,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 65
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-25922",
+        "headerRole": "#092d34",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min·\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage fro"
+      },
+      {
+        "accentRole": "#ceef68",
+        "bounds": {
+          "height": 768.5,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 514.4000244140625
+        },
+        "className": "section-events-c---ticket-stack-25923 q-px-xs section-events-c---ticket-stack-25923",
+        "headerRole": "#092d34",
+        "text": "WEDDINGS\n\nTake the whole house\n\nThree rooms · up to 84\n\nPRIVATE HIRE\n\nOne room, one night\n\nFrom 600\n\nLATE SHOW\n\nDoors at eleven\n\nKitchen until 1am\n\nSUPPER CLUB\n\nA film and four courses\n\nOne sitting · 28\n\nCOMPANY NIGHTS\n\n"
+      },
+      {
+        "accentRole": "#ceef68",
+        "bounds": {
+          "height": 849.4125366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 1282.9000244140625
+        },
+        "className": "section-food-c---tile-wall-25924 q-px-xs section-food-c---tile-wall-25924",
+        "headerRole": "#092d34",
+        "text": "KITCHEN TILL ONE\nSNACKS\nDRINKS\nDESSERTS\nMARQUEE POPCORN\nStarting at$7.00\nNO COUNTRY FOR OLD NACHOS\n$14.00\nTHE PRETZEL IDENTITY\n$11.00\nSODA\nStarting at$6.00\nPIE HARD\n$10.00\nSUNDAE, BLOODY SUNDAE\n$10.00\nMOVIE CANDY\n$5.00"
+      },
+      {
+        "accentRole": "#ceef68",
+        "bounds": {
+          "height": 494.2625122070313,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2132.3125
+        },
+        "className": "section-contact-c---statement-line-25925 q-px-xs section-contact-c---statement-line-25925",
+        "headerRole": "#092d34",
+        "text": "Tell us what you want to take over. We will find a night for it.\nName\nEmail\nWhat you want to take over\nSend"
+      },
+      {
+        "accentRole": "#ceef68",
+        "bounds": {
+          "height": 601.1000366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2626.574951171875
+        },
+        "className": "section-find-us-c---night-map-25926 q-px-xs section-find-us-c---night-map-25926",
+        "headerRole": "#092d34",
+        "text": "FIND US · OPEN LATE\n\n44 EXAMPLE STREET\n\nDetroit, Michigan · black door, no sign, next to the laundromat.\n\nOPEN IN MAPS\nDOORS\n17:00 – 02:00\nKITCHEN\nUntil 01:00\nLAST FILM\n23:45 most nights\nTRANSIT\nQLine to Example · night "
+      },
+      {
+        "accentRole": "#ceef68",
+        "bounds": {
+          "height": 1279.4124755859375,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3227.675048828125
+        },
+        "className": "section-membership-c---card-ledger-25927 q-px-xs section-membership-c---card-ledger-25927",
+        "headerRole": "#092d34",
+        "text": "MEMBERSHIP\n\nCARRY THE CARD\n\nThree tiers. No queue, no booking fee, and a tab that remembers you. Points post overnight and never round down.\n\nPARTERRE\n\nFREE · NO COMMITMENT\n\n1× points\n\nBALCONY\n\n$7 / MONTH\n\n2× points\n\nCIR"
+      }
+    ],
+    "title": "Neon Cinema",
+    "url": "https://template-neon-indy-consumer.netlify.app/variant-c-late/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 65
+        },
+        "parts": [
+          {
+            "image": "neon-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 65
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/neon-header.jpg",
+        "width": 1521,
+        "height": 65
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-25922",
+        "bounds": {
+          "x": 0,
+          "y": 65,
+          "width": 1521,
+          "height": 450
+        },
+        "parts": [
+          {
+            "image": "neon-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 65,
+              "width": 1521,
+              "height": 450
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/neon-hero.jpg",
+        "width": 1521,
+        "height": 450
+      },
+      {
+        "slot": "food",
+        "className": "section-food-c---tile-wall-25924 q-px-xs section-food-c---tile-wall-25924",
+        "bounds": {
+          "x": 0,
+          "y": 1282,
+          "width": 1521,
+          "height": 850
+        },
+        "parts": [
+          {
+            "image": "neon-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 1282,
+              "width": 1521,
+              "height": 850
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/neon-food.jpg",
+        "width": 1521,
+        "height": 850
+      },
+      {
+        "slot": "events",
+        "className": "section-events-c---ticket-stack-25923 q-px-xs section-events-c---ticket-stack-25923",
+        "bounds": {
+          "x": 0,
+          "y": 514,
+          "width": 1521,
+          "height": 769
+        },
+        "parts": [
+          {
+            "image": "neon-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 514,
+              "width": 1521,
+              "height": 769
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/neon-events.jpg",
+        "width": 1521,
+        "height": 769
+      },
+      {
+        "slot": "membership",
+        "className": "section-membership-c---card-ledger-25927 q-px-xs section-membership-c---card-ledger-25927",
+        "bounds": {
+          "x": 0,
+          "y": 3227,
+          "width": 1521,
+          "height": 1280
+        },
+        "parts": [
+          {
+            "image": "neon-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3227,
+              "width": 1521,
+              "height": 1280
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/neon-membership.jpg",
+        "width": 1521,
+        "height": 1280
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-c---statement-line-25925 q-px-xs section-contact-c---statement-line-25925",
+        "bounds": {
+          "x": 0,
+          "y": 2132,
+          "width": 1521,
+          "height": 495
+        },
+        "parts": [
+          {
+            "image": "neon-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2132,
+              "width": 1521,
+              "height": 495
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/neon-contact.jpg",
+        "width": 1521,
+        "height": 495
+      }
+    ]
+  },
+  {
+    "name": "Cameo",
+    "id": 187,
+    "slug": "variant-d-odd",
+    "capturedAt": "2026-10-26T12:07:57.445Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-187",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-26248 bg-dark",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-26248 bg-dark",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-cameo-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-cameo-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-d-odd/",
+          "text": "Home",
+          "width": 63.84951400756836
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films",
+          "width": 58.11503982543945
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar",
+          "width": 99.7414093017578
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit",
+          "width": 53.73066329956055
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership",
+          "width": 103.77519989013672
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights",
+          "width": 153.3582000732422
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events",
+          "width": 112.1201171875
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Cameo Cinema",
+      "url": "https://template-cameo-indy-consumer.netlify.app/variant-d-odd/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Cameo",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 7758,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(255, 244, 235)",
+      "border": "rgb(218, 143, 72)",
+      "bounds": {
+        "height": 152.8000030517578,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-d-odd-6286",
+    "nativeColors": {
+      "accent": "#da8f48",
+      "background": "#fff4eb",
+      "dark": "#3d2531",
+      "header": "#432a36",
+      "primary": "#b84f3a",
+      "secondary": "#f2b7a0"
+    },
+    "sections": [
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 608.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 153
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-26248 bg-dark",
+        "headerRole": "#432a36",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 1525.675048828125,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 761.4000244140625
+        },
+        "className": "section-events-d---noticeboard-26249 q-px-xs section-events-d---noticeboard-26249",
+        "headerRole": "#432a36",
+        "text": " \n\nPRIVATE HIRE & OCCASIONS\n\n \nThings we will happily let you do in here\n \n   \n\nBIRTHDAYS\n\nWe'll put your name on the screen before the trailers.\n\nCake is your problem. · 14–42 seats · from $280 · a week's notice\n\nPICK A"
+      },
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 1756.675048828125,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2287.074951171875
+        },
+        "className": "section-food-d---sticker-sheet-26250 q-px-xs section-food-d---sticker-sheet-26250",
+        "headerRole": "#432a36",
+        "text": "Snacks, mostly\nwe make these ourselves\nSNACKS\nDRINKS\nDESSERTS\n\nSnacks\n\nMarquee Popcorn\nStarting at$7.00\nNo Country for Old Nachos\n$14.00\nThe Pretzel Identity\n$11.00\n\nDrinks\n\nSoda\nStarting at$6.00\n\nDesserts\n\nPie Hard\n$10."
+      },
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 0,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4043.75
+        },
+        "className": "section-contact-d---anchor-26251 q-px-xs section-contact-d---anchor-26251",
+        "headerRole": "#432a36",
+        "text": ""
+      },
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 552.9125366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4043.75
+        },
+        "className": "section-contact-d---postcard-26252 q-px-xs section-contact-d---postcard-26252",
+        "headerRole": "#432a36",
+        "text": "Dear Adam Template Testing 2,\nNAME\nEMAIL\nMESSAGE\nPOST IT"
+      },
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 1272.0750732421875,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4596.66259765625
+        },
+        "className": "section-find-us-d---hand-drawn-map-26253 q-px-xs section-find-us-d---hand-drawn-map-26253",
+        "headerRole": "#432a36",
+        "text": " \n   \n \n \n   \n\nFIND US\n\n   \n120 Example Street\n   \n\nChicago, IL 60622\nLook for the hand-painted sign. If you can see the laundromat, you have gone one door too far.\n\n   \n     \nBOX OFFICE\nOpens 45 minutes before the first"
+      },
+      {
+        "accentRole": "#da8f48",
+        "bounds": {
+          "height": 1889.112548828125,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 5868.73779296875
+        },
+        "className": "section-membership-d---loyalty-card-26254 q-px-xs section-membership-d---loyalty-card-26254",
+        "headerRole": "#432a36",
+        "text": " \n   \n\nTHE CLUB\n\n   \nTen stamps. The eleventh ticket is on us.\n   \n\nEvery visit gets a stamp. No app, no password reset, no \"points expire Tuesday\". Lose the card and we will believe you, once.\n\n \n \n   \n\nLOYALTY CARD · N"
+      }
+    ],
+    "title": "Cameo Cinema",
+    "url": "https://template-cameo-indy-consumer.netlify.app/variant-d-odd/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 153
+        },
+        "parts": [
+          {
+            "image": "cameo-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 153
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/cameo-header.jpg",
+        "width": 1521,
+        "height": 153
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-26248 bg-dark",
+        "bounds": {
+          "x": 0,
+          "y": 153,
+          "width": 1521,
+          "height": 609
+        },
+        "parts": [
+          {
+            "image": "cameo-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 153,
+              "width": 1521,
+              "height": 609
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/cameo-hero.jpg",
+        "width": 1521,
+        "height": 609
+      },
+      {
+        "slot": "food",
+        "className": "section-food-d---sticker-sheet-26250 q-px-xs section-food-d---sticker-sheet-26250",
+        "bounds": {
+          "x": 0,
+          "y": 2287,
+          "width": 1521,
+          "height": 1757
+        },
+        "parts": [
+          {
+            "image": "cameo-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2287,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "cameo-food-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3687,
+              "width": 1521,
+              "height": 357
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/cameo-food.jpg",
+        "width": 1521,
+        "height": 1757
+      },
+      {
+        "slot": "events",
+        "className": "section-events-d---noticeboard-26249 q-px-xs section-events-d---noticeboard-26249",
+        "bounds": {
+          "x": 0,
+          "y": 761,
+          "width": 1521,
+          "height": 1526
+        },
+        "parts": [
+          {
+            "image": "cameo-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 761,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "cameo-events-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2161,
+              "width": 1521,
+              "height": 126
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/cameo-events.jpg",
+        "width": 1521,
+        "height": 1526
+      },
+      {
+        "slot": "membership",
+        "className": "section-membership-d---loyalty-card-26254 q-px-xs section-membership-d---loyalty-card-26254",
+        "bounds": {
+          "x": 0,
+          "y": 5868,
+          "width": 1521,
+          "height": 1890
+        },
+        "parts": [
+          {
+            "image": "cameo-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 5868,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "cameo-membership-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 7268,
+              "width": 1521,
+              "height": 490
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/cameo-membership.jpg",
+        "width": 1521,
+        "height": 1890
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-d---postcard-26252 q-px-xs section-contact-d---postcard-26252",
+        "bounds": {
+          "x": 0,
+          "y": 4043,
+          "width": 1521,
+          "height": 553
+        },
+        "parts": [
+          {
+            "image": "cameo-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 4043,
+              "width": 1521,
+              "height": 553
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/cameo-contact.jpg",
+        "width": 1521,
+        "height": 553
+      }
+    ]
+  },
+  {
+    "name": "Metropolis",
+    "id": 188,
+    "slug": "variant-e-grid",
+    "capturedAt": "2026-10-26T12:15:15.355Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-188",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-26574",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-26574",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nplay_arrow\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nplay_arrow\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-metropolis-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-metropolis-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-e-grid/",
+          "text": "Home",
+          "width": 40.97500228881836
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films",
+          "width": 35.54999923706055
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar",
+          "width": 77.5
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit",
+          "width": 30.850000381469727
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership",
+          "width": 80.92500305175781
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights",
+          "width": 131.125
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events",
+          "width": 117.2750015258789
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Metropolis Cinema",
+      "url": "https://template-metropolis-indy-consumer.netlify.app/variant-e-grid/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Metropolis",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 5712,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(16, 46, 76)",
+      "border": "rgb(217, 172, 84)",
+      "bounds": {
+        "height": 64.8125,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-e-grid-6373",
+    "nativeColors": {
+      "accent": "#d9ac54",
+      "background": "#f1f5fa",
+      "dark": "#152f4a",
+      "header": "#102e4c",
+      "primary": "#235d98",
+      "secondary": "#b0cde9"
+    },
+    "sections": [
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 618.6000366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 65
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-26574",
+        "headerRole": "#102e4c",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 1067,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 683.6000366210938
+        },
+        "className": "section-events-e---packages-26575",
+        "headerRole": "#102e4c",
+        "text": " \n   \nPrivate hire, three ways\n   \n\nPick a package and tell us the date. Weddings, birthdays and corporate screenings all fit one of these.\n\n \n \n   \n     \n\nScreening\n\n     \n\nfrom $450\n\n     \n       \nUp to 42 guests\n     "
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 1592.3499755859375,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 1750.5999755859375
+        },
+        "className": "section-food-e---catalogue-26576",
+        "headerRole": "#102e4c",
+        "text": "Menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled ja"
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 0,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3342.949951171875
+        },
+        "className": "section-contact-e---anchor-26577 q-px-xs section-contact-e---anchor-26577",
+        "headerRole": "#102e4c",
+        "text": ""
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 540.7999877929688,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3342.949951171875
+        },
+        "className": "section-contact-e---support-panel-26578",
+        "headerRole": "#102e4c",
+        "text": "Send us a message\nName\nEmail\nMessage\nSend message"
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 276.6000061035156,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3883.75
+        },
+        "className": "section-contact-e---channels-26579",
+        "headerRole": "#102e4c",
+        "text": " \n\nWe reply within one working day. For same-day questions, call the box office.\n\n \n   \n     \n     \n\nPhone\n\n     \n\n(312) 555-0100\n\n     \n\nBox office, 12:00–22:00 daily\n\n   \n   \n     \n     \n\nEmail\n\n     \n\nhello@example.co"
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 555.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4160.35009765625
+        },
+        "className": "section-find-us-e---location-card-26580",
+        "headerRole": "#102e4c",
+        "text": " \n   \n \n \n   \n\nLocation\n\n   \n120 Example Street\n   \n\nChicago, IL 60622\nCorner of Example and Sample, two blocks from the Blue Line.\n\n   \n     \nBox office\nOpens 45 minutes before the first show\n     \nParking\nGarage next d"
+      },
+      {
+        "accentRole": "#d9ac54",
+        "bounds": {
+          "height": 996,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4715.75
+        },
+        "className": "section-membership-e---tiers-26581",
+        "headerRole": "#102e4c",
+        "text": " \n   \nMembership\n   \n\nPoints on everything, cheaper tickets, and a seat held when you are running late. Cancel any month.\n\n \n \n   \n     \n\nStandard\n\n     \n\nFree\n\n     \n       \n1 point per dollar\n       \n$3 off every Tuesd"
+      }
+    ],
+    "title": "Metropolis Cinema",
+    "url": "https://template-metropolis-indy-consumer.netlify.app/variant-e-grid/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 65
+        },
+        "parts": [
+          {
+            "image": "metropolis-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 65
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/metropolis-header.jpg",
+        "width": 1521,
+        "height": 65
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-26574",
+        "bounds": {
+          "x": 0,
+          "y": 65,
+          "width": 1521,
+          "height": 619
+        },
+        "parts": [
+          {
+            "image": "metropolis-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 65,
+              "width": 1521,
+              "height": 619
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/metropolis-hero.jpg",
+        "width": 1521,
+        "height": 619
+      },
+      {
+        "slot": "food",
+        "className": "section-food-e---catalogue-26576",
+        "bounds": {
+          "x": 0,
+          "y": 1750,
+          "width": 1521,
+          "height": 1593
+        },
+        "parts": [
+          {
+            "image": "metropolis-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 1750,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "metropolis-food-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3150,
+              "width": 1521,
+              "height": 193
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/metropolis-food.jpg",
+        "width": 1521,
+        "height": 1593
+      },
+      {
+        "slot": "events",
+        "className": "section-events-e---packages-26575",
+        "bounds": {
+          "x": 0,
+          "y": 683,
+          "width": 1521,
+          "height": 1067
+        },
+        "parts": [
+          {
+            "image": "metropolis-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 683,
+              "width": 1521,
+              "height": 1067
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/metropolis-events.jpg",
+        "width": 1521,
+        "height": 1067
+      },
+      {
+        "slot": "membership",
+        "className": "section-membership-e---tiers-26581",
+        "bounds": {
+          "x": 0,
+          "y": 4715,
+          "width": 1521,
+          "height": 996
+        },
+        "parts": [
+          {
+            "image": "metropolis-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 4715,
+              "width": 1521,
+              "height": 996
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/metropolis-membership.jpg",
+        "width": 1521,
+        "height": 996
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-e---support-panel-26578",
+        "bounds": {
+          "x": 0,
+          "y": 3342,
+          "width": 1521,
+          "height": 541
+        },
+        "parts": [
+          {
+            "image": "metropolis-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3342,
+              "width": 1521,
+              "height": 541
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/metropolis-contact.jpg",
+        "width": 1521,
+        "height": 541
+      }
+    ]
+  },
+  {
+    "name": "Encore",
+    "id": 191,
+    "slug": "variant-f-concrete",
+    "capturedAt": "2026-10-26T12:09:24.705Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-191",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-27532",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-27532",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min·\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min·Animation·\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min·Comedy·\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min·Action·\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-encore-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-encore-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-f-concrete/",
+          "text": "HOME",
+          "width": 238.40000915527344
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 238.40000915527344
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 238.40000915527344
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 238.40000915527344
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 238.40000915527344
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 238.40000915527344
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 238.40000915527344
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Encore Cinema",
+      "url": "https://template-encore-indy-consumer.netlify.app/variant-f-concrete/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Encore",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 3826,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(32, 33, 38)",
+      "border": "rgb(185, 165, 118)",
+      "bounds": {
+        "height": 639.2000122070312,
+        "width": 240,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-f-concrete-6632",
+    "nativeColors": {
+      "accent": "#b9a576",
+      "background": "#f5f2e9",
+      "dark": "#27282e",
+      "header": "#202126",
+      "primary": "#55565c",
+      "secondary": "#d0c9ba"
+    },
+    "sections": [
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 449.3999938964844,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 0
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-27532",
+        "headerRole": "#202126",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min·\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage fro"
+      },
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 591.6000366210938,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 449.3999938964844
+        },
+        "className": "section-events-f---hire-schedule-27534 q-px-xs section-events-f---hire-schedule-27534",
+        "headerRole": "#202126",
+        "text": " \n    \n\nHIRE\n\n    \n\nScreen 1 seats 42. Screen 2 seats 98. Lobby holds 140 standing.\n\n \n                                                 \nNO.\tOCCASION\tCAPACITY\tFROM\tNOTES\n01\tPrivate screening\t42\t$450\tTwo hours. Your film "
+      },
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 896.5499877929688,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 1041
+        },
+        "className": "section-food-f---price-table-27535 q-px-xs section-food-f---price-table-27535",
+        "headerRole": "#202126",
+        "text": "Menu\nSNACKS\nDRINKS\nDESSERTS\n\nSNACKS\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled ja"
+      },
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 0,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 1937.550048828125
+        },
+        "className": "section-contact-f---anchor-27536 q-px-xs section-contact-f---anchor-27536",
+        "headerRole": "#202126",
+        "text": ""
+      },
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 524.4249877929688,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 1937.550048828125
+        },
+        "className": "section-contact-f---ledger-27537 q-px-xs section-contact-f---ledger-27537",
+        "headerRole": "#202126",
+        "text": "Contact\nName\nEmail\nMessage\nSend"
+      },
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 794.7999877929688,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 2461.97509765625
+        },
+        "className": "section-find-us-f---coordinates-27538 q-px-xs section-find-us-f---coordinates-27538",
+        "headerRole": "#202126",
+        "text": " \n\nFIND\n\n41.9000° N, 87.6700° W\n\n \n    \n     \n       \nADDRESS\n120 Example Street, Chicago, IL 60622\n       \nENTRANCE\nExample Street side. Step-free. Companion seats free.\n       \nTRANSIT\nBlue Line to Example, 4 min on fo"
+      },
+      {
+        "accentRole": "#b9a576",
+        "bounds": {
+          "height": 569.2000122070312,
+          "width": 1280.800048828125,
+          "x": 240,
+          "y": 3256.775146484375
+        },
+        "className": "section-membership-f---tariff-27539 q-px-xs section-membership-f---tariff-27539",
+        "headerRole": "#202126",
+        "text": " \n\nTARIFF\n\nMonthly. Cancel any time. Prices include tax.\n\n                                 \nNO.\tTIER\tPER MONTH\tINCLUDES\n01\tStandard\t$0\t1 point per dollar. $3 off Tuesdays. Birthday ticket.\n02\tPlus\t$7\tStandard, plus one t"
+      }
+    ],
+    "title": "Encore Cinema",
+    "url": "https://template-encore-indy-consumer.netlify.app/variant-f-concrete/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 639
+        },
+        "parts": [
+          {
+            "image": "encore-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 240,
+              "height": 639
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/encore-header.jpg",
+        "width": 240,
+        "height": 639
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-27532",
+        "bounds": {
+          "x": 240,
+          "y": 0,
+          "width": 1281,
+          "height": 450
+        },
+        "parts": [
+          {
+            "image": "encore-hero-part0.jpg",
+            "bounds": {
+              "x": 240,
+              "y": 0,
+              "width": 1281,
+              "height": 450
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/encore-hero.jpg",
+        "width": 1281,
+        "height": 450
+      },
+      {
+        "slot": "food",
+        "className": "section-food-f---price-table-27535 q-px-xs section-food-f---price-table-27535",
+        "bounds": {
+          "x": 240,
+          "y": 1041,
+          "width": 1281,
+          "height": 897
+        },
+        "parts": [
+          {
+            "image": "encore-food-part0.jpg",
+            "bounds": {
+              "x": 240,
+              "y": 1041,
+              "width": 1281,
+              "height": 897
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/encore-food.jpg",
+        "width": 1281,
+        "height": 897
+      },
+      {
+        "slot": "events",
+        "className": "section-events-f---hire-schedule-27534 q-px-xs section-events-f---hire-schedule-27534",
+        "bounds": {
+          "x": 240,
+          "y": 449,
+          "width": 1281,
+          "height": 592
+        },
+        "parts": [
+          {
+            "image": "encore-events-part0.jpg",
+            "bounds": {
+              "x": 240,
+              "y": 449,
+              "width": 1281,
+              "height": 592
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/encore-events.jpg",
+        "width": 1281,
+        "height": 592
+      },
+      {
+        "slot": "membership",
+        "className": "section-membership-f---tariff-27539 q-px-xs section-membership-f---tariff-27539",
+        "bounds": {
+          "x": 240,
+          "y": 3256,
+          "width": 1281,
+          "height": 570
+        },
+        "parts": [
+          {
+            "image": "encore-membership-part0.jpg",
+            "bounds": {
+              "x": 240,
+              "y": 3256,
+              "width": 1281,
+              "height": 570
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/encore-membership.jpg",
+        "width": 1281,
+        "height": 570
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-f---ledger-27537 q-px-xs section-contact-f---ledger-27537",
+        "bounds": {
+          "x": 240,
+          "y": 1937,
+          "width": 1281,
+          "height": 525
+        },
+        "parts": [
+          {
+            "image": "encore-contact-part0.jpg",
+            "bounds": {
+              "x": 240,
+              "y": 1937,
+              "width": 1281,
+              "height": 525
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/encore-contact.jpg",
+        "width": 1281,
+        "height": 525
+      }
+    ]
+  },
+  {
+    "name": "Splice",
+    "id": 189,
+    "slug": "variant-g-cut",
+    "capturedAt": "2026-10-26T12:09:47.528Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-189",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-28058 bg-dark",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-28058 bg-dark",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-splice-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-splice-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-g-cut/",
+          "text": "HOME",
+          "width": 42.837501525878906
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 44.875
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 81.5875015258789
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 39.92499923706055
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 86.8125
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 143.28750610351562
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 105.1875
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Splice Cinema",
+      "url": "https://template-splice-indy-consumer.netlify.app/variant-g-cut/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Splice",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 5730,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(40, 32, 61)",
+      "border": "rgb(214, 165, 207)",
+      "bounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-g-cut-6461",
+    "nativeColors": {
+      "accent": "#d6a5cf",
+      "background": "#f7f1fb",
+      "dark": "#302240",
+      "header": "#28203d",
+      "primary": "#704cb0",
+      "secondary": "#d4b7ef"
+    },
+    "sections": [
+      {
+        "accentRole": "#d6a5cf",
+        "bounds": {
+          "height": 608.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 99
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-28058 bg-dark",
+        "headerRole": "#28203d",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#d6a5cf",
+        "bounds": {
+          "height": 1792.9500732421875,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 707.4000244140625
+        },
+        "className": "section-events-g---diagonal-stack-26910 q-px-xs section-events-g---diagonal-stack-26910",
+        "headerRole": "#28203d",
+        "text": " \n   \nWeddings.\n   \n\nUP TO 42 GUESTS. ONE ROOM, ONE SCREEN, ONE PERFECT CUE.\n\n   \n\nENQUIRE\n\n \n \n   \nBirthdays.\n   \n\nDOORS AT SIX, FILM AT SEVEN.\n\n   \n\nENQUIRE\n\n \n \n   \nPrivate screenings.\n   \n\nONE ROOM. ONE FILM. YOURS F"
+      },
+      {
+        "accentRole": "#d6a5cf",
+        "bounds": {
+          "height": 1631.9375,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2500.35009765625
+        },
+        "className": "section-food-g---colour-tile-wall-26911 q-px-xs section-food-g---colour-tile-wall-26911",
+        "headerRole": "#28203d",
+        "text": "Menu\nSnacks\nDrinks\nDesserts\n\nSNACKS\n\nMARQUEE POPCORN\nSTARTING AT$7.00\nNO COUNTRY FOR OLD NACHOS\n$14.00\nTHE PRETZEL IDENTITY\n$11.00\n\nDRINKS\n\nSODA\nSTARTING AT$6.00\n\nDESSERTS\n\nPIE HARD\n$10.00\nSUNDAE, BLOODY SUNDAE\n$10.00\nMO"
+      },
+      {
+        "accentRole": "#d6a5cf",
+        "bounds": {
+          "height": 907.2999877929688,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4132.28759765625
+        },
+        "className": "section-contact-g---two-tone-split-26912 q-px-xs section-contact-g---two-tone-split-26912",
+        "headerRole": "#28203d",
+        "text": "Say something.\nNAME\nEMAIL\nMESSAGE\nSEND"
+      },
+      {
+        "accentRole": "#d6a5cf",
+        "bounds": {
+          "height": 690.0499877929688,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 5039.58740234375
+        },
+        "className": "fdp-g-membership section-membership-g---poster-pass-26913 q-px-xs section-membership-g---poster-pass-26913",
+        "headerRole": "#28203d",
+        "text": "BECOME A REGULAR.\nOne great film rarely stays the last.\n01 / THE HABIT\nMORE REASONS\nTO COME BACK.\n\nFind a membership that fits the way you watch: the occasional night out, the weekly ritual, or the next film you cannot m"
+      }
+    ],
+    "title": "Splice Cinema",
+    "url": "https://template-splice-indy-consumer.netlify.app/variant-g-cut/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 99
+        },
+        "parts": [
+          {
+            "image": "splice-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 99
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/splice-header.jpg",
+        "width": 1521,
+        "height": 99
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-28058 bg-dark",
+        "bounds": {
+          "x": 0,
+          "y": 99,
+          "width": 1521,
+          "height": 609
+        },
+        "parts": [
+          {
+            "image": "splice-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 99,
+              "width": 1521,
+              "height": 609
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/splice-hero.jpg",
+        "width": 1521,
+        "height": 609
+      },
+      {
+        "slot": "food",
+        "className": "section-food-g---colour-tile-wall-26911 q-px-xs section-food-g---colour-tile-wall-26911",
+        "bounds": {
+          "x": 0,
+          "y": 2500,
+          "width": 1521,
+          "height": 1632
+        },
+        "parts": [
+          {
+            "image": "splice-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2500,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "splice-food-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3900,
+              "width": 1521,
+              "height": 232
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/splice-food.jpg",
+        "width": 1521,
+        "height": 1632
+      },
+      {
+        "slot": "events",
+        "className": "section-events-g---diagonal-stack-26910 q-px-xs section-events-g---diagonal-stack-26910",
+        "bounds": {
+          "x": 0,
+          "y": 707,
+          "width": 1521,
+          "height": 1793
+        },
+        "parts": [
+          {
+            "image": "splice-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 707,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "splice-events-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2107,
+              "width": 1521,
+              "height": 393
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/splice-events.jpg",
+        "width": 1521,
+        "height": 1793
+      },
+      {
+        "slot": "membership",
+        "className": "fdp-g-membership section-membership-g---poster-pass-26913 q-px-xs section-membership-g---poster-pass-26913",
+        "bounds": {
+          "x": 0,
+          "y": 5039,
+          "width": 1521,
+          "height": 691
+        },
+        "parts": [
+          {
+            "image": "splice-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 5039,
+              "width": 1521,
+              "height": 691
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/splice-membership.jpg",
+        "width": 1521,
+        "height": 691
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-g---two-tone-split-26912 q-px-xs section-contact-g---two-tone-split-26912",
+        "bounds": {
+          "x": 0,
+          "y": 4132,
+          "width": 1521,
+          "height": 908
+        },
+        "parts": [
+          {
+            "image": "splice-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 4132,
+              "width": 1521,
+              "height": 908
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/splice-contact.jpg",
+        "width": 1521,
+        "height": 908
+      }
+    ]
+  },
+  {
+    "name": "Prologue",
+    "id": 190,
+    "slug": "variant-h-storybook",
+    "capturedAt": "2026-10-26T12:10:03.039Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-190",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-28060",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-28060",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-prologue-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-prologue-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-h-storybook/",
+          "text": "HOME",
+          "width": 42.837501525878906
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 44.875
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 81.5875015258789
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 39.92499923706055
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 86.8125
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 143.28750610351562
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 105.1875
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Prologue Cinema",
+      "url": "https://template-prologue-indy-consumer.netlify.app/variant-h-storybook/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Prologue",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 4830,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(30, 52, 42)",
+      "border": "rgb(192, 160, 102)",
+      "bounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-h-storybook-6548",
+    "nativeColors": {
+      "accent": "#c0a066",
+      "background": "#f6f4e9",
+      "dark": "#263d30",
+      "header": "#1e342a",
+      "primary": "#35674c",
+      "secondary": "#bccfad"
+    },
+    "sections": [
+      {
+        "accentRole": "#c0a066",
+        "bounds": {
+          "height": 608.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 99
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-28060",
+        "headerRole": "#1e342a",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#c0a066",
+        "bounds": {
+          "height": 632.8500366210938,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 707.4000244140625
+        },
+        "className": "section-events-h---invitations-27231 q-px-xs section-events-h---invitations-27231",
+        "headerRole": "#1e342a",
+        "text": "Private occasions\n\nYou are invited\n\nAn evening to remember\n\nWeddings\n\nWe request the pleasure of your company for a ceremony, supper and a film chosen for the two of you.\n\nEnquire\n\nA celebration on screen\n\nBirthdays\n\nGat"
+      },
+      {
+        "accentRole": "#c0a066",
+        "bounds": {
+          "height": 1818.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 1340.25
+        },
+        "className": "section-food-h---framed-bill-of-fare-27232 q-px-xs section-food-h---framed-bill-of-fare-27232",
+        "headerRole": "#1e342a",
+        "text": "Menu\nSnacks\nDrinks\nDesserts\n\nSnacks\n\nMarquee Popcorn\nStarting at$7.00\nNo Country for Old Nachos\n$14.00\nThe Pretzel Identity\n$11.00\n\nDrinks\n\nSoda\nStarting at$6.00\n\nDesserts\n\nPie Hard\n$10.00\nSundae, Bloody Sundae\n$10.00\nMo"
+      },
+      {
+        "accentRole": "#c0a066",
+        "bounds": {
+          "height": 821,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3158.650146484375
+        },
+        "className": "section-contact-h---the-letter-27233 q-px-xs section-contact-h---the-letter-27233",
+        "headerRole": "#1e342a",
+        "text": "Write to us\nName\nEmail\nMessage\nSend message"
+      },
+      {
+        "accentRole": "#c0a066",
+        "bounds": {
+          "height": 851.0625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 3979.650146484375
+        },
+        "className": "fdp-h-membership section-membership-h---subscribers-invitation-27234 q-px-xs section-membership-h---subscribers-invitation-27234",
+        "headerRole": "#1e342a",
+        "text": "A place in the story.\nAn invitation to make the cinema part of your life.\n\nFOR THE RETURNING AUDIENCE\n\nEvery visit begins a new chapter.\n\nA familiar room. A different story. Membership is an invitation to return, and to "
+      }
+    ],
+    "title": "Prologue Cinema",
+    "url": "https://template-prologue-indy-consumer.netlify.app/variant-h-storybook/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 99
+        },
+        "parts": [
+          {
+            "image": "prologue-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 99
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/prologue-header.jpg",
+        "width": 1521,
+        "height": 99
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-28060",
+        "bounds": {
+          "x": 0,
+          "y": 99,
+          "width": 1521,
+          "height": 609
+        },
+        "parts": [
+          {
+            "image": "prologue-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 99,
+              "width": 1521,
+              "height": 609
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/prologue-hero.jpg",
+        "width": 1521,
+        "height": 609
+      },
+      {
+        "slot": "food",
+        "className": "section-food-h---framed-bill-of-fare-27232 q-px-xs section-food-h---framed-bill-of-fare-27232",
+        "bounds": {
+          "x": 0,
+          "y": 1340,
+          "width": 1521,
+          "height": 1819
+        },
+        "parts": [
+          {
+            "image": "prologue-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 1340,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "prologue-food-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2740,
+              "width": 1521,
+              "height": 419
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/prologue-food.jpg",
+        "width": 1521,
+        "height": 1819
+      },
+      {
+        "slot": "events",
+        "className": "section-events-h---invitations-27231 q-px-xs section-events-h---invitations-27231",
+        "bounds": {
+          "x": 0,
+          "y": 707,
+          "width": 1521,
+          "height": 633
+        },
+        "parts": [
+          {
+            "image": "prologue-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 707,
+              "width": 1521,
+              "height": 633
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/prologue-events.jpg",
+        "width": 1521,
+        "height": 633
+      },
+      {
+        "slot": "membership",
+        "className": "fdp-h-membership section-membership-h---subscribers-invitation-27234 q-px-xs section-membership-h---subscribers-invitation-27234",
+        "bounds": {
+          "x": 0,
+          "y": 3979,
+          "width": 1521,
+          "height": 852
+        },
+        "parts": [
+          {
+            "image": "prologue-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3979,
+              "width": 1521,
+              "height": 852
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/prologue-membership.jpg",
+        "width": 1521,
+        "height": 852
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-h---the-letter-27233 q-px-xs section-contact-h---the-letter-27233",
+        "bounds": {
+          "x": 0,
+          "y": 3158,
+          "width": 1521,
+          "height": 821
+        },
+        "parts": [
+          {
+            "image": "prologue-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3158,
+              "width": 1521,
+              "height": 821
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/prologue-contact.jpg",
+        "width": 1521,
+        "height": 821
+      }
+    ]
+  },
+  {
+    "name": "Pause",
+    "id": 192,
+    "slug": "variant-i-ma",
+    "capturedAt": "2026-10-26T12:15:23.551Z",
+    "qa": {
+      "bodyClass": "desktop no-touch body--light site-192",
+      "firstSection": "fdp-showtimes-hero section-showtimes-hero-28062",
+      "foods": [
+        {
+          "found": true,
+          "name": "Marquee Popcorn"
+        },
+        {
+          "found": true,
+          "name": "No Country for Old Nachos"
+        },
+        {
+          "found": true,
+          "name": "The Pretzel Identity"
+        },
+        {
+          "found": true,
+          "name": "Soda"
+        },
+        {
+          "found": true,
+          "name": "Pie Hard"
+        },
+        {
+          "found": true,
+          "name": "Sundae, Bloody Sundae"
+        },
+        {
+          "found": true,
+          "name": "Movie Candy"
+        }
+      ],
+      "heroClass": "fdp-showtimes-hero section-showtimes-hero-28062",
+      "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min\n ·  Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-pause-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": true,
+          "src": "https://template-pause-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+        },
+        {
+          "loaded": true,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        },
+        {
+          "loaded": false,
+          "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+        }
+      ],
+      "nav": [
+        {
+          "href": "/variant-i-ma/",
+          "text": "HOME",
+          "width": 42.837501525878906
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "FILMS",
+          "width": 44.875
+        },
+        {
+          "href": "/food-drink/",
+          "text": "MENU & BAR",
+          "width": 81.5875015258789
+        },
+        {
+          "href": "/visit/",
+          "text": "VISIT",
+          "width": 39.92499923706055
+        },
+        {
+          "href": "/membership/",
+          "text": "MEMBERSHIP",
+          "width": 86.8125
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "EVENTS & LATE NIGHTS",
+          "width": 143.28750610351562
+        },
+        {
+          "href": "/private-hire/",
+          "text": "PRIVATE EVENTS",
+          "width": 105.1875
+        }
+      ],
+      "showtimes": [
+        {
+          "disabled": false,
+          "label": "Showtime at 6:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 9:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 3:00 PM"
+        },
+        {
+          "disabled": false,
+          "label": "Showtime at 12:00 PM"
+        }
+      ],
+      "title": "Pause Cinema",
+      "url": "https://template-pause-indy-consumer.netlify.app/variant-i-ma/",
+      "viewport": 1536,
+      "width": 1521,
+      "name": "Pause",
+      "mode": "desktop"
+    },
+    "document": {
+      "height": 6329,
+      "width": 1521
+    },
+    "header": {
+      "background": "rgb(37, 55, 64)",
+      "border": "rgb(167, 185, 179)",
+      "bounds": {
+        "height": 98.9000015258789,
+        "width": 1520.800048828125,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "mainClass": "q-page page-variant-i-ma-6721",
+    "nativeColors": {
+      "accent": "#a7b9b3",
+      "background": "#f2f6f6",
+      "dark": "#2e4149",
+      "header": "#253740",
+      "primary": "#526d7a",
+      "secondary": "#ccd8db"
+    },
+    "sections": [
+      {
+        "accentRole": "#a7b9b3",
+        "bounds": {
+          "height": 608.4000244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 99
+        },
+        "className": "fdp-showtimes-hero section-showtimes-hero-28062",
+        "headerRole": "#253740",
+        "text": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing f"
+      },
+      {
+        "accentRole": "#a7b9b3",
+        "bounds": {
+          "height": 1320.25,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 707.4000244140625
+        },
+        "className": "section-events-i---one-occasion-at-a-time-27868 q-px-xs section-events-i---one-occasion-at-a-time-27868",
+        "headerRole": "#253740",
+        "text": "Private occasions · 01—03\n\n01\nA private screening\n\nFourteen seats, one film, and the room is yours for two unhurried hours.\n\nEnquire\n02\nA quiet celebration\n\nGather the people who matter, choose the picture, and let the e"
+      },
+      {
+        "accentRole": "#a7b9b3",
+        "bounds": {
+          "height": 2225.449951171875,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 2027.6500244140625
+        },
+        "className": "section-food-i---few-items-wide-margins-27869 q-px-xs section-food-i---few-items-wide-margins-27869",
+        "headerRole": "#253740",
+        "text": "A few things\n\nSnacks\n\nMarquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00\nNo Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black "
+      },
+      {
+        "accentRole": "#a7b9b3",
+        "bounds": {
+          "height": 1221.7125244140625,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 4253.10009765625
+        },
+        "className": "section-contact-i---one-question-at-a-time-27870 q-px-xs section-contact-i---one-question-at-a-time-27870",
+        "headerRole": "#253740",
+        "text": "Tell us one thing\nName\nEmail\nMessage\nSend"
+      },
+      {
+        "accentRole": "#a7b9b3",
+        "bounds": {
+          "height": 853.75,
+          "width": 1520.800048828125,
+          "x": 0,
+          "y": 5474.8125
+        },
+        "className": "fdp-i-membership section-membership-i---quiet-return-27871 q-px-xs section-membership-i---quiet-return-27871",
+        "headerRole": "#253740",
+        "text": "Come back.\nA little more room for cinema.\n\nMEMBERSHIP\n\n01\nFind your rhythm.\n\nExplore membership for the way you like to watch.\n\n02\nTake a closer look.\n\nCompare the current options, their details, and what each one includ"
+      }
+    ],
+    "title": "Pause Cinema",
+    "url": "https://template-pause-indy-consumer.netlify.app/variant-i-ma/",
+    "viewport": {
+      "height": 639,
+      "width": 1536
+    },
+    "componentRegions": [
+      {
+        "slot": "header",
+        "className": "native-site-header",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1521,
+          "height": 99
+        },
+        "parts": [
+          {
+            "image": "pause-header-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1521,
+              "height": 99
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/pause-header.jpg",
+        "width": 1521,
+        "height": 99
+      },
+      {
+        "slot": "hero",
+        "className": "fdp-showtimes-hero section-showtimes-hero-28062",
+        "bounds": {
+          "x": 0,
+          "y": 99,
+          "width": 1521,
+          "height": 609
+        },
+        "parts": [
+          {
+            "image": "pause-hero-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 99,
+              "width": 1521,
+              "height": 609
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/pause-hero.jpg",
+        "width": 1521,
+        "height": 609
+      },
+      {
+        "slot": "food",
+        "className": "section-food-i---few-items-wide-margins-27869 q-px-xs section-food-i---few-items-wide-margins-27869",
+        "bounds": {
+          "x": 0,
+          "y": 2027,
+          "width": 1521,
+          "height": 2226
+        },
+        "parts": [
+          {
+            "image": "pause-food-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 2027,
+              "width": 1521,
+              "height": 1400
+            },
+            "offset": 0
+          },
+          {
+            "image": "pause-food-part1.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 3427,
+              "width": 1521,
+              "height": 826
+            },
+            "offset": 1400
+          }
+        ],
+        "image": "screenshots/demos/components/pause-food.jpg",
+        "width": 1521,
+        "height": 2226
+      },
+      {
+        "slot": "events",
+        "className": "section-events-i---one-occasion-at-a-time-27868 q-px-xs section-events-i---one-occasion-at-a-time-27868",
+        "bounds": {
+          "x": 0,
+          "y": 707,
+          "width": 1521,
+          "height": 1321
+        },
+        "parts": [
+          {
+            "image": "pause-events-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 707,
+              "width": 1521,
+              "height": 1321
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/pause-events.jpg",
+        "width": 1521,
+        "height": 1321
+      },
+      {
+        "slot": "membership",
+        "className": "fdp-i-membership section-membership-i---quiet-return-27871 q-px-xs section-membership-i---quiet-return-27871",
+        "bounds": {
+          "x": 0,
+          "y": 5474,
+          "width": 1521,
+          "height": 854
+        },
+        "parts": [
+          {
+            "image": "pause-membership-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 5474,
+              "width": 1521,
+              "height": 854
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/pause-membership.jpg",
+        "width": 1521,
+        "height": 854
+      },
+      {
+        "slot": "contact",
+        "className": "section-contact-i---one-question-at-a-time-27870 q-px-xs section-contact-i---one-question-at-a-time-27870",
+        "bounds": {
+          "x": 0,
+          "y": 4253,
+          "width": 1521,
+          "height": 1222
+        },
+        "parts": [
+          {
+            "image": "pause-contact-part0.jpg",
+            "bounds": {
+              "x": 0,
+              "y": 4253,
+              "width": 1521,
+              "height": 1222
+            },
+            "offset": 0
+          }
+        ],
+        "image": "screenshots/demos/components/pause-contact.jpg",
+        "width": 1521,
+        "height": 1222
+      }
+    ]
+  }
+]

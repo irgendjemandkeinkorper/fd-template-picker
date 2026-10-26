@@ -20,7 +20,7 @@ test('every A-L preset represents all six required source components', async () 
 });
 
 test('repaired choices retain actual published/draft identities and B public programme remains optional', async () => {
-  const catalog = await load('catalog.json');
+  const catalog = await load('evidence/demo-refresh/legacy-catalog.json');
   const journal = await load('evidence/indy-parity-changes.json');
   assert.equal(journal.changes.length, 16);
   const choices = catalog.slots.flatMap((slot) => slot.options.map((option) => ({ slot, option })));
@@ -40,4 +40,19 @@ test('repaired choices retain actual published/draft identities and B public pro
   const privateParty = choices.find(({ slot, option }) => slot.id === 'events' && option.variant === 'variant-b-rep');
   assert.deepEqual(privateParty.option.sectionIds, ['25134']);
   assert.ok(choices.filter(({ option }) => option.captureStatus === 'not-rendered').every(({ slot, option }) => componentForOption(slot, option) === null));
+});
+
+test('current demo choices point to the exact live Site/Page/Section behind each refreshed capture', async () => {
+  const catalog = await load('catalog.json'), captures = await load('evidence/demo-refresh/desktop-captures.json');
+  for (const record of captures) for (const region of record.componentRegions) {
+    const option = catalog.slots.find(s => s.id === region.slot).options.find(o => o.variant === record.slug);
+    assert.equal(option.sourceSite.siteId, record.id);
+    assert.equal(option.sourceUrl, record.url);
+    assert.equal(option.pageId, record.mainClass.match(/-(\d+)$/)[1]);
+    assert.deepEqual(option.sectionIds, region.slot === 'header' ? [] : [region.className.match(/section-[a-z0-9-]+-(\d+)/)[1]]);
+    assert.ok(option.legacySourceReference);
+    assert.equal(option.image, region.image);
+    assert.equal(option.capture.appearanceAltered, false);
+    assert.equal(option.capture.sampleDataInjected, false);
+  }
 });

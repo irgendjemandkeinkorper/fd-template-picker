@@ -34,7 +34,9 @@ test('Hub preserves the approved A–I mapping and reviewed catalog sources with
 });
 
 test('a provisioned empty shell stays internal and cannot become an advertised Hub demo', () => {
-  const model = createTemplateHubModel(catalog, data);
+  const held = structuredClone(data);
+  held.templates[0].demoSite = { status: 'shell-provisioned', homepageUrl: null, showcaseUrl: null };
+  const model = createTemplateHubModel(catalog, held);
   const showcase = model.templates.find(template => template.letter === 'A');
   assert.equal(showcase.demoSiteStatus, 'shell-provisioned');
   assert.equal(showcase.homepageUrl, null);
@@ -42,11 +44,11 @@ test('a provisioned empty shell stays internal and cannot become an advertised H
   const heldUrl = 'https://template-showcase-indy-consumer.netlify.app/';
   assert.notEqual(showcase.sourceUrl, heldUrl);
   for (const field of ['homepageUrl', 'showcaseUrl']) {
-    const unready = structuredClone(data);
+    const unready = structuredClone(held);
     unready.templates[0].demoSite[field] = heldUrl;
     assert.throws(() => createTemplateHubModel(catalog, unready), /Unverified demo Site URLs/);
   }
-  const root = renderTemplateHub(catalog, data, { document });
+  const root = renderTemplateHub(catalog, held, { document });
   const links = descendants(root).filter(node => node.tag === 'a');
   assert.equal(links.length, 9);
   assert.deepEqual(links.map(link => link.href), model.templates.map(template => template.homepageUrl ?? template.sourceUrl));
@@ -58,9 +60,9 @@ test('a provisioned empty shell stays internal and cannot become an advertised H
 
 test('dedicated demos require exact hosts, both viewport checks and reviewed screenshot bytes', () => {
   const model = createTemplateHubModel(catalog, data);
-  for (const template of model.templates.slice(1)) {
+  for (const template of model.templates) {
     assert.equal(template.demoSiteStatus, 'published-display-only');
-    assert.equal(template.homepageUrl, `https://template-${template.displayName.toLowerCase()}-indy-consumer.netlify.app/`);
+    assert.equal(template.homepageUrl, template.letter === 'A' ? 'https://template-showcase-demo-indy-consumer.netlify.app/' : `https://template-${template.displayName.toLowerCase()}-indy-consumer.netlify.app/`);
     assert.equal(template.showcaseUrl, null);
     assert.match(template.thumbnail.src, /^screenshots\/demos\//);
     const source = data.templates.find(item => item.id === template.id);

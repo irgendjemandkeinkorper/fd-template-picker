@@ -1,0 +1,1257 @@
+[
+  {
+    "bodyClass": "desktop no-touch body--light site-186",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-25922",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-25922",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min·Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min·Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min·Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-neon-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-neon-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 319.20001220703125,
+      "right": 355.20001220703125,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 319.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Neon Cinema",
+    "url": "https://template-neon-indy-consumer.netlify.app/variant-c-late/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Neon",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-c-late/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-193",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-28122",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-28122",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-showcase-demo-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-showcase-demo-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 323.20001220703125,
+      "right": 359.20001220703125,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 323.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Showcase Cinema",
+    "url": "https://template-showcase-demo-indy-consumer.netlify.app/variant-a-circuit/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Showcase",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-a-circuit/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-185",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-25598",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-25598",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-reel-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-reel-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 50,
+      "height": 36,
+      "left": 323.20001220703125,
+      "right": 359.20001220703125,
+      "top": 14,
+      "width": 36,
+      "x": 323.20001220703125,
+      "y": 14
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Reel Cinema",
+    "url": "https://template-reel-indy-consumer.netlify.app/variant-b-rep/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Reel",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-b-rep/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-187",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-26248 bg-dark",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-26248 bg-dark",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-cameo-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-cameo-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 67.05000114440918,
+      "height": 36,
+      "left": 323.20001220703125,
+      "right": 359.20001220703125,
+      "top": 31.05000114440918,
+      "width": 36,
+      "x": 323.20001220703125,
+      "y": 31.05000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Cameo Cinema",
+    "url": "https://template-cameo-indy-consumer.netlify.app/variant-d-odd/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Cameo",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-d-odd/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-188",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-26574",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-26574",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-metropolis-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-metropolis-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 323.20001220703125,
+      "right": 359.20001220703125,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 323.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Metropolis Cinema",
+    "url": "https://template-metropolis-indy-consumer.netlify.app/variant-e-grid/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Metropolis",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-e-grid/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-191",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-27532",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-27532",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary \n1 hr 57 min·Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I? \n1 hr 29 min·Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary \nNR\n1 hr 23 min·Action\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-encore-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-encore-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 327.20001220703125,
+      "right": 363.2000122070313,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 327.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Encore Cinema",
+    "url": "https://template-encore-indy-consumer.netlify.app/variant-f-concrete/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Encore",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-f-concrete/",
+        "text": "HOME"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "FILMS"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "MENU & BAR"
+      },
+      {
+        "href": "/visit/",
+        "text": "VISIT"
+      },
+      {
+        "href": "/membership/",
+        "text": "MEMBERSHIP"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "EVENTS & LATE NIGHTS"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "PRIVATE EVENTS"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-189",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-28058 bg-dark",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-28058 bg-dark",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-splice-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-splice-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 327.20001220703125,
+      "right": 363.2000122070313,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 327.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Splice Cinema",
+    "url": "https://template-splice-indy-consumer.netlify.app/variant-g-cut/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Splice",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-g-cut/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-190",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-28060",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-28060",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-prologue-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-prologue-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 327.20001220703125,
+      "right": 363.2000122070313,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 327.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Prologue Cinema",
+    "url": "https://template-prologue-indy-consumer.netlify.app/variant-h-storybook/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Prologue",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-h-storybook/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  },
+  {
+    "bodyClass": "desktop no-touch body--light site-192",
+    "firstSection": "fdp-showtimes-hero section-showtimes-hero-28062",
+    "foods": [
+      {
+        "found": true,
+        "name": "Marquee Popcorn"
+      },
+      {
+        "found": true,
+        "name": "No Country for Old Nachos"
+      },
+      {
+        "found": true,
+        "name": "The Pretzel Identity"
+      },
+      {
+        "found": true,
+        "name": "Soda"
+      },
+      {
+        "found": true,
+        "name": "Pie Hard"
+      },
+      {
+        "found": true,
+        "name": "Sundae, Bloody Sundae"
+      },
+      {
+        "found": true,
+        "name": "Movie Candy"
+      }
+    ],
+    "heroClass": "fdp-showtimes-hero section-showtimes-hero-28062",
+    "heroText": "Now showing\nToday\nMon\n26\nOct\nTue\n27\nOct\nWed\n28\nOct\nThu\n29\nOct\nplay_arrow\nPulp: What Do You Do For An Encore?\n1 hr 39 min\nCharting the Sheffield band’s extraordinary journey from obscurity to cultural touchstone. Fusing footage from Pulp’s biggest ever arena show – part of the global tour for ‘More’, the band’s first album in 24 years – with four decades of colourful, never-seen-before archival material.\n6:00 PM\nplay_arrow\nCars 20th Anniversary\n1 hr 57 min\n ·  Animation\nAfter taking moviegoers magically into the realm of toys, bugs, monsters, fish, and superheroes, the masterful storytellers and technical wizards at Pixar Animation Studios (“The Incredibles,” “Finding Nemo,” “Monsters, Inc.”), and Academy Award®-winning director John Lasseter (“Toy Story,” “Toy Story 2,” “A Bug’s Life”), hit the road with a fast-paced comedy adventure set inside the world of cars. Lightning McQueen (voiced by Owen Wilson), a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. Fueled with plenty of humor, action, heartfelt drama, and amazing new technical feats, “Cars” is a high-octane delight for moviegoers of all ages. In celebration of the 20th Anniversary of Cars, see it back on the big screen when the film races back into theaters starting September 4th.\n9:00 PM\nAli G: Who Iz I?\n1 hr 29 min\n ·  Comedy\nAfter twenty years spent “chillin’, tokin’ and bonin’”, Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child’s very existence.\n3:00 PM\nGhost In The Shell 30th Anniversary\n1 hr 23 min\n ·  Action\nNR\nIn the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.\n12:00 PM",
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/7w4b9x6mo1xxbh1o2px7b7k9kc57?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/whm8zj8jfmg5bw63tqnnxmoo717k?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-pause-indy-consumer.netlify.app/images/film-ratings/us/G.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/19lfhubtoo96j1duhm8gzgfa8vfo?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": true,
+        "src": "https://template-pause-indy-consumer.netlify.app/images/film-ratings/us/R.svg"
+      },
+      {
+        "loaded": true,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      },
+      {
+        "loaded": false,
+        "src": "https://indy-systems.imgix.net/0o1okpnpfgf9xerki8hrhh00x9fh?fit=crop&w=1000&height=500&fm=jpeg&auto=format,compress&cs=origin"
+      }
+    ],
+    "menuButton": {
+      "bottom": 59.55000114440918,
+      "height": 36,
+      "left": 327.20001220703125,
+      "right": 363.2000122070313,
+      "top": 23.55000114440918,
+      "width": 36,
+      "x": 327.20001220703125,
+      "y": 23.55000114440918
+    },
+    "nav": [],
+    "showtimes": [
+      {
+        "disabled": false,
+        "label": "Showtime at 6:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 9:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 3:00 PM"
+      },
+      {
+        "disabled": false,
+        "label": "Showtime at 12:00 PM"
+      }
+    ],
+    "title": "Pause Cinema",
+    "url": "https://template-pause-indy-consumer.netlify.app/variant-i-ma/",
+    "viewport": 390,
+    "width": 375,
+    "name": "Pause",
+    "mode": "phone",
+    "drawer": [
+      {
+        "href": "/variant-i-ma/",
+        "text": "Home"
+      },
+      {
+        "href": "/movie-lineup/",
+        "text": "Films"
+      },
+      {
+        "href": "/food-drink/",
+        "text": "Menu & Bar"
+      },
+      {
+        "href": "/visit/",
+        "text": "Visit"
+      },
+      {
+        "href": "/membership/",
+        "text": "Membership"
+      },
+      {
+        "href": "/events-late-nights/",
+        "text": "Events & Late Nights"
+      },
+      {
+        "href": "/private-hire/",
+        "text": "Private Events"
+      }
+    ]
+  }
+]

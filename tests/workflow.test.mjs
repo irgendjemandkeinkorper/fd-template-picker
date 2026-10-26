@@ -78,7 +78,8 @@ test('the demo has reviewed choices available for every required section', async
     assert.ok(workflow.choicesFor(step.id).length > 0, `${step.label} has no demo choices`);
     assert.ok(workflow.choicesFor(step.id).every(({ option }) => option.visualReview.status === 'passed'));
   }
-  assert.equal(workflow.choicesFor('hero').some(({ option }) => option.id.includes('variant-f')), false);
+  assert.equal(workflow.choicesFor('hero').some(({ option }) => option.id.includes('variant-f')), true);
+  for (const step of GUIDE_STEPS.filter(entry => entry.kind === 'section')) assert.ok(workflow.choicesFor(step.id).every(({ option }) => !/variant-[j-l]-/.test(option.variant)));
 });
 
 test('guided normalization removes hidden extras and replaces an unavailable imported choice without confirming it', () => {
@@ -151,8 +152,8 @@ test('repository navigation offers seven reviewed designs and retains twelve sou
   const workflow = createWorkflow(catalog), slot = catalog.slots.find((entry) => entry.id === 'header');
   assert.equal(slot.options.length, 12);
   assert.equal(workflow.choicesFor('navigation').length, 7);
-  assert.equal(GUIDE_STEPS.filter((step) => step.kind === 'section').reduce((total, step) => total + workflow.choicesFor(step.id).length, 0), 66);
+  assert.equal(GUIDE_STEPS.filter((step) => step.kind === 'section').reduce((total, step) => total + workflow.choicesFor(step.id).length, 0), 52);
   const grouped = slot.options.filter((option) => option.customerDesign?.id === 'navigation-standard');
   assert.equal(grouped.length, 6);
-  assert.ok(grouped.every((option) => option.customerDesign.label === 'Standard' && option.customerDesign.representativeOptionId === 'header--variant-g-cut'));
+  assert.ok(grouped.filter(option => option.customerAvailable).every((option) => option.customerDesign.label === 'Splice / Prologue / Pause' && option.customerDesign.representativeOptionId === 'header--variant-g-cut'));
 });

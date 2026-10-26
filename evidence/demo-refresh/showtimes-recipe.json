@@ -1,0 +1,37 @@
+{
+  "widget": "Showtimes",
+  "name": "Showtimes Hero",
+  "heading": "Now showing",
+  "displayType": "List",
+  "view": "Slider",
+  "useBannerImage": true,
+  "bannerBackground": true,
+  "showTrailerButton": true,
+  "controls": "Show",
+  "pagination": true,
+  "autoplay": false,
+  "showMovieSynopsis": false,
+  "widthMode": "Full Width",
+  "marginSides": null,
+  "classes": "fdp-showtimes-hero",
+  "customCss": "& .movie-container { text-shadow: 0 1px 3px var(--q-dark), 0 2px 12px var(--q-dark); }",
+  "overrides": {
+    "Prologue": {
+      "darkMode": false
+    },
+    "default": {
+      "darkMode": true
+    },
+    "Cameo": {
+      "sectionBackground": "Dark"
+    },
+    "Splice": {
+      "sectionBackground": "Dark"
+    }
+  },
+  "limitations": [
+    "Banner captions can still show native synopsis text in Slider view.",
+    "Destination programming, pricing and availability are required.",
+    "Ticketing is disabled on the demos; no checkout certification."
+  ]
+}

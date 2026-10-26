@@ -1,5 +1,5 @@
 import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildBuildBrief } from './model.mjs';
-import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL, COLOR_ROLES, DEFAULT_PALETTE_ROLES, normalizePalette, paletteForState, assessPalette, paletteKey, PALETTE_BINDING_NOTE } from './colors.mjs';
+import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL, COLOR_ROLES, COLOR_EXAMPLES, DEFAULT_PALETTE_ROLES, normalizePalette, paletteForState, assessPalette, paletteKey, PALETTE_BINDING_NOTE, paletteProceedStatus, CONTRAST_REVIEW_POLICY, CONTRAST_ACKNOWLEDGMENT } from './colors.mjs';
 import { GUIDE_STEPS, createWorkflow } from './workflow.mjs';
 import { HUB_DATA_URL, renderTemplateHub } from './hub.mjs';
 
@@ -52,7 +52,7 @@ try {
 
 function colorContext() {
   const palette = paletteForState(state);
-  return { colorsKey: paletteKey(palette), colorsValid: assessPalette(palette).passes };
+  return { colorsKey: paletteKey(palette), colorsValid: paletteProceedStatus(palette, state.colorAcknowledgment).canProceed };
 }
 function toast(message) {
   clearTimeout(toastTimer); $('toast').textContent = message; $('toast').classList.add('is-visible');
@@ -151,7 +151,11 @@ function renderColors() {
   const palette = paletteForState(state);
   const fields = el('div', { className: 'color-fields' });
   const advancedFields = el('div', { className: 'color-fields color-fields--advanced' });
-  const setColor = (kind, value) => { state.palette.roles[kind] = value; if (['primary', 'secondary'].includes(kind)) state.brandColors[kind] = value; };
+  const setColor = (kind, value) => {
+    const previous = state.palette.roles[kind], changed = (normalizeHexColor(previous) ?? previous) !== (normalizeHexColor(value) ?? value);
+    state.palette.roles[kind] = value; if (['primary', 'secondary'].includes(kind)) state.brandColors[kind] = value;
+    if (changed) { state.colorAcknowledgment = null; delete state.workflow.confirmed.colors; }
+  };
   for (const { id: kind, label: name, advanced } of COLOR_ROLES) {
     const native = el('input', { type: 'color', id: `${kind}Picker`, className: 'color-input', value: normalizeHexColor(palette.roles[kind]) ?? DEFAULT_PALETTE_ROLES[kind] });
     native.setAttribute('aria-label', `Choose ${name.toLowerCase()} color`);
@@ -160,7 +164,9 @@ function renderColors() {
     native.oninput = () => { setColor(kind, native.value.toUpperCase()); hex.value = native.value.toUpperCase(); refreshColorFeedback(); save(); };
     hex.oninput = () => { setColor(kind, hex.value); const valid = normalizeHexColor(hex.value); if (valid) native.value = valid; refreshColorFeedback(); save(); };
     hex.onblur = () => { const valid = normalizeHexColor(hex.value); if (valid) { setColor(kind, valid); hex.value = valid; save(); } };
-    (advanced ? advancedFields : fields).append(el('div', { className: 'color-field' }, el('label', { htmlFor: `${kind}Picker`, textContent: `${name} color` }), el('div', { className: 'color-control' }, native, el('div', {}, hex, el('p', { className: 'hex-hint', textContent: 'Pick a color or enter a hex code' })))));
+    const field = el('div', { className: 'color-field' }, el('label', { htmlFor: `${kind}Picker`, textContent: `${name} color` }), el('div', { className: 'color-control' }, native, el('div', {}, hex, el('p', { className: 'hex-hint', textContent: 'Pick a color or enter a hex code' }))));
+    if (COLOR_EXAMPLES[kind]) field.append(el('p', { className: 'color-role-hint', textContent: COLOR_EXAMPLES[kind] }));
+    (advanced ? advancedFields : fields).append(field);
   }
   const card = el('section', { className: 'contrast-card' }); card.setAttribute('aria-label', 'Color contrast check');
   const samples = el('div', { className: 'contrast-samples' });
@@ -180,11 +186,20 @@ function renderColors() {
     const dark = contrastRatio(bg, '#000000') >= contrastRatio(bg, '#FFFFFF') ? '#000000' : '#FFFFFF';
     setColor('dark', dark); $('darkHex').value = dark; $('darkPicker').value = dark; refreshColorFeedback(); save();
   }); fixBody.id = 'suggestBodyContrast';
-  card.append(el('div', { className: 'contrast-card__heading' }, el('h3', { textContent: 'Text contrast' }), el('span', { id: 'contrastRatio', className: 'contrast-ratio' })), samples, feedback, bodySample, bodyFeedback, fixBody,
+  const acknowledgment = el('input', { id: 'contrastAcknowledgment', type: 'checkbox' });
+  acknowledgment.onchange = () => {
+    state.colorAcknowledgment = acknowledgment.checked ? { policy: CONTRAST_REVIEW_POLICY, paletteKey: paletteKey(paletteForState(state)), acknowledgedAt: new Date().toISOString(), statement: CONTRAST_ACKNOWLEDGMENT } : null;
+    delete state.workflow.confirmed.colors; refreshColorFeedback(); save();
+  };
+  const acknowledgmentBox = el('div', { id: 'contrastAcknowledgmentBox', className: 'contrast-acknowledgment' }, el('p', { textContent: 'You can continue for review when both checked pairs are at least 3:1. Regular text still needs 4.5:1.' }), el('label', { htmlFor: acknowledgment.id }, acknowledgment, el('span', { textContent: CONTRAST_ACKNOWLEDGMENT })));
+  const blocked = el('p', { id: 'contrastBlocked', className: 'contrast-blocked', textContent: 'To continue, both checked text pairs must reach at least 3:1. Adjust the colors or use a suggestion above.' });
+  card.append(el('div', { className: 'contrast-card__heading' }, el('h3', { textContent: 'Text contrast' }), el('span', { id: 'contrastRatio', className: 'contrast-ratio' })), samples, feedback, bodySample, bodyFeedback, fixBody, acknowledgmentBox, blocked,
     el('p', { className: 'palette-check-note', textContent: 'These checks cover the two base text pairs. Your website team will also check text over images, buttons and other states.' }));
   const advanced = el('details', { className: 'advanced-colors' }, el('summary', { textContent: 'Advanced colors · messages, splash screen & seating' }),
     el('p', { textContent: 'Optional. These suggested starter colors are saved with your choices. Your website team will verify how each is used.' }), advancedFields);
-  const bindings = el('details', { className: 'palette-bindings' }, el('summary', { textContent: 'How Header and Accent are used' }), el('p', { textContent: PALETTE_BINDING_NOTE }));
+  const roleExample = el('div', { id: 'roleExample', className: 'role-example' }, el('div', { className: 'role-example__header' }, el('strong', { textContent: 'Your cinema' }), el('span', { textContent: 'Movies · Food · Visit' })), el('div', { className: 'role-example__body' }, el('span', { className: 'role-example__eyebrow', textContent: 'Accent divider' }), el('h3', { textContent: 'A night worth sharing' }), el('span', { className: 'role-example__button', textContent: 'Primary action' })));
+  roleExample.setAttribute('aria-label', 'Illustration of Header, Accent and Primary color roles');
+  const bindings = el('details', { className: 'palette-bindings', open: true }, el('summary', { textContent: 'See where your colors go' }), el('p', { textContent: PALETTE_BINDING_NOTE }), roleExample, el('p', { textContent: 'Illustration only. The template screenshots keep their demo palettes; your final sections may use these roles differently.' }));
   area.append(fields, advanced, card, colorNotice(), bindings, link('How contrast is checked ↗', CONTRAST_STANDARD_URL, 'contrast-reference'));
   queueMicrotask(refreshColorFeedback);
   return area;
@@ -199,10 +214,10 @@ function refreshColorFeedback() {
   }
   $('contrastRatio').textContent = result.valid ? `${formatRatio(result.ratio)}:1` : 'Enter two colors';
   $('contrastFeedback').classList.toggle('is-failing', !result.normalText.passes);
-  $('contrastStatus').textContent = result.normalText.passes ? '✓ Good contrast' : result.valid ? 'More contrast needed' : 'Check your hex codes';
+  $('contrastStatus').textContent = result.normalText.passes ? '✓ Good contrast' : !result.valid ? 'Check your hex codes' : result.largeText.passes ? 'Review required' : 'Below the 3:1 minimum';
   $('contrastDetail').textContent = result.normalText.passes ? 'Readable in either direction. Meets the 4.5:1 minimum for regular text.'
     : !result.valid ? 'Use a 3- or 6-digit hex code, such as #183B4E.'
-      : result.largeText.passes ? 'Works for large text only. Choose more contrast for regular text.'
+      : result.largeText.passes ? 'Below 4.5:1 for regular text. You can acknowledge this below and continue for review.'
         : 'Try one light and one dark color so text is easy to read.';
   $('suggestContrast').hidden = result.normalText.passes || !result.valid;
   $('bodySample').style.backgroundColor = normalizeHexColor(palette.roles.background) ?? '#ECEEED';
@@ -210,7 +225,13 @@ function refreshColorFeedback() {
   $('bodyContrastFeedback').textContent = `Dark / Background: ${body.ratio === null ? 'enter valid colors' : `${formatRatio(body.ratio)}:1 · ${body.passes ? 'Good for regular text' : 'Needs 4.5:1 for regular text'}`}${!assessment.valid ? '. Check any invalid hex codes, including Advanced colors.' : ''}`;
   $('bodyContrastFeedback').classList.toggle('is-failing', !body.passes || !assessment.valid);
   $('suggestBodyContrast').hidden = body.passes || body.ratio === null;
-  if ($('continue')) $('continue').disabled = !assessment.passes;
+  const proceed = paletteProceedStatus(palette, state.colorAcknowledgment);
+  const example = $('roleExample');
+  if (example) for (const id of ['header', 'accent', 'primary', 'secondary', 'dark', 'background']) example.style.setProperty(`--sample-${id}`, normalizeHexColor(palette.roles[id]) ?? DEFAULT_PALETTE_ROLES[id]);
+  $('contrastAcknowledgmentBox').hidden = !proceed.needsAcknowledgment;
+  $('contrastAcknowledgment').checked = Boolean(proceed.acknowledgment);
+  $('contrastBlocked').hidden = !proceed.blocked;
+  if ($('continue')) $('continue').disabled = !proceed.canProceed;
   renderChecklist();
 }
 function imageUrl(option) {
@@ -277,8 +298,10 @@ function renderReview() {
   }
   advanced.append(advancedSwatches);
   const body = assessPalette(palette).pairs[1];
-  colors.append(el('span', { className: 'review-ratio', textContent: `✓ Brand ${formatRatio(result.ratio)}:1 · Text ${formatRatio(body.ratio)}:1` }), button('Edit', 'edit-link', () => goTo('colors')));
+  const colorReview = paletteProceedStatus(palette, state.colorAcknowledgment);
+  colors.append(el('span', { className: 'review-ratio', textContent: `${colorReview.passes ? '✓' : 'Review acknowledged ·'} Brand ${formatRatio(result.ratio)}:1 · Text ${formatRatio(body.ratio)}:1` }), button('Edit', 'edit-link', () => goTo('colors')));
   colors.style.marginTop = '18px'; area.append(colors, advanced, colorNotice());
+  if (colorReview.acknowledgment) area.append(el('p', { className: 'contrast-acknowledgment', textContent: 'Contrast exception acknowledged. Your website team must review text colors before publishing; this palette has not passed the regular-text contrast check.' }));
   const grid = el('div', { className: 'review-grid' });
   for (const step of GUIDE_STEPS.filter((entry) => entry.kind === 'section')) {
     const choice = workflow.selectedChoice(state, step.id); if (!choice) continue;
@@ -291,7 +314,7 @@ function renderReview() {
   return area;
 }
 async function copyLink() {
-  const compact = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, palette: normalizePalette(paletteForState(state)), workflow: state.workflow,
+  const compact = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, palette: normalizePalette(paletteForState(state)), colorAcknowledgment: state.colorAcknowledgment, workflow: state.workflow,
     sections: GUIDE_STEPS.filter((step) => step.kind === 'section').map((step) => { const choice = workflow.selectedChoice(state, step.id); return { slot: choice.slotId, optionId: choice.option.id, included: true }; }) };
   const url = new URL(location.pathname, location.origin); url.hash = `s=${encodeState(compact)}`;
   try { await navigator.clipboard.writeText(url.href); toast('Selection link copied. Your colors and choices are included.'); }

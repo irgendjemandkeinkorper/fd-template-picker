@@ -1,5 +1,5 @@
 import { REQUIRED_COMPONENTS, componentForOption, visualReviewForOption } from './model.mjs';
-import { assessBrandColors, BRAND_COLOR_NOTE, paletteForState, assessPalette, COLOR_ROLES, PALETTE_BINDING_NOTE } from './colors.mjs';
+import { assessBrandColors, BRAND_COLOR_NOTE, paletteForState, assessPalette, COLOR_ROLES, PALETTE_BINDING_NOTE, paletteProceedStatus } from './colors.mjs';
 
 export const GUIDE_STEPS = Object.freeze([
   Object.freeze({ id: 'colors', label: 'Brand colors', kind: 'colors' }),
@@ -12,7 +12,7 @@ export function isDemoOption(catalog, slot, option) {
   const component = componentForOption(slot, option);
   const audit = catalog.componentAudit?.find((entry) => entry.variant === option.variant && entry.component === component);
   const sourceStatus = option.componentStatus ?? audit?.status ?? 'present';
-  return sourceStatus === 'present' && option.captureStatus === 'captured-live'
+  return option.customerAvailable !== false && sourceStatus === 'present' && option.captureStatus === 'captured-live'
     && Boolean(option.image && option.width > 0 && option.height > 0)
     && option.capture?.mode === 'live' && !option.capture.appearanceAltered && !option.capture.sampleDataInjected
     && visualReviewForOption(option).status === 'passed';
@@ -63,9 +63,10 @@ export function createWorkflow(catalog) {
     const palette = paletteForState(state), paletteAssessment = assessPalette(palette);
     const lines = [`${String(state.project ?? '').trim() || 'Your website'} — Template selection`, '', 'Brand colors',
       `Primary: ${assessment.primary ?? 'Not selected'}`, `Secondary: ${assessment.secondary ?? 'Not selected'}`,
-      `Text contrast: ${assessment.valid ? `${assessment.ratio.toFixed(2)}:1 — ${assessment.normalText.passes ? 'Meets the 4.5:1 requirement for regular text.' : 'Choose a pair that meets the 4.5:1 requirement for regular text.'}` : 'Choose two valid colors.'}`,
+      `Text contrast: ${assessment.valid ? `${assessment.ratio.toFixed(2)}:1 — ${assessment.normalText.passes ? 'Meets the 4.5:1 requirement for regular text.' : 'Below the 4.5:1 requirement for regular text.'}` : 'Choose two valid colors.'}`,
       ...COLOR_ROLES.filter(({ id }) => !['primary', 'secondary'].includes(id)).map(({ id, label }) => `${label}: ${palette.roles[id]}`),
       `Dark / Background contrast: ${paletteAssessment.pairs[1].ratio?.toFixed(2) ?? 'Invalid'}:1`,
+      ...(paletteProceedStatus(palette, state.colorAcknowledgment).acknowledgment ? [`Contrast exception acknowledged: ${state.colorAcknowledgment.acknowledgedAt}.`, state.colorAcknowledgment.statement, 'Website team: review text colors before publishing. This acknowledgment does not establish accessibility compliance.'] : []),
       PALETTE_BINDING_NOTE, BRAND_COLOR_NOTE, '', 'Your sections'];
     for (const [index, step] of sectionSteps.entries()) {
       const choice = selectedChoice(state, step.id);

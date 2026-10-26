@@ -20,7 +20,7 @@ function currentSourceUrl(variant, sourceOrigin) {
 function thumbnailFor(catalog, template, displayName) {
   const preview = template.demoSite?.preview;
   if (template.demoSite?.status === 'published-display-only' && preview) {
-    if (!/^screenshots\/demos\/[a-z-]+-desktop\.jpg$/.test(preview.image)
+    if (!/^screenshots\/demos\/(?:[a-z-]+-desktop|components\/[a-z-]+-hero)\.jpg$/.test(preview.image)
       || !/^[a-f0-9]{64}$/.test(preview.imageSha256 ?? '')
       || !preview.reviewedAt || !(preview.width > 0 && preview.height > 0)) {
       throw new Error('Hub demo preview must be a reviewed local screenshot');
@@ -55,8 +55,8 @@ function thumbnailFor(catalog, template, displayName) {
 function verifiedDemo(template, displayName) {
   const demo = template.demoSite ?? {};
   if (demo.status === 'published-display-only') {
-    const expected = `https://template-${displayName.toLowerCase()}-indy-consumer.netlify.app/`;
-    if (template.id === 'variant-a-circuit' || demo.homepageUrl !== expected || demo.showcaseUrl !== null
+    const expected = template.id === 'variant-a-circuit' ? 'https://template-showcase-demo-indy-consumer.netlify.app/' : `https://template-${displayName.toLowerCase()}-indy-consumer.netlify.app/`;
+    if (demo.homepageUrl !== expected || demo.showcaseUrl !== null
       || demo.verification?.desktop !== 'passed' || demo.verification?.phone !== 'passed'
       || !demo.verification?.checkedAt || !demo.preview
       || demo.preview.sourceUrl !== `${expected}${template.id}/`) {
