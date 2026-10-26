@@ -60,8 +60,9 @@ test('default picks do not complete the checklist; confirmation records the spec
 
 test('resume and editing keep earlier choices and prevent skipping unconfirmed steps', () => {
   const catalog = fixture(), workflow = createWorkflow(catalog), state = createModel(catalog).defaultState();
-  let progress = workflow.normalizeProgress({ currentStep: 'review', confirmed: { colors: colors.colorsKey, navigation: 'nav-a', unknown: 'fake', hero: 123 } });
-  assert.deepEqual(progress.confirmed, { colors: colors.colorsKey, navigation: 'nav-a' });
+  const confirmedColors = workflow.selectionKey(state, 'colors', colors);
+  let progress = workflow.normalizeProgress({ currentStep: 'review', confirmed: { colors: confirmedColors, navigation: 'nav-a', unknown: 'fake', hero: 123 } });
+  assert.deepEqual(progress.confirmed, { colors: confirmedColors, navigation: 'nav-a' });
   assert.equal(workflow.accessibleStep(progress, state, progress.currentStep, colors), 'hero');
   assert.equal(workflow.accessibleStep(progress, state, 'colors', colors), 'colors');
   assert.equal(workflow.accessibleStep(progress, state, 'unknown', colors), 'hero');

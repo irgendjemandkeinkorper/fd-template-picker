@@ -17,6 +17,9 @@ ROLES = ("primary", "secondary", "header", "accent", "dark", "background", "posi
 ACTIONS = {"create-circuit", "create-site", "save-drafts", "configure-theme", "configure-navigation", "configure-content", "configure-forms", "configure-memberships", "seed-sample-content", "create-consumer-website", "assign-homepage"}
 HEX = re.compile(r"^#[a-fA-F0-9]{6}$")
 DIGEST = re.compile(r"^[a-f0-9]{64}$")
+TYPOGRAPHY_SCHEMA = "fd-typography/v1"
+TYPOGRAPHY_ROLES = ("headings", "body", "interface")
+WEB_SAFE_FONT_IDS = ("arial", "verdana", "tahoma", "trebuchet-ms", "georgia", "times-new-roman", "courier-new")
 CONTRAST_REVIEW_POLICY = "contrast-review/v1"
 CONTRAST_ACKNOWLEDGMENT = "I understand these colors do not meet the 4.5:1 accessibility requirement for regular text. I want to continue with this palette for review."
 
@@ -66,6 +69,38 @@ def acknowledged_palette(value, key):
     return True
 
 
+def validate_typography(brief, errors):
+    """Validate requested font IDs without implying native font application."""
+    review = {"provided": "typography" in brief, "nativeMappingVerified": False}
+    if not review["provided"]:
+        return {**review, "status": "not-specified"}
+    value = brief["typography"]
+    if not isinstance(value, dict) or value.get("schema") != TYPOGRAPHY_SCHEMA:
+        errors.append("Typography must be an fd-typography/v1 object when supplied")
+        return {**review, "status": "invalid"}
+    if set(value) != {"schema", "roles"}:
+        errors.append("Typography supports only schema and roles; font files, URLs and CSS are not accepted")
+        return {**review, "status": "invalid"}
+    roles = value["roles"]
+    if not isinstance(roles, dict) or set(roles) != set(TYPOGRAPHY_ROLES):
+        errors.append("Typography roles must be exactly headings, body and interface")
+        return {**review, "status": "invalid"}
+    invalid = [role for role in TYPOGRAPHY_ROLES if not isinstance(roles[role], str) or roles[role] not in WEB_SAFE_FONT_IDS]
+    if invalid:
+        errors.append("Typography has unapproved web-safe font IDs for: " + ", ".join(invalid))
+        return {**review, "status": "invalid"}
+    if "typographyBindings" in brief:
+        bindings = brief["typographyBindings"]
+        if (not isinstance(bindings, dict) or set(bindings) != set(TYPOGRAPHY_ROLES)
+                or any(not isinstance(bindings[role], dict) or bindings[role].get("fontId") != roles[role]
+                       for role in TYPOGRAPHY_ROLES)):
+            errors.append("Derived typographyBindings font IDs must match the authoritative typography roles")
+            return {**review, "status": "invalid"}
+    return {**review, "status": "requested-build-settings", "schema": TYPOGRAPHY_SCHEMA,
+            "roles": {role: roles[role] for role in TYPOGRAPHY_ROLES},
+            "requiresNativeMappingReview": True, "requiresRenderedReview": True}
+
+
 def final_name(value):
     return isinstance(value, str) and bool(value.strip()) and not any(token in value for token in ("<", ">", "TODO", "TBD"))
 
@@ -90,6 +125,7 @@ def check(brief_path, repository, request_path=None, module_index_path="data/bui
     try:
         brief, brief_hash = load_json(Path(brief_path))
         report["pickerBriefSha256"] = brief_hash
+        report["typographyReview"] = validate_typography(brief, errors)
         if brief.get("schema") != "fd-template-picker/v3":
             raise ValueError("Use a v3 JSON build brief; older selections/TXT need explicit migration through the picker")
         contract = brief.get("buildContract")
@@ -154,8 +190,13 @@ def check(brief_path, repository, request_path=None, module_index_path="data/bui
             errors.append("Require palette version 1 with all thirteen six-digit requested role colors")
         else:
             expected_key = "palette/v1|" + "|".join(f"{role}:{roles[role].upper()}" for role in ROLES) + f"|header:{binding_pair[0]}|accent:{binding_pair[1]}"
-            if confirmed.get("colors") != expected_key:
-                blockers.append("Palette confirmation does not match current role colors/bindings")
+            expected_confirmation = expected_key
+            typography_review = report["typographyReview"]
+            if typography_review["status"] == "requested-build-settings":
+                fonts_key = TYPOGRAPHY_SCHEMA + "|" + "|".join(f"{role}:{typography_review['roles'][role]}" for role in TYPOGRAPHY_ROLES)
+                expected_confirmation += "|" + fonts_key
+            if confirmed.get("colors") != expected_confirmation:
+                blockers.append("Palette confirmation does not match current role colors/bindings or supplied typography")
             ratios = {f"{a}/{b}": contrast(roles[a], roles[b]) for a, b in (("primary", "secondary"), ("dark", "background"))}
             report["baseContrast"] = {pair: round(ratio, 4) for pair, ratio in ratios.items()}
             normal_text = all(ratio >= 4.5 for ratio in ratios.values())
@@ -257,6 +298,8 @@ def check(brief_path, repository, request_path=None, module_index_path="data/bui
         report["inputValid"] = not errors
         report["readyForNativePreflight"] = not errors and not blockers
         report["nextActions"] = (["Resolve invalid input/digest findings using the matching immutable package."] if errors else []) + (["Complete each named packaging, target, final-name or content blocker before assembly."] if blockers else ["Verify actual user scope, signed-in Chrome target and native capabilities before authorized draft creation."])
+        if report["typographyReview"]["status"] == "requested-build-settings":
+            report["nextActions"].append("Map requested headings/body/interface fonts to the authorized destination's native fields or scoped module styles; verify saved values and rendered desktop/phone output before claiming application.")
     except (OSError, ValueError, TypeError, AttributeError, KeyError) as exc:
         errors.append(str(exc))
     return report

@@ -1,9 +1,10 @@
 import { REQUIRED_COMPONENTS, componentForOption, visualReviewForOption } from './model.mjs';
 import { designName } from './names.mjs';
 import { assessBrandColors, BRAND_COLOR_NOTE, paletteForState, assessPalette, COLOR_ROLES, PALETTE_BINDING_NOTE, paletteProceedStatus } from './colors.mjs';
+import { typographyForState, typographyKey, typographyBindings, TYPOGRAPHY_ROLES, TYPE_NOTE } from './typography.mjs';
 
 export const GUIDE_STEPS = Object.freeze([
-  Object.freeze({ id: 'colors', label: 'Brand colors', kind: 'colors' }),
+  Object.freeze({ id: 'colors', label: 'Colors & fonts', kind: 'colors' }),
   ...REQUIRED_COMPONENTS.map((component) => Object.freeze({ id: component.id, label: component.label, kind: 'section' })),
   Object.freeze({ id: 'review', label: 'Review', kind: 'review' }),
 ]);
@@ -40,7 +41,7 @@ export function createWorkflow(catalog) {
   const choicesFor = (stepId) => choices.get(stepId) ?? [];
   const selectedChoice = (state, stepId) => choicesFor(stepId).find(({ slotId, option }) => !state.excluded?.[slotId] && state.picks?.[slotId] === option.id) ?? null;
   const selectionKey = (state, stepId, { colorsKey = '', colorsValid = false } = {}) => stepId === 'colors'
-    ? (colorsValid ? colorsKey : '') : selectedChoice(state, stepId)?.option.id ?? '';
+    ? (colorsValid ? `${colorsKey}|${typographyKey(typographyForState(state))}` : '') : selectedChoice(state, stepId)?.option.id ?? '';
 
   function normalizeGuidedSelection(state) {
     const picks = { ...state.picks }, excluded = Object.fromEntries(catalog.slots.map((slot) => [slot.id, true]));
@@ -62,13 +63,15 @@ export function createWorkflow(catalog) {
   function buildCustomerSummary(state) {
     const assessment = assessBrandColors(state.brandColors);
     const palette = paletteForState(state), paletteAssessment = assessPalette(palette);
+    const fonts = typographyBindings(typographyForState(state));
     const lines = [`${String(state.project ?? '').trim() || 'Your website'} — Template selection`, '', 'Brand colors',
       `Primary: ${assessment.primary ?? 'Not selected'}`, `Secondary: ${assessment.secondary ?? 'Not selected'}`,
       `Text contrast: ${assessment.valid ? `${assessment.ratio.toFixed(2)}:1 — ${assessment.normalText.passes ? 'Meets the 4.5:1 requirement for regular text.' : 'Below the 4.5:1 requirement for regular text.'}` : 'Choose two valid colors.'}`,
       ...COLOR_ROLES.filter(({ id }) => !['primary', 'secondary'].includes(id)).map(({ id, label }) => `${label}: ${palette.roles[id]}`),
       `Dark / Background contrast: ${paletteAssessment.pairs[1].ratio?.toFixed(2) ?? 'Invalid'}:1`,
       ...(paletteProceedStatus(palette, state.colorAcknowledgment).acknowledgment ? [`Contrast exception acknowledged: ${state.colorAcknowledgment.acknowledgedAt}.`, state.colorAcknowledgment.statement, 'Website team: review text colors before publishing. This acknowledgment does not establish accessibility compliance.'] : []),
-      PALETTE_BINDING_NOTE, BRAND_COLOR_NOTE, '', 'Your sections'];
+      PALETTE_BINDING_NOTE, BRAND_COLOR_NOTE, '', 'Fonts',
+      ...TYPOGRAPHY_ROLES.map(({ id, label }) => `${label}: ${fonts[id].family}`), TYPE_NOTE, '', 'Your sections'];
     for (const [index, step] of sectionSteps.entries()) {
       const choice = selectedChoice(state, step.id);
       lines.push(`${index + 1}. ${step.label}: ${choice ? designName(choice.option, catalog) : 'Not selected'}`);

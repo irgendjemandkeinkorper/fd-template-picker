@@ -21,6 +21,14 @@ This records retained pilot evidence and the later reference rollout as of 2026-
 | Saving a different Netlify Site Name / Hostname | Earlier Site 183 short-name fields persisted but its URL served an unrelated site; one approved longer-name deploy test still did not establish a rename; its old address was restored | Native Save or a deploy badge does not prove hostname reassignment. The later separately approved replacement is Site 193 at `template-showcase-demo-indy-consumer.netlify.app`; preserve 183/184 and do not repeat hosting experiments. |
 | Standalone A–I supporting Pages and shared native footer | Later reference authoring moved detailed components to dedicated routes; current native/public saved-state evidence is collected per design | Follow exact role-specific Page CSS plus Theme and component dependencies. Full standalone presentation proof remains distinct from Library/mixed-design portability and each Site's unresolved QA. |
 
+## Requested typography mapping
+
+The optional `fd-typography/v1` heading/body/interface choices are a build request, not verified native capability. The current evidence does not establish three independent Theme & Style font-role controls. Inspect the destination's real font controls and each selected component's saved CSS/HTML before choosing the owner; source rules can explicitly set families and defeat a global choice.
+
+Prefer the native field when it expresses the requested role. If a selected module needs scoped styles, prepare the narrow role mapping within its authorized Theme/Page/Section owners and retain the original field for rollback. Do not combine whole source stylesheets, inject a remote font import, or replace Material Icons/other native glyph fonts. The interface role describes visible navigation, button and control labels; it does not include every span or icon. Record any roles the editor couples together or cannot express, rather than silently substituting the source design.
+
+Reopen the saved fields and verify computed family/fallbacks, text wrapping, navigation/button fit and form labels at desktop and actual phone width. Mark a role applied only from that target's saved and rendered evidence. Theme saves can take effect immediately; Page styles remain subject to their separate draft/publication state. Preserve the default draft stop and the user's existing scope.
+
 ## Native provisioning inventory
 
 The observed Developer landing route is `#/developers`:

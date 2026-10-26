@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { createModel, visualCaptureKey, visualReviewForOption, buildCoverage, buildSelectionCoverage, buildExport, buildHandoff } from '../model.mjs';
 import { DEFAULT_BRAND_COLORS, assessBrandColors, BRAND_COLOR_NOTE, normalizePalette, paletteKey } from '../colors.mjs';
+import { typographyKey } from '../typography.mjs';
 
 const option = (slot, variant) => ({ id: `${slot}--${variant}`, variant, variantLabel: variant, components: [`${slot} ${variant}`], sharedBy: [variant], sourceUrl: `https://example.com/${variant}/`, image: `screenshots/${slot}/${variant}.jpg`, width: 1440, height: 500, pageId: 100, draftId: 101, sectionIds: ['200'], draftSectionIds: ['201'] });
 const checked = (entry) => ({ ...entry, visualReview: { status: 'passed', captureKey: visualCaptureKey(entry), notes: 'Pixels match the label.' } });
@@ -87,12 +88,12 @@ test('guided progress round trips explicit confirmations without inventing compl
   assert.deepEqual(model.normalize({ schema: 'fd-template-picker/v1', sections: [] }).workflow, { currentStep: 'colors', confirmed: {} });
   state.workflow = { currentStep: 'food', confirmed: { colors: '#183B4E|#F4EEE4', navigation: 'header--a', hero: 'hero--a' } };
   const data = buildExport(catalog, state, 'https://picker.test/');
-  const upgraded = { ...state.workflow, confirmed: { ...state.workflow.confirmed, colors: paletteKey(normalizePalette()) } };
+  const upgraded = { ...state.workflow, confirmed: { ...state.workflow.confirmed, colors: `${paletteKey(normalizePalette())}|${typographyKey()}` } };
   assert.deepEqual(data.workflow, upgraded);
   assert.deepEqual(model.normalize(data).workflow, upgraded);
   assert.deepEqual(model.normalize(JSON.parse(JSON.stringify(state))).workflow, upgraded);
   assert.match(buildHandoff(data), /Checklist saved at: Food & Drink/);
-  assert.match(buildHandoff(data), /Recorded confirmations: Brand colors, Navigation, Hero/);
+  assert.match(buildHandoff(data), /Recorded confirmations: Colors & fonts, Navigation, Hero/);
 });
 
 test('malformed progress is clamped and missing, altered or unreadable colors cannot retain confirmation', () => {
@@ -103,7 +104,7 @@ test('malformed progress is clamped and missing, altered or unreadable colors ca
   assert.deepEqual(confirm({ primary: 'invalid', secondary: DEFAULT_BRAND_COLORS.secondary }), {});
   assert.deepEqual(confirm({ primary: '#000000', secondary: '#FFFFFF' }), {});
   assert.deepEqual(confirm({ primary: '#000000', secondary: '#000000' }, '#000000|#000000'), {});
-  assert.deepEqual(confirm(DEFAULT_BRAND_COLORS), { colors: paletteKey(normalizePalette()) });
+  assert.deepEqual(confirm(DEFAULT_BRAND_COLORS), { colors: `${paletteKey(normalizePalette())}|${typographyKey()}` });
 });
 
 test('an older selection excludes newly cataloged slots instead of adding unrequested sections', () => {

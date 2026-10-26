@@ -10,7 +10,8 @@ Relevant existing fields:
 | --- | --- |
 | `schema`, `exportedAt`, `project` | Export format, timestamp and customer label; project is not a final native Site name. |
 | `palette.version`, `palette.roles`, `palette.nativeBindings` | Requested colors plus explicit current adapter bindings. Legacy `brandColors` mirrors Primary/Secondary. |
-| `workflow.confirmed` | Exact confirmed palette key and six current selected option IDs. Reconfirm a selection changed since confirmation. |
+| `typography` (optional), `typographyBindings` (derived, if supplied) | Requested web-safe font IDs for headings/body/interface. The normalized selection is authoritative; descriptions do not prove native application. |
+| `workflow.confirmed` | Exact branding confirmation (palette plus supplied typography) and six current option IDs. Reconfirm changed fonts, colors or components. |
 | `sections[]` | Ordered choices; use only `included: true`. Resolve `canonicalComponent`, not display names. `events` can mean canonical `private-parties`. |
 | `sourceSite`, `sourceReference`, `sourceIdsOnly` | Read-only evidence locations. Source draft and published IDs are separate identities. |
 | `buildContract.catalog.{generatedAt,sha256}` | Digest of the exact catalog bytes used for the build brief. |
@@ -34,6 +35,39 @@ The current confirmation key is `palette/v1|primary:#RRGGBB|...|seatAvailable:#R
 Preflight checks Primary/Secondary and Dark/Background. Either pair below **3:1** blocks proceeding and cannot be acknowledged. When both pairs reach **4.5:1**, the base normal-text check passes. For a current-binding brief with either pair from **3:1 to below 4.5:1**, retain the original `colorAcknowledgment`: `policy: "contrast-review/v1"`, the exact current `paletteKey`, a valid `acknowledgedAt`, and the picker's exact statement, “I understand these colors do not meet the 4.5:1 accessibility requirement for regular text. I want to continue with this palette for review.” A changed palette invalidates the old acknowledgement. Legacy briefs retain the 4.5:1 minimum. Do not fabricate, update or broaden a customer's acknowledgement to clear a blocker.
 
 An acknowledged result is **review-only**, not a compliance claim, native-edit authorization or portable-module promotion. Rendered derived tints, protected captions, native statuses/seats and arbitrary customer palettes still need separate checks. The selected screenshot colors remain unchanged.
+
+## Optional web-safe typography
+
+New briefs can add this field without changing the v3 build-contract version:
+
+```json
+{
+  "typography": {
+    "schema": "fd-typography/v1",
+    "roles": {"headings": "georgia", "body": "arial", "interface": "arial"}
+  }
+}
+```
+
+When typography is supplied, `workflow.confirmed.colors` is the existing palette key followed by `|fd-typography/v1|headings:<id>|body:<id>|interface:<id>`, in that role order. Changing any requested font invalidates that branding confirmation. A legacy brief with no typography retains its palette-only confirmation. `colorAcknowledgment.paletteKey` stays bound to the **bare palette key**, not the font suffix; changing fonts does not fabricate or widen a palette acknowledgement.
+
+The supplied object must contain only `schema` and `roles`; all three role keys are required and additional roles are rejected. IDs are exact lowercase allowlisted values:
+
+| Font ID | Requested family |
+| --- | --- |
+| `arial` | Arial |
+| `verdana` | Verdana |
+| `tahoma` | Tahoma |
+| `trebuchet-ms` | Trebuchet MS |
+| `georgia` | Georgia |
+| `times-new-roman` | Times New Roman |
+| `courier-new` | Courier New |
+
+A brief with no `typography` remains valid legacy input. Do not edit its original bytes or invent a customer font choice; retain source-package typography until the user supplies a choice. A supplied null, unknown schema, missing role, arbitrary font name, CSS expression, remote URL or custom font definition is invalid. No font upload or external font service is authorized by this selection.
+
+If supplied, `typographyBindings` is a three-role map whose per-role `fontId` must match the normalized selection; `family`, `stack` and `appliesTo` describe derived intent. Use the validated `typography.roles` as the authority rather than executing a stack or selector string from exported text. Font fallback can differ across devices. These are **requested build settings**, not proof of separate native heading/body/interface controls or successful application. Preflight reports `nativeMappingVerified: false` and requires native mapping plus rendered review; its local acceptance does not certify those capabilities or bypass packaging/target gates.
+
+Map headings to appropriate title levels, body to prose, and interface to button/navigation/control labels using the actual authorized destination's controls and module fields. Preserve native icon fonts. See [native capabilities](native-capabilities.md#requested-typography-mapping) and [draft acceptance](draft-acceptance.md). Screenshots remain source-design evidence; do not assume their type reflects a new requested font mix.
 
 ## Execution request: destination and scope
 

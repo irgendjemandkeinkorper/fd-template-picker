@@ -1,5 +1,6 @@
 import { normalizeBrandColors, assessBrandColors, normalizePalette, paletteForState, assessPalette, paletteKey, COLOR_ROLES, PALETTE_BINDING_NOTE, normalizeColorAcknowledgment, paletteProceedStatus } from './colors.mjs';
 import { designName, DEMO_DESIGN_NAMES } from './names.mjs';
+import { normalizeTypography, typographyKey, typographyForState, typographyBindings, TYPOGRAPHY_ROLES, TYPE_NOTE } from './typography.mjs';
 
 export const SCHEMA = 'fd-template-picker/v3';
 export const SUPPORTED_SCHEMAS = new Set(['fd-template-picker/v1', 'fd-template-picker/v2', SCHEMA]);
@@ -14,9 +15,9 @@ export const REQUIRED_COMPONENTS = Object.freeze([
 ]);
 export const MOVIE_COMPONENTS = new Set(['now-playing', 'coming-soon', 'ticket-finder']);
 const checklistSteps = [
-  { id: 'colors', label: 'Brand colors' }, ...REQUIRED_COMPONENTS, { id: 'review', label: 'Review' },
+  { id: 'colors', label: 'Colors & fonts' }, ...REQUIRED_COMPONENTS, { id: 'review', label: 'Review' },
 ];
-function normalizeWorkflow(raw, brandColors, palette, acknowledgment) {
+function normalizeWorkflow(raw, brandColors, palette, acknowledgment, typography) {
   const allowed = new Set(checklistSteps.filter((step) => step.id !== 'review').map((step) => step.id));
   const confirmed = Object.fromEntries([...allowed].filter((id) => typeof raw?.confirmed?.[id] === 'string' && raw.confirmed[id])
     .map((id) => [id, raw.confirmed[id]]));
@@ -24,8 +25,17 @@ function normalizeWorkflow(raw, brandColors, palette, acknowledgment) {
   const fullPalette = normalizePalette(palette, brandColors);
   const legacyKey = `${assessment.primary}|${assessment.secondary}`;
   const currentKey = paletteKey(fullPalette), previousBindingKey = currentKey.replace('|header:header|accent:accent', '|header:dark|accent:secondary');
-  if (!paletteProceedStatus(palette ?? { ...fullPalette, roles: { ...fullPalette.roles, ...brandColors } }, acknowledgment).canProceed || ![legacyKey, currentKey, previousBindingKey].includes(confirmed.colors)) delete confirmed.colors;
-  else confirmed.colors = paletteKey(fullPalette);
+  const fontsKey = typographyKey(typography), brandingKey = `${currentKey}|${fontsKey}`;
+  const normalizedFonts = normalizeTypography(typography);
+  const validFontInput = typography === undefined || Boolean(typography && typeof typography === 'object' && !Array.isArray(typography)
+    && Object.keys(typography).every((key) => ['schema', 'roles'].includes(key)) && typography.schema === normalizedFonts.schema
+    && typography.roles && typeof typography.roles === 'object' && !Array.isArray(typography.roles)
+    && Object.keys(typography.roles).length === TYPOGRAPHY_ROLES.length
+    && TYPOGRAPHY_ROLES.every(({ id }) => Object.hasOwn(typography.roles, id) && typography.roles[id] === normalizedFonts.roles[id]));
+  const legacyFonts = fontsKey === typographyKey();
+  if (!validFontInput || !paletteProceedStatus(palette ?? { ...fullPalette, roles: { ...fullPalette.roles, ...brandColors } }, acknowledgment).canProceed
+    || !(confirmed.colors === brandingKey || legacyFonts && [legacyKey, currentKey, previousBindingKey].includes(confirmed.colors))) delete confirmed.colors;
+  else confirmed.colors = brandingKey;
   return { currentStep: checklistSteps.some((step) => step.id === raw?.currentStep) ? raw.currentStep : 'colors', confirmed };
 }
 
@@ -143,7 +153,7 @@ export function createModel(catalog) {
     return state;
   }
   function defaultState(variantId = capturedVariants[0]?.id) {
-    return applyVariant({ project: '', notes: '', brandColors: normalizeBrandColors(), palette: normalizePalette(), colorAcknowledgment: null, workflow: normalizeWorkflow(), order: [], picks: {}, excluded: {}, slotNotes: {} }, variantId);
+    return applyVariant({ project: '', notes: '', brandColors: normalizeBrandColors(), palette: normalizePalette(), typography: normalizeTypography(), colorAcknowledgment: null, workflow: normalizeWorkflow(), order: [], picks: {}, excluded: {}, slotNotes: {} }, variantId);
   }
   function normalize(raw) {
     const state = defaultState();
@@ -151,7 +161,7 @@ export function createModel(catalog) {
     if (Array.isArray(raw.sections)) {
       const sections = raw.sections.filter((s) => s && typeof s === 'object');
       raw = {
-        schema: raw.schema, project: raw.project, notes: raw.notes, brandColors: raw.brandColors, palette: raw.palette, colorAcknowledgment: raw.colorAcknowledgment, workflow: raw.workflow,
+        schema: raw.schema, project: raw.project, notes: raw.notes, brandColors: raw.brandColors, palette: raw.palette, typography: raw.typography, colorAcknowledgment: raw.colorAcknowledgment, workflow: raw.workflow,
         order: sections.map((s) => s.slot),
         picks: Object.fromEntries(sections.map((s) => [s.slot, s.optionId])),
         excluded: Object.fromEntries(sections.filter((s) => s.included === false).map((s) => [s.slot, true])),
@@ -163,8 +173,9 @@ export function createModel(catalog) {
     const inputPalette = raw.palette && raw.schema !== SCHEMA ? { ...raw.palette, roles: { ...raw.palette.roles, ...raw.brandColors } } : raw.palette;
     state.palette = normalizePalette(inputPalette, raw.brandColors);
     state.brandColors = normalizeBrandColors(state.palette.roles);
+    state.typography = normalizeTypography(raw.typography);
     state.colorAcknowledgment = normalizeColorAcknowledgment(raw.colorAcknowledgment, inputPalette ?? { ...state.palette, roles: { ...state.palette.roles, ...raw.brandColors } });
-    state.workflow = normalizeWorkflow(raw.workflow, inputPalette?.roles ?? raw.brandColors, inputPalette, state.colorAcknowledgment);
+    state.workflow = normalizeWorkflow(raw.workflow, inputPalette?.roles ?? raw.brandColors, inputPalette, state.colorAcknowledgment, raw.typography);
     const providedOrder = Array.isArray(raw.order) ? raw.order : null;
     state.order = ordered(providedOrder ?? []);
     state.excluded = providedOrder ? {} : { ...state.excluded };
@@ -200,15 +211,17 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
   const model = createModel(catalog);
   const absolute = (path) => path ? new URL(path, baseUrl).href : null;
   const palette = normalizePalette(paletteForState(state));
+  const typography = typographyForState(state);
   return {
     schema: SCHEMA,
     project: state.project.trim(), exportedAt, notes: state.notes.trim(),
     brandColors: normalizeBrandColors(state.brandColors),
     brandColorAssessment: assessBrandColors(normalizeBrandColors(state.brandColors)),
     palette, paletteAssessment: assessPalette(palette),
+    typography, typographyBindings: typographyBindings(typography),
     colorAcknowledgment: normalizeColorAcknowledgment(state.colorAcknowledgment, paletteForState(state)),
     colorReview: paletteProceedStatus(paletteForState(state), state.colorAcknowledgment),
-    workflow: normalizeWorkflow(state.workflow, state.brandColors, paletteForState(state), state.colorAcknowledgment),
+    workflow: normalizeWorkflow(state.workflow, state.brandColors, paletteForState(state), state.colorAcknowledgment, state.typography),
     catalogGeneratedAt: catalog.generatedAt,
     sourceSite: catalog.sourceSite ?? { url: catalog.source },
     captureNotes: catalog.captureNotes ?? [],
@@ -263,7 +276,9 @@ export function buildBuildBrief(catalog, state, baseUrl, context = {}, exportedA
     catalog: { generatedAt: catalog.generatedAt ?? null, sha256: context.catalogSha256 },
     moduleIndex: { schema: context.moduleIndex?.schema ?? null, sha256: context.moduleIndexSha256 },
     paletteBindingNote: PALETTE_BINDING_NOTE,
-    checklistComplete: paletteProceedStatus(data.palette, data.colorAcknowledgment).canProceed && data.workflow.confirmed.colors === paletteKey(data.palette) && REQUIRED_COMPONENTS.every(({ id }) => {
+    typographyBindingNote: TYPE_NOTE,
+    typographyApplicationPolicy: 'Resolve destination native font controls and verify each requested role before applying; these bindings are choices, not native application evidence.',
+    checklistComplete: paletteProceedStatus(data.palette, data.colorAcknowledgment).canProceed && data.workflow.confirmed.colors === `${paletteKey(data.palette)}|${typographyKey(data.typography)}` && REQUIRED_COMPONENTS.every(({ id }) => {
       const matches = modules.filter((module) => module.component === id);
       return matches.length === 1 && data.workflow.confirmed[id] === matches[0].optionId;
     }),
@@ -285,7 +300,9 @@ export function buildHandoff(data) {
   const palette = normalizePalette(data.palette, data.brandColors);
   lines.push(...COLOR_ROLES.filter(({ id }) => !['primary', 'secondary'].includes(id)).map(({ id, label }) => `- ${label}: ${palette.roles[id]}`), `- ${PALETTE_BINDING_NOTE}`, '');
   if (data.colorAcknowledgment) lines.push(`- Contrast exception acknowledged for this palette at ${data.colorAcknowledgment.acknowledgedAt}.`, `- ${data.colorAcknowledgment.statement}`, '- Website team: review text colors before publishing; acknowledgment does not establish accessibility compliance.', '');
-  const progress = normalizeWorkflow(data.workflow, data.brandColors, palette, data.colorAcknowledgment);
+  const fonts = typographyBindings(data.typography);
+  lines.push('## Fonts', '', ...TYPOGRAPHY_ROLES.map(({ id, label }) => `- ${label}: ${fonts[id].family}; CSS stack: ${fonts[id].stack}; applies to ${fonts[id].appliesTo}`), `- ${TYPE_NOTE}`, '');
+  const progress = normalizeWorkflow(data.workflow, data.brandColors, palette, data.colorAcknowledgment, data.typography);
   const recordedSteps = checklistSteps.filter((step) => progress.confirmed[step.id]).map((step) => step.label);
   lines.push(`Checklist saved at: ${checklistSteps.find((step) => step.id === progress.currentStep).label}.`,
     `Recorded confirmations: ${recordedSteps.join(', ') || 'None yet'}.`, '');

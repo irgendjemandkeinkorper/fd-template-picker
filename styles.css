@@ -312,20 +312,35 @@ dialog::backdrop { background: #132f3db3; backdrop-filter: blur(3px); }
 .topbar__tabs { display: flex; align-items: center; gap: 5px; margin-right: auto; margin-left: 24px; }
 .studio-tab { padding: 10px 14px; min-height: 42px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--muted); font-size: 12px; font-weight: 600; white-space: nowrap; }
 .studio-tab[aria-selected="true"] { border-color: #cedbd6; background: #e8eeec; color: var(--ink); }
-.colors-layout { grid-template-areas: "project contrast" "fields contrast" "advanced contrast" "note note" "bindings bindings" "reference reference"; }
+.colors-layout { grid-template-areas: "project contrast" "fields contrast" "advanced contrast" "note note" "fonts fonts" "bindings bindings" "reference reference"; }
 .color-fields { gap: 14px; }
 .advanced-colors { grid-area: advanced; border-top: 1px solid var(--line); padding-top: 14px; }
 .advanced-colors summary, .palette-bindings summary, .review-advanced-colors summary { cursor: pointer; color: var(--ink); font-size: 12px; font-weight: 600; }
 .advanced-colors > p, .palette-bindings p { margin: 10px 0 15px; max-width: 680px; color: var(--muted); font-size: 11px; line-height: 1.65; }
 .color-fields--advanced { margin-top: 14px; }
 .palette-bindings { grid-area: bindings; }
+.typography-panel { grid-area: fonts; min-width: 0; padding-top: 22px; border-top: 1px solid var(--line); }
+.typography-panel h3 { margin: 0 0 6px; font-size: 15px; }
+.font-intro, .font-note { margin: 0 0 16px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.font-note { margin: 14px 0 0; font-size: 11px; max-width: 740px; }
+.font-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.font-field { min-width: 0; }
+.font-select { width: 100%; min-height: 44px; padding: 9px 12px; border: 1px solid #c7d1cd; border-radius: 7px; background: #fff; color: var(--ink); }
+.font-hint { margin: 7px 0 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
+.review-fonts { display: flex; align-items: center; flex-wrap: wrap; gap: 16px 28px; padding: 16px 18px; margin: 22px 0; border: 1px solid var(--line); border-radius: 9px; }
+.review-fonts h3 { margin: 0; font-size: 12px; }
+.review-font { display: grid; gap: 4px; font-size: 11px; }
+.review-font strong { font-size: 16px; }
+.review-fonts .edit-link { margin-left: auto; }
 .color-role-hint { margin: 7px 0 0; color: var(--muted); font-size: 10px; line-height: 1.6; }
 .role-example { max-width: 680px; overflow: hidden; border: 1px solid var(--line); border-radius: 9px; }
-.role-example__header { display: flex; justify-content: space-between; gap: 16px; padding: 18px; background: var(--sample-header); color: var(--sample-background); border-bottom: 3px solid var(--sample-accent); font-size: 12px; }
-.role-example__body { padding: 22px; background: var(--sample-background); color: var(--sample-dark); }
-.role-example__body h3 { margin: 12px 0 20px; }
+.role-example__header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 16px; padding: 18px; background: var(--sample-header); color: var(--sample-background); border-bottom: 3px solid var(--sample-accent); font-family: var(--sample-font-interface); font-size: 14px; }
+.role-example__header strong { font-family: var(--sample-font-headings); }
+.role-example__body { padding: 22px; background: var(--sample-background); color: var(--sample-dark); font-family: var(--sample-font-body); overflow-wrap: anywhere; }
+.role-example__body h3 { margin: 12px 0; color: inherit; font-family: var(--sample-font-headings); font-size: 28px; line-height: 1.2; }
+.role-example__body .role-example__copy { margin: 0 0 22px; color: inherit; font-size: 16px; line-height: 1.6; }
 .role-example__eyebrow { border-bottom: 2px solid var(--sample-accent); padding-bottom: 6px; font-size: 11px; }
-.role-example__button { display: inline-block; padding: 10px 16px; background: var(--sample-primary); color: var(--sample-secondary); border-radius: 4px; font-size: 12px; }
+.role-example__button { display: inline-block; padding: 10px 16px; background: var(--sample-primary); color: var(--sample-secondary); border-radius: 4px; font-family: var(--sample-font-interface); font-size: 14px; font-weight: 700; }
 .body-color-sample { display: flex; flex-direction: column; gap: 5px; margin: 22px 0 10px; padding: 18px; border: 1px solid #00000018; border-radius: 8px; }
 .body-color-sample strong { font-size: 17px; }
 .body-color-sample span { font-size: 11px; }
@@ -367,7 +382,8 @@ dialog::backdrop { background: #132f3db3; backdrop-filter: blur(3px); }
   .studio-tab { min-height: 38px; padding: 8px 12px; }
   .topbar__actions { justify-content: flex-end; }
   .saved { display: none; }
-  .colors-layout { grid-template-areas: "project" "fields" "advanced" "contrast" "note" "bindings" "reference"; }
+  .colors-layout { grid-template-areas: "project" "fields" "advanced" "contrast" "note" "fonts" "bindings" "reference"; }
+  .font-fields { grid-template-columns: minmax(0, 1fr); gap: 18px; }
   .action-right { flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
   .step-actions:has(.button--secondary) .action-right { max-width: 290px; }
   .step-actions:has(.button--secondary) .button { min-height: 38px; }

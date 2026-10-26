@@ -3,6 +3,7 @@ import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, 
 import { GUIDE_STEPS, createWorkflow } from './workflow.mjs';
 import { HUB_DATA_URL, renderTemplateHub } from './hub.mjs';
 import { designName } from './names.mjs';
+import { FONT_OPTIONS, TYPOGRAPHY_ROLES, typographyForState, typographyKey, normalizeTypography, TYPE_NOTE } from './typography.mjs';
 
 const STORAGE_KEY = 'fd-template-picker:guided-selection:v1';
 const LEGACY_STORAGE_KEY = 'fd-template-picker:selection';
@@ -15,7 +16,7 @@ const decodeState = (value) => JSON.parse(new TextDecoder().decode(Uint8Array.fr
 const styleName = (option) => designName(option, catalog);
 const formatRatio = (ratio) => (Math.floor(ratio * 100) / 100).toFixed(2);
 const stepCopy = {
-  colors: ['Make it yours.', 'Choose your main colors, then adjust text and backgrounds.'],
+  colors: ['Make it yours.', 'Choose your colors and fonts, then see them together in a sample.'],
   navigation: ['Choose your navigation.', 'The menu that helps visitors find their way.'],
   hero: ['Choose your opening section.', 'Make a first impression with a layout you love.'],
   food: ['Choose your food & drink section.', 'Show off your menu and cinema favorites.'],
@@ -124,6 +125,7 @@ function renderActions(step) {
           if (!colorContext().colorsValid) return;
           state.palette = normalizePalette(paletteForState(state));
           state.brandColors = { primary: state.palette.roles.primary, secondary: state.palette.roles.secondary };
+          state.typography = normalizeTypography(typographyForState(state));
         }
         state.workflow = workflow.confirm(state.workflow, state, step.id, colorContext());
         const finished = workflow.firstIncomplete(state.workflow, state, colorContext()) === 'review';
@@ -133,7 +135,7 @@ function renderActions(step) {
       } catch { toast('Choose an available option before continuing.'); }
     });
     next.id = 'continue';
-    const label = returnToReview ? 'Save choice' : step.kind === 'colors' ? 'Use these colors' : 'Use this style';
+    const label = returnToReview ? 'Save choice' : step.kind === 'colors' ? 'Use colors & fonts' : 'Use this style';
     next.append(el('span', { textContent: label }), el('span', { className: 'button-arrow', textContent: '→' }));
     next.disabled = step.kind === 'colors' ? !colorContext().colorsValid : !loadedPreviews.has(workflow.selectedChoice(state, step.id)?.option.id);
     right.append(el('span', { className: 'action-hint', textContent: 'You can change your choices later.' }), next);
@@ -198,12 +200,40 @@ function renderColors() {
     el('p', { className: 'palette-check-note', textContent: 'These checks cover the two base text pairs. Your website team will also check text over images, buttons and other states.' }));
   const advanced = el('details', { className: 'advanced-colors' }, el('summary', { textContent: 'Advanced colors · messages, splash screen & seating' }),
     el('p', { textContent: 'Optional. These suggested starter colors are saved with your choices. Your website team will verify how each is used.' }), advancedFields);
-  const roleExample = el('div', { id: 'roleExample', className: 'role-example' }, el('div', { className: 'role-example__header' }, el('strong', { textContent: 'Your cinema' }), el('span', { textContent: 'Movies · Food · Visit' })), el('div', { className: 'role-example__body' }, el('span', { className: 'role-example__eyebrow', textContent: 'Accent divider' }), el('h3', { textContent: 'A night worth sharing' }), el('span', { className: 'role-example__button', textContent: 'Primary action' })));
-  roleExample.setAttribute('aria-label', 'Illustration of Header, Accent and Primary color roles');
-  const bindings = el('details', { className: 'palette-bindings', open: true }, el('summary', { textContent: 'See where your colors go' }), el('p', { textContent: PALETTE_BINDING_NOTE }), roleExample, el('p', { textContent: 'Illustration only. The template screenshots keep their demo palettes; your final sections may use these roles differently.' }));
-  area.append(fields, advanced, card, colorNotice(), bindings, link('How contrast is checked ↗', CONTRAST_STANDARD_URL, 'contrast-reference'));
+  const roleExample = el('div', { id: 'roleExample', className: 'role-example' }, el('div', { className: 'role-example__header' }, el('strong', { textContent: 'Your cinema' }), el('span', { className: 'role-example__navigation', textContent: 'Movies · Food · Visit' })), el('div', { className: 'role-example__body' }, el('span', { className: 'role-example__eyebrow', textContent: 'Accent divider' }), el('h3', { textContent: 'A night worth sharing' }), el('p', { className: 'role-example__copy', textContent: 'Discover your next favorite film. Bring your friends, settle into your seats and enjoy the big screen.' }), el('span', { className: 'role-example__button', textContent: 'See showtimes' })));
+  roleExample.setAttribute('aria-label', 'Sample of your colors and fonts');
+  const bindings = el('details', { className: 'palette-bindings', open: true }, el('summary', { textContent: 'See your colors & fonts together' }), el('p', { textContent: PALETTE_BINDING_NOTE }), roleExample, el('p', { textContent: 'Sample only. The template screenshots keep their original colors and fonts; your website team will apply your choices during the build.' }));
+  area.append(fields, advanced, card, colorNotice(), renderTypography(), bindings, link('How contrast is checked ↗', CONTRAST_STANDARD_URL, 'contrast-reference'));
   queueMicrotask(refreshColorFeedback);
   return area;
+}
+function renderTypography() {
+  const type = typographyForState(state);
+  const fields = el('div', { className: 'font-fields' });
+  for (const { id, label, description } of TYPOGRAPHY_ROLES) {
+    const select = el('select', { id: `font-${id}`, className: 'font-select' });
+    select.setAttribute('aria-describedby', `font-${id}-hint`);
+    for (const font of FONT_OPTIONS) select.append(el('option', { value: font.id, textContent: font.label, selected: type.roles[id] === font.id }));
+    select.onchange = () => {
+      const next = normalizeTypography({ roles: { ...typographyForState(state).roles, [id]: select.value } });
+      if (typographyKey(next) !== typographyKey(typographyForState(state))) delete state.workflow.confirmed.colors;
+      state.typography = next;
+      refreshTypographyPreview(); renderChecklist(); save();
+    };
+    fields.append(el('div', { className: 'font-field' }, el('label', { htmlFor: select.id, className: 'field-label', textContent: label }), select, el('p', { id: `font-${id}-hint`, className: 'font-hint', textContent: description })));
+  }
+  const section = el('section', { className: 'typography-panel' }, el('h3', { id: 'fontTitle', textContent: 'Fonts' }), el('p', { className: 'font-intro', textContent: 'Choose a web-safe font for each part of your website.' }), fields, el('p', { className: 'font-note', textContent: TYPE_NOTE }));
+  section.setAttribute('aria-labelledby', 'fontTitle');
+  return section;
+}
+function refreshTypographyPreview() {
+  const sample = $('roleExample');
+  if (!sample) return;
+  const type = typographyForState(state);
+  for (const { id } of TYPOGRAPHY_ROLES) {
+    const font = FONT_OPTIONS.find((entry) => entry.id === type.roles[id]);
+    sample.style.setProperty(`--sample-font-${id}`, font.stack);
+  }
 }
 function refreshColorFeedback() {
   if (!$('contrastFeedback')) return;
@@ -229,6 +259,7 @@ function refreshColorFeedback() {
   const proceed = paletteProceedStatus(palette, state.colorAcknowledgment);
   const example = $('roleExample');
   if (example) for (const id of ['header', 'accent', 'primary', 'secondary', 'dark', 'background']) example.style.setProperty(`--sample-${id}`, normalizeHexColor(palette.roles[id]) ?? DEFAULT_PALETTE_ROLES[id]);
+  refreshTypographyPreview();
   $('contrastAcknowledgmentBox').hidden = !proceed.needsAcknowledgment;
   $('contrastAcknowledgment').checked = Boolean(proceed.acknowledgment);
   $('contrastBlocked').hidden = !proceed.blocked;
@@ -277,7 +308,7 @@ function renderStyles(step) {
   const scroll = el('div', { className: `preview-scroll${selected.option.presentation?.kind === 'sidebar' ? ' preview-scroll--sidebar' : step.id === 'navigation' ? ' preview-scroll--navigation' : ''}` }, screenshot(selected.option, step));
   scroll.tabIndex = 0; scroll.setAttribute('role', 'region'); scroll.setAttribute('aria-label', `${step.label} preview, scroll to explore`);
   preview.append(el('div', { className: 'preview-card__bar' }, el('div', {}, el('span', { className: 'eyebrow', textContent: 'Your choice' }), el('h3', { textContent: styleName(selected.option) })), button('View larger ↗', '', () => openPreview(selected.option, step))), scroll,
-    el('p', { className: 'preview-caption' }, el('span', { textContent: 'Layout preview · sample content and original colors' }), el('span', { textContent: step.id === 'navigation' ? 'Scroll to explore ↔' : 'Scroll to explore ↓' })));
+    el('p', { className: 'preview-caption' }, el('span', { textContent: 'Layout preview · original colors and fonts' }), el('span', { textContent: step.id === 'navigation' ? 'Scroll to explore ↔' : 'Scroll to explore ↓' })));
   area.append(picker, preview); return area;
 }
 function openPreview(option, step) {
@@ -302,6 +333,15 @@ function renderReview() {
   const colorReview = paletteProceedStatus(palette, state.colorAcknowledgment);
   colors.append(el('span', { className: 'review-ratio', textContent: `${colorReview.passes ? '✓' : 'Review acknowledged ·'} Brand ${formatRatio(result.ratio)}:1 · Text ${formatRatio(body.ratio)}:1` }), button('Edit', 'edit-link', () => goTo('colors')));
   colors.style.marginTop = '18px'; area.append(colors, advanced, colorNotice());
+  const fonts = el('div', { className: 'review-fonts' }, el('h3', { textContent: 'Fonts' }));
+  const type = typographyForState(state);
+  for (const { id, label } of TYPOGRAPHY_ROLES) {
+    const font = FONT_OPTIONS.find((entry) => entry.id === type.roles[id]);
+    const name = el('strong', { textContent: font.label }); name.style.fontFamily = font.stack;
+    fonts.append(el('div', { className: 'review-font' }, el('span', { textContent: label }), name));
+  }
+  const editFonts = button('Edit', 'edit-link', () => goTo('colors')); editFonts.setAttribute('aria-label', 'Edit fonts'); fonts.append(editFonts);
+  area.append(fonts);
   if (colorReview.acknowledgment) area.append(el('p', { className: 'contrast-acknowledgment', textContent: 'Contrast exception acknowledged. Your website team must review text colors before publishing; this palette has not passed the regular-text contrast check.' }));
   const grid = el('div', { className: 'review-grid' });
   for (const step of GUIDE_STEPS.filter((entry) => entry.kind === 'section')) {
@@ -311,14 +351,14 @@ function renderReview() {
     thumb.setAttribute('aria-label', `Preview ${step.label.toLowerCase()}`); thumb.append(screenshot(choice.option, step));
     grid.append(el('article', { className: 'review-card' }, el('div', { className: 'review-card__heading' }, el('div', {}, el('h3', { textContent: step.label }), el('p', { textContent: styleName(choice.option) })), edit), thumb));
   }
-  area.append(grid, el('p', { className: 'review-closing', textContent: 'Your summary includes your palette and all six section choices. The JSON build brief gives your website team the source references and checks needed to prepare a draft.' }));
+  area.append(grid, el('p', { className: 'review-closing', textContent: 'Your summary includes your colors, fonts and all six section choices. The JSON build brief gives your website team the source references and checks needed to prepare a draft.' }));
   return area;
 }
 async function copyLink() {
-  const compact = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, palette: normalizePalette(paletteForState(state)), colorAcknowledgment: state.colorAcknowledgment, workflow: state.workflow,
+  const compact = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, palette: normalizePalette(paletteForState(state)), typography: normalizeTypography(typographyForState(state)), colorAcknowledgment: state.colorAcknowledgment, workflow: state.workflow,
     sections: GUIDE_STEPS.filter((step) => step.kind === 'section').map((step) => { const choice = workflow.selectedChoice(state, step.id); return { slot: choice.slotId, optionId: choice.option.id, included: true }; }) };
   const url = new URL(location.pathname, location.origin); url.hash = `s=${encodeState(compact)}`;
-  try { await navigator.clipboard.writeText(url.href); toast('Selection link copied. Your colors and choices are included.'); }
+  try { await navigator.clipboard.writeText(url.href); toast('Selection link copied. Your colors, fonts and choices are included.'); }
   catch { window.prompt('Copy your selection link:', url.href); }
 }
 function downloadSummary() {

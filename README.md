@@ -1,12 +1,12 @@
 # FD Template Picker · Website Studio
 
-Choose a cinema website one step at a time. The customer flow shows one decision at a time, with a checklist, a preview, and a clear next action. Customers choose from the reviewed template styles, then share their colors and six section choices with the website team.
+Choose a cinema website one step at a time. The customer flow shows one decision at a time, with a checklist, a preview, and a clear next action. Customers choose from the reviewed template styles, then share their colors, fonts and six section choices with the website team.
 
 Open the [public template picker](https://irgendjemandkeinkorper.github.io/fd-template-picker/). Hosting and release verification are recorded in the [GitHub Pages guide](docs/GITHUB-PAGES.md).
 
 ## Customer flow
 
-1. **Brand colors:** choose Primary, Secondary, Header, Accent, Dark and Background with color pickers or hex fields. Seven additional message, splash and seating colors live in a collapsed **Advanced colors** panel. The cinema name is optional.
+1. **Colors & fonts:** choose Primary, Secondary, Header, Accent, Dark and Background with color pickers or hex fields. Seven additional message, splash and seating colors live in a collapsed **Advanced colors** panel. Choose web-safe fonts for headings, body text, and buttons/navigation, then inspect the shared live sample. The cinema name is optional.
 2. **Navigation:** choose the menu style.
 3. **Hero:** choose the opening section.
 4. **Food & Drink:** choose the menu presentation.
@@ -35,9 +35,17 @@ The color step checks Primary/Secondary and Dark/Background using the [WCAG 2.2 
 
 Header and Accent are independent on the nine demo homepages. Header paints navigation bands, or navigation lettering on Reel/Cameo; Showcase/Neon also use it on dark section panels. Accent paints decorative dividers and outlines. The color controls include concrete examples and a small live illustration. The older authoring Site still uses its earlier aliases; use the current demo references and [color/support guide](docs/DEMO-COLOR-SUPPORT.md) when building.
 
+## Web-safe fonts
+
+Choose **Headings**, **Body text**, and **Buttons & navigation** independently from Arial, Verdana, Tahoma, Trebuchet MS, Georgia, Times New Roman and Courier New. Defaults are Georgia for headings and Arial for the other two roles. Each choice uses a fixed CSS fallback stack; no font uploads, external font downloads or free-form font names are accepted. Available system fonts vary by device, so a fallback may render instead.
+
+The inline sample updates immediately, including its navigation and showtimes button. Template screenshots and linked demos keep their original typography. The build brief records requested families and stacks for the website team to map and check in the destination editor. Choosing fonts does not claim that all three roles are already supported by native INDY controls.
+
+Font changes require confirmation of the first step again while preserving section choices and a valid color-contrast acknowledgment.
+
 ## Save and share
 
-Progress saves on the current device in the browser. **Copy link**, available at Review, includes the cinema name, all thirteen palette values, section choices and recorded confirmations in the URL fragment. **Summary** creates a `.txt` file with the palette, base contrast results and six section choices. **Build brief** creates a versioned `.json` file with source references, module readiness, artifact hashes and a draft-only build contract. Source IDs never authorize or identify a destination. **Start over** asks for confirmation before clearing the current guided selection.
+Progress saves on the current device in the browser. **Copy link**, available at Review, includes the cinema name, all thirteen palette values, three font choices, section choices and recorded confirmations in the URL fragment. **Summary** creates a `.txt` file with the palette, fonts, base contrast results and six section choices. **Build brief** creates a versioned `.json` file with source references, module readiness, artifact hashes and a draft-only build contract. Source IDs never authorize or identify a destination. **Start over** asks for confirmation before clearing the current guided selection.
 
 The v3 reader accepts v1/v2 selections and links. Compatible colors, component choices and explicit confirmations survive migration; added roles receive disclosed starter values. The legacy two-color `brandColors` mirror remains available. A change to any palette role requires color confirmation again while keeping component confirmations. Legacy selections without confirmations begin unconfirmed. Saved H–L navigation picks map to Standard and require confirmation again. See the [build-brief contract](docs/PICKER-BUILD-BRIEF.md).
 

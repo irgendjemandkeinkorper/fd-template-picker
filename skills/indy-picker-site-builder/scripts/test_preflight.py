@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from preflight import CONTRAST_ACKNOWLEDGMENT, CONTRAST_REVIEW_POLICY, REQUIRED, ROLES, check, local_path, sha256
+from preflight import CONTRAST_ACKNOWLEDGMENT, CONTRAST_REVIEW_POLICY, REQUIRED, ROLES, WEB_SAFE_FONT_IDS, check, local_path, sha256
 
 REFERENCE_ROLLOUT_VARIANTS = ("variant-a-circuit", "variant-b-rep", "variant-c-late", "variant-d-odd", "variant-e-grid", "variant-f-concrete", "variant-g-cut", "variant-h-storybook", "variant-i-ma")
 
@@ -290,6 +290,103 @@ class PreflightTests(unittest.TestCase):
         self.assertEqual([], result["errors"])
         self.assertFalse(any("content" in issue.lower() or "scope is unresolved" in issue for issue in result["blockers"]))
         self.assertFalse(result["nativeAuthorizationEstablished"])
+
+
+    def test_legacy_brief_without_typography_remains_accepted(self):
+        result = self.run_check()
+        self.assertEqual([], result["errors"])
+        self.assertEqual("not-specified", result["typographyReview"]["status"])
+        self.assertFalse(result["typographyReview"]["provided"])
+        self.assertNotIn("roles", result["typographyReview"])
+
+    def test_typography_is_requested_settings_not_verified_native_application(self):
+        data = copy.deepcopy(self.brief)
+        requested = {"schema": "fd-typography/v1", "roles": {"headings": "georgia", "body": "arial", "interface": "arial"}}
+        data["typography"] = copy.deepcopy(requested)
+        data["workflow"]["confirmed"]["colors"] += "|fd-typography/v1|headings:georgia|body:arial|interface:arial"
+        result = self.run_check(data)
+        self.assertEqual([], result["errors"])
+        self.assertFalse(any("Palette confirmation" in issue for issue in result["blockers"]))
+        self.assertEqual(requested["roles"], result["typographyReview"]["roles"])
+        self.assertEqual("requested-build-settings", result["typographyReview"]["status"])
+        self.assertFalse(result["typographyReview"]["nativeMappingVerified"])
+        self.assertTrue(result["typographyReview"]["requiresNativeMappingReview"])
+        self.assertTrue(result["typographyReview"]["requiresRenderedReview"])
+        self.assertFalse(result["nativeAuthorizationEstablished"])
+        self.assertTrue(all(part["packagingRequired"] for part in result["modules"]))
+        self.assertEqual("draft-only", data["buildContract"]["publicationPolicy"])
+        self.assertEqual(requested, data["typography"])
+
+    def test_each_allowlisted_web_safe_font_can_be_requested_for_each_role(self):
+        for font_id in WEB_SAFE_FONT_IDS:
+            with self.subTest(font_id=font_id):
+                data = copy.deepcopy(self.brief)
+                data["typography"] = {"schema": "fd-typography/v1", "roles": {role: font_id for role in ("headings", "body", "interface")}}
+                data["workflow"]["confirmed"]["colors"] += "|fd-typography/v1|" + "|".join(f"{role}:{font_id}" for role in ("headings", "body", "interface"))
+                result = self.run_check(data)
+                self.assertEqual([], result["errors"])
+                self.assertFalse(any("Palette confirmation" in issue for issue in result["blockers"]))
+
+    def test_unapproved_or_executable_font_values_are_rejected(self):
+        for role in ("headings", "body", "interface"):
+            for value in ("external-font", "Arial", "arial ", "url(https://example.invalid/font.woff)", "arial; color:red", ["arial"], None):
+                with self.subTest(role=role, value=value):
+                    data = copy.deepcopy(self.brief)
+                    data["typography"] = {"schema": "fd-typography/v1", "roles": {"headings": "georgia", "body": "arial", "interface": "arial"}}
+                    data["typography"]["roles"][role] = value
+                    result = self.run_check(data)
+                    self.assertFalse(result["inputValid"])
+                    self.assertTrue(any("unapproved web-safe font IDs" in issue for issue in result["errors"]))
+
+    def test_supplied_typography_must_have_supported_object_schema(self):
+        for value in (None, [], "georgia", {}, {"schema": "fd-typography/v2", "roles": {}}):
+            with self.subTest(value=value):
+                data = copy.deepcopy(self.brief)
+                data["typography"] = value
+                self.assertTrue(any("fd-typography/v1" in issue for issue in self.run_check(data)["errors"]))
+
+    def test_typography_requires_exact_roles_and_no_custom_font_metadata(self):
+        for roles in ({"headings": "georgia", "body": "arial"}, {"headings": "georgia", "body": "arial", "interface": "arial", "icons": "arial"}, []):
+            with self.subTest(roles=roles):
+                data = copy.deepcopy(self.brief)
+                data["typography"] = {"schema": "fd-typography/v1", "roles": roles}
+                self.assertTrue(any("exactly headings, body and interface" in issue for issue in self.run_check(data)["errors"]))
+        for extra in ({"fontUrl": "https://example.invalid/font.woff"}, {"nativeMappingVerified": True}):
+            with self.subTest(extra=extra):
+                data = copy.deepcopy(self.brief)
+                data["typography"] = {"schema": "fd-typography/v1", "roles": {"headings": "georgia", "body": "arial", "interface": "arial"}, **extra}
+                self.assertTrue(any("supports only schema and roles" in issue for issue in self.run_check(data)["errors"]))
+
+
+    def test_typography_change_requires_matching_branding_confirmation(self):
+        data = copy.deepcopy(self.brief)
+        data["typography"] = {"schema": "fd-typography/v1", "roles": {"headings": "georgia", "body": "arial", "interface": "arial"}}
+        base_key = data["workflow"]["confirmed"]["colors"]
+        self.assertTrue(any("Palette confirmation" in issue for issue in self.run_check(data)["blockers"]))
+        data["workflow"]["confirmed"]["colors"] = base_key + "|fd-typography/v1|headings:georgia|body:arial|interface:arial"
+        self.assertFalse(any("Palette confirmation" in issue for issue in self.run_check(data)["blockers"]))
+        data["typography"]["roles"]["body"] = "verdana"
+        self.assertTrue(any("Palette confirmation" in issue for issue in self.run_check(data)["blockers"]))
+
+    def test_optional_derived_font_binding_ids_cannot_contradict_the_request(self):
+        data = copy.deepcopy(self.brief)
+        data["typography"] = {"schema": "fd-typography/v1", "roles": {"headings": "georgia", "body": "arial", "interface": "arial"}}
+        data["typographyBindings"] = {role: {"fontId": font_id} for role, font_id in data["typography"]["roles"].items()}
+        self.assertEqual([], self.run_check(data)["errors"])
+        data["typographyBindings"]["body"]["fontId"] = "external-font"
+        self.assertTrue(any("typographyBindings font IDs" in issue for issue in self.run_check(data)["errors"]))
+
+
+    def test_typography_confirmation_does_not_change_palette_acknowledgment_key(self):
+        data = self.current_palette("#FF0000", acknowledge=True)
+        palette_key = data["workflow"]["confirmed"]["colors"]
+        data["typography"] = {"schema": "fd-typography/v1", "roles": {"headings": "georgia", "body": "verdana", "interface": "arial"}}
+        data["workflow"]["confirmed"]["colors"] = palette_key + "|fd-typography/v1|headings:georgia|body:verdana|interface:arial"
+        result = self.run_check(data)
+        self.assertEqual([], result["errors"])
+        self.assertFalse(any("Palette confirmation" in issue for issue in result["blockers"]))
+        self.assertTrue(result["colorReview"]["acknowledgedForReview"])
+        self.assertEqual(palette_key, data["colorAcknowledgment"]["paletteKey"])
 
 
 if __name__ == "__main__":

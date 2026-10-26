@@ -8,7 +8,15 @@ The reader accepts v1, v2 and v3 selections. `brandColors` remains a normalized 
 
 `palette.nativeBindings` names each Admin field, known CSS variable, current template role and verification status. Header currently maps to Dark and Accent to Secondary in native adapters; their independently requested values must not be represented as already supported. Unverified splash/seating CSS variables are `null`. Suggested starter values are not captured target-site values or canonical INDY defaults.
 
-The colors confirmation fingerprints every role and the current binding contract. Old matching two-color confirmations migrate to a complete palette fingerprint; component choices and matching component confirmations survive. Later palette edits invalidate the colors confirmation. Both Primary/Secondary and Dark/Background must reach unrounded 4.5:1. Rendered states and derived combinations need separate checks.
+The first-step confirmation fingerprints every palette role, the current binding contract and the three font choices. Old matching color confirmations can migrate with default fonts; component choices and matching component confirmations survive. Later palette or font edits invalidate the first-step confirmation. Both Primary/Secondary and Dark/Background must reach unrounded 3:1; a pair below 4.5:1 also requires the palette-bound acknowledgment. Rendered states and derived combinations need separate checks.
+
+## Typography
+
+`typography` is an additive `{ schema: "fd-typography/v1", roles: { headings, body, interface } }` selection. Each value is an allowlisted ID: `arial`, `verdana`, `tahoma`, `trebuchet-ms`, `georgia`, `times-new-roman` or `courier-new`. Defaults are `georgia`, `arial`, `arial`. Legacy briefs may omit typography.
+
+`typographyBindings` describes each requested family, CSS fallback stack and element role. These are build requests, not verified native settings. The destination's editor mapping, any modular CSS needed for the third role, and rendered desktop/phone text must be checked during the build. Fonts are resolved from the visitor's device; the picker loads no external font assets. The validator rejects supplied unsupported font IDs instead of applying arbitrary strings.
+
+Saved selections and links carry the raw role IDs. The summary and review show family names. Only the inline sample changes; template screenshots and live demo sites retain their original fonts. Changing fonts preserves a still-valid palette acknowledgment but requires confirming Colors & fonts again.
 
 ## Build contract
 
@@ -16,7 +24,7 @@ The colors confirmation fingerprints every role and the current binding contract
 
 - `catalog.sha256`: SHA-256 of the exact loaded catalog bytes, plus its generation timestamp.
 - `moduleIndex.sha256` and `schema`: exact registry bytes and `fd-picker-module-index/v1`.
-- `checklistComplete`: true only when the full palette and exactly one selected option per required component match their recorded confirmations.
+- `checklistComplete`: true only when the full palette, three font choices and exactly one selected option per required component match their recorded confirmations.
 - `componentOrder`: Navigation, Hero, Food, Private Parties, Membership and Contact in the customer sequence.
 - `modules`: included stable `optionId`, component/slot, source references, installation method, bounded readiness, artifact paths and SHA-256 values, and known limitations.
 - Explicit target authorization, dependency resolution, artifact validation and draft preview preflight requirements.

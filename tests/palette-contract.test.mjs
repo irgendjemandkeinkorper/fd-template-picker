@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildExport, buildBuildBrief } from '../model.mjs';
 import { createWorkflow, GUIDE_STEPS } from '../workflow.mjs';
 import { COLOR_ROLES, DEFAULT_PALETTE_ROLES, normalizeHexColor, normalizePalette, paletteForState, paletteKey, assessPalette, NATIVE_COLOR_BINDINGS, paletteProceedStatus, CONTRAST_REVIEW_POLICY, CONTRAST_ACKNOWLEDGMENT } from '../colors.mjs';
+import { typographyKey } from '../typography.mjs';
 
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const catalogBytes = await readFile(new URL('../catalog.json', import.meta.url));
@@ -46,7 +47,7 @@ test('contrast review allows 3–4.5 only with a palette-bound acknowledgment, n
   assert.equal(exported.paletteAssessment.passes, false, 'Consent must not claim WCAG compliance.');
   assert.equal(exported.colorReview.status, 'acknowledged-for-review');
   assert.equal(exported.colorAcknowledgment.statement, CONTRAST_ACKNOWLEDGMENT);
-  assert.equal(model.normalize(exported).workflow.confirmed.colors, paletteKey(palette));
+  assert.equal(model.normalize(exported).workflow.confirmed.colors, `${paletteKey(palette)}|${typographyKey()}`);
   assert.match(workflow.buildCustomerSummary(model.normalize(exported)), /Contrast exception acknowledged/);
   const changed = structuredClone(exported); changed.palette.roles.accent = '#123456';
   assert.equal(model.normalize(changed).workflow.confirmed.colors, undefined);
@@ -76,7 +77,7 @@ test('v1/v2 state and links preserve colors, styles and matching progress during
   assert.equal(restored.picks.food, state.picks.food);
   assert.equal(restored.workflow.confirmed.food, state.workflow.confirmed.food);
   assert.equal(restored.workflow.currentStep, 'review');
-  assert.equal(restored.workflow.confirmed.colors, paletteKey(restored.palette));
+  assert.equal(restored.workflow.confirmed.colors, `${paletteKey(restored.palette)}|${typographyKey()}`);
   assert.equal(restored.palette.roles.dark, DEFAULT_PALETTE_ROLES.dark);
 });
 
@@ -91,7 +92,7 @@ test('all thirteen palette values survive v3 links/export/import with requested 
   assert.deepEqual(model.normalize(data).palette, normalizePalette(state.palette));
   const link = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, palette: state.palette, workflow: state.workflow, sections: data.sections.filter(({ included }) => included) };
   const restored = workflow.normalizeGuidedSelection(model.normalize(JSON.parse(JSON.stringify(link))));
-  assert.equal(restored.workflow.confirmed.colors, paletteKey(state.palette));
+  assert.equal(restored.workflow.confirmed.colors, `${paletteKey(state.palette)}|${typographyKey()}`);
   assert.deepEqual(restored.palette.roles, state.palette.roles);
 });
 

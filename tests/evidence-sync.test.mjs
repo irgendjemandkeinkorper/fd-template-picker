@@ -16,7 +16,7 @@ async function fixture(t, variant = 'variant-b-rep') {
   const root = join(workspace, 'picker');
   await mkdir(join(root, 'scripts'), { recursive: true });
   await mkdir(join(root, 'evidence'), { recursive: true });
-  for (const file of ['model.mjs', 'colors.mjs', 'names.mjs', 'scripts/sync-evidence.mjs', 'scripts/sync-component-audit.mjs']) await copyFile(new URL(`../${file}`, import.meta.url), join(root, file));
+  for (const file of ['model.mjs', 'colors.mjs', 'names.mjs', 'typography.mjs', 'scripts/sync-evidence.mjs', 'scripts/sync-component-audit.mjs']) await copyFile(new URL(`../${file}`, import.meta.url), join(root, file));
   const catalog = { source: 'https://example.com', generatedAt: '2026-10-25', variants: [{ id: variant, pageTitle: 'Variant B Rep' }], slots: [{ id: 'events', label: 'Private Parties', options: [{
     id: `events--${variant}`, variant, name: 'Mixed programme', sectionIds: ['1'], canonicalComponent: 'private-parties', componentStatus: 'partial', componentNote: 'One private-hire item among public events.', componentAuditedAt: '2026-10-25',
   }] }], componentAudit: [{ variant, component: 'private-parties', status: 'partial', sourceOptionId: `events--${variant}`, sourceSectionIds: ['1'], notes: ['Mixed programme.'] }] };
