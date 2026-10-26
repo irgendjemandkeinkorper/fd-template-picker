@@ -4,9 +4,15 @@ The picker is a static site. Its entry point, stylesheet, modules, JSON catalogs
 
 Publication target: `irgendjemandkeinkorper/fd-template-picker`.
 
-Planned source: branch `codex/indy-variant-catalog`, repository root. The existing `.nojekyll` file keeps the static files intact. Publishing this branch does not require merging the draft pull request.
+Publishing source: branch `codex/indy-variant-catalog`, repository root. The existing `.nojekyll` file keeps the static files intact. Publishing this branch does not require merging the draft pull request.
 
-On October 26, 2026, Settings → Pages and the public site were inspected in signed-in Chrome. Pages is enabled, using `main` and `/(root)`, with its last deployment dated October 20. The public address is [FD Template Picker](https://irgendjemandkeinkorper.github.io/fd-template-picker/), and it still serves the original three-design picker. The updated release is awaiting publication; a local preview or successful Git push alone is not a live-site check.
+**Live and verified October 26, 2026:** [FD Template Picker](https://irgendjemandkeinkorper.github.io/fd-template-picker/).
+
+Pages previously served the October 20 three-design picker from `main`. Its source was changed through GitHub Settings → Pages to the tested branch above. [Deployment 40371104367](https://github.com/irgendjemandkeinkorper/fd-template-picker/actions/runs/40371104367) successfully published revision `3535273a71d26c05d4d632bdd9307ea9c9bc10f8` in 36 seconds.
+
+The public page was then reloaded in Chrome. The guided checklist, six main color controls, Advanced colors, Header/Accent examples and contrast feedback rendered. The Templates tab showed all nine approved names, nine loaded gallery images and the correct nine demo links, with no measured horizontal overflow at the checked desktop viewport. The release code passed 78 automated tests before publication.
+
+The user requested immediate release ahead of the demo. This publishes the latest tested picker code with its existing reviewed gallery images. The additional standalone-page screenshot packages remain unpromoted; remaining demo polish and screenshot refreshes are deferred. Do not treat this release as certification of that unfinished pass.
 
 ## Publish and verify
 
