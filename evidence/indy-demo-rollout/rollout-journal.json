@@ -1,0 +1,340 @@
+{
+  "scope": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "sourceSite": "Adam Template Testing 2",
+    "sourceSiteId": 170
+  },
+  "authorization": "User approved INDY Demo for the nine-demo rollout. Preserve source and earlier Website Templates / Showcase 183. Native site creation, consumer hosting, navigation, content and page publishing are authorized.",
+  "deferred": [
+    "Library packaging",
+    "cross-site module cloning architecture",
+    "repeatable-card architecture tests"
+  ],
+  "prohibited": [
+    "Clear Client Config Cache",
+    "Netlify account login",
+    "source-site changes",
+    "existing Site183 reprovisioning"
+  ],
+  "mapping": {
+    "A": "Showcase",
+    "B": "Reel",
+    "C": "Neon",
+    "D": "Cameo",
+    "E": "Metropolis",
+    "F": "Encore",
+    "G": "Splice",
+    "H": "Prologue",
+    "I": "Pause"
+  },
+  "sites": [
+    {
+      "name": "Showcase",
+      "siteId": 184,
+      "nativeCopyCreated": true,
+      "source": "Adam Template Testing 2",
+      "creationName": "Showcase",
+      "consumerCreateSubmittedOnce": true,
+      "desiredHostname": "https://template-showcase-indy-consumer.netlify.app",
+      "hostingResult": "After native creation confirmation and more than five minutes: prefixed host still Netlify site-not-found; saved Netlify Site ID remains blank; Git Branch showcase. No repeat creation/deploy submitted.",
+      "homePage": 6023,
+      "editablePage": 6066,
+      "homeAssigned": true,
+      "homeChanges": {
+        "hiddenSections": [
+          25428,
+          25429
+        ],
+        "showtimesSection": 25430,
+        "nativeSettings": [
+          "Slider",
+          "Use Banner Image",
+          "Banner Background",
+          "Show Trailer Button",
+          "Dark Mode"
+        ],
+        "copiedSectionSelectors": "Converted source numeric section selectors to stable name-prefix selectors; before/proposed CSS retained."
+      },
+      "publishSubmitted": true,
+      "publicReady": false,
+      "recovery": {
+        "nameTemporarilySetTo": "template-showcase",
+        "displayName": "Showcase",
+        "websiteTitle": "Showcase Cinema",
+        "unfulfilledNameAndBranchCleared": true,
+        "consumerCreateRecoverySubmitted": true,
+        "mustRefreshSelectedSite184BeforeReadback": true,
+        "latestAttempt": "Fresh single active Admin tab explicitly selected template-showcase; all three hosting provisioning fields blank after readback; native Create Consumer Website submitted. Await notification and same-tab refreshed readback."
+      },
+      "status": "Unhosted native copy; actual name template-showcase. No cleanup rename or replacement authorized. Recheck all hosting fields after creation queue settles, including the manually supplied Hostname, before considering another action.",
+      "finalState": {
+        "status": "held-incomplete",
+        "replacementCreated": false
+      }
+    },
+    {
+      "name": "Reel",
+      "siteId": 185,
+      "creationName": "template-reel",
+      "nativeCopyCreated": true,
+      "sourceSiteId": 170,
+      "createResponse": "504 gateway timeout; record found after refresh; creation not repeated",
+      "netlifySiteName": "template-reel-indy-consumer",
+      "hostname": "https://template-reel-indy-consumer.netlify.app",
+      "netlifySiteIdPresent": true,
+      "gitBranch": "template-reel",
+      "publicRootVerified": true,
+      "homePage": 6110,
+      "editablePage": 6153,
+      "homeAssigned": true,
+      "homePublished": true,
+      "publicFinalPath": "/variant-b-rep/",
+      "publicObserved": [
+        "Native showtimes first visible",
+        "All seven concession items and prices",
+        "Membership, visit and private-hire editorial sections"
+      ],
+      "showtimesState": "Nothing Scheduled; programming pending",
+      "homeChanges": {
+        "showtimesSection": 25756,
+        "campaignSectionHidden": 25753,
+        "nativeLayout": [
+          "List",
+          "Slider",
+          "Use Banner Image",
+          "Banner Background",
+          "Show Trailer Button"
+        ],
+        "order": "Campaign hidden; Showtimes first visible, followed by events and food"
+      },
+      "themeSelectorsRebasedToSite": 185,
+      "siteNameRestored": "Reel",
+      "displayName": "Reel",
+      "websiteTitle": "Reel Cinema",
+      "remaining": [
+        "Home navigation points to old generic copied homepage",
+        "Demo showings",
+        "Section showcases",
+        "Desktop/phone visual QA"
+      ],
+      "ready": false,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Reel",
+        "homepageUrl": "https://template-reel-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Neon",
+      "creationName": "template-neon",
+      "sourceSiteId": 170,
+      "createConsumerWebsite": true,
+      "createSubmittedOnce": true,
+      "status": "Native Site template-neon found after gateway timeout; no retry. Hosting/content configuration not yet read.",
+      "siteId": 186,
+      "netlifySiteName": "template-neon-indy-consumer",
+      "netlifySiteIdPresent": true,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Neon",
+        "homepageUrl": "https://template-neon-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Cameo",
+      "creationName": "template-cameo",
+      "sourceSiteId": 170,
+      "createSubmittedOnce": true,
+      "createConsumerWebsite": true,
+      "nativeInventoryVerified": true,
+      "status": "Copied Site found; hosting/design pending",
+      "siteId": 187,
+      "netlifySiteName": "template-cameo-indy-consumer",
+      "netlifySiteIdPresent": true,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Cameo",
+        "homepageUrl": "https://template-cameo-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Metropolis",
+      "creationName": "template-metropolis",
+      "sourceSiteId": 170,
+      "createSubmittedOnce": true,
+      "createConsumerWebsite": true,
+      "status": "Native hosting configured; public route and design not yet checked",
+      "nativeInventoryVerified": true,
+      "netlifySiteName": "template-metropolis-indy-consumer",
+      "netlifySiteIdPresent": true,
+      "gitBranch": "template-metropolis",
+      "siteId": 188,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Metropolis",
+        "homepageUrl": "https://template-metropolis-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Encore",
+      "creationName": "template-encore",
+      "sourceSiteId": 170,
+      "createSubmittedOnce": true,
+      "createConsumerWebsite": true,
+      "status": "Not found in two later starting-template inventories, including after Splice appeared. Earlier submission remains unconfirmed. Inventory again before one controlled retry.",
+      "siteId": 191,
+      "netlifySiteName": "template-encore-indy-consumer",
+      "netlifySiteIdPresent": true,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "creationAttempts": 2,
+      "firstAttemptPersisted": false,
+      "secondAttemptPersisted": true,
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Encore",
+        "homepageUrl": "https://template-encore-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Splice",
+      "creationName": "template-splice",
+      "sourceSiteId": 170,
+      "createSubmittedOnce": true,
+      "nativeInventoryVerified": true,
+      "status": "Native Site found in starting-template inventory; design/hosting readback pending",
+      "siteId": 189,
+      "netlifySiteName": "template-splice-indy-consumer",
+      "netlifySiteIdPresent": true,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Splice",
+        "homepageUrl": "https://template-splice-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Prologue",
+      "creationName": "template-prologue",
+      "sourceSiteId": 170,
+      "createSubmittedOnce": true,
+      "createConsumerWebsite": true,
+      "status": "Request open until response; do not close early or repeat",
+      "siteId": 190,
+      "netlifySiteName": "template-prologue-indy-consumer",
+      "netlifySiteIdPresent": true,
+      "nativeHostingVersion": "2026.37.24",
+      "hostingEvidence": "Native Netlify Site Deploy Status with extra Site details",
+      "nativeInventoryVerified": true,
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Prologue",
+        "homepageUrl": "https://template-prologue-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    },
+    {
+      "name": "Pause",
+      "siteId": 192,
+      "creationName": "template-pause",
+      "nativeInventoryVerified": true,
+      "createSubmittedOnce": true,
+      "createResponse": "504; persisted after refresh",
+      "netlifySiteIdPresent": true,
+      "netlifySiteName": "template-pause-indy-consumer",
+      "nativeHostingVersion": "2026.37.24",
+      "status": "Hosting configured; design and public QA pending",
+      "finalState": {
+        "status": "published-display-only",
+        "displayName": "Pause",
+        "homepageUrl": "https://template-pause-indy-consumer.netlify.app/",
+        "publishedScreenings": 16,
+        "qa": "desktop and phone passed"
+      }
+    }
+  ],
+  "notes": [
+    "Site copy was asynchronous. New site appeared after refresh; do not repeat creation solely because dialog remains open.",
+    "Native copy preserved all 41 source Pages, seven concession products, their prices/media and native configuration selectors.",
+    "Source has no active showings; copied widget reads Nothing Scheduled. Demo programming remains required.",
+    "Saved Netlify name alone has not established a host. Test prefixed native creation name for Reel."
+  ],
+  "browserRecovery": "Fresh Admin tab recovered. Read-only QSelect inputs can be 1px and throw focus errors. Use native coordinates from the enclosing field bounds for the arrow; if QMenu remains visibility:collapse, close and reopen. Native Tab.drag successfully changes native section order. Use one Admin tab for subsequent mutations; refreshing another tab adopts the most recently selected global Site.",
+  "screenshots": {
+    "hostingError": "evidence/showcase-prefixed-host-not-found.jpg",
+    "spaCapture": "Admin and Reel live SPA captures time out at the provider hard 5000 ms capture deadline. Static Netlify error page capture succeeded. No screenshot claimed as QA."
+  },
+  "screenings": {
+    "status": "User approval pending",
+    "proposal": "demo-screenings.proposed.json",
+    "autoReviewRejectedAction": "Clicking planner title slot 6 before exact film/schedule authorization",
+    "rejectedActionExecuted": false,
+    "noAssignmentsBuiltOrPublished": true,
+    "questionSent": true
+  },
+  "scopeReliability": "A successful native Create New Site response can automatically select that destination even after its form was closed. Finish creation requests before Site configuration edits; use one Admin tab and recheck exact visible scope immediately before every mutation.",
+  "additionalReviewRejections": [
+    {
+      "action": "Rename incomplete Site184 to ShowcaseDraft",
+      "executed": false,
+      "reason": "Cleanup identity change not explicitly authorized",
+      "resolution": "Leave existing name template-showcase unchanged; reload confirmed no unsaved edit"
+    },
+    {
+      "action": "Create replacement template-showcase-demo",
+      "executed": false,
+      "reason": "Additional persistent Site exceeds approved nine",
+      "resolution": "No extra replacement created; investigate existing Site184 configuration as safer alternative"
+    },
+    {
+      "action": "Create extra template-showcase-demo replacement",
+      "executed": false,
+      "reason": "Exceeds approved nine persistent Site copies",
+      "proposal": "showcase-replacement.proposed.json"
+    }
+  ],
+  "nineNativeCopiesVerified": true,
+  "replacementApproval": "Required; question will be sent. Existing184 configuration still unhosted. Avoid any unproven hosting operation that might share the earlier183 branch.",
+  "finalStatus": {
+    "checkedAt": "2026-10-26T10:53:05.950Z",
+    "publishedDemos": 8,
+    "showcase": "held incomplete at user request; no replacement created",
+    "publishedScreenings": 128,
+    "screeningDates": [
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29"
+    ],
+    "screeningBatch": "approved and applied to eight working demos",
+    "ticketing": "display-only; enable approval superseded before mutation",
+    "desktopAndPhoneQa": "passed all eight homepages; see live-qa.json",
+    "source170Changed": false,
+    "earlier183ChangedDuringRollout": false,
+    "cacheCleared": false,
+    "separateSectionShowcasePages": "deferred"
+  }
+}

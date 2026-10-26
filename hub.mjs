@@ -18,6 +18,20 @@ function currentSourceUrl(variant, sourceOrigin) {
 }
 
 function thumbnailFor(catalog, template, displayName) {
+  const preview = template.demoSite?.preview;
+  if (template.demoSite?.status === 'published-display-only' && preview) {
+    if (!/^screenshots\/demos\/[a-z-]+-desktop\.jpg$/.test(preview.image)
+      || !/^[a-f0-9]{64}$/.test(preview.imageSha256 ?? '')
+      || !preview.reviewedAt || !(preview.width > 0 && preview.height > 0)) {
+      throw new Error('Hub demo preview must be a reviewed local screenshot');
+    }
+    return {
+      src: `${preview.image}?v=${preview.imageSha256.slice(0, 12)}`,
+      alt: `${displayName} homepage with a native showtimes hero`,
+      width: preview.width, height: preview.height,
+      slotId: 'hero', sourceOptionId: null,
+    };
+  }
   const slot = catalog.slots?.find((entry) => entry.id === template.thumbnailSlotId);
   const option = slot?.options?.find((entry) => entry.variant === template.id);
   if (!option || option.captureStatus !== 'captured-live' || option.visualReview?.status !== 'passed') {
@@ -36,6 +50,25 @@ function thumbnailFor(catalog, template, displayName) {
     sourceOptionId: option.id,
     slotId: slot.id,
   };
+}
+
+function verifiedDemo(template, displayName) {
+  const demo = template.demoSite ?? {};
+  if (demo.status === 'published-display-only') {
+    const expected = `https://template-${displayName.toLowerCase()}-indy-consumer.netlify.app/`;
+    if (template.id === 'variant-a-circuit' || demo.homepageUrl !== expected || demo.showcaseUrl !== null
+      || demo.verification?.desktop !== 'passed' || demo.verification?.phone !== 'passed'
+      || !demo.verification?.checkedAt || !demo.preview
+      || demo.preview.sourceUrl !== `${expected}${template.id}/`) {
+      throw new Error('Dedicated Hub demos require matching published desktop and phone evidence');
+    }
+    return { status: demo.status, homepageUrl: expected, showcaseUrl: null };
+  }
+  if (!['not-provisioned', 'shell-provisioned'].includes(demo.status)
+    || demo.homepageUrl !== null || demo.showcaseUrl !== null) {
+    throw new Error('Unverified demo Site URLs must not be exposed by the Hub');
+  }
+  return { status: demo.status, homepageUrl: null, showcaseUrl: null };
 }
 
 // This is a read-only catalog view. It neither normalizes nor saves picker choices.
@@ -57,11 +90,7 @@ export function createTemplateHubModel(catalog, data) {
     const displayName = requireText(template.displayName, 'display name');
     if (!/^[A-Za-z]+$/.test(displayName) || displayNames.has(displayName.toLowerCase())) throw new Error('Hub names must be distinct single words');
     displayNames.add(displayName.toLowerCase());
-    // A provisioned shell is not a reviewed template demo.
-    const demoSiteStatus = template.demoSite?.status;
-    if (!['not-provisioned', 'shell-provisioned'].includes(demoSiteStatus) || template.demoSite.homepageUrl !== null || template.demoSite.showcaseUrl !== null) {
-      throw new Error('Unverified demo Site URLs must not be exposed by the initial Hub');
-    }
+    const demo = verifiedDemo(template, displayName);
     const currentLabel = requireText(variant.label, 'catalog label').replace(/^[A-Z]\s*·\s*/, '');
     return {
       id,
@@ -71,11 +100,11 @@ export function createTemplateHubModel(catalog, data) {
       currentLabel,
       description: requireText(template.description, 'description'),
       sourceUrl: currentSourceUrl(variant, source.origin),
-      sourceLinkLabel: 'View current demo ↗',
+      sourceLinkLabel: demo.homepageUrl ? 'View demo ↗' : 'View current demo ↗',
       thumbnail: thumbnailFor(catalog, template, displayName),
-      demoSiteStatus,
-      homepageUrl: null,
-      showcaseUrl: null,
+      demoSiteStatus: demo.status,
+      homepageUrl: demo.homepageUrl,
+      showcaseUrl: demo.showcaseUrl,
     };
   });
   return {
@@ -104,7 +133,7 @@ export function renderTemplateHub(catalog, data, { document: ownerDocument = glo
   heading.id = 'templateHubTitle';
   heading.tabIndex = -1;
   intro.append(heading, element('p', '', model.description));
-  root.append(intro, element('p', 'hub-notice', 'Demo images keep their original colors.'));
+  root.append(intro, element('p', 'hub-notice', 'Demo images keep their original colors. Showtimes are display-only.'));
   const grid = element('div', 'hub-grid');
   grid.setAttribute('role', 'list');
   for (const template of model.templates) {
@@ -126,7 +155,7 @@ export function renderTemplateHub(catalog, data, { document: ownerDocument = glo
     card.setAttribute('aria-labelledby', title.id);
     const actions = element('div', 'hub-card__actions');
     const demoLink = element('a', 'hub-card__link', template.sourceLinkLabel);
-    demoLink.href = template.sourceUrl;
+    demoLink.href = template.homepageUrl ?? template.sourceUrl;
     demoLink.target = '_blank';
     demoLink.rel = 'noopener noreferrer';
     demoLink.setAttribute('aria-label', `View ${template.displayName} demo in a new tab`);

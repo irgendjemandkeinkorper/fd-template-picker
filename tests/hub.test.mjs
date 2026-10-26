@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { createTemplateHubModel, renderTemplateHub } from '../hub.mjs';
 
 const catalog = JSON.parse(fs.readFileSync(new URL('../catalog.json', import.meta.url), 'utf8'));
@@ -28,7 +29,7 @@ test('Hub preserves the approved A–I mapping and reviewed catalog sources with
     assert.equal(template.sourceUrl, catalog.variants.find(variant => variant.id === template.id).sourceUrl);
     assert.ok(fs.existsSync(new URL(`../${template.thumbnail.src.split('?')[0]}`, import.meta.url)));
   }
-  assert.equal(model.templates.find(template => template.letter === 'F').thumbnail.slotId, 'food');
+  assert.equal(model.templates.find(template => template.letter === 'F').thumbnail.slotId, 'hero');
   assert.equal(JSON.stringify({ catalog, data }), snapshot);
 });
 
@@ -38,20 +39,47 @@ test('a provisioned empty shell stays internal and cannot become an advertised H
   assert.equal(showcase.demoSiteStatus, 'shell-provisioned');
   assert.equal(showcase.homepageUrl, null);
   assert.equal(showcase.showcaseUrl, null);
-  assert.notEqual(showcase.sourceUrl, data.scope.pilot.consumerShellUrl);
+  const heldUrl = 'https://template-showcase-indy-consumer.netlify.app/';
+  assert.notEqual(showcase.sourceUrl, heldUrl);
   for (const field of ['homepageUrl', 'showcaseUrl']) {
     const unready = structuredClone(data);
-    unready.templates[0].demoSite[field] = data.scope.pilot.consumerShellUrl;
+    unready.templates[0].demoSite[field] = heldUrl;
     assert.throws(() => createTemplateHubModel(catalog, unready), /Unverified demo Site URLs/);
   }
   const root = renderTemplateHub(catalog, data, { document });
   const links = descendants(root).filter(node => node.tag === 'a');
   assert.equal(links.length, 9);
-  assert.deepEqual(links.map(link => link.href), model.templates.map(template => template.sourceUrl));
+  assert.deepEqual(links.map(link => link.href), model.templates.map(template => template.homepageUrl ?? template.sourceUrl));
   assert.ok(links.every(link => link.target === '_blank' && link.rel === 'noopener noreferrer'));
-  assert.ok(links.every(link => link.textContent.trim() === 'View current demo ↗'));
+  assert.equal(links.filter(link => link.textContent.trim() === 'View demo ↗').length, 8);
   assert.doesNotMatch(root.textContent, /shell|provision|404|103|183|pending|approved|source demo/i);
   assert.ok(root.textContent.includes('Demo images keep their original colors.'));
+});
+
+test('dedicated demos require exact hosts, both viewport checks and reviewed screenshot bytes', () => {
+  const model = createTemplateHubModel(catalog, data);
+  for (const template of model.templates.slice(1)) {
+    assert.equal(template.demoSiteStatus, 'published-display-only');
+    assert.equal(template.homepageUrl, `https://template-${template.displayName.toLowerCase()}-indy-consumer.netlify.app/`);
+    assert.equal(template.showcaseUrl, null);
+    assert.match(template.thumbnail.src, /^screenshots\/demos\//);
+    const source = data.templates.find(item => item.id === template.id);
+    assert.equal(source.demoSite.verification.desktop, 'passed');
+    assert.equal(source.demoSite.verification.phone, 'passed');
+    const bytes = fs.readFileSync(new URL(`../${source.demoSite.preview.image}`, import.meta.url));
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), source.demoSite.preview.imageSha256);
+  }
+  for (const mutate of [
+    item => { item.demoSite.homepageUrl = 'https://unverified.example/'; },
+    item => { item.demoSite.verification.phone = 'pending'; },
+    item => { item.demoSite.showcaseUrl = item.demoSite.homepageUrl; },
+    item => { delete item.demoSite.preview; },
+    item => { item.demoSite.preview.image = '../outside.jpg'; },
+  ]) {
+    const invalid = structuredClone(data);
+    mutate(invalid.templates[1]);
+    assert.throws(() => createTemplateHubModel(catalog, invalid), /require|reviewed/);
+  }
 });
 
 test('Hub refuses extra designs and foreign source links rather than silently showing them', () => {

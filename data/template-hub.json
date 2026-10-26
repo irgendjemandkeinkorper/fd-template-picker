@@ -2,91 +2,45 @@
   "schema": "fd-template-hub/v1",
   "title": "Explore the templates.",
   "description": "Nine starting points for your cinema. Take a look around and find the feel you like.",
-  "notice": "All nine names are approved. Showcase hosting is an empty consumer shell without Pages or the transferred design, not a ready demo. Dedicated demo links remain absent; current links come from the source catalog.",
+  "notice": "Eight dedicated demos are published and verified on desktop and phone. Showcase remains held; its existing source preview stays available. Showtimes are display-only. Library packaging and separate section showcase pages remain deferred.",
   "nameStatus": "approved",
   "namingApproval": {
-    "approvedLetters": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
+    "approvedLetters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
     "pendingLetters": [],
     "pendingCandidates": [],
     "nativePilotAuthorized": "Showcase"
   },
   "scope": {
     "region": "US-BETA",
-    "circuit": "Website Templates",
-    "siteProvisioningStatus": "showcase-shell-provisioned-content-not-transferred",
-    "publicAddressPlan": {
-      "status": "future-creation-only-current-showcase-exempt",
-      "requiredPrefix": "template-",
-      "retainedSuffix": "-indy-consumer",
-      "nativeSiteNamesRemainOneWord": true,
-      "applyAtFutureCreationOnly": true,
-      "currentShowcaseException": {
-        "status": "accepted-working-host",
-        "netlifySiteName": "showcase-indy-consumer",
-        "hostname": "https://showcase-indy-consumer.netlify.app",
-        "furtherUrlTestsOrReprovisionPlanned": false
-      },
-      "desiredSubdomains": {
-        "variant-a-circuit": "template-showcase-indy-consumer",
-        "variant-b-rep": "template-reel-indy-consumer",
-        "variant-c-late": "template-neon-indy-consumer",
-        "variant-d-odd": "template-cameo-indy-consumer",
-        "variant-e-grid": "template-metropolis-indy-consumer",
-        "variant-f-concrete": "template-encore-indy-consumer",
-        "variant-g-cut": "template-splice-indy-consumer",
-        "variant-h-storybook": "template-prologue-indy-consumer",
-        "variant-i-ma": "template-pause-indy-consumer"
-      },
-      "shortLabelContext": "The initial template-showcase label was saved in INDY but its public address served an unrelated existing site; the saved working host was restored.",
-      "note": "Prefix labels apply only to future Site creation/iterations. Current Showcase keeps its accepted working unprefixed host. Proposed labels are not verified addresses or demo links."
+    "circuit": "INDY Demo",
+    "siteProvisioningStatus": "eight-published-display-only-showcase-held",
+    "sourceSite": {
+      "name": "Adam Template Testing 2",
+      "siteId": 170,
+      "changed": false
     },
-    "pilot": {
+    "legacyPilot": {
+      "circuit": "Website Templates",
       "circuitId": 103,
       "site": "Showcase",
       "siteId": 183,
-      "status": "empty-consumer-shell",
-      "initialCreateResponse": "HTTP 500",
-      "partialCreationVerifiedAfterRefresh": true,
-      "circuitOrSiteCreationRetried": false,
-      "recoveryAction": "Create Consumer Website only; automatic initial deploy triggered",
-      "consumerShellUrl": "https://showcase-indy-consumer.netlify.app/",
-      "acceptedCurrentSubdomain": "showcase-indy-consumer",
-      "publicAddressStatus": "accepted-working-host-restored-prefix-future-only",
-      "currentSavedNetlifySiteName": "showcase-indy-consumer",
-      "currentSavedHostname": "https://showcase-indy-consumer.netlify.app",
-      "correctiveHostingReadbackVerified": true,
-      "hostnameValidation": "Blank Hostname was rejected; the full existing working URL is now explicitly saved.",
-      "candidate": {
-        "netlifySiteName": "template-showcase-indy-consumer",
-        "preparedInNativeForm": false,
-        "savedDuringApprovedTest": true,
-        "currentlySaved": false,
-        "publicReadback": "Netlify Site not found after approximately four minutes",
-        "ownershipOrAvailabilityEstablished": false,
-        "manualDeployTriggered": true,
-        "nativeDeployBadge": "Success",
-        "deploymentVersionResolved": false,
-        "oneDeployTestStatus": "executed; live prefix unverified; working host restored"
-      },
-      "workingHostRestoreVerified": true,
-      "originalSiteIdAndBranchPreserved": true,
-      "followUpReprovision": {
-        "status": "declined-by-user",
-        "executed": false,
-        "unsavedProposalDiscardedByReload": true
-      },
-      "furtherUrlTestsOrReprovisionPlanned": false,
-      "hostingWorkflow": "INDY Developer Site Settings only; no Netlify login performed. All unsaved hosting proposals were discarded.",
-      "namespaceEvidence": "evidence/website-templates-pilot/url-naming-journal.json",
-      "visibleMessage": "404 Oops. Nothing here...",
-      "nativePageCount": 0,
-      "sourceDesignTransferred": false,
-      "libraryImportsPerformed": 0,
-      "homepageReady": false,
-      "otherEightSitesCreated": false,
-      "evidence": "evidence/website-templates-pilot/pilot-journal.json"
+      "preserved": true
     },
-    "contentPlan": "Shared demo content; a complete homepage and section showcase pages for each design."
+    "requiredHostnamePrefix": "template-",
+    "retainedHostnameSuffix": "-indy-consumer",
+    "contentPlan": "Native booking-first homepage with shared programmed movies and concessions. Separate section showcase pages and Library packaging deferred.",
+    "screeningWindow": "October 26-29, 2026, America/Los_Angeles",
+    "processGuide": "docs/INDY-DEMO-ROLLOUT.md"
   },
   "templates": [
     {
@@ -97,7 +51,14 @@
       "alternatives": [],
       "description": "A classic cinema layout with clear schedules and a strong focus on booking.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "shell-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "shell-provisioned",
+        "nativeSiteId": 184,
+        "homepageUrl": null,
+        "showcaseUrl": null,
+        "rolloutStatus": "held-incomplete-by-user",
+        "replacementCreated": false
+      }
     },
     {
       "id": "variant-b-rep",
@@ -107,7 +68,37 @@
       "alternatives": [],
       "description": "Elegant type and printed-programme details create a considered, editorial feel.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 185,
+        "homepageUrl": "https://template-reel-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/reel-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "7b4e4052019f5453fc32e366daee8af4c808a64fa25d12b99146441b679abf8b",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-reel-indy-consumer.netlify.app/variant-b-rep/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-c-late",
@@ -117,7 +108,37 @@
       "alternatives": [],
       "description": "Large film imagery and compact listings bring energy to evenings that run late.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 186,
+        "homepageUrl": "https://template-neon-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/neon-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "877a40db13e502e9da1a3da81b7105129b8367ac79e8b6f06685087a938e265c",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-neon-indy-consumer.netlify.app/variant-c-late/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-d-odd",
@@ -127,7 +148,37 @@
       "alternatives": [],
       "description": "Playful collage, angled cards and noticeboard details give the cinema personality.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 187,
+        "homepageUrl": "https://template-cameo-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/cameo-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "3a841a1f7d040be0b959cf107ceb230acfcb193083028c10e8db6ed03943914e",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-cameo-indy-consumer.netlify.app/variant-d-odd/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-e-grid",
@@ -137,7 +188,37 @@
       "alternatives": [],
       "description": "Clean panels and organized cards keep films, tickets and practical information easy to find.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 188,
+        "homepageUrl": "https://template-metropolis-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/metropolis-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "1418bc80b06e8c49543647b4c7309c3499e2df40971731da26d0a77501f5b70a",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-metropolis-indy-consumer.netlify.app/variant-e-grid/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-f-concrete",
@@ -146,8 +227,38 @@
       "displayNameStatus": "approved",
       "alternatives": [],
       "description": "Bold typography and direct layouts create a confident, industrial character.",
-      "thumbnailSlotId": "food",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "thumbnailSlotId": "hero",
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 191,
+        "homepageUrl": "https://template-encore-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/encore-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "66a6ca0e4a436ba05b45364906cbda526b05b729d2ffaac42097315d66cf01f0",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-encore-indy-consumer.netlify.app/variant-f-concrete/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-g-cut",
@@ -157,7 +268,37 @@
       "alternatives": [],
       "description": "Oversized headlines and dramatic angles turn each section into a film poster.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 189,
+        "homepageUrl": "https://template-splice-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/splice-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "81a0f930dbe05a7460813fae7a3757e829c819d303eb55e6c896acaa7c179962",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-splice-indy-consumer.netlify.app/variant-g-cut/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-h-storybook",
@@ -167,7 +308,37 @@
       "alternatives": [],
       "description": "Framed panels and elegant lettering recall classic cinema title cards.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 190,
+        "homepageUrl": "https://template-prologue-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/prologue-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "8238d893c60ee7f7705c74668b12c881fc706a6d1bb261b0b2cce306e9bf01fd",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-prologue-indy-consumer.netlify.app/variant-h-storybook/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     },
     {
       "id": "variant-i-ma",
@@ -177,7 +348,37 @@
       "alternatives": [],
       "description": "Quiet imagery and wide margins give each film room to breathe.",
       "thumbnailSlotId": "hero",
-      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+      "demoSite": {
+        "status": "published-display-only",
+        "nativeSiteId": 192,
+        "homepageUrl": "https://template-pause-indy-consumer.netlify.app/",
+        "showcaseUrl": null,
+        "sectionShowcasePagesStatus": "deferred",
+        "verification": {
+          "checkedAt": "2026-10-26T10:53:05.950Z",
+          "desktop": "passed",
+          "phone": "passed",
+          "evidence": "evidence/indy-demo-rollout/live-qa.json",
+          "publishedScreenings": 16,
+          "dates": [
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29"
+          ],
+          "ticketing": "display-only"
+        },
+        "preview": {
+          "image": "screenshots/demos/pause-desktop.jpg",
+          "width": 1425,
+          "height": 891,
+          "imageSha256": "07b5a701eeac8a33de567d67774e73d158df378647141d6f67d29797c2303d80",
+          "reviewedAt": "2026-10-26T10:53:05.950Z",
+          "sourceUrl": "https://template-pause-indy-consumer.netlify.app/variant-i-ma/",
+          "method": "live-browser-viewport",
+          "appearanceAltered": false
+        }
+      }
     }
   ]
 }
