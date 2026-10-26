@@ -12,9 +12,10 @@
   <a class="skip-link" href="#stepTitle">Skip to current step</a>
   <header class="topbar">
     <div class="wordmark"><span class="brand-mark" aria-hidden="true">F</span><div><strong>Website Studio</strong><span>Made for your cinema</span></div></div>
+    <nav class="topbar__tabs" role="tablist" aria-label="Website Studio"><button id="pickerTab" class="studio-tab" type="button" role="tab" aria-selected="true" aria-controls="pickerPane">Build your website</button><button id="templatesTab" class="studio-tab" type="button" role="tab" aria-selected="false" aria-controls="templatesPane" tabindex="-1">Templates</button></nav>
     <div class="topbar__actions"><span id="saved" class="saved" role="status" aria-live="polite">Progress saves on this device</span><button id="restart" class="text-button" type="button">Start over</button></div>
   </header>
-  <div class="app-shell">
+  <div id="pickerPane" class="app-shell" role="tabpanel" aria-labelledby="pickerTab">
     <aside class="sidebar" aria-label="Your website checklist">
       <div class="sidebar__heading"><span class="eyebrow">Your website</span><h1>One choice<br>at a time.</h1></div>
       <nav aria-label="Build steps"><ol id="checklist" class="checklist"></ol></nav>
@@ -22,6 +23,7 @@
     </aside>
     <main id="stepPanel" class="step-panel" aria-label="Current checklist step"><div class="step-content"><p class="loading" role="status">Getting your styles ready…</p></div></main>
   </div>
+  <main id="templatesPane" class="templates-pane" role="tabpanel" aria-labelledby="templatesTab" hidden><p class="loading" role="status">Getting your templates ready…</p></main>
   <dialog id="previewDialog" class="preview-dialog" aria-labelledby="previewTitle">
     <div class="dialog-heading"><div><p id="previewCategory" class="eyebrow"></p><h2 id="previewTitle">Style preview</h2></div><button id="closePreview" class="close-button" type="button" aria-label="Close preview">×</button></div>
     <div id="previewImage" class="dialog-image"></div><p class="dialog-note">Layout preview with sample content and original colors.</p>

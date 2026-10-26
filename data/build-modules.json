@@ -1,0 +1,2035 @@
+{
+  "schema": "fd-picker-module-index/v1",
+  "catalogSha256": "9dd64dd3ece5f0e43f6be228a50e9b05e9dbdea259ce827150bd7b74279c74d0",
+  "sourceOnly": true,
+  "modules": {
+    "header--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "header--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "hero--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "now-playing--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "now-playing--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "now-playing--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "now-playing--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "events--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "food--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "native-library-transfer-and-existing-page-recreation-verified-admin-scope",
+      "installationMethod": "native-concessions-menu-recreation-with-section-package",
+      "artifacts": [
+        {
+          "path": "template-adapters/library-k-food/dependency-manifest.json",
+          "sha256": "1c507f069c14458b9eed9177ae900bb26f3138c3471ce1ec8aec1468bbd93dd7",
+          "purpose": "Historical portable module settings, dependencies and bounded Admin verification.",
+          "sourceOnly": true
+        },
+        {
+          "path": "template-adapters/library-k-food/section.proposed.css",
+          "sha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee",
+          "purpose": "Exact portable Section CSS.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/library-k-food-live/live-journal.json",
+          "sha256": "47c668f7ccb62c5b48e91c6f30815c788fd32ef6e6770b23f5bde9e39522d8c5",
+          "purpose": "Authorized independent-copy publication and current-palette consumer verification.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/library-k-food-live/live-desktop.json",
+          "sha256": "4a2491508361bc1e7936c6f95486e251e0210d2709b173fb3ed5b1988a7213b1",
+          "purpose": "Live independent copy at 1536px; three columns, seven loaded photos, zero overflow.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/library-k-food-live/live-mobile.json",
+          "sha256": "6725243f6c85d6f2aa8cf5b49d808a87c926253f5fb0ff3fb17844c1a6e094bd",
+          "purpose": "Live independent copy at 390px; one column, seven loaded photos, zero overflow.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/library-k-food-live/live-mobile-category-settled.json",
+          "sha256": "9cde842224ea937d42928916fadbb1c48581179d24ae54fae72ce80832407d58",
+          "purpose": "Native mobile category label lag after a successful Desserts jump.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/library-k-food-live/live-mobile-category-after-scroll.json",
+          "sha256": "70890290f0c8570dc18937aa5e61e0ac2d7a74542e360c9b9c0bbb2676be9d98",
+          "purpose": "Native category label updates after further scrolling.",
+          "sourceOnly": true
+        },
+        {
+          "path": "evidence/library-k-food-live/README.md",
+          "sha256": "9a7e3a80c27839b891c7b6e1f4d130ca0edb80eef166141cb963c5e640692d3c",
+          "purpose": "Bounded live-phase findings and remaining checks.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Direct Library Section insertion and native cross-page copy are unverified.",
+        "Current-palette desktop and 390px consumer geometry passed in the later independent-copy phase; arbitrary palette changes, physical devices, Mobile App, checkout, catalogue availability rules and controlled empty state remain untested.",
+        "Mobile Desserts navigation reaches its products, but the native dropdown label can remain Drinks until further scrolling.",
+        "Choose one visible food Section per finished slot. The live copy hides the original menu; earlier adjacent-menu overlap remains a comparison-stage limitation.",
+        "Set final internal Section Name before first CSS save; if renamed, re-save CSS and verify compiled scope after reopening."
+      ],
+      "alternativeInstallation": "one-section-library-page-import-then-unlink; creates a separate Page",
+      "manifest": "template-adapters/library-k-food/dependency-manifest.json",
+      "verification": {
+        "sourceRender": "published K checked previously at desktop and phone in two palettes",
+        "staticDependencyClosure": "run test_portability.py",
+        "isolatedNativeCarrier": "saved-draft-admin-preview-reviewed-consumer-isolation-pending",
+        "consumerTheme": "not-tested",
+        "realPhoneConsumerViewport": "not-tested",
+        "libraryTransfer": "verified-one-section-page-import-and-unlink",
+        "destinationCatalogueRebinding": "verified-local-native-runtime-categories-and-product-count",
+        "localCopyIndependence": "verified-destination-local-name-change-leaves-master-name-and-css-unchanged",
+        "destinationVisualQa": "native-scope-restored-in-Admin; consumer-visual-QA-not-tested",
+        "destinationAdminScopeRestoration": "verified-after-reopen",
+        "destinationAdminPhoneGeometry": "reviewed-3px-overflow-in-simulated-frame; real-phone-not-tested",
+        "insertionIntoExistingPage": "verified-native-recreation-and-ordering; direct-Library-section-import-not-tested",
+        "directLibrarySectionImport": "not-tested",
+        "crossPageSectionCopy": "not-tested",
+        "mobileApp": "not-tested"
+      },
+      "liveIndependentCopyVerification": {
+        "schema": "fd-library-k-food-live/v1",
+        "status": "verified-current-palette-desktop-and-mobile-consumer",
+        "verifiedAt": "2026-10-26T00:15:04.920Z",
+        "sourceReference": {
+          "region": "US-BETA",
+          "circuit": "INDY Demo",
+          "site": "Adam Template Testing",
+          "pageTitle": "Fandango Cinema Template Test",
+          "pageId": "5585",
+          "editablePageId": "5586",
+          "libraryState": "Not Linked",
+          "editableSectionId": "25156",
+          "publishedSectionId": "25157",
+          "url": "https://adam-template-testing-indy-consumer.netlify.app/fandango-cinema-template-test/",
+          "sourceIdsOnly": true
+        },
+        "consumerChecks": {
+          "desktop": {
+            "viewport": {
+              "height": 639,
+              "width": 1536
+            },
+            "columns": 3,
+            "cards": 7,
+            "loadedPhotos": 7,
+            "rootOverflowPx": 0,
+            "documentOverflowPx": 0,
+            "oldFoodHeadingPresent": false,
+            "oldFloatingCategoryBars": 0
+          },
+          "mobile": {
+            "viewport": {
+              "height": 844,
+              "width": 390
+            },
+            "columns": 1,
+            "cards": 7,
+            "loadedPhotos": 7,
+            "rootOverflowPx": 0,
+            "documentOverflowPx": 0,
+            "headingFontSize": "32px",
+            "oldFoodHeadingPresent": false
+          },
+          "themeTokens": {
+            "--q-background": "#fbefe2",
+            "--q-dark": "#38264a",
+            "--q-primary": "#e06b4a",
+            "--q-secondary": "#c4553a"
+          }
+        },
+        "knownIssues": [
+          "On mobile, choosing Desserts jumps to Desserts products but the native dropdown label can remain Drinks until additional scrolling; it then updates to Desserts."
+        ],
+        "evidence": [
+          {
+            "path": "evidence/library-k-food-live/live-journal.json",
+            "sha256": "47c668f7ccb62c5b48e91c6f30815c788fd32ef6e6770b23f5bde9e39522d8c5",
+            "purpose": "Authorized independent-copy publication and current-palette consumer verification.",
+            "sourceOnly": true
+          },
+          {
+            "path": "evidence/library-k-food-live/live-desktop.json",
+            "sha256": "4a2491508361bc1e7936c6f95486e251e0210d2709b173fb3ed5b1988a7213b1",
+            "purpose": "Live independent copy at 1536px; three columns, seven loaded photos, zero overflow.",
+            "sourceOnly": true
+          },
+          {
+            "path": "evidence/library-k-food-live/live-mobile.json",
+            "sha256": "6725243f6c85d6f2aa8cf5b49d808a87c926253f5fb0ff3fb17844c1a6e094bd",
+            "purpose": "Live independent copy at 390px; one column, seven loaded photos, zero overflow.",
+            "sourceOnly": true
+          },
+          {
+            "path": "evidence/library-k-food-live/live-mobile-category-settled.json",
+            "sha256": "9cde842224ea937d42928916fadbb1c48581179d24ae54fae72ce80832407d58",
+            "purpose": "Native mobile category label lag after a successful Desserts jump.",
+            "sourceOnly": true
+          },
+          {
+            "path": "evidence/library-k-food-live/live-mobile-category-after-scroll.json",
+            "sha256": "70890290f0c8570dc18937aa5e61e0ac2d7a74542e360c9b9c0bbb2676be9d98",
+            "purpose": "Native category label updates after further scrolling.",
+            "sourceOnly": true
+          },
+          {
+            "path": "evidence/library-k-food-live/README.md",
+            "sha256": "9a7e3a80c27839b891c7b6e1f4d130ca0edb80eef166141cb963c5e640692d3c",
+            "purpose": "Bounded live-phase findings and remaining checks.",
+            "sourceOnly": true
+          }
+        ],
+        "scope": "Later published independent copy only, at the recorded palette and desktop/390px browser viewports. Earlier carrier/Admin evidence remains unchanged; no physical-device, arbitrary-palette, checkout, Mobile App or controlled-empty-state certification."
+      }
+    },
+    "food--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "find-us--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "find-us--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "find-us--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "find-us--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "find-us--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "find-us--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "membership--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "gift-cards--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "gift-cards--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "gift-cards--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact-anchor--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact-anchor--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact-anchor--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "contact-channels--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "ticket-finder--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "ticket-finder--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "ticket-finder--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "coming-soon--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "visit--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "experience--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "experience--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "after-show--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "programme--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-a-circuit": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/A-page.css",
+          "sha256": "312bc11c1bb29e48daa3bc9f5d2610c345c91e12de73493c1a934d8cdb530b20",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-b-rep": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/B-page.css",
+          "sha256": "eaf67efc782442bf4381aa759f1d20bb4d1329a0b3327cd7f1910da6ba04010e",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-c-late": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/C-page.css",
+          "sha256": "f78077e0cf045146a9efcead48ea718f4d48a32db6515648e1ef90878697f096",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-d-odd": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/D-page.css",
+          "sha256": "81955e026fd6930c79d7031aff6e12b1253ccb9cb03f0c6bcc10cfda4e789d3c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-e-grid": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/E-page.css",
+          "sha256": "fb052f53ae5ec431ce6579a116e9409b9a4164ebf70f77a7302228d9a7dcf9f5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-f-concrete": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/F-page.css",
+          "sha256": "fe86427a408de7cc5ef90d410b8e55d75a43679daa595b9c588454c5a8e3d6cc",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-g-cut": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/G-page.css",
+          "sha256": "88fa089f25486bca4e06bac19cba0bb5d195c924b4b1c974e50f09d2445bf74c",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-h-storybook": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/H-page.css",
+          "sha256": "834c55fd2705e5a65dbba8fe13f6d18a44511c23bbdbf9539296dcb6f5317290",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-i-ma": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/I-page.css",
+          "sha256": "b81f5ea461668411a202caf395017df7ad936295c42b866dc05a53acb93e6eb5",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-j-box-office": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/J-page.css",
+          "sha256": "356e4216fb46aad282e9d6895be8a38c33a857942e5ff6716dc2f6bfce903e08",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-k-clubhouse": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/K-page.css",
+          "sha256": "576c7e5e3f43b4263d764754584c51b1c43083f198df6fb778a15802c14f0293",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    },
+    "footer--variant-l-midnight-lounge": {
+      "moduleVersion": 1,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review",
+      "artifacts": [
+        {
+          "path": "evidence/admin-controls-completion/native-saved/L-page.css",
+          "sha256": "b5331d66f7ad0d444b259a7da492f844659298f699f7befbc1d25234b3a32ae9",
+          "purpose": "Source Page CSS reference; not a self-contained section package.",
+          "sourceOnly": true
+        }
+      ],
+      "limitations": [
+        "Visual capture review does not certify installation on a new Site.",
+        "Source IDs must never be used as destination IDs."
+      ]
+    }
+  }
+}

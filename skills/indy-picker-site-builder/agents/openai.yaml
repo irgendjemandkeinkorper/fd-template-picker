@@ -1,0 +1,4 @@
+interface:
+  display_name: "INDY Picker Site Builder"
+  short_description: "Build reviewed INDY drafts from picker selections"
+  default_prompt: "Use $indy-picker-site-builder to prepare a new INDY site draft from my template picker export."

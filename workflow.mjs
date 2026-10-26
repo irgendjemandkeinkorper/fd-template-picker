@@ -1,5 +1,5 @@
 import { REQUIRED_COMPONENTS, componentForOption, visualReviewForOption } from './model.mjs';
-import { assessBrandColors, BRAND_COLOR_NOTE } from './colors.mjs';
+import { assessBrandColors, BRAND_COLOR_NOTE, paletteForState, assessPalette, COLOR_ROLES, PALETTE_BINDING_NOTE } from './colors.mjs';
 
 export const GUIDE_STEPS = Object.freeze([
   Object.freeze({ id: 'colors', label: 'Brand colors', kind: 'colors' }),
@@ -60,10 +60,13 @@ export function createWorkflow(catalog) {
 
   function buildCustomerSummary(state) {
     const assessment = assessBrandColors(state.brandColors);
+    const palette = paletteForState(state), paletteAssessment = assessPalette(palette);
     const lines = [`${String(state.project ?? '').trim() || 'Your website'} — Template selection`, '', 'Brand colors',
       `Primary: ${assessment.primary ?? 'Not selected'}`, `Secondary: ${assessment.secondary ?? 'Not selected'}`,
       `Text contrast: ${assessment.valid ? `${assessment.ratio.toFixed(2)}:1 — ${assessment.normalText.passes ? 'Meets the 4.5:1 requirement for regular text.' : 'Choose a pair that meets the 4.5:1 requirement for regular text.'}` : 'Choose two valid colors.'}`,
-      BRAND_COLOR_NOTE, '', 'Your sections'];
+      ...COLOR_ROLES.filter(({ id }) => !['primary', 'secondary'].includes(id)).map(({ id, label }) => `${label}: ${palette.roles[id]}`),
+      `Dark / Background contrast: ${paletteAssessment.pairs[1].ratio?.toFixed(2) ?? 'Invalid'}:1`,
+      PALETTE_BINDING_NOTE, BRAND_COLOR_NOTE, '', 'Your sections'];
     for (const [index, step] of sectionSteps.entries()) {
       const choice = selectedChoice(state, step.id);
       lines.push(`${index + 1}. ${step.label}: ${choice ? choice.option.customerDesign?.label ?? choice.option.variantLabel : 'Not selected'}`);

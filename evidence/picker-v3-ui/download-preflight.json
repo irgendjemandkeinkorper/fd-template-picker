@@ -1,0 +1,78 @@
+{
+  "schema": "fd-indy-preflight-report/v1",
+  "inputValid": true,
+  "readyForNativePreflight": false,
+  "nativeAuthorizationEstablished": false,
+  "errors": [],
+  "blockers": [
+    "No separately bound destination/build authorization request; source selection is not destination permission",
+    "header--variant-d-odd: portable mixed-site installation not verified; prepare native-field/dependency/isolation packaging plan",
+    "hero--variant-l-midnight-lounge: portable mixed-site installation not verified; prepare native-field/dependency/isolation packaging plan",
+    "food--variant-j-box-office: portable mixed-site installation not verified; prepare native-field/dependency/isolation packaging plan",
+    "events--variant-i-ma: portable mixed-site installation not verified; prepare native-field/dependency/isolation packaging plan",
+    "membership--variant-j-box-office: portable mixed-site installation not verified; prepare native-field/dependency/isolation packaging plan",
+    "contact--variant-i-ma: portable mixed-site installation not verified; prepare native-field/dependency/isolation packaging plan"
+  ],
+  "modules": [
+    {
+      "optionId": "header--variant-d-odd",
+      "component": "navigation",
+      "artifactIntegrity": true,
+      "packagingRequired": true,
+      "readiness": "unverified-portability",
+      "installationMethod": "destination-global-configuration-review"
+    },
+    {
+      "optionId": "hero--variant-l-midnight-lounge",
+      "component": "hero",
+      "artifactIntegrity": true,
+      "packagingRequired": true,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation"
+    },
+    {
+      "optionId": "food--variant-j-box-office",
+      "component": "food",
+      "artifactIntegrity": true,
+      "packagingRequired": true,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation"
+    },
+    {
+      "optionId": "events--variant-i-ma",
+      "component": "private-parties",
+      "artifactIntegrity": true,
+      "packagingRequired": true,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation"
+    },
+    {
+      "optionId": "membership--variant-j-box-office",
+      "component": "membership",
+      "artifactIntegrity": true,
+      "packagingRequired": true,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation"
+    },
+    {
+      "optionId": "contact--variant-i-ma",
+      "component": "contact",
+      "artifactIntegrity": true,
+      "packagingRequired": true,
+      "readiness": "unverified-portability",
+      "installationMethod": "manual-source-review-and-native-recreation"
+    }
+  ],
+  "nextActions": [
+    "Complete each named packaging, target, final-name or content blocker before assembly."
+  ],
+  "limits": [
+    "Local validation cannot verify current native UI, target, permission, provisioning outcome or human authorization.",
+    "Native preview/consumer QA and draft-only state still require observed evidence."
+  ],
+  "pickerBriefSha256": "0a1b80e47372cfebd557987acd77737704f1a4e5ef9fd1714f95d8040ee1f033",
+  "baseContrast": {
+    "primary/secondary": 7.0256,
+    "dark/background": 10.2549
+  }
+}

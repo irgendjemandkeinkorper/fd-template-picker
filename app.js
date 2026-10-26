@@ -1,6 +1,7 @@
-import { SCHEMA, SUPPORTED_SCHEMAS, createModel } from './model.mjs';
-import { assessBrandColors, normalizeHexColor, DEFAULT_BRAND_COLORS, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL } from './colors.mjs';
+import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildBuildBrief } from './model.mjs';
+import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL, COLOR_ROLES, DEFAULT_PALETTE_ROLES, normalizePalette, paletteForState, assessPalette, paletteKey, PALETTE_BINDING_NOTE } from './colors.mjs';
 import { GUIDE_STEPS, createWorkflow } from './workflow.mjs';
+import { HUB_DATA_URL, renderTemplateHub } from './hub.mjs';
 
 const STORAGE_KEY = 'fd-template-picker:guided-selection:v1';
 const LEGACY_STORAGE_KEY = 'fd-template-picker:selection';
@@ -13,7 +14,7 @@ const decodeState = (value) => JSON.parse(new TextDecoder().decode(Uint8Array.fr
 const styleName = (option) => option.customerDesign?.label ?? option.variantLabel.replace(/^[A-Z]\s*·\s*/, '');
 const formatRatio = (ratio) => (Math.floor(ratio * 100) / 100).toFixed(2);
 const stepCopy = {
-  colors: ['Make it yours.', 'Pick a primary and secondary color for your website.'],
+  colors: ['Make it yours.', 'Choose your main colors, then adjust text and backgrounds.'],
   navigation: ['Choose your navigation.', 'The menu that helps visitors find their way.'],
   hero: ['Choose your opening section.', 'Make a first impression with a layout you love.'],
   food: ['Choose your food & drink section.', 'Show off your menu and cinema favorites.'],
@@ -22,12 +23,12 @@ const stepCopy = {
   contact: ['Choose your contact section.', 'Make it easy to start a conversation.'],
   review: ['Your website, coming together.', 'Review your choices, then share them with your website team.'],
 };
-let catalog, model, workflow, state, toastTimer, saveTimer, returnToReview = false;
+let catalog, model, workflow, state, toastTimer, saveTimer, catalogText, returnToReview = false;
 const loadedPreviews = new Set();
 try {
   const response = await fetch('catalog.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('Catalog unavailable');
-  catalog = await response.json(); model = createModel(catalog); workflow = createWorkflow(catalog);
+  catalogText = await response.text(); catalog = JSON.parse(catalogText); model = createModel(catalog); workflow = createWorkflow(catalog);
   let raw = null, restoreError = false;
   try {
     if (location.hash.startsWith('#s=')) {
@@ -50,8 +51,8 @@ try {
 }
 
 function colorContext() {
-  const assessment = assessBrandColors(state.brandColors);
-  return { colorsKey: `${assessment.primary}|${assessment.secondary}`, colorsValid: assessment.normalText.passes };
+  const palette = paletteForState(state);
+  return { colorsKey: paletteKey(palette), colorsValid: assessPalette(palette).passes };
 }
 function toast(message) {
   clearTimeout(toastTimer); $('toast').textContent = message; $('toast').classList.add('is-visible');
@@ -113,14 +114,15 @@ function renderActions(step) {
   const actions = el('div', { className: 'step-actions' }, back);
   const right = el('div', { className: 'action-right' });
   if (step.kind === 'review') {
-    right.append(button('Copy link', 'button button--secondary', copyLink), button('Download summary ↓', 'button button--primary', downloadSummary));
+    right.append(button('Copy link', 'button button--secondary', copyLink), button('Summary ↓', 'button button--secondary', downloadSummary), button('Build brief ↓', 'button button--primary', downloadBuildBrief));
+    right.lastElementChild.setAttribute('aria-label', 'Download build brief JSON');
   } else {
     const next = button('', 'button button--primary', () => {
       try {
         if (step.kind === 'colors') {
-          const assessment = assessBrandColors(state.brandColors);
-          if (!assessment.normalText.passes) return;
-          state.brandColors = { primary: assessment.primary, secondary: assessment.secondary };
+          if (!colorContext().colorsValid) return;
+          state.palette = normalizePalette(paletteForState(state));
+          state.brandColors = { primary: state.palette.roles.primary, secondary: state.palette.roles.secondary };
         }
         state.workflow = workflow.confirm(state.workflow, state, step.id, colorContext());
         const finished = workflow.firstIncomplete(state.workflow, state, colorContext()) === 'review';
@@ -132,7 +134,7 @@ function renderActions(step) {
     next.id = 'continue';
     const label = returnToReview ? 'Save choice' : step.kind === 'colors' ? 'Use these colors' : 'Use this style';
     next.append(el('span', { textContent: label }), el('span', { className: 'button-arrow', textContent: '→' }));
-    next.disabled = step.kind === 'colors' ? !assessBrandColors(state.brandColors).normalText.passes : !loadedPreviews.has(workflow.selectedChoice(state, step.id)?.option.id);
+    next.disabled = step.kind === 'colors' ? !colorContext().colorsValid : !loadedPreviews.has(workflow.selectedChoice(state, step.id)?.option.id);
     right.append(el('span', { className: 'action-hint', textContent: 'You can change your choices later.' }), next);
   }
   actions.append(right); return actions;
@@ -146,17 +148,19 @@ function renderColors() {
   const project = el('input', { id: 'project', type: 'text', className: 'project-input', value: state.project, placeholder: 'e.g. The Picture House', maxLength: 100, autocomplete: 'organization' });
   project.oninput = () => { state.project = project.value; save(); };
   area.append(el('label', { className: 'project-field', htmlFor: 'project' }, el('span', { className: 'field-label' }, 'Your cinema name', el('span', { className: 'optional', textContent: ' (optional)' })), project));
+  const palette = paletteForState(state);
   const fields = el('div', { className: 'color-fields' });
-  for (const kind of ['primary', 'secondary']) {
-    const name = kind === 'primary' ? 'Primary' : 'Secondary';
-    const native = el('input', { type: 'color', id: `${kind}Picker`, className: 'color-input', value: normalizeHexColor(state.brandColors[kind]) ?? DEFAULT_BRAND_COLORS[kind] });
-    native.setAttribute('aria-label', `Choose ${kind} color`);
-    const hex = el('input', { type: 'text', id: `${kind}Hex`, className: 'hex-input', value: state.brandColors[kind], maxLength: 7, spellcheck: false, autocomplete: 'off' });
+  const advancedFields = el('div', { className: 'color-fields color-fields--advanced' });
+  const setColor = (kind, value) => { state.palette.roles[kind] = value; if (['primary', 'secondary'].includes(kind)) state.brandColors[kind] = value; };
+  for (const { id: kind, label: name, advanced } of COLOR_ROLES) {
+    const native = el('input', { type: 'color', id: `${kind}Picker`, className: 'color-input', value: normalizeHexColor(palette.roles[kind]) ?? DEFAULT_PALETTE_ROLES[kind] });
+    native.setAttribute('aria-label', `Choose ${name.toLowerCase()} color`);
+    const hex = el('input', { type: 'text', id: `${kind}Hex`, className: 'hex-input', value: palette.roles[kind], maxLength: 7, spellcheck: false, autocomplete: 'off' });
     hex.setAttribute('aria-label', `${name} color hex code`); hex.setAttribute('aria-describedby', 'contrastFeedback');
-    native.oninput = () => { state.brandColors[kind] = native.value.toUpperCase(); hex.value = state.brandColors[kind]; refreshColorFeedback(); save(); };
-    hex.oninput = () => { state.brandColors[kind] = hex.value; const valid = normalizeHexColor(hex.value); if (valid) native.value = valid; refreshColorFeedback(); save(); };
-    hex.onblur = () => { const valid = normalizeHexColor(hex.value); if (valid) { state.brandColors[kind] = valid; hex.value = valid; save(); } };
-    fields.append(el('div', { className: 'color-field' }, el('label', { htmlFor: `${kind}Picker`, textContent: `${name} color` }), el('div', { className: 'color-control' }, native, el('div', {}, hex, el('p', { className: 'hex-hint', textContent: 'Pick a color or enter a hex code' })))));
+    native.oninput = () => { setColor(kind, native.value.toUpperCase()); hex.value = native.value.toUpperCase(); refreshColorFeedback(); save(); };
+    hex.oninput = () => { setColor(kind, hex.value); const valid = normalizeHexColor(hex.value); if (valid) native.value = valid; refreshColorFeedback(); save(); };
+    hex.onblur = () => { const valid = normalizeHexColor(hex.value); if (valid) { setColor(kind, valid); hex.value = valid; save(); } };
+    (advanced ? advancedFields : fields).append(el('div', { className: 'color-field' }, el('label', { htmlFor: `${kind}Picker`, textContent: `${name} color` }), el('div', { className: 'color-control' }, native, el('div', {}, hex, el('p', { className: 'hex-hint', textContent: 'Pick a color or enter a hex code' })))));
   }
   const card = el('section', { className: 'contrast-card' }); card.setAttribute('aria-label', 'Color contrast check');
   const samples = el('div', { className: 'contrast-samples' });
@@ -164,20 +168,32 @@ function renderColors() {
   const fix = button('Suggest a contrasting secondary', 'contrast-fix', () => {
     const primary = normalizeHexColor(state.brandColors.primary); if (!primary) return;
     const secondary = contrastRatio(primary, '#FFFFFF') >= contrastRatio(primary, '#000000') ? '#FFFFFF' : '#000000';
-    state.brandColors.secondary = secondary; $('secondaryHex').value = secondary; $('secondaryPicker').value = secondary;
+    setColor('secondary', secondary); $('secondaryHex').value = secondary; $('secondaryPicker').value = secondary;
     refreshColorFeedback(); save();
   }); fix.id = 'suggestContrast';
   const feedback = el('div', { id: 'contrastFeedback', className: 'contrast-result' }, el('span', { id: 'contrastStatus', className: 'contrast-status' }), el('span', { id: 'contrastDetail', className: 'contrast-detail' }), fix);
   feedback.setAttribute('role', 'status'); feedback.setAttribute('aria-live', 'polite');
-  card.append(el('div', { className: 'contrast-card__heading' }, el('h3', { textContent: 'See how they work together' }), el('span', { id: 'contrastRatio', className: 'contrast-ratio' })), samples, feedback);
-  area.append(fields, card, colorNotice(), link('How contrast is checked ↗', CONTRAST_STANDARD_URL, 'contrast-reference'));
+  const bodySample = el('div', { id: 'bodySample', className: 'body-color-sample' }, el('strong', { textContent: 'A night at your cinema' }), el('span', { textContent: 'Dark text on your Background color' }));
+  const bodyFeedback = el('p', { id: 'bodyContrastFeedback', className: 'contrast-detail' }); bodyFeedback.setAttribute('aria-live', 'polite');
+  const fixBody = button('Suggest a readable Dark color', 'contrast-fix', () => {
+    const bg = normalizeHexColor(state.palette.roles.background); if (!bg) return;
+    const dark = contrastRatio(bg, '#000000') >= contrastRatio(bg, '#FFFFFF') ? '#000000' : '#FFFFFF';
+    setColor('dark', dark); $('darkHex').value = dark; $('darkPicker').value = dark; refreshColorFeedback(); save();
+  }); fixBody.id = 'suggestBodyContrast';
+  card.append(el('div', { className: 'contrast-card__heading' }, el('h3', { textContent: 'Text contrast' }), el('span', { id: 'contrastRatio', className: 'contrast-ratio' })), samples, feedback, bodySample, bodyFeedback, fixBody,
+    el('p', { className: 'palette-check-note', textContent: 'These checks cover the two base text pairs. Your website team will also check text over images, buttons and other states.' }));
+  const advanced = el('details', { className: 'advanced-colors' }, el('summary', { textContent: 'Advanced colors · messages, splash screen & seating' }),
+    el('p', { textContent: 'Optional. These suggested starter colors are saved with your choices. Your website team will verify how each is used.' }), advancedFields);
+  const bindings = el('details', { className: 'palette-bindings' }, el('summary', { textContent: 'How Header and Accent are used' }), el('p', { textContent: PALETTE_BINDING_NOTE }));
+  area.append(fields, advanced, card, colorNotice(), bindings, link('How contrast is checked ↗', CONTRAST_STANDARD_URL, 'contrast-reference'));
   queueMicrotask(refreshColorFeedback);
   return area;
 }
 function refreshColorFeedback() {
   if (!$('contrastFeedback')) return;
   const result = assessBrandColors(state.brandColors);
-  for (const kind of ['primary', 'secondary']) $(`${kind}Hex`).setAttribute('aria-invalid', String(!normalizeHexColor(state.brandColors[kind])));
+  const palette = paletteForState(state), assessment = assessPalette(palette), body = assessment.pairs[1];
+  for (const { id } of COLOR_ROLES) $(`${id}Hex`).setAttribute('aria-invalid', String(!normalizeHexColor(palette.roles[id])));
   for (const [id, background, color] of [['primarySample', result.primary, result.secondary], ['secondarySample', result.secondary, result.primary]]) {
     $(id).style.backgroundColor = background ?? '#ECEEED'; $(id).style.color = color ?? '#183B4E';
   }
@@ -189,7 +205,12 @@ function refreshColorFeedback() {
       : result.largeText.passes ? 'Works for large text only. Choose more contrast for regular text.'
         : 'Try one light and one dark color so text is easy to read.';
   $('suggestContrast').hidden = result.normalText.passes || !result.valid;
-  if ($('continue')) $('continue').disabled = !result.normalText.passes;
+  $('bodySample').style.backgroundColor = normalizeHexColor(palette.roles.background) ?? '#ECEEED';
+  $('bodySample').style.color = normalizeHexColor(palette.roles.dark) ?? '#183B4E';
+  $('bodyContrastFeedback').textContent = `Dark / Background: ${body.ratio === null ? 'enter valid colors' : `${formatRatio(body.ratio)}:1 · ${body.passes ? 'Good for regular text' : 'Needs 4.5:1 for regular text'}`}${!assessment.valid ? '. Check any invalid hex codes, including Advanced colors.' : ''}`;
+  $('bodyContrastFeedback').classList.toggle('is-failing', !body.passes || !assessment.valid);
+  $('suggestBodyContrast').hidden = body.passes || body.ratio === null;
+  if ($('continue')) $('continue').disabled = !assessment.passes;
   renderChecklist();
 }
 function imageUrl(option) {
@@ -247,12 +268,17 @@ function renderReview() {
   const area = el('div'); const result = assessBrandColors(state.brandColors);
   area.append(el('p', { className: 'review-intro' }, el('span', { textContent: '✓' }), 'All 7 choices are complete.'));
   const colors = el('div', { className: 'review-colors' }, el('h3', { textContent: 'Brand colors' }));
-  for (const kind of ['primary', 'secondary']) {
-    const dot = el('span', { className: 'color-dot' }); dot.style.backgroundColor = state.brandColors[kind]; dot.setAttribute('aria-hidden', 'true');
-    colors.append(el('div', { className: 'review-color' }, dot, el('div', {}, kind === 'primary' ? 'Primary' : 'Secondary', el('strong', { textContent: state.brandColors[kind] }))));
+  const palette = paletteForState(state);
+  const advanced = el('details', { className: 'review-advanced-colors' }, el('summary', { textContent: 'Advanced colors' }));
+  const advancedSwatches = el('div', { className: 'advanced-swatches' });
+  for (const { id, label, advanced: isAdvanced } of COLOR_ROLES) {
+    const dot = el('span', { className: 'color-dot' }); dot.style.backgroundColor = palette.roles[id]; dot.setAttribute('aria-hidden', 'true');
+    (isAdvanced ? advancedSwatches : colors).append(el('div', { className: 'review-color' }, dot, el('div', {}, label, el('strong', { textContent: palette.roles[id] }))));
   }
-  colors.append(el('span', { className: 'review-ratio', textContent: `✓ ${formatRatio(result.ratio)}:1 contrast` }), button('Edit', 'edit-link', () => goTo('colors')));
-  colors.style.marginTop = '18px'; area.append(colors, colorNotice());
+  advanced.append(advancedSwatches);
+  const body = assessPalette(palette).pairs[1];
+  colors.append(el('span', { className: 'review-ratio', textContent: `✓ Brand ${formatRatio(result.ratio)}:1 · Text ${formatRatio(body.ratio)}:1` }), button('Edit', 'edit-link', () => goTo('colors')));
+  colors.style.marginTop = '18px'; area.append(colors, advanced, colorNotice());
   const grid = el('div', { className: 'review-grid' });
   for (const step of GUIDE_STEPS.filter((entry) => entry.kind === 'section')) {
     const choice = workflow.selectedChoice(state, step.id); if (!choice) continue;
@@ -261,11 +287,11 @@ function renderReview() {
     thumb.setAttribute('aria-label', `Preview ${step.label.toLowerCase()}`); thumb.append(screenshot(choice.option, step));
     grid.append(el('article', { className: 'review-card' }, el('div', { className: 'review-card__heading' }, el('div', {}, el('h3', { textContent: step.label }), el('p', { textContent: styleName(choice.option) })), edit), thumb));
   }
-  area.append(grid, el('p', { className: 'review-closing', textContent: 'Your summary includes your colors and all six section choices. You can return to any step to make changes.' }));
+  area.append(grid, el('p', { className: 'review-closing', textContent: 'Your summary includes your palette and all six section choices. The JSON build brief gives your website team the source references and checks needed to prepare a draft.' }));
   return area;
 }
 async function copyLink() {
-  const compact = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, workflow: state.workflow,
+  const compact = { schema: SCHEMA, project: state.project, brandColors: state.brandColors, palette: normalizePalette(paletteForState(state)), workflow: state.workflow,
     sections: GUIDE_STEPS.filter((step) => step.kind === 'section').map((step) => { const choice = workflow.selectedChoice(state, step.id); return { slot: choice.slotId, optionId: choice.option.id, included: true }; }) };
   const url = new URL(location.pathname, location.origin); url.hash = `s=${encodeState(compact)}`;
   try { await navigator.clipboard.writeText(url.href); toast('Selection link copied. Your colors and choices are included.'); }
@@ -273,11 +299,53 @@ async function copyLink() {
 }
 function downloadSummary() {
   const summary = workflow.buildCustomerSummary(state);
-  const filename = `${state.project.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'cinema'}-website-choices.txt`;
-  const url = URL.createObjectURL(new Blob([summary], { type: 'text/plain;charset=utf-8' }));
-  const anchor = el('a', { href: url, download: filename }); document.body.append(anchor); anchor.click(); anchor.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  downloadFile(summary, 'website-choices.txt', 'text/plain;charset=utf-8');
   toast('Your selection summary is ready.');
 }
+function downloadFile(content, suffix, type) {
+  const filename = `${state.project.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'cinema'}-${suffix}`;
+  const url = URL.createObjectURL(new Blob([content], { type }));
+  const anchor = el('a', { href: url, download: filename }); document.body.append(anchor); anchor.click(); anchor.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+async function sha256(text) {
+  return [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text)))].map((byte) => byte.toString(16).padStart(2, '0')).join('');
+}
+async function downloadBuildBrief() {
+  try {
+    const response = await fetch('data/build-modules.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('Module index unavailable');
+    const moduleText = await response.text();
+    const context = { catalogSha256: await sha256(catalogText), moduleIndexSha256: await sha256(moduleText), moduleIndex: JSON.parse(moduleText) };
+    const brief = buildBuildBrief(catalog, state, location.href, context);
+    downloadFile(`${JSON.stringify(brief, null, 2)}\n`, 'build-brief.json', 'application/json;charset=utf-8');
+    toast('Your build brief is ready for your website team.');
+  } catch { toast('The build brief could not load. Your choices are saved; try again or download the summary.'); }
+}
+let hubReady = false, activeTab = 'picker';
+async function showTab(tab, focusContent = true) {
+  activeTab = tab;
+  const templates = tab === 'templates';
+  $('pickerPane').hidden = templates; $('templatesPane').hidden = !templates;
+  for (const [id, selected] of [['pickerTab', !templates], ['templatesTab', templates]]) {
+    $(id).setAttribute('aria-selected', String(selected)); $(id).tabIndex = selected ? 0 : -1;
+  }
+  $('restart').hidden = templates; $('saved').hidden = templates;
+  document.querySelector('.skip-link').href = templates ? '#templateHubTitle' : '#stepTitle';
+  if (templates) {
+    if (!hubReady) {
+      try {
+        const response = await fetch(HUB_DATA_URL, { cache: 'no-store' }); if (!response.ok) throw new Error('Hub unavailable');
+        $('templatesPane').replaceChildren(renderTemplateHub(catalog, await response.json())); hubReady = true;
+      } catch { $('templatesPane').replaceChildren(el('div', { className: 'empty-state' }, el('h1', { id: 'templateHubTitle', tabIndex: -1, textContent: 'Templates are taking a moment.' }), el('p', { textContent: 'Your checklist choices are saved. Please try this tab again.' }))); }
+    }
+    if (activeTab === 'templates' && focusContent) $('templateHubTitle')?.focus({ preventScroll: true });
+  } else if (focusContent) $('stepTitle')?.focus({ preventScroll: true });
+}
+$('pickerTab').onclick = () => showTab('picker');
+$('templatesTab').onclick = () => showTab('templates');
+for (const id of ['pickerTab', 'templatesTab']) $(id).onkeydown = (event) => {
+  if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) { event.preventDefault(); const tab = event.key === 'Home' ? 'picker' : event.key === 'End' ? 'templates' : id === 'pickerTab' ? 'templates' : 'picker'; $(tab === 'picker' ? 'pickerTab' : 'templatesTab').focus(); showTab(tab, false); }
+};
 $('closePreview').onclick = () => $('previewDialog').close();
 $('restart').onclick = () => $('restartDialog').showModal();
 $('cancelRestart').onclick = () => $('restartDialog').close();

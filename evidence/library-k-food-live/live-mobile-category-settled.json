@@ -1,0 +1,18 @@
+{
+  "selectedControl": "Drinks\narrow_drop_down",
+  "visibleCards": [
+    {
+      "text": "Soda\nStarting at$6.00",
+      "top": -150.85000610351562
+    },
+    {
+      "text": "Pie Hard\nWarm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.\n$10.00",
+      "top": 238.15000915527344
+    },
+    {
+      "text": "Sundae, Bloody Sundae\nThree scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.\n$10.00",
+      "top": 633.5499877929688
+    }
+  ],
+  "observation": "Selecting Desserts scrolls to its products, but the native dropdown can still label the current category Drinks until further scrolling."
+}

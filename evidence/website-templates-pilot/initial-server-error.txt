@@ -1,0 +1,115 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/developers".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/developers
+	1 container
+		2 container
+			3 toolbar
+				4 button
+				5 text INDY Admin
+				6 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+				7 button
+				8 switch 0
+				9 button
+				10 container
+					11 text Region US-BETA
+					12 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+				13 container
+					14 text Circuit INDY Demo
+					15 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+				16 container
+					17 text Site Adam Template Testing
+					18 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+				19 button Menu
+			20 container
+				21 content list
+					22 container
+						23 text Operations
+				24 content list
+					25 container
+						26 text Reports
+				27 content list
+					28 container
+						29 text Settings
+				30 text Favorites
+				31 content list
+					32 container
+						33 text Theme and Style
+				34 content list
+					35 container
+						36 text Pages
+				37 content list
+					38 container
+						39 text Release Notes
+				40 content list
+					41 container
+						42 text How To Guides
+				43 content list
+					44 container
+						45 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				46 content list
+					47 container
+						48 text Developer
+				49 switch Description: Demo Mode, Value: 0
+					50 text Demo Mode
+			51 link Description: Developers, Value: admin-us-beta.indy.systems/#/developers
+			52 container
+				53 text Search developer items...
+				54 text field (settable) Description: Search developer items..., ID: f_755a7205-79a7-4ad8-8880-e4fb9c6aea28
+			55 text Infrastructure
+			56 link Description: Client Versions List of Client Versions and Release Notes Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/infrastructure/client-versions
+			57 link Description: Netlify Site Deploy Status Netlify deploy status for all sites Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/infrastructure/netlify-status
+			58 container
+				59 text Job Server Status Launch the Sidekiq job server status page
+			60 link Description: Logging Service View and Search through application logs Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/infrastructure/job-logs
+			61 link Description: Report Generation Timeline View report generation timeline and performance metrics Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/infrastructure/report-generation-timeline
+			62 text External Applications
+			63 link Description: Oauth Applications Create and manage Oauth credentials for external applications Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/external-applications/oauth-applications
+			64 text Settings
+			65 link Description: Developer Site Settings Settings that apply to the Site Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/settings/site-settings
+			66 link Description: Developer Circuit Settings Settings that apply to the Circuit Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/settings/circuit-settings
+			67 link Description: Feature Flags List status of feature flags for current Site Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/settings/feature-flags
+			68 link Value: admin-us-beta.indy.systems/#/developers/settings/time-slots, Description: Time Slots How you conceptually define times when a block of shows play (e.g. noon, matinee, evening, night, etc.) Add to Favorites
+			69 link Description: Analytics Events (Alpha) Tracked analytics events reference Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/settings/analytics-events
+			70 link Description: Global Payment Connector Settings Settings that apply to the Region Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/settings/developer-payment-connectors
+			71 link Description: Site Stripe Configuration Settings that apply to the Site Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/settings/site-stripe-configuration
+			72 text Circuit and Site Creation
+			73 container
+				74 text Create New Circuit Create a new circuit, either blank or starting with a template
+			75 container
+				76 text Create New Site Add a new site to this circuit, either blank or starting by copying an existing site
+			77 container
+				78 text Create Library Site Add a library to this circuit to share movies/items/etc between sites
+			79 text Advanced
+			80 container
+				81 text Execute Advanced Action Execute an action on the server
+			82 link Description: Unknown Payments Stripe payments of unknown origin Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/advanced/unknown-payments
+			83 link Description: Data Migrations View migration status Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/advanced/data-migrations
+			84 link Description: Global Super Users List of all super users across all regions Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/advanced/global-super-users
+			85 text App Deployment
+			86 link Description: Deploy Mobile App Configure and deploy mobile applications to TestFlight Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/app-deployment/deploy-mobile-app
+			87 text Imports
+			88 link Description: Data Imports Import Users, Vouchers and Gift Cards. Add to Favorites, Value: admin-us-beta.indy.systems/#/developers/imports/cinema-data-migrations
+		89 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		92 container
+			93 text Create New Circuit
+			94 button
+			95 container
+				96 container
+					97 text Starting Template TEMPLATE STANDARD
+					98 combo box (collapsed, settable) Description: Starting Template, Value: TEMPLATE STANDARD, ID: f_737870f7-26c3-4379-a4f1-0653170e6225, Secondary Actions: Expand
+			99 container
+				100 container
+					101 text Circuit Name
+					102 text field (settable) Description: Circuit Name, Value: Website Templates, ID: f_f1627911-6823-42c4-b2b5-9483087e8fae
+			103 container
+				104 container
+					105 text Site Name
+					106 text field (settable) Description: Site Name, Value: Showcase, ID: f_e9ba494f-220c-411e-a302-b02dd9009ceb
+			107 checkbox Description: Create Consumer Website, Value: 1
+				108 text Create Consumer Website
+			109 button CREATE NEW CIRCUIT
+				111 text CREATE NEW CIRCUIT
+		112 container
+			113 text Message Response not successful: Received status code 500
+			114 button OK
+
+The focused UI element is 114 button OK

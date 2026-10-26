@@ -1,0 +1,40 @@
+{
+  "phase": "template-prefix-request",
+  "target": {"region":"US-BETA","circuit":"Website Templates","circuitId":103,"site":"Showcase","siteId":183},
+  "userPreference": "Use INDY Admin for all hosting changes. All template public addresses must start template-; keep the one-word Site names.",
+  "initialFields": {"Netlify Site Name":"showcase-indy-consumer","Hostname":"","Netlify Site ID":"c68241b5-0f9e-4678-a99f-135b7cc08558","Git Branch Name":"showcase"},
+  "shortNameAttempt": {
+    "Netlify Site Name":"template-showcase",
+    "Hostname":"https://template-showcase.netlify.app",
+    "nativeSaveVerified":true,
+    "validation":"An initial Name-only save was rejected because Hostname is required. Supplying the full matching URL allowed Save; both fields persisted on reopen.",
+    "publicResult":"The exact short address serves an unrelated React/NFT site, not INDY Showcase.",
+    "claimOfSuccessfulHostingRename":false
+  },
+  "correctiveSave": {
+    "Netlify Site Name":"showcase-indy-consumer",
+    "Hostname":"https://showcase-indy-consumer.netlify.app",
+    "readbackVerified":true,
+    "note":"The original working Name was restored. Hostname now explicitly names its existing working public URL because the UI rejected an empty value.",
+    "Netlify Site ID":"c68241b5-0f9e-4678-a99f-135b7cc08558",
+    "Git Branch Name":"showcase"
+  },
+  "candidate": {
+    "Netlify Site Name":"template-showcase-indy-consumer",
+    "Hostname":"https://template-showcase-indy-consumer.netlify.app",
+    "publicReadback":"Netlify Site not found",
+    "ownershipOrAvailabilityEstablished":false,
+    "preparedInNativeForm":true,
+    "saved":false,
+    "oneDeployTest":"Awaiting explicit confirmation; no manual Trigger Site Deploy executed."
+  },
+  "nativeInspection": {
+    "NetlifyDeployStatus":"Showcase row linked to its restored existing host and offered a deploy control; no rename control observed.",
+    "advancedAction":"Choices inspected read-only, including Create Consumer Website. Execute was not pressed.",
+    "NetlifyLogin":"No login performed; user specified INDY Admin only."
+  },
+  "currentSavedHost":"https://showcase-indy-consumer.netlify.app",
+  "prefixLiveVerified":false,
+  "otherSitesChanged":false,
+  "hub":"Still links to the verified original cinema demos, not either proposed address."
+}

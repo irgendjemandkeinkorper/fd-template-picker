@@ -1,0 +1,12 @@
+Browser tab: 1409043217, Title: "Showtimes, Tickets and More", URL: "https://showcase-indy-consumer.netlify.app/".
+0 AXWebArea Showtimes, Tickets and More, URL: showcase-indy-consumer.netlify.app/
+	1 container
+		2 toolbar
+			3 button Go Back
+			4 link Description:  Logo, Value: showcase-indy-consumer.netlify.app/
+			5 button Close
+		6 container
+			7 text 404 Oops. Nothing here...
+			8 link Description: Go Home, Value: showcase-indy-consumer.netlify.app/
+
+The focused UI element is 0 AXWebArea Showtimes, Tickets and More, URL: showcase-indy-consumer.netlify.app/

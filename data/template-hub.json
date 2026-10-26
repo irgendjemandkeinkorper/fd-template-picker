@@ -1,0 +1,165 @@
+{
+  "schema": "fd-template-hub/v1",
+  "title": "Explore the templates.",
+  "description": "Nine starting points for your cinema. Take a look around and find the feel you like.",
+  "notice": "All nine names are approved. Showcase hosting is an empty consumer shell without Pages or the transferred design, not a ready demo. Dedicated demo links remain absent; current links come from the source catalog.",
+  "nameStatus": "approved",
+  "namingApproval": {
+    "approvedLetters": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
+    "pendingLetters": [],
+    "pendingCandidates": [],
+    "nativePilotAuthorized": "Showcase"
+  },
+  "scope": {
+    "region": "US-BETA",
+    "circuit": "Website Templates",
+    "siteProvisioningStatus": "showcase-shell-provisioned-content-not-transferred",
+    "publicAddressPlan": {
+      "status": "pending-deploy-test",
+      "requiredPrefix": "template-",
+      "retainedSuffix": "-indy-consumer",
+      "nativeSiteNamesRemainOneWord": true,
+      "desiredSubdomains": {
+        "variant-a-circuit": "template-showcase-indy-consumer",
+        "variant-b-rep": "template-reel-indy-consumer",
+        "variant-c-late": "template-neon-indy-consumer",
+        "variant-d-odd": "template-cameo-indy-consumer",
+        "variant-e-grid": "template-metropolis-indy-consumer",
+        "variant-f-concrete": "template-encore-indy-consumer",
+        "variant-g-cut": "template-splice-indy-consumer",
+        "variant-h-storybook": "template-prologue-indy-consumer",
+        "variant-i-ma": "template-pause-indy-consumer"
+      },
+      "shortLabelContext": "The initial template-showcase label was saved in INDY but its public address served an unrelated existing site; the saved working host was restored.",
+      "note": "Requested labels retain the INDY suffix and await a separately confirmed native deployment test. Ownership/availability and live prefix behavior are unverified; these are not demo links."
+    },
+    "pilot": {
+      "circuitId": 103,
+      "site": "Showcase",
+      "siteId": 183,
+      "status": "empty-consumer-shell",
+      "initialCreateResponse": "HTTP 500",
+      "partialCreationVerifiedAfterRefresh": true,
+      "circuitOrSiteCreationRetried": false,
+      "recoveryAction": "Create Consumer Website only; automatic initial deploy triggered",
+      "consumerShellUrl": "https://showcase-indy-consumer.netlify.app/",
+      "requestedSubdomain": "template-showcase-indy-consumer",
+      "publicAddressStatus": "pending-deploy-test",
+      "currentSavedNetlifySiteName": "showcase-indy-consumer",
+      "currentSavedHostname": "https://showcase-indy-consumer.netlify.app",
+      "correctiveHostingReadbackVerified": true,
+      "hostnameValidation": "Blank Hostname was rejected; the full existing working URL is now explicitly saved.",
+      "candidate": {
+        "netlifySiteName": "template-showcase-indy-consumer",
+        "preparedInNativeForm": true,
+        "saved": false,
+        "publicReadback": "Netlify Site not found",
+        "ownershipOrAvailabilityEstablished": false,
+        "manualDeployTriggered": false,
+        "oneDeployTestStatus": "pending-explicit-confirmation"
+      },
+      "hostingWorkflow": "INDY Developer Site Settings only; no Netlify login performed or required for this prepared native action.",
+      "namespaceEvidence": "evidence/website-templates-pilot/url-naming-journal.json",
+      "visibleMessage": "404 Oops. Nothing here...",
+      "nativePageCount": 0,
+      "sourceDesignTransferred": false,
+      "libraryImportsPerformed": 0,
+      "homepageReady": false,
+      "otherEightSitesCreated": false,
+      "evidence": "evidence/website-templates-pilot/pilot-journal.json"
+    },
+    "contentPlan": "Shared demo content; a complete homepage and section showcase pages for each design."
+  },
+  "templates": [
+    {
+      "id": "variant-a-circuit",
+      "letter": "A",
+      "displayName": "Showcase",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "A classic cinema layout with clear schedules and a strong focus on booking.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "shell-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-b-rep",
+      "letter": "B",
+      "displayName": "Reel",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Elegant type and printed-programme details create a considered, editorial feel.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-c-late",
+      "letter": "C",
+      "displayName": "Neon",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Large film imagery and compact listings bring energy to evenings that run late.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-d-odd",
+      "letter": "D",
+      "displayName": "Cameo",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Playful collage, angled cards and noticeboard details give the cinema personality.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-e-grid",
+      "letter": "E",
+      "displayName": "Metropolis",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Clean panels and organized cards keep films, tickets and practical information easy to find.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-f-concrete",
+      "letter": "F",
+      "displayName": "Encore",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Bold typography and direct layouts create a confident, industrial character.",
+      "thumbnailSlotId": "food",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-g-cut",
+      "letter": "G",
+      "displayName": "Splice",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Oversized headlines and dramatic angles turn each section into a film poster.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-h-storybook",
+      "letter": "H",
+      "displayName": "Prologue",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Framed panels and elegant lettering recall classic cinema title cards.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    },
+    {
+      "id": "variant-i-ma",
+      "letter": "I",
+      "displayName": "Pause",
+      "displayNameStatus": "approved",
+      "alternatives": [],
+      "description": "Quiet imagery and wide margins give each film room to breathe.",
+      "thumbnailSlotId": "hero",
+      "demoSite": { "status": "not-provisioned", "homepageUrl": null, "showcaseUrl": null }
+    }
+  ]
+}

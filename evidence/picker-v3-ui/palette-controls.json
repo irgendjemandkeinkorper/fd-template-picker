@@ -1,0 +1,124 @@
+{
+  "colors": [
+    {
+      "id": "primaryPicker",
+      "label": "Choose primary color",
+      "value": "#97d2f2"
+    },
+    {
+      "id": "secondaryPicker",
+      "label": "Choose secondary color",
+      "value": "#492f56"
+    },
+    {
+      "id": "headerPicker",
+      "label": "Choose header color",
+      "value": "#183b4e"
+    },
+    {
+      "id": "accentPicker",
+      "label": "Choose accent color",
+      "value": "#f4eee4"
+    },
+    {
+      "id": "darkPicker",
+      "label": "Choose dark color",
+      "value": "#183b4e"
+    },
+    {
+      "id": "backgroundPicker",
+      "label": "Choose background color",
+      "value": "#f4eee4"
+    },
+    {
+      "id": "positivePicker",
+      "label": "Choose positive color",
+      "value": "#217a43"
+    },
+    {
+      "id": "negativePicker",
+      "label": "Choose negative color",
+      "value": "#b42318"
+    },
+    {
+      "id": "infoPicker",
+      "label": "Choose info color",
+      "value": "#126e9b"
+    },
+    {
+      "id": "warningPicker",
+      "label": "Choose warning color",
+      "value": "#f2c037"
+    },
+    {
+      "id": "splashBackgroundPicker",
+      "label": "Choose splashBackground color",
+      "value": "#183b4e"
+    },
+    {
+      "id": "seatSelectedPicker",
+      "label": "Choose seatSelected color",
+      "value": "#183b4e"
+    },
+    {
+      "id": "seatAvailablePicker",
+      "label": "Choose seatAvailable color",
+      "value": "#dce7df"
+    }
+  ],
+  "documentOverflow": 0,
+  "hexInputs": [
+    {
+      "id": "primaryHex",
+      "value": "#97D2F2"
+    },
+    {
+      "id": "secondaryHex",
+      "value": "#492F56"
+    },
+    {
+      "id": "headerHex",
+      "value": "#183B4E"
+    },
+    {
+      "id": "accentHex",
+      "value": "#F4EEE4"
+    },
+    {
+      "id": "darkHex",
+      "value": "#183B4E"
+    },
+    {
+      "id": "backgroundHex",
+      "value": "#F4EEE4"
+    },
+    {
+      "id": "positiveHex",
+      "value": "#217A43"
+    },
+    {
+      "id": "negativeHex",
+      "value": "#B42318"
+    },
+    {
+      "id": "infoHex",
+      "value": "#126E9B"
+    },
+    {
+      "id": "warningHex",
+      "value": "#F2C037"
+    },
+    {
+      "id": "splashBackgroundHex",
+      "value": "#183B4E"
+    },
+    {
+      "id": "seatSelectedHex",
+      "value": "#183B4E"
+    },
+    {
+      "id": "seatAvailableHex",
+      "value": "#DCE7DF"
+    }
+  ]
+}

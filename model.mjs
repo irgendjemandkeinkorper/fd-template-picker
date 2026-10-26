@@ -1,7 +1,7 @@
-import { normalizeBrandColors, assessBrandColors } from './colors.mjs';
+import { normalizeBrandColors, assessBrandColors, normalizePalette, paletteForState, assessPalette, paletteKey, COLOR_ROLES, PALETTE_BINDING_NOTE } from './colors.mjs';
 
-export const SCHEMA = 'fd-template-picker/v2';
-export const SUPPORTED_SCHEMAS = new Set(['fd-template-picker/v1', SCHEMA]);
+export const SCHEMA = 'fd-template-picker/v3';
+export const SUPPORTED_SCHEMAS = new Set(['fd-template-picker/v1', 'fd-template-picker/v2', SCHEMA]);
 export const PINNED = new Set(['header', 'footer']);
 export const REQUIRED_COMPONENTS = Object.freeze([
   { id: 'navigation', label: 'Navigation', slotIds: ['header', 'navigation'] },
@@ -15,12 +15,16 @@ export const MOVIE_COMPONENTS = new Set(['now-playing', 'coming-soon', 'ticket-f
 const checklistSteps = [
   { id: 'colors', label: 'Brand colors' }, ...REQUIRED_COMPONENTS, { id: 'review', label: 'Review' },
 ];
-function normalizeWorkflow(raw, brandColors) {
+function normalizeWorkflow(raw, brandColors, palette) {
   const allowed = new Set(checklistSteps.filter((step) => step.id !== 'review').map((step) => step.id));
   const confirmed = Object.fromEntries([...allowed].filter((id) => typeof raw?.confirmed?.[id] === 'string' && raw.confirmed[id])
     .map((id) => [id, raw.confirmed[id]]));
   const assessment = assessBrandColors(brandColors);
-  if (!assessment.normalText.passes || confirmed.colors !== `${assessment.primary}|${assessment.secondary}`) delete confirmed.colors;
+  const fullPalette = normalizePalette(palette, brandColors);
+  const paletteAssessment = assessPalette(palette ?? { ...fullPalette, roles: { ...fullPalette.roles, ...brandColors } });
+  const legacyKey = `${assessment.primary}|${assessment.secondary}`;
+  if (!assessment.normalText.passes || !paletteAssessment.passes || ![legacyKey, paletteKey(fullPalette)].includes(confirmed.colors)) delete confirmed.colors;
+  else confirmed.colors = paletteKey(fullPalette);
   return { currentStep: checklistSteps.some((step) => step.id === raw?.currentStep) ? raw.currentStep : 'colors', confirmed };
 }
 
@@ -138,7 +142,7 @@ export function createModel(catalog) {
     return state;
   }
   function defaultState(variantId = capturedVariants[0]?.id) {
-    return applyVariant({ project: '', notes: '', brandColors: normalizeBrandColors(), workflow: normalizeWorkflow(), order: [], picks: {}, excluded: {}, slotNotes: {} }, variantId);
+    return applyVariant({ project: '', notes: '', brandColors: normalizeBrandColors(), palette: normalizePalette(), workflow: normalizeWorkflow(), order: [], picks: {}, excluded: {}, slotNotes: {} }, variantId);
   }
   function normalize(raw) {
     const state = defaultState();
@@ -146,7 +150,7 @@ export function createModel(catalog) {
     if (Array.isArray(raw.sections)) {
       const sections = raw.sections.filter((s) => s && typeof s === 'object');
       raw = {
-        project: raw.project, notes: raw.notes, brandColors: raw.brandColors, workflow: raw.workflow,
+        schema: raw.schema, project: raw.project, notes: raw.notes, brandColors: raw.brandColors, palette: raw.palette, workflow: raw.workflow,
         order: sections.map((s) => s.slot),
         picks: Object.fromEntries(sections.map((s) => [s.slot, s.optionId])),
         excluded: Object.fromEntries(sections.filter((s) => s.included === false).map((s) => [s.slot, true])),
@@ -155,8 +159,10 @@ export function createModel(catalog) {
     }
     state.project = String(raw.project ?? '');
     state.notes = String(raw.notes ?? '');
-    state.brandColors = normalizeBrandColors(raw.brandColors);
-    state.workflow = normalizeWorkflow(raw.workflow, raw.brandColors);
+    const inputPalette = raw.palette && raw.schema !== SCHEMA ? { ...raw.palette, roles: { ...raw.palette.roles, ...raw.brandColors } } : raw.palette;
+    state.palette = normalizePalette(inputPalette, raw.brandColors);
+    state.brandColors = normalizeBrandColors(state.palette.roles);
+    state.workflow = normalizeWorkflow(raw.workflow, inputPalette?.roles ?? raw.brandColors, inputPalette);
     const providedOrder = Array.isArray(raw.order) ? raw.order : null;
     state.order = ordered(providedOrder ?? []);
     state.excluded = providedOrder ? {} : { ...state.excluded };
@@ -173,29 +179,32 @@ export function createModel(catalog) {
 
 export function libraryPlan(slot, option) {
   const global = PINNED.has(slot.id);
+  const clubhouseFood = slot.id === 'food' && option.variant === 'variant-k-clubhouse';
   return {
-    status: option.library?.status ?? 'not-created',
+    status: clubhouseFood ? 'verified-one-section-page-import-and-unlink' : option.library?.status ?? 'not-created',
     sourcePageTitle: option.sourcePageTitle ?? option.variant,
     proposedPageTitle: global ? null : (option.library?.pageTitle ?? `${option.variant}_${(componentForOption(slot, option) ?? slot.id).replaceAll('-', '_')}`),
-    libraryPageId: option.library?.pageId ?? null,
-    libraryScope: option.library?.scope ?? null,
+    libraryPageId: clubhouseFood ? '5971' : option.library?.pageId ?? null,
+    libraryScope: clubhouseFood ? { siteId: '138', role: 'source-library-only' } : option.library?.scope ?? null,
     importPolicy: global ? 'Inspect and recreate the required Theme & Style, Navigations and Global Widgets at the destination. Page Library import does not transfer these site-level settings.' : 'Add From Library, then Unlink and verify Not Linked before local customization. Disabling Library Updates alone retains a link that Force Update can refresh.',
     kind: global ? 'site-global' : 'section-page',
     dependencies: option.dependencies ?? [],
     dependenciesStatus: option.dependenciesStatus ?? 'unverified',
-    notes: global ? 'Header/footer configuration must be handled separately from page sections.' : 'Proposed carrier page; creation and cross-site transfer have not been verified. Importing creates a separate Page; assembling it into an existing homepage is unverified.',
+    notes: global ? 'Header/footer configuration must be handled separately from page sections.' : clubhouseFood ? 'A one-section Page was imported cross-site and unlinked. Existing-Page assembly was separately verified by native widget recreation and ordering. A later independent copy passed current-palette desktop and 390px consumer checks. Direct Library Section insertion, cross-page copy, arbitrary palettes, physical devices, Mobile App, checkout and controlled empty state remain unverified; the mobile category label can lag after a successful jump.' : 'Proposed carrier page; portability is unverified for this component. Library Page import creates a separate Page; existing-Page assembly requires its own verified installation method.',
   };
 }
 
 export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toISOString()) {
   const model = createModel(catalog);
   const absolute = (path) => path ? new URL(path, baseUrl).href : null;
+  const palette = normalizePalette(paletteForState(state));
   return {
     schema: SCHEMA,
     project: state.project.trim(), exportedAt, notes: state.notes.trim(),
     brandColors: normalizeBrandColors(state.brandColors),
     brandColorAssessment: assessBrandColors(normalizeBrandColors(state.brandColors)),
-    workflow: normalizeWorkflow(state.workflow, state.brandColors),
+    palette, paletteAssessment: assessPalette(palette),
+    workflow: normalizeWorkflow(state.workflow, state.brandColors, paletteForState(state)),
     catalogGeneratedAt: catalog.generatedAt,
     sourceSite: catalog.sourceSite ?? { url: catalog.source },
     captureNotes: catalog.captureNotes ?? [],
@@ -213,6 +222,8 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
         sharedBy: option.sharedBy ?? [option.variant], components: option.components,
         sourceUrl: option.sourceUrl, sourcePageTitle: option.sourcePageTitle ?? option.variant,
         publishedPageId: option.pageId ?? null, draftPageId: option.draftId ?? null,
+        sourceIdsOnly: true,
+        sourceReference: { publishedPageId: option.pageId ?? null, draftPageId: option.draftId ?? null, sectionIds: option.sectionIds ?? [], draftSectionIds: option.draftSectionIds ?? [], url: option.sourceUrl },
         adminUrl: option.adminUrl ?? null, sectionIds: option.sectionIds ?? [], draftSectionIds: option.draftSectionIds ?? [],
         screenshot: absolute(option.image), screenshots: Object.fromEntries(Object.entries(option.screenshots ?? { desktop: { image: option.image, width: option.width, height: option.height } }).map(([device, capture]) => [device, { ...capture, image: absolute(capture.image) }])),
         captureStatus: option.captureStatus ?? null, capture: option.capture ?? null, library: libraryPlan(slot, option),
@@ -229,6 +240,32 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
   };
 }
 
+export function buildBuildBrief(catalog, state, baseUrl, context = {}, exportedAt) {
+  if (!/^[a-f0-9]{64}$/.test(context.catalogSha256 ?? '') || !/^[a-f0-9]{64}$/.test(context.moduleIndexSha256 ?? '')) throw new Error('Verified catalog and module index digests are required.');
+  if (context.moduleIndex?.schema !== 'fd-picker-module-index/v1' || context.moduleIndex.catalogSha256 !== context.catalogSha256) throw new Error('The module index does not match this catalog.');
+  const data = buildExport(catalog, state, baseUrl, exportedAt);
+  const modules = data.sections.filter((section) => section.included).map((section) => ({
+    component: section.canonicalComponent ?? section.slot, slot: section.slot, optionId: section.optionId,
+    sourceReference: section.sourceReference,
+    ...(context.moduleIndex?.modules?.[section.optionId] ?? { readiness: 'unverified-portability', installationMethod: 'manual-source-review-required', artifacts: [], limitations: ['No verified portable installation package is registered for this option.'] }),
+  }));
+  data.buildContract = {
+    version: 1, publicationPolicy: 'draft-only', destination: null, destinationAuthorizationRequired: true,
+    sourceIdsAreDestinationIds: false, sourceReferencePolicy: 'All catalog/native IDs identify source evidence only. Resolve or create destination IDs after exact target authorization.',
+    catalog: { generatedAt: catalog.generatedAt ?? null, sha256: context.catalogSha256 },
+    moduleIndex: { schema: context.moduleIndex?.schema ?? null, sha256: context.moduleIndexSha256 },
+    paletteBindingNote: PALETTE_BINDING_NOTE,
+    checklistComplete: assessPalette(data.palette).passes && data.workflow.confirmed.colors === paletteKey(data.palette) && REQUIRED_COMPONENTS.every(({ id }) => {
+      const matches = modules.filter((module) => module.component === id);
+      return matches.length === 1 && data.workflow.confirmed[id] === matches[0].optionId;
+    }),
+    componentOrder: modules.map((module) => module.component), modules,
+    executionReadiness: 'requires-target-preflight-and-module-validation',
+    requiredPreflight: ['Confirm destination Region, Circuit, Site and new/existing-site scope.', 'Validate catalog/module/artifact digests and native field ownership.', 'Resolve destination navigation, catalog, forms, media and booking dependencies.', 'Preview draft desktop/real phone and rendered contrast; do not publish or provision hosting from source IDs.'],
+  };
+  return data;
+}
+
 export function buildHandoff(data) {
   const lines = [`# ${data.project || 'Cinema'} template handoff`, '', `Exported: ${data.exportedAt}`, '',
     'This is a visual selection and transfer plan. It does not create INDY pages or prove that Library copies are ready.', ''];
@@ -237,7 +274,9 @@ export function buildHandoff(data) {
     `- Text contrast: ${contrast.ratio.toFixed(2)}:1; ${contrast.normalText.passes ? 'meets' : 'below'} the 4.5:1 minimum for normal text.`,
     `- Large text: ${contrast.largeText.passes ? 'meets' : 'below'} the 3:1 minimum.`,
     `- ${contrast.note}`, '- This color-pair check does not assess the completed website.', '');
-  const progress = normalizeWorkflow(data.workflow, data.brandColors);
+  const palette = normalizePalette(data.palette, data.brandColors);
+  lines.push(...COLOR_ROLES.filter(({ id }) => !['primary', 'secondary'].includes(id)).map(({ id, label }) => `- ${label}: ${palette.roles[id]}`), `- ${PALETTE_BINDING_NOTE}`, '');
+  const progress = normalizeWorkflow(data.workflow, data.brandColors, palette);
   const recordedSteps = checklistSteps.filter((step) => progress.confirmed[step.id]).map((step) => step.label);
   lines.push(`Checklist saved at: ${checklistSteps.find((step) => step.id === progress.currentStep).label}.`,
     `Recorded confirmations: ${recordedSteps.join(', ') || 'None yet'}.`, '');

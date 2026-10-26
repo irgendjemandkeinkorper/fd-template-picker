@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Display Hostname (e.g. YosemiteCinema.com)",
+    "value": ""
+  },
+  {
+    "label": "Hostname (e.g. https://www.yosemitecinema.com)",
+    "value": ""
+  },
+  {
+    "label": "Netlify Site Name (i.e. Netlify Subdomain)",
+    "value": "adam-template-testing-indy-consumer"
+  }
+]
