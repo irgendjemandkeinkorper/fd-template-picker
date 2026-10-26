@@ -18,6 +18,8 @@ The homepage and eight section showcase Pages are saved as unpublished drafts. T
 
 All nine use empty Page CSS and search visibility off. Home combines the native Carousel, editorial film shelf, inactive Showtimes, private hire, native food menu, native enquiry form, venue information and membership presentation. The saved editable composition was checked after closing and reopening the Pages. Historical base-version Sections remain separate; one accidental duplicate Page was recoverably archived.
 
+All nine loaded drafts were checked at actual Chrome widths **1440px and 390px**: 18 cases, matching saved Section counts/unpublished indicators, and zero horizontal overflow across 32 rendered roots. Portable Visit and Membership margins were corrected on Home and their standalone Pages. The viewport was restored. These are Admin layout results; the known empty Food and inactive Movies cases remain content failures.
+
 The user separately approved immediate Theme saves: Primary `#E06B4A`, Secondary/Accent `#C4553A`, Header/Dark `#38264A`, Background `#FBEFE2`, plus scoped typography/header CSS. Current adapters bind Header to Dark and Accent to Secondary. Theme settings are not Page drafts. Global navigation links remain staged because the native Create form showed no draft state; the Navigation Page currently provides hero context, not a completed global menu.
 
 ## Unresolved data and release checks
