@@ -1,7 +1,7 @@
-import { REQUIRED_COMPONENTS, componentForOption, visualReviewForOption } from './model.mjs';
+import { REQUIRED_COMPONENTS, componentForOption, visualReviewForOption } from './model.mjs?v=fonts-1';
 import { designName } from './names.mjs';
 import { assessBrandColors, BRAND_COLOR_NOTE, paletteForState, assessPalette, COLOR_ROLES, PALETTE_BINDING_NOTE, paletteProceedStatus } from './colors.mjs';
-import { typographyForState, typographyKey, typographyBindings, TYPOGRAPHY_ROLES, TYPE_NOTE } from './typography.mjs';
+import { typographyForState, typographyKey, typographyBindings, TYPOGRAPHY_ROLES, TYPE_NOTE } from './typography.mjs?v=fonts-1';
 
 export const GUIDE_STEPS = Object.freeze([
   Object.freeze({ id: 'colors', label: 'Colors & fonts', kind: 'colors' }),

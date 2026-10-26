@@ -26,3 +26,9 @@ The user requested immediate release ahead of the demo. This publishes the lates
 Reference: [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 Keep internal support guides outside this public site. The demo source records already held in this public repository remain source evidence, not destination authorization or a guarantee of Library portability.
+
+## Web-safe font release
+
+The October 26 font update adds three font roles to Colors & fonts, a live sample, saved/shareable choices and build-brief validation. It passed 85 JavaScript tests, 38 builder-validator tests, desktop/390px layout checks, keyboard selection, reload persistence and an actual downloaded brief check.
+
+The entrypoint, stylesheet and changed module imports carry the same `fonts-1` query version. During deployment testing, GitHub Pages served the new app alongside an older cached workflow module; versioning the changed dependency graph prevents that mixed release. Bump these tags together when changing these files again. Query versions work with relative GitHub Pages paths and local Node tests.

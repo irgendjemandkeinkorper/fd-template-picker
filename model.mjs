@@ -1,6 +1,6 @@
 import { normalizeBrandColors, assessBrandColors, normalizePalette, paletteForState, assessPalette, paletteKey, COLOR_ROLES, PALETTE_BINDING_NOTE, normalizeColorAcknowledgment, paletteProceedStatus } from './colors.mjs';
 import { designName, DEMO_DESIGN_NAMES } from './names.mjs';
-import { normalizeTypography, typographyKey, typographyForState, typographyBindings, TYPOGRAPHY_ROLES, TYPE_NOTE } from './typography.mjs';
+import { normalizeTypography, typographyKey, typographyForState, typographyBindings, TYPOGRAPHY_ROLES, TYPE_NOTE } from './typography.mjs?v=fonts-1';
 
 export const SCHEMA = 'fd-template-picker/v3';
 export const SUPPORTED_SCHEMAS = new Set(['fd-template-picker/v1', 'fd-template-picker/v2', SCHEMA]);

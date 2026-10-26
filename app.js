@@ -1,9 +1,9 @@
-import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildBuildBrief } from './model.mjs';
+import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildBuildBrief } from './model.mjs?v=fonts-1';
 import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL, COLOR_ROLES, COLOR_EXAMPLES, DEFAULT_PALETTE_ROLES, normalizePalette, paletteForState, assessPalette, paletteKey, PALETTE_BINDING_NOTE, paletteProceedStatus, CONTRAST_REVIEW_POLICY, CONTRAST_ACKNOWLEDGMENT } from './colors.mjs';
-import { GUIDE_STEPS, createWorkflow } from './workflow.mjs';
+import { GUIDE_STEPS, createWorkflow } from './workflow.mjs?v=fonts-1';
 import { HUB_DATA_URL, renderTemplateHub } from './hub.mjs';
 import { designName } from './names.mjs';
-import { FONT_OPTIONS, TYPOGRAPHY_ROLES, typographyForState, typographyKey, normalizeTypography, TYPE_NOTE } from './typography.mjs';
+import { FONT_OPTIONS, TYPOGRAPHY_ROLES, typographyForState, typographyKey, normalizeTypography, TYPE_NOTE } from './typography.mjs?v=fonts-1';
 
 const STORAGE_KEY = 'fd-template-picker:guided-selection:v1';
 const LEGACY_STORAGE_KEY = 'fd-template-picker:selection';
