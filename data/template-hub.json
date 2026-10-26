@@ -15,10 +15,17 @@
     "circuit": "Website Templates",
     "siteProvisioningStatus": "showcase-shell-provisioned-content-not-transferred",
     "publicAddressPlan": {
-      "status": "pending-deploy-test",
+      "status": "future-creation-only-current-showcase-exempt",
       "requiredPrefix": "template-",
       "retainedSuffix": "-indy-consumer",
       "nativeSiteNamesRemainOneWord": true,
+      "applyAtFutureCreationOnly": true,
+      "currentShowcaseException": {
+        "status": "accepted-working-host",
+        "netlifySiteName": "showcase-indy-consumer",
+        "hostname": "https://showcase-indy-consumer.netlify.app",
+        "furtherUrlTestsOrReprovisionPlanned": false
+      },
       "desiredSubdomains": {
         "variant-a-circuit": "template-showcase-indy-consumer",
         "variant-b-rep": "template-reel-indy-consumer",
@@ -31,7 +38,7 @@
         "variant-i-ma": "template-pause-indy-consumer"
       },
       "shortLabelContext": "The initial template-showcase label was saved in INDY but its public address served an unrelated existing site; the saved working host was restored.",
-      "note": "Requested labels retain the INDY suffix and await a separately confirmed native deployment test. Ownership/availability and live prefix behavior are unverified; these are not demo links."
+      "note": "Prefix labels apply only to future Site creation/iterations. Current Showcase keeps its accepted working unprefixed host. Proposed labels are not verified addresses or demo links."
     },
     "pilot": {
       "circuitId": 103,
@@ -43,22 +50,33 @@
       "circuitOrSiteCreationRetried": false,
       "recoveryAction": "Create Consumer Website only; automatic initial deploy triggered",
       "consumerShellUrl": "https://showcase-indy-consumer.netlify.app/",
-      "requestedSubdomain": "template-showcase-indy-consumer",
-      "publicAddressStatus": "pending-deploy-test",
+      "acceptedCurrentSubdomain": "showcase-indy-consumer",
+      "publicAddressStatus": "accepted-working-host-restored-prefix-future-only",
       "currentSavedNetlifySiteName": "showcase-indy-consumer",
       "currentSavedHostname": "https://showcase-indy-consumer.netlify.app",
       "correctiveHostingReadbackVerified": true,
       "hostnameValidation": "Blank Hostname was rejected; the full existing working URL is now explicitly saved.",
       "candidate": {
         "netlifySiteName": "template-showcase-indy-consumer",
-        "preparedInNativeForm": true,
-        "saved": false,
-        "publicReadback": "Netlify Site not found",
+        "preparedInNativeForm": false,
+        "savedDuringApprovedTest": true,
+        "currentlySaved": false,
+        "publicReadback": "Netlify Site not found after approximately four minutes",
         "ownershipOrAvailabilityEstablished": false,
-        "manualDeployTriggered": false,
-        "oneDeployTestStatus": "pending-explicit-confirmation"
+        "manualDeployTriggered": true,
+        "nativeDeployBadge": "Success",
+        "deploymentVersionResolved": false,
+        "oneDeployTestStatus": "executed; live prefix unverified; working host restored"
       },
-      "hostingWorkflow": "INDY Developer Site Settings only; no Netlify login performed or required for this prepared native action.",
+      "workingHostRestoreVerified": true,
+      "originalSiteIdAndBranchPreserved": true,
+      "followUpReprovision": {
+        "status": "declined-by-user",
+        "executed": false,
+        "unsavedProposalDiscardedByReload": true
+      },
+      "furtherUrlTestsOrReprovisionPlanned": false,
+      "hostingWorkflow": "INDY Developer Site Settings only; no Netlify login performed. All unsaved hosting proposals were discarded.",
       "namespaceEvidence": "evidence/website-templates-pilot/url-naming-journal.json",
       "visibleMessage": "404 Oops. Nothing here...",
       "nativePageCount": 0,

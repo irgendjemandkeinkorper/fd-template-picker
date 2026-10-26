@@ -12,3 +12,4 @@ evidence/picker-v3-ui/** -text whitespace=cr-at-eol
 evidence/website-templates-pilot/** -text
 template-adapters/library-k-food/** -text
 skills/indy-picker-site-builder/** -text whitespace=cr-at-eol
+evidence/website-templates-pilot/prefix-after*.txt whitespace=-blank-at-eol

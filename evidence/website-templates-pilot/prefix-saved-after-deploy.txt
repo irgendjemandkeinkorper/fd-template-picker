@@ -1,0 +1,238 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/developers/settings/site-settings".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/developers/settings/site-settings
+	1 container
+		2 toolbar
+			3 button
+			4 text INDY Admin
+			5 text field (settable) f_469a68e9-b45e-4360-86b9-1c1809c89bf5
+			6 switch 0
+			7 button
+			8 container
+				9 text Region US-BETA
+				10 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_90d624f2-0427-4bcd-b24e-9ccef1084624, Secondary Actions: Expand
+			11 container
+				12 text Circuit Website Templates
+				13 combo box (collapsed, settable) Description: Circuit, Value: Website Templates, ID: f_6d87af64-cb57-4cb7-b8c6-0297edd7c92e, Secondary Actions: Expand
+			14 container
+				15 text Site Showcase
+				16 combo box (collapsed, settable) Description: Site, Value: Showcase, ID: f_3242c928-96e2-429d-918f-da6803dbd6b7, Secondary Actions: Expand
+			17 button Menu
+		18 container
+			19 content list
+				20 container
+					21 text Dashboard
+			22 content list
+				23 container
+					24 text Operations
+			25 content list
+				26 container
+					27 text Reports
+			28 content list
+				29 container
+					30 text Settings
+			31 text Favorites
+			32 content list
+				33 container
+					34 text Theme and Style
+			35 content list
+				36 container
+					37 text Pages
+			38 content list
+				39 container
+					40 text Release Notes
+			41 content list
+				42 container
+					43 text How To Guides
+			44 content list
+				45 container
+					46 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+			47 content list
+				48 container
+					49 text Developer
+			50 switch Description: Demo Mode, Value: 0
+				51 text Demo Mode
+		236 container
+			237 link Description: Developers, Value: admin-us-beta.indy.systems/#/developers
+			238 link Description: Settings, Value: admin-us-beta.indy.systems/#/developers/settings
+			239 link Description: Site Settings, Value: admin-us-beta.indy.systems/#/developers/settings/site-settings
+			240 container
+				241 button Close
+				242 text Site Configuration
+				245 button
+				243 button
+				246 button (disabled) REVERT
+				244 button (disabled) SAVE
+				247 text Stripe
+				248 container
+					249 container
+						250 text Stripe Location IDs (tml_...)
+						251 combo box (collapsed, settable) Description: Stripe Location IDs (tml_...), ID: f_b8b515c6-61d2-40b3-a371-c96e679cd4d6, Secondary Actions: Expand
+				252 container
+					253 container
+						254 text Stripe Account ID
+						255 text field (settable) Description: Stripe Account ID, ID: f_bd3ce448-4de1-4bd5-90b3-9a8a84280be8
+				256 button CONFIGURE STRIPE BANK ACCOUNTS
+					257 text CONFIGURE STRIPE BANK ACCOUNTS
+				258 container
+					259 container
+						260 text Stripe Rate Hundredths
+						261 text field (settable) Description: Stripe Rate Hundredths, Value: 190, ID: f_adaa5492-7271-499e-a9c2-2d9a2bbc4aa2
+				262 container
+					263 container
+						264 text Stripe Fee Per Transaction For Terminal Payments
+						265 text field (settable) Description: Stripe Fee Per Transaction For Terminal Payments, Value: 30, ID: f_2d899244-9e36-436a-a930-38a98681d8cf
+				266 container
+					267 container
+						268 text Stripe Fee Per Transaction For Manual or Saved Card Payments
+						269 text field (settable) Description: Stripe Fee Per Transaction For Manual or Saved Card Payments, Value: 0, ID: f_b2e85d20-61da-486b-83f7-fdeea89f50a7
+				270 text Transfers
+				271 container
+					272 container
+						273 text INDY Credit Card Rate Hundredths
+						274 text field (settable) Description: INDY Credit Card Rate Hundredths, Value: 500, ID: f_07703d51-ec7f-448c-80c9-863cfbca494c
+				275 container
+					276 container
+						277 text INDY Cash Rate Hundredths
+						278 text field (settable) Description: INDY Cash Rate Hundredths, Value: 500, ID: f_c1aeb110-5fe3-4812-991a-d8fccd738db1
+				279 container
+					280 container
+						281 text INDY Per Transaction Fee Cap Cents
+						282 text field (settable) Description: INDY Per Transaction Fee Cap Cents, Value: 750, ID: f_8199f41a-7c4f-4c0c-a02f-ea6abec98b25
+				283 container
+					284 container
+						285 text INDY Fixed Daily Fee Cents
+						286 text field (settable) Description: INDY Fixed Daily Fee Cents, Value: 0, ID: f_3f3f2cd4-5bd9-4cb6-9914-366385c49c3f
+				287 container
+					288 container
+						289 text INDY Services Fixed Daily Fee Cents
+						290 text field (settable) Description: INDY Services Fixed Daily Fee Cents, Value: 0, ID: f_898022a2-d43e-4b2e-ac2a-a209fec28aaa
+				291 checkbox Description: Stripe Manual Payouts Enabled, Value: 0
+					292 text Stripe Manual Payouts Enabled
+				293 checkbox Description: External Ticketing Transfers Enabled, Value: 1
+					294 text External Ticketing Transfers Enabled
+				295 text Customer IO
+				296 container
+					297 container
+						298 text Anonymous User ID For CustomerIO
+						299 stepper (settable) Description: Anonymous User ID For CustomerIO, ID: f_f6ae7703-28cc-4032-bd85-622998a479e2
+				300 container
+					301 container
+						302 text Template ID for CustomerIO Order Confirmation Emails
+						303 stepper Template ID for CustomerIO Order Confirmation Emails
+				304 container
+					305 container
+						306 text Template ID for CustomerIO SMS Receipts
+						307 stepper (settable) Description: Template ID for CustomerIO SMS Receipts, ID: f_aede4b07-4a3c-4be1-a2bd-594ad08fb588
+				308 container
+					309 container
+						310 text Template ID for CustomerIO SMS Waitlist Notification
+						311 stepper (settable) Description: Template ID for CustomerIO SMS Waitlist Notification, ID: f_46958702-0b84-4463-bb1c-b323495f4310
+				312 container
+					313 container
+						314 text Template ID for CustomerIO Email Waitlist Notification
+						315 stepper Template ID for CustomerIO Email Waitlist Notification
+				316 container
+					317 container
+						318 text Template ID for CustomerIO Password Reset Emails
+						319 stepper Template ID for CustomerIO Password Reset Emails
+				320 container
+					321 container
+						322 text Template ID for CustomerIO Voucher Purchase Emails
+						323 stepper Template ID for CustomerIO Voucher Purchase Emails
+				324 container
+					325 container
+						326 text Template ID for CustomerIO Gift Card Emails
+						327 stepper Template ID for CustomerIO Gift Card Emails
+				328 container
+					329 container
+						330 text Template ID for CustomerIO Concessions Reminder Emails
+						331 stepper Template ID for CustomerIO Concessions Reminder Emails
+				332 container
+					333 container
+						334 text Template ID for CustomerIO Showing Change Emails
+						335 stepper Template ID for CustomerIO Showing Change Emails
+				336 container
+					337 container
+						338 text Template ID for CustomerIO Deliver Order Emails
+						339 stepper Template ID for CustomerIO Deliver Order Emails
+				340 container
+					341 container
+						342 text Template ID for CustomerIO OTP Code Emails
+						343 stepper Template ID for CustomerIO OTP Code Emails
+				344 container
+					345 container
+						346 text Template ID for CustomerIO OTP SMS
+						347 stepper Template ID for CustomerIO OTP SMS
+				348 container
+					349 container
+						350 text Template ID for CustomerIO Donation Receipt Emails
+						351 stepper Template ID for CustomerIO Donation Receipt Emails
+				352 text Hosting
+				353 container
+					354 container
+						355 text Display Hostname (e.g. YosemiteCinema.com)
+						356 text field (settable) Description: Display Hostname (e.g. YosemiteCinema.com), ID: f_3f7ecd43-a167-4823-8345-c80b161bb609
+				357 container
+					358 container
+						359 text Hostname (e.g. https://www.yosemitecinema.com)
+						360 text field (settable) Description: Hostname (e.g. https://www.yosemitecinema.com), Value: https://template-showcase-indy-consumer.netlify.app, ID: f_982de5ab-9efc-47a6-94a7-37d864bb7223
+				361 container
+					362 container
+						363 text Netlify Site Name (i.e. Netlify Subdomain)
+						364 text field (settable) Description: Netlify Site Name (i.e. Netlify Subdomain), Value: template-showcase-indy-consumer, ID: f_d5b0282a-0b61-4a98-8850-ed09accc6d6b
+				365 container
+					366 container
+						367 text Netlify Site ID (a.k.a. API ID)
+						368 text field (settable) Description: Netlify Site ID (a.k.a. API ID), Value: c68241b5-0f9e-4678-a99f-135b7cc08558, ID: f_4b186fae-db50-4308-88a3-4bfbb14d9a8f
+				369 container
+					370 container
+						371 text Git Branch Name
+						372 text field (settable) Description: Git Branch Name, Value: showcase, ID: f_67f593cb-2bd6-4db8-afa8-5992db3fcb00
+				373 text Online Sales
+				374 checkbox Description: Enable Legacy Checkout Flow (Super User Only), Value: 0
+					375 text Enable Legacy Checkout Flow (Super User Only)
+				376 text Integrations
+				377 checkbox Description: Polaris, Value: 0
+					378 text Polaris
+				379 text Email
+				380 container
+					381 container
+						382 text Email Address (e.g. support@yosemitecinema.com)
+						383 text field (settable) Email Address (e.g. support@yosemitecinema.com)
+				384 container
+					385 container
+						386 text Default Sending Domain (e.g. mg.yosemitecinema.com)
+						387 text field (settable) Description: Default Sending Domain (e.g. mg.yosemitecinema.com), Value: us.indy.systems, ID: f_3f794c4a-3d26-49bf-a505-50dd604d1020
+				388 container
+					389 container
+						390 text Admin Email (e.g. support@a.yosemitecinema.com)
+						391 text field (settable) Admin Email (e.g. support@a.yosemitecinema.com)
+				392 container
+					393 container
+						394 text Admin Sending Domain (e.g. a.yosemitecinema.com)
+						395 text field (settable) Description: Admin Sending Domain (e.g. a.yosemitecinema.com), Value: us.indy.systems, ID: f_3c651c5d-e5a5-4f53-8f6d-e9a1146e4c5c
+				396 container
+					397 container
+						398 text Marketing Email (e.g. support@m.yosemitecinema.com)
+						399 text field (settable) Marketing Email (e.g. support@m.yosemitecinema.com)
+				400 container
+					401 container
+						402 text Marketing Sending Domain (e.g. m.yosemitecinema.com)
+						403 text field (settable) Description: Marketing Sending Domain (e.g. m.yosemitecinema.com), Value: us.indy.systems, ID: f_17888c11-621a-4489-b7a7-d6c992170f0a
+				404 container
+					405 container
+						406 text Transactional Email (e.g. support@t.yosemitecinema.com)
+						407 text field (settable) Transactional Email (e.g. support@t.yosemitecinema.com)
+				408 container
+					409 container
+						410 text Transactional Sending Domain (e.g. t.yosemitecinema.com)
+						411 text field (settable) Description: Transactional Sending Domain (e.g. t.yosemitecinema.com), Value: us.indy.systems, ID: f_002513ec-fd24-4712-9483-a4f517fad902
+				412 button (disabled) CREATE CONSUMER WEBSITE
+					413 text CREATE CONSUMER WEBSITE
+				414 button PREVIEW SITE
+					415 text PREVIEW SITE
+				416 button TRIGGER SITE DEPLOY
+					417 text TRIGGER SITE DEPLOY
+	235 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+
+The focused UI element is 1 container
