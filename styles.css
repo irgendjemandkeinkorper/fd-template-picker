@@ -345,7 +345,7 @@ dialog::backdrop { background: #132f3db3; backdrop-filter: blur(3px); }
 .hub-notice { padding: 13px 16px; border: 1px solid #dce4df; border-radius: 9px; background: #eff4ef; color: var(--muted); font-size: 12px; }
 .hub-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 26px; }
 .hub-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
-.hub-card__image { display: block; width: 100%; height: 170px; object-fit: cover; object-position: top; border-bottom: 1px solid var(--line); background: var(--soft); }
+.hub-card__image { display: block; width: 100%; height: 170px; object-fit: contain; object-position: center; border-bottom: 1px solid var(--line); background: var(--ink); }
 .hub-card__body { display: flex; flex-direction: column; flex: 1; padding: 22px; }
 .hub-card__eyebrow { margin-bottom: 7px; color: var(--muted); font-size: 10px; }
 .hub-card__title { margin-bottom: 10px; font-size: 24px; letter-spacing: -.035em; }
