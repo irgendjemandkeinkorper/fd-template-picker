@@ -1,0 +1,60 @@
+{
+  "phase": "website-templates-showcase-provisioning-pilot",
+  "recordedAt": "2026-10-26",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "Website Templates",
+    "circuitId": 103,
+    "site": "Showcase",
+    "siteId": 183
+  },
+  "authorization": {
+    "scope": "Create the first pilot only, using TEMPLATE STANDARD with Create Consumer Website enabled; inspect actual URL and copied content before the other eight Sites.",
+    "source": "Direct user reply approving the pilot with Site name Showcase instead of Marquee.",
+    "otherSitesCreated": false
+  },
+  "creation": {
+    "startingTemplate": "TEMPLATE STANDARD",
+    "createConsumerWebsite": true,
+    "initialResponse": "HTTP 500",
+    "inventoryAfterRefresh": "Circuit 103 and Site 183 existed; hosting fields were empty and Preview Site was disabled.",
+    "circuitOrSiteCreationRetried": false,
+    "recoveryAction": "Only Showcase > Developer Site Settings > Create Consumer Website was submitted.",
+    "recoveryResponse": "Consumer Website Created. A site deploy has been triggered. This process takes roughly five minutes to complete."
+  },
+  "hostingReadback": {
+    "hostname": "",
+    "netlifySiteName": "showcase-indy-consumer",
+    "netlifySiteId": "c68241b5-0f9e-4678-a99f-135b7cc08558",
+    "gitBranchName": "showcase",
+    "createConsumerWebsiteDisabled": true,
+    "previewSiteEnabled": true,
+    "actualUrl": "https://showcase-indy-consumer.netlify.app/",
+    "manualTriggerSiteDeployUsed": false
+  },
+  "copiedContent": {
+    "pages": [],
+    "pageListMessage": "No Pages",
+    "designATransferred": false,
+    "sampleMoviesFoodVenueInventoryComplete": false,
+    "availableLibraryPageTitles": ["Watchlist", "Gift Cards", "Games", "Explore Movie", "Home"],
+    "libraryImportsPerformed": 0,
+    "crossCircuitVariantTransferVerified": false
+  },
+  "liveReadback": {
+    "url": "https://showcase-indy-consumer.netlify.app/",
+    "browserTitle": "Showtimes, Tickets and More",
+    "consumerApplicationReachable": true,
+    "visibleMessage": "404 Oops. Nothing here...",
+    "homepageReady": false,
+    "interpretation": "Hosting serves the INDY consumer application, but the Site has no homepage. This is a provisioned empty shell, not the Showcase design."
+  },
+  "nextPreparation": [
+    "Inventory and package design A's native sections, theme/navigation and sample content for the isolated destination.",
+    "Verify transfer across the Circuit boundary or recreate approved native fields in Showcase.",
+    "Build and review the homepage and separate section showcases before treating it as a Hub demo.",
+    "Verify the standalone Create New Site workflow before the remaining eight Sites."
+  ],
+  "existingSources": "Existing circuits, source Sites, source Pages, Theme settings, products and Libraries were not modified by this pilot.",
+  "hub": "All nine approved names are displayed. Dedicated new-site demo links remain absent until the designs are ready; current Hub links use existing source demos."
+}

@@ -1,0 +1,91 @@
+/* 2026-10-25 · Variant E rich-text indentation repair.
+   Append to this page's Custom CSS only. INDY supplies the page scope.
+   The saved HTML contains NBSP-only indentation text nodes. In grid/flex
+   containers those become anonymous layout items. Keep the existing visual
+   tokens, cards, copy, links and breakpoints; let only real elements space out.
+   Alternative preferred repair: normalize indentation-only text nodes in the
+   four affected HTML bodies, then retain the original CSS without this patch.
+*/
+
+/* Zero-size the non-content indentation; preserve normal child typography.
+   :where() keeps these defaults below the existing per-component type rules. */
+[class*="section-events-e---packages-"] :where(.gr-pack, .gr-pack__intro, .gr-pack__grid, .gr-pack__card, .gr-pack__list, .gr-faq, .gr-faq details) > *,
+[class*="section-contact-e---channels-"] :where(.gr-ch, .gr-ch__grid, .gr-ch__card) > *,
+[class*="section-find-us-e---location-card-"] :where(.gr-loc, .gr-loc__map, .gr-loc__card, .gr-loc__rows) > *,
+[class*="section-membership-e---tiers-"] :where(.gr-mem, .gr-mem__intro, .gr-mem__grid, .gr-mem__card, .gr-mem__list) > * {
+  font-size: 16px;
+  line-height: 1.5;
+}
+[class*="section-events-e---packages-"] :where(.gr-pack, .gr-pack__intro, .gr-pack__grid, .gr-pack__card, .gr-pack__list, .gr-faq, .gr-faq details),
+[class*="section-contact-e---channels-"] :where(.gr-ch, .gr-ch__grid, .gr-ch__card),
+[class*="section-find-us-e---location-card-"] :where(.gr-loc, .gr-loc__map, .gr-loc__card, .gr-loc__rows),
+[class*="section-membership-e---tiers-"] :where(.gr-mem, .gr-mem__intro, .gr-mem__grid, .gr-mem__card, .gr-mem__list) {
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Flex avoids anonymous grid cells. Its zero-width indentation items need no
+   gap; the real cards retain the original 24px separation and equal widths. */
+[class*="section-events-e---packages-"] .gr-pack__grid,
+[class*="section-contact-e---channels-"] .gr-ch__grid,
+[class*="section-membership-e---tiers-"] .gr-mem__grid {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0;
+}
+[class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card,
+[class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card,
+[class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card {
+  flex: 1 1 0;
+  min-width: 0;
+  margin-right: 24px;
+}
+[class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card:last-child,
+[class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card:last-child,
+[class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card:last-child {
+  margin-right: 0;
+}
+
+[class*="section-find-us-e---location-card-"] .gr-loc {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__map {
+  flex: 2 1 0;
+  min-width: 0;
+}
+[class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__card {
+  flex: 1 1 0;
+  min-width: 0;
+  margin-left: 24px;
+}
+
+@media (max-width: 1023px) {
+  [class*="section-events-e---packages-"] .gr-pack__grid,
+  [class*="section-contact-e---channels-"] .gr-ch__grid,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid,
+  [class*="section-find-us-e---location-card-"] .gr-loc {
+    flex-direction: column;
+  }
+  [class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card,
+  [class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card {
+    flex: 0 0 auto;
+    margin: 0 0 24px;
+  }
+  [class*="section-events-e---packages-"] .gr-pack__grid > .gr-pack__card:last-child,
+  [class*="section-contact-e---channels-"] .gr-ch__grid > .gr-ch__card:last-child,
+  [class*="section-membership-e---tiers-"] .gr-mem__grid > .gr-mem__card:last-child {
+    margin-bottom: 0;
+  }
+  [class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__map,
+  [class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__card {
+    flex: 0 0 auto;
+  }
+  [class*="section-find-us-e---location-card-"] .gr-loc > .gr-loc__card {
+    margin: 24px 0 0;
+  }
+}

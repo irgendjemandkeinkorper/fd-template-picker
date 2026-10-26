@@ -1,0 +1,86 @@
+{
+  "letter": "L",
+  "id": "25130",
+  "name": "Contact L - A Note After Dark",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nFull Width\narrow_drop_down",
+      "value": "Full Width"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-l-contact"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-l-contact{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#291d3b;color:#fff1d7;font-family:Georgia,serif;} &.fdp-l-contact h2{color:#fff1d7;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-l-contact h3{color:#fff1d7;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-l-contact p{color:#fff1d7;line-height:1.7;}\n/* Native widget controls; confirm these selectors against rendered output */\n &.fdp-l-contact form{max-width:900px;margin:24px auto 0;} &.fdp-l-contact .q-field{margin:18px 0;} &.fdp-l-contact .q-field__control{background:#352649;color:#fff1d7;border-radius:0;} &.fdp-l-contact .q-field__native,&.fdp-l-contact .q-field__input,&.fdp-l-contact .q-field__label{color:#fff1d7;} &.fdp-l-contact .q-field--focused .q-field__control:after{border-color:#e6c17c;} &.fdp-l-contact .q-btn{min-height:48px;padding:12px 24px;background:#e6c17c;color:#201725;font-weight:700;} &.fdp-l-contact .q-btn:focus-visible{outline:3px solid #fff1d7;outline-offset:4px;}\n/* Keep content within the section on narrow screens */\n&.fdp-l-contact,&.fdp-l-contact *{box-sizing:border-box;}&.fdp-l-contact .fdp-content,&.fdp-l-contact .fdp-content>*,&.fdp-l-contact .fdp-content article,&.fdp-l-contact .fdp-content aside{min-width:0;}&.fdp-l-contact p,&.fdp-l-contact li,&.fdp-l-contact a{overflow-wrap:break-word;}\n&.fdp-l-contact{background:#291d3b!important;color:#fff1d7!important;} &.fdp-l-contact h2,&.fdp-l-contact .text-primary{color:#fff1d7!important;}\n/* Preserve native controls with readable lounge colors */\n&.fdp-l-contact .text-responsive{color:#fff1d7!important;} &.fdp-l-contact .q-field__native,&.fdp-l-contact .q-field__label{color:#fff1d7!important;} &.fdp-l-contact .q-field__control{background:#352649!important;border:1px solid #82688f;} &.fdp-l-contact .q-btn{background:#e6c17c!important;color:#201725!important;}"
+    }
+  ]
+}

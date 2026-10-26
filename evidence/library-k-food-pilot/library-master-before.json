@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "id": "465",
+      "text": "Snacks"
+    },
+    {
+      "id": "467",
+      "text": "Burgers & Sandwiches"
+    },
+    {
+      "id": "468",
+      "text": "Pizza"
+    },
+    {
+      "id": "470",
+      "text": "Desserts"
+    },
+    {
+      "id": "471",
+      "text": "Beer"
+    },
+    {
+      "id": "473",
+      "text": "Cocktail"
+    },
+    {
+      "id": "578",
+      "text": "Merchandise"
+    }
+  ],
+  "pageCss": "",
+  "productCount": 26,
+  "sections": [
+    "ID\tName\tType\tVisibility\tActions",
+    "25153\n\t\nFood K - Clubhouse Kitchen\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

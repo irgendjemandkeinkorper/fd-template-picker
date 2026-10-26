@@ -1,0 +1,82 @@
+{
+  "schema": "fd-library-k-food-assembly-journal/v1",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing",
+    "pageTitle": "Fandango Cinema Template Test",
+    "pageListId": "5585",
+    "editablePageId": "5586",
+    "slug": "fandango-cinema-template-test",
+    "currentState": "Published version unchanged; editable draft saved with Unpublished Changes",
+    "libraryStatus": "Not Linked"
+  },
+  "authorization": {
+    "confirmedByUser": true,
+    "scope": "Create, save, order, reopen and preview one new Clubhouse Food Section on editable Page 5586; no publication"
+  },
+  "status": "saved-reopened-native-assembly-verified",
+  "steps": [
+    {
+      "action": "Create Section",
+      "at": "2026-10-25T23:19:47.610Z",
+      "result": "Created native Concessions Menu 25156 on editable Page 5586 with its final Name and approved recorded settings/CSS. The Page shows Unpublished Changes; all eight original Section IDs remain."
+    },
+    {
+      "action": "Order and save Page",
+      "at": "2026-10-25T23:27:00.188Z",
+      "result": "Saved the new Section after 23540 and before 23541. Reopened editable Page 5586 with nine Sections, Save disabled and Unpublished Changes."
+    },
+    {
+      "action": "Readback and preview",
+      "at": "2026-10-25T23:27:00.189Z",
+      "result": "Reopened Section 25156; exact baseline CSS and settings are retained. The compiled scope matches its final Name and Georgia applies without a rename/re-save workaround. Desktop: 1024px, three columns, seven photos and zero overflow. Simulated phone: 376px, one column, seven photos and the known 3px preview limit. The original menu's floating category bar is recorded as a coexistence limitation. Page fields are unchanged."
+    }
+  ],
+  "newSectionId": "25156",
+  "result": {
+    "newSectionId": "25156",
+    "savedUnpublishedDraft": true,
+    "pageLibraryState": "Not Linked",
+    "newSectionCssMatchesApprovedBaseline": true,
+    "pageFieldsUnchanged": true,
+    "sectionOrder": [
+      "23550",
+      "23536",
+      "23537",
+      "23549",
+      "23538",
+      "23539",
+      "23540",
+      "25156",
+      "23541"
+    ],
+    "originalSectionIdsAndRelativeOrderUnchanged": true,
+    "sectionCount": 9,
+    "desktop": {
+      "width": 1024,
+      "columns": 3,
+      "cards": 7,
+      "loadedImages": 7,
+      "overflowPx": 0,
+      "headingFont": "Georgia, \"Times New Roman\", serif",
+      "currentCompiledScope": true
+    },
+    "simulatedPhone": {
+      "width": 376,
+      "columns": 1,
+      "cards": 7,
+      "loadedImages": 7,
+      "overflowPx": 3,
+      "headingFont": "Georgia, \"Times New Roman\", serif",
+      "currentCompiledScope": true
+    },
+    "newMenuCategoryInteraction": "Desserts click navigated to the new Georgia-styled menu Desserts group with Visit below; see category-interaction.json",
+    "limitations": [
+      "Original native menu floating category bar can remain over the new Section in Admin preview while both menus are present; old Section kept unchanged as approved",
+      "Simulated phone has the known 3px overflow and outer-viewport vw sizing limitation; actual consumer Theme/phone untested",
+      "This demonstrates native widget recreation inside an existing Page, not direct Library Section import or automated cross-page copy",
+      "No publication, checkout, Mobile App or controlled empty-state verification"
+    ]
+  }
+}

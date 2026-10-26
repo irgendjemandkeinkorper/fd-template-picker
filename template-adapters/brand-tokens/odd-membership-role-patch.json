@@ -1,0 +1,21 @@
+{
+  "schema": "fd-odd-membership-semantic-role-proposal/v1",
+  "status": "local-review-only-not-applied",
+  "target": {"region": "US-BETA", "circuit": "INDY Demo", "site": "Adam Template Testing 2"},
+  "pageId": "5899",
+  "sectionId": "24797",
+  "sourceName": "Membership D - Loyalty Card",
+  "nativeField": "Editorial body HTML; exact current native field label and draft section ID require Admin readback",
+  "operation": "Add one semantic class to each existing card wrapper; retain od-club__tier od-tilt and all original content",
+  "cards": [
+    {"heading": "Regular", "expectedClass": "od-club__tier od-tilt", "addClass": "fd-tier-primary", "paintRole": "Primary 16% tint into Background; Dark copy"},
+    {"heading": "Regular, but more", "expectedClass": "od-club__tier od-tilt", "addClass": "fd-tier-secondary", "paintRole": "Secondary 14% tint into Background; Dark copy"},
+    {"heading": "Practically staff", "expectedClass": "od-club__tier od-tilt", "addClass": "fd-tier-dark", "paintRole": "Dark 10% tint into Background; Dark copy"}
+  ],
+  "cta": {"background": "Primary", "foregroundCandidate": "Header", "currentPairRatio": 5.05, "arbitraryPalettePass": false},
+  "copyChanges": [],
+  "geometryChanges": [],
+  "fixedDesign": "Existing -1.5deg / 1.5deg / -0.8deg angles remain template geometry, not a verified native per-card control",
+  "applyTogetherWith": "proposals/variant-d-odd.proposed.css",
+  "gates": ["Read and back up the actual native body field", "Match each card by heading and preserve all wording, prices, benefits and hrefs", "Apply role CSS and class edits together", "Confirm actual derived card and CTA contrasts with a second native palette", "Inspect desktop/mobile and reorder behavior"]
+}

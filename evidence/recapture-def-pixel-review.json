@@ -1,0 +1,312 @@
+{
+  "auditedAt": "2026-10-25",
+  "status": "recommendations-only-not-applied",
+  "source": "def-corrected-options.json",
+  "scope": "All 12 newly processed D/E/F repository images viewed at native resolution. Pixel/label review only; no browser actions, source edits, catalog changes or review status application.",
+  "summary": {
+    "passed": 8,
+    "needs-review": 4,
+    "rejected": 0
+  },
+  "commonFindings": "No repeated hero tiles, sticky-header overlays or capture cutoffs obscure the 12 components. Previously broken D heading contrast and E card alignment are resolved. F content now has a consistent Concrete visual treatment. Missing maps and two missing source media items remain explicit gaps.",
+  "options": [
+    {
+      "optionId": "hero--variant-d-odd",
+      "name": "Hero D - Collage + Hero D - Ruth Line",
+      "image": "screenshots/hero/variant-d-odd.jpg",
+      "size": [
+        1521,
+        845
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Actual Pulp band photo in tilted paper frame, green Now Screening tag, full black film heading, Explore Films action and Ruth-line caption. The previous black-on-black failure is resolved.",
+      "caveat": "Small purple source-header decorative sliver at the top edge; no content is obscured or cut off.",
+      "captureKey": "[\"screenshots/hero/variant-d-odd.jpg\",1521,845,\"2026-10-25T15:45:35.559Z\",[\"24790\",\"24791\"]]",
+      "imageSha256": "41234e986b62d6666c0678180fdbb37ba0b9fb6ed33dc794aa1a1590c1c66136",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/hero/variant-d-odd.jpg\",1521,845,\"2026-10-25T15:45:35.559Z\",[\"24790\",\"24791\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Actual Pulp band photo in tilted paper frame, green Now Screening tag, full black film heading, Explore Films action and Ruth-line caption. The previous black-on-black failure is resolved. Small purple source-header decorative sliver at the top edge; no content is obscured or cut off.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "41234e986b62d6666c0678180fdbb37ba0b9fb6ed33dc794aa1a1590c1c66136"
+      }
+    },
+    {
+      "optionId": "events--variant-e-grid",
+      "name": "Events E - Packages",
+      "image": "screenshots/events/variant-e-grid.jpg",
+      "size": [
+        1521,
+        1067
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Private hire, three ways: three aligned package cards with prices/benefits, visible Enquire actions and complete FAQ rows beneath. The staggered layout is resolved.",
+      "caveat": "",
+      "captureKey": "[\"screenshots/events/variant-e-grid.jpg\",1521,1067,\"2026-10-25T15:45:32.331Z\",[\"24809\"]]",
+      "imageSha256": "20777e218378a1552f98591ecc26d290483e6e48ddafbed0437e61c925b6c448",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/events/variant-e-grid.jpg\",1521,1067,\"2026-10-25T15:45:32.331Z\",[\"24809\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Private hire, three ways: three aligned package cards with prices/benefits, visible Enquire actions and complete FAQ rows beneath. The staggered layout is resolved.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "20777e218378a1552f98591ecc26d290483e6e48ddafbed0437e61c925b6c448"
+      }
+    },
+    {
+      "optionId": "contact-channels--variant-e-grid",
+      "name": "Contact E - Channels",
+      "image": "screenshots/contact-channels/variant-e-grid.jpg",
+      "size": [
+        1521,
+        277
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Phone, email and hours information appears in three aligned, fully visible cards beneath the response-time note.",
+      "caveat": "",
+      "captureKey": "[\"screenshots/contact-channels/variant-e-grid.jpg\",1521,277,\"2026-10-25T15:45:32.331Z\",[\"24812\"]]",
+      "imageSha256": "8a92a61da626578d9fc47f3d9ef80d02cca89872a95e60d7229d8387825c26bc",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/contact-channels/variant-e-grid.jpg\",1521,277,\"2026-10-25T15:45:32.331Z\",[\"24812\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Phone, email and hours information appears in three aligned, fully visible cards beneath the response-time note.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "8a92a61da626578d9fc47f3d9ef80d02cca89872a95e60d7229d8387825c26bc"
+      }
+    },
+    {
+      "optionId": "find-us--variant-e-grid",
+      "name": "Find Us E - Location Card",
+      "image": "screenshots/find-us/variant-e-grid.jpg",
+      "size": [
+        1521,
+        555
+      ],
+      "suggestedStatus": "needs-review",
+      "actualPictured": "Location layout now has a wide left map panel and readable right address/details card with Open in Maps action. The map panel is entirely blank.",
+      "caveat": "Map imagery must load and be captured before this is treated as a complete location/map preview. The pixel audit cannot determine whether this is lazy loading or a source/network issue.",
+      "captureKey": "[\"screenshots/find-us/variant-e-grid.jpg\",1521,555,\"2026-10-25T15:45:32.331Z\",[\"24813\"]]",
+      "imageSha256": "e88f5982a9a186deef0c5fd4304bf4e7ed729d6711c686f6937727f5269a720d",
+      "proposedVisualReview": {
+        "status": "needs-review",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/find-us/variant-e-grid.jpg\",1521,555,\"2026-10-25T15:45:32.331Z\",[\"24813\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Location layout now has a wide left map panel and readable right address/details card with Open in Maps action. The map panel is entirely blank. Map imagery must load and be captured before this is treated as a complete location/map preview. The pixel audit cannot determine whether this is lazy loading or a source/network issue.",
+        "issues": [
+          "map-not-visible"
+        ],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "e88f5982a9a186deef0c5fd4304bf4e7ed729d6711c686f6937727f5269a720d"
+      }
+    },
+    {
+      "optionId": "membership--variant-e-grid",
+      "name": "Membership E - Tiers",
+      "image": "screenshots/membership/variant-e-grid.jpg",
+      "size": [
+        1521,
+        996
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Three aligned Standard/Plus/Premier cards with visible prices, benefits and join actions; full comparison table below. The staggered layout is resolved.",
+      "caveat": "",
+      "captureKey": "[\"screenshots/membership/variant-e-grid.jpg\",1521,996,\"2026-10-25T15:45:32.331Z\",[\"24814\"]]",
+      "imageSha256": "1693046227754314b6832803c0205f3d814eb45e4d21d90548b0d15123ac5503",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/membership/variant-e-grid.jpg\",1521,996,\"2026-10-25T15:45:32.331Z\",[\"24814\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Three aligned Standard/Plus/Premier cards with visible prices, benefits and join actions; full comparison table below. The staggered layout is resolved.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "1693046227754314b6832803c0205f3d814eb45e4d21d90548b0d15123ac5503"
+      }
+    },
+    {
+      "optionId": "hero--variant-f-concrete",
+      "name": "Hero F - Index Sheet + Hero F - Reference Print",
+      "image": "screenshots/hero/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        1040
+      ],
+      "suggestedStatus": "needs-review",
+      "actualPictured": "Concrete Today index now has strong contrast, seven visible numbered rows and legible utility links. The Reference Print section beneath is a large plain cream text placeholder with no image.",
+      "caveat": "The configured Reference Print image is absent (source URL null per root DOM inspection). Keep the missing-image caveat or split the working index from the unfinished Reference Print before claiming a completed hero preview.",
+      "captureKey": "[\"screenshots/hero/variant-f-concrete.jpg\",1281,1040,\"2026-10-25T15:46:30.613Z\",[\"24826\",\"24828\"]]",
+      "imageSha256": "9c6d51c2de307ab2f7d0bbec4b27c509ff7f15ce540b853f9eddb560a2fb31e7",
+      "proposedVisualReview": {
+        "status": "needs-review",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/hero/variant-f-concrete.jpg\",1281,1040,\"2026-10-25T15:46:30.613Z\",[\"24826\",\"24828\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Concrete Today index now has strong contrast, seven visible numbered rows and legible utility links. The Reference Print section beneath is a large plain cream text placeholder with no image. The configured Reference Print image is absent (source URL null per root DOM inspection). Keep the missing-image caveat or split the working index from the unfinished Reference Print before claiming a completed hero preview.",
+        "issues": [
+          "missing-source-image"
+        ],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "9c6d51c2de307ab2f7d0bbec4b27c509ff7f15ce540b853f9eddb560a2fb31e7"
+      }
+    },
+    {
+      "optionId": "events--variant-f-concrete",
+      "name": "Events F - Hire Schedule",
+      "image": "screenshots/events/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        591
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Concrete Hire heading, capacity note, legible four-row native table with occasion/capacity/from/notes columns, and complete Enquire action.",
+      "caveat": "",
+      "captureKey": "[\"screenshots/events/variant-f-concrete.jpg\",1281,591,\"2026-10-25T15:46:30.613Z\",[\"24829\"]]",
+      "imageSha256": "f388494e4c0fe943031c00349c804a8658c9820ec2cd636b2f9cd766c403b7c1",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/events/variant-f-concrete.jpg\",1281,591,\"2026-10-25T15:46:30.613Z\",[\"24829\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Concrete Hire heading, capacity note, legible four-row native table with occasion/capacity/from/notes columns, and complete Enquire action.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "f388494e4c0fe943031c00349c804a8658c9820ec2cd636b2f9cd766c403b7c1"
+      }
+    },
+    {
+      "optionId": "food--variant-f-concrete",
+      "name": "Food F - Price Table",
+      "image": "screenshots/food/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        897
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Concrete native menu shows all seven product cards across Snacks/Drinks/Desserts, readable category rail, descriptions and prices. Three snack cards, one Soda card and three dessert cards are visible.",
+      "caveat": "Display as Food F - Product Cards; the raw INDY alias Price Table remains a source alias. Native description ellipses are intentional content clamping, not image crop failure.",
+      "captureKey": "[\"screenshots/food/variant-f-concrete.jpg\",1281,897,\"2026-10-25T15:46:30.613Z\",[\"24830\"]]",
+      "imageSha256": "b005462936742877194e3c5c767b7db3599fe8ff4dc6ded06f8ce64ecfa9c368",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/food/variant-f-concrete.jpg\",1281,897,\"2026-10-25T15:46:30.613Z\",[\"24830\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Concrete native menu shows all seven product cards across Snacks/Drinks/Desserts, readable category rail, descriptions and prices. Three snack cards, one Soda card and three dessert cards are visible. Display as Food F - Product Cards; the raw INDY alias Price Table remains a source alias. Native description ellipses are intentional content clamping, not image crop failure.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "b005462936742877194e3c5c767b7db3599fe8ff4dc6ded06f8ce64ecfa9c368"
+      }
+    },
+    {
+      "optionId": "contact--variant-f-concrete",
+      "name": "Contact F - Ledger",
+      "image": "screenshots/contact/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        524
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Concrete Standard Form has readable Contact heading, complete Name/Email/Message fields and visible Send action, with no overlap or clipping.",
+      "caveat": "Display as Contact F - Standard Form; Ledger remains the raw source alias. This is visual review only, with no form submission tested.",
+      "captureKey": "[\"screenshots/contact/variant-f-concrete.jpg\",1281,524,\"2026-10-25T15:46:30.613Z\",[\"24831\"]]",
+      "imageSha256": "b686184f9a555125d9336300e23763e5bd6e4824120796bdf460d98333e56cb7",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/contact/variant-f-concrete.jpg\",1281,524,\"2026-10-25T15:46:30.613Z\",[\"24831\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Concrete Standard Form has readable Contact heading, complete Name/Email/Message fields and visible Send action, with no overlap or clipping. Display as Contact F - Standard Form; Ledger remains the raw source alias. This is visual review only, with no form submission tested.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "b686184f9a555125d9336300e23763e5bd6e4824120796bdf460d98333e56cb7"
+      }
+    },
+    {
+      "optionId": "find-us--variant-f-concrete",
+      "name": "Find Us F - Coordinates",
+      "image": "screenshots/find-us/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        795
+      ],
+      "suggestedStatus": "needs-review",
+      "actualPictured": "Concrete Find heading and coordinates, complete address/entrance/transit/parking/hours/phone rows, Open Map action, and a large outlined map area. The map area is blank.",
+      "caveat": "Load and recapture the map, or clearly describe this as an incomplete map state. The image establishes text/layout presence, not map availability.",
+      "captureKey": "[\"screenshots/find-us/variant-f-concrete.jpg\",1281,795,\"2026-10-25T15:46:30.613Z\",[\"24832\"]]",
+      "imageSha256": "23cd2cb4776d1cf0b7b3605128081831c802e54e1d4fb7a1901795f93951b16e",
+      "proposedVisualReview": {
+        "status": "needs-review",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/find-us/variant-f-concrete.jpg\",1281,795,\"2026-10-25T15:46:30.613Z\",[\"24832\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Concrete Find heading and coordinates, complete address/entrance/transit/parking/hours/phone rows, Open Map action, and a large outlined map area. The map area is blank. Load and recapture the map, or clearly describe this as an incomplete map state. The image establishes text/layout presence, not map availability.",
+        "issues": [
+          "map-not-visible"
+        ],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "23cd2cb4776d1cf0b7b3605128081831c802e54e1d4fb7a1901795f93951b16e"
+      }
+    },
+    {
+      "optionId": "membership--variant-f-concrete",
+      "name": "Membership F - Tariff",
+      "image": "screenshots/membership/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        569
+      ],
+      "suggestedStatus": "passed",
+      "actualPictured": "Concrete Tariff heading and note, readable Standard/Plus/Premier native table, points note and visible Join action.",
+      "caveat": "",
+      "captureKey": "[\"screenshots/membership/variant-f-concrete.jpg\",1281,569,\"2026-10-25T15:46:30.613Z\",[\"24833\"]]",
+      "imageSha256": "b569b0b85391984c272b0a21efb97ef251ba1d6c7cd3ced9ad92bd72be66b042",
+      "proposedVisualReview": {
+        "status": "passed",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/membership/variant-f-concrete.jpg\",1281,569,\"2026-10-25T15:46:30.613Z\",[\"24833\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Concrete Tariff heading and note, readable Standard/Plus/Premier native table, points note and visible Join action.",
+        "issues": [],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "b569b0b85391984c272b0a21efb97ef251ba1d6c7cd3ced9ad92bd72be66b042"
+      }
+    },
+    {
+      "optionId": "gift-cards--variant-f-concrete",
+      "name": "Gift Cards F - Voucher Line",
+      "image": "screenshots/gift-cards/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        567
+      ],
+      "suggestedStatus": "needs-review",
+      "actualPictured": "Voucher heading and description are readable; the native Voucher/Add card and quantity/subtotal/Continue controls are visible. The product image displays an explicit broken-image icon and Voucher alt text above the card.",
+      "caveat": "The source image URL is empty. Configure the actual product image and recapture; this is a source content gap, not a crop error. Continue is disabled at quantity zero.",
+      "captureKey": "[\"screenshots/gift-cards/variant-f-concrete.jpg\",1281,567,\"2026-10-25T15:46:30.613Z\",[\"24834\"]]",
+      "imageSha256": "5ebc059bda5bc38df6edf5e78b4559c068f422ea95ce6c3be6af3f157bb59d63",
+      "proposedVisualReview": {
+        "status": "needs-review",
+        "reviewedAt": "2026-10-25",
+        "captureKey": "[\"screenshots/gift-cards/variant-f-concrete.jpg\",1281,567,\"2026-10-25T15:46:30.613Z\",[\"24834\"]]",
+        "method": "native-resolution-local-pixel-and-label-review",
+        "notes": "Voucher heading and description are readable; the native Voucher/Add card and quantity/subtotal/Continue controls are visible. The product image displays an explicit broken-image icon and Voucher alt text above the card. The source image URL is empty. Configure the actual product image and recapture; this is a source content gap, not a crop error. Continue is disabled at quantity zero.",
+        "issues": [
+          "missing-source-image"
+        ],
+        "evidence": "evidence/recapture-def-pixel-review.json",
+        "imageSha256": "5ebc059bda5bc38df6edf5e78b4559c068f422ea95ce6c3be6af3f157bb59d63"
+      }
+    }
+  ],
+  "archiveNote": "Independent review preserved as issued. Root subsequently applied the recommended statuses to the catalog; this archived report is review evidence, not the current catalog state.",
+  "workspaceInputRoot": "../evidence/recapture-2/ relative to the repository root. Source preparation files remain in the shared workspace."
+}

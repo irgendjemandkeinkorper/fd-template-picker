@@ -1,0 +1,126 @@
+{
+  "fields": [
+    {
+      "aria": null,
+      "type": "checkbox",
+      "value": "on"
+    },
+    {
+      "aria": "Visible For",
+      "type": null,
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "aria": "Who can see this section?",
+      "type": null,
+      "value": "Everyone"
+    },
+    {
+      "aria": "Start Date",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "aria": "End Date",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "aria": "Width Mode",
+      "type": null,
+      "value": "Centered"
+    },
+    {
+      "aria": "Margin Sides",
+      "type": null,
+      "value": "Extra Small"
+    },
+    {
+      "aria": "Margin Top",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": "Margin Bottom",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": "Background Color",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": null,
+      "type": "file",
+      "value": ""
+    },
+    {
+      "aria": "Image Fit",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": "Image Position",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": "Repeat",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": "Attachment",
+      "type": null,
+      "value": ""
+    },
+    {
+      "aria": null,
+      "type": "checkbox",
+      "value": "on"
+    },
+    {
+      "aria": null,
+      "type": "checkbox",
+      "value": "on"
+    },
+    {
+      "aria": null,
+      "type": "checkbox",
+      "value": "on"
+    },
+    {
+      "aria": "Classes",
+      "type": "text",
+      "value": "fdp-k-food"
+    },
+    {
+      "aria": "Styles",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "aria": "Custom CSS",
+      "type": null,
+      "value": "/* Maintained native brand roles; change Theme & Style, not this CSS. */\n& {\n  --fd-primary: var(--q-primary);\n  --fd-secondary: var(--q-secondary);\n  --fd-dark: var(--q-dark);\n  --fd-background: var(--q-background);\n  --fd-header: var(--q-dark);\n  --fd-accent: var(--q-secondary);\n  --fd-warning: var(--q-warning);\n  --fd-on-primary: var(--q-dark);\n  --fd-on-secondary: var(--q-dark);\n  --fd-on-accent: var(--q-dark);\n  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));\n  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));\n  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));\n  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));\n  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));\n  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));\n  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));\n  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));\n  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));\n  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));\n  --fd-copy-emphasis: var(--fd-muted-on-paper);\n}\n/* Native section surface and typography */\n&.fdp-k-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-background);color:var(--fd-dark);font-family:Georgia,serif;} &.fdp-k-food h2{color:var(--fd-dark);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-k-food h3{color:var(--fd-dark);font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-k-food p{color:var(--fd-dark);line-height:1.7;}\n/* Native widget controls; confirm these selectors against rendered output */\n &.fdp-k-food .q-card{background:var(--fd-background);color:var(--fd-dark);border:1px solid var(--fd-line-on-paper);box-shadow:none;} &.fdp-k-food .q-tab{color:var(--fd-dark);} &.fdp-k-food .q-tab--active{color:var(--fd-copy-emphasis);} &.fdp-k-food .q-btn{min-height:44px;} &.fdp-k-food .q-focus-helper{border-radius:inherit;} &.fdp-k-food a:focus-visible,&.fdp-k-food button:focus-visible{outline:3px solid var(--fd-primary);outline-offset:3px;}\n/* Keep content within the section on narrow screens */\n&.fdp-k-food,&.fdp-k-food *{box-sizing:border-box;}&.fdp-k-food .fdp-content,&.fdp-k-food .fdp-content>*,&.fdp-k-food .fdp-content article,&.fdp-k-food .fdp-content aside{min-width:0;}&.fdp-k-food p,&.fdp-k-food li,&.fdp-k-food a{overflow-wrap:break-word;}\n&.fdp-k-food {background:var(--fd-background) !important;color:var(--fd-dark) !important;}\n&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4){color:var(--fd-dark) !important;}\n\n/* Native form widgets emit inline neutral defaults; bind their maintained roles. */\n& .generic-form-field {\n  --generic-form-field-background: var(--q-background) !important;\n  --generic-form-field-text: var(--q-dark) !important;\n  --generic-form-field-border: var(--q-dark) !important;\n  --generic-form-field-label: var(--q-dark) !important;\n  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;\n  --generic-form-field-focus: var(--q-dark) !important;\n}\n\n/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */\n&[data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action) {\n  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;\n  color: var(--q-dark) !important;\n  border-color: var(--q-primary) !important;\n}\n&[data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }\n&[data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {\n  outline: 3px solid var(--q-dark) !important;\n  outline-offset: 3px;\n  box-shadow: 0 0 0 6px var(--q-background) !important;\n}\n&[data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }\n\n/* Native product category titles inherit brand text by default. */\n&.fdp-k-food .text-current-color { color:var(--q-dark) !important; }\n"
+    }
+  ],
+  "heading": [
+    "Section Settings",
+    "close",
+    "Visiblity",
+    "check",
+    "On",
+    "Visible For",
+    "Desktop Web",
+    "cancel",
+    "Mobile Web",
+    "cancel",
+    "Mobile App",
+    "cancel",
+    "cancel",
+    "arrow_drop_down"
+  ],
+  "text": "Section Settings\nclose\nVisiblity\ncheck\nOn\nVisible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down\nWho can see this section?\nEveryone\narrow_drop_down\nStart Date\nevent\nEnd Date\nevent\nStyling\nWidth Mode\nCentered\narrow_drop_down\nMargin Sides\nExtra Small\ncancel\narrow_drop_down\nMargin Top\narrow_drop_down\nMargin Bottom\narrow_drop_down\nBackground Color\narrow_drop_down\nPreview\nClick Or Drop Image Here\nImage Fit\narrow_drop_down\nImage Position\narrow_drop_down\nRepeat\narrow_drop_down\nAttachment\narrow_drop_down\nMobile Override\nWidget\nSquare\nFlat\nAdvanced Styling\nClasses\ncancel\nStyles\nCustom CSS"
+}

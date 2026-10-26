@@ -1,0 +1,74 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+[class*="section-"] {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+[class*="section-j-intro-"] .text-body1,
+[class*="section-j-visit-"] .text-body1 {
+  color: var(--fd-background) !important;
+}
+
+/* Keep the four Box Office modules readable at every section width. */
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact){padding:clamp(28px,5%,76px) clamp(18px,5%,72px)!important;container-type:inline-size;}
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) h2{font-size:clamp(30px,5cqi,62px)!important;overflow-wrap:anywhere;}
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) h3{font-size:clamp(21px,3cqi,30px);}
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership) .text-body1{color:var(--fd-dark)!important;}
+.fdp-j-private-parties .fdp-hire-desk{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))!important;}
+.fdp-j-membership .fdp-ticket{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))!important;}
+.fdp-j-contact form{max-width:900px!important;padding:0;}
+.fdp-j-contact .q-col-gutter-md{margin-left:0;}
+.fdp-j-contact .q-col-gutter-md>div{padding-left:0;padding-right:12px;}
+/* Use the Box Office type treatment within the added modules. */
+[class*="section-"]:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) :is(h2,h3){font-family:Arial,sans-serif!important;}
+.fdp-j-membership h2{font-size:clamp(30px,4cqi,52px)!important;}
+/* Keep the native enquiry action in the Box Office palette. */
+body.site-170 & .fdp-j-contact .q-btn{background:var(--fd-primary)!important;color:var(--fd-background)!important;font-family:Arial,Helvetica,sans-serif!important;border-radius:0!important;}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+[class*="section-"] .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }
+
+/* Native Dark editorial/widget panels use Background for meaningful copy. */
+[class*="section-j-intro-"][data-test-id="section-content"],
+[class*="section-j-visit-"][data-test-id="section-content"] { background-color:var(--q-dark) !important; color:var(--q-background) !important; }
+[class*="section-j-intro-"][data-test-id="section-content"] :is(h2,h3).text-current-color,
+[class*="section-j-visit-"][data-test-id="section-content"] :is(h2,h3).text-current-color { color:var(--q-background) !important; }

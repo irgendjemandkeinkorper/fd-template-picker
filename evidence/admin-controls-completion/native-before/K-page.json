@@ -1,0 +1,60 @@
+{
+  "fields": [
+    {
+      "label": "Title",
+      "value": "Variant K Clubhouse"
+    },
+    {
+      "label": "URL Slug",
+      "value": "variant-k-clubhouse"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Description\nUsed for search engine description. Truncated by search engines at ~160 characters.\n0",
+      "value": ""
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": ""
+    },
+    {
+      "label": "Select Movie\narrow_drop_down",
+      "value": "Select Movie"
+    },
+    {
+      "label": "Name",
+      "value": ""
+    },
+    {
+      "label": "Email",
+      "value": ""
+    },
+    {
+      "label": "Message",
+      "value": ""
+    }
+  ],
+  "heading": "close\narrow_back\narrow_forward\nEdit Page (5916)\nstore\nrefresh\nhistory\nREVERT\nSAVE\nSAVE AND CLOSE\nTitle\nURL Slug\nStart Date\nevent\nEnd Date\nevent\nVIEW P",
+  "rows": [
+    "ID\tName\tType\tVisibility\tActions",
+    "24890\n\t\nK Welcome\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24891\n\t\nK Featured\n\t\nExplore Movies\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24892\n\t\nK Reserve\n\t\nShowtime Quick Selector\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25122\n\t\nFood K - Clubhouse Kitchen\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25128\n\t\nPrivate Parties K - Gather Your People\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24893\n\t\nK Stay Awhile\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24894\n\t\nMembership K - Your Place In The Clubhouse\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25117\n\t\nContact K - Say Hello\n\t\nGeneric Form\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

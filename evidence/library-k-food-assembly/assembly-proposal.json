@@ -1,0 +1,223 @@
+{
+  "schema": "fd-library-k-food-assembly-proposal/v1",
+  "preparedAt": "2026-10-25T23:17:22.626289+00:00",
+  "status": "prepared-awaiting-exact-native-batch-confirmation",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing",
+    "pageTitle": "Fandango Cinema Template Test",
+    "pageListId": "5585",
+    "editablePageId": "5586",
+    "slug": "fandango-cinema-template-test",
+    "currentState": "clean published Page; prepare only an unpublished draft",
+    "libraryStatus": "Not Linked"
+  },
+  "before": {
+    "evidence": "evidence/library-k-food-assembly/target-5586-before-fields.json",
+    "evidenceSha256": "53585e1bae57152daf24e4e8db7b5aaa12ce2cde57267511cb19eda142e7737e",
+    "capturedAt": "2026-10-25T23:15:08.642Z",
+    "pageFieldsToPreserveExactly": [
+      {
+        "label": "Title",
+        "value": "Fandango Cinema Template Test"
+      },
+      {
+        "label": "URL Slug",
+        "value": "fandango-cinema-template-test"
+      },
+      {
+        "label": "Start Date",
+        "value": ""
+      },
+      {
+        "label": "End Date",
+        "value": ""
+      },
+      {
+        "label": "Search Engine Title",
+        "value": "Cinema Template Test | Adam Template Testing"
+      },
+      {
+        "label": "Search Engine Description",
+        "value": "A US-BETA cinema website template prototype combining neighborhood, cinematic, and task-first wireframe patterns."
+      },
+      {
+        "label": "Custom Styles (CSS)",
+        "value": "/* Home — shared cinematic shell, scoped to this INDY page */\n:root { --dusk-ink:#241a2e; --dusk-paper:#fbefe2; --dusk-coral:#e06b4a; --dusk-gold:#f4c67a; }\n.q-page-container { background:var(--dusk-paper); }\n.q-page { max-width:1440px; margin:0 auto; }\n.q-page h3 { letter-spacing:-.055em; line-height:.92; }\n.q-page button { border-radius:999px; border:1px solid rgba(36,26,46,.15); box-shadow:none; transition:transform .18s ease, box-shadow .18s ease; }\n.q-page button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(36,26,46,.13); }\n.q-page [class*=\"card\"] { border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(36,26,46,.10); }\n.q-page [class*=\"card\"] img { object-fit:cover; }\n.q-page [class*=\"swiper\"] { border-radius:0 0 28px 28px; overflow:hidden; }\n.q-page [class*=\"swiper\"] button { border-radius:999px; }\n.q-page input, .q-page [role=\"combobox\"] { border-radius:14px; }\n@media (max-width:640px) { .q-page { overflow:hidden; } }"
+      }
+    ],
+    "originalSectionsInOrder": [
+      {
+        "id": "23550",
+        "name": "Featured - Three Films",
+        "type": "Generic Carousel"
+      },
+      {
+        "id": "23536",
+        "name": "Hero - Big Stories",
+        "type": "Text Block"
+      },
+      {
+        "id": "23537",
+        "name": "Book - Showtime Quick Selector",
+        "type": "Showtime Quick Selector"
+      },
+      {
+        "id": "23549",
+        "name": "Showtimes - Pick a Showtime",
+        "type": "Showtimes"
+      },
+      {
+        "id": "23538",
+        "name": "Movies - Seven Stories",
+        "type": "Poster Carousel"
+      },
+      {
+        "id": "23539",
+        "name": "Features - More Than a Movie",
+        "type": "Text Block"
+      },
+      {
+        "id": "23540",
+        "name": "Concessions - Snacks Worth the Credits",
+        "type": "Concessions Menu"
+      },
+      {
+        "id": "23541",
+        "name": "Visit - Plan Your Night",
+        "type": "Text Block"
+      }
+    ],
+    "sectionCount": 8,
+    "additionalControlsToPreserve": "All existing Page controls, metadata, publication/visibility, dates, header override and all original Section fields and visibility states"
+  },
+  "newSection": {
+    "type": "Concessions Menu",
+    "name": "Food - Clubhouse Kitchen",
+    "namePolicy": "Set this final internal Name before first Create/Save; do not rename afterwards",
+    "mainWidgetFields": {
+      "showHeading": true,
+      "heading": "Good company. Good things to share.",
+      "headingFontSize": "H 2",
+      "headingFont": "Default",
+      "headingTextAlign": "Center",
+      "headingColorField": "Primary",
+      "headingStyle": "Default",
+      "description": "Explore the kitchen and bar before you settle in.",
+      "salesChannelVisibility": "Website",
+      "categoriesVisibilityOverride": [],
+      "showCategoryFilters": true,
+      "categoryFiltersPosition": "Left",
+      "displayMode": "Block",
+      "viewMode": "Grid",
+      "itemsPerRow": 3,
+      "itemsPerRowInMobile": 1,
+      "spacing": 12,
+      "showCategoryDivider": true,
+      "showCategoryName": true,
+      "categoryNameFontSizePx": 24,
+      "categoryNameAlignment": "Left",
+      "categoryNameStyle": "Default",
+      "categoryNameColorField": "Primary",
+      "showImage": true,
+      "showDescription": true,
+      "showPrice": true,
+      "itemCardTheme": "Frame",
+      "itemBackgroundColor": "Default",
+      "itemBorderRadius": 8,
+      "itemShadow": 0,
+      "titleFontSizePx": 20,
+      "descriptionFontSizePx": 16,
+      "priceFontSizePx": 16
+    },
+    "sectionSettings": {
+      "visible": true,
+      "visibleFor": [
+        "Desktop Web",
+        "Mobile Web",
+        "Mobile App"
+      ],
+      "whoCanSee": "Everyone",
+      "startDate": "",
+      "endDate": "",
+      "widthMode": "Centered",
+      "marginSides": "Extra Small",
+      "marginTop": "",
+      "marginBottom": "",
+      "backgroundColor": "",
+      "backgroundImage": null,
+      "square": true,
+      "flat": true,
+      "classes": "fdp-k-food",
+      "styles": ""
+    },
+    "customCssField": "Section Settings > Custom CSS",
+    "customCssArtifact": "template-adapters/library-k-food/section.proposed.css",
+    "customCssSha256": "d0dcb1eaffbe7975a4e1edf3e2eb19c68a2db4162b4e37c2b4ababc38c992eee",
+    "customCssExactValue": "/* Clubhouse Kitchen: native Concessions Menu, Section Settings > Custom CSS.\n   Keep the Section class fdp-k-food. This field owns the complete preset;\n   no source Page CSS, generated record IDs, or source Theme CSS is required. */\n&.fdp-k-food {\n  box-sizing: border-box;\n  min-width: 0;\n  padding: clamp(28px,5vw,76px) clamp(18px,5vw,72px);\n  background: var(--q-background) !important;\n  color: var(--q-dark) !important;\n  font-family: Georgia, serif;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 1.5;\n}\n\n/* Include the source Theme's heading treatment locally. System fonts need no import. */\n&.fdp-k-food :is(h1,h2,h3,h4,.title,.poster-title) {\n  color: var(--q-dark) !important;\n  font-family: Georgia, \"Times New Roman\", serif !important;\n  font-weight: 600 !important;\n  letter-spacing: -.025em;\n  line-height: 1.03;\n  text-transform: none;\n}\n&.fdp-k-food h2 {\n  font-size: clamp(32px,4.4vw,62px);\n  line-height: 1.03;\n}\n&.fdp-k-food h3 {\n  font-size: clamp(21px,2.1vw,30px);\n  line-height: 1.15;\n  margin: 0 0 14px;\n}\n&.fdp-k-food p {\n  color: var(--q-dark);\n  line-height: 1.7;\n}\n&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4,.text-current-color,.text-body1,.text-body2) {\n  color: var(--q-dark) !important;\n}\n\n/* Native Concessions Menu owns its product layout, data, and category controls. */\n&.fdp-k-food .q-card {\n  background: var(--q-background);\n  color: var(--q-dark);\n  border: 1px solid color-mix(in srgb,var(--q-dark) 45%,var(--q-background));\n  box-shadow: none;\n}\n&.fdp-k-food .q-tab {\n  color: var(--q-dark);\n}\n&.fdp-k-food .q-tab--active {\n  color: color-mix(in srgb,var(--q-dark) 85%,var(--q-background));\n}\n&.fdp-k-food :is(.q-btn,button) {\n  min-height: 44px;\n  border-radius: .35rem !important;\n  box-shadow: none;\n  font-family: Arial, \"Helvetica Neue\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 0;\n  text-transform: none;\n}\n&.fdp-k-food .q-btn.bg-primary {\n  background: color-mix(in srgb,var(--q-primary) 16%,var(--q-background)) !important;\n  color: var(--q-dark) !important;\n  border-color: var(--q-primary) !important;\n}\n&.fdp-k-food .q-btn.bg-primary :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n/* Category labels otherwise use the native black default on the source. */\n&.fdp-k-food [data-category-id] .q-btn,\n&.fdp-k-food [data-category-id] .q-btn :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n&.fdp-k-food .q-focus-helper {\n  border-radius: inherit;\n}\n&.fdp-k-food :is(a,button,.q-btn):focus-visible {\n  outline: 2px solid var(--q-dark) !important;\n  outline-offset: 2px;\n  box-shadow: 0 0 0 4px var(--q-background) !important;\n}\n&.fdp-k-food .q-btn.bg-primary:hover {\n  text-decoration: underline;\n}\n\n/* Preserve the native responsive grid; only contain editorial overflow. */\n&.fdp-k-food * {\n  box-sizing: border-box;\n}\n&.fdp-k-food :is(.fdp-content,.fdp-content>*,.fdp-content article,.fdp-content aside) {\n  min-width: 0;\n}\n&.fdp-k-food :is(p,li,a) {\n  overflow-wrap: break-word;\n}\n",
+    "newSectionId": "Record the actual native created ID; NEW_SECTION_ID below is a placeholder"
+  },
+  "order": {
+    "nativeControl": "Page editor > Set Order",
+    "insertAfter": {
+      "id": "23540",
+      "name": "Concessions - Snacks Worth the Credits"
+    },
+    "insertBefore": {
+      "id": "23541",
+      "name": "Visit - Plan Your Night"
+    },
+    "proposedSectionIds": [
+      "23550",
+      "23536",
+      "23537",
+      "23549",
+      "23538",
+      "23539",
+      "23540",
+      "NEW_SECTION_ID",
+      "23541"
+    ],
+    "expectedSectionCount": 9,
+    "originalRelativeOrderUnchanged": true
+  },
+  "authorizedBatchToRequest": [
+    "Create exactly one new native Concessions Menu on editable Page 5586 with the recorded widget/Section settings, final Name, fdp-k-food class and exact baseline Section CSS.",
+    "Save the new Section and any resulting Page draft changes, then use native Set Order to place only the new Section after 23540 and before 23541.",
+    "Close and reopen the Page and new Section; verify saved settings/CSS, correct generated/compiled scope and exact nine-Section order.",
+    "Review native desktop and phone draft previews; retain the existing Admin-framework palette and simulated-viewport limitations."
+  ],
+  "preserve": [
+    "All eight original Sections, their fields, visibility and relative order.",
+    "Existing Page CSS and all Page metadata/settings.",
+    "Source carrier 5969/5970, Library master 5971/5972 and independent carrier 5973/5974.",
+    "Site Theme, global navigation/widgets, products, categories, prices and all other Pages."
+  ],
+  "publication": "Leave the new work as an unpublished draft. Do not publish, unpublish, change homepage/navigation, link/unlink records or deploy hosting.",
+  "runtimeDependencies": {
+    "nativeThemeInputs": [
+      "--q-primary",
+      "--q-dark",
+      "--q-background"
+    ],
+    "catalogue": "Destination Website-visible native concession data",
+    "categoriesVisibilityOverride": [],
+    "sourceRecordIdsInCss": false,
+    "copyProductRecords": false,
+    "copyPageCss": false
+  },
+  "verification": [
+    "Confirm the exact Region/Circuit/Site and editable Page 5586 before mutation.",
+    "Require exactly nine saved Sections; every original ID/name/type/field/visibility remains unchanged and only the new ID is inserted at the requested position.",
+    "Require exact baseline Section CSS readback after newline normalization, fdp-k-food class and empty category override; do not paste compiled numeric-ID CSS.",
+    "Verify the current new generated root has matching compiled Section CSS and Georgia heading; account for the previously proven internal-Name scope-cache issue.",
+    "Review the new menu with adjacent Concessions and Visit Sections for style interference, loaded local product images, category controls and desktop/phone geometry.",
+    "Verify original Page CSS/meta against the captured before fields and confirm no publication or other-page changes."
+  ],
+  "knownPreviewLimit": "Native Admin previews use Admin framework colors; simulated phone vw units can resolve against the outer browser viewport. Actual consumer Theme/phone behavior requires separate evidence.",
+  "rollback": {
+    "plan": "Remove only the newly created Section and restore the original eight-Section order if needed; preserve all original content.",
+    "authorization": "Rollback removal requires separate explicit authorization if needed; not included in the proposed creation/save/order batch."
+  }
+}

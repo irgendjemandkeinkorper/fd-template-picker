@@ -1,0 +1,211 @@
+{
+  "A": {
+    "title": "Circuit",
+    "literalToRole": {
+      "#08080a": "header",
+      "#1c1c21": "dark",
+      "#f5f0e6": "background",
+      "#a34b3c": "primary",
+      "#140e0c": "surface-dark",
+      "#1c1411": "surface-dark",
+      "#241814": "surface-dark",
+      "#2b1a15": "surface-dark",
+      "#a89c89": "muted-on-dark",
+      "#cfc4b2": "muted-on-dark",
+      "#e8a38f": "primary-tint",
+      "#c96b57": "primary-tint",
+      "#e7e0d0": "paper-muted",
+      "#bf9b45": "accent"
+    },
+    "reviewNotes": [
+      "Circuit dark card depths are centrally derived Dark surfaces. Primary tint is an authored emphasis choice, not a nearest-color match."
+    ]
+  },
+  "B": {
+    "title": "Rep",
+    "literalToRole": {
+      "#f5f0e6": "background",
+      "#f6f1e6": "background",
+      "#fffdf7": "background",
+      "#fffaf1": "background",
+      "#141418": "dark",
+      "#1c1c21": "dark",
+      "#2b2622": "dark",
+      "#28221f": "dark",
+      "#571726": "primary",
+      "#713d35": "primary",
+      "#7c7263": "muted-on-paper",
+      "#544d43": "muted-on-paper",
+      "#6b615a": "muted-on-paper",
+      "#4a423b": "muted-on-paper",
+      "#b7a896": "line-on-paper",
+      "#ede6d8": "paper-muted",
+      "#bf9b45": "accent"
+    },
+    "reviewNotes": [
+      "Paper/card shades are derived from Background. Border and muted text roles intentionally differ."
+    ]
+  },
+  "C": {
+    "title": "Late",
+    "literalToRole": {
+      "#08080a": "header",
+      "#2c0a12": "dark",
+      "#1b060c": "dark",
+      "#24080f": "surface-dark",
+      "#3a1119": "surface-dark",
+      "#5a2a16": "surface-dark",
+      "#bf9b45": "accent",
+      "#d4b36a": "accent",
+      "#c08a3e": "accent",
+      "#f5f0e6": "background",
+      "#cfc4b2": "muted-on-dark",
+      "#a89c89": "muted-on-dark"
+    },
+    "reviewNotes": [
+      "Burgundy depths are Dark-derived surfaces. Gold labels and outlined CTA remain Accent; approving a Primary-owned CTA requires a separate semantic decision and contrast test."
+    ]
+  },
+  "D": {
+    "title": "Odd",
+    "literalToRole": {
+      "#f5f0e6": "background",
+      "#141418": "dark",
+      "#3f6b4e": "primary",
+      "#a34b3c": "secondary",
+      "#9dbca6": "secondary-tint"
+    },
+    "reviewNotes": [
+      "D demo overrides are removed; original native aliases retained. Membership card roles are explicit at end, with fixed tilts. Accent remains the original scrap role outside membership."
+    ]
+  },
+  "E": {
+    "title": "Grid",
+    "literalToRole": {
+      "#0e0e11": "dark",
+      "#f5f0e6": "background",
+      "#bf9b45": "primary",
+      "#d4b36a": "secondary",
+      "#5c8a6b": "accent",
+      "#c08a3e": "warning"
+    },
+    "reviewNotes": [
+      "Grid status colors keep native Accent/Warning semantic roles. Demo override removed."
+    ]
+  },
+  "F": {
+    "title": "Concrete",
+    "literalToRole": {
+      "#e8e5de": "background",
+      "#181818": "dark",
+      "#a7a49d": "line-on-paper",
+      "#484640": "muted-on-paper"
+    },
+    "reviewNotes": [
+      "Native form custom properties and final important declarations are included, not just --cn-* aliases."
+    ]
+  },
+  "G": {
+    "title": "Cut",
+    "literalToRole": {
+      "#f5f0e6": "background",
+      "#fff4df": "background",
+      "#151515": "dark",
+      "#141414": "dark",
+      "#201725": "dark",
+      "#a34b3c": "primary",
+      "#a54b3e": "primary",
+      "#d89a2b": "accent",
+      "#f5bf32": "accent",
+      "#202020": "surface-dark"
+    },
+    "reviewNotes": [
+      "Original amber alias spans actions/cards/ornaments. Action and highlighted card roles are split by selector; remaining amber ornament uses Accent."
+    ]
+  },
+  "H": {
+    "title": "Storybook",
+    "literalToRole": {
+      "#faf4ea": "background",
+      "#f8eee4": "background",
+      "#fffaf1": "background",
+      "#fbf4e8": "background",
+      "#571726": "dark",
+      "#3d2730": "dark",
+      "#5f2235": "dark",
+      "#f3d6d2": "primary-tint",
+      "#f3d6d0": "primary-tint",
+      "#dce9dc": "secondary-tint",
+      "#f3e5b8": "accent-tint",
+      "#bea687": "line-on-paper",
+      "#7b2945": "primary"
+    },
+    "reviewNotes": [
+      "Fixed pastel percentages are central design choices (Primary16%,Secondary14%,Accent20% into Background); visual approval required."
+    ]
+  },
+  "I": {
+    "title": "Ma",
+    "literalToRole": {
+      "#faf4ea": "background",
+      "#f8f5ef": "background",
+      "#fffaf1": "background",
+      "#1f2326": "dark",
+      "#2c2b29": "dark",
+      "#a53b2a": "primary",
+      "#944b35": "primary",
+      "#cec6ba": "line-on-paper"
+    },
+    "reviewNotes": [
+      "Image filters/writing mode/fonts are preserved as fixed design. Overlay legibility is a separate adapter."
+    ]
+  },
+  "J": {
+    "title": "Box Office",
+    "literalToRole": {
+      "#f5eee8": "background",
+      "#f3eee5": "background",
+      "#fffaf2": "background",
+      "#fffaf1": "background",
+      "#fff8ec": "background",
+      "#241c19": "dark",
+      "#a84327": "primary",
+      "#a94728": "primary",
+      "#a89e91": "line-on-paper",
+      "#ece1d0": "secondary-tint"
+    },
+    "reviewNotes": [
+      "Page-level submit/text fixes migrate with section rules. Ticket stub uses Secondary tint."
+    ]
+  },
+  "K": {
+    "title": "Clubhouse",
+    "literalToRole": {
+      "#f8ead7": "background",
+      "#fff8e9": "background",
+      "#fffaf1": "background",
+      "#44251e": "dark",
+      "#923b2c": "primary",
+      "#d9af8e": "line-on-paper",
+      "#df9d78": "accent",
+      "#e8bb96": "secondary-tint"
+    },
+    "reviewNotes": [
+      "CSSOM-only capture includes native sections with generated section selectors. Preserve those IDs in proof but require stable-class portability later."
+    ]
+  },
+  "L": {
+    "title": "Midnight Lounge",
+    "literalToRole": {
+      "#291d3b": "dark",
+      "#201725": "dark",
+      "#352649": "surface-dark",
+      "#fff1d7": "background",
+      "#e6c17c": "accent",
+      "#82688f": "line-on-dark"
+    },
+    "reviewNotes": [
+      "Accent actions are deliberate Lounge styling; on-Accent uses Dark. Header color is not reused as universal ink."
+    ]
+  }
+}

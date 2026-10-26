@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Marquee Popcorn",
+    "nameGap": 13.146434783935549,
+    "price": "Starting at$7.00",
+    "right": "8px",
+    "rightClearance": 9.199909210205078,
+    "top": "-38px"
+  },
+  {
+    "name": "No Country for Old Nachos",
+    "nameGap": 9.537109375,
+    "price": "$14.00",
+    "right": "8px",
+    "rightClearance": 5.30499267578125,
+    "top": "-38px"
+  },
+  {
+    "name": "The Pretzel Identity",
+    "nameGap": 12.960498809814451,
+    "price": "$11.00",
+    "right": "8px",
+    "rightClearance": 8.209051132202148,
+    "top": "-38px"
+  },
+  {
+    "name": "Soda",
+    "nameGap": 13.146434783935549,
+    "price": "Starting at$6.00",
+    "right": "8px",
+    "rightClearance": 8.571653366088867,
+    "top": "-38px"
+  },
+  {
+    "name": "Pie Hard",
+    "nameGap": 12.869529724121094,
+    "price": "$10.00",
+    "right": "8px",
+    "rightClearance": 8.57889175415039,
+    "top": "-38px"
+  },
+  {
+    "name": "Sundae, Bloody Sundae",
+    "nameGap": 9.537109375,
+    "price": "$10.00",
+    "right": "8px",
+    "rightClearance": 5.30499267578125,
+    "top": "-38px"
+  },
+  {
+    "name": "Movie Candy",
+    "nameGap": 13.38193130493164,
+    "price": "$5.00",
+    "right": "8px",
+    "rightClearance": 7.775510787963867,
+    "top": "-38px"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-26",
+  "desktopAndPhone": "nine passed; see per-site DOM and phone records",
+  "picker": {
+    "contrast399": "blocked until explicit acknowledgment, then allowed",
+    "contrast299": "blocked; acknowledgment hidden",
+    "reload": "acknowledgment retained",
+    "paletteEdit": "acknowledgment cleared",
+    "sharedLink": "six sections and contrast-review/v1 retained",
+    "hero": "nine choices including Encore",
+    "hub": "nine exact hosted links; all nine images loaded",
+    "phone": "390x844; document and step widths390; no measured overflow"
+  },
+  "automatedTests": 60,
+  "scope": "Browser viewport checks; no order/form submission, physical device or final accessibility certification"
+}

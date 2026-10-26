@@ -1,0 +1,673 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 container
+			3 text Editing Circuit Library
+			4 toolbar
+				5 button
+				6 text INDY Admin
+				7 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+				8 switch 0
+				9 button
+				10 container
+					11 text Region US-BETA
+					12 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+				13 container
+					14 text Circuit INDY Demo
+					15 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+				16 container
+					17 text Site LIBRARY
+					18 combo box (collapsed, settable) Description: Site, Value: LIBRARY, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+				19 button Menu
+			20 container
+				21 content list
+					22 container
+						23 text Settings
+				24 text Favorites
+				25 content list
+					26 container
+						27 text Pages
+				28 content list
+					29 container
+						30 text Release Notes
+				31 content list
+					32 container
+						33 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				34 content list
+					35 container
+						36 text Developer
+				37 switch Description: Demo Mode, Value: 0
+					38 text Demo Mode
+			39 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+			40 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+			41 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+			42 content list
+				43 container
+					44 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+						45 text Pages
+						46 text Create or manage page content, for desktop and mobile websites and apps
+					47 container
+						48 text Pages
+						49 button
+						50 button
+						51 container
+							52 text field (settable) f_221c0f75-210c-48c4-a4dd-247cd8334fb7
+							53 button
+						54 button SET ORDER
+						55 button ADD FROM LIBRARY
+						56 button CREATE PAGE
+						57 table
+							58 row
+								59 cell
+									60 text ID
+								61 cell
+									62 text Title
+								63 cell
+									64 text Slug
+								65 cell
+									66 text Sections
+								67 cell
+									68 text Views
+								69 cell
+									70 text Visibility
+								71 cell
+									72 text Library
+								73 cell
+									74 text Actions
+							75 row
+								76 cell
+									77 text 4841
+								78 cell
+									79 text Cookie Policy
+								80 cell
+									81 text cookie-policy
+								82 cell
+									83 text 2
+								84 cell
+									85 button  Linked with Updates
+										86 text  Linked with Updates
+								87 cell
+									88 button
+									89 button
+									90 button
+									91 button EDIT
+									92 button
+							93 row
+								94 cell
+									95 text 4857
+								96 cell
+									97 text Contact Us
+								98 cell
+									99 text contact-us
+								100 cell
+									101 text 16
+								102 cell
+									103 button  Linked with Updates
+										104 text  Linked with Updates
+								105 cell
+									106 button
+									107 button EDIT
+									108 button
+							109 row
+								110 cell
+									111 text 4855
+								112 cell
+									113 text Watchlist
+								114 cell
+									115 text watchlist
+								116 cell
+									117 text 6
+								118 cell
+									119 button  Linked with Updates
+										120 text  Linked with Updates
+								121 cell
+									122 button
+									123 button EDIT
+									124 button
+							125 row
+								126 cell
+									127 text 4853
+								128 cell
+									129 text Gift Cards
+								130 cell
+									131 text gift-cards
+								132 cell
+									133 text 8
+								134 cell
+									135 button  Linked with Updates
+										136 text  Linked with Updates
+								137 cell
+									138 button
+									139 button EDIT
+									140 button
+							141 row
+								142 cell
+									143 text 4851
+								144 cell
+									145 text Pixar
+								146 cell
+									147 text pixar
+								148 cell
+									149 text 15
+								150 cell
+									151 button  Not Linked
+										152 text  Not Linked
+								153 cell
+									154 button
+									155 button EDIT
+									156 button
+							157 row
+								158 cell
+									159 text 4849
+								160 cell
+									161 text Explore Movie
+								162 cell
+									163 text explore-movie
+								164 cell
+									165 text 20
+								166 cell
+									167 button  Linked with Updates
+										168 text  Linked with Updates
+								169 cell
+									170 button
+									171 button EDIT
+									172 button
+							173 row
+								174 cell
+									175 text 4847
+								176 cell
+									177 text Valentines
+								178 cell
+									179 text valentines
+								180 cell
+									181 text 6
+								182 cell
+									183 button  Not Linked
+										184 text  Not Linked
+								185 cell
+									186 button
+									187 button EDIT
+									188 button
+							189 row
+								190 cell
+									191 text 4845
+								192 cell
+									193 text Section Headings & Backgrounds
+								194 cell
+									195 text section-headings--backgrounds
+								196 cell
+									197 text 24
+								198 cell
+									199 button  Not Linked
+										200 text  Not Linked
+								201 cell
+									202 button
+									203 button EDIT
+									204 button
+							205 row
+								206 cell
+									207 text 4843
+								208 cell
+									209 text Games
+								210 cell
+									211 text games
+								212 cell
+									213 text 21
+								214 cell
+									215 button  Linked with Updates
+										216 text  Linked with Updates
+								217 cell
+									218 button
+									219 button EDIT
+									220 button
+							221 row
+								222 cell
+									223 text 5971
+								224 cell
+									225 text variant-k-clubhouse_food
+								226 cell
+									227 text variant-k-clubhouse-food
+								228 cell
+									229 text 1
+								230 cell
+									231 button  Not Linked
+										232 text  Not Linked
+								233 cell
+									234 button
+									235 button EDIT
+										236 text EDIT
+									237 button
+						238 text Records per page:
+						239 container
+							240 text 10
+							241 combo box (collapsed, settable) 10, ID: f_a22c6020-a816-43b7-b3e5-88dcd09fe7b1, Secondary Actions: Expand
+						242 text 1-10  of 19
+						243 button
+						244 button
+		245 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		246 container Edit Page (5972) Unpublished Changes
+			247 container
+				248 button Close
+				249 button
+				250 button
+				251 container v-0-0-0-0-4-0-4-0-2-0-0-0-0-1-1-0-0-0-1-0
+					252 text Edit Page (5972)  Unpublished Changes
+				253 button Links
+					254 text Links
+				255 button
+				256 button
+				257 button (disabled) REVERT
+				258 button (disabled) SAVE
+				259 container
+					260 container
+						261 text Title
+						262 text field (settable) Description: Title, Value: variant-k-clubhouse_food, ID: f_2a103ebd-1145-4afe-951c-3d8c98fb6b44
+				263 container
+					264 container
+						265 text URL Slug
+						266 text field Description: URL Slug, Value: variant-k-clubhouse-food, ID: f_748e086b-469b-43f7-a18a-a5ce6c28a4e1
+				267 container
+					268 container
+						269 text Start Date
+						270 text field (settable) Description: Start Date, ID: f_bd82f99e-f454-4108-b0da-adec9c779137
+					271 button Open date picker
+				272 container
+					273 container
+						274 text End Date
+						275 text field (settable) Description: End Date, ID: f_7411cd40-4a7b-42ec-b10c-6aaa78d35c5b
+					276 button Open date picker
+				277 button VIEW PAGE
+				278 container
+					279 container
+						280 text Header Placement Override Same As Site
+				281 container
+					282 text Overrides the site’s header placement for this page. Only available when the header background is transparent (opacity is less than 1). Otherwise, page content starts below the header.
+				283 container
+					284 text Sections
+					285 button SET ORDER
+					286 button ADD SECTION
+					287 table
+						288 row
+							289 cell
+								290 text ID
+							291 cell
+								292 text Name
+							293 cell
+								294 text Type
+							295 cell
+								296 text Visibility
+							297 cell
+								298 text Actions
+						299 row
+							300 cell
+								301 text 25153
+							302 cell
+								303 text Food K - Clubhouse Kitchen
+							304 cell
+								305 text Concessions Menu
+							306 cell
+								307 button
+							308 cell
+								309 button EDIT
+									415 text EDIT
+								310 button
+				311 container
+					312 container
+						313 text Search Engine Title
+						314 text field (settable) Description: Search Engine Title, ID: f_617f8db9-200c-4262-83f1-a5d0b6e88599
+				315 container
+					316 container
+						317 text Search Engine Description
+						318 text entry area (settable) Description: Search Engine Description, ID: f_dd6d5b9c-f0b4-48b3-93bf-ed5dd3e7d198
+					319 text Used for search engine description. Truncated by search engines at ~160 characters.
+					320 text 0
+				321 switch Description: Visible to Search Engines, Value: 1
+					322 text Visible to Search Engines
+				323 container
+					324 container
+						325 text Custom Styles (CSS)
+						326 text entry area (settable) Description: Custom Styles (CSS), ID: f_8553a84d-b6c0-4517-a6be-77923f18ec1b
+				327 container
+					328 button (collapsed) Expand
+						329 text SEO Health Preview
+						330 text Needs Attention
+				331 container
+					332 text Preview
+					333 container
+						334 button DESKTOP WEB
+						335 button MOBILE WEB
+						336 button APP
+					337 container
+						338 heading Good company. Good things to share., Value: 2
+							339 text Good company. Good things to share.
+						340 text Explore the kitchen and bar before you settle in.
+						341 container
+							342 button Snacks
+								343 text Snacks
+							344 button Burgers & Sandwiches
+								345 text Burgers & Sandwiches
+							346 button Pizza
+								347 text Pizza
+							348 button Desserts
+								349 text Desserts
+							350 button Beer
+								351 text Beer
+							352 button Cocktail
+								353 text Cocktail
+							354 button Merchandise
+								355 text Merchandise
+						356 text Snacks
+						357 container
+							358 text No Country for Old Nachos House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't. $ 14 . 00
+						359 container
+							360 text Marquee Popcorn Fresh-popped, hot-buttered. Small, large, or bottomless. Starting at $ 7 . 00
+						361 container
+							362 text The Pretzel Identity Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package. $ 11 . 00
+						363 text Burgers & Sandwiches
+						364 container
+							365 text Pulp Fixin's Half-pound dry-aged beef patty, aged white cheddar, caramelized onion, dijonnaise, brioche bun. A royale with cheese, done the way you remember it being done. $ 19 . 00
+						366 container
+							367 text The Goodfella Buttermilk-brined fried chicken, hot honey, house pickles, smoked aioli, brioche bun. A made guy of a sandwich. Crispy, sweet, and a little dangerous. $ 17 . 00
+						368 container
+							369 text Reservoir Hog Thick-cut applewood bacon, heirloom tomato, butter lettuce, garlic aioli, toasted sourdough. A BLT that takes itself seriously. No nicknames at the table. $ 17 . 00
+						370 container
+							371 text The Big Cheese Aged cheddar, gruyère, brie, fig jam, caramelized onion, sourdough griddled in brown butter. Hot, gooey, and well aware of its own importance. $ 16 . 00
+						372 container
+							373 text The Portobello Identity Roasted portobello, whipped goat cheese, arugula, balsamic onions, sun-dried tomato pesto, ciabatta. Earthy, savory, and surprisingly capable. You'll forget it's not a burger. $ 17 . 00
+						374 container
+							375 text There Will Be Franks All-beef quarter-pound dog, beer-braised onions, stone-ground mustard, dill relish, poppyseed bun. Loud, rich, and a little theatrical. Drink it up. $ 14 . 00
+						376 text Pizza
+						377 container
+							378 text Cinema Paradiso San Marzano tomato, fresh mozzarella, basil, extra virgin olive oil, sea salt. The classic. The one you watch over and over. $ 16 . 00
+						379 container
+							380 text The Wizard of Ods & Ends Roasted seasonal vegetables, caramelized onion, goat cheese, basil pesto, balsamic glaze, mozzarella. There's no place like the garden. $ 16 . 00
+						381 container
+							382 text Hot Wing It Buffalo-glazed grilled chicken, blue cheese crumbles, mozzarella, ranch drizzle, scallion, celery leaf. A pizza that earns its name. $ 17 . 00
+						383 container
+							384 text The Godfather Aged pepperoni, hot honey, fresh mozzarella, San Marzano tomato, calabrian chili oil. An offer you can't refuse. $ 17 . 00
+						385 text Desserts
+						386 container
+							387 text The Cheesecake Redemption New York-style cheesecake, graham cracker crust, seasonal berry compote, lemon zest. Twenty years from now, you'll still remember it. $ 9 . 00
+						388 container
+							389 text Movie Candy Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic. $ 5 . 00
+						390 container
+							391 text Sundae, Bloody Sundae Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore. $ 10 . 00
+						392 container
+							393 text Pie Hard Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers. $ 10 . 00
+						394 text Beer
+						395 container
+							396 text Loveblock Sauvignon Blanc Bright, zesty, and herbaceous. Notes of grapefruit, green apple, and freshly cut grass. A clean opener that pairs beautifully with the flatbreads, lighter shareables, and anything with citrus. Starting at $ 14 . 00
+						397 container
+							398 text Sonoma-Cutrer Chardonnay Lightly oaked with notes of pear, lemon curd, and toasted vanilla. Rich without being heavy. Pairs especially well with the burger, the grilled cheese, and the cheesecake. Starting at $ 16 . 00
+						399 container
+							400 text Étude Lyric Pinot Noir Polished and refined, with notes of black cherry, ripe plum, dried herbs, and a whisper of cedar. Silky tannins and bright acidity carry through a long, quiet finish. The kind of pinot that rewards a slower second pour. Pairs beautifully with the burger, the flatbreads, and anything off the grill. Starting at $ 16 . 00
+						401 container
+							402 text Daou Cabernet Sauvignon Rich and full-bodied, with notes of blackberry, dark chocolate, cedar, and warm spice. Built for the burger, the pepperoni pizza, and anything off the grill. The list's confident pour. Starting at $ 16 . 00
+						403 text Cocktail
+						404 container
+							405 text Citizen Cane Rye whiskey, demerara, aromatic and orange bitters, expressed orange peel. A classic old fashioned, served the way it was meant to be. $ 17 . 00
+						406 container
+							407 text The Grand Budapest Gin, elderflower, lemon, prosecco, edible rose petal. Light, floral, and unapologetically pretty. $ 17 . 00
+						408 container
+							409 text Mulholland Drive Mezcal, blood orange, Aperol, lime, tajín rim. Bright on the surface, smoky underneath. $ 18 . 00
+						410 container
+							411 text Vertigo Vodka, espresso, vanilla liqueur, cold brew, cocoa dust. A spinning, caffeinated nightcap. Built to keep you awake through the third act. $ 16 . 00
+						412 text Merchandise
+						413 container
+							414 text Beacon T-Shirt A vintage-washed black tee featuring the Beacon Reserve logo mark on the front chest and a full back graphic inspired by classic cinema, late-night drinks, and the glow of the screen. Soft, relaxed, and easy to wear before the show, after the show, or anywhere the night takes you. $ 21 . 95
+		416 container Edit Section (25153)
+			417 container
+				418 container
+					419 button Close
+					420 text 1 of 1
+					421 text Edit Section (25153)
+					422 button Links
+						423 text Links
+					424 button
+					425 button
+					426 button (disabled) REVERT
+					427 button (disabled) SAVE
+					428 container
+						429 container
+							430 text Type Concessions Menu
+							431 combo box (collapsed, settable) Description: Type, Value: Concessions Menu, ID: f_ce8c05ed-5f6c-4ed6-8ed0-afb513b4da05, Secondary Actions: Expand
+					432 container
+						433 container
+							434 text Name
+							435 text field (settable) Description: Name, Value: Food K - Clubhouse Kitchen, ID: f_dbe73c60-c8dd-409a-90ff-e1dfb3c248cb
+					436 button
+					437 text Heading Editor
+					438 switch Description: Show Heading, Value: 1
+						439 text Show Heading
+					440 container
+						441 container
+							442 text Heading
+							443 text field (settable) Description: Heading, Value: Good company. Good things to share., ID: f_e88cf470-a0f7-4a23-8509-1b8aa742cb54
+					444 container
+						445 container
+							446 text Font Size H 2
+							447 combo box (collapsed, settable) Description: Font Size, Value: H 2, ID: f_605baa40-200f-4f85-9c7a-a90d37059cf0, Secondary Actions: Expand
+					448 container
+						449 container
+							450 text Fonts Default
+							451 combo box (collapsed, settable) Description: Fonts, Value: Default, ID: f_d931a9a6-3dd9-4654-88e4-d97f4ceacfb6, Secondary Actions: Expand
+					452 container
+						453 container
+							454 text Text Align Center
+							455 combo box (collapsed, settable) Description: Text Align, Value: Center, ID: f_bc9ea223-b5cb-4407-99e1-1904b12d86e0, Secondary Actions: Expand
+					456 container
+						457 text Color
+						458 text Primary
+						459 combo box (collapsed, settable) Description: Color, Value: Primary, ID: f_f7b944a4-fffa-475d-8635-43af63d8bdc0, Secondary Actions: Expand
+						460 button Clear
+					461 button Preview PRIMARY
+						462 text Preview
+						463 text PRIMARY
+					464 container
+						465 container
+							466 text Style Default
+							467 combo box (collapsed, settable) Description: Style, Value: Default, ID: f_360c4d88-655b-4796-b2cb-6e9a2cd8ea48, Secondary Actions: Expand
+					468 text Description Editor
+					469 text Description
+					470 container
+						471 button Left align
+						472 button Center align
+						473 button Right align
+						474 button Justify align
+					475 container
+						476 button Bold
+						477 button Italic
+						478 button Underline
+						479 button Strikethrough
+					480 container
+						481 link (disabled) Hyperlink
+						482 button Quote
+						483 button Unordered List
+						484 button Ordered List
+					485 container Explore the kitchen and bar before you settle in.
+						486 text Explore the kitchen and bar before you settle in.
+					487 text Categories and items Visibility
+					488 container
+						489 container
+							490 text Sales Channel Visibility Website
+							491 combo box (collapsed, settable) Description: Sales Channel Visibility, Value: Website, ID: f_bad5c997-e650-402c-9473-06f91366f85c, Secondary Actions: Expand
+					492 container
+						493 container
+							494 text Categories Visibility Override
+							495 combo box (collapsed, settable) Description: Categories Visibility Override, ID: f_1218928b-af71-4cdb-aa51-3c69c44a52c5, Secondary Actions: Expand
+					496 text User Controls
+					497 switch Description: Show Category Filters, Value: 1
+						498 text Show Category Filters
+					499 container
+						500 container
+							501 text Category Filters Position Left
+							502 combo box (collapsed, settable) Description: Category Filters Position, Value: Left, ID: f_0ea11a71-55c8-468a-92c6-b194fdcf0476, Secondary Actions: Expand
+					503 text Layout
+					504 container
+						505 container
+							506 text Display Mode Block
+							507 combo box (collapsed, settable) Description: Display Mode, Value: Block, ID: f_1c66676c-9ea5-4653-a251-3933eaa5bcb5, Secondary Actions: Expand
+					508 container
+						509 container
+							510 text View Mode Grid
+							511 combo box (collapsed, settable) Description: View Mode, Value: Grid, ID: f_6c9dd7a8-fc34-4090-84d9-2ae66026ee5d, Secondary Actions: Expand
+					512 text Items Per Row
+					513 slider 3
+					514 text Items Per Row in Mobile
+					515 slider 1
+					516 text Spacing
+					517 slider 12
+					518 text Divider
+					519 switch Description: Show Category Divider, Value: 1
+						520 text Show Category Divider
+					521 switch Description: Show Category Name, Value: 1
+						522 text Show Category Name
+					523 container
+						524 container
+							525 text Category Name Font Size
+							526 stepper (settable, integer) Description: Category Name Font Size, Value: 24, ID: f_3943b5bd-8503-4e2e-879d-24eee6759718
+							527 text px
+					528 container
+						529 container
+							530 text Category Name Alignment Left
+							531 combo box (collapsed, settable) Description: Category Name Alignment, Value: Left, ID: f_74239954-3bb2-4b34-abef-e45ff935c4b4, Secondary Actions: Expand
+					532 container
+						533 container
+							534 text Style Default
+							535 combo box (collapsed, settable) Description: Style, Value: Default, ID: f_9c7e506b-82cd-4875-b3ae-c231c45c4978, Secondary Actions: Expand
+					536 container
+						537 text Color
+						538 text Primary
+						539 combo box (collapsed, settable) Description: Color, Value: Primary, ID: f_fdfdf7f4-ee90-40bf-96d4-d82b319f051e, Secondary Actions: Expand
+						540 button Clear
+					541 button Preview PRIMARY
+						542 text Preview
+						543 text PRIMARY
+					544 text Items Visibility
+					545 switch Description: Show Image, Value: 1
+						546 text Show Image
+					547 switch Description: Show Description, Value: 1
+						548 text Show Description
+					549 switch Description: Show Price, Value: 1
+						550 text Show Price
+					551 text Items Styles
+					552 container
+						553 container
+							554 text Item Card Theme Frame
+							555 combo box (collapsed, settable) Description: Item Card Theme, Value: Frame, ID: f_6eecf616-5aaa-444a-9cca-8175e5edf155, Secondary Actions: Expand
+					556 container
+						557 text Item Background Color
+						558 text Default
+						559 combo box (collapsed, settable) Description: Item Background Color, Value: Default, ID: f_68cb2820-acaa-4402-942e-d186e5825fc0, Secondary Actions: Expand
+						560 button Clear
+					561 button Preview DEFAULT
+						562 text Preview
+						563 text DEFAULT
+					564 text Item Border Radius
+					565 slider 8
+					566 text Item Shadow
+					567 slider 0
+					568 text Text Styles
+					569 container
+						570 container
+							571 text Title Font Size
+							572 stepper (settable, integer) Description: Title Font Size, Value: 20, ID: f_61c25f48-7dad-4bed-856a-8cb2965a0b5f
+							573 text px
+					574 container
+						575 container
+							576 text Description Font Size
+							577 stepper (settable, integer) Description: Description Font Size, Value: 16, ID: f_8ee2f5c6-2db9-4194-baa6-71b21d78b3f9
+							578 text px
+					579 container
+						580 container
+							581 text Price Font Size
+							582 stepper (settable, integer) Description: Price Font Size, Value: 16, ID: f_8baea437-59f9-4206-89e0-3d00014a35cc
+							583 text px
+					584 container
+						585 text Preview
+						586 container
+							587 button DESKTOP WEB
+							588 button MOBILE WEB
+						589 text 4:30
+						590 container
+							591 text Speaker Camera
+						592 container
+							593 heading Good company. Good things to share., Value: 2
+								594 text Good company. Good things to share.
+							595 text Explore the kitchen and bar before you settle in.
+							596 container
+								597 button Snacks
+									611 text Snacks
+								598 button Burgers & Sandwiches
+									612 text Burgers & Sandwiches
+								599 button Pizza
+									613 text Pizza
+								600 button Desserts
+									614 text Desserts
+								601 button Beer
+									615 text Beer
+								602 button Cocktail
+									616 text Cocktail
+								603 button Merchandise
+									617 text Merchandise
+							604 text Snacks
+							618 container
+								619 text No Country for Old Nachos House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't. $ 14 . 00
+							620 container
+								621 text Marquee Popcorn Fresh-popped, hot-buttered. Small, large, or bottomless. Starting at $ 7 . 00
+							622 container
+								623 text The Pretzel Identity Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package. $ 11 . 00
+							605 text Burgers & Sandwiches
+							624 container
+								625 text Pulp Fixin's Half-pound dry-aged beef patty, aged white cheddar, caramelized onion, dijonnaise, brioche bun. A royale with cheese, done the way you remember it being done. $ 19 . 00
+							626 container
+								627 text The Goodfella Buttermilk-brined fried chicken, hot honey, house pickles, smoked aioli, brioche bun. A made guy of a sandwich. Crispy, sweet, and a little dangerous. $ 17 . 00
+							628 container
+								629 text Reservoir Hog Thick-cut applewood bacon, heirloom tomato, butter lettuce, garlic aioli, toasted sourdough. A BLT that takes itself seriously. No nicknames at the table. $ 17 . 00
+							630 container
+								631 text The Big Cheese Aged cheddar, gruyère, brie, fig jam, caramelized onion, sourdough griddled in brown butter. Hot, gooey, and well aware of its own importance. $ 16 . 00
+							632 container
+								633 text The Portobello Identity Roasted portobello, whipped goat cheese, arugula, balsamic onions, sun-dried tomato pesto, ciabatta. Earthy, savory, and surprisingly capable. You'll forget it's not a burger. $ 17 . 00
+							634 container
+								635 text There Will Be Franks All-beef quarter-pound dog, beer-braised onions, stone-ground mustard, dill relish, poppyseed bun. Loud, rich, and a little theatrical. Drink it up. $ 14 . 00
+							606 text Pizza
+							636 container
+								637 text Cinema Paradiso San Marzano tomato, fresh mozzarella, basil, extra virgin olive oil, sea salt. The classic. The one you watch over and over. $ 16 . 00
+							638 container
+								639 text The Wizard of Ods & Ends Roasted seasonal vegetables, caramelized onion, goat cheese, basil pesto, balsamic glaze, mozzarella. There's no place like the garden. $ 16 . 00
+							640 container
+								641 text Hot Wing It Buffalo-glazed grilled chicken, blue cheese crumbles, mozzarella, ranch drizzle, scallion, celery leaf. A pizza that earns its name. $ 17 . 00
+							642 container
+								643 text The Godfather Aged pepperoni, hot honey, fresh mozzarella, San Marzano tomato, calabrian chili oil. An offer you can't refuse. $ 17 . 00
+							607 text Desserts
+							644 container
+								645 text The Cheesecake Redemption New York-style cheesecake, graham cracker crust, seasonal berry compote, lemon zest. Twenty years from now, you'll still remember it. $ 9 . 00
+							646 container
+								647 text Movie Candy Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic. $ 5 . 00
+							648 container
+								649 text Sundae, Bloody Sundae Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore. $ 10 . 00
+							650 container
+								651 text Pie Hard Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers. $ 10 . 00
+							608 text Beer
+							652 container
+								653 text Loveblock Sauvignon Blanc Bright, zesty, and herbaceous. Notes of grapefruit, green apple, and freshly cut grass. A clean opener that pairs beautifully with the flatbreads, lighter shareables, and anything with citrus. Starting at $ 14 . 00
+							654 container
+								655 text Sonoma-Cutrer Chardonnay Lightly oaked with notes of pear, lemon curd, and toasted vanilla. Rich without being heavy. Pairs especially well with the burger, the grilled cheese, and the cheesecake. Starting at $ 16 . 00
+							656 container
+								657 text Étude Lyric Pinot Noir Polished and refined, with notes of black cherry, ripe plum, dried herbs, and a whisper of cedar. Silky tannins and bright acidity carry through a long, quiet finish. The kind of pinot that rewards a slower second pour. Pairs beautifully with the burger, the flatbreads, and anything off the grill. Starting at $ 16 . 00
+							658 container
+								659 text Daou Cabernet Sauvignon Rich and full-bodied, with notes of blackberry, dark chocolate, cedar, and warm spice. Built for the burger, the pepperoni pizza, and anything off the grill. The list's confident pour. Starting at $ 16 . 00
+							609 text Cocktail
+							660 container
+								661 text Citizen Cane Rye whiskey, demerara, aromatic and orange bitters, expressed orange peel. A classic old fashioned, served the way it was meant to be. $ 17 . 00
+							662 container
+								663 text The Grand Budapest Gin, elderflower, lemon, prosecco, edible rose petal. Light, floral, and unapologetically pretty. $ 17 . 00
+							664 container
+								665 text Mulholland Drive Mezcal, blood orange, Aperol, lime, tajín rim. Bright on the surface, smoky underneath. $ 18 . 00
+							666 container
+								667 text Vertigo Vodka, espresso, vanilla liqueur, cold brew, cocoa dust. A spinning, caffeinated nightcap. Built to keep you awake through the third act. $ 16 . 00
+							610 text Merchandise
+							668 container
+								669 text Beacon T-Shirt A vintage-washed black tee featuring the Beacon Reserve logo mark on the front chest and a full back graphic inspired by classic cinema, late-night drinks, and the glow of the screen. Soft, relaxed, and easy to wear before the show, after the show, or anywhere the night takes you. $ 21 . 95
+
+The focused UI element is 417 container

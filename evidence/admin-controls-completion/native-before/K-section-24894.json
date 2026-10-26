@@ -1,0 +1,61 @@
+{
+  "letter": "K",
+  "id": "24894",
+  "name": "Membership K - Your Place In The Clubhouse",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\nPrimary\ncancel\narrow_drop_down",
+      "value": "Primary"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-k-membership"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-k-membership{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f8ead7;color:#44251e;font-family:Georgia,serif;} &.fdp-k-membership h2{color:#44251e;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-k-membership h3{color:#44251e;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-k-membership p{color:#44251e;line-height:1.7;} &.fdp-k-membership .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-k-membership .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-k-membership .fdp-card{padding:clamp(22px,3vw,40px);background:#fff8e9;border:1px solid #d9af8e;} &.fdp-k-membership .fdp-card p{margin-bottom:0;} &.fdp-k-membership .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-k-membership .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:#923b2c;color:#fffaf1;font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-k-membership .fdp-action:focus-visible{outline:3px solid #44251e;outline-offset:4px;} &.fdp-k-membership .fdp-action:hover{text-decoration:underline;} &.fdp-k-membership .fdp-actions{margin:28px 0 0;} &.fdp-k-membership .fdp-number{display:block;color:#923b2c;font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-k-membership .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-k-membership .fdp-list li{padding:16px 0;border-bottom:1px solid #d9af8e;line-height:1.6;} @container(max-width:720px){&.fdp-k-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-k-membership .fdp-card{padding:24px;} &.fdp-k-membership .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-k-membership .fdp-club{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:center;}&.fdp-k-membership .fdp-club-note{padding:12px 0;}&.fdp-k-membership .fdp-club-card{padding:clamp(28px,4vw,48px);background:#fff8e9;border:1px solid #d9af8e;border-radius:28px 28px 6px 6px;box-shadow:10px 10px 0 #df9d78;}&.fdp-k-membership .fdp-club-card>.fdp-kicker{color:#923b2c;}&.fdp-k-membership .fdp-club-card h3{font-size:clamp(30px,3vw,42px);}&.fdp-k-membership .fdp-list li:last-child{border-bottom:0;}@container(max-width:720px){&.fdp-k-membership .fdp-club{grid-template-columns:1fr;}&.fdp-k-membership .fdp-club-card{box-shadow:6px 6px 0 #df9d78;}}\n/* Keep content within the section on narrow screens */\n&.fdp-k-membership,&.fdp-k-membership *{box-sizing:border-box;}&.fdp-k-membership .fdp-content,&.fdp-k-membership .fdp-content>*,&.fdp-k-membership .fdp-content article,&.fdp-k-membership .fdp-content aside{min-width:0;}&.fdp-k-membership p,&.fdp-k-membership li,&.fdp-k-membership a{overflow-wrap:break-word;}\n&.fdp-k-membership {container-type:inline-size;background:#f8ead7 !important;color:#44251e !important;}\n&.fdp-k-membership :is(.text-h1,.text-h2,.text-h3,.text-h4){color:#44251e !important;}\n&.fdp-k-membership .text-body1{color:#44251e !important;}\n@container(max-width:720px){&.fdp-k-membership h2 {font-size:32px;line-height:1.15;}}"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "Showcase": {
+    "Primary": "#A37721",
+    "Secondary": "#E4C873",
+    "Header": "#191B25",
+    "Accent": "#D8AB4F",
+    "Dark": "#1E2630",
+    "Background": "#F8F4E8"
+  },
+  "Reel": {
+    "Primary": "#8E344A",
+    "Secondary": "#DFB2BA",
+    "Header": "#34202C",
+    "Accent": "#BD8055",
+    "Dark": "#30232A",
+    "Background": "#FAF4EF"
+  },
+  "Neon": {
+    "Primary": "#087F82",
+    "Secondary": "#71DBCC",
+    "Header": "#092D34",
+    "Accent": "#CEEF68",
+    "Dark": "#102E33",
+    "Background": "#F0FAF7"
+  },
+  "Cameo": {
+    "Primary": "#B84F3A",
+    "Secondary": "#F2B7A0",
+    "Header": "#432A36",
+    "Accent": "#DA8F48",
+    "Dark": "#3D2531",
+    "Background": "#FFF4EB"
+  },
+  "Metropolis": {
+    "Primary": "#235D98",
+    "Secondary": "#B0CDE9",
+    "Header": "#102E4C",
+    "Accent": "#D9AC54",
+    "Dark": "#152F4A",
+    "Background": "#F1F5FA"
+  },
+  "Encore": {
+    "Primary": "#55565C",
+    "Secondary": "#D0C9BA",
+    "Header": "#202126",
+    "Accent": "#B9A576",
+    "Dark": "#27282E",
+    "Background": "#F5F2E9"
+  },
+  "Splice": {
+    "Primary": "#704CB0",
+    "Secondary": "#D4B7EF",
+    "Header": "#28203D",
+    "Accent": "#D6A5CF",
+    "Dark": "#302240",
+    "Background": "#F7F1FB"
+  },
+  "Prologue": {
+    "Primary": "#35674C",
+    "Secondary": "#BCCFAD",
+    "Header": "#1E342A",
+    "Accent": "#C0A066",
+    "Dark": "#263D30",
+    "Background": "#F6F4E9"
+  },
+  "Pause": {
+    "Primary": "#526D7A",
+    "Secondary": "#CCD8DB",
+    "Header": "#253740",
+    "Accent": "#A7B9B3",
+    "Dark": "#2E4149",
+    "Background": "#F2F6F6"
+  }
+}

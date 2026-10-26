@@ -1,0 +1,250 @@
+{
+  "schema": "fd-independent-acceptance-palette-metrics/v1",
+  "status": "local-arithmetic-only-no-native-save-or-palette-change-inferred",
+  "measurements": [
+    {
+      "palette": {
+        "primary": "#e06b4a",
+        "secondary": "#c4553a",
+        "dark": "#38264a",
+        "background": "#fbefe2"
+      },
+      "pairs": [
+        {
+          "pair": "Background/Dark and opaque media captions",
+          "ratio": 12.01,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Primary16% tint/Dark",
+          "ratio": 10.24,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary14% tint/Dark",
+          "ratio": 10.13,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary20% tint/Dark",
+          "ratio": 9.4,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Dark10% tint/Dark",
+          "ratio": 10.02,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted dark85%/Background",
+          "ratio": 7.76,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted Background85%/Dark",
+          "ratio": 9.11,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Background/Primary12% Dark surface",
+          "ratio": 10.29,
+          "normalTextPass": true
+        }
+      ],
+      "pass": true,
+      "scope": "Exact sRGB recipes in this module, not all original Oklab-derived roles or rendered native states.",
+      "name": "approved-current",
+      "otherMeasuredRecipes": [
+        {
+          "pair": "Storybook Dark copy at78% opacity / Background",
+          "ratio": 6.27
+        },
+        {
+          "pair": "Ma Dark copy at68% opacity / Background",
+          "ratio": 4.67
+        },
+        {
+          "pair": "Shared footer Background80% / Dark",
+          "ratio": 8.25
+        },
+        {
+          "pair": "Original solid Primary / Background (excluded for normal copy)",
+          "ratio": 2.91
+        },
+        {
+          "pair": "Original solid Secondary / Dark (excluded for normal copy)",
+          "ratio": 3.05
+        }
+      ],
+      "oddActualScrapRecipes": {
+        "recipe": "Native D --v-scrap: Secondary60% + Background40%, mixed in Oklab",
+        "computedApproxHex": "#DE947D",
+        "DarkCopyRatio": 5.59,
+        "Dark85PercentMutedCopyRatio": 3.61
+      }
+    },
+    {
+      "palette": {
+        "primary": "#1765a8",
+        "secondary": "#e0a800",
+        "dark": "#151f2e",
+        "background": "#f7fafc"
+      },
+      "pairs": [
+        {
+          "pair": "Background/Dark and opaque media captions",
+          "ratio": 15.81,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Primary16% tint/Dark",
+          "ratio": 12.56,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary14% tint/Dark",
+          "ratio": 14.3,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary20% tint/Dark",
+          "ratio": 13.7,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Dark10% tint/Dark",
+          "ratio": 12.98,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted dark85%/Background",
+          "ratio": 10.02,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted Background85%/Dark",
+          "ratio": 11.69,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Background/Primary12% Dark surface",
+          "ratio": 14.37,
+          "normalTextPass": true
+        }
+      ],
+      "pass": true,
+      "scope": "Exact sRGB recipes in this module, not all original Oklab-derived roles or rendered native states.",
+      "name": "shared-theme-independent-sample",
+      "otherMeasuredRecipes": [
+        {
+          "pair": "Storybook Dark copy at78% opacity / Background",
+          "ratio": 7.88
+        },
+        {
+          "pair": "Ma Dark copy at68% opacity / Background",
+          "ratio": 5.62
+        },
+        {
+          "pair": "Shared footer Background80% / Dark",
+          "ratio": 10.49
+        },
+        {
+          "pair": "Original solid Primary / Background (excluded for normal copy)",
+          "ratio": 5.78
+        },
+        {
+          "pair": "Original solid Secondary / Dark (excluded for normal copy)",
+          "ratio": 7.71
+        }
+      ],
+      "oddActualScrapRecipes": {
+        "recipe": "Native D --v-scrap: Secondary60% + Background40%, mixed in Oklab",
+        "computedApproxHex": "#EACA87",
+        "DarkCopyRatio": 10.49,
+        "Dark85PercentMutedCopyRatio": 6.65
+      }
+    },
+    {
+      "palette": {
+        "primary": "#176B9D",
+        "secondary": "#F2CA52",
+        "dark": "#122C43",
+        "background": "#F7FAFC"
+      },
+      "pairs": [
+        {
+          "pair": "Background/Dark and opaque media captions",
+          "ratio": 13.66,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Primary16% tint/Dark",
+          "ratio": 10.9,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary14% tint/Dark",
+          "ratio": 12.89,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary20% tint/Dark",
+          "ratio": 12.57,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Dark10% tint/Dark",
+          "ratio": 11.32,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted dark85%/Background",
+          "ratio": 8.65,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted Background85%/Dark",
+          "ratio": 10.25,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Background/Primary12% Dark surface",
+          "ratio": 12.37,
+          "normalTextPass": true
+        }
+      ],
+      "pass": true,
+      "scope": "Exact sRGB recipes in this module, not all original Oklab-derived roles or rendered native states.",
+      "name": "root-native-test-candidate",
+      "otherMeasuredRecipes": [
+        {
+          "pair": "Storybook Dark copy at78% opacity / Background",
+          "ratio": 6.9
+        },
+        {
+          "pair": "Ma Dark copy at68% opacity / Background",
+          "ratio": 5.04
+        },
+        {
+          "pair": "Shared footer Background80% / Dark",
+          "ratio": 9.25
+        },
+        {
+          "pair": "Original solid Primary / Background (excluded for normal copy)",
+          "ratio": 5.52
+        },
+        {
+          "pair": "Original solid Secondary / Dark (excluded for normal copy)",
+          "ratio": 9.1
+        }
+      ],
+      "oddActualScrapRecipes": {
+        "recipe": "Native D --v-scrap: Secondary60% + Background40%, mixed in Oklab",
+        "computedApproxHex": "#F4DE9F",
+        "DarkCopyRatio": 10.79,
+        "Dark85PercentMutedCopyRatio": 6.83
+      }
+    }
+  ],
+  "interpretation": "Compare actual computed sRGB/Oklab values and measured backgrounds in browser. Native UI evidence governs installation and second-palette status. Translucent image treatments and group opacity require manual verification."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 48,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 1.28px 2.56px",
+        "text": "Ghost In The Shell 30th Anniversary",
+        "width": 984
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(238, 238, 238)",
+        "height": 0,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.8px 1.6px",
+        "text": "",
+        "width": 984
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-a---showtimes-shelf-23736 q-px-xs section-hero-a---showtimes-shelf-23736 zoom",
+        "height": 571.6625366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-hero-a---shelf-23737 q-px-xs section-hero-a---shelf-23737 zoom",
+        "height": 576,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-now-playing-a---departure-board-23752 q-px-xs section-now-playing-a---departure-board-23752 zoom",
+        "height": 381.6000061035156,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-a---rate-card-23725 q-px-xs section-events-a---rate-card-23725 zoom",
+        "height": 534.5499877929688,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-a---chip-rail-23730 q-px-xs section-food-a---chip-rail-23730 zoom",
+        "height": 1244.75,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-a---compressed-column-23746 q-px-xs section-contact-a---compressed-column-23746 zoom",
+        "height": 542.7250366210938,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-find-us-a---map-strip-23776 q-px-xs section-find-us-a---map-strip-23776 zoom",
+        "height": 619.6124877929688,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-membership-a---tier-rail-23764 q-px-xs section-membership-a---tier-rail-23764 zoom",
+        "height": 954.7000122070312,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 36,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.96px 1.92px",
+        "text": "Ghost In The Shell 30th Anniversary",
+        "width": 980
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(238, 238, 238)",
+        "height": 0,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.64px 1.28px",
+        "text": "",
+        "width": 980
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-a---showtimes-shelf-23736 q-px-xs section-hero-a---showtimes-shelf-23736",
+        "height": 569.4125366210938,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-hero-a---shelf-23737 q-px-xs section-hero-a---shelf-23737",
+        "height": 576,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-now-playing-a---departure-board-23752 q-px-xs section-now-playing-a---departure-board-23752",
+        "height": 235.6000061035156,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-events-a---rate-card-23725 q-px-xs section-events-a---rate-card-23725",
+        "height": 534.5499877929688,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-food-a---chip-rail-23730 q-px-xs section-food-a---chip-rail-23730",
+        "height": 2709.237548828125,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-a---compressed-column-23746 q-px-xs section-contact-a---compressed-column-23746",
+        "height": 518.7250366210938,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-find-us-a---map-strip-23776 q-px-xs section-find-us-a---map-strip-23776",
+        "height": 640.6124877929688,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-membership-a---tier-rail-23764 q-px-xs section-membership-a---tier-rail-23764",
+        "height": 954.7000122070312,
+        "primary": "#027be3",
+        "width": 1020
+      }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "status": "applied-ma-f-only",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2",
+    "siteId": 170
+  },
+  "iPage": {
+    "publishedPageId": 5911,
+    "editablePageId": 5912,
+    "editableHeroSectionId": 24876,
+    "sourceFile": "C:\\Users\\mxz\\OneDrive\\Documents\\ChatGPT\\INDY\\evidence\\admin-controls-audit\\i-page-css-before.css",
+    "sourceSha256": "318e9f01ef089c233c22457d223e3716f735a4f53091ab3e12515d5c11342bf8",
+    "changes": [
+      {
+        "sourceLine": 34,
+        "before": "[class*=\"section-hero-i---one-still-one-line-\"] .flex.absolute-bottom { position: static !important; inset: auto !important; transform: none !important; width: auto !important; min-height: 420px !important; padding: 0 42px 0 0 !important; background: transparent !important; color: var(--ma-ink) !important; order: -1; }",
+        "after": "[class*=\"section-hero-i---one-still-one-line-\"] .flex.absolute-bottom { position: static !important; inset: auto !important; transform: none !important; width: auto !important; min-height: 420px !important; padding: 0 42px 0 0 !important; background: transparent !important; order: -1; }"
+      },
+      {
+        "sourceLine": 36,
+        "before": "[class*=\"section-hero-i---one-still-one-line-\"] .title { margin: 0 !important; font-family: var(--ma-display) !important; font-size: 34px !important; line-height: 1.15 !important; font-weight: 400 !important; letter-spacing: .08em !important; color: var(--ma-ink) !important; text-shadow: none !important; writing-mode: vertical-rl; border-left: 1px solid var(--ma-hairline); padding-left: 20px; }",
+        "after": "[class*=\"section-hero-i---one-still-one-line-\"] .title { margin: 0 !important; font-family: var(--ma-display) !important; font-size: 34px !important; line-height: 1.15 !important; font-weight: 400 !important; letter-spacing: .08em !important; writing-mode: vertical-rl; border-left: 1px solid var(--ma-hairline); padding-left: 20px; }"
+      },
+      {
+        "sourceLine": 37,
+        "before": "[class*=\"section-hero-i---one-still-one-line-\"] .subtitle { position: absolute; left: 15vw; bottom: 96px; margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; letter-spacing: .12em !important; color: var(--ma-ink) !important; text-shadow: none !important; }",
+        "after": "[class*=\"section-hero-i---one-still-one-line-\"] .subtitle { position: absolute; left: 15vw; bottom: 96px; margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; letter-spacing: .12em !important; }"
+      }
+    ],
+    "newRules": "Native .text-white title/subtitle backgrounds and shadows; desktop image row positioned relative, message positioned static, subtitle anchored 24px inside the image row with width:auto and max-width:calc(100% - 48px).",
+    "nativeSettingRequired": "Completed: native Light Text enabled on editable hero section 24876.",
+    "verifiedRoles": {
+      "titleLightOff": "title q-my-sm text-weight-bold text-primary hero-title",
+      "subtitleLightOff": "subtitle q-my-sm full-width text-weight-bold hero-subtitle"
+    },
+    "draftFinding": "The first draft subtitle max-width used a percentage against a roughly 59.9px positioned message box and collapsed to zero. The native message also placed its absolute caption beyond the image frame. The revised desktop adapter explicitly uses the 760px image row as containing block.",
+    "verificationStatus": "Saved, published on page 5911 and verified on desktop and 390px mobile. Native white captions, backdrops and shadows are visible; desktop subtitle is inside the image frame; both mobile captions are 327px wide with no measured horizontal overflow. Root verified the editable row has no pending publication icon.",
+    "nativeSettingStatus": "saved-and-published",
+    "publishedSectionId": 24872,
+    "mobileRolesAdded": [
+      "mobile-hero-title",
+      "mobile-hero-subtitle"
+    ],
+    "finalSavedCssEvidence": "evidence/component-controls-repairs/i-page-css-final-saved.css",
+    "finalSavedCssSha256": "b4d5ac144304087ba638f93cc5b96636596fc094d2387bbac51b8ed5ec980aa3",
+    "savedCssMatchesAppliedSourceAfterTrim": true
+  },
+  "site": {
+    "sourceFile": "C:\\Users\\mxz\\OneDrive\\Documents\\ChatGPT\\INDY\\evidence\\admin-controls-audit\\site-theme-before.css",
+    "sourceSha256": "ee2f19bbd2f8bfc9f60cc9eacd6bd6d8fa9c9299181c0509ef8b052e92b8a66e",
+    "appendFile": "proposed-site-patch.css",
+    "scope": "Concrete desktop navigation on published page 5903 only; no global overlay paint.",
+    "applicationStatus": "saved-live-verified",
+    "savedCssEvidence": "evidence/component-controls-repairs/site-theme-after.css",
+    "savedCssSha256": "0ac8235181cf3ffcdc1f04aa4f0da241903659ae3a3d9a3188e17d900a9f1b9a",
+    "verificationStatus": "Concrete desktop links are all within x=0..238.4, logo centered and counters inline. Root verified all seven mobile menu links at 390px without horizontal overflow."
+  },
+  "externalChangesMade": true,
+  "globalOverlayStatus": "Deferred. Compiled A/B/C/E/G/H/I CSS has conflicting fixed foregrounds; a blanket native-class scrim would break B dark text. Only Ma is cleaned in this proposal.",
+  "saveComparison": "Admin trims the final newline; compare saved CSS strings after trim().",
+  "applicationRecordedAt": "2026-10-25T17:37:43.193Z",
+  "appliedBy": "Root agent through the authorized INDY Admin session after user approval.",
+  "applicationEvidence": "evidence/component-controls-repairs/changes-journal.json",
+  "brandTokenBundleStatus": "not-applied; all 12 migration outputs and the D pilot remain proposals only."
+}

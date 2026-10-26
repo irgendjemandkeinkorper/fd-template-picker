@@ -1,0 +1,208 @@
+{
+  "fields": [
+    {
+      "label": "",
+      "value": ""
+    },
+    {
+      "label": "Region",
+      "value": "US-BETA"
+    },
+    {
+      "label": "Circuit",
+      "value": "INDY Demo "
+    },
+    {
+      "label": "Site",
+      "value": "LIBRARY"
+    },
+    {
+      "label": "search",
+      "value": ""
+    },
+    {
+      "label": "10\narrow_drop_down",
+      "value": "10"
+    },
+    {
+      "label": "Title",
+      "value": "variant-k-clubhouse_food"
+    },
+    {
+      "label": "URL Slug",
+      "value": "variant-k-clubhouse-food"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Description",
+      "value": ""
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": ""
+    },
+    {
+      "label": "Type",
+      "value": "Concessions Menu"
+    },
+    {
+      "label": "Name",
+      "value": "Food K - Clubhouse Kitchen"
+    },
+    {
+      "label": "Heading",
+      "value": "Good company. Good things to share."
+    },
+    {
+      "label": "Font Size",
+      "value": "H 2"
+    },
+    {
+      "label": "Fonts",
+      "value": "Default"
+    },
+    {
+      "label": "Text Align",
+      "value": "Center"
+    },
+    {
+      "label": "Color",
+      "value": "Primary"
+    },
+    {
+      "label": "Style",
+      "value": "Default"
+    },
+    {
+      "label": "Sales Channel Visibility",
+      "value": "Website"
+    },
+    {
+      "label": "Categories Visibility Override",
+      "value": ""
+    },
+    {
+      "label": "Category Filters Position",
+      "value": "Left"
+    },
+    {
+      "label": "Display Mode",
+      "value": "Block"
+    },
+    {
+      "label": "View Mode",
+      "value": "Grid"
+    },
+    {
+      "label": "Category Name Font Size",
+      "value": "24"
+    },
+    {
+      "label": "Category Name Alignment",
+      "value": "Left"
+    },
+    {
+      "label": "Style",
+      "value": "Default"
+    },
+    {
+      "label": "Color",
+      "value": "Primary"
+    },
+    {
+      "label": "Item Card Theme",
+      "value": "Frame"
+    },
+    {
+      "label": "Item Background Color",
+      "value": "Default"
+    },
+    {
+      "label": "Title Font Size",
+      "value": "20"
+    },
+    {
+      "label": "Description Font Size",
+      "value": "16"
+    },
+    {
+      "label": "Price Font Size",
+      "value": "16"
+    },
+    {
+      "label": "Visible For",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Width Mode",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom",
+      "value": ""
+    },
+    {
+      "label": "Background Color",
+      "value": ""
+    },
+    {
+      "label": "Image Fit",
+      "value": ""
+    },
+    {
+      "label": "Image Position",
+      "value": ""
+    },
+    {
+      "label": "Repeat",
+      "value": ""
+    },
+    {
+      "label": "Attachment",
+      "value": ""
+    },
+    {
+      "label": "Classes",
+      "value": "fdp-k-food"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Clubhouse Kitchen: native Concessions Menu, Section Settings > Custom CSS.\n   Keep the Section class fdp-k-food. This field owns the complete preset;\n   no source Page CSS, generated record IDs, or source Theme CSS is required. */\n&.fdp-k-food {\n  box-sizing: border-box;\n  min-width: 0;\n  padding: clamp(28px,5vw,76px) clamp(18px,5vw,72px);\n  background: var(--q-background) !important;\n  color: var(--q-dark) !important;\n  font-family: Georgia, serif;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 1.5;\n}\n\n/* Include the source Theme's heading treatment locally. System fonts need no import. */\n&.fdp-k-food :is(h1,h2,h3,h4,.title,.poster-title) {\n  color: var(--q-dark) !important;\n  font-family: Georgia, \"Times New Roman\", serif !important;\n  font-weight: 600 !important;\n  letter-spacing: -.025em;\n  line-height: 1.03;\n  text-transform: none;\n}\n&.fdp-k-food h2 {\n  font-size: clamp(32px,4.4vw,62px);\n  line-height: 1.03;\n}\n&.fdp-k-food h3 {\n  font-size: clamp(21px,2.1vw,30px);\n  line-height: 1.15;\n  margin: 0 0 14px;\n}\n&.fdp-k-food p {\n  color: var(--q-dark);\n  line-height: 1.7;\n}\n&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4,.text-current-color,.text-body1,.text-body2) {\n  color: var(--q-dark) !important;\n}\n\n/* Native Concessions Menu owns its product layout, data, and category controls. */\n&.fdp-k-food .q-card {\n  background: var(--q-background);\n  color: var(--q-dark);\n  border: 1px solid color-mix(in srgb,var(--q-dark) 45%,var(--q-background));\n  box-shadow: none;\n}\n&.fdp-k-food .q-tab {\n  color: var(--q-dark);\n}\n&.fdp-k-food .q-tab--active {\n  color: color-mix(in srgb,var(--q-dark) 85%,var(--q-background));\n}\n&.fdp-k-food :is(.q-btn,button) {\n  min-height: 44px;\n  border-radius: .35rem !important;\n  box-shadow: none;\n  font-family: Arial, \"Helvetica Neue\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 0;\n  text-transform: none;\n}\n&.fdp-k-food .q-btn.bg-primary {\n  background: color-mix(in srgb,var(--q-primary) 16%,var(--q-background)) !important;\n  color: var(--q-dark) !important;\n  border-color: var(--q-primary) !important;\n}\n&.fdp-k-food .q-btn.bg-primary :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n/* Category labels otherwise use the native black default on the source. */\n&.fdp-k-food [data-category-id] .q-btn,\n&.fdp-k-food [data-category-id] .q-btn :is(.q-btn__content,span) {\n  color: var(--q-dark) !important;\n}\n&.fdp-k-food .q-focus-helper {\n  border-radius: inherit;\n}\n&.fdp-k-food :is(a,button,.q-btn):focus-visible {\n  outline: 2px solid var(--q-dark) !important;\n  outline-offset: 2px;\n  box-shadow: 0 0 0 4px var(--q-background) !important;\n}\n&.fdp-k-food .q-btn.bg-primary:hover {\n  text-decoration: underline;\n}\n\n/* Preserve the native responsive grid; only contain editorial overflow. */\n&.fdp-k-food * {\n  box-sizing: border-box;\n}\n&.fdp-k-food :is(.fdp-content,.fdp-content>*,.fdp-content article,.fdp-content aside) {\n  min-width: 0;\n}\n&.fdp-k-food :is(p,li,a) {\n  overflow-wrap: break-word;\n}\n"
+    }
+  ]
+}

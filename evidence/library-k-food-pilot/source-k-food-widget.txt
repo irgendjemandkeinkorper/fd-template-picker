@@ -1,0 +1,1678 @@
+- banner:
+  - toolbar:
+    - button:
+      - img: menu
+    - generic: INDY Admin
+    - textbox:
+      - /placeholder: Search anything... /
+    - generic: report
+    - switch:
+      - generic: clear
+    - button:
+      - img: refresh
+    - generic: Region
+    - generic: US-BETA
+    - combobox "Region": US-BETA
+    - generic: arrow_drop_down
+    - generic: Circuit
+    - generic: INDY Demo
+    - combobox "Circuit": INDY Demo
+    - generic: arrow_drop_down
+    - generic: Site
+    - generic: Adam Template Testing 2
+    - combobox "Site": Adam Template Testing 2
+    - generic: arrow_drop_down
+    - button "Menu":
+      - img: person
+- complementary:
+  - separator
+  - list:
+    - generic: Operations
+    - generic: engineering
+  - list:
+    - generic: Reports
+    - generic: insert_chart_outlined
+  - list:
+    - generic: Settings
+    - generic: settings
+  - separator
+  - generic: Favorites
+  - generic: star
+  - list:
+    - generic: palette
+    - generic: Theme and Style
+  - list:
+    - generic: wysiwyg
+    - generic: Pages
+  - separator
+  - list:
+    - generic: Release Notes
+    - generic: new_releases
+  - list:
+    - generic: How To Guides
+    - generic: help
+  - list:
+    - text: "Web Client Version: 2026.37.24"
+    - generic: "Region: us-beta - Locale: en-US"
+  - separator
+  - list:
+    - generic: Developer
+    - generic: build
+  - switch "Demo Mode":
+    - generic: Demo Mode
+- main:
+  - link "Settings":
+    - /url: "#/settings"
+    - generic: settings
+    - text: Settings
+  - generic: chevron_right
+  - link "Website And Marketing":
+    - /url: "#/settings/website-and-marketing"
+  - generic: chevron_right
+  - link "Pages":
+    - /url: "#/settings/website-and-marketing/pages"
+  - main:
+    - list:
+      - button "Expand \"Page Settings\"":
+        - generic: account_balance
+        - generic: Page Settings
+        - generic: Manage site-wide page behaviour
+        - generic: keyboard_arrow_down
+      - separator
+      - separator
+      - button "Collapse \"Pages\"" [expanded]:
+        - generic: wysiwyg
+        - generic: Pages
+        - generic: Create or manage page content, for desktop and mobile websites and apps
+        - generic: keyboard_arrow_down
+      - text: Pages
+      - generic: store
+      - button:
+        - img: 
+      - button:
+        - img: refresh
+      - textbox:
+        - /placeholder: Search
+      - button:
+        - generic: search
+      - button "Set Order":
+        - generic: Set Order
+      - button "Add From Library":
+        - generic: Add From Library
+      - button "Create Page":
+        - generic: Create Page
+      - table:
+        - rowgroup:
+          - row "ID Title Slug Sections Views Visibility Library Actions":
+            - columnheader "ID"
+            - columnheader "Title"
+            - columnheader "Slug"
+            - columnheader "Sections"
+            - columnheader "Views"
+            - columnheader "Visibility"
+            - columnheader "Library"
+            - columnheader "Actions"
+        - rowgroup:
+          - row "5917 Variant L Midnight Lounge variant-l-midnight-lounge 9 Not Linked Edit":
+            - cell "5917":
+              - generic: "5917"
+            - cell "Variant L Midnight Lounge":
+              - generic: Variant L Midnight Lounge
+            - cell "variant-l-midnight-lounge":
+              - generic: variant-l-midnight-lounge
+            - cell "9":
+              - generic "false":
+                - generic: "9"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5915 Variant K Clubhouse variant-k-clubhouse 8 Not Linked Edit":
+            - cell "5915":
+              - generic: "5915"
+            - cell "Variant K Clubhouse":
+              - generic: Variant K Clubhouse
+            - cell "variant-k-clubhouse":
+              - generic: variant-k-clubhouse
+            - cell "8":
+              - generic "false":
+                - generic: "8"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5913 Variant J Box Office variant-j-box-office 9 Not Linked Edit":
+            - cell "5913":
+              - generic: "5913"
+            - cell "Variant J Box Office":
+              - generic: Variant J Box Office
+            - cell "variant-j-box-office":
+              - generic: variant-j-box-office
+            - cell "9":
+              - generic "false":
+                - generic: "9"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5911 Variant I Ma variant-i-ma 5 Not Linked Edit":
+            - cell "5911":
+              - generic: "5911"
+            - cell "Variant I Ma":
+              - generic: Variant I Ma
+            - cell "variant-i-ma":
+              - generic: variant-i-ma
+            - cell "5":
+              - generic "false":
+                - generic: "5"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5909 Variant H Storybook variant-h-storybook 5 Not Linked Edit":
+            - cell "5909":
+              - generic: "5909"
+            - cell "Variant H Storybook":
+              - generic: Variant H Storybook
+            - cell "variant-h-storybook":
+              - generic: variant-h-storybook
+            - cell "5":
+              - generic "false":
+                - generic: "5"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5905 Variant G Cut variant-g-cut 5 Not Linked Edit":
+            - cell "5905":
+              - generic: "5905"
+            - cell "Variant G Cut":
+              - generic: Variant G Cut
+            - cell "variant-g-cut":
+              - generic: variant-g-cut
+            - cell "5":
+              - generic "false":
+                - generic: "5"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5903 Variant F Concrete variant-f-concrete 10 Not Linked Edit":
+            - cell "5903":
+              - generic: "5903"
+            - cell "Variant F Concrete":
+              - generic: Variant F Concrete
+            - cell "variant-f-concrete":
+              - generic: variant-f-concrete
+            - cell "10":
+              - generic "false":
+                - generic: "10"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5901 Variant E Grid variant-e-grid 11 Not Linked Edit":
+            - cell "5901":
+              - generic: "5901"
+            - cell "Variant E Grid":
+              - generic: Variant E Grid
+            - cell "variant-e-grid":
+              - generic: variant-e-grid
+            - cell "11":
+              - generic "false":
+                - generic: "11"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5899 Variant D Odd variant-d-odd 10 Not Linked Edit":
+            - cell "5899":
+              - generic: "5899"
+            - cell "Variant D Odd":
+              - generic: Variant D Odd
+            - cell "variant-d-odd":
+              - generic: variant-d-odd
+            - cell "10":
+              - generic "false":
+                - generic: "10"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5897 Template D Family Matinee template-d-family-matinee 1 Not Linked Edit":
+            - cell "5897":
+              - generic: "5897"
+            - cell "Template D Family Matinee":
+              - generic: Template D Family Matinee
+            - cell "template-d-family-matinee":
+              - generic: template-d-family-matinee
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button:
+                - img: undo
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5669 QA Scratch (unpublished) qa-scratch-unpublished 0 Not Linked Edit":
+            - cell "5669":
+              - generic: "5669"
+            - cell "QA Scratch (unpublished)":
+              - generic: QA Scratch (unpublished)
+            - cell "qa-scratch-unpublished":
+              - generic: qa-scratch-unpublished
+            - cell "0":
+              - generic "false":
+                - generic: "0"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button:
+                - img: undo
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5663 Variant C Late variant-c-late 9 Not Linked Edit":
+            - cell "5663":
+              - generic: "5663"
+            - cell "Variant C Late":
+              - generic: Variant C Late
+            - cell "variant-c-late":
+              - generic: variant-c-late
+            - cell "9":
+              - generic "false":
+                - generic: "9"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5661 Variant B Rep variant-b-rep 9 Not Linked Edit":
+            - cell "5661":
+              - generic: "5661"
+            - cell "Variant B Rep":
+              - generic: Variant B Rep
+            - cell "variant-b-rep":
+              - generic: variant-b-rep
+            - cell "9":
+              - generic "false":
+                - generic: "9"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5659 Variant A Circuit variant-a-circuit 9 Not Linked Edit":
+            - cell "5659":
+              - generic: "5659"
+            - cell "Variant A Circuit":
+              - generic: Variant A Circuit
+            - cell "variant-a-circuit":
+              - generic: variant-a-circuit
+            - cell "9":
+              - generic "false":
+                - generic: "9"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5657 Variant C Special Events variant-c-special-events 2 Not Linked Edit":
+            - cell "5657":
+              - generic: "5657"
+            - cell "Variant C Special Events":
+              - generic: Variant C Special Events
+            - cell "variant-c-special-events":
+              - generic: variant-c-special-events
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5655 Variant B Special Events variant-b-special-events 2 Not Linked Edit":
+            - cell "5655":
+              - generic: "5655"
+            - cell "Variant B Special Events":
+              - generic: Variant B Special Events
+            - cell "variant-b-special-events":
+              - generic: variant-b-special-events
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5653 Variant A Special Events variant-a-special-events 2 Not Linked Edit":
+            - cell "5653":
+              - generic: "5653"
+            - cell "Variant A Special Events":
+              - generic: Variant A Special Events
+            - cell "variant-a-special-events":
+              - generic: variant-a-special-events
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5651 Variant C Contact variant-c-contact 1 Not Linked Edit":
+            - cell "5651":
+              - generic: "5651"
+            - cell "Variant C Contact":
+              - generic: Variant C Contact
+            - cell "variant-c-contact":
+              - generic: variant-c-contact
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5649 Variant B Contact variant-b-contact 1 Not Linked Edit":
+            - cell "5649":
+              - generic: "5649"
+            - cell "Variant B Contact":
+              - generic: Variant B Contact
+            - cell "variant-b-contact":
+              - generic: variant-b-contact
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5647 Variant A Contact variant-a-contact 1 Not Linked Edit":
+            - cell "5647":
+              - generic: "5647"
+            - cell "Variant A Contact":
+              - generic: Variant A Contact
+            - cell "variant-a-contact":
+              - generic: variant-a-contact
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5645 Variant C Food Ordering variant-c-food-ordering 1 Not Linked Edit":
+            - cell "5645":
+              - generic: "5645"
+            - cell "Variant C Food Ordering":
+              - generic: Variant C Food Ordering
+            - cell "variant-c-food-ordering":
+              - generic: variant-c-food-ordering
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5643 Variant B Food Ordering variant-b-food-ordering 1 Not Linked Edit":
+            - cell "5643":
+              - generic: "5643"
+            - cell "Variant B Food Ordering":
+              - generic: Variant B Food Ordering
+            - cell "variant-b-food-ordering":
+              - generic: variant-b-food-ordering
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button:
+                - img: undo
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5641 Variant A Food Ordering variant-a-food-ordering 1 Not Linked Edit":
+            - cell "5641":
+              - generic: "5641"
+            - cell "Variant A Food Ordering":
+              - generic: Variant A Food Ordering
+            - cell "variant-a-food-ordering":
+              - generic: variant-a-food-ordering
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5639 Variant C Hero variant-c-hero 2 Not Linked Edit":
+            - cell "5639":
+              - generic: "5639"
+            - cell "Variant C Hero":
+              - generic: Variant C Hero
+            - cell "variant-c-hero":
+              - generic: variant-c-hero
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5637 Variant B Hero variant-b-hero 2 Not Linked Edit":
+            - cell "5637":
+              - generic: "5637"
+            - cell "Variant B Hero":
+              - generic: Variant B Hero
+            - cell "variant-b-hero":
+              - generic: variant-b-hero
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5635 Variant A Hero variant-a-hero 2 Not Linked Edit":
+            - cell "5635":
+              - generic: "5635"
+            - cell "Variant A Hero":
+              - generic: Variant A Hero
+            - cell "variant-a-hero":
+              - generic: variant-a-hero
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5633 Variant C Nav variant-c-nav 1 Not Linked Edit":
+            - cell "5633":
+              - generic: "5633"
+            - cell "Variant C Nav":
+              - generic: Variant C Nav
+            - cell "variant-c-nav":
+              - generic: variant-c-nav
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5631 Variant B Nav variant-b-nav 1 Not Linked Edit":
+            - cell "5631":
+              - generic: "5631"
+            - cell "Variant B Nav":
+              - generic: Variant B Nav
+            - cell "variant-b-nav":
+              - generic: variant-b-nav
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5629 Variant A Nav variant-a-nav 1 Not Linked Edit":
+            - cell "5629":
+              - generic: "5629"
+            - cell "Variant A Nav":
+              - generic: Variant A Nav
+            - cell "variant-a-nav":
+              - generic: variant-a-nav
+            - cell "1":
+              - generic "false":
+                - generic: "1"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button:
+                - img: undo
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5625 Private Hire private-hire 2 Not Linked Edit":
+            - cell "5625":
+              - generic: "5625"
+            - cell "Private Hire":
+              - generic: Private Hire
+            - cell "private-hire":
+              - generic: private-hire
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5623 Events Late Nights events-late-nights 2 Not Linked Edit":
+            - cell "5623":
+              - generic: "5623"
+            - cell "Events Late Nights":
+              - generic: Events Late Nights
+            - cell "events-late-nights":
+              - generic: events-late-nights
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5621 Membership membership 2 Not Linked Edit":
+            - cell "5621":
+              - generic: "5621"
+            - cell "Membership":
+              - generic: Membership
+            - cell "membership":
+              - generic: membership
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5619 Lobby Riot lobby-riot 4 Not Linked Edit":
+            - cell "5619":
+              - generic: "5619"
+            - cell "Lobby Riot":
+              - generic: Lobby Riot
+            - cell "lobby-riot":
+              - generic: lobby-riot
+            - cell "4":
+              - generic "false":
+                - generic: "4"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5617 Projectionists Programme projectionists-programme 3 Not Linked Edit":
+            - cell "5617":
+              - generic: "5617"
+            - cell "Projectionists Programme":
+              - generic: Projectionists Programme
+            - cell "projectionists-programme":
+              - generic: projectionists-programme
+            - cell "3":
+              - generic "false":
+                - generic: "3"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5608 Movie Lineup movie-lineup 3 Not Linked Edit":
+            - cell "5608":
+              - generic: "5608"
+            - cell "Movie Lineup":
+              - generic: Movie Lineup
+            - cell "movie-lineup":
+              - generic: movie-lineup
+            - cell "3":
+              - generic "false":
+                - generic: "3"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5607 Food Drink food-drink 2 Not Linked Edit":
+            - cell "5607":
+              - generic: "5607"
+            - cell "Food Drink":
+              - generic: Food Drink
+            - cell "food-drink":
+              - generic: food-drink
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5606 Food Drink food-drink 2 Not Linked Edit":
+            - cell "5606":
+              - generic: "5606"
+            - cell "Food Drink":
+              - generic: Food Drink
+            - cell "food-drink":
+              - generic: food-drink
+            - cell "2":
+              - generic "false":
+                - generic: "2"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5604 Visit visit 4 Not Linked Edit":
+            - cell "5604":
+              - generic: "5604"
+            - cell "Visit":
+              - generic: Visit
+            - cell "visit":
+              - generic: visit
+            - cell "4":
+              - generic "false":
+                - generic: "4"
+            - cell
+            - cell:
+              - generic: toggle_on
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: published_with_changes
+              - button:
+                - img: undo
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5602 Movies movies 4 Not Linked Edit":
+            - cell "5602":
+              - generic: "5602"
+            - cell "Movies":
+              - generic: Movies
+            - cell "movies":
+              - generic: movies
+            - cell "4":
+              - generic "false":
+                - generic: "4"
+            - cell
+            - cell:
+              - generic: toggle_off
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: publish
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+          - row "5601 Fandango Cinema Template Test fandango-cinema-template-test 8 Not Linked Edit":
+            - cell "5601":
+              - generic: "5601"
+            - cell "Fandango Cinema Template Test":
+              - generic: Fandango Cinema Template Test
+            - cell "fandango-cinema-template-test":
+              - generic: fandango-cinema-template-test
+            - cell "8":
+              - generic "false":
+                - generic: "8"
+            - cell
+            - cell:
+              - generic: home
+            - cell "Not Linked":
+              - button "Not Linked":
+                - generic: 
+                - text: Not Linked
+            - cell "Edit":
+              - button:
+                - img: visibility_off
+              - button "Edit":
+                - generic: Edit
+              - button:
+                - img: more_vert
+      - generic: "Records per page:"
+      - generic: "50"
+      - combobox "50"
+      - generic: arrow_drop_down
+      - generic: 1-50 of 40
+      - button [disabled]:
+        - img: first_page
+      - button [disabled]:
+        - img: chevron_left
+      - button [disabled]:
+        - img: chevron_right
+      - button [disabled]:
+        - img: last_page
+      - separator
+      - separator
+- iframe [id="intercom-frame"]
+- button "Open Intercom Messenger":
+- dialog "Edit Page (5916)":
+  - button "Close":
+    - img: close
+  - button:
+    - img: arrow_back
+  - button:
+    - img: arrow_forward
+  - text: Edit Page (5916)
+  - generic: store
+  - button:
+    - img: refresh
+  - button:
+    - img: history
+  - button "Revert" [disabled]:
+    - generic: Revert
+  - button "Save" [disabled]:
+    - generic: Save
+  - button "Save and Close" [disabled]:
+    - generic: Save and Close
+  - generic: Title
+  - textbox "Title":
+    - /placeholder: ""
+    - text: Variant K Clubhouse
+  - generic: URL Slug
+  - textbox "URL Slug":
+    - /placeholder: ""
+    - text: variant-k-clubhouse
+  - generic: Start Date
+  - textbox "Start Date":
+    - /placeholder: MM/DD/YYYY
+  - button "Open date picker":
+    - img: event
+  - generic: End Date
+  - textbox "End Date":
+    - /placeholder: MM/DD/YYYY
+  - button "Open date picker":
+    - img: event
+  - button "View Page":
+    - generic: View Page
+  - generic: Header Placement Override
+  - generic: Same As Site
+  - generic: arrow_drop_down
+  - alert:
+    - generic: info
+    - generic: Overrides the site’s header placement for this page. Only available when the header background is transparent (opacity is less than 1). Otherwise, page content starts below the header.
+  - text: Sections
+  - generic: store
+  - button "Set Order":
+    - generic: Set Order
+  - button "Add Section":
+    - generic: Add Section
+  - table:
+    - rowgroup:
+      - row "ID Name Type Visibility Actions":
+        - columnheader "ID"
+        - columnheader "Name"
+        - columnheader "Type"
+        - columnheader "Visibility"
+        - columnheader "Actions"
+    - rowgroup:
+      - row "24890 K Welcome Text Block Edit":
+        - cell "24890":
+          - generic: "24890"
+        - cell "K Welcome":
+          - generic: K Welcome
+        - cell "Text Block":
+          - generic: Text Block
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "24891 K Featured Explore Movies Edit":
+        - cell "24891":
+          - generic: "24891"
+        - cell "K Featured":
+          - generic: K Featured
+        - cell "Explore Movies":
+          - generic: Explore Movies
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "24892 K Reserve Showtime Quick Selector Edit":
+        - cell "24892":
+          - generic: "24892"
+        - cell "K Reserve":
+          - generic: K Reserve
+        - cell "Showtime Quick Selector":
+          - generic: Showtime Quick Selector
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "25122 Food K - Clubhouse Kitchen Concessions Menu Edit":
+        - cell "25122":
+          - generic: "25122"
+        - cell "Food K - Clubhouse Kitchen":
+          - generic: Food K - Clubhouse Kitchen
+        - cell "Concessions Menu":
+          - generic: Concessions Menu
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "25128 Private Parties K - Gather Your People Text Block Edit":
+        - cell "25128":
+          - generic: "25128"
+        - cell "Private Parties K - Gather Your People":
+          - generic: Private Parties K - Gather Your People
+        - cell "Text Block":
+          - generic: Text Block
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "24893 K Stay Awhile Text Block Edit":
+        - cell "24893":
+          - generic: "24893"
+        - cell "K Stay Awhile":
+          - generic: K Stay Awhile
+        - cell "Text Block":
+          - generic: Text Block
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "24894 Membership K - Your Place In The Clubhouse Text Block Edit":
+        - cell "24894":
+          - generic: "24894"
+        - cell "Membership K - Your Place In The Clubhouse":
+          - generic: Membership K - Your Place In The Clubhouse
+        - cell "Text Block":
+          - generic: Text Block
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+      - row "25117 Contact K - Say Hello Generic Form Edit":
+        - cell "25117":
+          - generic: "25117"
+        - cell "Contact K - Say Hello":
+          - generic: Contact K - Say Hello
+        - cell "Generic Form":
+          - generic: Generic Form
+        - cell:
+          - button:
+            - img: visibility
+          - generic: schedule
+          - generic: smartphone
+          - generic: computer
+          - generic: 
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+          - button:
+            - img: more_vert
+  - generic: Search Engine Title
+  - textbox "Search Engine Title":
+    - /placeholder: ""
+  - generic: Search Engine Description
+  - textbox "Search Engine Description":
+    - /placeholder: ""
+  - generic: Used for search engine description. Truncated by search engines at ~160 characters.
+  - generic: "0"
+  - switch "Visible to Search Engines" [checked]:
+    - generic: check
+    - generic: Visible to Search Engines
+  - generic: Custom Styles (CSS)
+  - textbox "Custom Styles (CSS)":
+    - /placeholder: ""
+    - text: "/* Maintained native brand roles; change Theme & Style, not this CSS. */ [class*=\"section-\"] { --fd-primary: var(--q-primary); --fd-secondary: var(--q-secondary); --fd-dark: var(--q-dark); --fd-background: var(--q-background); --fd-header: var(--q-dark); --fd-accent: var(--q-secondary); --fd-warning: var(--q-warning); --fd-on-primary: var(--q-dark); --fd-on-secondary: var(--q-dark); --fd-on-accent: var(--q-dark); --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark)); --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark)); --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)); --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background)); --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark)); --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background)); --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)); --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background)); --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background)); --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background)); --fd-copy-emphasis: var(--fd-muted-on-paper); } /* Native form widgets emit inline neutral defaults; bind their maintained roles. */ [class*=\"section-\"] .generic-form-field { --generic-form-field-background: var(--q-background) !important; --generic-form-field-text: var(--q-dark) !important; --generic-form-field-border: var(--q-dark) !important; --generic-form-field-label: var(--q-dark) !important; --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important; --generic-form-field-focus: var(--q-dark) !important; } /* Brand actions use a tint because the native solid Primary/Dark pair can fail. */ [class*=\"section-\"][data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action) { background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important; color: var(--q-dark) !important; border-color: var(--q-primary) !important; } [class*=\"section-\"][data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; } [class*=\"section-\"][data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action):focus-visible { outline: 3px solid var(--q-dark) !important; outline-offset: 3px; box-shadow: 0 0 0 6px var(--q-background) !important; } [class*=\"section-\"][data-test-id=\"section-content\"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; } /* Native editorial section color bridge; copy and fills use the maintained pair. */ :is([class*=\"section-k-welcome-\"],[class*=\"section-k-stay-awhile-\"]), :is([class*=\"section-k-welcome-\"],[class*=\"section-k-stay-awhile-\"]) :is(.bg-primary,.bg-secondary,.q-card,.main-content) { background:var(--fd-primary-tint) !important; color:var(--q-dark) !important; } :is([class*=\"section-k-welcome-\"],[class*=\"section-k-stay-awhile-\"]) :is(.text-white,.text-primary,.text-body1,.text-h2,.text-current-color,h1,h2,h3,p,li,a,span) { color:var(--q-dark) !important; } /* Native Dark editorial/widget panels use Background for meaningful copy. */ [class*=\"section-k-featured-\"][data-test-id=\"section-content\"] { background-color:var(--q-dark) !important; color:var(--q-background) !important; } [class*=\"section-k-featured-\"][data-test-id=\"section-content\"] :is(h2,h3).text-current-color { color:var(--q-background) !important; } [class*=\"section-k-featured-\"][data-test-id=\"section-content\"] .text-h5.text-grey-9 { color:var(--q-background) !important; }"
+  - button "Expand":
+    - generic: error
+    - generic: SEO Health Preview
+    - generic: Needs Attention
+    - generic: keyboard_arrow_down
+  - separator
+  - separator
+  - generic: Preview
+  - button "Desktop Web":
+    - generic: Desktop Web
+  - button "Mobile Web":
+    - generic: Mobile Web
+  - button "App":
+    - generic: App
+  - heading "WELCOME TO THE CLUBHOUSE" [level=4]
+  - generic: A neighborhood cinema with a little more room to linger.
+  - generic: Meet friends, settle into a favorite seat, and make a night of it. The Clubhouse pairs an easy path to tickets with a warm, social rhythm before and after the show.
+  - heading "SELECTED FOR THE CLUB" [level=3]
+  - generic: No movies here
+  - generic: Select Movie
+  - combobox "Select Movie"
+  - generic: arrow_drop_down
+  - generic: Select Date & Time
+  - generic: arrow_drop_down
+  - generic "Please select a Movie to get started":
+    - button "Buy Tickets" [disabled]:
+      - generic: Buy Tickets
+  - heading "Good company. Good things to share." [level=2]
+  - generic: Explore the kitchen and bar before you settle in.
+  - button "Snacks":
+    - generic: Snacks
+  - button "Drinks":
+    - generic: Drinks
+  - button "Desserts":
+    - generic: Desserts
+  - paragraph: Snacks
+  - generic: Marquee Popcorn
+  - generic: Fresh-popped, hot-buttered. Small, large, or bottomless.
+  - text: Starting at
+  - generic: $7.00
+  - generic: No Country for Old Nachos
+  - generic: House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.
+  - generic: $14.00
+  - generic: The Pretzel Identity
+  - generic: Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.
+  - generic: $11.00
+  - paragraph: Drinks
+  - generic: Soda
+  - text: Starting at
+  - generic: $6.00
+  - paragraph: Desserts
+  - generic: Pie Hard
+  - generic: Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.
+  - generic: $10.00
+  - generic: Sundae, Bloody Sundae
+  - generic: Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.
+  - generic: $10.00
+  - generic: Movie Candy
+  - generic: Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.
+  - generic: $5.00
+  - heading "Make room for your people." [level=2]
+  - generic: Big occasions. Small gatherings. A cinema night of your own.
+  - paragraph: Private parties at the Clubhouse
+  - article:
+    - generic: A REASON TO CELEBRATE
+    - heading "Bring the birthday crowd." [level=3]:
+      - text: Bring the
+      - text: birthday crowd.
+    - paragraph: A milestone, a family gathering, or a celebration just because. Start with the people you want around you.
+  - article:
+    - generic: A CHANGE OF SCENE
+    - heading "Gather the team." [level=3]:
+      - text: Gather
+      - text: the team.
+    - paragraph: Take the next company occasion out of the usual meeting room and explore a cinema gathering.
+  - article:
+    - generic: A STORY TO SHARE
+    - heading "Make a night of the film." [level=3]:
+      - text: Make a night
+      - text: of the film.
+    - paragraph: Explore a private screening and tell the venue team what you have in mind for your group.
+  - paragraph: Have an occasion in mind? Bring the date, a group size, and your idea for the evening.
+  - link "Plan a private gathering":
+    - /url: /private-hire/
+    - text: Plan a private gathering
+    - generic: →
+  - heading "STAY AWHILE" [level=3]
+  - generic: Drinks, conversation, and the credits you actually want to watch.
+  - generic: Come early for the easy pace and stay after the final frame. The Clubhouse is designed as a welcoming gathering place—not simply a stop between the parking lot and your seat.
+  - heading "There is a place for you here." [level=2]
+  - generic: Make the Clubhouse part of your cinema routine.
+  - paragraph: A familiar place. A fresh story.
+  - heading "Come for the film. Find your reason to return." [level=3]:
+    - text: Come for the film.
+    - text: Find your reason to return.
+  - paragraph: Some nights start with a plan. Others start with a friend asking what is on. Explore membership for the visits you already look forward to, and the ones still to come.
+  - paragraph:
+    - link "Find your membership":
+      - /url: /membership/
+      - text: Find your membership
+      - generic: →
+  - paragraph: The Clubhouse / Membership
+  - heading "Your next chapter starts here." [level=3]:
+    - text: Your next chapter
+    - text: starts here.
+  - list:
+    - strong: Explore the options.
+    - text: See the current membership plans in one place.
+    - strong: Find your fit.
+    - text: Compare the details and benefits that suit your visits.
+    - strong: Take the next step.
+    - text: Find joining information on the membership page.
+  - heading "Pull up a chair. Say hello." [level=2]
+  - generic: Ask about a visit, a gathering, or something you have in mind.
+  - generic: Name
+  - textbox "Name"
+  - generic: Email
+  - textbox "Email"
+  - generic: Message
+  - textbox "Message"
+  - button "Send a hello":
+    - generic: Send a hello
+- dialog "Edit Section (25122)":
+  - button "Close":
+    - img: close
+  - button:
+    - img: arrow_back
+  - button:
+    - img: arrow_forward
+  - generic: 4 of 8
+  - text: Edit Section (25122)
+  - generic: store
+  - button:
+    - img: refresh
+  - button:
+    - img: history
+  - button "Revert" [disabled]:
+    - generic: Revert
+  - button "Save" [disabled]:
+    - generic: Save
+  - button "Save and Close" [disabled]:
+    - generic: Save and Close
+  - generic: Type
+  - generic: Concessions Menu
+  - combobox "Type": Concessions Menu
+  - generic: arrow_drop_down
+  - generic: Name
+  - textbox "Name":
+    - /placeholder: ""
+    - text: Food K - Clubhouse Kitchen
+  - button:
+    - img: settings
+  - generic: Heading Editor
+  - switch "Show Heading" [checked]:
+    - generic: Show Heading
+  - generic: Heading
+  - textbox "Heading":
+    - /placeholder: ""
+    - text: Good company. Good things to share.
+  - generic: Font Size
+  - generic: H 2
+  - combobox "Font Size": H 2
+  - generic: arrow_drop_down
+  - generic: Fonts
+  - generic: Default
+  - combobox "Fonts": Default
+  - generic: arrow_drop_down
+  - generic: Text Align
+  - generic: Center
+  - combobox "Text Align": Center
+  - generic: arrow_drop_down
+  - generic: Color
+  - generic: Primary
+  - combobox "Color": Primary
+  - button "Clear": cancel
+  - generic: arrow_drop_down
+  - button "Preview primary":
+    - generic: Preview
+    - generic: primary
+  - generic: Style
+  - generic: Default
+  - combobox "Style": Default
+  - generic: arrow_drop_down
+  - generic: Description Editor
+  - text: Description
+  - button "Left align":
+    - img: format_align_left
+  - button "Center align":
+    - img: format_align_center
+  - button "Right align":
+    - img: format_align_right
+  - button "Justify align":
+    - img: format_align_justify
+  - button "Bold":
+    - img: format_bold
+  - button "Italic":
+    - img: format_italic
+  - button "Underline":
+    - img: format_underlined
+  - button "Strikethrough":
+    - img: strikethrough_s
+  - generic "Hyperlink":
+    - img: link
+  - button "Quote":
+    - img: format_quote
+  - button "Unordered List":
+    - img: format_list_bulleted
+  - button "Ordered List":
+    - img: format_list_numbered
+  - generic: Explore the kitchen and bar before you settle in.
+  - generic: Categories and items Visibility
+  - generic: Sales Channel Visibility
+  - generic: Website
+  - combobox "Sales Channel Visibility": Website
+  - generic: arrow_drop_down
+  - generic: Categories Visibility Override
+  - combobox "Categories Visibility Override"
+  - generic: arrow_drop_down
+  - generic: User Controls
+  - switch "Show Category Filters" [checked]:
+    - generic: Show Category Filters
+  - generic: Category Filters Position
+  - generic: Left
+  - combobox "Category Filters Position": Left
+  - generic: arrow_drop_down
+  - generic: Layout
+  - generic: Display Mode
+  - generic: Block
+  - combobox "Display Mode": Block
+  - generic: arrow_drop_down
+  - generic: View Mode
+  - generic: Grid
+  - combobox "View Mode": Grid
+  - generic: arrow_drop_down
+  - generic: Items Per Row
+  - slider:
+    - generic: "3"
+  - generic: Items Per Row in Mobile
+  - slider:
+    - generic: "1"
+  - generic: Spacing
+  - slider:
+    - generic: "12"
+  - generic: Divider
+  - switch "Show Category Divider" [checked]:
+    - generic: Show Category Divider
+  - switch "Show Category Name" [checked]:
+    - generic: Show Category Name
+  - generic: Category Name Font Size
+  - spinbutton "Category Name Font Size": "24"
+  - generic: px
+  - generic: Category Name Alignment
+  - generic: Left
+  - combobox "Category Name Alignment": Left
+  - generic: arrow_drop_down
+  - generic: Style
+  - generic: Default
+  - combobox "Style": Default
+  - generic: arrow_drop_down
+  - generic: Color
+  - generic: Primary
+  - combobox "Color": Primary
+  - button "Clear": cancel
+  - generic: arrow_drop_down
+  - button "Preview primary":
+    - generic: Preview
+    - generic: primary
+  - generic: Items Visibility
+  - switch "Show Image" [checked]:
+    - generic: Show Image
+  - switch "Show Description" [checked]:
+    - generic: Show Description
+  - switch "Show Price" [checked]:
+    - generic: Show Price
+  - generic: Items Styles
+  - generic: Item Card Theme
+  - generic: Frame
+  - combobox "Item Card Theme": Frame
+  - generic: arrow_drop_down
+  - generic: Item Background Color
+  - generic: Default
+  - combobox "Item Background Color": Default
+  - button "Clear": cancel
+  - generic: arrow_drop_down
+  - button "Preview default":
+    - generic: Preview
+    - generic: default
+  - generic: Item Border Radius
+  - slider:
+    - generic: "8"
+  - generic: Item Shadow
+  - slider:
+    - generic: "0"
+  - generic: Text Styles
+  - generic: Title Font Size
+  - spinbutton "Title Font Size": "20"
+  - generic: px
+  - generic: Description Font Size
+  - spinbutton "Description Font Size": "16"
+  - generic: px
+  - generic: Price Font Size
+  - spinbutton "Price Font Size": "16"
+  - generic: px
+  - generic: Preview
+  - button "Desktop Web":
+    - generic: Desktop Web
+  - button "Mobile Web":
+    - generic: Mobile Web
+  - generic: 4:30
+  - generic: Speaker
+  - generic: Camera
+  - generic: signal_cellular_alt
+  - generic: wifi
+  - generic: battery_std
+  - heading "Good company. Good things to share." [level=2]
+  - generic: Explore the kitchen and bar before you settle in.
+  - button "Snacks":
+    - generic: Snacks
+  - button "Drinks":
+    - generic: Drinks
+  - button "Desserts":
+    - generic: Desserts
+  - paragraph: Snacks
+  - generic: Marquee Popcorn
+  - generic: Fresh-popped, hot-buttered. Small, large, or bottomless.
+  - text: Starting at
+  - generic: $7.00
+  - generic: No Country for Old Nachos
+  - generic: House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.
+  - generic: $14.00
+  - generic: The Pretzel Identity
+  - generic: Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.
+  - generic: $11.00
+  - paragraph: Drinks
+  - generic: Soda
+  - text: Starting at
+  - generic: $6.00
+  - paragraph: Desserts
+  - generic: Pie Hard
+  - generic: Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.
+  - generic: $10.00
+  - generic: Sundae, Bloody Sundae
+  - generic: Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.
+  - generic: $10.00
+  - generic: Movie Candy
+  - generic: Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.
+  - generic: $5.00

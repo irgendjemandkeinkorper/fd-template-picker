@@ -1,0 +1,551 @@
+{
+  "actualSections": [
+    {
+      "classes": [
+        "section-l-opening-note-24905"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "MEET ME AT MIDNIGHT"
+      ],
+      "ids": [
+        "24905"
+      ],
+      "index": 0,
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      }
+    },
+    {
+      "classes": [
+        "section-l-tickets-after-dark-24906"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [],
+      "ids": [
+        "24906"
+      ],
+      "index": 1,
+      "sourceBounds": {
+        "height": 112.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 230.0375061035156
+      },
+      "viewportBounds": {
+        "height": 112.3000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 230.0375061035156
+      }
+    },
+    {
+      "classes": [
+        "section-l-lounge-ritual-24908"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [],
+      "ids": [
+        "24908"
+      ],
+      "index": 2,
+      "sourceBounds": {
+        "height": 168,
+        "width": 1536,
+        "x": 0,
+        "y": 342.3374938964844
+      },
+      "viewportBounds": {
+        "height": 168,
+        "width": 1536,
+        "x": 0,
+        "y": 342.3374938964844
+      }
+    },
+    {
+      "classes": [
+        "section-l-one-more-24909"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "STAY FOR ONE MORE"
+      ],
+      "ids": [
+        "24909"
+      ],
+      "index": 3,
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 510.3374938964844
+      },
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 510.3374938964844
+      }
+    },
+    {
+      "classes": [
+        "section-food-l---after-dark-menu-25138"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "A little something after dark."
+      ],
+      "ids": [
+        "25138"
+      ],
+      "index": 4,
+      "sourceBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      },
+      "viewportBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      }
+    },
+    {
+      "classes": [
+        "section-private-parties-l---an-evening-of-your-own-25139"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Take over the evening.",
+        "Some nights deservetheir own invitation.",
+        "Make it an occasion.",
+        "Change the usual scene.",
+        "Share the picture."
+      ],
+      "ids": [
+        "25139"
+      ],
+      "index": 5,
+      "sourceBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      },
+      "viewportBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      }
+    },
+    {
+      "classes": [
+        "section-membership-l---after-dark-regular-25140"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Make a habit of the evening.",
+        "One more story.A reason to return.",
+        "Find your kind of regular.",
+        "Read the fine details.",
+        "Choose the next chapter."
+      ],
+      "ids": [
+        "25140"
+      ],
+      "index": 6,
+      "sourceBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      },
+      "viewportBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      }
+    },
+    {
+      "classes": [
+        "section-contact-l---a-note-after-dark-25141"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Leave us a note."
+      ],
+      "ids": [
+        "25141"
+      ],
+      "index": 7,
+      "sourceBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      },
+      "viewportBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      }
+    }
+  ],
+  "blockers": [],
+  "clips": [
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 132,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "24905"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-l-opening-note-24905 q-px-xs bg-dark",
+          "headings": "[Circular]",
+          "id": "24905",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-l-opening-note-24905"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 131.03750610351562,
+        "width": 1536,
+        "x": 0,
+        "y": 99
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1782,
+        "width": 1536,
+        "x": 0,
+        "y": 641
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/l3f5u4g1zsehx6c07xxz5vafh5gl?w=600&h=374&fit=crop&fill=solid&fill-color=fcfc83&bg=fcfc83&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 934.8250122070312
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/mjc23v1tef2yy8x2z7zspe0rsdws?w=600&h=374&fit=crop&fill=solid&fill-color=fcbb17&bg=fcbb17&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1114.4625244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/w3e3ma6uc0rond1zxe8okg8t4iak?w=600&h=374&fit=crop&fill=solid&fill-color=ffffff&bg=ffffff&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1296.0625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/7udvksa7ekl3mgb2dxkejtd1pn48?w=600&h=374&fit=crop&fill=solid&fill-color=045ad1&bg=045ad1&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1550.4625244140625
+          }
+        },
+        {
+          "complete": true,
+          "naturalHeight": 374,
+          "naturalWidth": 600,
+          "src": "https://indy-systems.imgix.net/idiojv2s2nx8q53tcq6ojjxsfztb?w=600&h=374&fit=crop&fill=solid&fill-color=954f1a&bg=954f1a&auto=format,compress",
+          "viewportBounds": {
+            "height": 134.03750610351562,
+            "width": 215.0375061035156,
+            "x": 331.4624938964844,
+            "y": 1802.9000244140625
+          }
+        }
+      ],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25138"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-food section-food-l---after-dark-menu-25138 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25138",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-food-l---after-dark-menu-25138"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 1781.5250244140625,
+        "width": 1536,
+        "x": 0,
+        "y": 641.375
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 852,
+        "width": 1536,
+        "x": 0,
+        "y": 2422
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25139"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-private-parties section-private-parties-l---an-evening-of-your-own-25139 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25139",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-private-parties-l---an-evening-of-your-own-25139"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 850.9500122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 2422.900146484375
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 840,
+        "width": 1536,
+        "x": 0,
+        "y": 3273
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25140"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-membership section-membership-l---after-dark-regular-25140 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25140",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-membership-l---after-dark-regular-25140"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 838.7000122070312,
+        "width": 1536,
+        "x": 0,
+        "y": 3273.85009765625
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 834,
+        "width": 1536,
+        "x": 0,
+        "y": 4112
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-l-midnight-lounge",
+      "pageId": "5917",
+      "sectionIds": [
+        "25141"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "fdp-l-contact section-contact-l---a-note-after-dark-25141 q-px-xs",
+          "headings": "[Circular]",
+          "id": "25141",
+          "selector": ".page-variant-l-midnight-lounge-5917 .section-contact-l---a-note-after-dark-25141"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "variant": "variant-l-midnight-lounge",
+      "viewportBounds": {
+        "height": 832.6124877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 4112.55029296875
+      }
+    }
+  ],
+  "currentURL": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+  "devicePixelRatio": 1.25,
+  "document": {
+    "clientWidth": 1536,
+    "scrollHeight": 5230,
+    "scrollWidth": 1536
+  },
+  "nativePalette": {
+    "background": "#fbefe2",
+    "dark": "#38264a",
+    "primary": "#e06b4a",
+    "secondary": "#c4553a"
+  },
+  "observedAt": "2026-10-25T19:50:40.211Z",
+  "pageClass": "page-variant-l-midnight-lounge-5917",
+  "pageId": "5917",
+  "renderedSectionCount": 8,
+  "safety": "Read-only DOM and computed geometry; no scroll, click, CSS change, fixture, network request, private app state or automatic semantic approval.",
+  "schema": "fd-native-capture-dom-observation/v1",
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "sourceState": "requires-root-published-route-verification",
+  "variant": "variant-l-midnight-lounge",
+  "viewport": {
+    "height": 639,
+    "width": 1536
+  },
+  "visualViewportScale": 1
+}

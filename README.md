@@ -1,90 +1,159 @@
-# FD Template Picker
+# FD Template Picker · Website Studio
 
-Mix and match INDY component styles section by section, then export the
-selection as JSON for the design team to build from.
+Choose a cinema website one step at a time. The customer flow shows one decision at a time, with a checklist, a preview, and a clear next action. Customers choose from the reviewed template styles, then share their colors, fonts and six section choices with the website team.
 
-Each section of the page (header, hero, now playing, events, food, contact,
-find us, membership, gift cards, footer) shows a screenshot taken from one of
-the INDY example variants. Cycle through the styles, reorder or remove
-sections, add notes, and export.
+Open the [public template picker](https://irgendjemandkeinkorper.github.io/fd-template-picker/). Hosting and release verification are recorded in the [GitHub Pages guide](docs/GITHUB-PAGES.md).
 
-Live: https://irgendjemandkeinkorper.github.io/fd-template-picker/
+The [Documentation tab](https://irgendjemandkeinkorper.github.io/fd-template-picker/#documentation) links the nine template-specific support guides, including editing instructions, color mappings and troubleshooting. Hosted guides are generated from the maintained local sources; raw audit files are retained separately.
 
-## Run it
+## Customer flow
 
+1. **Colors & fonts:** choose Primary, Secondary, Header, Accent, Dark and Background with color pickers or hex fields. Seven additional message, splash and seating colors live in a collapsed **Advanced colors** panel. Choose web-safe fonts for headings, body text, and buttons/navigation, then inspect the shared live sample. The cinema name is optional.
+2. **Navigation:** choose the menu style.
+3. **Hero:** choose the opening section.
+4. **Food & Drink:** choose the menu presentation.
+5. **Private Parties:** choose the celebration and private-screening section.
+6. **Membership:** choose the membership section.
+7. **Contact Us:** choose the contact section.
+8. **Review:** check all seven choices, edit any step, then copy a selection link, download a plain-text summary or download the machine-readable JSON build brief.
+
+The **Templates** tab presents the nine live demos: **Showcase, Reel, Neon, Cameo, Metropolis, Encore, Splice, Prologue and Pause**. All have distinct native palettes, a native Showtimes opener, shared movies and seven concession items. Desktop and 390px phone layouts and menus passed. Each has 16 display-only screenings for **October 26–29, 2026**, in the copied Los Angeles timezone. No orders were placed.
+
+Showcase is now **Site 193**, at [template-showcase-demo-indy-consumer.netlify.app](https://template-showcase-demo-indy-consumer.netlify.app/). The earlier copies 183/184 and source 170 remain preserved. The standalone rollout gives each design its own Films, Food & Drink, Private Events, Membership, Visit & Contact and Events Pages, with a shorter Showtimes homepage. Completed reviews are recorded per Site in the Hub's `siteStructure` data; do not infer all nine are complete from the hostname list. Library packaging remains deferred. See the [rollout guide](docs/INDY-DEMO-ROLLOUT.md), [standalone maintenance workflow](docs/STANDALONE-DEMO-MAINTENANCE.md), [final integration checklist](docs/STANDALONE-DEMO-INTEGRATION.md) and [earlier homepage evidence](evidence/demo-refresh/desktop-captures.json).
+
+The checklist uses **54 fresh section captures** from these nine live Sites. Each option records its actual demo Site/Page/Section, screenshot hash and visual review. Historical authoring references remain attached and archived in `evidence/demo-refresh/legacy-catalog.json`; source IDs never identify a destination. Switching tabs does not change selections.
+
+A displayed default is a starting preview. A choice counts only after the customer confirms it with the next-step button. Later steps unlock in order, and completed steps remain available for editing. Changing a confirmed color pair or section choice requires confirmation again. The customer flow keeps the six sections in a fixed order and presents only template choices.
+
+The six section steps offer **52 reviewed design choices**: seven navigation layouts and nine choices in each of the five remaining sections. Splice, Prologue and Pause share one navigation layout, listed together. All nine now use native Showtimes heroes, including Encore. J–L are retained as internal source records and excluded from the customer flow while they need further work.
+
+Use **View larger** to inspect a selected style. Tall sections scroll vertically; navigation previews preserve enough width to inspect menu labels. The previews are screenshots with sample content. They do not operate booking, ordering or contact widgets.
+
+## Colors and contrast
+
+The color step checks Primary/Secondary and Dark/Background using the [WCAG 2.2 sRGB formula](https://www.w3.org/TR/WCAG22/#contrast-minimum). Both pairs must reach an **unrounded 3:1** to continue. Between **3:1 and below 4.5:1**, a checkbox explicitly acknowledges the regular-text contrast shortfall. At **4.5:1 or above**, no acknowledgment is needed. Invalid colors remain blocked. An acknowledgment is tied to all thirteen palette values, cleared after any color edit, preserved in saved/shared selections, and included in the summary and build brief. It does not turn a failing pair into a WCAG pass.
+
+**Demo images keep their demo colors. The chosen palette is used during the build.** Inline examples show the selected colors; screenshots are never recolored. The two pair checks do not certify overlays, semantic states, seating or the completed site.
+
+Header and Accent are independent on the nine demo homepages. Header paints navigation bands, or navigation lettering on Reel/Cameo; Showcase/Neon also use it on dark section panels. Accent paints decorative dividers and outlines. The color controls include concrete examples and a small live illustration. The older authoring Site still uses its earlier aliases; use the current demo references and [color/support guide](docs/DEMO-COLOR-SUPPORT.md) when building.
+
+## Web-safe fonts
+
+Choose **Headings**, **Body text**, and **Buttons & navigation** independently from Arial, Verdana, Tahoma, Trebuchet MS, Georgia, Times New Roman and Courier New. Defaults are Georgia for headings and Arial for the other two roles. Each choice uses a fixed CSS fallback stack; no font uploads, external font downloads or free-form font names are accepted. Available system fonts vary by device, so a fallback may render instead.
+
+The inline sample updates immediately, including its navigation and showtimes button. Template screenshots and linked demos keep their original typography. The build brief records requested families and stacks for the website team to map and check in the destination editor. Choosing fonts does not claim that all three roles are already supported by native INDY controls.
+
+Font changes require confirmation of the first step again while preserving section choices and a valid color-contrast acknowledgment.
+
+## Save and share
+
+Progress saves on the current device in the browser. **Copy link**, available at Review, includes the cinema name, all thirteen palette values, three font choices, section choices and recorded confirmations in the URL fragment. **Summary** creates a `.txt` file with the palette, fonts, base contrast results and six section choices. **Build brief** creates a versioned `.json` file with source references, module readiness, artifact hashes and a draft-only build contract. Source IDs never authorize or identify a destination. **Start over** asks for confirmation before clearing the current guided selection.
+
+The v3 reader accepts v1/v2 selections and links. Compatible colors, component choices and explicit confirmations survive migration; added roles receive disclosed starter values. The legacy two-color `brandColors` mirror remains available. A change to any palette role requires color confirmation again while keeping component confirmations. Legacy selections without confirmations begin unconfirmed. Saved H–L navigation picks map to Standard and require confirmation again. See the [build-brief contract](docs/PICKER-BUILD-BRIEF.md).
+
+## Build from a brief with Codex
+
+Download the **JSON build brief** at Review, then invoke the local **`indy-picker-site-builder`** skill in Codex with that file, the explicit destination Region/Circuit/Site, approved content and requested Page plan. Keep Chrome signed in. The skill's read-only preflight checks the matching catalog, module readiness and artifact digests; source IDs and an exported request are not destination authorization. It assembles verified native modules and stops with saved, unpublished Pages for review. Site/Circuit creation, sample-data changes, consumer hosting, publication and deploys require their own explicit scope. A–I modules still need portability proof; the approved names and Showcase shell do not establish build readiness.
+
+## Run locally
+
+This is a static website with no build or production dependencies. From the repository directory:
+
+```sh
+node scripts/serve.mjs
 ```
-npm start
+
+Open `http://localhost:4173`. To run the automated checks:
+
+```sh
+node --test
 ```
 
-Then open http://localhost:4173. The site is plain static files (no build), so
-it can be hosted anywhere: Netlify, GitHub Pages, an S3 bucket.
+`npm start` and `npm test` are aliases when npm is installed. The site can be hosted on GitHub Pages, Netlify, or another static host. After changing the catalog or registered source artifacts, regenerate the pinned module index with `node scripts/build-module-index.mjs` and run the tests before deployment.
 
-## Using the picker
+The [demo readiness report](docs/DEMO-READINESS.md) records the verified customer journeys, screenshots, test results and remaining installation limits.
 
-- **‹ ›** (or the left/right arrow keys) cycle a section through its styles.
-- **↑ ↓** reorder sections. Header and footer stay at the ends.
-- **Remove** leaves a section out of the page.
-- **Start from** sets every section to one variant; **Shuffle** randomises.
-- **Preview page** hides the controls and shows the assembled page.
-- Selections save automatically in the browser. **Copy link** gives a URL that
-  reopens the same selection anywhere.
-- **Export JSON** downloads the hand-off file; **Import** loads one back in.
+## Template maintenance
 
-## Export format
+The [native color and overlay implementation](template-adapters/admin-controls-completion/FINAL-STATUS.md) is saved on **US-BETA → INDY Demo → Adam Template Testing 2**. The [native journal](evidence/admin-controls-completion/changes-journal.json) records 30 saved fields with readbacks and all twelve template pages published. Branding consumes native Primary, Secondary and Dark, with native Background as the opposing canvas/copy color. Shared headers, native form paint, readable CTA/card tints, observed media-caption backings/shadows and Odd's three semantic card roles are included.
 
-```json
-{
-  "schema": "fd-template-picker/v1",
-  "project": "Roxy Cinema",
-  "exportedAt": "2026-10-02T10:30:00.000Z",
-  "notes": "Brand red #c00",
-  "pickerUrl": "https://…/#s=…",
-  "sections": [
-    {
-      "position": 2,
-      "slot": "hero",
-      "slotLabel": "Hero",
-      "included": true,
-      "optionId": "hero--variant-c-late",
-      "variant": "variant-c-late",
-      "variantLabel": "C · Late",
-      "components": ["Hero C - Marquee", "Hero C - Dock"],
-      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
-      "screenshot": "https://…/screenshots/hero/variant-c-late.jpg",
-      "note": ""
-    }
-  ]
-}
+The native second palette was exercised and the original palette restored. The [final QA report](evidence/admin-controls-completion/final-qa-report.json) accepts all 48 desktop/phone captures across both native palettes, with exact saved-field and portable provenance checks. All [66 independently reviewed native clips were ingested byte-identically](evidence/admin-controls-completion/captures/admin-controls-published-clips-001/ingestion.json), refreshing the customer catalog. Source product placeholders remain genuine native output; no media was fabricated to fill them.
+
+The [editability audit](docs/TEMPLATE-EDITABILITY-AUDIT.md) still separates color/overlay implementation from full Admin-only maintenance. Fonts, fixed slants/structure, authored HTML and generated wording, Library transfer/unlink behavior and service setup remain independent work. Earlier [compiled color proposals](template-adapters/brand-tokens/README.md) are retained as review history; they are not native fields to paste. Internal support guides remain outside this public customer site.
+
+## Catalog and screenshot evidence
+
+`catalog.json` is the editable collection. Its explicit `variants` array records the admin inventory, while `slots[].options[]` records only captured section choices. An option includes its INDY component names, source route, verified page/section IDs, image dimensions, and capture notes. Historical catalog Library flags are source snapshots; the build brief also uses the versioned module registry and the bounded K pilot status below. Other modules remain unverified for transfer until tested individually.
+
+Canonical coverage lives alongside the original section categories. An audited option may declare `canonicalComponent` (for example `private-parties`) and `componentStatus: "partial"` when it only partially serves that purpose. Generic Events, Experience and Visit sections are never automatically relabeled or counted as private parties, food or contact. `componentAudit` entries use `{ variant, component, status: "present" | "partial" | "missing", notes }` to distinguish source content from screenshot availability. A missing catalog choice without an audit is labeled **Needs audit**, rather than assumed absent. Refresh an audit entry after repairing the source page.
+
+Image review is recorded separately in each option's `visualReview`: `passed`, `rejected`, `needs-review` or `not-reviewed`. The review is bound to `visualCaptureKey(option)` (image, size, capture date and source section IDs); a changed capture returns to unchecked until reviewed. Passed images also store a SHA-256 fingerprint checked by the tests. [The second pixel audit](evidence/catalog-pixel-audit-2.md) found incorrect B captures, incomplete navigation crops and other visual issues despite the source components being present. Display labels can describe actual appearance while `sourceName` and `components` retain original INDY aliases, as with F's Product Cards and Standard Form.
+
+The optional `customerDesign` metadata records reviewed design equivalence, a customer label and the preferred representative option. The workflow groups these explicit markers instead of comparing image hashes. All 12 Navigation source records and their screenshots remain in the catalog; the six G–L records share `navigation-standard`, represented by `header--variant-g-cut`. The customer-facing label is **Splice / Prologue / Pause**, derived from the three available designs. Stable IDs and historical source titles are preserved; checklist, preview, summary and build-brief labels use the nine approved names.
+
+The [current component audit](docs/COMPONENT-PARITY.md) records all **72 required components present across A–L**, following 15 additions and one enriched membership module on the authorized test site. The retained original baseline had 56 present, 2 partial and 14 missing components. Each variant preset includes all six required components. G–L share one navigation appearance, and J–L still need a deliberate hero-design pass. Private-party options retain the stable `events` IDs while displaying as **Private Parties**; B's original public Playbill is optional Programme content.
+
+The current catalog contains **110 choices across 18 section categories: 105 actual screenshots and 5 verified zero-height optional/support sections**. It preserves published empty states. Footer captures A/I/J/L omit a documented final 1 CSS pixel; original DOM bounds remain in their capture notes. Configured components absent from the observed published DOM do not retain stale choices. Repaired B/G/H/I/J/K/L have actual 390px mobile geometry evidence and a manual pixel review; all 16 new or enriched modules fit without measured horizontal overflow and preserve readable content, loaded menu images and visible actions. See [the parity report and mobile proof](docs/COMPONENT-PARITY.md).
+
+The original 20 October A–C screenshot set used fictional showtimes; Hero B also received a browser-only selector correction. That set has been replaced, and unused legacy images removed. Fresh captures must preserve the real page, including empty programming states, with no data fixtures or CSS corrections. Illustrative or partial captures may remain catalog evidence, but are excluded from customer choices.
+
+To ingest a verified inventory and capture observations from the sibling `evidence` directory:
+
+```sh
+node scripts/sync-evidence.mjs
+node scripts/sync-evidence.mjs ../evidence/observations.json
 ```
 
-`sections` is in page order. `components` are the INDY component names to
-build with, `sourceUrl` is the live example they came from, and `pickerUrl`
-reopens the selection in the picker.
+The observations format is `{ capturedAt, variants: [{ id, sections: [{ slotId, name, components, image, width, height, sectionIds, capture }] }] }`. Only inventory-verified variant IDs are accepted. Each included variant is a complete rendered-page observation: older options absent from that observation are removed. Image paths resolve relative to the observations file and must stay within the INDY workspace.
 
-## Refreshing the screenshots
+For a repaired component, include explicit `canonicalComponent`, `componentStatus: "present"` and `componentNote` describing the reviewed source content. This updates that component's audit record. A screenshot refresh alone preserves existing audit caveats; a changed section identity without semantic review is marked unverified. Use `designNote: null` to clear a resolved design caveat. Required private-party captures use the existing `events` slot; unrelated public programme content belongs in an additional category.
 
+Ingestion retains reviewed display labels and original `sourceName`/`sourceAliasNote` metadata. Use an explicit `displayName` to replace a picker label, or `displayName: null` to return to the observed native name. Existing `visualReview` metadata keeps its original capture key, so refreshed images become unchecked; supplying new capture data never passes a review automatically.
+
+To apply a complete, site-matched semantic audit to the catalog:
+
+```sh
+node scripts/sync-component-audit.mjs ../evidence/component-parity.json
 ```
+
+This imports the supplied site-matched audit, so do not reapply an older audit over newer reviewed evidence. The current audit is retained in `evidence/component-parity.json`; the original is `evidence/component-parity-baseline.json`. It does not create options for missing sections or alter images. For reviewed source repairs and native full-page/viewport-tile processing, follow [the capture workflow](docs/CAPTURE-WORKFLOW.md).
+
+To refresh approved selectors directly from the published consumer site, install the capture-only Playwright dependency and its browser, then run:
+
+```sh
 npm install
 npx playwright install chromium
-npm run capture
+npm run capture -- --variant=variant-k-clubhouse
+npm run capture -- --variant=variant-k-clubhouse --mobile
 ```
 
-`scripts/capture.mjs` visits each variant site, screenshots every section, and
-rewrites `screenshots/` and `catalog.json`. To add a variant or a new section,
-edit `SLOTS` and `VARIANTS` at the top of that script. The script fails loudly
-if a variant's section count no longer matches what is listed there.
+The refresh script requires exact, verified `capture.selectors` (or `sectionSelectors`) for each option. It skips unverified mappings, fails if a selector stops resolving uniquely, and preserves the catalog when no capture jobs are available. It does not inject fixtures, repair the source page, publish INDY content, or deploy the picker.
 
-Two things are patched in the browser during capture, because the test site
-does not render them as designed:
+Native movie widgets have useful layout controls, documented in [movie-widget research and policy](docs/MOVIE-WIDGETS.md). Keep a shared Movies function in the eventual website baseline. Now Playing, Coming Soon and Ticket Finder remain research choices in the underlying catalog, outside this customer checklist, until actual layouts have populated desktop/mobile evidence. A compact booking selector is not a replacement for film discovery.
 
-- **Now Playing is fed sample showtimes.** The test site has nothing scheduled,
-  so its Now Playing sections would show "Nothing Scheduled". The two showtimes
-  GraphQL queries are answered from `scripts/fixtures/showtimes.mjs` (five
-  fictional films with generated posters, rendered in the circuit's Pacific
-  time zone). Edit `FILMS` there to change the programme. The live site keeps
-  showing the empty state until showtimes are added in INDY admin.
-- **Hero B's custom CSS targets the wrong class.** It styles the note panel on
-  `.absolute-full`, but the carousel renders that wrapper as `.absolute-left`,
-  so on the live site the title floats over the photo. `SELECTOR_FIXES` in
-  `scripts/capture.mjs` clones those rules onto the right selector. Fix the CSS
-  in INDY admin, then remove the entry; a stale entry fails the run.
+## Library reuse model
+
+Keep a full variant as its reference page. The Clubhouse food pilot uses the actual native **Concessions Menu**, independently of K's experiential “Stay Awhile” Text Block. Its one-section carrier was promoted to a Library Page, imported cross-site and unlinked. Library Page import creates a separate Page. Assembly inside an existing Page was verified separately by native widget recreation, portable Section CSS and ordering; direct Library Section insertion and native cross-page copying remain unverified.
+
+Before promoting a section, record its native widgets, section/page CSS, Theme & Style dependencies, media, links, and dynamic data needs. Header, navigation, and footer need separate site-level handling. Test one section and one destination copy before creating the full collection.
+
+For an independent local starting template, the destination workflow is **Add From Library → Unlink → verify Not Linked → customize**. Turning Library Updates off retains the link and a Force Update can still refresh it. Keep a link active only when synchronized upstream updates are intended. The model export records this policy and the current verification status; it never creates or unlinks pages automatically. K's [portable package](template-adapters/library-k-food/README.md) preserves its historical Admin evidence, destination-data dependencies and internal-name/CSS-scope caveat. The later [published independent-copy phase](evidence/library-k-food-live/README.md) passed current-palette desktop and 390px consumer checks: three/one columns, seven loaded photos and zero horizontal overflow. Its mobile category label can lag until further scrolling after a successful Desserts jump. Arbitrary palettes, physical devices, Mobile App, checkout, catalogue availability rules and controlled empty state remain untested. Normally use one visible food Section per finished slot; the live phase hides the original comparison menu and removes its floating bar. See [the Library investigation](docs/INDY-LIBRARY.md) for rollout details.
+
+## Files
+
+- `app.js`, `index.html`, `styles.css`: browser UI.
+- `model.mjs`: selection normalization, presets, versioned export and transfer planning.
+- `workflow.mjs`: ordered steps, eligible choices, explicit confirmations and customer summary.
+- `colors.mjs`: hex normalization, brand colors and WCAG contrast calculation.
+- `hub.mjs`, `data/template-hub.json`: read-only Templates tab, approved A–I display names and internal demo readiness.
+- `data/build-modules.json`, `scripts/build-module-index.mjs`: catalog-pinned source/package readiness and artifact hashes.
+- `catalog.json`, `screenshots/`: verified collection and image assets.
+- `scripts/serve.mjs`: local static preview server.
+- `scripts/sync-evidence.mjs`: inventory/capture ingestion.
+- `scripts/sync-component-audit.mjs`: semantic component audit ingestion.
+- `scripts/prepare-parity-metadata.mjs`, `scripts/process-captures.py`: exact-source semantic metadata and genuine browser-image processing.
+- `scripts/capture.mjs`: opt-in refresh of verified selectors.
+- `tests/model.test.mjs`: selection migration, missing sections, export and asset integrity.
+- `tests/colors.test.mjs`, `tests/workflow.test.mjs`: contrast boundaries, saved confirmations, fixed customer choices and summary behavior.
+- `tests/palette-contract.test.mjs`: complete palette migration, bindings, build-contract confirmations and artifact digest integrity.
+- `tests/parity-catalog.test.mjs`, `tests/evidence-sync.test.mjs`, `tests/process-captures.test.py`: six-component presets, capture provenance, source identity, crop coverage and ingestion checks.

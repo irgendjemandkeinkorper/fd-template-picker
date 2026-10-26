@@ -1,0 +1,97 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 toolbar
+			3 button
+			4 text INDY Admin
+			5 text field (settable) f_ac8d6a33-5554-40bf-8791-cfa9ff2702fc
+			6 switch 0
+			7 button
+			8 container
+				9 text Region US-BETA
+				10 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_fa8a4831-4586-46ba-b7f3-9b7c2afb25b8, Secondary Actions: Expand
+			11 container
+				12 text Circuit Website Templates
+				13 combo box (collapsed, settable) Description: Circuit, Value: Website Templates, ID: f_5c588695-6bf6-48b1-8c46-b410a6f5e914, Secondary Actions: Expand
+			14 container
+				15 text Site Showcase
+				16 combo box (collapsed, settable) Description: Site, Value: Showcase, ID: f_666eb733-55d0-4078-97cc-df0bf4b370fc, Secondary Actions: Expand
+			17 button Menu
+		18 container
+			19 content list
+				20 container
+					21 text Dashboard
+			22 content list
+				23 container
+					24 text Operations
+			25 content list
+				26 container
+					27 text Reports
+			28 content list
+				29 container
+					30 text Settings
+			31 text Favorites
+			32 content list
+				33 container
+					34 text Theme and Style
+			35 content list
+				36 container
+					37 text Pages
+			38 content list
+				39 container
+					40 text Release Notes
+			41 content list
+				42 container
+					43 text How To Guides
+			44 content list
+				45 container
+					46 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+			47 content list
+				48 container
+					49 text Developer
+			50 switch Description: Demo Mode, Value: 0
+				51 text Demo Mode
+		234 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+		235 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+		236 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+		237 content list
+			238 container
+				239 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+					240 text Page Settings
+					241 text Manage site-wide page behaviour
+			242 container
+				243 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+					244 text Pages
+					245 text Create or manage page content, for desktop and mobile websites and apps
+				246 container
+					247 text Pages
+					248 button
+					249 button
+					250 container
+						251 text field (settable) f_ae1e9f1d-796c-4b4a-835b-4ad855638adc
+						252 button
+					253 button SET ORDER
+					254 button ADD FROM LIBRARY
+					255 button CREATE PAGE
+					256 table
+						257 row
+							258 cell
+								259 text ID
+							260 cell
+								261 text Title
+							262 cell
+								263 text Slug
+							264 cell
+								265 text Sections
+							266 cell
+								267 text Views
+							268 cell
+								269 text Visibility
+							270 cell
+								271 text Library
+							272 cell
+								273 text Actions
+					274 text No Pages
+	233 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+
+The focused UI element is 275 container

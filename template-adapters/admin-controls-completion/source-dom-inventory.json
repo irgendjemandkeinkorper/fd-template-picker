@@ -1,0 +1,1472 @@
+{
+  "schema": "fd-admin-controls-source-dom/v1",
+  "source": "C:\\Users\\mxz\\OneDrive\\Documents\\ChatGPT\\INDY\\evidence\\admin-controls-audit\\live-template-styles-final.json",
+  "sourceSha256": "387957e40b53efbe0465ea5c9596a8eada8d9c9878d37ef911b41feb0887b623",
+  "scope": "Retained public DOM; native editable fields and native settings remain separate readbacks.",
+  "variants": [
+    {
+      "variant": "variant-a-circuit",
+      "capturedAt": "2026-10-25T17:13:51.949Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-a---showtimes-shelf-23738",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-hero-a---shelf-23739",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "ha-shelf__book",
+              "href": "/movie/ghost-in-the-shell-30th-anniversary"
+            },
+            {
+              "class": "ha-shelf__book",
+              "href": "/explore-movies"
+            },
+            {
+              "class": "ha-shelf__book",
+              "href": "/explore-movies"
+            },
+            {
+              "class": "ha-shelf__book",
+              "href": "/explore-movies"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-now-playing-a---departure-board-23753",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-a---rate-card-23724",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "ev-a__link",
+              "href": "/variant-a-special-events/"
+            },
+            {
+              "class": "ev-a__link",
+              "href": "/variant-a-special-events/"
+            },
+            {
+              "class": "ev-a__link",
+              "href": "/variant-a-special-events/"
+            },
+            {
+              "class": "ev-a__link",
+              "href": "/variant-a-special-events/"
+            },
+            {
+              "class": "ev-a__link",
+              "href": "/variant-a-special-events/"
+            },
+            {
+              "class": "ev-a__link",
+              "href": "/variant-a-special-events/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-food-a---chip-rail-23731",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 32px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 1360px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-a---compressed-column-23747",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-find-us-a---map-strip-23777",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fua__cta",
+              "href": "https://www.google.com/maps?q=Chicago,IL"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-a---tier-rail-23765",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "mba__cta",
+              "href": "/membership/"
+            },
+            {
+              "class": "mba__cta",
+              "href": "/membership/"
+            },
+            {
+              "class": "mba__cta",
+              "href": "/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "variant-b-rep",
+      "capturedAt": "2026-10-25T17:13:55.228Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-b---plate-and-note-23741",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-b---playbill-23726",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "ev-b__link",
+              "href": "/variant-b-special-events/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-food-b---printed-menu-23733",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 639px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 211px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-b---split-desk-23749",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-find-us-b---street-plate-23779",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fub__cta",
+              "href": "https://www.google.com/maps?q=Ann+Arbor,MI"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-b---subscriber-bill-23767",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "mbb__cta",
+              "href": "/membership/"
+            },
+            {
+              "class": "mbb__cta",
+              "href": "/membership/"
+            },
+            {
+              "class": "mbb__cta",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-private-parties-b---your-own-evening-25134",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/private-hire/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "variant-c-late",
+      "capturedAt": "2026-10-25T17:13:58.050Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-c---marquee-23744",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-hero-c---dock-23745",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-c---ticket-stack-23728",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-c---tile-wall-23735",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 30px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 1320px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-c---statement-line-23751",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-find-us-c---night-map-23781",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fuc__cta",
+              "href": "https://www.google.com/maps?q=Detroit,MI"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-c---card-ledger-23769",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "mbc__cta",
+              "href": "/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "variant-d-odd",
+      "capturedAt": "2026-10-25T17:14:01.412Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-d---collage-24790",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-hero-d---ruth-line-24791",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-d---noticeboard-24793",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "od-note__link",
+              "href": "#contact"
+            },
+            {
+              "class": "od-note__link",
+              "href": "#contact"
+            },
+            {
+              "class": "od-note__link",
+              "href": "#contact"
+            },
+            {
+              "class": "od-note__link",
+              "href": "#contact"
+            },
+            {
+              "class": "od-note__link",
+              "href": "#contact"
+            },
+            {
+              "class": "od-note__link",
+              "href": "#contact"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-food-d---sticker-sheet-24794",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 0px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 1200px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-d---anchor-24925",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-d---postcard-24795",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-find-us-d---hand-drawn-map-24796",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "od-map__cta od-tilt",
+              "href": "https://www.google.com/maps?q=Chicago,IL"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-d---loyalty-card-24797",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [
+            {
+              "tag": "div",
+              "class": "od-club__tier od-tilt"
+            },
+            {
+              "tag": "div",
+              "class": "od-club__tier od-tilt"
+            },
+            {
+              "tag": "div",
+              "class": "od-club__tier od-tilt"
+            }
+          ],
+          "authoredLinks": [
+            {
+              "class": "od-club__cta",
+              "href": "/membership/"
+            },
+            {
+              "class": "od-club__cta",
+              "href": "/membership/"
+            },
+            {
+              "class": "od-club__cta",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-gift-cards-d---paper-chit-24798",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        }
+      ]
+    },
+    {
+      "variant": "variant-e-grid",
+      "capturedAt": "2026-10-25T17:14:04.817Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-e---product-panel-24806",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-hero-e---quick-selector-24807",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-e---packages-24809",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "gr-btn",
+              "href": "#contact"
+            },
+            {
+              "class": "gr-btn gr-btn--primary",
+              "href": "#contact"
+            },
+            {
+              "class": "gr-btn",
+              "href": "#contact"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-food-e---catalogue-24810",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 0px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 216px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-e---anchor-24927",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-e---support-panel-24811",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-e---channels-24812",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-find-us-e---location-card-24813",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "gr-btn",
+              "href": "https://www.google.com/maps?q=Chicago,IL"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-e---tiers-24814",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "gr-btn",
+              "href": "/membership/"
+            },
+            {
+              "class": "gr-btn gr-btn--primary",
+              "href": "/membership/"
+            },
+            {
+              "class": "gr-btn",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-gift-cards-e---panel-24815",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        }
+      ]
+    },
+    {
+      "variant": "variant-f-concrete",
+      "capturedAt": "2026-10-25T17:14:07.378Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-f---index-sheet-24826",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-hero-f---reference-print-24828",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-f---hire-schedule-24829",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "cn-block",
+              "href": "#contact"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-food-f---price-table-24830",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 140px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 184px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-f---anchor-25065",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-f---ledger-24831",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-find-us-f---coordinates-24832",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "cn-outline",
+              "href": "https://www.google.com/maps?q=Chicago,IL"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-f---tariff-24833",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "cn-block",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-gift-cards-f---voucher-line-24834",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-card q-card--bordered q-card--flat no-shadow cursor-pointer",
+              "style": "background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-radius: 4px; margin-top: 30px;"
+            },
+            {
+              "tag": "button",
+              "class": "q-btn q-btn-item non-selectable no-outline q-btn--unelevated q-btn--rectangle q-btn--square q-btn--actionable q-focusable q-hoverable q-btn--square col-auto text-capitalize",
+              "style": "font-size: 14px; padding: 8px; min-width: 0px; min-height: 0px; background-color: rgba(0, 0, 0, 0.05); border-radius: 4px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        }
+      ]
+    },
+    {
+      "variant": "variant-g-cut",
+      "capturedAt": "2026-10-25T17:14:09.972Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-g---poster-block-24850",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-g---diagonal-stack-24851",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-g---colour-tile-wall-24852",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-g---two-tone-split-24853",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-membership-g---poster-pass-25118",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "variant-h-storybook",
+      "capturedAt": "2026-10-25T17:14:12.581Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-h---framed-plate-24864",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-primary hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-h---invitations-24865",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-h---framed-bill-of-fare-24866",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-h---the-letter-24867",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-membership-h---subscribers-invitation-25121",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "variant-i-ma",
+      "capturedAt": "2026-10-25T17:40:12.196Z",
+      "sections": [
+        {
+          "publishedClass": "section-hero-i---one-still-one-line-24872",
+          "hasNativeHero": true,
+          "captionRoles": [
+            {
+              "tag": "div",
+              "class": "title q-my-sm text-weight-bold text-white hero-title"
+            },
+            {
+              "tag": "div",
+              "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle"
+            }
+          ],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-events-i---one-occasion-at-a-time-24873",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-i---few-items-wide-margins-24874",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 0px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 0px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-contact-i---one-question-at-a-time-24875",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-membership-i---quiet-return-25125",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/membership/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "variant-j-box-office",
+      "capturedAt": "2026-10-25T17:14:18.083Z",
+      "sections": [
+        {
+          "publishedClass": "section-j-intro-24885",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-j-book-now-24886",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-j-today-24887",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-j-coming-up-24888",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-j-visit-24889",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-j---counter-menu-25142",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-private-parties-j---group-booking-desk-25143",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/private-hire/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-j---box-office-pass-25144",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-contact-j---enquiry-desk-25145",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        }
+      ]
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "capturedAt": "2026-10-25T17:14:20.967Z",
+      "sections": [
+        {
+          "publishedClass": "section-k-welcome-24895",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-k-featured-24896",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-k-reserve-24897",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-k---clubhouse-kitchen-25135",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 639px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 211px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-private-parties-k---gather-your-people-25136",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/private-hire/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-k-stay-awhile-24898",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-membership-k---your-place-in-the-clubhouse-24899",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-contact-k---say-hello-25137",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        }
+      ]
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "capturedAt": "2026-10-25T17:14:23.837Z",
+      "sections": [
+        {
+          "publishedClass": "section-l-opening-note-24905",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-l-tickets-after-dark-24906",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-l-late-lineup-24907",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-l-lounge-ritual-24908",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-l-one-more-24909",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-food-l---after-dark-menu-25138",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 4px; opacity: 0.3; top: 0px; height: 639px; right: 0px;"
+            },
+            {
+              "tag": "div",
+              "class": "q-scrollarea__thumb q-scrollarea__thumb--h absolute-bottom q-scrollarea__thumb--invisible",
+              "style": "border-radius: 4px; background-color: var(--q-primary); width: 211px; opacity: 0.3; left: 0px; bottom: 0px;"
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        },
+        {
+          "publishedClass": "section-private-parties-l---an-evening-of-your-own-25139",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/private-hire/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-membership-l---after-dark-regular-25140",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [],
+          "oddMembershipCards": [],
+          "authoredLinks": [
+            {
+              "class": "fdp-action",
+              "href": "/membership/"
+            }
+          ]
+        },
+        {
+          "publishedClass": "section-contact-l---a-note-after-dark-25141",
+          "hasNativeHero": false,
+          "captionRoles": [],
+          "inlinePaints": [
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            },
+            {
+              "tag": "label",
+              "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+              "style": "--generic-form-field-background: #FFFFFF; --accessible-feedback-field-error-control-color: #9A2C33; --accessible-feedback-field-error-message-color: #9A2C33; --generic-form-field-text: #000000; --generic-form-field-border: #000000; --generic-form-field-label: #000000; --generic-form-field-placeholder: #616161; --generic-form-field-focus: var(--q-primary); --0a31e980: #9A2C33;",
+              "ownership": "Native generated form custom properties; bridge with scoped template CSS rather than editing generated HTML."
+            }
+          ],
+          "oddMembershipCards": [],
+          "authoredLinks": []
+        }
+      ]
+    }
+  ]
+}

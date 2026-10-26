@@ -1,0 +1,61 @@
+{
+  "phase": "template-prefix-request",
+  "target": {"region":"US-BETA","circuit":"Website Templates","circuitId":103,"site":"Showcase","siteId":183},
+  "userPreference": "Use INDY Admin for all hosting changes. All template public addresses must start template-; keep the one-word Site names.",
+  "initialFields": {"Netlify Site Name":"showcase-indy-consumer","Hostname":"","Netlify Site ID":"c68241b5-0f9e-4678-a99f-135b7cc08558","Git Branch Name":"showcase"},
+  "shortNameAttempt": {
+    "Netlify Site Name":"template-showcase",
+    "Hostname":"https://template-showcase.netlify.app",
+    "nativeSaveVerified":true,
+    "validation":"An initial Name-only save was rejected because Hostname is required. Supplying the full matching URL allowed Save; both fields persisted on reopen.",
+    "publicResult":"The exact short address serves an unrelated React/NFT site, not INDY Showcase.",
+    "claimOfSuccessfulHostingRename":false
+  },
+  "correctiveSave": {
+    "Netlify Site Name":"showcase-indy-consumer",
+    "Hostname":"https://showcase-indy-consumer.netlify.app",
+    "readbackVerified":true,
+    "note":"The original working Name was restored. Hostname now explicitly names its existing working public URL because the UI rejected an empty value.",
+    "Netlify Site ID":"c68241b5-0f9e-4678-a99f-135b7cc08558",
+    "Git Branch Name":"showcase"
+  },
+  "candidate": {
+    "Netlify Site Name":"template-showcase-indy-consumer",
+    "Hostname":"https://template-showcase-indy-consumer.netlify.app",
+    "publicReadback":"Netlify Site not found",
+    "ownershipOrAvailabilityEstablished":false,
+    "preparedInNativeForm":false,
+    "saved":false,
+    "savedDuringApprovedDeployTest":true,
+    "oneDeployTest":"User approved. Exactly one Trigger Site Deploy was submitted, the new address remained Netlify Site not found after the deployment window, and the saved working Name/Hostname were restored."
+  },
+  "nativeInspection": {
+    "NetlifyDeployStatus":"Showcase row linked to its restored existing host and offered a deploy control; no rename control observed.",
+    "advancedAction":"Choices inspected read-only, including Create Consumer Website. Execute was not pressed.",
+    "NetlifyLogin":"No login performed; user specified INDY Admin only."
+  },
+  "approvedDeploymentTest": {
+    "requestedAt":"2026-10-26T01:06:14.767Z",
+    "nativeResponse":"Deploy Request Sent. A site deploy has been triggered. This process takes roughly two minutes to complete.",
+    "manualDeployCount":1,
+    "afterWindow":"Fresh browser navigation after roughly four minutes still showed Netlify Site not found at the prefixed candidate URL.",
+    "nativeBadge":"Success badge observed for the unchanged Netlify Site ID; the candidate version.txt link did not resolve to a version. No exact job/build identifier was established.",
+    "establishedHostnameRename":false,
+    "recovery":"Saved original working Netlify Site Name and its full existing Hostname again; re-opened readback verified the same Site ID and branch. Existing host still serves the INDY empty shell.",
+    "evidence":["prefix-deploy-request.txt","prefix-after-deploy.txt","prefix-deploy-status.jpg","prefix-final-recovery.txt"]
+  },
+  "additionalProvisioningProposal": {
+    "description":"Prefixed Name/Hostname plus empty Netlify Site ID, followed by one Create Consumer Website action.",
+    "preparedUnsaved":true,
+    "userDecision":"Declined; keep working host for now and use the template prefix for following iterations.",
+    "discardedByReload":true,
+    "identityChangeSaved":false,
+    "consumerWebsiteCreateExecuted":false
+  },
+  "finalUserInstruction":"Keep Showcase's current working host. Use the template- prefix for future iterations; do not continue this existing-host replacement test.",
+  "currentSavedHost":"https://showcase-indy-consumer.netlify.app",
+  "prefixLiveVerified":false,
+  "otherSitesChanged":false,
+  "pendingHostingApproval":false,
+  "hub":"Still links to the verified original cinema demos, not either proposed address."
+}

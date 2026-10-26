@@ -1,0 +1,56 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+& {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+/* Native section surface and typography */
+&.fdp-k-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-background);color:var(--fd-dark);font-family:Georgia,serif;} &.fdp-k-food h2{color:var(--fd-dark);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-k-food h3{color:var(--fd-dark);font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-k-food p{color:var(--fd-dark);line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-k-food .q-card{background:var(--fd-background);color:var(--fd-dark);border:1px solid var(--fd-line-on-paper);box-shadow:none;} &.fdp-k-food .q-tab{color:var(--fd-dark);} &.fdp-k-food .q-tab--active{color:var(--fd-copy-emphasis);} &.fdp-k-food .q-btn{min-height:44px;} &.fdp-k-food .q-focus-helper{border-radius:inherit;} &.fdp-k-food a:focus-visible,&.fdp-k-food button:focus-visible{outline:3px solid var(--fd-primary);outline-offset:3px;}
+/* Keep content within the section on narrow screens */
+&.fdp-k-food,&.fdp-k-food *{box-sizing:border-box;}&.fdp-k-food .fdp-content,&.fdp-k-food .fdp-content>*,&.fdp-k-food .fdp-content article,&.fdp-k-food .fdp-content aside{min-width:0;}&.fdp-k-food p,&.fdp-k-food li,&.fdp-k-food a{overflow-wrap:break-word;}
+&.fdp-k-food {background:var(--fd-background) !important;color:var(--fd-dark) !important;}
+&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4){color:var(--fd-dark) !important;}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+& .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }

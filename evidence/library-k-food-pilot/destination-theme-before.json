@@ -1,0 +1,22 @@
+{
+  "capturedAt": "2026-10-25T21:03:44.571Z",
+  "colors": [],
+  "context": [
+    {
+      "label": "Region",
+      "value": "US-BETA"
+    },
+    {
+      "label": "Circuit",
+      "value": "INDY Demo "
+    },
+    {
+      "label": "Site",
+      "value": "Adam Template Testing"
+    }
+  ],
+  "css": "",
+  "saveDisabled": [
+    true
+  ]
+}

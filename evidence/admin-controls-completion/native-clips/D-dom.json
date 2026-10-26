@@ -1,0 +1,577 @@
+{
+  "actualSections": [
+    {
+      "classes": [
+        "section-hero-d---collage-24790"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [],
+      "ids": [
+        "24790"
+      ],
+      "index": 0,
+      "sourceBounds": {
+        "height": 785.7999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "viewportBounds": {
+        "height": 785.7999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      }
+    },
+    {
+      "classes": [
+        "section-hero-d---ruth-line-24791"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [],
+      "ids": [
+        "24791"
+      ],
+      "index": 1,
+      "sourceBounds": {
+        "height": 59.5,
+        "width": 1536,
+        "x": 0,
+        "y": 938.7999877929688
+      },
+      "viewportBounds": {
+        "height": 59.5,
+        "width": 1536,
+        "x": 0,
+        "y": 938.7999877929688
+      }
+    },
+    {
+      "classes": [
+        "section-events-d---noticeboard-24793"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Things we will happily let you do in here",
+        "We'll put your name on the screen before the trailers.",
+        "Your film. Our popcorn. Nobody else's phone.",
+        "Doors at eleven. Lights out at midnight.",
+        "Offsites, launches, the all-hands nobody wanted on Zoom.",
+        "Morning screenings with a Q&A if you want one.",
+        "Ask us anything."
+      ],
+      "ids": [
+        "24793"
+      ],
+      "index": 2,
+      "sourceBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      },
+      "viewportBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      }
+    },
+    {
+      "classes": [
+        "section-food-d---sticker-sheet-24794"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Snacks, mostly"
+      ],
+      "ids": [
+        "24794"
+      ],
+      "index": 3,
+      "sourceBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      },
+      "viewportBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      }
+    },
+    {
+      "classes": [
+        "section-contact-d---postcard-24795"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Dear Adam Template Testing 2,"
+      ],
+      "ids": [
+        "24795"
+      ],
+      "index": 4,
+      "sourceBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      },
+      "viewportBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      }
+    },
+    {
+      "classes": [
+        "section-find-us-d---hand-drawn-map-24796"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "120 Example Street"
+      ],
+      "ids": [
+        "24796"
+      ],
+      "index": 5,
+      "sourceBounds": {
+        "height": 1272.0750732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 4833.5625
+      },
+      "viewportBounds": {
+        "height": 1272.0750732421875,
+        "width": 1536,
+        "x": 0,
+        "y": 4833.5625
+      }
+    },
+    {
+      "classes": [
+        "section-membership-d---loyalty-card-24797"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Ten stamps. The eleventh ticket is on us."
+      ],
+      "ids": [
+        "24797"
+      ],
+      "index": 6,
+      "sourceBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      },
+      "viewportBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      }
+    },
+    {
+      "classes": [
+        "section-gift-cards-d---paper-chit-24798"
+      ],
+      "dataAttributes": {
+        "data-test-id": "section-content",
+        "data-v-2f9d9e40": ""
+      },
+      "headings": [
+        "Gift cards"
+      ],
+      "ids": [
+        "24798"
+      ],
+      "index": 7,
+      "sourceBounds": {
+        "height": 427.7124938964844,
+        "width": 1536,
+        "x": 0,
+        "y": 7994.75
+      },
+      "viewportBounds": {
+        "height": 427.7124938964844,
+        "width": 1536,
+        "x": 0,
+        "y": 7994.75
+      }
+    }
+  ],
+  "blockers": [],
+  "clips": [
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 153,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "images": [
+        {
+          "complete": true,
+          "naturalHeight": 400,
+          "naturalWidth": 400,
+          "src": "https://indy-systems.imgix.net/d1pls3y8t68dg08kewygtxjdtxxv?w=400&auto=format,compress",
+          "viewportBounds": {
+            "height": 48.35822296142578,
+            "width": 48.35820388793945,
+            "x": 151.82090759277344,
+            "y": 71.82089233398438
+          }
+        }
+      ],
+      "matchMethods": [],
+      "nativeClipReadyAfterSemanticReview": true,
+      "nativeHeaderLinks": [
+        {
+          "href": "/fandango-cinema-template-test/",
+          "text": "Home"
+        },
+        {
+          "href": "/movie-lineup/",
+          "text": "Films"
+        },
+        {
+          "href": "/food-drink/",
+          "text": "Menu & Bar"
+        },
+        {
+          "href": "/visit/",
+          "text": "Visit"
+        },
+        {
+          "href": "/membership/",
+          "text": "Membership"
+        },
+        {
+          "href": "/events-late-nights/",
+          "text": "Events & Late Nights"
+        },
+        {
+          "href": "/private-hire/",
+          "text": "Private Events"
+        }
+      ],
+      "notes": [],
+      "optionId": "header--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-d-odd-5899) header.consumer-header"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "header",
+      "sourceBounds": {
+        "height": 152.8000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 152.8000030517578,
+        "width": 1536,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 846,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id",
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "hero--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24790",
+        "24791"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-hero-d---collage-24790 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24790",
+          "selector": ".page-variant-d-odd-5899 .section-hero-d---collage-24790"
+        },
+        {
+          "classes": "section-hero-d---ruth-line-24791 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24791",
+          "selector": ".page-variant-d-odd-5899 .section-hero-d---ruth-line-24791"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "hero",
+      "sourceBounds": {
+        "height": 845.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 845.2999877929688,
+        "width": 1536,
+        "x": 0,
+        "y": 153
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1758,
+        "width": 1536,
+        "x": 0,
+        "y": 2523
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "food--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24794"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-food-d---sticker-sheet-24794 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24794",
+          "selector": ".page-variant-d-odd-5899 .section-food-d---sticker-sheet-24794"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "food",
+      "sourceBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 1756.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 2523.97509765625
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1526,
+        "width": 1536,
+        "x": 0,
+        "y": 998
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "events--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24793"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-events-d---noticeboard-24793 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24793",
+          "selector": ".page-variant-d-odd-5899 .section-events-d---noticeboard-24793"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "events",
+      "sourceBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 1525.675048828125,
+        "width": 1536,
+        "x": 0,
+        "y": 998.2999877929688
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 1890,
+        "width": 1536,
+        "x": 0,
+        "y": 6105
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "membership--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24797"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-membership-d---loyalty-card-24797 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24797",
+          "selector": ".page-variant-d-odd-5899 .section-membership-d---loyalty-card-24797"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "membership",
+      "sourceBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 1889.112548828125,
+        "width": 1536,
+        "x": 0,
+        "y": 6105.6376953125
+      }
+    },
+    {
+      "blockers": [],
+      "captureBounds": {
+        "height": 554,
+        "width": 1536,
+        "x": 0,
+        "y": 4280
+      },
+      "images": [],
+      "matchMethods": [
+        "exact-published-section-id"
+      ],
+      "nativeClipReadyAfterSemanticReview": true,
+      "notes": [],
+      "optionId": "contact--variant-d-odd",
+      "pageId": "5899",
+      "sectionIds": [
+        "24795"
+      ],
+      "sectionSelectors": [
+        {
+          "classes": "section-contact-d---postcard-24795 q-px-xs",
+          "headings": "[Circular]",
+          "id": "24795",
+          "selector": ".page-variant-d-odd-5899 .section-contact-d---postcard-24795"
+        }
+      ],
+      "semanticReviewRequired": true,
+      "slot": "contact",
+      "sourceBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      },
+      "sourceIdentityChanged": false,
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "variant": "variant-d-odd",
+      "viewportBounds": {
+        "height": 552.9125366210938,
+        "width": 1536,
+        "x": 0,
+        "y": 4280.64990234375
+      }
+    }
+  ],
+  "currentURL": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+  "devicePixelRatio": 1.25,
+  "document": {
+    "clientWidth": 1536,
+    "scrollHeight": 8707,
+    "scrollWidth": 1536
+  },
+  "nativePalette": {
+    "background": "#fbefe2",
+    "dark": "#38264a",
+    "primary": "#e06b4a",
+    "secondary": "#c4553a"
+  },
+  "observedAt": "2026-10-25T20:02:45.948Z",
+  "pageClass": "page-variant-d-odd-5899",
+  "pageId": "5899",
+  "renderedSectionCount": 8,
+  "safety": "Read-only DOM and computed geometry; no scroll, click, CSS change, fixture, network request, private app state or automatic semantic approval.",
+  "schema": "fd-native-capture-dom-observation/v1",
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "sourceState": "requires-root-published-route-verification",
+  "variant": "variant-d-odd",
+  "viewport": {
+    "height": 639,
+    "width": 1536
+  },
+  "visualViewportScale": 1
+}

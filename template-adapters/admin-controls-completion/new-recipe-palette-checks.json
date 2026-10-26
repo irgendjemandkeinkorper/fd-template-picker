@@ -1,0 +1,110 @@
+{
+  "status": "local-math-only-native-palette-change-unverified",
+  "recipes": "Exact new sRGB native-controls-completion recipes; remaining original Oklab recipes need separate verification.",
+  "reports": [
+    {
+      "palette": {
+        "primary": "#e06b4a",
+        "secondary": "#c4553a",
+        "dark": "#38264a",
+        "background": "#fbefe2"
+      },
+      "pairs": [
+        {
+          "pair": "Background/Dark and opaque media captions",
+          "ratio": 12.01,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Primary16% tint/Dark",
+          "ratio": 10.24,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary14% tint/Dark",
+          "ratio": 10.13,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary20% tint/Dark",
+          "ratio": 9.4,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Dark10% tint/Dark",
+          "ratio": 10.02,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted dark85%/Background",
+          "ratio": 7.76,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted Background85%/Dark",
+          "ratio": 9.11,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Background/Primary12% Dark surface",
+          "ratio": 10.29,
+          "normalTextPass": true
+        }
+      ],
+      "pass": true,
+      "scope": "Exact sRGB recipes in this module, not all original Oklab-derived roles or rendered native states."
+    },
+    {
+      "palette": {
+        "primary": "#0055a4",
+        "secondary": "#f2c94c",
+        "dark": "#101820",
+        "background": "#f7fbff"
+      },
+      "pairs": [
+        {
+          "pair": "Background/Dark and opaque media captions",
+          "ratio": 17.21,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Primary16% tint/Dark",
+          "ratio": 13.33,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary14% tint/Dark",
+          "ratio": 16.2,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Secondary20% tint/Dark",
+          "ratio": 15.79,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Dark10% tint/Dark",
+          "ratio": 14.03,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted dark85%/Background",
+          "ratio": 11.08,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Muted Background85%/Dark",
+          "ratio": 12.59,
+          "normalTextPass": true
+        },
+        {
+          "pair": "Background/Primary12% Dark surface",
+          "ratio": 16.02,
+          "normalTextPass": true
+        }
+      ],
+      "pass": true,
+      "scope": "Exact sRGB recipes in this module, not all original Oklab-derived roles or rendered native states."
+    }
+  ]
+}

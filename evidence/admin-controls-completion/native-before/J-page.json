@@ -1,0 +1,61 @@
+{
+  "fields": [
+    {
+      "label": "Title",
+      "value": "Variant J Box Office"
+    },
+    {
+      "label": "URL Slug",
+      "value": "variant-j-box-office"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Description\nUsed for search engine description. Truncated by search engines at ~160 characters.\n0",
+      "value": ""
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": "[class*=\"section-j-intro-\"] .text-body1,\n[class*=\"section-j-visit-\"] .text-body1 {\n  color: #f5eee8 !important;\n}\n\n/* Keep the four Box Office modules readable at every section width. */\n:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact){padding:clamp(28px,5%,76px) clamp(18px,5%,72px)!important;container-type:inline-size;}\n:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) h2{font-size:clamp(30px,5cqi,62px)!important;overflow-wrap:anywhere;}\n:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) h3{font-size:clamp(21px,3cqi,30px);}\n:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership) .text-body1{color:#241c19!important;}\n.fdp-j-private-parties .fdp-hire-desk{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))!important;}\n.fdp-j-membership .fdp-ticket{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))!important;}\n.fdp-j-contact form{max-width:900px!important;padding:0;}\n.fdp-j-contact .q-col-gutter-md{margin-left:0;}\n.fdp-j-contact .q-col-gutter-md>div{padding-left:0;padding-right:12px;}\n/* Use the Box Office type treatment within the added modules. */\n[class*=\"section-\"]:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) :is(h2,h3){font-family:Arial,sans-serif!important;}\n.fdp-j-membership h2{font-size:clamp(30px,4cqi,52px)!important;}\n/* Keep the native enquiry action in the Box Office palette. */\nbody.site-170 & .fdp-j-contact .q-btn{background:#a84327!important;color:#fff8ec!important;font-family:Arial,Helvetica,sans-serif!important;border-radius:0!important;}"
+    },
+    {
+      "label": "Select Movie\narrow_drop_down",
+      "value": "Select Movie"
+    },
+    {
+      "label": "Name",
+      "value": ""
+    },
+    {
+      "label": "Email",
+      "value": ""
+    },
+    {
+      "label": "Message",
+      "value": ""
+    }
+  ],
+  "heading": "close\narrow_back\narrow_forward\nEdit Page (5914)\nstore\nrefresh\nhistory\nREVERT\nSAVE\nSAVE AND CLOSE\nTitle\nURL Slug\nStart Date\nevent\nEnd Date\nevent\nVIEW P",
+  "rows": [
+    "ID\tName\tType\tVisibility\tActions",
+    "24880\n\t\nJ Intro\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24881\n\t\nJ Book Now\n\t\nShowtime Quick Selector\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24882\n\t\nJ Today\n\t\nShowtimes\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24883\n\t\nJ Coming Up\n\t\nPoster Carousel\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24884\n\t\nJ Visit\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25127\n\t\nFood J - Counter Menu\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25129\n\t\nPrivate Parties J - Group Booking Desk\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25131\n\t\nMembership J - Box Office Pass\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25133\n\t\nContact J - Enquiry Desk\n\t\nGeneric Form\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

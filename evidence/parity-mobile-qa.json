@@ -1,0 +1,1377 @@
+{
+  "checkedAt": "2026-10-25T13:45:55.389Z",
+  "pages": [
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-g-cut-5905",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [
+            {
+              "bg": "rgb(216, 154, 43)",
+              "color": "rgb(21, 21, 21)",
+              "text": "TICKETS"
+            }
+          ],
+          "classes": "section-hero-g---poster-block-24850 q-px-xs section-hero-g---poster-block-24850",
+          "grids": [],
+          "headings": [],
+          "height": 240,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 84
+        },
+        {
+          "actions": [],
+          "classes": "section-events-g---diagonal-stack-24851 q-px-xs section-events-g---diagonal-stack-24851",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(21, 21, 21)",
+              "size": "58.56px",
+              "text": "Weddings."
+            },
+            {
+              "color": "rgb(21, 21, 21)",
+              "size": "58.56px",
+              "text": "Birthdays."
+            },
+            {
+              "color": "rgb(21, 21, 21)",
+              "size": "58.56px",
+              "text": "Private screenings."
+            },
+            {
+              "color": "rgb(21, 21, 21)",
+              "size": "58.56px",
+              "text": "Brand nights."
+            }
+          ],
+          "height": 1247.0125732421875,
+          "links": [
+            {
+              "href": "#contact",
+              "text": "ENQUIRE"
+            },
+            {
+              "href": "#contact",
+              "text": "ENQUIRE"
+            },
+            {
+              "href": "#contact",
+              "text": "ENQUIRE"
+            },
+            {
+              "href": "#contact",
+              "text": "ENQUIRE"
+            }
+          ],
+          "scrollWidth": 394,
+          "width": 390.3999938964844,
+          "y": 324
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(117, 117, 117)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "section-food-g---colour-tile-wall-24852 q-px-xs section-food-g---colour-tile-wall-24852",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(21, 21, 21)",
+              "size": "64px",
+              "text": "Menu"
+            }
+          ],
+          "height": 1545.5374755859375,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 1571.0125732421875
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(21, 21, 21)",
+              "color": "rgb(245, 240, 230)",
+              "text": "SEND"
+            }
+          ],
+          "classes": "section-contact-g---two-tone-split-24853 q-px-xs section-contact-g---two-tone-split-24853",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(245, 240, 230)",
+              "size": "62.464px",
+              "text": "Say something."
+            }
+          ],
+          "height": 764.6000366210938,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 3116.550048828125
+        },
+        {
+          "actions": [],
+          "classes": "fdp-g-membership section-membership-g---poster-pass-25118 q-px-xs section-membership-g---poster-pass-25118",
+          "grids": [
+            {
+              "class": "fdp-grid",
+              "columns": "351.375px",
+              "scrollWidth": 351,
+              "width": 351.375
+            }
+          ],
+          "headings": [
+            {
+              "color": "rgb(255, 244, 223)",
+              "size": "32px",
+              "text": "BECOME A REGULAR."
+            },
+            {
+              "color": "rgb(255, 244, 223)",
+              "size": "21px",
+              "text": "MORE REASONS\nTO COME BACK."
+            },
+            {
+              "color": "rgb(20, 20, 20)",
+              "size": "21px",
+              "text": "KNOW\nYOUR OPTIONS."
+            },
+            {
+              "color": "rgb(255, 244, 223)",
+              "size": "21px",
+              "text": "MAKE IT\nYOUR CINEMA."
+            }
+          ],
+          "height": 1031.0999755859375,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "Explore membership\n↗"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 3881.150146484375
+        }
+      ],
+      "title": "Variant G Cut",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "renderedAfterSectionReview": true,
+      "capturedAt": "2026-10-25T14:21:27.297Z"
+    },
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-h-storybook-5909",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [
+            {
+              "bg": "rgb(156, 49, 88)",
+              "color": "rgb(255, 255, 255)",
+              "text": "Reserve seats"
+            }
+          ],
+          "classes": "section-hero-h---framed-plate-24864 q-px-xs section-hero-h---framed-plate-24864",
+          "grids": [],
+          "headings": [],
+          "height": 472,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 84
+        },
+        {
+          "actions": [],
+          "classes": "section-events-h---invitations-24865 q-px-xs section-events-h---invitations-24865",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "38px",
+              "text": "You are invited"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "29px",
+              "text": "Weddings"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "29px",
+              "text": "Birthdays"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "29px",
+              "text": "Private screenings"
+            }
+          ],
+          "height": 1327.9500732421875,
+          "links": [
+            {
+              "href": "#contact",
+              "text": "Enquire"
+            },
+            {
+              "href": "#contact",
+              "text": "Enquire"
+            },
+            {
+              "href": "#contact",
+              "text": "Enquire"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 556
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(117, 117, 117)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "section-food-h---framed-bill-of-fare-24866 q-px-xs section-food-h---framed-bill-of-fare-24866",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "38px",
+              "text": "Menu"
+            }
+          ],
+          "height": 1769,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 1883.9500732421875
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(87, 23, 38)",
+              "text": "Send message"
+            }
+          ],
+          "classes": "section-contact-h---the-letter-24867 q-px-xs section-contact-h---the-letter-24867",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "38px",
+              "text": "Write to us"
+            }
+          ],
+          "height": 710,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 3652.949951171875
+        },
+        {
+          "actions": [],
+          "classes": "fdp-h-membership section-membership-h---subscribers-invitation-25121 q-px-xs section-membership-h---subscribers-invitation-25121",
+          "grids": [
+            {
+              "class": "fdp-grid",
+              "columns": "309.775px",
+              "scrollWidth": 310,
+              "width": 309.7749938964844
+            }
+          ],
+          "headings": [
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "32px",
+              "text": "A place in the story."
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "21px",
+              "text": "Every visit begins a new chapter."
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "24px",
+              "text": "The invitation"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "24px",
+              "text": "The particulars"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "24px",
+              "text": "Your next chapter"
+            }
+          ],
+          "height": 968.3125,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "Discover membership\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4362.9501953125
+        }
+      ],
+      "title": "Variant H Storybook",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-i-ma-5911",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [],
+          "classes": "section-hero-i---one-still-one-line-24872 q-px-xs section-hero-i---one-still-one-line-24872",
+          "grids": [],
+          "headings": [],
+          "height": 688,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 84
+        },
+        {
+          "actions": [],
+          "classes": "section-events-i---one-occasion-at-a-time-24873 q-px-xs section-events-i---one-occasion-at-a-time-24873",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(31, 35, 38)",
+              "size": "32px",
+              "text": "A private screening"
+            },
+            {
+              "color": "rgb(31, 35, 38)",
+              "size": "32px",
+              "text": "A quiet celebration"
+            },
+            {
+              "color": "rgb(31, 35, 38)",
+              "size": "32px",
+              "text": "A table after the film"
+            }
+          ],
+          "height": 1216.75,
+          "links": [
+            {
+              "href": "#contact",
+              "text": "Enquire"
+            },
+            {
+              "href": "#contact",
+              "text": "Enquire"
+            },
+            {
+              "href": "#contact",
+              "text": "Enquire"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 772
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(117, 117, 117)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "section-food-i---few-items-wide-margins-24874 q-px-xs section-food-i---few-items-wide-margins-24874",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(31, 35, 38)",
+              "size": "32px",
+              "text": "A few things"
+            }
+          ],
+          "height": 2199.25,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 1988.75
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(31, 35, 38)",
+              "text": "Send"
+            }
+          ],
+          "classes": "section-contact-i---one-question-at-a-time-24875 q-px-xs section-contact-i---one-question-at-a-time-24875",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(31, 35, 38)",
+              "size": "32px",
+              "text": "Tell us one thing"
+            }
+          ],
+          "height": 957.7125244140624,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4188
+        },
+        {
+          "actions": [],
+          "classes": "fdp-i-membership section-membership-i---quiet-return-25125 q-px-xs section-membership-i---quiet-return-25125",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(44, 43, 41)",
+              "size": "32px",
+              "text": "Come back."
+            },
+            {
+              "color": "rgb(44, 43, 41)",
+              "size": "21px",
+              "text": "Find your rhythm."
+            },
+            {
+              "color": "rgb(44, 43, 41)",
+              "size": "21px",
+              "text": "Take a closer look."
+            },
+            {
+              "color": "rgb(44, 43, 41)",
+              "size": "21px",
+              "text": "Make it yours."
+            }
+          ],
+          "height": 876.625,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "View membership\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 5145.71240234375
+        }
+      ],
+      "title": "Variant I Ma | Adam Template Testing 2",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-j-box-office-5913",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [],
+          "classes": "section-j-intro-24885 q-px-xs section-j-intro-24885",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(224, 107, 74)",
+              "size": "48px",
+              "text": "TONIGHT AT THE BOX OFFICE"
+            }
+          ],
+          "height": 271.51251220703125,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 84
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(247, 238, 228)",
+              "text": "confirmation_number\nBuy Tickets"
+            }
+          ],
+          "classes": "section-j-book-now-24886 q-px-xs section-j-book-now-24886",
+          "grids": [],
+          "headings": [],
+          "height": 272.3000183105469,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 339.51251220703125
+        },
+        {
+          "actions": [],
+          "classes": "section-j-today-24887 q-px-xs section-j-today-24887",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(255, 255, 255)",
+              "size": "48px",
+              "text": "NOW SHOWING"
+            }
+          ],
+          "height": 301.875,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 611.8125
+        },
+        {
+          "actions": [],
+          "classes": "section-j-coming-up-24888 q-px-xs section-j-coming-up-24888",
+          "grids": [],
+          "headings": [],
+          "height": 0,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 943.6875
+        },
+        {
+          "actions": [],
+          "classes": "section-j-visit-24889 q-px-xs section-j-visit-24889",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(224, 107, 74)",
+              "size": "60px",
+              "text": "PLAN YOUR VISIT"
+            }
+          ],
+          "height": 329.3999938964844,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 943.6875
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(117, 117, 117)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "fdp-j-food section-food-j---counter-menu-25142 q-px-xs section-food-j---counter-menu-25142",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "30px",
+              "text": "AT THE COUNTER."
+            }
+          ],
+          "height": 1710.0999755859375,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 1273.0875244140625
+        },
+        {
+          "actions": [],
+          "classes": "fdp-j-private-parties section-private-parties-j---group-booking-desk-25143 q-px-xs section-private-parties-j---group-booking-desk-25143",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "30px",
+              "text": "YOUR SCREEN. YOUR OCCASION."
+            },
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "21px",
+              "text": "Birthdays & celebrations"
+            },
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "21px",
+              "text": "Private screenings"
+            },
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "21px",
+              "text": "Team & company gatherings"
+            }
+          ],
+          "height": 1086.675048828125,
+          "links": [
+            {
+              "href": "/private-hire/",
+              "text": "Explore private hire\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 2983.1875
+        },
+        {
+          "actions": [],
+          "classes": "fdp-j-membership section-membership-j---box-office-pass-25144 q-px-xs section-membership-j---box-office-pass-25144",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "30px",
+              "text": "KEEP CINEMA ON THE CALENDAR."
+            },
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "21px",
+              "text": "Find your next good reason to return."
+            },
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "21px",
+              "text": "YOUR\nCINEMA\nROUTINE."
+            }
+          ],
+          "height": 852.7250366210938,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "View membership\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4069.862548828125
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(168, 67, 39)",
+              "color": "rgb(255, 248, 236)",
+              "text": "Send message"
+            }
+          ],
+          "classes": "fdp-j-contact section-contact-j---enquiry-desk-25145 q-px-xs section-contact-j---enquiry-desk-25145",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(36, 28, 25)",
+              "size": "30px",
+              "text": "CONTACT THE BOX OFFICE."
+            }
+          ],
+          "height": 721.9625244140625,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4922.58740234375
+        }
+      ],
+      "title": "Variant J Box Office",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "renderedAfterSectionReview": true,
+      "capturedAt": "2026-10-25T14:20:04.582Z"
+    },
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-k-clubhouse-5915",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [],
+          "classes": "section-k-welcome-24895 q-px-xs section-k-welcome-24895 bg-primary",
+          "grids": [],
+          "headings": [],
+          "height": 234.8249969482422,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 84
+        },
+        {
+          "actions": [],
+          "classes": "section-k-featured-24896 q-px-xs section-k-featured-24896",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(224, 107, 74)",
+              "size": "48px",
+              "text": "SELECTED FOR THE CLUB"
+            }
+          ],
+          "height": 288.3125,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 318.82501220703125
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(247, 238, 228)",
+              "text": "Buy Tickets"
+            }
+          ],
+          "classes": "section-k-reserve-24897 q-px-xs section-k-reserve-24897",
+          "grids": [],
+          "headings": [],
+          "height": 243.4375,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 591.1375122070312
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(117, 117, 117)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "fdp-k-food section-food-k---clubhouse-kitchen-25135 q-px-xs section-food-k---clubhouse-kitchen-25135",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "32px",
+              "text": "Good company. Good things to share."
+            }
+          ],
+          "height": 3234.824951171875,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 834.5750122070312
+        },
+        {
+          "actions": [],
+          "classes": "fdp-k-private-parties section-private-parties-k---gather-your-people-25136 q-px-xs section-private-parties-k---gather-your-people-25136",
+          "grids": [
+            {
+              "class": "fdp-grid",
+              "columns": "351.375px",
+              "scrollWidth": 351,
+              "width": 351.375
+            }
+          ],
+          "headings": [
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "32px",
+              "text": "Make room for your people."
+            },
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "28px",
+              "text": "Bring the\nbirthday crowd."
+            },
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "28px",
+              "text": "Gather\nthe team."
+            },
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "28px",
+              "text": "Make a night\nof the film."
+            }
+          ],
+          "height": 1189.3250732421875,
+          "links": [
+            {
+              "href": "/private-hire/",
+              "text": "Plan a private gathering\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4069.400146484375
+        },
+        {
+          "actions": [],
+          "classes": "section-k-stay-awhile-24898 q-px-xs section-k-stay-awhile-24898 bg-primary",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(56, 38, 74)",
+              "size": "48px",
+              "text": "STAY AWHILE"
+            }
+          ],
+          "height": 214.2375030517578,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 5258.72509765625
+        },
+        {
+          "actions": [],
+          "classes": "fdp-k-membership section-membership-k---your-place-in-the-clubhouse-24899 q-px-xs section-membership-k---your-place-in-the-clubhouse-24899 bg-primary",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "32px",
+              "text": "There is a place for you here."
+            },
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "21px",
+              "text": "Come for the film.\nFind your reason to return."
+            },
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "30px",
+              "text": "Your next chapter\nstarts here."
+            }
+          ],
+          "height": 1063.75,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "Find your membership\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 5472.96240234375
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(146, 59, 44)",
+              "color": "rgb(255, 250, 241)",
+              "text": "Send a hello"
+            }
+          ],
+          "classes": "fdp-k-contact section-contact-k---say-hello-25137 q-px-xs section-contact-k---say-hello-25137",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(68, 37, 30)",
+              "size": "32px",
+              "text": "Pull up a chair. Say hello."
+            }
+          ],
+          "height": 734.0625,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 6536.71240234375
+        }
+      ],
+      "title": "Variant K Clubhouse",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "renderedAfterSectionReview": true,
+      "capturedAt": "2026-10-25T14:20:20.266Z"
+    },
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-l-midnight-lounge-5917",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [],
+          "classes": "section-l-opening-note-24905 q-px-xs section-l-opening-note-24905 bg-dark",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(224, 107, 74)",
+              "size": "48px",
+              "text": "MEET ME AT MIDNIGHT"
+            }
+          ],
+          "height": 242.875,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 84
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(247, 238, 228)",
+              "text": "confirmation_number\nBuy Tickets"
+            }
+          ],
+          "classes": "section-l-tickets-after-dark-24906 q-px-xs section-l-tickets-after-dark-24906",
+          "grids": [],
+          "headings": [],
+          "height": 272.3000183105469,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 310.875
+        },
+        {
+          "actions": [],
+          "classes": "section-l-late-lineup-24907 q-px-xs section-l-late-lineup-24907",
+          "grids": [],
+          "headings": [],
+          "height": 0,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 583.1749877929688
+        },
+        {
+          "actions": [],
+          "classes": "section-l-lounge-ritual-24908 q-px-xs section-l-lounge-ritual-24908 bg-primary",
+          "grids": [],
+          "headings": [],
+          "height": 192,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 583.1749877929688
+        },
+        {
+          "actions": [],
+          "classes": "section-l-one-more-24909 q-px-xs section-l-one-more-24909 bg-secondary",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(56, 38, 74)",
+              "size": "48px",
+              "text": "STAY FOR ONE MORE"
+            }
+          ],
+          "height": 242.875,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 775.1749877929688
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(53, 38, 73)",
+              "color": "rgb(255, 241, 215)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "fdp-l-food section-food-l---after-dark-menu-25138 q-px-xs section-food-l---after-dark-menu-25138",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "32px",
+              "text": "A little something after dark."
+            }
+          ],
+          "height": 1769.0999755859375,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 1018.0499877929688
+        },
+        {
+          "actions": [],
+          "classes": "fdp-l-private-parties section-private-parties-l---an-evening-of-your-own-25139 q-px-xs section-private-parties-l---an-evening-of-your-own-25139",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "32px",
+              "text": "Take over the evening."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "30px",
+              "text": "Some nights deserve\ntheir own invitation."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "21px",
+              "text": "Make it an occasion."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "21px",
+              "text": "Change the usual scene."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "21px",
+              "text": "Share the picture."
+            }
+          ],
+          "height": 1223.5750732421875,
+          "links": [
+            {
+              "href": "/private-hire/",
+              "text": "Explore private evenings\n↗"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 2787.150146484375
+        },
+        {
+          "actions": [],
+          "classes": "fdp-l-membership section-membership-l---after-dark-regular-25140 q-px-xs section-membership-l---after-dark-regular-25140",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "32px",
+              "text": "Make a habit of the evening."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "30px",
+              "text": "One more story.\nA reason to return."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "25px",
+              "text": "Find your kind of regular."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "25px",
+              "text": "Read the fine details."
+            },
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "25px",
+              "text": "Choose the next chapter."
+            }
+          ],
+          "height": 1199.25,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "Explore membership\n↗"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4010.72509765625
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(230, 193, 124)",
+              "color": "rgb(32, 23, 37)",
+              "text": "Send your note"
+            }
+          ],
+          "classes": "fdp-l-contact section-contact-l---a-note-after-dark-25141 q-px-xs section-contact-l---a-note-after-dark-25141",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(255, 241, 215)",
+              "size": "32px",
+              "text": "Leave us a note."
+            }
+          ],
+          "height": 702.7125244140625,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 5209.97509765625
+        }
+      ],
+      "title": "Variant L Midnight Lounge",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "renderedAfterSectionReview": true,
+      "capturedAt": "2026-10-25T14:20:17.424Z"
+    },
+    {
+      "documentWidth": 390,
+      "page": "q-page page-variant-b-rep-5661",
+      "scrollY": 0,
+      "sections": [
+        {
+          "actions": [],
+          "classes": "section-hero-b---plate-and-note-23741 q-px-xs section-hero-b---plate-and-note-23741",
+          "grids": [],
+          "headings": [],
+          "height": 517.8375244140625,
+          "links": [
+            {
+              "href": "/movie/katy-perry-the-lifetimes-tour---live-from-paris",
+              "text": "Katy Perry: The Lifetimes Tour - Live From Paris\nShot over two nights in Paris and cut for the room. Doors at seven, and the bar stays open through the credits."
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 129
+        },
+        {
+          "actions": [],
+          "classes": "section-events-b---playbill-23726 q-px-xs section-events-b---playbill-23726",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "34px",
+              "text": "Occasions"
+            },
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "28px",
+              "text": "Carols and Kubrick"
+            },
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "28px",
+              "text": "A night of 35mm"
+            },
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "28px",
+              "text": "The long supper"
+            },
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "28px",
+              "text": "Your own evening"
+            }
+          ],
+          "height": 1202,
+          "links": [
+            {
+              "href": "/variant-b-special-events/",
+              "text": "Ask us about a night"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 646.8375244140625
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgb(255, 255, 255)",
+              "color": "rgb(117, 117, 117)",
+              "text": "Please select category\narrow_drop_down"
+            }
+          ],
+          "classes": "section-food-b---printed-menu-23733 q-px-xs section-food-b---printed-menu-23733",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "34px",
+              "text": "The menu"
+            }
+          ],
+          "height": 2231.962646484375,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 1848.8375244140625
+        },
+        {
+          "actions": [
+            {
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(87, 23, 38)",
+              "text": "Send the note"
+            }
+          ],
+          "classes": "section-contact-b---split-desk-23749 q-px-xs section-contact-b---split-desk-23749",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(20, 20, 24)",
+              "size": "34px",
+              "text": "Write to us"
+            }
+          ],
+          "height": 656.7750244140625,
+          "links": [],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4080.800048828125
+        },
+        {
+          "actions": [],
+          "classes": "section-find-us-b---street-plate-23779 q-px-xs section-find-us-b---street-plate-23779",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(43, 38, 34)",
+              "size": "34px",
+              "text": "18 Example Avenue"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "10px",
+              "text": "HOURS"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "10px",
+              "text": "GETTING HERE"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "10px",
+              "text": "PARKING"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "10px",
+              "text": "ACCESS"
+            }
+          ],
+          "height": 1067.7750244140625,
+          "links": [
+            {
+              "href": "https://www.google.com/maps?q=Ann+Arbor,MI",
+              "text": "OPEN IN MAPS"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 4737.5751953125
+        },
+        {
+          "actions": [],
+          "classes": "section-membership-b---subscriber-bill-23767 q-px-xs section-membership-b---subscriber-bill-23767",
+          "grids": [],
+          "headings": [
+            {
+              "color": "rgb(43, 38, 34)",
+              "size": "34px",
+              "text": "Belong to the Rep"
+            },
+            {
+              "color": "rgb(43, 38, 34)",
+              "size": "38px",
+              "text": "Parterre"
+            },
+            {
+              "color": "rgb(43, 38, 34)",
+              "size": "38px",
+              "text": "Balcony"
+            },
+            {
+              "color": "rgb(43, 38, 34)",
+              "size": "38px",
+              "text": "Circle"
+            },
+            {
+              "color": "rgb(87, 23, 38)",
+              "size": "11px",
+              "text": "WHAT POINTS ARE WORTH"
+            }
+          ],
+          "height": 2299.9375,
+          "links": [
+            {
+              "href": "/membership/",
+              "text": "BECOME A MEMBER"
+            },
+            {
+              "href": "/membership/",
+              "text": "BECOME A MEMBER"
+            },
+            {
+              "href": "/membership/",
+              "text": "BECOME A MEMBER"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 5805.35009765625
+        },
+        {
+          "actions": [],
+          "classes": "fdp-b-private-parties section-private-parties-b---your-own-evening-25134 q-px-xs section-private-parties-b---your-own-evening-25134",
+          "grids": [
+            {
+              "class": "fdp-editorial",
+              "columns": "351.375px",
+              "scrollWidth": 351,
+              "width": 351.375
+            }
+          ],
+          "headings": [
+            {
+              "color": "rgb(40, 34, 31)",
+              "size": "32px",
+              "text": "An evening of your own."
+            },
+            {
+              "color": "rgb(40, 34, 31)",
+              "size": "21px",
+              "text": "Make it your occasion."
+            },
+            {
+              "color": "rgb(40, 34, 31)",
+              "size": "27px",
+              "text": "Celebrations"
+            },
+            {
+              "color": "rgb(40, 34, 31)",
+              "size": "27px",
+              "text": "Private screenings"
+            },
+            {
+              "color": "rgb(40, 34, 31)",
+              "size": "27px",
+              "text": "Company nights"
+            }
+          ],
+          "height": 1168.925048828125,
+          "links": [
+            {
+              "href": "/private-hire/",
+              "text": "Ask about your evening\n→"
+            }
+          ],
+          "scrollWidth": 390,
+          "width": 390.3999938964844,
+          "y": 8105.28759765625
+        }
+      ],
+      "title": "Variant B Rep",
+      "url": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    }
+  ]
+}

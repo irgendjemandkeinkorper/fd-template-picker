@@ -2,10 +2,11 @@
   "name": "fd-template-picker",
   "version": "1.0.0",
   "private": true,
-  "description": "Pick INDY component styles slot by slot and export the selection as JSON for the design team.",
+  "description": "Choose cinema website colors and section styles through a guided checklist, then share the selection with the website team.",
   "type": "module",
   "scripts": {
-    "start": "npx --yes serve -l 4173 .",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test",
     "capture": "node scripts/capture.mjs"
   },
   "devDependencies": {

@@ -1,0 +1,128 @@
+[
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "title q-my-sm text-weight-bold text-white hero-title",
+    "color": "rgb(255, 255, 255)",
+    "height": 48,
+    "shadow": "rgba(0, 0, 0, 0.2) 2px 2px 0px",
+    "text": "Ghost In The Shell 30th Anniversary",
+    "width": 984
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle",
+    "color": "rgb(255, 255, 255)",
+    "height": 0,
+    "shadow": "none",
+    "text": "",
+    "width": 984
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "ev-a__link",
+    "color": "rgb(163, 75, 60)",
+    "height": 35.5,
+    "shadow": "none",
+    "text": "Enquire",
+    "width": 290.6625061035156
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "ev-a__link",
+    "color": "rgb(163, 75, 60)",
+    "height": 35.5,
+    "shadow": "none",
+    "text": "Enquire",
+    "width": 290.6625061035156
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "ev-a__link",
+    "color": "rgb(163, 75, 60)",
+    "height": 35.5,
+    "shadow": "none",
+    "text": "Enquire",
+    "width": 290.6750183105469
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "ev-a__link",
+    "color": "rgb(163, 75, 60)",
+    "height": 35.5,
+    "shadow": "none",
+    "text": "Enquire",
+    "width": 290.6625061035156
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "ev-a__link",
+    "color": "rgb(163, 75, 60)",
+    "height": 35.5,
+    "shadow": "none",
+    "text": "Enquire",
+    "width": 290.6625061035156
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "ev-a__link",
+    "color": "rgb(163, 75, 60)",
+    "height": 35.5,
+    "shadow": "none",
+    "text": "Enquire",
+    "width": 290.6750183105469
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+    "color": "rgb(0, 0, 0)",
+    "height": 80,
+    "shadow": "none",
+    "text": "Name",
+    "width": 468
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+    "color": "rgb(0, 0, 0)",
+    "height": 80,
+    "shadow": "none",
+    "text": "Email",
+    "width": 468
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "q-field row no-wrap items-start q-field--outlined q-textarea q-field--float q-field--labeled q-field--with-bottom generic-form-field accessible-input accessible-feedback-field",
+    "color": "rgb(0, 0, 0)",
+    "height": 169,
+    "shadow": "none",
+    "text": "What you have in mind",
+    "width": 952
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "mba__cta",
+    "color": "rgb(232, 163, 143)",
+    "height": 44.10000228881836,
+    "shadow": "none",
+    "text": "Join Parterre",
+    "width": 264.125
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "mba__cta",
+    "color": "rgb(232, 163, 143)",
+    "height": 44.10000228881836,
+    "shadow": "none",
+    "text": "Join Balcony",
+    "width": 264.13751220703125
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "class": "mba__cta",
+    "color": "rgb(232, 163, 143)",
+    "height": 44.10000228881836,
+    "shadow": "none",
+    "text": "Join Circle",
+    "width": 264.125
+  }
+]

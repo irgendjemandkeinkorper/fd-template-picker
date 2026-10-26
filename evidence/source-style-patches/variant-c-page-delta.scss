@@ -1,0 +1,12 @@
+
+
+/* Restore only this variant's desktop navigation outside the page content wrapper. */
+@at-root {
+
+
+/* PREVIEW QA: restore the desktop navigation hidden by the page-specific theme rule. */
+@media (min-width:1024px){
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header[data-test-id="consumer-header"] .row.menu{display:flex !important;flex-wrap:nowrap;gap:20px;}
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header[data-test-id="consumer-header"] .desktop-navigation-dropdown__trigger-label{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#F5F0E6;}
+}
+}

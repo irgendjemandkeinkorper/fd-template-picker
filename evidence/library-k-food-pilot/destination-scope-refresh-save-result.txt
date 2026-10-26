@@ -1,0 +1,334 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 container
+			3 toolbar
+				4 button
+				5 text INDY Admin
+				6 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+				7 switch 0
+				8 button
+				9 container
+					10 text Region US-BETA
+					11 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+				12 container
+					13 text Circuit INDY Demo
+					14 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+				15 container
+					16 text Site Adam Template Testing
+					17 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+				18 button Menu
+			19 container
+				20 content list
+					21 container
+						22 text Operations
+				23 content list
+					24 container
+						25 text Reports
+				26 content list
+					27 container
+						28 text Settings
+				29 text Favorites
+				30 content list
+					31 container
+						32 text Theme and Style
+				33 content list
+					34 container
+						35 text Pages
+				36 content list
+					37 container
+						38 text Release Notes
+				39 content list
+					40 container
+						41 text How To Guides
+				42 content list
+					43 container
+						44 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				45 content list
+					46 container
+						47 text Developer
+				48 switch Description: Demo Mode, Value: 0
+					49 text Demo Mode
+			50 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+			51 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+			52 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+			53 content list
+				54 container
+					55 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+						56 text Page Settings
+						57 text Manage site-wide page behaviour
+				58 container
+					59 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+						60 text Pages
+						61 text Create or manage page content, for desktop and mobile websites and apps
+					62 container
+						63 text Pages
+						64 button
+						65 button
+						66 container
+							67 text field (settable) f_221c0f75-210c-48c4-a4dd-247cd8334fb7
+							68 button
+						69 button SET ORDER
+						70 button ADD FROM LIBRARY
+							71 text ADD FROM LIBRARY
+						72 button CREATE PAGE
+						73 table
+							74 row
+								75 cell
+									76 text ID
+								77 cell
+									78 text Title
+								79 cell
+									80 text Slug
+								81 cell
+									82 text Sections
+								83 cell
+									84 text Views
+								85 cell
+									86 text Visibility
+								87 cell
+									88 text Library
+								89 cell
+									90 text Actions
+							91 row
+								92 cell
+									93 text 5973
+								94 cell
+									95 text variant-k-clubhouse_food
+								96 cell
+									97 text variant-k-clubhouse-food
+								98 cell
+									99 text 1
+								100 cell
+									101 button  Not Linked
+										102 text  Not Linked
+								103 cell
+									104 button
+									105 button
+									106 button EDIT
+										107 text EDIT
+									108 button
+							109 row
+								110 cell
+									111 text 5599
+								112 cell
+									113 text Movie Lineup
+								114 cell
+									115 text movie-lineup
+								116 cell
+									117 text 3
+								118 cell
+									119 button  Not Linked
+										120 text  Not Linked
+								121 cell
+									122 button
+									123 button EDIT
+									124 button
+							125 row
+								126 cell
+									127 text 5597
+								128 cell
+									129 text Food Drink
+								130 cell
+									131 text food-drink
+								132 cell
+									133 text 2
+								134 cell
+									135 button  Not Linked
+										136 text  Not Linked
+								137 cell
+									138 button
+									139 button EDIT
+									140 button
+							141 row
+								142 cell
+									143 text 5595
+								144 cell
+									145 text Food Drink
+								146 cell
+									147 text food-drink
+								148 cell
+									149 text 2
+								150 cell
+									151 button  Not Linked
+										152 text  Not Linked
+								153 cell
+									154 button
+									155 button EDIT
+									156 button
+							157 row
+								158 cell
+									159 text 5591
+								160 cell
+									161 text Visit
+								162 cell
+									163 text visit
+								164 cell
+									165 text 4
+								166 cell
+									167 button  Not Linked
+										168 text  Not Linked
+								169 cell
+									170 button
+									171 button EDIT
+									172 button
+							173 row
+								174 cell
+									175 text 5587
+								176 cell
+									177 text Movies
+								178 cell
+									179 text movies
+								180 cell
+									181 text 4
+								182 cell
+									183 button  Not Linked
+										184 text  Not Linked
+								185 cell
+									186 button
+									187 button EDIT
+									188 button
+							189 row
+								190 cell
+									191 text 5585
+								192 cell
+									193 text Fandango Cinema Template Test
+								194 cell
+									195 text fandango-cinema-template-test
+								196 cell
+									197 text 8
+								198 cell
+									199 button  Not Linked
+										200 text  Not Linked
+								201 cell
+									202 button
+									203 button EDIT
+									204 button
+						205 text Records per page:
+						206 container
+							207 text 10
+							208 combo box (collapsed, settable) 10, ID: f_a22c6020-a816-43b7-b3e5-88dcd09fe7b1, Secondary Actions: Expand
+						209 text 1-10  of 7
+		210 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		211 container Edit Page (5974) Unpublished Changes
+			212 container
+				213 button Close
+				214 button
+				215 button
+				216 container v-0-0-0-0-4-0-4-0-2-0-0-0-0-1-1-0-0-0-1-0
+					217 text Edit Page (5974)  Unpublished Changes
+				218 button
+				219 button
+				220 button (disabled) REVERT
+				221 button (disabled) SAVE
+				222 button (disabled) SAVE AND CLOSE
+				223 container
+					224 container
+						225 text Title
+						226 text field (settable) Description: Title, Value: variant-k-clubhouse_food, ID: f_85d92de3-c688-43b5-83b0-01239e0b531a
+				227 container
+					228 container
+						229 text URL Slug
+						230 text field Description: URL Slug, Value: variant-k-clubhouse-food, ID: f_d9b911d0-5261-4b3a-b982-cca6568545b4
+				231 container
+					232 container
+						233 text Start Date
+						234 text field (settable) Description: Start Date, ID: f_d7077f01-6606-48aa-92f5-b05b6d55d275
+					235 button Open date picker
+				236 container
+					237 container
+						238 text End Date
+						239 text field (settable) Description: End Date, ID: f_17f09c6c-44cb-4665-ba4f-41249b4ebd72
+					240 button Open date picker
+				241 button VIEW PAGE
+				242 container
+					243 container
+						244 text Header Placement Override Same As Site
+				245 container
+					246 text Overrides the site’s header placement for this page. Only available when the header background is transparent (opacity is less than 1). Otherwise, page content starts below the header.
+				247 container
+					248 text Sections
+					249 button SET ORDER
+					250 button ADD SECTION
+					251 table
+						252 row
+							253 cell
+								254 text ID
+							255 cell
+								256 text Name
+							257 cell
+								258 text Type
+							259 cell
+								260 text Visibility
+							261 cell
+								262 text Actions
+						263 row
+							264 cell
+								265 text 25155
+							266 cell
+								267 text Food - Clubhouse Kitchen
+							268 cell
+								269 text Concessions Menu
+							270 cell
+								271 button
+							272 cell
+								273 button EDIT
+									330 container
+									329 text EDIT
+								274 button
+				275 container
+					276 container
+						277 text Search Engine Title
+						278 text field (settable) Description: Search Engine Title, ID: f_b668bc1a-dcbc-4e55-95f5-af22e9f7974a
+				279 container
+					280 container
+						281 text Search Engine Description
+						282 text entry area (settable) Description: Search Engine Description, ID: f_e0738be4-4bca-45eb-a704-2ac1d17e83f5
+					283 text Used for search engine description. Truncated by search engines at ~160 characters.
+					284 text 0
+				285 switch Description: Visible to Search Engines, Value: 1
+					286 text Visible to Search Engines
+				287 container
+					288 container
+						289 text Custom Styles (CSS)
+						290 text entry area (settable) Description: Custom Styles (CSS), ID: f_e615199c-4d2f-4cd3-8abe-2317f7871b47
+				291 container
+					292 button (collapsed) Expand
+						293 text SEO Health Preview
+						294 text Needs Attention
+				295 container
+					296 text Preview
+					297 container
+						298 button DESKTOP WEB
+						299 button MOBILE WEB
+						300 button APP
+					301 container
+						302 heading Good company. Good things to share., Value: 2
+							303 text Good company. Good things to share.
+						304 text Explore the kitchen and bar before you settle in.
+						331 container
+							332 button Snacks
+								333 text Snacks
+							334 button Drinks
+								335 text Drinks
+							336 button Desserts
+								337 text Desserts
+						338 text Snacks
+						339 container
+							340 text Marquee Popcorn Fresh-popped, hot-buttered. Small, large, or bottomless. Starting at $ 7 . 00
+						341 container
+							342 text No Country for Old Nachos House-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't. $ 14 . 00
+						343 container
+							344 text The Pretzel Identity Warm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package. $ 11 . 00
+						345 text Drinks
+						346 container
+							347 text Soda Starting at $ 6 . 00
+						348 text Desserts
+						349 container
+							350 text Pie Hard Warm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers. $ 10 . 00
+						351 container
+							352 text Sundae, Bloody Sundae Three scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore. $ 10 . 00
+						353 container
+							354 text Movie Candy Sour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic. $ 5 . 00
+
+The focused UI element is 330 container

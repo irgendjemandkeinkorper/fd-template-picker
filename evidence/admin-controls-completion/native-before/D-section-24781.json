@@ -1,0 +1,80 @@
+{
+  "letter": "D",
+  "id": "24781",
+  "name": "Membership D - Loyalty Card",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes",
+      "value": ""
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": ""
+    }
+  ]
+}

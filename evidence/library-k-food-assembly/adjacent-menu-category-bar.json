@@ -1,0 +1,16 @@
+{
+  "barClass": "q-page-sticky row flex-center fixed-top q-page-sticky--expand bg-responsive border-bottom q-pa-md",
+  "display": "flex",
+  "newMenuRoot": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156 zoom",
+  "observation": "The existing menu floating category bar remains visible in the Admin preview while viewing the new Clubhouse menu; original Section retained as approved. Consumer behavior untested.",
+  "oldMenuRoot": "section-concessions---snacks-worth-the-credits-23540 q-px-xs section-concessions---snacks-worth-the-credits-23540 zoom",
+  "position": "fixed",
+  "rect": {
+    "height": 76.80000305175781,
+    "width": 824,
+    "x": 448.3999938964844,
+    "y": 36.60000228881836
+  },
+  "text": "Snacks\nDrinks\nDesserts",
+  "transform": "matrix(1, 0, 0, 1, 0, 56)"
+}

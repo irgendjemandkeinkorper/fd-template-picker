@@ -1,0 +1,58 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+& {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+/* Native section surface and typography */
+&.fdp-g-membership{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-dark);color:var(--fd-background);font-family:Arial,sans-serif;} &.fdp-g-membership h2{color:var(--fd-background);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-g-membership h3{color:var(--fd-background);font-family:Arial,sans-serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-g-membership p{color:var(--fd-background);line-height:1.7;} &.fdp-g-membership .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-g-membership .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-g-membership .fdp-card{padding:clamp(22px,3vw,40px);background:var(--fd-surface-dark);border:1px solid var(--fd-background);} &.fdp-g-membership .fdp-card p{margin-bottom:0;} &.fdp-g-membership .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-g-membership .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:var(--fd-accent);color:var(--fd-dark);font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-g-membership .fdp-action:focus-visible{outline:3px solid var(--fd-background);outline-offset:4px;} &.fdp-g-membership .fdp-action:hover{text-decoration:underline;} &.fdp-g-membership .fdp-actions{margin:28px 0 0;} &.fdp-g-membership .fdp-number{display:block;color:var(--q-background);font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-g-membership .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-g-membership .fdp-list li{padding:16px 0;border-bottom:1px solid var(--fd-background);line-height:1.6;} @media(max-width:720px){&.fdp-g-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-g-membership .fdp-card{padding:24px;} &.fdp-g-membership .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-g-membership h2,&.fdp-g-membership h3{text-transform:uppercase;font-weight:900;letter-spacing:-.055em;}&.fdp-g-membership .fdp-card{border-width:2px;box-shadow:7px 7px 0 var(--fd-accent);}&.fdp-g-membership .fdp-card:nth-child(2){background:var(--fd-accent);color:var(--fd-dark);}&.fdp-g-membership .fdp-card:nth-child(2) :is(h3,p,.fdp-number){color:var(--fd-dark);}&.fdp-g-membership .fdp-actions{margin-top:38px;}
+/* Keep content within the section on narrow screens */
+&.fdp-g-membership,&.fdp-g-membership *{box-sizing:border-box;}&.fdp-g-membership .fdp-content,&.fdp-g-membership .fdp-content>*,&.fdp-g-membership .fdp-content article,&.fdp-g-membership .fdp-content aside{min-width:0;}&.fdp-g-membership p,&.fdp-g-membership li,&.fdp-g-membership a{overflow-wrap:break-word;}
+/* Echo Cut to Picture serif poster lettering */
+&.fdp-g-membership h2,&.fdp-g-membership h3{font-family:Georgia,serif;font-weight:400;letter-spacing:-.05em;}&.fdp-g-membership .fdp-card{border-color:var(--fd-background);}&.fdp-g-membership .fdp-card:nth-child(3){background:var(--fd-primary);}&.fdp-g-membership .fdp-card:nth-child(3) .fdp-number{color:var(--fd-background);}
+/* Preserve membership contrast over inherited page defaults */
+&.fdp-g-membership{background:var(--fd-dark)!important;color:var(--fd-background)!important;} &.fdp-g-membership h2,&.fdp-g-membership h3{color:var(--fd-background)!important;} &.fdp-g-membership .fdp-card:nth-child(2) :is(h3,p,.fdp-number){color:var(--fd-dark)!important;}
+/* Native subtitle contrast and component-width responsiveness */
+&.fdp-g-membership{container-type:inline-size;} &.fdp-g-membership .text-body1{color:var(--fd-background)!important;} @container(max-width:720px){&.fdp-g-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-g-membership .fdp-card{padding:24px;} &.fdp-g-membership .fdp-action{width:100%;}}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+& .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }

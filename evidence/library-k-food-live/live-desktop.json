@@ -1,0 +1,101 @@
+{
+  "background": "rgb(251, 239, 226)",
+  "capturedAt": "2026-10-26T00:11:24.773Z",
+  "cards": [
+    "Marquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00",
+    "No Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00",
+    "The Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.\n$11.00",
+    "Soda\nStarting at$6.00",
+    "Pie Hard\nWarm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.\n$10.00",
+    "Sundae, Bloody Sundae\nThree scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.\n$10.00",
+    "Movie Candy\nSour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.\n$5.00"
+  ],
+  "columns": 3,
+  "documentScrollWidth": 1521,
+  "documentWidth": 1521,
+  "floatingCategoryBars": 0,
+  "heading": {
+    "color": "rgb(56, 38, 74)",
+    "font": "Georgia, \"Times New Roman\", serif",
+    "size": "62px",
+    "text": "Good company. Good things to share."
+  },
+  "mode": "desktop",
+  "originalFoodHeadingPresent": false,
+  "overflowPx": 0,
+  "photos": [
+    {
+      "loaded": true
+    },
+    {
+      "loaded": true
+    },
+    {
+      "loaded": true
+    },
+    {
+      "loaded": true
+    },
+    {
+      "loaded": true
+    },
+    {
+      "loaded": true
+    },
+    {
+      "loaded": true
+    }
+  ],
+  "rootClass": "fdp-k-food section-food---clubhouse-kitchen-25157 q-px-xs section-food---clubhouse-kitchen-25157",
+  "rootScrollWidth": 1521,
+  "rootWidth": 1521,
+  "tokens": {
+    "--q-background": "#fbefe2",
+    "--q-dark": "#38264a",
+    "--q-primary": "#e06b4a",
+    "--q-secondary": "#c4553a"
+  },
+  "url": "https://adam-template-testing-indy-consumer.netlify.app/fandango-cinema-template-test/",
+  "viewport": {
+    "height": 639,
+    "width": 1536
+  },
+  "cardRects": [
+    {
+      "width": 369.7625122070313,
+      "x": 307.0625,
+      "y": 488.1499938964844
+    },
+    {
+      "width": 369.7625122070313,
+      "x": 688.8250122070312,
+      "y": 488.1499938964844
+    },
+    {
+      "width": 369.7625122070313,
+      "x": 1070.5875244140625,
+      "y": 488.1499938964844
+    },
+    {
+      "width": 369.7625122070313,
+      "x": 307.0625,
+      "y": 985.2875366210938
+    },
+    {
+      "width": 369.7625122070313,
+      "x": 307.0625,
+      "y": 1399.2249755859375
+    },
+    {
+      "width": 369.7625122070313,
+      "x": 688.8250122070312,
+      "y": 1399.2249755859375
+    },
+    {
+      "width": 369.7625122070313,
+      "x": 1070.5875244140625,
+      "y": 1399.2249755859375
+    }
+  ],
+  "documentOverflowPx": 0
+}

@@ -1,0 +1,61 @@
+{
+  "fields": [
+    {
+      "label": "Title",
+      "value": "Variant L Midnight Lounge"
+    },
+    {
+      "label": "URL Slug",
+      "value": "variant-l-midnight-lounge"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Description\nUsed for search engine description. Truncated by search engines at ~160 characters.\n0",
+      "value": ""
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": "/* Preserve the Midnight Lounge form button against site primary styles */\nbody.site-170 & .fdp-l-contact .q-btn { background-color:#e6c17c!important; color:#201725!important; }"
+    },
+    {
+      "label": "Select Movie\narrow_drop_down",
+      "value": "Select Movie"
+    },
+    {
+      "label": "Name",
+      "value": ""
+    },
+    {
+      "label": "Email",
+      "value": ""
+    },
+    {
+      "label": "Message",
+      "value": ""
+    }
+  ],
+  "heading": "close\narrow_back\narrow_forward\nEdit Page (5918)\nstore\nrefresh\nhistory\nREVERT\nSAVE\nSAVE AND CLOSE\nTitle\nURL Slug\nStart Date\nevent\nEnd Date\nevent\nVIEW P",
+  "rows": [
+    "ID\tName\tType\tVisibility\tActions",
+    "24900\n\t\nL Opening Note\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24901\n\t\nL Tickets After Dark\n\t\nShowtime Quick Selector\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24902\n\t\nL Late Lineup\n\t\nPoster Carousel\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24903\n\t\nL Lounge Ritual\n\t\nRich Text\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "24904\n\t\nL One More\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25119\n\t\nFood L - After Dark Menu\n\t\nConcessions Menu\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25124\n\t\nPrivate Parties L - An Evening Of Your Own\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25126\n\t\nMembership L - After Dark Regular\n\t\nText Block\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert",
+    "25130\n\t\nContact L - A Note After Dark\n\t\nGeneric Form\n\t\nvisibility\nschedule\nsmartphone\ncomputer\n\t\nEDIT\nmore_vert"
+  ]
+}

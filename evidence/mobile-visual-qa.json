@@ -1,0 +1,1037 @@
+{
+  "schema": "fd-mobile-visual-qa/v1",
+  "date": "2026-10-25",
+  "sourceMetadata": "evidence/parity-mobile-qa.json",
+  "sourceCheckedAt": "2026-10-25T13:45:55.389Z",
+  "method": "Full sections cropped from true public, editing-overlay-free full-page screenshots at scrollY 0. Capture width must exactly match DOM viewport before cropping; image scale is recorded per module. Inspection panels preserve native pixel width and split long modules into labelled continuations.",
+  "moduleCount": 16,
+  "modules": [
+    {
+      "key": "fdp-b-private-parties",
+      "variant": "B",
+      "component": "private-parties",
+      "source": "variant-b-rep-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        9551
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 8105.28759765625,
+        "height": 1168.925048828125,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        8105,
+        390,
+        9275
+      ],
+      "cropDimensions": [
+        390,
+        1170
+      ],
+      "crop": "mobile-components/fdp-b-private-parties.png",
+      "dominantColorFraction": 0.52783,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(40, 34, 31)",
+          "size": "32px",
+          "text": "An evening of your own."
+        },
+        {
+          "color": "rgb(40, 34, 31)",
+          "size": "21px",
+          "text": "Make it your occasion."
+        },
+        {
+          "color": "rgb(40, 34, 31)",
+          "size": "27px",
+          "text": "Celebrations"
+        },
+        {
+          "color": "rgb(40, 34, 31)",
+          "size": "27px",
+          "text": "Private screenings"
+        },
+        {
+          "color": "rgb(40, 34, 31)",
+          "size": "27px",
+          "text": "Company nights"
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/private-hire/",
+          "text": "Ask about your evening\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-g-membership",
+      "variant": "G",
+      "component": "membership",
+      "source": "variant-g-cut-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        5188
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 3881.150146484375,
+        "height": 1031.0999755859375,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        3881,
+        390,
+        4913
+      ],
+      "cropDimensions": [
+        390,
+        1032
+      ],
+      "crop": "mobile-components/fdp-g-membership.png",
+      "dominantColorFraction": 0.19763,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(255, 244, 223)",
+          "size": "32px",
+          "text": "BECOME A REGULAR."
+        },
+        {
+          "color": "rgb(255, 244, 223)",
+          "size": "21px",
+          "text": "MORE REASONS\nTO COME BACK."
+        },
+        {
+          "color": "rgb(20, 20, 20)",
+          "size": "21px",
+          "text": "KNOW\nYOUR OPTIONS."
+        },
+        {
+          "color": "rgb(255, 244, 223)",
+          "size": "21px",
+          "text": "MAKE IT\nYOUR CINEMA."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/membership/",
+          "text": "Explore membership\n↗"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-h-membership",
+      "variant": "H",
+      "component": "membership",
+      "source": "variant-h-storybook-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        5608
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 4362.9501953125,
+        "height": 968.3125,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        4362,
+        390,
+        5332
+      ],
+      "cropDimensions": [
+        390,
+        970
+      ],
+      "crop": "mobile-components/fdp-h-membership.png",
+      "dominantColorFraction": 0.2977,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(87, 23, 38)",
+          "size": "32px",
+          "text": "A place in the story."
+        },
+        {
+          "color": "rgb(87, 23, 38)",
+          "size": "21px",
+          "text": "Every visit begins a new chapter."
+        },
+        {
+          "color": "rgb(87, 23, 38)",
+          "size": "24px",
+          "text": "The invitation"
+        },
+        {
+          "color": "rgb(87, 23, 38)",
+          "size": "24px",
+          "text": "The particulars"
+        },
+        {
+          "color": "rgb(87, 23, 38)",
+          "size": "24px",
+          "text": "Your next chapter"
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/membership/",
+          "text": "Discover membership\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-i-membership",
+      "variant": "I",
+      "component": "membership",
+      "source": "variant-i-ma-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        6299
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 5145.71240234375,
+        "height": 876.625,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        5145,
+        390,
+        6023
+      ],
+      "cropDimensions": [
+        390,
+        878
+      ],
+      "crop": "mobile-components/fdp-i-membership.png",
+      "dominantColorFraction": 0.72473,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(44, 43, 41)",
+          "size": "32px",
+          "text": "Come back."
+        },
+        {
+          "color": "rgb(44, 43, 41)",
+          "size": "21px",
+          "text": "Find your rhythm."
+        },
+        {
+          "color": "rgb(44, 43, 41)",
+          "size": "21px",
+          "text": "Take a closer look."
+        },
+        {
+          "color": "rgb(44, 43, 41)",
+          "size": "21px",
+          "text": "Make it yours."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/membership/",
+          "text": "View membership\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-j-food",
+      "variant": "J",
+      "component": "food",
+      "source": "variant-j-box-office-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        5921
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 1273.0875244140625,
+        "height": 1710.0999755859375,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        1273,
+        390,
+        2984
+      ],
+      "cropDimensions": [
+        390,
+        1711
+      ],
+      "crop": "mobile-components/fdp-j-food.png",
+      "dominantColorFraction": 0.2185,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "30px",
+          "text": "AT THE COUNTER."
+        }
+      ],
+      "actions": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(117, 117, 117)",
+          "text": "Please select category\narrow_drop_down"
+        }
+      ],
+      "links": [],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-j-private-parties",
+      "variant": "J",
+      "component": "private-parties",
+      "source": "variant-j-box-office-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        5921
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 2983.1875,
+        "height": 1086.675048828125,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        2983,
+        390,
+        4070
+      ],
+      "cropDimensions": [
+        390,
+        1087
+      ],
+      "crop": "mobile-components/fdp-j-private-parties.png",
+      "dominantColorFraction": 0.3493,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "30px",
+          "text": "YOUR SCREEN. YOUR OCCASION."
+        },
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "21px",
+          "text": "Birthdays & celebrations"
+        },
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "21px",
+          "text": "Private screenings"
+        },
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "21px",
+          "text": "Team & company gatherings"
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/private-hire/",
+          "text": "Explore private hire\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-j-membership",
+      "variant": "J",
+      "component": "membership",
+      "source": "variant-j-box-office-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        5921
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 4069.862548828125,
+        "height": 852.7250366210938,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        4069,
+        390,
+        4923
+      ],
+      "cropDimensions": [
+        390,
+        854
+      ],
+      "crop": "mobile-components/fdp-j-membership.png",
+      "dominantColorFraction": 0.196,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "30px",
+          "text": "KEEP CINEMA ON THE CALENDAR."
+        },
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "21px",
+          "text": "Find your next good reason to return."
+        },
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "21px",
+          "text": "YOUR\nCINEMA\nROUTINE."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/membership/",
+          "text": "View membership\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-j-contact",
+      "variant": "J",
+      "component": "contact",
+      "source": "variant-j-box-office-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        5921
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 4922.58740234375,
+        "height": 721.9625244140625,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        4922,
+        390,
+        5645
+      ],
+      "cropDimensions": [
+        390,
+        723
+      ],
+      "crop": "mobile-components/fdp-j-contact.png",
+      "dominantColorFraction": 0.5288,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(36, 28, 25)",
+          "size": "30px",
+          "text": "CONTACT THE BOX OFFICE."
+        }
+      ],
+      "actions": [
+        {
+          "bg": "rgb(168, 67, 39)",
+          "color": "rgb(255, 248, 236)",
+          "text": "Send message"
+        }
+      ],
+      "links": [],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-k-food",
+      "variant": "K",
+      "component": "food",
+      "source": "variant-k-clubhouse-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        7547
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 834.5750122070312,
+        "height": 3234.824951171875,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        834,
+        390,
+        4070
+      ],
+      "cropDimensions": [
+        390,
+        3236
+      ],
+      "crop": "mobile-components/fdp-k-food.png",
+      "dominantColorFraction": 0.16467,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "32px",
+          "text": "Good company. Good things to share."
+        }
+      ],
+      "actions": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(117, 117, 117)",
+          "text": "Please select category\narrow_drop_down"
+        }
+      ],
+      "links": [],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-k-private-parties",
+      "variant": "K",
+      "component": "private-parties",
+      "source": "variant-k-clubhouse-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        7547
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 4069.400146484375,
+        "height": 1189.3250732421875,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        4069,
+        390,
+        5259
+      ],
+      "cropDimensions": [
+        390,
+        1190
+      ],
+      "crop": "mobile-components/fdp-k-private-parties.png",
+      "dominantColorFraction": 0.21633,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "32px",
+          "text": "Make room for your people."
+        },
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "28px",
+          "text": "Bring the\nbirthday crowd."
+        },
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "28px",
+          "text": "Gather\nthe team."
+        },
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "28px",
+          "text": "Make a night\nof the film."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/private-hire/",
+          "text": "Plan a private gathering\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-k-membership",
+      "variant": "K",
+      "component": "membership",
+      "source": "variant-k-clubhouse-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        7547
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 5472.96240234375,
+        "height": 1063.75,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        5472,
+        390,
+        6537
+      ],
+      "cropDimensions": [
+        390,
+        1065
+      ],
+      "crop": "mobile-components/fdp-k-membership.png",
+      "dominantColorFraction": 0.29193,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "32px",
+          "text": "There is a place for you here."
+        },
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "21px",
+          "text": "Come for the film.\nFind your reason to return."
+        },
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "30px",
+          "text": "Your next chapter\nstarts here."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/membership/",
+          "text": "Find your membership\n→"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-k-contact",
+      "variant": "K",
+      "component": "contact",
+      "source": "variant-k-clubhouse-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        7547
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 6536.71240234375,
+        "height": 734.0625,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        6536,
+        390,
+        7271
+      ],
+      "cropDimensions": [
+        390,
+        735
+      ],
+      "crop": "mobile-components/fdp-k-contact.png",
+      "dominantColorFraction": 0.59097,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(68, 37, 30)",
+          "size": "32px",
+          "text": "Pull up a chair. Say hello."
+        }
+      ],
+      "actions": [
+        {
+          "bg": "rgb(146, 59, 44)",
+          "color": "rgb(255, 250, 241)",
+          "text": "Send a hello"
+        }
+      ],
+      "links": [],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-l-food",
+      "variant": "L",
+      "component": "food",
+      "source": "variant-l-midnight-lounge-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        6189
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 1018.0499877929688,
+        "height": 1769.0999755859375,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        1018,
+        390,
+        2788
+      ],
+      "cropDimensions": [
+        390,
+        1770
+      ],
+      "crop": "mobile-components/fdp-l-food.png",
+      "dominantColorFraction": 0.25823,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "32px",
+          "text": "A little something after dark."
+        }
+      ],
+      "actions": [
+        {
+          "bg": "rgb(53, 38, 73)",
+          "color": "rgb(255, 241, 215)",
+          "text": "Please select category\narrow_drop_down"
+        }
+      ],
+      "links": [],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-l-private-parties",
+      "variant": "L",
+      "component": "private-parties",
+      "source": "variant-l-midnight-lounge-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        6189
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 2787.150146484375,
+        "height": 1223.5750732421875,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        2787,
+        390,
+        4011
+      ],
+      "cropDimensions": [
+        390,
+        1224
+      ],
+      "crop": "mobile-components/fdp-l-private-parties.png",
+      "dominantColorFraction": 0.41223,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "32px",
+          "text": "Take over the evening."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "30px",
+          "text": "Some nights deserve\ntheir own invitation."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "21px",
+          "text": "Make it an occasion."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "21px",
+          "text": "Change the usual scene."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "21px",
+          "text": "Share the picture."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/private-hire/",
+          "text": "Explore private evenings\n↗"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-l-membership",
+      "variant": "L",
+      "component": "membership",
+      "source": "variant-l-midnight-lounge-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        6189
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 4010.72509765625,
+        "height": 1199.25,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        4010,
+        390,
+        5210
+      ],
+      "cropDimensions": [
+        390,
+        1200
+      ],
+      "crop": "mobile-components/fdp-l-membership.png",
+      "dominantColorFraction": 0.402,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "32px",
+          "text": "Make a habit of the evening."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "30px",
+          "text": "One more story.\nA reason to return."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "25px",
+          "text": "Find your kind of regular."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "25px",
+          "text": "Read the fine details."
+        },
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "25px",
+          "text": "Choose the next chapter."
+        }
+      ],
+      "actions": [],
+      "links": [
+        {
+          "href": "/membership/",
+          "text": "Explore membership\n↗"
+        }
+      ],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    },
+    {
+      "key": "fdp-l-contact",
+      "variant": "L",
+      "component": "contact",
+      "source": "variant-l-midnight-lounge-mobile-page.jpg",
+      "sourceDimensions": [
+        390,
+        6189
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "documentWidth": 390,
+      "dom": {
+        "y": 5209.97509765625,
+        "height": 702.7125244140625,
+        "width": 390.3999938964844,
+        "scrollWidth": 390
+      },
+      "imageScale": 1,
+      "cropBox": [
+        0,
+        5209,
+        390,
+        5913
+      ],
+      "cropDimensions": [
+        390,
+        704
+      ],
+      "crop": "mobile-components/fdp-l-contact.png",
+      "dominantColorFraction": 0.61203,
+      "captureAppearsBlank": false,
+      "headings": [
+        {
+          "color": "rgb(255, 241, 215)",
+          "size": "32px",
+          "text": "Leave us a note."
+        }
+      ],
+      "actions": [
+        {
+          "bg": "rgb(230, 193, 124)",
+          "color": "rgb(32, 23, 37)",
+          "text": "Send your note"
+        }
+      ],
+      "links": [],
+      "widthFitsViewport": true,
+      "visualStatus": "Passed: inspected at native pixel scale; text, layout and CTA are visible, readable and contained."
+    }
+  ],
+  "overview": "evidence/mobile-components/overview.png",
+  "compactProof": "evidence/mobile-components/mobile-contact-proof.png",
+  "inspectionSheets": [
+    "evidence/mobile-components/inspection-01.png",
+    "evidence/mobile-components/inspection-02.png",
+    "evidence/mobile-components/inspection-03.png",
+    "evidence/mobile-components/inspection-04.png",
+    "evidence/mobile-components/inspection-05.png"
+  ],
+  "visualReview": {
+    "status": "Passed for all 16 new modules at 390px",
+    "findings": [],
+    "checkedModules": 16,
+    "checks": [
+      "All seven true-public source screenshots are 390 pixels wide and match the source viewport metadata.",
+      "All 16 module crops preserve native pixels at scale 1.0, with DOM y/height boundaries recorded.",
+      "All 16 module scroll widths fit the 390px viewport within fractional-pixel rounding.",
+      "Headings and body copy are readable; no unintended clipping or overflow was found.",
+      "Editorial membership and private-party sections stack correctly; all ten CTA hrefs are meaningful /membership/ or /private-hire/ routes.",
+      "J, K and L contact forms show Name, Email, Message and their visible action.",
+      "J final orange, K final rust and L final gold actions match the intended palettes.",
+      "All seven product images are visible in each J/K/L food module; no empty gray lazy-load placeholders remain."
+    ],
+    "resolvedCaptureIssues": [
+      "G membership blank full-page area resolved by revealing the module before capture. Final native crop shows all three black/gold/rust cards and the Explore membership action.",
+      "J/K/L lower menu image placeholders resolved by settling actual on-screen product media before capture."
+    ],
+    "independentReview": "A second local-only reviewer independently inspected all five inspection sheets and the compact contact proof, then rechecked refreshed G membership and J food after the capture corrections. No definite visual defects remained.",
+    "optionalPolish": [
+      "L contact input borders are subtle against purple. A stronger border could improve field recognition; this is optional visual polish, not a blocker."
+    ],
+    "scopeLimits": [
+      "Local screenshot and existing DOM evidence review only; no Chrome actions or INDY mutations performed in this QA task.",
+      "No form or purchase submitted. Contact notification delivery and dynamic checkout behavior are outside this pixel review.",
+      "Menu descriptions display the native configured ellipsis; the cards remain readable and prices are visible."
+    ]
+  },
+  "artifactAvailability": {
+    "bundled": [
+      "evidence/mobile-visual-qa.json",
+      "evidence/parity-mobile-qa.json",
+      "evidence/mobile-components/mobile-contact-proof.png"
+    ],
+    "workspaceEvidence": "Native full-page sources, individual module crops and full inspection sheets are retained in the sibling INDY evidence workspace. The catalog bundles desktop screenshots for every captured option."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "fd-library-k-food-transfer-plan/v1",
+  "status": "prepared-awaiting-action-time-confirmation",
+  "region": "US-BETA",
+  "circuit": "INDY Demo",
+  "source": {
+    "site": "Adam Template Testing 2",
+    "siteId": "170",
+    "pageTitle": "variant-k-clubhouse_food",
+    "pageListId": "5969",
+    "editablePageId": "5970",
+    "initialSectionId": "25150",
+    "editableSectionId": "25151",
+    "sections": 1,
+    "nativeWidget": "Concessions Menu",
+    "sectionClass": "fdp-k-food",
+    "pageCss": "",
+    "status": "unpublished / Not Linked / persisted draft reopened and verified"
+  },
+  "library": {
+    "site": "LIBRARY",
+    "siteId": "138",
+    "scopeObserved": "Editing Circuit Library",
+    "newPageTitle": "variant-k-clubhouse_food",
+    "nameSearch": "variant-k-clubhouse: no matching records"
+  },
+  "destination": {
+    "site": "Adam Template Testing",
+    "chosenByUser": true,
+    "newPageTitle": "variant-k-clubhouse_food",
+    "copyCount": 1,
+    "policy": "independently editable / Unlink / Not Linked",
+    "publication": "leave unpublished",
+    "nameSearch": "variant-k-clubhouse: no matching records",
+    "themeCssBefore": "empty",
+    "themeColorsBefore": {
+      "primary": "#e06b4a",
+      "secondary": "#c4553a",
+      "dark": "#38264a",
+      "background": "#fbefe2"
+    }
+  },
+  "authorizedBatchRequested": [
+    "Create a new Circuit Library Page from only the food carrier, including its single native Section, stable class, saved Section CSS and widget settings; save the carrier's new link if required.",
+    "Import exactly one copy of that new Library Page at Adam Template Testing through Add From Library.",
+    "Unlink the new destination copy, save and verify Not Linked before local customization.",
+    "Rename only the destination Section's internal Name from Food K - Clubhouse Kitchen to Food - Clubhouse Kitchen, save and verify the Library master remains unchanged.",
+    "Read back all resulting identities, Section/CSS/settings preservation and catalogue binding; review desktop/phone Admin previews."
+  ],
+  "notInBatch": [
+    "publication or unpublication",
+    "editing original Variant K Clubhouse or any existing destination Page",
+    "changing Theme, navigation, global widgets, products, prices or catalogue availability",
+    "hosting deployment",
+    "copying source catalogue records",
+    "claiming insertion into an existing Page"
+  ],
+  "stopConditions": [
+    "Library UI requires website publication or a different Library target.",
+    "Unexpected extra records or product data are required for import.",
+    "A naming collision or an existing destination record would be replaced."
+  ]
+}

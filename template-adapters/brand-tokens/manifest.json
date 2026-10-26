@@ -1,0 +1,1325 @@
+{
+  "schema": "fd-brand-token-migration-proposals/v1",
+  "status": "local-review-only-not-applied",
+  "coverageScope": "page-and-section-compiled-css-only",
+  "excludedScopes": [
+    "Shared Site Theme Custom CSS",
+    "Global typography and framework styles",
+    "Site-owned header/navigation paint, except incidental existing page-level navigation selectors"
+  ],
+  "headerMigrationStatus": "Not prepared: literal A/B/C and shared G-L Site Theme/header paint remains a separate migration gate; D/E/F native-token navigation still inherits shared theme rules.",
+  "source": "evidence/admin-controls-audit/live-template-styles-final.json",
+  "sourceSha256": "387957e40b53efbe0465ea5c9596a8eada8d9c9878d37ef911b41feb0887b623",
+  "compiledCssWarning": "These retain observed page/section scopes. They are replacement/proof artifacts, not native Admin field exports. Pasting into Page Custom CSS would double-prefix selectors. Split and map to exact editable fields before installation.",
+  "paletteBoundary": "Mappings are semantic design decisions, not nearest-color substitutions. Neutral white/black in existing color-mix recipes remain fixed design neutrals, not client brand colors.",
+  "contrastGates": [
+    {
+      "pair": "Background / Dark",
+      "currentRatio": 12.01,
+      "normalText": "pass"
+    },
+    {
+      "pair": "Header / Primary",
+      "currentRatio": 5.05,
+      "normalText": "pass-current-palette-only"
+    },
+    {
+      "pair": "Background / Secondary",
+      "currentRatio": 3.94,
+      "normalText": "fail",
+      "blocks": "G solid Secondary highlighted membership card"
+    },
+    {
+      "pair": "Primary / Secondary",
+      "currentRatio": 1.35,
+      "normalText": "fail"
+    },
+    {
+      "pair": "Background / Primary",
+      "currentRatio": 2.91,
+      "normalText": "fail",
+      "blocks": "Any inherited Background text on a Primary action not explicitly split"
+    },
+    {
+      "pair": "Dark / Primary",
+      "currentRatio": 4.13,
+      "normalText": "fail"
+    },
+    {
+      "pair": "All tints, muted text, image overlays and native states",
+      "normalText": "requires-rendered-test",
+      "note": "No guarantee from a parent role or base-pair pass."
+    }
+  ],
+  "variants": [
+    {
+      "variant": "variant-a-circuit",
+      "scope": ".page-variant-a-circuit-5659",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:13:51.949Z",
+      "before": "proposals/variant-a-circuit.before.css",
+      "proposed": "proposals/variant-a-circuit.proposed.css",
+      "sourceCharacters": 38916,
+      "identitiesRetained": [
+        "page-variant-a-circuit-5659",
+        "section-contact-a---compressed-column-23747",
+        "section-food-a---chip-rail-23731",
+        "section-hero-a---shelf-23739",
+        "section-hero-a---showtimes-shelf-23738"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Circuit dark card depths are centrally derived Dark surfaces. Primary tint is an authored emphasis choice, not a nearest-color match."
+      ],
+      "replacements": [
+        {
+          "literal": "#08080A",
+          "role": "header",
+          "replacement": "var(--fd-header)",
+          "count": 5
+        },
+        {
+          "literal": "#A89C89",
+          "role": "muted-on-dark",
+          "replacement": "var(--fd-muted-on-dark)",
+          "count": 7
+        },
+        {
+          "literal": "#F5F0E6",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 24
+        },
+        {
+          "literal": "#1C1C21",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 6
+        },
+        {
+          "literal": "#CFC4B2",
+          "role": "muted-on-dark",
+          "replacement": "var(--fd-muted-on-dark)",
+          "count": 3
+        },
+        {
+          "literal": "#A34B3C",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 26
+        },
+        {
+          "literal": "#140E0C",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 11
+        },
+        {
+          "literal": "rgba(163, 75, 60, 0.45)",
+          "role": "primary",
+          "replacement": "color-mix(in srgb, var(--fd-primary) 45%, transparent)",
+          "count": 5
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.18)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 18%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.6)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 60%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.1)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 10%, transparent)",
+          "count": 5
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.5)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.3)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 30%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#E8A38F",
+          "role": "primary-tint",
+          "replacement": "var(--fd-primary-tint)",
+          "count": 5
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.68)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 68%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#1C1411",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 3
+        },
+        {
+          "literal": "#241814",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#2B1A15",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#E7E0D0",
+          "role": "paper-muted",
+          "replacement": "var(--fd-paper-muted)",
+          "count": 1
+        },
+        {
+          "literal": "#BF9B45",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 1
+        },
+        {
+          "literal": "#C96B57",
+          "role": "primary-tint",
+          "replacement": "var(--fd-primary-tint)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.42)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 42%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.78)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 78%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.07)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 7%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.7)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 70%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.45)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 45%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.12)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 12%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.65)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 65%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.09)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 9%, transparent)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-b-rep",
+      "scope": ".page-variant-b-rep-5661",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:13:55.228Z",
+      "before": "proposals/variant-b-rep.before.css",
+      "proposed": "proposals/variant-b-rep.proposed.css",
+      "sourceCharacters": 39284,
+      "identitiesRetained": [
+        "page-variant-b-rep-5661",
+        "section-private-parties-b---your-own-evening-25134"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Paper/card shades are derived from Background. Border and muted text roles intentionally differ."
+      ],
+      "replacements": [
+        {
+          "literal": "#F5F0E6",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 11
+        },
+        {
+          "literal": "#7C7263",
+          "role": "muted-on-paper",
+          "replacement": "var(--fd-muted-on-paper)",
+          "count": 1
+        },
+        {
+          "literal": "#141418",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 8
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.55)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 55%, transparent)",
+          "count": 4
+        },
+        {
+          "literal": "rgba(20, 20, 24, 0.14)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 14%, transparent)",
+          "count": 5
+        },
+        {
+          "literal": "#544D43",
+          "role": "muted-on-paper",
+          "replacement": "var(--fd-muted-on-paper)",
+          "count": 4
+        },
+        {
+          "literal": "#1C1C21",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 4
+        },
+        {
+          "literal": "#571726",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 23
+        },
+        {
+          "literal": "rgba(87, 23, 38, 0.4)",
+          "role": "primary",
+          "replacement": "color-mix(in srgb, var(--fd-primary) 40%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#2B2622",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 13
+        },
+        {
+          "literal": "#6B615A",
+          "role": "muted-on-paper",
+          "replacement": "var(--fd-muted-on-paper)",
+          "count": 7
+        },
+        {
+          "literal": "rgba(43, 38, 34, 0.28)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 28%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(43, 38, 34, 0.3)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 30%, transparent)",
+          "count": 4
+        },
+        {
+          "literal": "rgba(87, 23, 38, 0.5)",
+          "role": "primary",
+          "replacement": "color-mix(in srgb, var(--fd-primary) 50%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#4A423B",
+          "role": "muted-on-paper",
+          "replacement": "var(--fd-muted-on-paper)",
+          "count": 6
+        },
+        {
+          "literal": "rgba(43, 38, 34, 0.2)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 20%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(43, 38, 34, 0.16)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 16%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "#EDE6D8",
+          "role": "paper-muted",
+          "replacement": "var(--fd-paper-muted)",
+          "count": 2
+        },
+        {
+          "literal": "rgba(43, 38, 34, 0.25)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 25%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "#f6f1e6",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 2
+        },
+        {
+          "literal": "#28221f",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 7
+        },
+        {
+          "literal": "#fffdf7",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#b7a896",
+          "role": "line-on-paper",
+          "replacement": "var(--fd-line-on-paper)",
+          "count": 6
+        },
+        {
+          "literal": "#713d35",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 2
+        },
+        {
+          "literal": "#fffaf1",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-c-late",
+      "scope": ".page-variant-c-late-5663",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:13:58.050Z",
+      "before": "proposals/variant-c-late.before.css",
+      "proposed": "proposals/variant-c-late.proposed.css",
+      "sourceCharacters": 37787,
+      "identitiesRetained": [
+        "page-variant-c-late-5663"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Burgundy depths are Dark-derived surfaces. Gold labels and outlined CTA remain Accent; approving a Primary-owned CTA requires a separate semantic decision and contrast test."
+      ],
+      "replacements": [
+        {
+          "literal": "#08080A",
+          "role": "header",
+          "replacement": "var(--fd-header)",
+          "count": 3
+        },
+        {
+          "literal": "#2C0A12",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 13
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.55)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 55%, transparent)",
+          "count": 8
+        },
+        {
+          "literal": "#BF9B45",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 32
+        },
+        {
+          "literal": "#D4B36A",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 3
+        },
+        {
+          "literal": "#F5F0E6",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 15
+        },
+        {
+          "literal": "#CFC4B2",
+          "role": "muted-on-dark",
+          "replacement": "var(--fd-muted-on-dark)",
+          "count": 3
+        },
+        {
+          "literal": "#C08A3E",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 4
+        },
+        {
+          "literal": "rgba(8, 8, 10, 0.96)",
+          "role": "header",
+          "replacement": "color-mix(in srgb, var(--fd-header) 96%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(8, 8, 10, 0.72)",
+          "role": "header",
+          "replacement": "color-mix(in srgb, var(--fd-header) 72%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(8, 8, 10, 0)",
+          "role": "header",
+          "replacement": "color-mix(in srgb, var(--fd-header) 0%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(8, 8, 10, 0.94)",
+          "role": "header",
+          "replacement": "color-mix(in srgb, var(--fd-header) 94%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(8, 8, 10, 0.35)",
+          "role": "header",
+          "replacement": "color-mix(in srgb, var(--fd-header) 35%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(8, 8, 10, 0.55)",
+          "role": "header",
+          "replacement": "color-mix(in srgb, var(--fd-header) 55%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#A89C89",
+          "role": "muted-on-dark",
+          "replacement": "var(--fd-muted-on-dark)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.35)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 35%, transparent)",
+          "count": 8
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.4)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 40%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.65)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 65%, transparent)",
+          "count": 3
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.12)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 12%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.28)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 28%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.5)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 50%, transparent)",
+          "count": 3
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.72)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 72%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.5)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 50%, transparent)",
+          "count": 2
+        },
+        {
+          "literal": "#1B060C",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 7
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.68)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 68%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#24080F",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#3A1119",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 2
+        },
+        {
+          "literal": "#5A2A16",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.65)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 65%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.18)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 18%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.45)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 45%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.08)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 8%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(191, 155, 69, 0.25)",
+          "role": "accent",
+          "replacement": "color-mix(in srgb, var(--fd-accent) 25%, transparent)",
+          "count": 3
+        },
+        {
+          "literal": "rgba(27, 6, 12, 0.94)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 94%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(245, 240, 230, 0.75)",
+          "role": "background",
+          "replacement": "color-mix(in srgb, var(--fd-background) 75%, transparent)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-d-odd",
+      "scope": ".page-variant-d-odd-5899",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:01.412Z",
+      "before": "proposals/variant-d-odd.before.css",
+      "proposed": "proposals/variant-d-odd.proposed.css",
+      "sourceCharacters": 56460,
+      "identitiesRetained": [
+        "page-variant-d-odd-5899"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "D demo overrides are removed; original native aliases retained. Membership card roles are explicit at end, with fixed tilts. Accent remains the original scrap role outside membership."
+      ],
+      "replacements": [],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": [
+        {
+          "property": "--v-paper",
+          "oldValue": "#F5F0E6"
+        },
+        {
+          "property": "--v-ink",
+          "oldValue": "#141418"
+        },
+        {
+          "property": "--v-go",
+          "oldValue": "#3F6B4E"
+        },
+        {
+          "property": "--v-stamp",
+          "oldValue": "#A34B3C"
+        },
+        {
+          "property": "--v-pop",
+          "oldValue": "#9DBCA6"
+        }
+      ]
+    },
+    {
+      "variant": "variant-e-grid",
+      "scope": ".page-variant-e-grid-5901",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:04.817Z",
+      "before": "proposals/variant-e-grid.before.css",
+      "proposed": "proposals/variant-e-grid.proposed.css",
+      "sourceCharacters": 52998,
+      "identitiesRetained": [
+        "page-variant-e-grid-5901"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Grid status colors keep native Accent/Warning semantic roles. Demo override removed."
+      ],
+      "replacements": [],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": [
+        {
+          "property": "--v-ground",
+          "oldValue": "#0E0E11"
+        },
+        {
+          "property": "--v-text",
+          "oldValue": "#F5F0E6"
+        },
+        {
+          "property": "--v-brand",
+          "oldValue": "#BF9B45"
+        },
+        {
+          "property": "--v-brand-2",
+          "oldValue": "#D4B36A"
+        },
+        {
+          "property": "--v-ok",
+          "oldValue": "#5C8A6B"
+        },
+        {
+          "property": "--v-warn",
+          "oldValue": "#C08A3E"
+        }
+      ]
+    },
+    {
+      "variant": "variant-f-concrete",
+      "scope": ".page-variant-f-concrete-5903",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:07.378Z",
+      "before": "proposals/variant-f-concrete.before.css",
+      "proposed": "proposals/variant-f-concrete.proposed.css",
+      "sourceCharacters": 15387,
+      "identitiesRetained": [
+        "page-variant-f-concrete-5903"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Native form custom properties and final important declarations are included, not just --cn-* aliases."
+      ],
+      "replacements": [
+        {
+          "literal": "#e8e5de",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 8
+        },
+        {
+          "literal": "#181818",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 27
+        },
+        {
+          "literal": "#a7a49d",
+          "role": "line-on-paper",
+          "replacement": "var(--fd-line-on-paper)",
+          "count": 5
+        },
+        {
+          "literal": "#484640",
+          "role": "muted-on-paper",
+          "replacement": "var(--fd-muted-on-paper)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-g-cut",
+      "scope": ".page-variant-g-cut-5905",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:09.972Z",
+      "before": "proposals/variant-g-cut.before.css",
+      "proposed": "proposals/variant-g-cut.proposed.css",
+      "sourceCharacters": 29927,
+      "identitiesRetained": [
+        "page-variant-g-cut-5905",
+        "section-membership-g---poster-pass-25118"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Original amber alias spans actions/cards/ornaments. Action and highlighted card roles are split by selector; remaining amber ornament uses Accent."
+      ],
+      "replacements": [
+        {
+          "literal": "#F5F0E6",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#151515",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#A34B3C",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 1
+        },
+        {
+          "literal": "#D89A2B",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 1
+        },
+        {
+          "literal": "#141414",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 5
+        },
+        {
+          "literal": "#fff4df",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 12
+        },
+        {
+          "literal": "#202020",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#f5bf32",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 4
+        },
+        {
+          "literal": "#201725",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#a54b3e",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-h-storybook",
+      "scope": ".page-variant-h-storybook-5909",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:12.581Z",
+      "before": "proposals/variant-h-storybook.before.css",
+      "proposed": "proposals/variant-h-storybook.proposed.css",
+      "sourceCharacters": 27753,
+      "identitiesRetained": [
+        "page-variant-h-storybook-5909",
+        "section-membership-h---subscribers-invitation-25121"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Fixed pastel percentages are central design choices (Primary16%,Secondary14%,Accent20% into Background); visual approval required."
+      ],
+      "replacements": [
+        {
+          "literal": "#FAF4EA",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#F3D6D2",
+          "role": "primary-tint",
+          "replacement": "var(--fd-primary-tint)",
+          "count": 1
+        },
+        {
+          "literal": "#DCE9DC",
+          "role": "secondary-tint",
+          "replacement": "var(--fd-secondary-tint)",
+          "count": 1
+        },
+        {
+          "literal": "#F3E5B8",
+          "role": "accent-tint",
+          "replacement": "var(--fd-accent-tint)",
+          "count": 1
+        },
+        {
+          "literal": "#571726",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(87, 23, 38, 0.28)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 28%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#f8eee4",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#3d2730",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 7
+        },
+        {
+          "literal": "#fffaf1",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 3
+        },
+        {
+          "literal": "#bea687",
+          "role": "line-on-paper",
+          "replacement": "var(--fd-line-on-paper)",
+          "count": 5
+        },
+        {
+          "literal": "#7b2945",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 3
+        },
+        {
+          "literal": "#f3d6d0",
+          "role": "primary-tint",
+          "replacement": "var(--fd-primary-tint)",
+          "count": 2
+        },
+        {
+          "literal": "#5f2235",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 5
+        },
+        {
+          "literal": "#fbf4e8",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-i-ma",
+      "scope": ".page-variant-i-ma-5911",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:40:12.196Z",
+      "before": "proposals/variant-i-ma.before.css",
+      "proposed": "proposals/variant-i-ma.proposed.css",
+      "sourceCharacters": 25021,
+      "identitiesRetained": [
+        "page-variant-i-ma-5911",
+        "section-membership-i---quiet-return-25125"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Image filters/writing mode/fonts are preserved as fixed design. Overlay legibility is a separate adapter."
+      ],
+      "replacements": [
+        {
+          "literal": "#FAF4EA",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#1F2326",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 1
+        },
+        {
+          "literal": "#A53B2A",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 1
+        },
+        {
+          "literal": "rgba(31,35,38,.28)",
+          "role": "dark",
+          "replacement": "color-mix(in srgb, var(--fd-dark) 28%, transparent)",
+          "count": 1
+        },
+        {
+          "literal": "#f8f5ef",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 3
+        },
+        {
+          "literal": "#2c2b29",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 8
+        },
+        {
+          "literal": "#cec6ba",
+          "role": "line-on-paper",
+          "replacement": "var(--fd-line-on-paper)",
+          "count": 3
+        },
+        {
+          "literal": "#944b35",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 3
+        },
+        {
+          "literal": "#fffaf1",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-j-box-office",
+      "scope": ".page-variant-j-box-office-5913",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:18.083Z",
+      "before": "proposals/variant-j-box-office.before.css",
+      "proposed": "proposals/variant-j-box-office.proposed.css",
+      "sourceCharacters": 18523,
+      "identitiesRetained": [
+        "page-variant-j-box-office-5913",
+        "section-contact-j---enquiry-desk-25145",
+        "section-food-j---counter-menu-25142",
+        "section-membership-j---box-office-pass-25144",
+        "section-private-parties-j---group-booking-desk-25143"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Page-level submit/text fixes migrate with section rules. Ticket stub uses Secondary tint."
+      ],
+      "replacements": [
+        {
+          "literal": "#f5eee8",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#241c19",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 30
+        },
+        {
+          "literal": "#a84327",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 1
+        },
+        {
+          "literal": "#fff8ec",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 1
+        },
+        {
+          "literal": "#f3eee5",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 8
+        },
+        {
+          "literal": "#fffaf2",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 6
+        },
+        {
+          "literal": "#a89e91",
+          "role": "line-on-paper",
+          "replacement": "var(--fd-line-on-paper)",
+          "count": 8
+        },
+        {
+          "literal": "#a94728",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 8
+        },
+        {
+          "literal": "#fffaf1",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 3
+        },
+        {
+          "literal": "#ece1d0",
+          "role": "secondary-tint",
+          "replacement": "var(--fd-secondary-tint)",
+          "count": 1
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "scope": ".page-variant-k-clubhouse-5915",
+      "sourceKind": "current-cssom-section-rules",
+      "capturedAt": "2026-10-25T17:14:20.967Z",
+      "before": "proposals/variant-k-clubhouse.before.css",
+      "proposed": "proposals/variant-k-clubhouse.proposed.css",
+      "sourceCharacters": 18075,
+      "identitiesRetained": [
+        "section-contact-k---say-hello-25137",
+        "section-food-k---clubhouse-kitchen-25135",
+        "section-membership-k---your-place-in-the-clubhouse-24899",
+        "section-private-parties-k---gather-your-people-25136"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "CSSOM-only capture includes native sections with generated section selectors. Preserve those IDs in proof but require stable-class portability later."
+      ],
+      "replacements": [
+        {
+          "literal": "rgb(248, 234, 215)",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 8
+        },
+        {
+          "literal": "rgb(68, 37, 30)",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 36
+        },
+        {
+          "literal": "rgb(255, 248, 233)",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 6
+        },
+        {
+          "literal": "rgb(217, 175, 142)",
+          "role": "line-on-paper",
+          "replacement": "var(--fd-line-on-paper)",
+          "count": 7
+        },
+        {
+          "literal": "rgb(146, 59, 44)",
+          "role": "primary",
+          "replacement": "var(--fd-primary)",
+          "count": 11
+        },
+        {
+          "literal": "rgb(255, 250, 241)",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 5
+        },
+        {
+          "literal": "rgb(232, 187, 150)",
+          "role": "secondary-tint",
+          "replacement": "var(--fd-secondary-tint)",
+          "count": 1
+        },
+        {
+          "literal": "rgb(223, 157, 120)",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 2
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "scope": ".page-variant-l-midnight-lounge-5917",
+      "sourceKind": "current-compiled-page-and-section-css",
+      "capturedAt": "2026-10-25T17:14:23.837Z",
+      "before": "proposals/variant-l-midnight-lounge.before.css",
+      "proposed": "proposals/variant-l-midnight-lounge.proposed.css",
+      "sourceCharacters": 18872,
+      "identitiesRetained": [
+        "page-variant-l-midnight-lounge-5917",
+        "section-contact-l---a-note-after-dark-25141",
+        "section-food-l---after-dark-menu-25138",
+        "section-membership-l---after-dark-regular-25140",
+        "section-private-parties-l---an-evening-of-your-own-25139"
+      ],
+      "geometryPreserved": true,
+      "mappingStatus": "complete-literal-substitution",
+      "renderedContrastStatus": "unverified-after-migration",
+      "nativeFieldInstallationStatus": "not-mapped-to-all-current-editable-fields",
+      "reviewNotes": [
+        "Accent actions are deliberate Lounge styling; on-Accent uses Dark. Header color is not reused as universal ink."
+      ],
+      "replacements": [
+        {
+          "literal": "#e6c17c",
+          "role": "accent",
+          "replacement": "var(--fd-accent)",
+          "count": 10
+        },
+        {
+          "literal": "#201725",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 5
+        },
+        {
+          "literal": "#291d3b",
+          "role": "dark",
+          "replacement": "var(--fd-dark)",
+          "count": 8
+        },
+        {
+          "literal": "#fff1d7",
+          "role": "background",
+          "replacement": "var(--fd-background)",
+          "count": 38
+        },
+        {
+          "literal": "#352649",
+          "role": "surface-dark",
+          "replacement": "var(--fd-surface-dark)",
+          "count": 9
+        },
+        {
+          "literal": "#82688f",
+          "role": "line-on-dark",
+          "replacement": "var(--fd-line-on-dark)",
+          "count": 11
+        }
+      ],
+      "unknownLiteralColors": {},
+      "removedDemoDeclarations": []
+    }
+  ],
+  "releaseGates": [
+    "Prepare and verify the separate shared Site Theme/header paint migration; preserve the approved Concrete navigation repair.",
+    "Resolve every unknown color and every failed actual foreground/background pairing.",
+    "Read current native editable fields and map compiled blocks back to page versus section ownership.",
+    "Apply Odd stable card role classes with its CSS, retaining original body information and tilts.",
+    "Verify native field/media/CTA/product edits without CSS changes.",
+    "Use a second distinct native brand palette and inspect all templates on desktop/mobile.",
+    "Prove a destination Library copy/unlink without source-ID selector dependence."
+  ],
+  "rebasedRepair": {
+    "variant": "variant-i-ma",
+    "source": "Final published 2026-10-25 public CSS capture",
+    "preserved": [
+      "Native Light Text class behavior",
+      "Desktop and mobile caption selectors",
+      "88% native Dark backdrop",
+      "Text shadow",
+      "Positive 24px desktop caption offsets"
+    ],
+    "siteThemeExcluded": "Concrete header repair belongs to excluded shared Site Theme CSS and is not replaced by these proposals."
+  },
+  "summary": {
+    "variants": 12,
+    "coverageScope": "page-and-section-compiled-css-only",
+    "completeLiteralSubstitutions": 12,
+    "unmappedLiteralColors": [],
+    "sharedSiteThemeOrHeaderMigrationsPrepared": 0,
+    "published": 0,
+    "certifiedForClientUse": 0
+  }
+}

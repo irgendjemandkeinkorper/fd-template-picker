@@ -1,0 +1,83 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages?search=variant-k-clubhouse".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages?search=variant-k-clubhouse
+	1 container
+		298 text Editing Circuit Library
+		2 toolbar
+			3 button
+			4 text INDY Admin
+			5 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+			7 switch 0
+			8 button
+			9 container
+				10 text Region US-BETA
+				299 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+			12 container
+				13 text Circuit INDY Demo
+				300 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+			15 container
+				16 text Site LIBRARY
+				301 combo box (collapsed, settable) Description: Site, Value: LIBRARY, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+			18 button Menu
+		19 container
+			26 content list
+				27 container
+					28 text Settings
+			29 text Favorites
+			30 content list
+				31 container
+					32 text Pages
+			36 content list
+				37 container
+					38 text Release Notes
+			42 content list
+				43 container
+					44 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+			45 content list
+				46 container
+					47 text Developer
+			48 switch Description: Demo Mode, Value: 0
+				49 text Demo Mode
+		50 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+		51 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+		52 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+		53 content list
+			58 container
+				59 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+					60 text Pages
+					61 text Create or manage page content, for desktop and mobile websites and apps
+				62 container
+					63 text Pages
+					64 button
+					485 button
+					66 container
+						482 container
+							483 text field (settable) Clear, Value: variant-k-clubhouse, ID: f_a063725b-3ab0-443a-9fa0-0e7cf1c77cae
+							484 button Clear
+						68 button
+					69 button (disabled) SET ORDER
+					70 button ADD FROM LIBRARY
+						71 text ADD FROM LIBRARY
+					72 button CREATE PAGE
+						73 text CREATE PAGE
+					74 table
+						486 row
+							487 cell
+								488 text ID
+							489 cell
+								490 text Title
+							491 cell
+								492 text Slug
+							493 cell
+								494 text Sections
+							495 cell
+								496 text Views
+							497 cell
+								498 text Visibility
+							499 cell
+								500 text Library
+							501 cell
+								502 text Actions
+					503 text No matching records found
+	262 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+
+The focused UI element is 483 text field (settable) Clear, Value: variant-k-clubhouse, ID: f_a063725b-3ab0-443a-9fa0-0e7cf1c77cae

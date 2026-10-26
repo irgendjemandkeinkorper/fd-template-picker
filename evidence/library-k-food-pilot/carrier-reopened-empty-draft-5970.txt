@@ -1,0 +1,346 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 container
+			3 toolbar
+				4 button
+				5 text INDY Admin
+				6 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+				7 button
+				8 switch 0
+				9 button
+				10 container
+					11 text Region US-BETA
+					12 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+				13 container
+					14 text Circuit INDY Demo
+					15 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+				16 container
+					17 text Site Adam Template Testing 2
+					18 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing 2, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+				19 button Menu
+			20 container
+				21 content list
+					22 container
+						23 text Operations
+				24 content list
+					25 container
+						26 text Reports
+				27 content list
+					28 container
+						29 text Settings
+				30 text Favorites
+				31 content list
+					32 container
+						33 text Theme and Style
+				34 content list
+					35 container
+						36 text Pages
+				37 content list
+					38 container
+						39 text Release Notes
+				40 content list
+					41 container
+						42 text How To Guides
+				43 content list
+					44 container
+						45 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				46 content list
+					47 container
+						48 text Developer
+				49 switch Description: Demo Mode, Value: 0
+					50 text Demo Mode
+			51 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+			52 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+			53 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+			54 content list
+				55 container
+					56 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+						57 text Page Settings
+						58 text Manage site-wide page behaviour
+				59 container
+					60 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+						61 text Pages
+						62 text Create or manage page content, for desktop and mobile websites and apps
+					63 container
+						64 text Pages
+						65 button
+						66 button
+						67 container
+							68 text field (settable) f_a063725b-3ab0-443a-9fa0-0e7cf1c77cae
+							69 button
+						70 button SET ORDER
+						71 button ADD FROM LIBRARY
+							72 text ADD FROM LIBRARY
+						73 button CREATE PAGE
+							74 text CREATE PAGE
+						75 table
+							76 row
+								77 cell
+									78 text ID
+								79 cell
+									80 text Title
+								81 cell
+									82 text Slug
+								83 cell
+									84 text Sections
+								85 cell
+									86 text Views
+								87 cell
+									88 text Visibility
+								89 cell
+									90 text Library
+								91 cell
+									92 text Actions
+							93 row
+								94 cell
+									95 text 5969
+								96 cell
+									97 text variant-k-clubhouse_food
+								98 cell
+									99 text variant-k-clubhouse-food
+								100 cell
+									101 text 1
+								102 cell
+									103 button  Not Linked
+										104 text  Not Linked
+								105 cell
+									106 button
+									107 button
+									108 button EDIT
+										109 text EDIT
+									110 button
+							111 row
+								112 cell
+									113 text 5917
+								114 cell
+									115 text Variant L Midnight Lounge
+								116 cell
+									117 text variant-l-midnight-lounge
+								118 cell
+									119 text 9
+								120 cell
+									121 button  Not Linked
+										122 text  Not Linked
+								123 cell
+									124 button
+									125 button EDIT
+									126 button
+							127 row
+								128 cell
+									129 text 5915
+								130 cell
+									131 text Variant K Clubhouse
+								132 cell
+									133 text variant-k-clubhouse
+								134 cell
+									135 text 8
+								136 cell
+									137 button  Not Linked
+										138 text  Not Linked
+								139 cell
+									140 button
+									141 button EDIT
+									142 button
+							143 row
+								144 cell
+									145 text 5913
+								146 cell
+									147 text Variant J Box Office
+								148 cell
+									149 text variant-j-box-office
+								150 cell
+									151 text 9
+								152 cell
+									153 button  Not Linked
+										154 text  Not Linked
+								155 cell
+									156 button
+									157 button EDIT
+									158 button
+							159 row
+								160 cell
+									161 text 5911
+								162 cell
+									163 text Variant I Ma
+								164 cell
+									165 text variant-i-ma
+								166 cell
+									167 text 5
+								168 cell
+									169 button  Not Linked
+										170 text  Not Linked
+								171 cell
+									172 button
+									173 button EDIT
+									174 button
+							175 row
+								176 cell
+									177 text 5909
+								178 cell
+									179 text Variant H Storybook
+								180 cell
+									181 text variant-h-storybook
+								182 cell
+									183 text 5
+								184 cell
+									185 button  Not Linked
+										186 text  Not Linked
+								187 cell
+									188 button
+									189 button EDIT
+									190 button
+							191 row
+								192 cell
+									193 text 5905
+								194 cell
+									195 text Variant G Cut
+								196 cell
+									197 text variant-g-cut
+								198 cell
+									199 text 5
+								200 cell
+									201 button  Not Linked
+										202 text  Not Linked
+								203 cell
+									204 button
+									205 button EDIT
+									206 button
+							207 row
+								208 cell
+									209 text 5903
+								210 cell
+									211 text Variant F Concrete
+								212 cell
+									213 text variant-f-concrete
+								214 cell
+									215 text 10
+								216 cell
+									217 button  Not Linked
+										218 text  Not Linked
+								219 cell
+									220 button
+									221 button EDIT
+									222 button
+							223 row
+								224 cell
+									225 text 5901
+								226 cell
+									227 text Variant E Grid
+								228 cell
+									229 text variant-e-grid
+								230 cell
+									231 text 11
+								232 cell
+									233 button  Not Linked
+										234 text  Not Linked
+								235 cell
+									236 button
+									237 button EDIT
+									238 button
+							239 row
+								240 cell
+									241 text 5899
+								242 cell
+									243 text Variant D Odd
+								244 cell
+									245 text variant-d-odd
+								246 cell
+									247 text 10
+								248 cell
+									249 button  Not Linked
+										250 text  Not Linked
+								251 cell
+									252 button
+									253 button EDIT
+									254 button
+						255 text Records per page:
+						256 container
+							257 text 10
+							258 combo box (collapsed, settable) 10, ID: f_cdce4cda-ffe2-489f-be2b-9e51cca375ca, Secondary Actions: Expand
+						259 text 1-10  of 41
+						260 button
+						261 button
+		262 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		263 container Edit Page (5970) Unpublished Changes
+			264 container
+				265 button Close
+				266 button
+				267 button
+				268 text 0 of 10
+				269 container v-0-0-0-0-4-0-2-0-3-0-0-0-0-1-1-0-0-0-1-0
+					270 text Edit Page (5970)  Unpublished Changes
+				271 button
+				272 button
+				273 button (disabled) REVERT
+				274 button (disabled) SAVE
+				275 button (disabled) SAVE AND CLOSE
+				276 container
+					277 container
+						278 text Title
+						279 text field (settable) Description: Title, Value: variant-k-clubhouse_food, ID: f_e68151f8-5edd-487d-a797-231e43592c11
+				280 container
+					281 container
+						282 text URL Slug
+						283 text field Description: URL Slug, Value: variant-k-clubhouse-food, ID: f_099e54d2-bbfa-4faa-a8f4-6fd34a28eecb
+				284 container
+					285 container
+						286 text Start Date
+						287 text field (settable) Description: Start Date, ID: f_44240d2b-d269-42c5-90bf-260b5d91337b
+					288 button Open date picker
+				289 container
+					290 container
+						291 text End Date
+						292 text field (settable) Description: End Date, ID: f_9f8c52ed-1b68-4cbd-9f84-c3164539c047
+					293 button Open date picker
+				294 button VIEW PAGE
+				295 container
+					296 container
+						297 text Header Placement Override Same As Site
+				298 container
+					299 text Overrides the site’s header placement for this page. Only available when the header background is transparent (opacity is less than 1). Otherwise, page content starts below the header.
+				300 container
+					301 text Sections
+					302 button SET ORDER
+					303 button ADD SECTION
+					304 table
+						305 row
+							306 cell
+								307 text ID
+							308 cell
+								309 text Name
+							310 cell
+								311 text Type
+							312 cell
+								313 text Visibility
+							314 cell
+								315 text Actions
+					316 text No Sections
+				317 container
+					318 container
+						319 text Search Engine Title
+						320 text field (settable) Description: Search Engine Title, ID: f_b93ffe03-2d24-4c3f-99fa-d8b83319be98
+				321 container
+					322 container
+						323 text Search Engine Description
+						324 text entry area (settable) Description: Search Engine Description, ID: f_870c4e10-219d-40a7-8c87-37c8b7f66115
+					325 text Used for search engine description. Truncated by search engines at ~160 characters.
+					326 text 0
+				327 switch Description: Visible to Search Engines, Value: 1
+					328 text Visible to Search Engines
+				329 container
+					330 container
+						331 text Custom Styles (CSS)
+						332 text entry area (settable) Description: Custom Styles (CSS), ID: f_7de85e82-b1ed-49ff-9bfc-a43033d6f819
+				333 container
+					334 button (collapsed) Expand
+						335 text SEO Health Preview
+						336 text Needs Attention
+				337 container
+					338 text Preview
+					339 container
+						340 button DESKTOP WEB
+						341 button MOBILE WEB
+						342 button APP
+
+The focused UI element is 279 text field (settable) Description: Title, Value: variant-k-clubhouse_food, ID: f_e68151f8-5edd-487d-a797-231e43592c11

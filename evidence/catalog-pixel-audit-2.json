@@ -1,0 +1,2460 @@
+{
+  "auditedAt": "2026-10-25",
+  "catalogGeneratedAt": "2026-10-25T14:19:36.237275+00:00",
+  "scope": "Local pixel and name audit only. All 105 actual image files were visually inspected in category sheets at up to 700px width; images taller than 850px at that width were segmented. G private parties, D hero and F food additionally opened at native resolution. No browser/source edits or catalog mutations performed.",
+  "limitations": "Pixels establish whether the asset shows the named component. They cannot establish whether a source issue, loading/animation state, full-page capture bug or crop geometry caused a defect; live comparison is required. No interaction or submission behavior tested.",
+  "optionCount": 110,
+  "imageCount": 105,
+  "coreOptionCount": 72,
+  "counts": {
+    "matches-pixels": 65,
+    "rejected": 12,
+    "matches-with-caveat": 14,
+    "needs-live-review": 14,
+    "not-captured-zero-height": 5
+  },
+  "coreCounts": {
+    "matches-pixels": 47,
+    "rejected": 9,
+    "matches-with-caveat": 9,
+    "needs-live-review": 7
+  },
+  "sheets": "catalog-pixel-audit-2/manifest.json",
+  "options": [
+    {
+      "optionId": "header--variant-a-circuit",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        57
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Black horizontal bar: logo, Home/Films/Menu & Bar/Visit/Membership/Events & Late Nights/Private Events and utility icons.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-b-rep",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-b-rep.jpg",
+      "size": [
+        1536,
+        135
+      ],
+      "status": "rejected",
+      "actualPictured": "Cream top header: centered logo and divider only. No navigation labels in crop.",
+      "findings": [
+        {
+          "code": "navigation-links-missing-in-image",
+          "severity": "reject",
+          "recommendedAction": "Read live navigation bounds and recapture complete rendered navigation including visible menu items; distinguish source hidden links from a too-short header crop."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-c-late",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-c-late.jpg",
+      "size": [
+        1521,
+        65
+      ],
+      "status": "rejected",
+      "actualPictured": "Dark bar: logo left and search/account icons right. No navigation labels in crop.",
+      "findings": [
+        {
+          "code": "navigation-links-missing-in-image",
+          "severity": "reject",
+          "recommendedAction": "Read live navigation bounds and recapture complete rendered navigation including visible menu items; distinguish source hidden links from a too-short header crop."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-d-odd",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-d-odd.jpg",
+      "size": [
+        1521,
+        153
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream scrapbook-style header: tilted logo card, visible link chips, Private Events button, utility icons.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-e-grid",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-e-grid.jpg",
+      "size": [
+        1521,
+        65
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark plum horizontal bar: logo, visible navigation labels and Private Events button, utility icons.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-f-concrete",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-f-concrete.jpg",
+      "size": [
+        240,
+        639
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Vertical dark plum sidebar: numbered Home/Films/Menu & Bar/Visit/Membership/Events & Late Nights, Private Events button and utility icons at bottom.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-g-cut",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-g-cut.jpg",
+      "size": [
+        1536,
+        99
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+      "findings": [
+        {
+          "code": "shared-navigation-design",
+          "severity": "known-limitation",
+          "recommendedAction": "Retain shared-design disclosure. Navigation labels are visible in the actual assets; no missing-menu screenshot defect was found for these variants."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-h-storybook",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        99
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+      "findings": [
+        {
+          "code": "shared-navigation-design",
+          "severity": "known-limitation",
+          "recommendedAction": "Retain shared-design disclosure. Navigation labels are visible in the actual assets; no missing-menu screenshot defect was found for these variants."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-i-ma",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-i-ma.jpg",
+      "size": [
+        1536,
+        99
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+      "findings": [
+        {
+          "code": "shared-navigation-design",
+          "severity": "known-limitation",
+          "recommendedAction": "Retain shared-design disclosure. Navigation labels are visible in the actual assets; no missing-menu screenshot defect was found for these variants."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-j-box-office",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        99
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+      "findings": [
+        {
+          "code": "shared-navigation-design",
+          "severity": "known-limitation",
+          "recommendedAction": "Retain shared-design disclosure. Navigation labels are visible in the actual assets; no missing-menu screenshot defect was found for these variants."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-k-clubhouse",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        99
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+      "findings": [
+        {
+          "code": "shared-navigation-design",
+          "severity": "known-limitation",
+          "recommendedAction": "Retain shared-design disclosure. Navigation labels are visible in the actual assets; no missing-menu screenshot defect was found for these variants."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "header--variant-l-midnight-lounge",
+      "slot": "header",
+      "core": true,
+      "name": "Site header",
+      "image": "screenshots/header/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        99
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark brown horizontal header with logo, narrow condensed navigation labels and utility icons.",
+      "findings": [
+        {
+          "code": "shared-navigation-design",
+          "severity": "known-limitation",
+          "recommendedAction": "Retain shared-design disclosure. Navigation labels are visible in the actual assets; no missing-menu screenshot defect was found for these variants."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\header-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-a-circuit",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero A - Showtimes Shelf + Hero A - Shelf",
+      "image": "screenshots/hero/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        952
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Ghost in the Shell image with film caption and four showtime cards beneath.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-b-rep",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero B - Plate And Note",
+      "image": "screenshots/hero/variant-b-rep.jpg",
+      "size": [
+        1536,
+        907
+      ],
+      "status": "rejected",
+      "actualPictured": "Katy Perry hero image and clipped oversized title, then a repeated logo/header/navigation and next copy of hero.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-c-late",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero C - Marquee + Hero C - Dock",
+      "image": "screenshots/hero/variant-c-late.jpg",
+      "size": [
+        1521,
+        705
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Pulp band image with film title and three-column Screen/Kitchen/Late information strip.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-d-odd",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero D - Collage + Hero D - Ruth Line",
+      "image": "screenshots/hero/variant-d-odd.jpg",
+      "size": [
+        1521,
+        515
+      ],
+      "status": "rejected",
+      "actualPictured": "Black collage stage with green NOW SCREENING strip obscuring almost invisible dark headline and Explore Films link; caption beneath.",
+      "findings": [
+        {
+          "code": "headline-unreadable",
+          "severity": "reject",
+          "recommendedAction": "Check live intended hero background/media and text colors. Recapture after content is legible; do not mark this visual as complete based on section presence."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-e-grid",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero E - Product Panel + Hero E - Quick Selector",
+      "image": "screenshots/hero/variant-e-grid.jpg",
+      "size": [
+        1521,
+        642
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Fast and Furious film photo, black product information panel, booking selector strip.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-f-concrete",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero F - Index Sheet + Hero F - Reference Print",
+      "image": "screenshots/hero/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        1328
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Plain, mostly unstyled numbered programme/hire/menu/contact/find/tariff/voucher text and default blue links on brown, then black Reference Print title panel.",
+      "findings": [
+        {
+          "code": "source-design-appears-unstyled",
+          "severity": "review",
+          "recommendedAction": "Verify intended section styles load/apply in published page. Default text/table/blue links appear unlike the designed F sidebar and source module names."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-g-cut",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero G - Poster Block",
+      "image": "screenshots/hero/variant-g-cut.jpg",
+      "size": [
+        1536,
+        520
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Black poster panel with large tilted CUT TO PICTURE type and yellow Tickets button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-h-storybook",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero H - Framed Plate",
+      "image": "screenshots/hero/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        536
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Pink panel surrounding a cream/black frame: Once upon a picture and Reserve Seats button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-i-ma",
+      "slot": "hero",
+      "core": true,
+      "name": "Hero I - One Still One Line",
+      "image": "screenshots/hero/variant-i-ma.jpg",
+      "size": [
+        1536,
+        736
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream panel with Ghost in the Shell still, small vertical text and red square.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-j-box-office",
+      "slot": "hero",
+      "core": true,
+      "name": "J Intro",
+      "image": "screenshots/hero/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        131
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Short brown text-only TONIGHT AT THE BOX OFFICE introduction.",
+      "findings": [
+        {
+          "code": "hero-is-short-text-introduction",
+          "severity": "known-limitation",
+          "recommendedAction": "Label as a text introduction and retain design caveat until a developed hero is implemented."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-k-clubhouse",
+      "slot": "hero",
+      "core": true,
+      "name": "K Welcome",
+      "image": "screenshots/hero/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        117
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Short orange text-only WELCOME TO THE CLUBHOUSE introduction.",
+      "findings": [
+        {
+          "code": "hero-is-short-text-introduction",
+          "severity": "known-limitation",
+          "recommendedAction": "Label as a text introduction and retain design caveat until a developed hero is implemented."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "hero--variant-l-midnight-lounge",
+      "slot": "hero",
+      "core": true,
+      "name": "L Opening Note",
+      "image": "screenshots/hero/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        131
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Short purple text-only MEET ME AT MIDNIGHT introduction.",
+      "findings": [
+        {
+          "code": "hero-is-short-text-introduction",
+          "severity": "known-limitation",
+          "recommendedAction": "Label as a text introduction and retain design caveat until a developed hero is implemented."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\hero-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "now-playing--variant-a-circuit",
+      "slot": "now-playing",
+      "core": false,
+      "name": "Now Playing A - Departure Board",
+      "image": "screenshots/now-playing/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        475
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark NOW PLAYING heading and Nothing Scheduled empty state. No film cards or Departure Board content.",
+      "findings": [
+        {
+          "code": "empty-movie-widget-only",
+          "severity": "known-limitation",
+          "recommendedAction": "Keep clearly labeled as an empty state or unavailable preview. Do not present as proof of a distinct populated movie layout."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\now-playing-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "now-playing--variant-j-box-office",
+      "slot": "now-playing",
+      "core": false,
+      "name": "J Today",
+      "image": "screenshots/now-playing/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        335
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Brown NOW SHOWING heading and Nothing Scheduled empty state.",
+      "findings": [
+        {
+          "code": "empty-movie-widget-only",
+          "severity": "known-limitation",
+          "recommendedAction": "Keep clearly labeled as an empty state or unavailable preview. Do not present as proof of a distinct populated movie layout."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\now-playing-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "now-playing--variant-k-clubhouse",
+      "slot": "now-playing",
+      "core": false,
+      "name": "K Featured",
+      "image": "screenshots/now-playing/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        189
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Brown SELECTED FOR THE CLUB heading and faint NO MOVIES HERE empty state.",
+      "findings": [
+        {
+          "code": "empty-movie-widget-only",
+          "severity": "known-limitation",
+          "recommendedAction": "Keep clearly labeled as an empty state or unavailable preview. Do not present as proof of a distinct populated movie layout."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\now-playing-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "now-playing--variant-l-midnight-lounge",
+      "slot": "now-playing",
+      "core": false,
+      "name": "L Late Lineup",
+      "image": null,
+      "size": [
+        1536,
+        0
+      ],
+      "status": "not-captured-zero-height",
+      "actualPictured": "Zero-height section with no screenshot.",
+      "findings": [],
+      "visualEvidence": []
+    },
+    {
+      "optionId": "events--variant-a-circuit",
+      "slot": "events",
+      "core": true,
+      "name": "Events A - Rate Card",
+      "image": "screenshots/events/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        534
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Private Hire rate-card grid containing six occasions and Enquire links.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-b-rep",
+      "slot": "events",
+      "core": true,
+      "name": "Private Parties B - Your Own Evening",
+      "image": "screenshots/events/variant-b-rep.jpg",
+      "size": [
+        1536,
+        798
+      ],
+      "status": "rejected",
+      "actualPictured": "Katy Perry hero image/clipped title, repeated logo/navigation and next hero. No private-hire content.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-c-late",
+      "slot": "events",
+      "core": true,
+      "name": "Events C - Ticket Stack",
+      "image": "screenshots/events/variant-c-late.jpg",
+      "size": [
+        1521,
+        768
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Burgundy horizontal occasion tickets: weddings, private hire, late show, supper club, company nights.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-d-odd",
+      "slot": "events",
+      "core": true,
+      "name": "Events D - Noticeboard",
+      "image": "screenshots/events/variant-d-odd.jpg",
+      "size": [
+        1521,
+        1526
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream noticeboard with taped, rotated private-hire occasion cards and enquiry links.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-e-grid",
+      "slot": "events",
+      "core": true,
+      "name": "Events E - Packages",
+      "image": "screenshots/events/variant-e-grid.jpg",
+      "size": [
+        1521,
+        2406
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Dark package section: heading, one screening package high in center, two additional packages lower left/right and FAQ below.",
+      "findings": [
+        {
+          "code": "unexpected-staggered-layout",
+          "severity": "review",
+          "recommendedAction": "Compare source flex/grid layout: first card high center while other cards sit far below at left/right. Confirm intentional layout or fix before representing this as a finished grid design."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-02.jpg",
+          "part": 1
+        },
+        {
+          "sheet": "catalog-pixel-audit-2\\events-02.jpg",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-f-concrete",
+      "slot": "events",
+      "core": true,
+      "name": "Events F - Hire Schedule",
+      "image": "screenshots/events/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        364
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Plain white Hire description, small native-looking table and default blue Enquire link on brown.",
+      "findings": [
+        {
+          "code": "source-design-appears-unstyled",
+          "severity": "review",
+          "recommendedAction": "Verify intended section styles load/apply in published page. Default text/table/blue links appear unlike the designed F sidebar and source module names."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-g-cut",
+      "slot": "events",
+      "core": true,
+      "name": "Events G - Diagonal Stack",
+      "image": "screenshots/events/variant-g-cut.jpg",
+      "size": [
+        1536,
+        1353
+      ],
+      "status": "rejected",
+      "actualPictured": "Almost solid dark blank panel. Four white angled ENQUIRE buttons at far left; all supposed card text/content absent.",
+      "findings": [
+        {
+          "code": "component-content-invisible",
+          "severity": "reject",
+          "recommendedAction": "Compare live section and source styles/animations; obtain capture where the occasion cards and text are actually visible. Four Enquire buttons do not demonstrate private-party design."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-h-storybook",
+      "slot": "events",
+      "core": true,
+      "name": "Events H - Invitations",
+      "image": "screenshots/events/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        633
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream section: You are invited with three pastel Weddings/Birthdays/Private Screenings invitation cards.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-i-ma",
+      "slot": "events",
+      "core": true,
+      "name": "Events I - One Occasion At A Time",
+      "image": "screenshots/events/variant-i-ma.jpg",
+      "size": [
+        1536,
+        1320
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream wide-margin numbered private screening/quiet celebration/table after film entries and Enquire links.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-j-box-office",
+      "slot": "events",
+      "core": true,
+      "name": "Private Parties J - Group Booking Desk",
+      "image": "screenshots/events/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        771
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream YOUR SCREEN. YOUR OCCASION. section with three occasion rows and booking-details sidebar.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-k-clubhouse",
+      "slot": "events",
+      "core": true,
+      "name": "Private Parties K - Gather Your People",
+      "image": "screenshots/events/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        797
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream Make room for your people section with three occasion cards and Plan a private gathering button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "events--variant-l-midnight-lounge",
+      "slot": "events",
+      "core": true,
+      "name": "Private Parties L - An Evening Of Your Own",
+      "image": "screenshots/events/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        851
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Plum Take over the evening section with invitation card, three occasion rows and Explore private evenings button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\events-04.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-a-circuit",
+      "slot": "food",
+      "core": true,
+      "name": "Food A - Chip Rail",
+      "image": "screenshots/food/variant-a-circuit.jpg",
+      "size": [
+        1440,
+        846
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark compact product rows with thumbnail, name and price grouped under Snacks/Drinks/Desserts.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-b-rep",
+      "slot": "food",
+      "core": true,
+      "name": "Food B - Printed Menu",
+      "image": "screenshots/food/variant-b-rep.jpg",
+      "size": [
+        1536,
+        2207
+      ],
+      "status": "rejected",
+      "actualPictured": "Repeated Katy Perry hero, clipped title and logo/navigation. No food menu anywhere in either inspected segment.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-01.jpg",
+          "part": 1
+        },
+        {
+          "sheet": "catalog-pixel-audit-2\\food-01.jpg",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-c-late",
+      "slot": "food",
+      "core": true,
+      "name": "Food C - Tile Wall",
+      "image": "screenshots/food/variant-c-late.jpg",
+      "size": [
+        1521,
+        850
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark food photo tile wall grouped into Snacks/Drinks/Desserts.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-d-odd",
+      "slot": "food",
+      "core": true,
+      "name": "Food D - Sticker Sheet",
+      "image": "screenshots/food/variant-d-odd.jpg",
+      "size": [
+        1521,
+        1757
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream menu with tilted photo/paper product cards and red price stickers.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-e-grid",
+      "slot": "food",
+      "core": true,
+      "name": "Food E - Catalogue",
+      "image": "screenshots/food/variant-e-grid.jpg",
+      "size": [
+        1521,
+        1592
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark three-column food photo catalogue with descriptions and prices grouped by category.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-f-concrete",
+      "slot": "food",
+      "core": true,
+      "name": "Food F - Price Table",
+      "image": "screenshots/food/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        979
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "White product cards on brown with titles/descriptions/prices. This is a card grid, not a price table; left category labels are black on dark brown.",
+      "findings": [
+        {
+          "code": "name-does-not-match-rendered-layout",
+          "severity": "review",
+          "recommendedAction": "Rename to actual text-card menu layout, or repair source to intended price table then recapture. Also fix category rail contrast if editing this source."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-g-cut",
+      "slot": "food",
+      "core": true,
+      "name": "Food G - Colour Tile Wall",
+      "image": "screenshots/food/variant-g-cut.jpg",
+      "size": [
+        1536,
+        1632
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream menu with black/red/yellow color tiles and large printed product price text, no food photography.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-h-storybook",
+      "slot": "food",
+      "core": true,
+      "name": "Food H - Framed Bill Of Fare",
+      "image": "screenshots/food/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        1818
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Pale yellow bill of fare with cream horizontal item strips, centered prices and category headings.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-i-ma",
+      "slot": "food",
+      "core": true,
+      "name": "Food I - Few Items Wide Margins",
+      "image": "screenshots/food/variant-i-ma.jpg",
+      "size": [
+        1536,
+        2226
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream wide-margin text-only item list, descriptions/prices and thin horizontal rules.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-03.jpg",
+          "part": 1
+        },
+        {
+          "sheet": "catalog-pixel-audit-2\\food-03.jpg",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-j-box-office",
+      "slot": "food",
+      "core": true,
+      "name": "Food J - Counter Menu",
+      "image": "screenshots/food/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        1828
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream AT THE COUNTER with horizontal product rows, thumbnails, descriptions and prices.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-k-clubhouse",
+      "slot": "food",
+      "core": true,
+      "name": "Food K - Clubhouse Kitchen",
+      "image": "screenshots/food/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        1704
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream Good company heading and three-column photo food cards, left category rail.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-04.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "food--variant-l-midnight-lounge",
+      "slot": "food",
+      "core": true,
+      "name": "Food L - After Dark Menu",
+      "image": "screenshots/food/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        1782
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Plum After Dark menu with horizontal photo rows, product details/prices and left category buttons.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\food-04.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-a-circuit",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact A - Compressed Column",
+      "image": "screenshots/contact/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        589
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark narrow form: Ask us anything, name/email/message fields and wide red Send button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-b-rep",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact B - Split Desk",
+      "image": "screenshots/contact/variant-b-rep.jpg",
+      "size": [
+        1536,
+        689
+      ],
+      "status": "rejected",
+      "actualPictured": "Repeated Katy Perry hero and logo/navigation. No form or contact details.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-c-late",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact C - Statement Line",
+      "image": "screenshots/contact/variant-c-late.jpg",
+      "size": [
+        1521,
+        494
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Burgundy Tell us what you want to take over heading; single row of name/email/message fields and Send.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-d-odd",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact D - Postcard",
+      "image": "screenshots/contact/variant-d-odd.jpg",
+      "size": [
+        1521,
+        553
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream tilted postcard form with message lines left, name/email right, green Post It button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-e-grid",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact E - Support Panel",
+      "image": "screenshots/contact/variant-e-grid.jpg",
+      "size": [
+        1521,
+        541
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark bordered Support Panel with name/email top row, message and yellow Send Message.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-f-concrete",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact F - Ledger",
+      "image": "screenshots/contact/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        524
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Brown generic form with orange Contact heading, white name/email/message fields and orange Send. No ledger visual structure.",
+      "findings": [
+        {
+          "code": "name-does-not-match-rendered-layout",
+          "severity": "review",
+          "recommendedAction": "Use an honest generic form label, or finish the intended ledger design in source and recapture."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-g-cut",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact G - Two Tone Split",
+      "image": "screenshots/contact/variant-g-cut.jpg",
+      "size": [
+        1536,
+        907
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream form with red angled Say something panel above left-aligned line fields and black Send.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-h-storybook",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact H - The Letter",
+      "image": "screenshots/contact/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        821
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Mint background and framed letter-style cream form with Write to us, fields, Send Message.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-i-ma",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact I - One Question At A Time",
+      "image": "screenshots/contact/variant-i-ma.jpg",
+      "size": [
+        1536,
+        1221
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream widely spaced name/email/message lines under Tell us one thing and small Send.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-j-box-office",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact J - Enquiry Desk",
+      "image": "screenshots/contact/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        799
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream CONTACT THE BOX OFFICE form with visible name/email/message and orange Send Message.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-k-clubhouse",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact K - Say Hello",
+      "image": "screenshots/contact/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        831
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Warm cream Pull up a chair. Say hello form with outlined inputs and brown Send a hello.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact--variant-l-midnight-lounge",
+      "slot": "contact",
+      "core": true,
+      "name": "Contact L - A Note After Dark",
+      "image": "screenshots/contact/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        832
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Plum Leave us a note form with subtly outlined inputs and gold Send your note.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "find-us--variant-a-circuit",
+      "slot": "find-us",
+      "core": false,
+      "name": "Find Us A - Map Strip",
+      "image": "screenshots/find-us/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        554
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Brown address/hours/transit/access information on right, empty left region; no visible map.",
+      "findings": [
+        {
+          "code": "map-not-visible",
+          "severity": "review",
+          "recommendedAction": "Check map loading and target bounds on live page. Current screenshot shows location text and an empty map area/frame, so map-oriented name is not demonstrated."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\find-us-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "find-us--variant-b-rep",
+      "slot": "find-us",
+      "core": false,
+      "name": "Find Us B - Street Plate",
+      "image": "screenshots/find-us/variant-b-rep.jpg",
+      "size": [
+        1536,
+        918
+      ],
+      "status": "rejected",
+      "actualPictured": "Repeated Katy Perry hero and logo/navigation. No location component.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\find-us-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "find-us--variant-c-late",
+      "slot": "find-us",
+      "core": false,
+      "name": "Find Us C - Night Map",
+      "image": "screenshots/find-us/variant-c-late.jpg",
+      "size": [
+        1521,
+        601
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Burgundy address card left, empty large map region right and hours/transit/access strip below. No visible map.",
+      "findings": [
+        {
+          "code": "map-not-visible",
+          "severity": "review",
+          "recommendedAction": "Check map loading and target bounds on live page. Current screenshot shows location text and an empty map area/frame, so map-oriented name is not demonstrated."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\find-us-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "find-us--variant-d-odd",
+      "slot": "find-us",
+      "core": false,
+      "name": "Find Us D - Hand Drawn Map",
+      "image": "screenshots/find-us/variant-d-odd.jpg",
+      "size": [
+        1521,
+        1272
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Cream taped empty white map frame on right, then address/details card below; left region empty.",
+      "findings": [
+        {
+          "code": "map-not-visible",
+          "severity": "review",
+          "recommendedAction": "Check map loading and target bounds on live page. Current screenshot shows location text and an empty map area/frame, so map-oriented name is not demonstrated."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\find-us-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "find-us--variant-e-grid",
+      "slot": "find-us",
+      "core": false,
+      "name": "Find Us E - Location Card",
+      "image": "screenshots/find-us/variant-e-grid.jpg",
+      "size": [
+        1521,
+        1226
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Dark empty left region; a narrow map and location details card stacked at far right.",
+      "findings": [
+        {
+          "code": "unexpected-narrow-right-stack",
+          "severity": "review",
+          "recommendedAction": "Verify location layout: map and details are a narrow stack at far right with most canvas blank."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\find-us-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "find-us--variant-f-concrete",
+      "slot": "find-us",
+      "core": false,
+      "name": "Find Us F - Coordinates",
+      "image": "screenshots/find-us/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        896
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Plain brown Coordinates/address/entrance/transit/parking/hours/phone text, blue links and small actual map at bottom left.",
+      "findings": [
+        {
+          "code": "source-design-appears-unstyled",
+          "severity": "review",
+          "recommendedAction": "Verify intended section styles load/apply in published page. Default text/table/blue links appear unlike the designed F sidebar and source module names."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\find-us-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-a-circuit",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership A - Tier Rail",
+      "image": "screenshots/membership/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        955
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark three-tier membership rail with benefits, join buttons and redemption points strip.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-b-rep",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership B - Subscriber Bill",
+      "image": "screenshots/membership/variant-b-rep.jpg",
+      "size": [
+        1536,
+        1257
+      ],
+      "status": "rejected",
+      "actualPictured": "Repeated Katy Perry hero and logo/navigation. No subscriber/membership content.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-c-late",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership C - Card Ledger",
+      "image": "screenshots/membership/variant-c-late.jpg",
+      "size": [
+        1521,
+        1280
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Burgundy three membership cards, benefit ledger and redemption row.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-d-odd",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership D - Loyalty Card",
+      "image": "screenshots/membership/variant-d-odd.jpg",
+      "size": [
+        1521,
+        1889
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream Ten stamps headline, loyalty stamp card, three taped plan cards arranged staggered.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-01.jpg",
+          "part": 1
+        },
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-02.jpg",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-e-grid",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership E - Tiers",
+      "image": "screenshots/membership/variant-e-grid.jpg",
+      "size": [
+        1521,
+        2043
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Dark tier section with first plan high center, second/third lower left/right and comparison table below.",
+      "findings": [
+        {
+          "code": "unexpected-staggered-layout",
+          "severity": "review",
+          "recommendedAction": "Compare source flex/grid layout: first card high center while other cards sit far below at left/right. Confirm intentional layout or fix before representing this as a finished grid design."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-02.jpg",
+          "part": 1
+        },
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-02.jpg",
+          "part": 2
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-f-concrete",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership F - Tariff",
+      "image": "screenshots/membership/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        328
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Plain brown Tariff intro, small text table of tiers/prices/includes and default blue Join link.",
+      "findings": [
+        {
+          "code": "source-design-appears-unstyled",
+          "severity": "review",
+          "recommendedAction": "Verify intended section styles load/apply in published page. Default text/table/blue links appear unlike the designed F sidebar and source module names."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-g-cut",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership G - Poster Pass",
+      "image": "screenshots/membership/variant-g-cut.jpg",
+      "size": [
+        1536,
+        690
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Black Become a regular heading; black/yellow/red editorial cards and Explore membership button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-h-storybook",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership H - Subscribers Invitation",
+      "image": "screenshots/membership/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        851
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Pink invitation containing framed cream card, three benefit columns and Discover membership button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-i-ma",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership I - Quiet Return",
+      "image": "screenshots/membership/variant-i-ma.jpg",
+      "size": [
+        1536,
+        854
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream Come back heading with three numbered guidance rows and View membership link.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-j-box-office",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership J - Box Office Pass",
+      "image": "screenshots/membership/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        700
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Cream Keep cinema on the calendar two-column information card and View membership button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-k-clubhouse",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership K - Your Place In The Clubhouse",
+      "image": "screenshots/membership/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        789
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Warm cream two-column membership intro and large card with Your next chapter starts here, CTA.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-04.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "membership--variant-l-midnight-lounge",
+      "slot": "membership",
+      "core": true,
+      "name": "Membership L - After Dark Regular",
+      "image": "screenshots/membership/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        839
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Plum Make a habit of the evening two-column membership card and Explore membership button.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\membership-04.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "gift-cards--variant-d-odd",
+      "slot": "gift-cards",
+      "core": false,
+      "name": "Gift Cards D - Paper Chit",
+      "image": "screenshots/gift-cards/variant-d-odd.jpg",
+      "size": [
+        1521,
+        428
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Cream paper-chit Gift cards module: quantity 0, subtotal $0.00, Continue. No available denomination/product visible.",
+      "findings": [
+        {
+          "code": "no-gift-card-products-shown",
+          "severity": "known-limitation",
+          "recommendedAction": "Keep as unpopulated/partial widget state; captured quantity/subtotal controls alone do not demonstrate selectable gift card products."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\gift-cards-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "gift-cards--variant-e-grid",
+      "slot": "gift-cards",
+      "core": false,
+      "name": "Gift Cards E - Panel",
+      "image": "screenshots/gift-cards/variant-e-grid.jpg",
+      "size": [
+        1521,
+        338
+      ],
+      "status": "matches-with-caveat",
+      "actualPictured": "Dark Gift Cards panel: quantity 0, subtotal $0.00 and Continue. No available denomination/product visible.",
+      "findings": [
+        {
+          "code": "no-gift-card-products-shown",
+          "severity": "known-limitation",
+          "recommendedAction": "Keep as unpopulated/partial widget state; captured quantity/subtotal controls alone do not demonstrate selectable gift card products."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\gift-cards-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "gift-cards--variant-f-concrete",
+      "slot": "gift-cards",
+      "core": false,
+      "name": "Gift Cards F - Voucher Line",
+      "image": "screenshots/gift-cards/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        509
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Brown Voucher module, near-invisible black subtitle, broken-looking product image/alt-text edge above white Voucher/Add card, quantity/subtotal/Continue.",
+      "findings": [
+        {
+          "code": "unreadable-text-and-broken-looking-product-image",
+          "severity": "review",
+          "recommendedAction": "Check product image and native palette contrast live; capture a usable widget state. Existing screenshot has black-on-brown copy and a broken-looking image edge."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\gift-cards-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "contact-anchor--variant-d-odd",
+      "slot": "contact-anchor",
+      "core": false,
+      "name": "Contact D - Anchor",
+      "image": null,
+      "size": [
+        1521,
+        0
+      ],
+      "status": "not-captured-zero-height",
+      "actualPictured": "Zero-height anchor with no screenshot.",
+      "findings": [],
+      "visualEvidence": []
+    },
+    {
+      "optionId": "contact-anchor--variant-e-grid",
+      "slot": "contact-anchor",
+      "core": false,
+      "name": "Contact E - Anchor",
+      "image": null,
+      "size": [
+        1521,
+        0
+      ],
+      "status": "not-captured-zero-height",
+      "actualPictured": "Zero-height anchor with no screenshot.",
+      "findings": [],
+      "visualEvidence": []
+    },
+    {
+      "optionId": "contact-anchor--variant-f-concrete",
+      "slot": "contact-anchor",
+      "core": false,
+      "name": "Contact F - Anchor",
+      "image": null,
+      "size": [
+        1281,
+        0
+      ],
+      "status": "not-captured-zero-height",
+      "actualPictured": "Zero-height anchor with no screenshot.",
+      "findings": [],
+      "visualEvidence": []
+    },
+    {
+      "optionId": "contact-channels--variant-e-grid",
+      "slot": "contact-channels",
+      "core": false,
+      "name": "Contact E - Channels",
+      "image": "screenshots/contact-channels/variant-e-grid.jpg",
+      "size": [
+        1521,
+        770
+      ],
+      "status": "needs-live-review",
+      "actualPictured": "Dark contact information cards; Phone high center, Email lower left and Hours lower right with very large gaps.",
+      "findings": [
+        {
+          "code": "unexpected-staggered-layout",
+          "severity": "review",
+          "recommendedAction": "Compare source flex/grid layout: first card high center while other cards sit far below at left/right. Confirm intentional layout or fix before representing this as a finished grid design."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\contact-channels-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "ticket-finder--variant-j-box-office",
+      "slot": "ticket-finder",
+      "core": false,
+      "name": "J Book Now",
+      "image": "screenshots/ticket-finder/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        112
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Brown strip containing Select Movie, Select Date & Time, Buy Tickets with ticket icon.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\ticket-finder-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "ticket-finder--variant-k-clubhouse",
+      "slot": "ticket-finder",
+      "core": false,
+      "name": "K Reserve",
+      "image": "screenshots/ticket-finder/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        88
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Brown strip containing Select Movie, Select Date & Time and Buy Tickets.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\ticket-finder-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "ticket-finder--variant-l-midnight-lounge",
+      "slot": "ticket-finder",
+      "core": false,
+      "name": "L Tickets After Dark",
+      "image": "screenshots/ticket-finder/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        112
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Brown strip containing Select Movie, Select Date & Time, Buy Tickets with ticket icon.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\ticket-finder-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "coming-soon--variant-j-box-office",
+      "slot": "coming-soon",
+      "core": false,
+      "name": "J Coming Up",
+      "image": null,
+      "size": [
+        1536,
+        0
+      ],
+      "status": "not-captured-zero-height",
+      "actualPictured": "Zero-height widget with no screenshot.",
+      "findings": [],
+      "visualEvidence": []
+    },
+    {
+      "optionId": "visit--variant-j-box-office",
+      "slot": "visit",
+      "core": false,
+      "name": "J Visit",
+      "image": "screenshots/visit/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        143
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Short brown PLAN YOUR VISIT informational text band.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\visit-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "experience--variant-k-clubhouse",
+      "slot": "experience",
+      "core": false,
+      "name": "K Stay Awhile",
+      "image": "screenshots/experience/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        131
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Short orange STAY AWHILE introductory text band.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\experience-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "experience--variant-l-midnight-lounge",
+      "slot": "experience",
+      "core": false,
+      "name": "L Lounge Ritual",
+      "image": "screenshots/experience/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        168
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Short orange THE LOUNGE RITUAL list of arrive/find frame/last call text.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\experience-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "after-show--variant-l-midnight-lounge",
+      "slot": "after-show",
+      "core": false,
+      "name": "L One More",
+      "image": "screenshots/after-show/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        131
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Short terracotta STAY FOR ONE MORE informational text band.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\after-show-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "programme--variant-b-rep",
+      "slot": "programme",
+      "core": false,
+      "name": "Events B - Playbill",
+      "image": "screenshots/programme/variant-b-rep.jpg",
+      "size": [
+        1536,
+        1420
+      ],
+      "status": "rejected",
+      "actualPictured": "Repeated Katy Perry hero/title/logo/navigation. No Playbill entries.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\programme-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-a-circuit",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-a-circuit.jpg",
+      "size": [
+        1521,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-b-rep",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-b-rep.jpg",
+      "size": [
+        1536,
+        284
+      ],
+      "status": "rejected",
+      "actualPictured": "Katy Perry hero image and clipped title fragment. No footer.",
+      "findings": [
+        {
+          "code": "wrong-repeated-hero-capture",
+          "severity": "reject",
+          "recommendedAction": "Recapture B from visible native viewport or validated full-page image; verify rendered component text and page geometry before cropping. Do not rename hero pixels as this section."
+        }
+      ],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-c-late",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-c-late.jpg",
+      "size": [
+        1521,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-d-odd",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-d-odd.jpg",
+      "size": [
+        1521,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-01.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-e-grid",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-e-grid.jpg",
+      "size": [
+        1521,
+        285
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-f-concrete",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-f-concrete.jpg",
+      "size": [
+        1281,
+        285
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-g-cut",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-g-cut.jpg",
+      "size": [
+        1536,
+        285
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-h-storybook",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-h-storybook.jpg",
+      "size": [
+        1536,
+        285
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-02.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-i-ma",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-i-ma.jpg",
+      "size": [
+        1536,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-j-box-office",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-j-box-office.jpg",
+      "size": [
+        1536,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-k-clubhouse",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-k-clubhouse.jpg",
+      "size": [
+        1536,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-03.jpg",
+          "part": 1
+        }
+      ]
+    },
+    {
+      "optionId": "footer--variant-l-midnight-lounge",
+      "slot": "footer",
+      "core": false,
+      "name": "Site footer",
+      "image": "screenshots/footer/variant-l-midnight-lounge.jpg",
+      "size": [
+        1536,
+        284
+      ],
+      "status": "matches-pixels",
+      "actualPictured": "Dark footer with stacked navigation links left, copyright and Shaped by INDY.",
+      "findings": [],
+      "visualEvidence": [
+        {
+          "sheet": "catalog-pixel-audit-2\\footer-03.jpg",
+          "part": 1
+        }
+      ]
+    }
+  ]
+}

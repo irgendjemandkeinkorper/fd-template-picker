@@ -1,0 +1,21 @@
+{
+  "documentWidth": 1521,
+  "floatingCategories": 0,
+  "food": [
+    {
+      "cards": 7,
+      "class": "fdp-k-food section-food---clubhouse-kitchen-25157 q-px-xs section-food---clubhouse-kitchen-25157",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "heading": "Good company. Good things to share.",
+      "scrollWidth": 1521,
+      "width": 1521
+    }
+  ],
+  "originalFoodHeadingVisible": false,
+  "title": "Cinema Template Test | Adam Template Testing",
+  "url": "https://adam-template-testing-indy-consumer.netlify.app/fandango-cinema-template-test/",
+  "viewport": {
+    "height": 639,
+    "width": 1536
+  }
+}

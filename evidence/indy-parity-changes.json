@@ -1,0 +1,727 @@
+{
+  "schema": "fd-indy-parity-changes/v1",
+  "recordedAt": "2026-10-25T13:25:35.0074320Z",
+  "recordedAtMeaning": "Journal consolidation time. No screenshot or publication timestamp is inferred.",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing 2"
+  },
+  "status": "All 16 source changes published and desktop verified; actual consumer geometry and manual mobile pixel review passed at 390px on all seven repaired variants.",
+  "summary": {
+    "modules": 16,
+    "components": {
+      "private-parties": 4,
+      "food": 3,
+      "membership": 6,
+      "contact": 3
+    },
+    "createdModules": 15,
+    "enrichedExistingModules": 1,
+    "variantsChanged": 7
+  },
+  "provenanceFiles": [
+    "evidence/b-private-parties-result.json",
+    "evidence/ghi-membership-result.json",
+    "evidence/j-component-result.json",
+    "evidence/k-component-result.json",
+    "evidence/l-component-result.json"
+  ],
+  "previousJournalEntry": {
+    "draftPageId": 5916,
+    "component": "contact",
+    "previousState": "saved draft",
+    "draftSectionId": 25117,
+    "currentState": "published",
+    "variant": "variant-k-clubhouse",
+    "publishedSectionId": 25137
+  },
+  "scope": {
+    "globalThemeAndNavigation": "Unchanged",
+    "libraryRecords": "Unchanged",
+    "siteCatalogInventory": "Unchanged",
+    "forms": "Native fields configured; no submission sent and no recipients invented.",
+    "pickerCatalogAndAudit": "Owned by recapture pipeline; not modified by this journal consolidation."
+  },
+  "changes": [
+    {
+      "variant": "variant-b-rep",
+      "component": "private-parties",
+      "name": "Private Parties B - Your Own Evening",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5662,
+      "publishedPageId": 5661,
+      "draftSectionId": 25132,
+      "publishedSectionId": 25134,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "classes": "fdp-b-private-parties",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-b-rep / private-parties",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/b-private-parties-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/private-hire/"
+      ],
+      "appliedCss": "evidence/b-private-parties-applied.scss"
+    },
+    {
+      "variant": "variant-g-cut",
+      "component": "membership",
+      "name": "Membership G - Poster Pass",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5906,
+      "publishedPageId": 5905,
+      "draftSectionId": 25116,
+      "publishedSectionId": 25118,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "classes": "fdp-g-membership",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-g-cut / membership",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/ghi-membership-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/membership/"
+      ],
+      "appliedCss": "evidence/g-membership-applied.scss"
+    },
+    {
+      "variant": "variant-h-storybook",
+      "component": "membership",
+      "name": "Membership H - Subscribers Invitation",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5910,
+      "publishedPageId": 5909,
+      "draftSectionId": 25120,
+      "publishedSectionId": 25121,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "classes": "fdp-h-membership",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-h-storybook / membership",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/ghi-membership-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/membership/"
+      ],
+      "appliedCss": "evidence/h-membership-applied.scss"
+    },
+    {
+      "variant": "variant-i-ma",
+      "component": "membership",
+      "name": "Membership I - Quiet Return",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5912,
+      "publishedPageId": 5911,
+      "draftSectionId": 25123,
+      "publishedSectionId": 25125,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "classes": "fdp-i-membership",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-i-ma / membership",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/ghi-membership-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/membership/"
+      ],
+      "appliedCss": "evidence/i-membership-applied.scss"
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "food",
+      "name": "Food J - Counter Menu",
+      "type": "Concessions Menu",
+      "nativeWidgetType": "nativeConcessionsMenu",
+      "operation": "create",
+      "draftPageId": 5914,
+      "publishedPageId": 5913,
+      "draftSectionId": 25127,
+      "publishedSectionId": 25142,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "classes": "fdp-j-food",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-j-box-office / food",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/j-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [],
+      "nativeConfiguration": {
+        "salesChannel": "Website",
+        "displayMode": "Block",
+        "viewMode": "List",
+        "categoryFilterPosition": "Top",
+        "categories": [
+          "Snacks",
+          "Drinks",
+          "Desserts"
+        ],
+        "showImage": true,
+        "showDescription": true,
+        "showPrice": true,
+        "inventoryModified": false
+      },
+      "appliedCss": "evidence/j-food-section.css"
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "private-parties",
+      "name": "Private Parties J - Group Booking Desk",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5914,
+      "publishedPageId": 5913,
+      "draftSectionId": 25129,
+      "publishedSectionId": 25143,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "classes": "fdp-j-private-parties",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-j-box-office / private-parties",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/j-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/private-hire/"
+      ],
+      "appliedCss": "evidence/j-private-parties-section.css"
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "membership",
+      "name": "Membership J - Box Office Pass",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5914,
+      "publishedPageId": 5913,
+      "draftSectionId": 25131,
+      "publishedSectionId": 25144,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "classes": "fdp-j-membership",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-j-box-office / membership",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/j-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/membership/"
+      ],
+      "appliedCss": "evidence/j-membership-section.css"
+    },
+    {
+      "variant": "variant-j-box-office",
+      "component": "contact",
+      "name": "Contact J - Enquiry Desk",
+      "type": "Generic Form",
+      "nativeWidgetType": "nativeGenericForm",
+      "operation": "create",
+      "draftPageId": 5914,
+      "publishedPageId": 5913,
+      "draftSectionId": 25133,
+      "publishedSectionId": 25145,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-j-box-office/",
+      "classes": "fdp-j-contact",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-j-box-office / contact",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/j-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [],
+      "nativeConfiguration": {
+        "formName": "Variant J Box Office Enquiry",
+        "submitLabel": "Send message",
+        "notifyEmail": "",
+        "submissionEmail": "",
+        "fields": [
+          {
+            "label": "Name",
+            "type": "Text",
+            "required": true,
+            "fullWidth": false
+          },
+          {
+            "label": "Email",
+            "type": "Email",
+            "required": true,
+            "fullWidth": false
+          },
+          {
+            "label": "Message",
+            "type": "Notes",
+            "required": true,
+            "fullWidth": true
+          }
+        ],
+        "submissionTestPerformed": false,
+        "routingStatus": "Blank native notification/submission addresses retained; no recipient invented, no form submitted."
+      },
+      "fields": [
+        {
+          "label": "Name",
+          "type": "Text",
+          "required": true,
+          "fullWidth": false
+        },
+        {
+          "label": "Email",
+          "type": "Email",
+          "required": true,
+          "fullWidth": false
+        },
+        {
+          "label": "Message",
+          "type": "Notes",
+          "required": true,
+          "fullWidth": true
+        }
+      ],
+      "notifyEmail": "",
+      "submissionEmail": "",
+      "formSubmission": "Not submitted",
+      "appliedCss": "evidence/j-contact-section.css"
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "food",
+      "name": "Food K - Clubhouse Kitchen",
+      "type": "Concessions Menu",
+      "nativeWidgetType": "nativeConcessionsMenu",
+      "operation": "create",
+      "draftPageId": 5916,
+      "publishedPageId": 5915,
+      "draftSectionId": 25122,
+      "publishedSectionId": 25135,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "classes": "fdp-k-food",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-k-clubhouse / food",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/k-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [],
+      "nativeConfiguration": {
+        "salesChannel": "Website",
+        "displayMode": "Block",
+        "viewMode": "Grid",
+        "itemsPerRowDesktop": 3,
+        "itemsPerRowMobile": 1,
+        "catalog": "Existing site concessions catalog; no product, category or price mutation."
+      },
+      "exactStoredCssExport": null
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "private-parties",
+      "name": "Private Parties K - Gather Your People",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5916,
+      "publishedPageId": 5915,
+      "draftSectionId": 25128,
+      "publishedSectionId": 25136,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "classes": "fdp-k-private-parties",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-k-clubhouse / private-parties",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/k-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/private-hire/"
+      ],
+      "exactStoredCssExport": null
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "membership",
+      "name": "Membership K - Your Place In The Clubhouse",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "enrich-existing",
+      "draftPageId": 5916,
+      "publishedPageId": 5915,
+      "draftSectionId": 24894,
+      "publishedSectionId": 24899,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "classes": "fdp-k-membership",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-k-clubhouse / membership",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/k-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/membership/"
+      ],
+      "exactStoredCssExport": null,
+      "previousSection": {
+        "publishedSectionId": 24899,
+        "backup": "evidence/indy-backups/k-membership-before.json",
+        "draftSectionId": 24894
+      }
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "component": "contact",
+      "name": "Contact K - Say Hello",
+      "type": "Generic Form",
+      "nativeWidgetType": "nativeGenericForm",
+      "operation": "create",
+      "draftPageId": 5916,
+      "publishedPageId": 5915,
+      "draftSectionId": 25117,
+      "publishedSectionId": 25137,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-k-clubhouse/",
+      "classes": "fdp-k-contact",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-k-clubhouse / contact",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/k-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [],
+      "fields": [
+        {
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Message",
+          "type": "notes",
+          "required": true,
+          "fullWidth": true
+        }
+      ],
+      "notifyEmail": "",
+      "submissionEmail": "",
+      "formSubmission": "Not submitted",
+      "exactStoredCssExport": null
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "food",
+      "name": "Food L - After Dark Menu",
+      "type": "Concessions Menu",
+      "nativeWidgetType": "nativeConcessionsMenu",
+      "operation": "create",
+      "draftPageId": 5918,
+      "publishedPageId": 5917,
+      "draftSectionId": 25119,
+      "publishedSectionId": 25138,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "classes": "fdp-l-food",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-l-midnight-lounge / food",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/l-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [],
+      "nativeConfiguration": {
+        "salesChannel": "Website",
+        "displayMode": "Block",
+        "viewMode": "List",
+        "categories": [
+          "Snacks",
+          "Drinks",
+          "Desserts"
+        ],
+        "itemCount": 7
+      },
+      "exactStoredCssExport": null
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "private-parties",
+      "name": "Private Parties L - An Evening Of Your Own",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5918,
+      "publishedPageId": 5917,
+      "draftSectionId": 25124,
+      "publishedSectionId": 25139,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "classes": "fdp-l-private-parties",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-l-midnight-lounge / private-parties",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/l-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/private-hire/"
+      ],
+      "exactStoredCssExport": null
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "membership",
+      "name": "Membership L - After Dark Regular",
+      "type": "Text Block",
+      "nativeWidgetType": "nativeTextBlock",
+      "operation": "create",
+      "draftPageId": 5918,
+      "publishedPageId": 5917,
+      "draftSectionId": 25126,
+      "publishedSectionId": 25140,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "classes": "fdp-l-membership",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-l-midnight-lounge / membership",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/l-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [
+        "/membership/"
+      ],
+      "exactStoredCssExport": null
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "component": "contact",
+      "name": "Contact L - A Note After Dark",
+      "type": "Generic Form",
+      "nativeWidgetType": "nativeGenericForm",
+      "operation": "create",
+      "draftPageId": 5918,
+      "publishedPageId": 5917,
+      "draftSectionId": 25130,
+      "publishedSectionId": 25141,
+      "state": "published",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-l-midnight-lounge/",
+      "classes": "fdp-l-contact",
+      "contentProposalReference": "evidence/parity-section-payloads.json: variant-l-midnight-lounge / contact",
+      "provenance": {
+        "mapping": "Publication result and rendered consumer source",
+        "resultFile": "evidence/l-component-result.json",
+        "capturedAt": null
+      },
+      "verification": {
+        "desktop": "verified",
+        "publishedSource": "verified",
+        "consumerViewportMobileOwner": "/root",
+        "consumerViewportMobile": "verified at 390px on the published consumer page; no measured component overflow",
+        "mobileEvidence": "evidence/parity-mobile-qa.json",
+        "mobileVisual": "Passed manual pixel review at 390px; see evidence/mobile-visual-qa.json."
+      },
+      "links": [],
+      "fields": [
+        {
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Message",
+          "type": "notes",
+          "required": true,
+          "fullWidth": true
+        }
+      ],
+      "notifyEmail": "",
+      "submissionEmail": "",
+      "formSubmission": "Not submitted",
+      "exactStoredCssExport": null
+    }
+  ],
+  "validation": {
+    "uniqueVariantComponentCount": 16,
+    "positiveDraftAndPublishedIds": true,
+    "moduleCount": 16,
+    "publicationMapping": "Final J republish IDs confirmed stable in j-component-result.json.",
+    "consumerMobile": "All 16 changed modules checked at 390px on seven real published pages; no measured new-module or page overflow."
+  },
+  "mobileVerification": {
+    "file": "evidence/parity-mobile-qa.json",
+    "checkedAt": "2026-10-25T13:45:55.389Z",
+    "variantCount": 7,
+    "viewportWidth": 390,
+    "changedModules": 16,
+    "existingOverflow": [
+      {
+        "variant": "variant-g-cut",
+        "classes": "section-events-g---diagonal-stack-24851 q-px-xs section-events-g---diagonal-stack-24851",
+        "width": 390.3999938964844,
+        "scrollWidth": 394,
+        "pageWidth": 390
+      }
+    ],
+    "visualReview": {
+      "file": "evidence/mobile-visual-qa.json",
+      "proof": "evidence/mobile-components/mobile-contact-proof.png",
+      "status": "passed",
+      "modules": 16,
+      "viewportWidth": 390,
+      "result": "All new or enriched modules preserve visible content, readable text and actions; all seven product photos are loaded in each J/K/L menu."
+    }
+  }
+}

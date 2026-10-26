@@ -1,0 +1,88 @@
+{
+  "fields": [
+    {
+      "label": "Title",
+      "value": "Fandango Cinema Template Test"
+    },
+    {
+      "label": "URL Slug",
+      "value": "fandango-cinema-template-test"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": "Cinema Template Test | Adam Template Testing"
+    },
+    {
+      "label": "Search Engine Description",
+      "value": "A US-BETA cinema website template prototype combining neighborhood, cinematic, and task-first wireframe patterns."
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": "/* Home — shared cinematic shell, scoped to this INDY page */\n:root { --dusk-ink:#241a2e; --dusk-paper:#fbefe2; --dusk-coral:#e06b4a; --dusk-gold:#f4c67a; }\n.q-page-container { background:var(--dusk-paper); }\n.q-page { max-width:1440px; margin:0 auto; }\n.q-page h3 { letter-spacing:-.055em; line-height:.92; }\n.q-page button { border-radius:999px; border:1px solid rgba(36,26,46,.15); box-shadow:none; transition:transform .18s ease, box-shadow .18s ease; }\n.q-page button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(36,26,46,.13); }\n.q-page [class*=\"card\"] { border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(36,26,46,.10); }\n.q-page [class*=\"card\"] img { object-fit:cover; }\n.q-page [class*=\"swiper\"] { border-radius:0 0 28px 28px; overflow:hidden; }\n.q-page [class*=\"swiper\"] button { border-radius:999px; }\n.q-page input, .q-page [role=\"combobox\"] { border-radius:14px; }\n@media (max-width:640px) { .q-page { overflow:hidden; } }"
+    }
+  ],
+  "sectionRows": [
+    {
+      "id": "23550",
+      "name": "Featured - Three Films",
+      "type": "Generic Carousel",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23536",
+      "name": "Hero - Big Stories",
+      "type": "Text Block",
+      "visibilityIcons": "toggle_off\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23537",
+      "name": "Book - Showtime Quick Selector",
+      "type": "Showtime Quick Selector",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23549",
+      "name": "Showtimes - Pick a Showtime",
+      "type": "Showtimes",
+      "visibilityIcons": "toggle_off\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23538",
+      "name": "Movies - Seven Stories",
+      "type": "Poster Carousel",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23539",
+      "name": "Features - More Than a Movie",
+      "type": "Text Block",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23540",
+      "name": "Concessions - Snacks Worth the Credits",
+      "type": "Concessions Menu",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    },
+    {
+      "id": "25156",
+      "name": "Food - Clubhouse Kitchen",
+      "type": "Concessions Menu",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    },
+    {
+      "id": "23541",
+      "name": "Visit - Plan Your Night",
+      "type": "Text Block",
+      "visibilityIcons": "visibility\nschedule\nsmartphone\ncomputer"
+    }
+  ]
+}

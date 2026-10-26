@@ -1,0 +1,116 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 251.7926788330078,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 5.12px 10.24px",
+        "text": "CUT TO PICTURE.",
+        "width": 527.1455078125
+      },
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 58.5,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.52px 1.04px",
+        "text": "Every screen is a poster. One film, one sharp choice.",
+        "width": 245.8125
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-g---poster-block-24846 q-px-xs section-hero-g---poster-block-24846 zoom",
+        "height": 520,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-g---diagonal-stack-24848 q-px-xs section-events-g---diagonal-stack-24848 zoom",
+        "height": 1792.9500732421875,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-g---colour-tile-wall-24849 q-px-xs section-food-g---colour-tile-wall-24849 zoom",
+        "height": 1379.9375,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-g---two-tone-split-24847 q-px-xs section-contact-g---two-tone-split-24847 zoom",
+        "height": 819.9500122070312,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-g-membership section-membership-g---poster-pass-25116 q-px-xs section-membership-g---poster-pass-25116 zoom",
+        "height": 842.5125122070312,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 265.4793395996094,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 5.12px 10.24px",
+        "text": "CUT TO PICTURE.",
+        "width": 657.36572265625
+      },
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 58.5,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.85) 0px 0.52px 1.04px",
+        "text": "Every screen is a poster. One film, one sharp choice.",
+        "width": 245.8125
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-g---poster-block-24846 q-px-xs section-hero-g---poster-block-24846",
+        "height": 520,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-events-g---diagonal-stack-24848 q-px-xs section-events-g---diagonal-stack-24848",
+        "height": 1792.9500732421875,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-food-g---colour-tile-wall-24849 q-px-xs section-food-g---colour-tile-wall-24849",
+        "height": 1376.9375,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-g---two-tone-split-24847 q-px-xs section-contact-g---two-tone-split-24847",
+        "height": 795.9500122070312,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-g-membership section-membership-g---poster-pass-25116 q-px-xs section-membership-g---poster-pass-25116",
+        "height": 842.5125122070312,
+        "primary": "#027be3",
+        "width": 1020
+      }
+    ]
+  }
+]

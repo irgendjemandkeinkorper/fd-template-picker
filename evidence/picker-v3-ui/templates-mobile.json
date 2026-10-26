@@ -1,0 +1,104 @@
+{
+  "cards": [
+    {
+      "name": "Showcase",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Reel",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Neon",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Cameo",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Metropolis",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Encore",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Splice",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Prologue",
+      "width": 335.20001220703125,
+      "x": 20
+    },
+    {
+      "name": "Pause",
+      "width": 335.20001220703125,
+      "x": 20
+    }
+  ],
+  "clientWidth": 390,
+  "images": [
+    {
+      "alt": "Showcase hero preview",
+      "loaded": true
+    },
+    {
+      "alt": "Reel hero preview",
+      "loaded": true
+    },
+    {
+      "alt": "Neon hero preview",
+      "loaded": true
+    },
+    {
+      "alt": "Cameo hero preview",
+      "loaded": true
+    },
+    {
+      "alt": "Metropolis hero preview",
+      "loaded": true
+    },
+    {
+      "alt": "Encore food & drink preview",
+      "loaded": true
+    },
+    {
+      "alt": "Splice hero preview",
+      "loaded": false
+    },
+    {
+      "alt": "Prologue hero preview",
+      "loaded": false
+    },
+    {
+      "alt": "Pause hero preview",
+      "loaded": false
+    }
+  ],
+  "names": [
+    "Showcase",
+    "Reel",
+    "Neon",
+    "Cameo",
+    "Metropolis",
+    "Encore",
+    "Splice",
+    "Prologue",
+    "Pause"
+  ],
+  "scrollWidth": 390,
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

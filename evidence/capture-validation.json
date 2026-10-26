@@ -1,0 +1,56 @@
+{
+  "variantCount": 12,
+  "optionCount": 110,
+  "screenshotCount": 105,
+  "statusCounts": {
+    "captured-live": 105,
+    "not-rendered": 5
+  },
+  "captureMethodCounts": {
+    "browser-viewport-tiles": 48,
+    "live-browser-full-page": 62
+  },
+  "excludedPixels": [
+    {
+      "id": "footer--variant-a-circuit",
+      "excludedDocumentY": [
+        [
+          5246,
+          5247
+        ]
+      ],
+      "note": "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
+    },
+    {
+      "id": "footer--variant-i-ma",
+      "excludedDocumentY": [
+        [
+          6740,
+          6741
+        ]
+      ],
+      "note": "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
+    },
+    {
+      "id": "footer--variant-j-box-office",
+      "excludedDocumentY": [
+        [
+          5302,
+          5303
+        ]
+      ],
+      "note": "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
+    },
+    {
+      "id": "footer--variant-l-midnight-lounge",
+      "excludedDocumentY": [
+        [
+          5229,
+          5230
+        ]
+      ],
+      "note": "The final 1 CSS pixel of the source footer was outside the captured browser image and is omitted. Original source bounds are retained."
+    }
+  ],
+  "errors": []
+}

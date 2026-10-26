@@ -1,0 +1,36 @@
+Browser tab: 1409043217, Title: "React App", URL: "https://template-showcase.netlify.app/".
+1 AXWebArea React App, URL: template-showcase.netlify.app/
+	2 container root
+		3 heading You own store of Nifty NFTs. Start Selling & Growing, Value: 1
+			4 text You own store of Nifty NFTs. Start Selling & Growing
+		5 text Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using NiftyNickle Marketplace.
+		6 container
+			7 image expo_icon
+			8 text View it on Expo Store
+		9 image mockup
+		10 heading Smart User Interface Marketplace, Value: 1
+			11 text Smart User Interface Marketplace
+		12 text Experience a buttery UI of NiftyNickle NFT Marketplace. Smooth constant colors of a fluent UI design.
+		13 image mockup
+		14 heading Technologies, Value: 1
+			15 text Technologies
+		16 text NiftyNickle has been developed using a cross-platform technology, React Native.
+		17 image icon
+		18 text React Native
+		19 image icon
+		20 text JavaScript
+		21 heading Deployment, Value: 1
+			22 text Deployment
+		23 text NiftyNickle is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands
+		24 image mockup
+		25 heading Creative way to showcase the store, Value: 1
+			26 text Creative way to showcase the store
+		27 text The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT.
+		28 image mockup
+		29 heading Download the Source Code, Value: 1
+			30 text Download the Source Code
+		31 text Get the full source code on GitHub
+		32 button Source Code
+		33 image download_png
+
+The focused UI element is 1 AXWebArea React App, URL: template-showcase.netlify.app/

@@ -1,0 +1,58 @@
+{
+  "clientWidth": 1536,
+  "imageCount": 9,
+  "links": [
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-a-circuit/",
+      "label": "View Showcase demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-b-rep/",
+      "label": "View Reel demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-c-late/",
+      "label": "View Neon demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-d-odd/",
+      "label": "View Cameo demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-e-grid/",
+      "label": "View Metropolis demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "label": "View Encore demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-g-cut/",
+      "label": "View Splice demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-h-storybook/",
+      "label": "View Prologue demo in a new tab"
+    },
+    {
+      "href": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "label": "View Pause demo in a new tab"
+    }
+  ],
+  "names": [
+    "Showcase",
+    "Reel",
+    "Neon",
+    "Cameo",
+    "Metropolis",
+    "Encore",
+    "Splice",
+    "Prologue",
+    "Pause"
+  ],
+  "scrollWidth": 1536,
+  "viewport": {
+    "height": 900,
+    "width": 1536
+  }
+}

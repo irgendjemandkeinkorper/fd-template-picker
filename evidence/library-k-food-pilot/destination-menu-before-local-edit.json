@@ -1,0 +1,27 @@
+{
+  "categories": [
+    {
+      "id": "589",
+      "text": "Snacks"
+    },
+    {
+      "id": "590",
+      "text": "Drinks"
+    },
+    {
+      "id": "591",
+      "text": "Desserts"
+    }
+  ],
+  "pageCss": "",
+  "productCount": 7,
+  "products": [
+    "Marquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00",
+    "No Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00",
+    "The Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.\n$11.00",
+    "Soda\nStarting at$6.00",
+    "Pie Hard\nWarm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.\n$10.00",
+    "Sundae, Bloody Sundae\nThree scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.\n$10.00",
+    "Movie Candy\nSour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.\n$5.00"
+  ]
+}

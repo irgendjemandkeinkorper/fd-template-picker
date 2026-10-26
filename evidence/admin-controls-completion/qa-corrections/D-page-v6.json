@@ -1,0 +1,32 @@
+{
+  "schema": "fd-native-qa-correction/v1",
+  "field": "D-page",
+  "editablePage": 5900,
+  "publishedPage": 5899,
+  "nativeSavedSource": "evidence/admin-controls-completion/native-saved/D-page.css",
+  "beforeSnapshot": "evidence/admin-controls-completion/qa-corrections/D-page-v6.before.css",
+  "beforeBytesSha256": "56e92a2a486119fe483db40b8ab54ddf1ce8d621933f3fd0dffdc4a8bcb550a9",
+  "beforeTextSha256": "56e92a2a486119fe483db40b8ab54ddf1ce8d621933f3fd0dffdc4a8bcb550a9",
+  "beforeCharacters": 56818,
+  "proposal": "evidence/admin-controls-completion/qa-corrections/D-page-v6.css",
+  "proposalBytesSha256": "790d7080e8f975b0462c9e1f80d9772c845e42936e803c9d06a9be5fd2169ece",
+  "proposalTextSha256": "790d7080e8f975b0462c9e1f80d9772c845e42936e803c9d06a9be5fd2169ece",
+  "proposalCharacters": 56817,
+  "status": "prepared-from-native-saved-v5-not-applied-by-generator",
+  "change": "Only max1023px owned mobile price right:-8px becomes right:8px. Base right:8px from v5 remains. All two source price positioning rules now inset8px.",
+  "observed": {
+    "phonePriceRight": 186.93,
+    "phoneClipOwnerRight": 179.35,
+    "horizontalClip": 7.58,
+    "clipOwner": ".q-card__section: overflow-x:clip;overflow-y:visible",
+    "desktopV5Clearance": "all seven prices5.68\u20137.94px inside clip owner",
+    "source": "Root actual mobile DOM clipping chain plus source media-rule audit"
+  },
+  "unchanged": [
+    "All paints and desktop v5 inset",
+    "Mobile top:-8px, padding6px8px, sticker6deg tilt",
+    "All native content/media/form and D v4 collage flow",
+    "Native overflow semantics and frozen baseline proposal bundle"
+  ],
+  "acceptance": "Root must verify all seven full currency strings and names on both views, both native palettes, original restoration and fresh D food clip review."
+}

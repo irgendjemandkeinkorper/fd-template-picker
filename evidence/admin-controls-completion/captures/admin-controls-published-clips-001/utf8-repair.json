@@ -1,0 +1,11 @@
+{
+  "status": "repaired-catalog-only-utf8",
+  "optionCount": 110,
+  "captureCount": 66,
+  "baselineSha256": "86ff3805a49b3ab25d3dc69b90514b5923739d54fbac8f94b3672f91b15da6c2",
+  "beforeSha256": "fd1062e5d8c513c8bff9e4e5d47ca853818f6341a4f4e5e8fa11d0acf80a4853",
+  "afterSha256": "9dd64dd3ece5f0e43f6be228a50e9b05e9dbdea259ce827150bd7b74279c74d0",
+  "semanticMetadata": "All original non-capture fields preserved exactly from the immutable pre-ingestion catalog",
+  "pixelFiles": "Unchanged; canonical bytes match retained raw hashes",
+  "nodeSubprocessEncoding": "utf-8, strict"
+}

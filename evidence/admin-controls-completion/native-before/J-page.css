@@ -1,0 +1,20 @@
+[class*="section-j-intro-"] .text-body1,
+[class*="section-j-visit-"] .text-body1 {
+  color: #f5eee8 !important;
+}
+
+/* Keep the four Box Office modules readable at every section width. */
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact){padding:clamp(28px,5%,76px) clamp(18px,5%,72px)!important;container-type:inline-size;}
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) h2{font-size:clamp(30px,5cqi,62px)!important;overflow-wrap:anywhere;}
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) h3{font-size:clamp(21px,3cqi,30px);}
+:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership) .text-body1{color:#241c19!important;}
+.fdp-j-private-parties .fdp-hire-desk{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))!important;}
+.fdp-j-membership .fdp-ticket{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))!important;}
+.fdp-j-contact form{max-width:900px!important;padding:0;}
+.fdp-j-contact .q-col-gutter-md{margin-left:0;}
+.fdp-j-contact .q-col-gutter-md>div{padding-left:0;padding-right:12px;}
+/* Use the Box Office type treatment within the added modules. */
+[class*="section-"]:is(.fdp-j-food,.fdp-j-private-parties,.fdp-j-membership,.fdp-j-contact) :is(h2,h3){font-family:Arial,sans-serif!important;}
+.fdp-j-membership h2{font-size:clamp(30px,4cqi,52px)!important;}
+/* Keep the native enquiry action in the Box Office palette. */
+body.site-170 & .fdp-j-contact .q-btn{background:#a84327!important;color:#fff8ec!important;font-family:Arial,Helvetica,sans-serif!important;border-radius:0!important;}

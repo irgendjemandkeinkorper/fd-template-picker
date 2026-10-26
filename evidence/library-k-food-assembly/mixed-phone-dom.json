@@ -1,0 +1,161 @@
+{
+  "capturedAt": "2026-10-25T23:25:58.490Z",
+  "cards": [
+    {
+      "font": "Georgia, serif",
+      "height": 316.4624938964844,
+      "shadow": "none",
+      "text": "Marquee Popcorn\nFresh-popped, hot-buttered. Small, large, or bottomless.\nStarting at$7.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 1095.3499755859375
+    },
+    {
+      "font": "Georgia, serif",
+      "height": 340.4624938964844,
+      "shadow": "none",
+      "text": "No Country for Old Nachos\nHouse-fried tortilla chips, queso blanco, seasoned beef, pickled jalapeños, black beans, pico de gallo, lime crema, scallion. Built to share, but no judgment if you don't.\n$14.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 1423.8125
+    },
+    {
+      "font": "Georgia, serif",
+      "height": 340.4624938964844,
+      "shadow": "none",
+      "text": "The Pretzel Identity\nWarm soft pretzel, beer cheese queso, stone-ground mustard, sea salt. Identifies itself before you've even opened the package.\n$11.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 1776.2750244140625
+    },
+    {
+      "font": "Georgia, serif",
+      "height": 241.2624969482422,
+      "shadow": "none",
+      "text": "Soda\nStarting at$6.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 2201.53759765625
+    },
+    {
+      "font": "Georgia, serif",
+      "height": 316.4624938964844,
+      "shadow": "none",
+      "text": "Pie Hard\nWarm Michigan cherry pie, vanilla bean ice cream, brown butter crumble, caramel drizzle. A nod to Traverse City. Yippee-ki-yay, dessert lovers.\n$10.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 2527.60009765625
+    },
+    {
+      "font": "Georgia, serif",
+      "height": 340.4624938964844,
+      "shadow": "none",
+      "text": "Sundae, Bloody Sundae\nThree scoops vanilla bean ice cream, hot fudge, salted caramel, candied pecans, fresh whipped cream, maraschino cherry. Big, loud, and worth the encore.\n$10.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 2856.0625
+    },
+    {
+      "font": "Georgia, serif",
+      "height": 316.4624938964844,
+      "shadow": "none",
+      "text": "Movie Candy\nSour Patch Kids, Reese's Pieces, M&M's, Twizzlers, Junior Mints, Raisinets, Skittles, Milk Duds. The classics, kept classic.\n$5.00",
+      "width": 232,
+      "x": 642.4000244140625,
+      "y": 3208.525146484375
+    }
+  ],
+  "categories": [
+    {
+      "id": "589",
+      "text": "Snacks"
+    },
+    {
+      "id": "590",
+      "text": "Drinks"
+    },
+    {
+      "id": "591",
+      "text": "Desserts"
+    }
+  ],
+  "columns": 1,
+  "compiledCurrentScope": true,
+  "heading": {
+    "color": "rgb(29, 29, 29)",
+    "fontFamily": "Georgia, \"Times New Roman\", serif",
+    "fontSize": "62px",
+    "text": "Good company. Good things to share."
+  },
+  "images": [
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    },
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    },
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    },
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    },
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    },
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    },
+    {
+      "loaded": true,
+      "naturalHeight": 374,
+      "naturalWidth": 600
+    }
+  ],
+  "limitations": [
+    "Native Admin framework colors do not certify consumer Theme palette",
+    "Simulated phone frame does not change outer browser viewport used by CSS vw units",
+    "No consumer publication, real phone, Mobile App, empty-catalogue or checkout verification"
+  ],
+  "mode": "simulated-phone",
+  "overflowPx": 3,
+  "pageId": "5586",
+  "root": {
+    "class": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156",
+    "clientWidth": 376,
+    "height": 3161.6875,
+    "scrollWidth": 379,
+    "width": 376,
+    "x": 570.4000244140625,
+    "y": 467.3000183105469
+  },
+  "sectionId": "25156",
+  "surroundingRenderedSections": [
+    {
+      "class": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156",
+      "heading": "Good company. Good things to share."
+    }
+  ],
+  "tokens": {
+    "--q-background": "#eeeeee",
+    "--q-dark": "#1d1d1d",
+    "--q-primary": "#027be3",
+    "--q-secondary": "#26a69a"
+  },
+  "viewport": {
+    "height": 695,
+    "width": 1536
+  }
+}

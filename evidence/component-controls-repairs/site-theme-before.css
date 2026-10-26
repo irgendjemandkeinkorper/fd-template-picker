@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Jost:ital,wght@0,300..600;1,300..500&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+/* Nocturne type system — Bodoni Moda (display), Jost (UI), IBM Plex Mono (times/prices) */
+
+/* The Parlor / warm cinema lounge
+   Authorized target: US-BETA / INDY Demo / Adam Template Testing 2 */
+
+body.site-170 {
+  --pl-ink: #211817;
+  --pl-ink-deep: #171211;
+  --pl-panel: #322522;
+  --pl-cream: #f7eee4;
+  --pl-paper: #fbf3e8;
+  --pl-muted: #bdaaa3;
+  --pl-wine: #9c3158;
+  --pl-line: #72544c;
+  background: #e8ecef;
+  color: var(--pl-cream);
+  font-family: Arial, "Helvetica Neue", sans-serif;
+}
+
+body.site-170 .q-layout,
+body.site-170 .q-page-container {
+  background: var(--pl-ink);
+}
+
+body.site-170 .consumer-header {
+  border-bottom: 1px solid var(--pl-line);
+  background: rgba(33, 24, 23, .98) !important;
+  box-shadow: none;
+  backdrop-filter: blur(8px);
+}
+
+body.site-170 .consumer-header .q-toolbar {
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+body.site-170 :is(h1, h2, h3, h4, .title, .poster-title) {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-weight: 600 !important;
+  letter-spacing: -.025em;
+  line-height: 1.03;
+  text-transform: none;
+}
+
+body.site-170 main :is(.q-btn, button) {
+  border-radius: .35rem !important;
+  box-shadow: none;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+body.site-170 main .q-btn.bg-primary,
+body.site-170 main .bg-primary.q-btn {
+  background: var(--pl-wine) !important;
+  color: #fff !important;
+}
+
+body.site-170 .consumer-header :is(a, button),
+body.site-170 main :is(a, button, input, select) {
+  transition: color .15s ease, background-color .15s ease, border-color .15s ease;
+}
+
+body.site-170 :is(a, button, input, select):focus-visible {
+  outline: 2px solid var(--pl-cream) !important;
+  outline-offset: 3px;
+}
+
+body.site-170 .q-drawer {
+  background: var(--pl-ink) !important;
+  color: var(--pl-cream) !important;
+}
+
+body.site-170 .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
+  color: var(--pl-cream) !important;
+}
+
+body.site-170 .q-drawer :is(.q-router-link--active, .q-item--active) :is(.q-item__label, .q-icon) {
+  color: #d77a9b !important;
+}
+
+body.site-170 footer[data-test-id="global-widget-footer"] {
+  border-top: 1px solid var(--pl-line);
+  background: var(--pl-ink-deep) !important;
+  color: var(--pl-cream) !important;
+}
+
+body.site-170 footer[data-test-id="global-widget-footer"] :is(a, p, .text-current-color) {
+  color: var(--pl-cream) !important;
+}
+
+/* Keep the native information pages readable inside the same lounge system. */
+body.site-170 :is(
+  [class*="page-movie-lineup-"],
+  [class*="page-food-drink-"],
+  [class*="page-visit-"],
+  [class*="page-membership-"],
+  [class*="page-events-late-nights-"],
+  [class*="page-private-hire-"]
+) {
+  background: var(--pl-ink);
+  color: var(--pl-cream);
+}
+
+body.site-170 :is(
+  [class*="page-movie-lineup-"],
+  [class*="page-food-drink-"],
+  [class*="page-visit-"],
+  [class*="page-membership-"],
+  [class*="page-events-late-nights-"],
+  [class*="page-private-hire-"]
+) :is(.text-body1, .text-subtitle1, p) {
+  color: var(--pl-cream) !important;
+}
+
+body.site-170 :is(
+  [class*="page-movie-lineup-"],
+  [class*="page-food-drink-"],
+  [class*="page-visit-"],
+  [class*="page-membership-"],
+  [class*="page-events-late-nights-"],
+  [class*="page-private-hire-"]
+) [class*="section-"] {
+  border-bottom: 1px solid var(--pl-line);
+}
+
+body.site-170 :is(
+  [class*="page-movie-lineup-"],
+  [class*="page-food-drink-"],
+  [class*="page-visit-"],
+  [class*="page-membership-"],
+  [class*="page-events-late-nights-"],
+  [class*="page-private-hire-"]
+) .q-card {
+  border: 1px solid var(--pl-line);
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  body.site-170 #consumer-layout-mobile .consumer-header .q-drawer.q-drawer--right {
+    top: 110px !important;
+    bottom: 0 !important;
+    height: calc(100dvh - 110px) !important;
+    background: var(--pl-ink) !important;
+  }
+
+  body.site-170 #consumer-layout-mobile .consumer-header :is(
+    .q-drawer__content,
+    .q-scrollarea.drawer-content,
+    .q-scrollarea__container
+  ) {
+    height: 100% !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.site-170 .consumer-layout *,
+  body.site-170 .consumer-layout *::before,
+  body.site-170 .consumer-layout *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+/* Mobile containment QA fix */
+body.site-170 {
+  overflow-x: hidden;
+}
+
+body.site-170 .q-layout,
+body.site-170 .q-page-container,
+body.site-170 main {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* ==========================================================
+   NAVIGATION VARIANTS
+   Page CSS cannot reach the header: INDY prefixes page styles
+   with .page-<slug>-<id>, and that class sits on <main>, which
+   is a SIBLING of the header. So the header treatments live
+   here instead, each fenced to one page with :has() so nothing
+   leaks to the rest of the site.
+   ========================================================== */
+
+/* ---------- Variant A Nav - "Classic Bar" ---------- */
+body.site-170 .q-layout:has(.page-variant-a-nav-5629) header.consumer-header {
+  background-color: #14100f !important;
+  border-bottom: 1px solid rgba(247,234,228,.16);
+  box-shadow: none;
+}
+body.site-170 .q-layout:has(.page-variant-a-nav-5629) header.consumer-header .q-toolbar.justify-end {
+  min-height: 74px;
+  padding-inline: clamp(1rem, 4vw, 3rem);
+}
+body.site-170 .q-layout:has(.page-variant-a-nav-5629) header.consumer-header .title-logo {
+  max-height: 40px;
+  width: auto;
+}
+body.site-170 .q-layout:has(.page-variant-a-nav-5629) header.consumer-header .row.menu {
+  flex: 1 1 auto;
+  justify-content: center;
+  gap: clamp(1rem, 2.4vw, 2.4rem);
+}
+body.site-170 .q-layout:has(.page-variant-a-nav-5629) header.consumer-header .row.menu a {
+  font-size: .78rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: .85;
+}
+body.site-170 .q-layout:has(.page-variant-a-nav-5629) header.consumer-header .language-toggle { display: none; }
+
+/* ---------- Variant B Nav - "Stacked Marquee" ---------- */
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header {
+  background-color: #efe7e0 !important;
+  border-bottom: 1px solid rgba(20,16,15,.14);
+  box-shadow: none;
+}
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header,
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header a,
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-btn { color: #14100f; }
+
+/* Logo on its own centred line, links centred beneath it */
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-toolbar.justify-end {
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 0;
+  padding: 1rem clamp(1rem, 4vw, 3rem) .7rem;
+}
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-toolbar__title {
+  flex: 1 0 100%;
+  text-align: center;
+  margin: 0 0 .5rem;
+}
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .title-logo { max-height: 46px; width: auto; }
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-space { display: none; }
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .row.menu {
+  flex: 1 0 100%;
+  justify-content: center;
+  gap: clamp(.9rem, 2.2vw, 2.1rem);
+  order: 3;
+}
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .row.menu a {
+  font-size: .74rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* Account + search float clear of the stacked centre */
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-toolbar.justify-end > .col-auto.row.justify-end {
+  position: absolute;
+  top: .8rem;
+  right: clamp(1rem, 4vw, 3rem);
+}
+body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .language-toggle { display: none; }
+
+/* ---------- Variant C Nav - "Minimal Rail" ---------- */
+body.site-170 .q-layout:has(.page-variant-c-nav-5633) header.consumer-header {
+  /* a translucent rail: gradients get stripped from site CSS here,
+     so the floating effect uses a semi-opaque colour instead */
+  background-color: rgba(20,16,15,.38) !important;
+  backdrop-filter: blur(6px);
+  border-bottom: 0;
+  box-shadow: none;
+}
+body.site-170 .q-layout:has(.page-variant-c-nav-5633) header.consumer-header .q-toolbar.justify-end {
+  min-height: 52px;
+  padding-inline: clamp(1rem, 3vw, 2.25rem);
+}
+body.site-170 .q-layout:has(.page-variant-c-nav-5633) header.consumer-header .title-logo { max-height: 26px; width: auto; }
+body.site-170 .q-layout:has(.page-variant-c-nav-5633) header.consumer-header .row.menu {
+  justify-content: flex-end;
+  gap: clamp(.7rem, 1.5vw, 1.4rem);
+}
+body.site-170 .q-layout:has(.page-variant-c-nav-5633) header.consumer-header .row.menu a {
+  font-size: .82rem;
+  font-weight: 500;
+  opacity: .9;
+}
+body.site-170 .q-layout:has(.page-variant-c-nav-5633) header.consumer-header .language-toggle { display: none; }
+
+/* Variant B stacks tall - drop it back to one row on small screens */
+@media (max-width: 899px) {
+  body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-toolbar__title {
+    flex: 0 0 auto;
+    text-align: left;
+    margin: 0;
+  }
+  body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-space { display: block; }
+  body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .title-logo { max-height: 30px; }
+  body.site-170 .q-layout:has(.page-variant-b-nav-5631) header.consumer-header .q-toolbar.justify-end > .col-auto.row.justify-end { position: static; }
+}
+
+/* NOCTURNE NAV VARIANTS - scoped per consolidated persona page */
+/* A - Circuit: dense opaque bar, CTA always in view */
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header{background-color:#08080A !important;box-shadow:none !important;border-bottom:1px solid rgba(232,223,209,.12) !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .q-toolbar:has(.q-btn-group){display:none !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .q-toolbar{min-height:56px !important;padding-inline:clamp(1rem,3vw,2rem) !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header img.title-logo{height:18px !important;margin:0 !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu{gap:24px !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a{font-family:"Jost","Helvetica Neue",Helvetica,sans-serif !important;font-size:13px !important;letter-spacing:.08em !important;text-transform:uppercase !important;color:#CFC4B2 !important;min-height:0 !important;padding:0 !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child{background-color:#A34B3C !important;border-radius:2px !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a{color:#F5F0E6 !important;height:40px !important;padding:0 20px !important;}
+/* B - Rep: two stacked rows, centred, no CTA, paper ground */
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header{background-color:#F5F0E6 !important;box-shadow:none !important;border-bottom:1px solid rgba(20,20,24,.14) !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar:has(.q-btn-group){display:none !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar{flex-wrap:wrap !important;min-height:0 !important;padding:0 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar__title{width:100% !important;max-width:100% !important;flex:0 0 100% !important;display:flex !important;justify-content:center !important;order:1 !important;padding:12px 0 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-space{display:none !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header img.title-logo{height:34px !important;margin:0 !important;filter:invert(1) !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu{width:100% !important;max-width:100% !important;flex:0 0 100% !important;order:2 !important;justify-content:center !important;gap:28px !important;border-top:1px solid rgba(20,20,24,.14) !important;padding:10px 0 !important;margin:0 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a{font-family:"Jost","Helvetica Neue",Helvetica,sans-serif !important;font-size:12px !important;letter-spacing:.18em !important;text-transform:uppercase !important;color:#1C1C21 !important;min-height:0 !important;padding:0 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .col-auto.row.justify-end{display:none !important;}
+/* C - Late: hamburger-primary, no visible link list, translucent over the marquee */
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header{background-color:rgba(8,8,10,.55) !important;box-shadow:none !important;border-bottom:1px solid rgba(191,155,69,.55) !important;}
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header .q-toolbar:has(.q-btn-group){display:none !important;}
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header .q-toolbar{min-height:64px !important;padding-inline:20px !important;}
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header .row.menu{display:none !important;}
+body.site-170 .q-layout:has(.page-variant-c-late-5663) header.consumer-header img.title-logo{height:20px !important;margin:0 !important;}
+
+/* Quasar q-btn ignores colour/background on the anchor - target the inner content */
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a .q-btn__content,body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu a span{color:#CFC4B2 !important;}
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a .q-btn__content,body.site-170 .q-layout:has(.page-variant-a-circuit-5659) header.consumer-header .row.menu .list-complete-item:last-child a span{color:#F5F0E6 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a .q-btn__content,body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .row.menu a span{color:#1C1C21 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar__title a.link{margin:0 auto !important;flex:0 0 auto !important;display:block !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) header.consumer-header .q-toolbar__title{text-align:center !important;}
+
+/* Persona button colours - beat the legacy .q-btn.bg-primary rule */
+body.site-170 .q-layout:has(.page-variant-a-circuit-5659) main .q-btn.bg-primary{background:#A34B3C !important;color:#F5F0E6 !important;}
+body.site-170 .q-layout:has(.page-variant-b-rep-5661) main .q-btn.bg-primary{background:transparent !important;color:#571726 !important;}
+body.site-170 .q-layout:has(.page-variant-c-late-5663) main .q-btn.bg-primary{background:transparent !important;color:#BF9B45 !important;}
+
+/* ---------- shared: fonts as tokens, same three families the site already imports ---------- */
+.q-layout:has([class*="page-variant-d-odd-"], [class*="page-variant-e-grid-"], [class*="page-variant-f-concrete-"]) {
+  --n-display: "Bodoni Moda", "Didot", Georgia, serif;
+  --n-ui: "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --n-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --n-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ==========================================================================
+   NAV D · ODD — paper bar, logo on a tilted stamp, tabs at their own angles,
+   last link filled as "Tickets". Not sticky: it scrolls away with the page.
+   ========================================================================== */
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header {
+  position: absolute !important; /* scrolls away. Remove this line if the header overlaps content. */
+  background-color: var(--q-background) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid color-mix(in oklab, var(--q-dark) 18%, transparent) !important;
+  color: var(--q-dark) !important;
+}
+
+/* language/utility toolbar off */
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
+  display: none !important;
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar {
+  min-height: 64px !important;
+  padding-inline: clamp(16px, 3vw, 32px) !important;
+  overflow: visible !important; /* lets the stamp hang below the bar */
+}
+
+/* Logo cell becomes a 112px ink stamp, rotated, hanging 40px below the bar */
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title {
+  overflow: visible !important;
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 112px;
+  margin-top: 40px;
+  background-color: var(--q-dark);
+  outline: 1px dashed var(--q-background);
+  outline-offset: -8px;
+  transform: rotate(-6deg);
+  transition: transform 220ms var(--n-ease);
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link:hover {
+  transform: rotate(0deg);
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header img.title-logo {
+  height: 44px !important;
+  margin: 0 !important;
+}
+
+/* Links as bordered tabs, each at its own small angle; hover straightens */
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu {
+  gap: 10px !important;
+  overflow: visible;
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item {
+  transform: rotate(var(--tilt, -2deg));
+  transition: transform 220ms var(--n-ease);
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(2n) { --tilt: 1.5deg; }
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(3n) { --tilt: -1deg; }
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:nth-child(4n) { --tilt: 2deg; }
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:hover { transform: rotate(0deg); }
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu a.q-btn {
+  background-color: var(--q-background) !important;
+  border: 1px solid var(--q-dark) !important;
+  border-radius: 2px !important;
+  padding: 6px 12px !important;
+  min-height: 0 !important;
+  font-family: var(--n-ui) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  color: var(--q-dark) !important;
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content, span) {
+  color: var(--q-dark) !important;
+}
+
+/* last item = Tickets, filled */
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
+  background-color: var(--q-primary) !important;
+  border-color: var(--q-primary) !important;
+}
+
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
+  color: var(--q-background) !important;
+}
+
+/* search + account icons in ink */
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .col-auto.row.justify-end .q-btn,
+.q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .col-auto.row.justify-end .q-icon {
+  color: var(--q-dark) !important;
+}
+
+/* mobile: 56px bar, 72px stamp, scrap-coloured full-screen drawer with italic links */
+@media (max-width: 1023px) {
+  .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar {
+    min-height: 56px !important;
+  }
+  .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header .q-toolbar__title a.link {
+    width: 72px;
+    height: 72px;
+    margin-top: 24px;
+  }
+  .q-layout:has([class*="page-variant-d-odd-"]) header.consumer-header img.title-logo {
+    height: 30px !important;
+  }
+  .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer {
+    width: 100vw !important;
+    background-color: color-mix(in oklab, var(--q-accent) 60%, var(--q-background)) !important;
+    color: var(--q-dark) !important;
+  }
+  .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
+    color: var(--q-dark) !important;
+    font-family: var(--n-display) !important;
+    font-style: italic;
+    font-size: 34px !important;
+    line-height: 1.1;
+  }
+  .q-layout:has([class*="page-variant-d-odd-"]) .q-drawer .q-item:nth-child(even) {
+    padding-left: 18% !important;
+  }
+}
+
+/* page buttons: beat the legacy site rule (.q-btn.bg-primary -> wine) using the page's own tokens */
+.q-layout:has([class*="page-variant-d-odd-"]) main .q-btn.bg-primary {
+  background: var(--v-go, var(--q-primary)) !important;
+  color: var(--v-on-go, var(--q-background)) !important;
+}
+
+/* ==========================================================================
+   NAV E · GRID — two tiers: the existing language toolbar becomes a 32px
+   utility row; the main bar carries logo left, links centred, icons and a
+   filled "Book" (last link) right. Sticky, flat, hairline bottom.
+   ========================================================================== */
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header {
+  background-color: var(--q-header) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid color-mix(in oklab, var(--q-background) 12%, transparent) !important;
+  color: var(--q-background) !important;
+}
+
+/* utility row (language / currency toolbar) kept and restyled */
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
+  display: flex !important;
+  min-height: 32px !important;
+  padding-inline: clamp(16px, 3vw, 32px) !important;
+  background-color: color-mix(in oklab, var(--q-header) 60%, black) !important;
+  border-bottom: 1px solid color-mix(in oklab, var(--q-background) 8%, transparent);
+  font-family: var(--n-ui) !important;
+  font-size: 12px !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) :is(.q-btn, span, .q-icon) {
+  color: color-mix(in oklab, var(--q-background) 70%, var(--q-header)) !important;
+  font-size: 12px !important;
+  min-height: 0 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
+  min-height: 64px !important;
+  padding-inline: clamp(16px, 3vw, 32px) !important;
+  max-width: 1264px;
+  margin-inline: auto;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header img.title-logo {
+  height: 28px !important;
+  margin: 0 !important;
+}
+
+/* links centred between logo and icons */
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-space {
+  display: none !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu {
+  margin: 0 auto !important;
+  gap: 28px !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn {
+  font-family: var(--n-ui) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  color: var(--q-background) !important;
+  min-height: 0 !important;
+  padding: 6px 2px !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 !important;
+  transition: border-color 120ms var(--n-ease);
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn:hover {
+  border-bottom-color: color-mix(in oklab, var(--q-background) 35%, transparent) !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content, span) {
+  color: var(--q-background) !important;
+}
+
+/* last link = Book, the one filled control in the bar */
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn {
+  background-color: var(--q-primary) !important;
+  border-radius: 2px !important;
+  padding: 8px 16px !important;
+  border-bottom: 0 !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn :is(.q-btn__content, span) {
+  color: var(--q-header) !important;
+  font-weight: 500 !important;
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .col-auto.row.justify-end .q-btn,
+.q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .col-auto.row.justify-end .q-icon {
+  color: var(--q-background) !important;
+}
+
+@media (max-width: 1023px) {
+  .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar:has(.q-btn-group) {
+    display: none !important;
+  }
+  .q-layout:has([class*="page-variant-e-grid-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"] {
+    min-height: 56px !important;
+  }
+  .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer {
+    width: 280px !important;
+    background-color: color-mix(in oklab, var(--q-background) 5%, var(--q-dark)) !important;
+  }
+  .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer :is(a, .q-item, .q-item__label, .q-icon) {
+    color: var(--q-background) !important;
+    font-family: var(--n-ui) !important;
+    font-size: 16px !important;
+  }
+  .q-layout:has([class*="page-variant-e-grid-"]) .q-drawer .q-item {
+    min-height: 48px !important;
+  }
+}
+
+.q-layout:has([class*="page-variant-e-grid-"]) main .q-btn.bg-primary {
+  background: var(--v-brand, var(--q-primary)) !important;
+  color: var(--v-on-brand, var(--q-dark)) !important;
+}
+
+
+/* NAV F · CONCRETE */
+@media (min-width: 1024px){.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header{position: fixed !important;top: 0 !important;bottom: 0 !important;left: 0 !important;right: auto !important;width: 240px !important;height: 100vh !important;background-color: var(--q-header) !important;border-right: 2px solid var(--q-background) !important;border-bottom: 0 !important;box-shadow: none !important;color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-page-container{padding-top: 0 !important;padding-left: 240px !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar:has(.q-btn-group){display: none !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar[data-test-id="left-align-header"]{flex-direction: column !important;align-items: stretch !important;justify-content: flex-start !important;height: 100% !important;min-height: 0 !important;padding: 0 !important;overflow: visible !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar__title{height: 96px !important;display: flex !important;align-items: center !important;justify-content: center !important;margin: 0 !important;padding: 0 16px !important;border-bottom: 2px solid var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header img.title-logo{height: 32px !important;margin: 0 !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-space{display: none !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu{flex-direction: column !important;align-items: stretch !important;gap: 0 !important;margin: 0 !important;padding: 0 !important;counter-reset: navf;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item{counter-increment: navf;border-bottom: 2px solid var(--q-background);}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn{display: flex !important;width: 100% !important;height: 48px !important;min-height: 0 !important;padding: 0 16px !important;justify-content: flex-start !important;border-radius: 0 !important;font-family: var(--n-mono) !important;font-size: 14px !important;font-weight: 400 !important;letter-spacing: 0.04em !important;text-transform: uppercase !important;color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn::before{content: counter(navf,decimal-leading-zero);margin-right: 16px;opacity: 0.55;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn :is(.q-btn__content,span){color: var(--q-background) !important;justify-content: flex-start !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover{background-color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu a.q-btn:hover :is(.q-btn__content,span){color: var(--q-header) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child{margin-top: auto !important;border-bottom: 0;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn{height: 64px !important;background-color: var(--q-primary) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .row.menu .list-complete-item:last-child a.q-btn::before{content: none;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .col-auto.row.justify-end{order: 5;justify-content: flex-start !important;padding: 8px 8px !important;border-top: 2px solid var(--q-background);}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .col-auto.row.justify-end .q-icon{color: var(--q-background) !important;}}@media (max-width: 1023px){.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header{background-color: var(--q-header) !important;border-bottom: 2px solid var(--q-background) !important;box-shadow: none !important;color: var(--q-background) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar:has(.q-btn-group){display: none !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header .q-toolbar{min-height: 48px !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header img.title-logo{height: 22px !important;margin: 0 !important;}.q-layout:has([class*="page-variant-f-concrete-"]) header.consumer-header :is(.q-btn,.q-icon){color: var(--q-background) !important;border-radius: 0 !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer{width: 100vw !important;background-color: var(--q-dark) !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer .q-item{border-bottom: 2px solid var(--q-background);min-height: 64px !important;}.q-layout:has([class*="page-variant-f-concrete-"]) .q-drawer :is(a,.q-item,.q-item__label,.q-icon){color: var(--q-background) !important;font-family: var(--n-mono) !important;font-size: 24px !important;text-transform: uppercase;}}.q-layout:has([class*="page-variant-f-concrete-"]) main .q-btn.bg-primary{background: var(--v-block,var(--q-primary)) !important;color: var(--v-rule,var(--q-background)) !important;border-radius: 0 !important;}

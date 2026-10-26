@@ -1,0 +1,221 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+[class*="section-"] {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+/* VARIANT I · MA */
+[class*="section-hero-i---one-still-one-line-"],
+[class*="section-events-i---one-occasion-at-a-time-"],
+[class*="section-food-i---few-items-wide-margins-"],
+[class*="section-contact-i---one-question-at-a-time-"] {
+  --ma-paper: var(--fd-background);
+  --ma-ink: var(--fd-dark);
+  --ma-seal: var(--fd-primary);
+  --ma-hairline: color-mix(in srgb, var(--fd-dark) 28%, transparent);
+  --ma-display: "Bodoni Moda", Didot, "Times New Roman", serif;
+  --ma-sans: "Jost", "Helvetica Neue", Arial, sans-serif;
+  background: var(--ma-paper) !important;
+  color: var(--ma-ink) !important;
+  box-sizing: border-box;
+}
+[class*="section-hero-i---one-still-one-line-"] *,
+[class*="section-events-i---one-occasion-at-a-time-"] *,
+[class*="section-food-i---few-items-wide-margins-"] *,
+[class*="section-contact-i---one-question-at-a-time-"] * { box-sizing: border-box; }
+[class*="section-hero-i---one-still-one-line-"] :is(p,a,button,span),
+[class*="section-events-i---one-occasion-at-a-time-"] :is(p,a,button,span),
+[class*="section-food-i---few-items-wide-margins-"] :is(p,a,button,span),
+[class*="section-contact-i---one-question-at-a-time-"] :is(p,a,button,span,label,input,textarea) { font-family: var(--ma-sans) !important; font-weight: 300 !important; }
+
+/* HERO · one still, one line */
+[class*="section-hero-i---one-still-one-line-"] { min-height: 720px; padding: 96px 15vw 120px !important; position: relative; }
+[class*="section-hero-i---one-still-one-line-"]::after { content: ""; position: absolute; right: 15vw; bottom: 96px; width: 24px; height: 24px; background: var(--ma-seal); }
+[class*="section-hero-i---one-still-one-line-"] :is(.q-card,.q-card__section,[data-test-id="generic-carousel"]) { max-width: 760px !important; margin: 0 auto !important; padding: 0 !important; background: transparent !important; box-shadow: none !important; }
+[class*="section-hero-i---one-still-one-line-"] :is(.swiper,.swiper-wrapper,.swiper-slide,[class*="carousel-item-"]) { min-height: 520px !important; height: auto !important; }
+[class*="section-hero-i---one-still-one-line-"] .row.justify-center.position-relative { width: 100% !important; min-height: 520px !important; display: flex !important; align-items: center !important; justify-content: flex-end !important; overflow: visible !important; }
+[class*="section-hero-i---one-still-one-line-"] img.full-width,
+[class*="section-hero-i---one-still-one-line-"] [class*="carousel-item-"] img { position: static !important; width: 280px !important; max-width: 42% !important; height: auto !important; aspect-ratio: 3/4; object-fit: cover !important; filter: saturate(.72) contrast(.94); }
+[class*="section-hero-i---one-still-one-line-"] .flex.absolute-center,
+[class*="section-hero-i---one-still-one-line-"] .flex.absolute-bottom { position: static !important; inset: auto !important; transform: none !important; width: auto !important; min-height: 420px !important; padding: 0 42px 0 0 !important; background: transparent !important; order: -1; }
+[class*="section-hero-i---one-still-one-line-"] .flex :is(.container,.col.message) { width: auto !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+[class*="section-hero-i---one-still-one-line-"] .title { margin: 0 !important; font-family: var(--ma-display) !important; font-size: 34px !important; line-height: 1.15 !important; font-weight: 400 !important; letter-spacing: .08em !important; writing-mode: vertical-rl; border-left: 1px solid var(--ma-hairline); padding-left: 20px; }
+[class*="section-hero-i---one-still-one-line-"] .subtitle { position: absolute; left: 15vw; bottom: 96px; margin: 0 !important; font-size: 15px !important; line-height: 1.8 !important; letter-spacing: .12em !important; }
+[class*="section-hero-i---one-still-one-line-"] .q-btn { display: none !important; }
+[class*="section-hero-i---one-still-one-line-"] :is(.swiper-pagination,.swiper-button-prev,.swiper-button-next) { display: none !important; }
+
+/* EVENTS · stacked quiet occasions */
+[class*="section-events-i---one-occasion-at-a-time-"] { padding: 144px 15vw 168px !important; }
+[class*="section-events-i---one-occasion-at-a-time-"] > * { max-width: 760px !important; margin: 0 auto !important; padding: 0 !important; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-events { position: relative; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-events::before { content: ""; position: absolute; left: -48px; top: 0; width: 24px; height: 24px; background: var(--ma-seal); }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-events__eyebrow { margin: 0 0 72px; font-size: 13px; letter-spacing: .18em; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion { position: relative; max-width: 560px; margin: 0 0 152px auto; padding-top: 28px; border-top: 1px solid var(--ma-hairline); }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion:last-child { margin-bottom: 0; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion__number { position: absolute; left: -72px; top: 28px; font-size: 13px; letter-spacing: .16em; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion h2 { margin: 0 0 24px !important; font-family: var(--ma-display) !important; font-size: 32px !important; font-weight: 400 !important; color: var(--ma-ink) !important; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion p { max-width: 36ch; margin: 0 0 28px !important; font-size: 15px !important; line-height: 1.9 !important; letter-spacing: .04em; color: var(--ma-ink) !important; }
+[class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion a { color: var(--ma-ink) !important; font-size: 14px !important; letter-spacing: .12em; text-decoration: none !important; border-bottom: 1px solid var(--ma-ink); padding-bottom: 4px; }
+
+/* FOOD · few items, wide margins */
+[class*="section-food-i---few-items-wide-margins-"] { padding: 144px 15vw 168px !important; }
+[class*="section-food-i---few-items-wide-margins-"] .container { max-width: 720px !important; margin: 0 auto !important; padding: 0 !important; }
+[class*="section-food-i---few-items-wide-margins-"] h2 { margin: 0 0 72px !important; font-family: var(--ma-display) !important; font-size: 32px !important; font-weight: 400 !important; color: var(--ma-ink) !important; text-align: left !important; }
+[class*="section-food-i---few-items-wide-margins-"] h2::after { content: ""; display: inline-block; width: 24px; height: 24px; margin-left: 24px; vertical-align: middle; background: var(--ma-seal); }
+[class*="section-food-i---few-items-wide-margins-"] .full-width.q-py-md.row { display: block !important; padding: 0 !important; }
+[class*="section-food-i---few-items-wide-margins-"] :is(.col-2,.col-md-2) { display: none !important; }
+[class*="section-food-i---few-items-wide-margins-"] :is(.col-12.col-md-10,.col-md-10) { width: 100% !important; max-width: 100% !important; padding: 0 !important; }
+[class*="section-food-i---few-items-wide-margins-"] .concessions-menu-category-sections-root .text-bold > p { margin: 88px 0 24px !important; font-family: var(--ma-sans) !important; font-size: 13px !important; font-weight: 300 !important; letter-spacing: .18em; color: var(--ma-ink) !important; }
+[class*="section-food-i---few-items-wide-margins-"] .row.justify-start.items-stretch { display: block !important; margin: 0 !important; }
+[class*="section-food-i---few-items-wide-margins-"] .row.justify-start.items-stretch > .q-card.q-card--bordered { width: 100% !important; max-width: none !important; min-height: 0 !important; margin: 0 !important; padding: 24px 0 !important; background: transparent !important; border: 0 !important; border-bottom: 1px solid var(--ma-hairline) !important; border-radius: 0 !important; box-shadow: none !important; color: var(--ma-ink) !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-img.q-img--menu { display: none !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card__section { padding: 0 !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card :is(.text-subtitle2,.text-weight-bold) { font-family: var(--ma-sans) !important; font-size: 15px !important; font-weight: 300 !important; letter-spacing: .08em; color: var(--ma-ink) !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card .opacity-80 { max-width: 44ch; margin: 8px 0 0; font-size: 14px !important; line-height: 1.7 !important; color: var(--ma-ink) !important; opacity: .68 !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card .row.items-center.justify-between { display: flex !important; align-items: center !important; gap: 24px; margin-top: 14px !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card .col.text-weight-regular { font-size: 14px !important; color: var(--ma-ink) !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card .q-btn { min-width: 24px !important; min-height: 24px !important; padding: 0 !important; background: transparent !important; color: var(--ma-ink) !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card .q-btn .q-btn__content { font-size: 0 !important; }
+[class*="section-food-i---few-items-wide-margins-"] .q-card .q-btn .q-btn__content::after { content: "+"; font-family: var(--ma-sans); font-size: 24px; font-weight: 300; }
+
+/* CONTACT · one question at a time */
+[class*="section-contact-i---one-question-at-a-time-"] { padding: 144px 15vw 168px !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card { max-width: 560px !important; margin: 0 auto !important; padding: 0 !important; background: transparent !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; color: var(--ma-ink) !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card__section { padding: 0 !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card__section:first-child { margin-bottom: 112px !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .text-h2 { margin: 0 !important; font-family: var(--ma-display) !important; font-size: 32px !important; font-weight: 400 !important; color: var(--ma-ink) !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .text-h2::before { content: ""; display: inline-block; width: 24px; height: 24px; margin-right: 24px; background: var(--ma-seal); vertical-align: middle; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card__section.row.q-col-gutter-md { display: block !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card__section.row.q-col-gutter-md > :is(.col-6,.col-12) { width: 100% !important; max-width: 100% !important; padding: 0 !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-field { margin: 0 0 120px !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-field__control,
+[class*="section-contact-i---one-question-at-a-time-"] .q-field__control.bg-white { min-height: 58px !important; background: transparent !important; border: 0 !important; border-bottom: 1px solid var(--ma-ink) !important; border-radius: 0 !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-field__control::before,
+[class*="section-contact-i---one-question-at-a-time-"] .q-field__control::after { display: none !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-field__label { color: var(--ma-ink) !important; font-size: 14px !important; letter-spacing: .12em; }
+[class*="section-contact-i---one-question-at-a-time-"] :is(.q-field__native,input,textarea) { color: var(--ma-ink) !important; font-family: var(--ma-display) !important; font-size: 28px !important; font-weight: 400 !important; }
+[class*="section-contact-i---one-question-at-a-time-"] textarea.q-field__native { min-height: 96px !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card__section.row.items-center.justify-center { justify-content: flex-start !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-card__section.row.items-center.justify-center .q-btn { min-height: 0 !important; padding: 0 0 5px !important; background: transparent !important; color: var(--ma-ink) !important; border: 0 !important; border-bottom: 1px solid var(--ma-ink) !important; border-radius: 0 !important; }
+[class*="section-contact-i---one-question-at-a-time-"] .q-btn__content { font-size: 14px !important; letter-spacing: .12em; }
+
+@media (max-width: 899px) {
+  [class*="section-hero-i---one-still-one-line-"] { min-height: 620px; padding: 72px 24px 96px !important; }
+  [class*="section-hero-i---one-still-one-line-"]::after { right: 24px; bottom: 48px; }
+  [class*="section-hero-i---one-still-one-line-"] .row.justify-center.position-relative { min-height: 440px !important; justify-content: flex-start !important; }
+  [class*="section-hero-i---one-still-one-line-"] img.full-width,
+  [class*="section-hero-i---one-still-one-line-"] [class*="carousel-item-"] img { width: 60% !important; max-width: 60% !important; }
+  [class*="section-hero-i---one-still-one-line-"] .flex.absolute-center,
+  [class*="section-hero-i---one-still-one-line-"] .flex.absolute-bottom { min-height: 340px !important; padding-right: 20px !important; }
+  [class*="section-hero-i---one-still-one-line-"] .title{font-size:28px!important;padding:0!important;writing-mode:horizontal-tb}
+  [class*="section-hero-i---one-still-one-line-"] .subtitle{position:static!important;max-width:none!important}
+  [class*="section-events-i---one-occasion-at-a-time-"],
+  [class*="section-food-i---few-items-wide-margins-"],
+  [class*="section-contact-i---one-question-at-a-time-"] { padding: 96px 24px 112px !important; }
+  [class*="section-events-i---one-occasion-at-a-time-"] .ma-events::before { left: 0; top: -48px; }
+  [class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion { margin: 0 0 96px 0; }
+  [class*="section-events-i---one-occasion-at-a-time-"] .ma-occasion__number { position: static; display: block; margin-bottom: 18px; }
+  [class*="section-food-i---few-items-wide-margins-"] h2 { margin-bottom: 48px !important; }
+  [class*="section-contact-i---one-question-at-a-time-"] .q-card__section:first-child { margin-bottom: 72px !important; }
+  [class*="section-contact-i---one-question-at-a-time-"] .q-field { margin-bottom: 88px !important; }
+}
+
+/* Native Light Text media-copy adapter — Variant I only.
+   The native checkbox supplies .text-white. No CSS color declaration replaces it.
+   Paint behind each text role because the subtitle is absolutely positioned
+   outside the title's normal box. No image-row pseudo-element is consumed. */
+[class*="section-hero-i---one-still-one-line-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle).text-white {
+  --ma-caption-backdrop: var(--q-dark);
+  background-color: var(--ma-caption-backdrop) !important;
+  box-shadow: 0 0 0 .22em var(--ma-caption-backdrop);
+  text-shadow:
+    0 .05em .12em color-mix(in srgb, var(--q-dark) 95%, transparent),
+    0 0 .42em color-mix(in srgb, var(--q-dark) 70%, transparent) !important;
+}
+
+/* The native message has a narrow positioned box. Anchor the desktop subtitle
+   to the verified 760px image row instead, so its percentage width cannot
+   resolve against the vertical title's roughly 60px message box. */
+@media (min-width: 900px) {
+  [class*="section-hero-i---one-still-one-line-"] [data-test-id="carousel-hero-slide"] .row.justify-center.position-relative {
+    position: relative !important;
+  }
+
+  [class*="section-hero-i---one-still-one-line-"] [data-test-id="carousel-slide-content"].col.message {
+    position: static !important;
+  }
+
+  [class*="section-hero-i---one-still-one-line-"] [data-test-id="carousel-slide-content"] .hero-subtitle.text-white {
+    left: 24px !important;
+    right: 24px !important;
+    bottom: 24px !important;
+    width: auto !important;
+    max-width: calc(100% - 48px) !important;
+  }
+}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+[class*="section-"] .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+[class*="section-"][data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }
+
+/* Ma's quiet membership link stays transparent and underlined. */
+[class*="section-"][data-test-id="section-content"] .fdp-action { background:transparent !important; color:var(--q-dark) !important; border-bottom-color:var(--q-primary) !important; }
+
+/* Readable media captions. Solid backing protects every image frame. */
+[class*="section-hero-i---one-still-one-line-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle) {
+  color: var(--q-background) !important;
+  background-color: var(--q-dark) !important;
+  box-shadow: 0 0 0 .18em var(--q-dark) !important;
+  text-shadow: 0 .04em .08em color-mix(in srgb, var(--q-dark) 85%, transparent) !important;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+/* Keep empty native captions from painting blank bars. */
+[class*="section-hero-i---one-still-one-line-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle):empty {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Icons remain visible over light and dark frames without intercepting input. */
+[class*="section-hero-i---one-still-one-line-"] :is(.swiper-button-prev,.swiper-button-next) {
+  color: var(--q-background) !important;
+  background-color: var(--q-dark) !important;
+  text-shadow: 0 .05em .12em var(--q-dark) !important;
+}

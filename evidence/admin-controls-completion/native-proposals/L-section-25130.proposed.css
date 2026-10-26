@@ -1,0 +1,57 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+& {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-dark);
+}
+/* Native section surface and typography */
+&.fdp-l-contact{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-dark);color:var(--fd-background);font-family:Georgia,serif;} &.fdp-l-contact h2{color:var(--fd-background);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-l-contact h3{color:var(--fd-background);font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-l-contact p{color:var(--fd-background);line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-l-contact form{max-width:900px;margin:24px auto 0;} &.fdp-l-contact .q-field{margin:18px 0;} &.fdp-l-contact .q-field__control{background:var(--fd-surface-dark);color:var(--fd-background);border-radius:0;} &.fdp-l-contact .q-field__native,&.fdp-l-contact .q-field__input,&.fdp-l-contact .q-field__label{color:var(--fd-background);} &.fdp-l-contact .q-field--focused .q-field__control:after{border-color:var(--fd-accent);} &.fdp-l-contact .q-btn{min-height:48px;padding:12px 24px;background:var(--fd-accent);color:var(--fd-dark);font-weight:700;} &.fdp-l-contact .q-btn:focus-visible{outline:3px solid var(--fd-background);outline-offset:4px;}
+/* Keep content within the section on narrow screens */
+&.fdp-l-contact,&.fdp-l-contact *{box-sizing:border-box;}&.fdp-l-contact .fdp-content,&.fdp-l-contact .fdp-content>*,&.fdp-l-contact .fdp-content article,&.fdp-l-contact .fdp-content aside{min-width:0;}&.fdp-l-contact p,&.fdp-l-contact li,&.fdp-l-contact a{overflow-wrap:break-word;}
+&.fdp-l-contact{background:var(--fd-dark)!important;color:var(--fd-background)!important;} &.fdp-l-contact h2,&.fdp-l-contact .text-primary{color:var(--fd-background)!important;}
+/* Preserve native controls with readable lounge colors */
+&.fdp-l-contact .text-responsive{color:var(--fd-background)!important;} &.fdp-l-contact .q-field__native,&.fdp-l-contact .q-field__label{color:var(--fd-background)!important;} &.fdp-l-contact .q-field__control{background:var(--fd-surface-dark)!important;border:1px solid var(--fd-line-on-dark);} &.fdp-l-contact .q-btn{background:var(--fd-accent)!important;color:var(--fd-dark)!important;}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+& .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }

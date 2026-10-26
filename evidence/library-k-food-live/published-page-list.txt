@@ -1,0 +1,213 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 toolbar
+			3 button
+			4 text INDY Admin
+			5 text field (settable) f_e7c394f6-3331-4215-8f2f-d37219d59b6c
+			212 button
+			6 switch 0
+			7 button
+			8 container
+				9 text Region US-BETA
+				10 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_4af6180c-1b62-45b5-9d33-1b504544b1f3, Secondary Actions: Expand
+			11 container
+				12 text Circuit INDY Demo
+				13 combo box (collapsed, settable) Description: Circuit, Value: INDY Demo , ID: f_9c414a45-aed5-48bf-888c-98163b58ac50, Secondary Actions: Expand
+			14 container
+				15 text Site Adam Template Testing
+				16 combo box (collapsed, settable) Description: Site, Value: Adam Template Testing, ID: f_6e18b9b7-7e6f-45b5-a802-ba41644653dd, Secondary Actions: Expand
+			17 button Menu
+		18 container
+			19 content list
+				20 container
+					21 text Operations
+			22 content list
+				23 container
+					24 text Reports
+			25 content list
+				26 container
+					27 text Settings
+			28 text Favorites
+			29 content list
+				30 container
+					31 text Theme and Style
+			32 content list
+				33 container
+					34 text Pages
+			35 content list
+				36 container
+					37 text Release Notes
+			38 content list
+				39 container
+					40 text How To Guides
+			41 content list
+				42 container
+					43 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+			44 content list
+				45 container
+					46 text Developer
+			47 switch Description: Demo Mode, Value: 0
+				48 text Demo Mode
+		49 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+		50 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+		51 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+		52 content list
+			53 container
+				54 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+					55 text Page Settings
+					56 text Manage site-wide page behaviour
+			57 container
+				58 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+					59 text Pages
+					60 text Create or manage page content, for desktop and mobile websites and apps
+				61 container
+					62 text Pages
+					63 button
+					64 button
+					65 container
+						66 text field (settable) f_607f3921-09a9-4dce-9ad1-69af5f66e726
+						67 button
+					68 button SET ORDER
+					69 button ADD FROM LIBRARY
+					70 button CREATE PAGE
+					71 table
+						72 row
+							73 cell
+								74 text ID
+							75 cell
+								76 text Title
+							77 cell
+								78 text Slug
+							79 cell
+								80 text Sections
+							81 cell
+								82 text Views
+							83 cell
+								84 text Visibility
+							85 cell
+								86 text Library
+							87 cell
+								88 text Actions
+						89 row
+							90 cell
+								91 text 5973
+							92 cell
+								93 text variant-k-clubhouse_food
+							94 cell
+								95 text variant-k-clubhouse-food
+							96 cell
+								97 text 1
+							98 cell
+								99 button  Not Linked
+									100 text  Not Linked
+							101 cell
+								102 button
+								103 button
+								104 button EDIT
+								105 button
+						106 row
+							107 cell
+								108 text 5599
+							109 cell
+								110 text Movie Lineup
+							111 cell
+								112 text movie-lineup
+							113 cell
+								114 text 3
+							115 cell
+								116 button  Not Linked
+									117 text  Not Linked
+							118 cell
+								119 button
+								120 button EDIT
+								121 button
+						122 row
+							123 cell
+								124 text 5597
+							125 cell
+								126 text Food Drink
+							127 cell
+								128 text food-drink
+							129 cell
+								130 text 2
+							131 cell
+								132 button  Not Linked
+									133 text  Not Linked
+							134 cell
+								135 button
+								136 button EDIT
+								137 button
+						138 row
+							139 cell
+								140 text 5595
+							141 cell
+								142 text Food Drink
+							143 cell
+								144 text food-drink
+							145 cell
+								146 text 2
+							147 cell
+								148 button  Not Linked
+									149 text  Not Linked
+							150 cell
+								151 button
+								152 button EDIT
+								153 button
+						154 row
+							155 cell
+								156 text 5591
+							157 cell
+								158 text Visit
+							159 cell
+								160 text visit
+							161 cell
+								162 text 4
+							163 cell
+								164 button  Not Linked
+									165 text  Not Linked
+							166 cell
+								167 button
+								168 button EDIT
+								169 button
+						170 row
+							171 cell
+								172 text 5587
+							173 cell
+								174 text Movies
+							175 cell
+								176 text movies
+							177 cell
+								178 text 4
+							179 cell
+								180 button  Not Linked
+									181 text  Not Linked
+							182 cell
+								183 button
+								184 button EDIT
+								185 button
+						186 row
+							187 cell
+								188 text 5585
+							189 cell
+								190 text Fandango Cinema Template Test
+							191 cell
+								192 text fandango-cinema-template-test
+							193 cell
+								194 text 9
+							195 cell
+								196 button  Not Linked
+									197 text  Not Linked
+							198 cell
+								201 button
+								202 button EDIT
+									204 text EDIT
+								205 button
+					206 text Records per page:
+					207 container
+						208 text 10
+						209 combo box (collapsed, settable) 10, ID: f_32ca7180-588e-4e57-bcb8-558611f4258d, Secondary Actions: Expand
+					210 text 1-10  of 7
+	211 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+
+The focused UI element is 0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages

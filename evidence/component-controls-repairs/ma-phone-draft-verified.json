@@ -1,0 +1,61 @@
+{
+  "mobileCaptions": [
+    {
+      "background": "color(srgb 0.113725 0.113725 0.113725 / 0.88)",
+      "color": "rgb(255, 255, 255)",
+      "frame": {
+        "bottom": 1102.1000366210938,
+        "height": 520,
+        "left": 40,
+        "right": 368,
+        "top": 582.1000366210938,
+        "width": 328,
+        "x": 40,
+        "y": 582.1000366210938
+      },
+      "rect": {
+        "bottom": 831.2000007629395,
+        "height": 32.20000076293945,
+        "left": 40,
+        "right": 368,
+        "top": 799,
+        "width": 328,
+        "x": 40,
+        "y": 799
+      },
+      "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.95) 0px 1.4px 3.36px, color(srgb 0.113725 0.113725 0.113725 / 0.7) 0px 0px 11.76px",
+      "text": "One still. One line."
+    },
+    {
+      "background": "color(srgb 0.113725 0.113725 0.113725 / 0.88)",
+      "color": "rgb(255, 255, 255)",
+      "frame": {
+        "bottom": 1102.1000366210938,
+        "height": 520,
+        "left": 40,
+        "right": 368,
+        "top": 582.1000366210938,
+        "width": 328,
+        "x": 40,
+        "y": 582.1000366210938
+      },
+      "rect": {
+        "bottom": 885.2000122070312,
+        "height": 54,
+        "left": 40,
+        "right": 368,
+        "top": 831.2000122070312,
+        "width": 328,
+        "x": 40,
+        "y": 831.2000122070312
+      },
+      "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.95) 0px 0.75px 1.8px, color(srgb 0.113725 0.113725 0.113725 / 0.7) 0px 0px 6.3px",
+      "text": "A quiet room · one film · tonight at seven."
+    }
+  ],
+  "savedCssIncludesMobile": true,
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

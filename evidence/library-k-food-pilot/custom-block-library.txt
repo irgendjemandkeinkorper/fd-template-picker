@@ -1,0 +1,39 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/custom-blocks".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 78-109
+~		76 container Add From Library Custom Blocks Records per page: 10 10 1-10 of 1 ADD CUSTOM BLOCKS FROM THE LIBRARY (0)
+~			77 container
++				78 text Add From Library
++				79 button
++				80 container
++					81 text Custom Blocks
++					82 button
++					83 container
++						84 text field (settable) f_1ca22d5c-46b2-4c2b-a271-c5f0b16ce895
++						85 button
++					86 table
++						87 row
++							88 cell
++								89 checkbox 0
++							90 cell
++								91 text ID
++							92 cell
++								93 text Name
++							94 cell
++								95 text Category
++						96 row
++							97 cell
++								98 checkbox 0
++							99 cell
++								100 text 681
++							101 cell
++								102 text Link
++							103 cell
++								104 text Block
++					105 text Records per page:
++					106 container
++						107 text 10
++						108 combo box (collapsed, settable) 10, ID: f_1bced856-75d7-482f-9652-a134a2de2612, Secondary Actions: Expand
++					109 text 1-10  of 1
++				110 button (disabled) ADD CUSTOM BLOCKS FROM THE LIBRARY (0)
+The focused UI element is 76 container Add From Library Custom Blocks Records per page: 10 10 1-10 of 1 ADD CUSTOM BLOCKS FROM THE LIBRARY (0)

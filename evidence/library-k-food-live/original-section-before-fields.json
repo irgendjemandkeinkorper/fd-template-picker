@@ -1,0 +1,342 @@
+{
+  "fields": [
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Region",
+      "value": "US-BETA"
+    },
+    {
+      "label": "Circuit",
+      "value": "INDY Demo "
+    },
+    {
+      "label": "Site",
+      "value": "Adam Template Testing"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Web Home Page",
+      "value": ""
+    },
+    {
+      "label": "App Home Page",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "10"
+    },
+    {
+      "label": "Title",
+      "value": "Fandango Cinema Template Test"
+    },
+    {
+      "label": "URL Slug",
+      "value": "fandango-cinema-template-test"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Search Engine Title",
+      "value": "Cinema Template Test | Adam Template Testing"
+    },
+    {
+      "label": "Search Engine Description",
+      "value": "A US-BETA cinema website template prototype combining neighborhood, cinematic, and task-first wireframe patterns."
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Custom Styles (CSS)",
+      "value": "/* Home — shared cinematic shell, scoped to this INDY page */\n:root { --dusk-ink:#241a2e; --dusk-paper:#fbefe2; --dusk-coral:#e06b4a; --dusk-gold:#f4c67a; }\n.q-page-container { background:var(--dusk-paper); }\n.q-page { max-width:1440px; margin:0 auto; }\n.q-page h3 { letter-spacing:-.055em; line-height:.92; }\n.q-page button { border-radius:999px; border:1px solid rgba(36,26,46,.15); box-shadow:none; transition:transform .18s ease, box-shadow .18s ease; }\n.q-page button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(36,26,46,.13); }\n.q-page [class*=\"card\"] { border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(36,26,46,.10); }\n.q-page [class*=\"card\"] img { object-fit:cover; }\n.q-page [class*=\"swiper\"] { border-radius:0 0 28px 28px; overflow:hidden; }\n.q-page [class*=\"swiper\"] button { border-radius:999px; }\n.q-page input, .q-page [role=\"combobox\"] { border-radius:14px; }\n@media (max-width:640px) { .q-page { overflow:hidden; } }"
+    },
+    {
+      "label": null,
+      "value": "Select Movie"
+    },
+    {
+      "label": "Type",
+      "value": "Concessions Menu"
+    },
+    {
+      "label": "Name",
+      "value": "Concessions - Snacks Worth the Credits"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Heading",
+      "value": "SNACKS WORTH THE CREDITS"
+    },
+    {
+      "label": "Font Size",
+      "value": "H 3"
+    },
+    {
+      "label": "Fonts",
+      "value": "Default"
+    },
+    {
+      "label": "Text Align",
+      "value": "Center"
+    },
+    {
+      "label": "Color",
+      "value": "Primary"
+    },
+    {
+      "label": "Style",
+      "value": "Default"
+    },
+    {
+      "label": "Sales Channel Visibility",
+      "value": "Website"
+    },
+    {
+      "label": "Categories Visibility Override",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Category Filters Position",
+      "value": "Top"
+    },
+    {
+      "label": "Display Mode",
+      "value": "Slider"
+    },
+    {
+      "label": "View Mode",
+      "value": "Grid"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Category Name Font Size",
+      "value": "24"
+    },
+    {
+      "label": "Category Name Alignment",
+      "value": "Left"
+    },
+    {
+      "label": "Style",
+      "value": "Default"
+    },
+    {
+      "label": "Color",
+      "value": "Primary"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Item Card Theme",
+      "value": "Frame"
+    },
+    {
+      "label": "Item Background Color",
+      "value": "Default"
+    },
+    {
+      "label": "Title Font Size",
+      "value": "20"
+    },
+    {
+      "label": "Description Font Size",
+      "value": "16"
+    },
+    {
+      "label": "Price Font Size",
+      "value": "16"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Visible For",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date",
+      "value": ""
+    },
+    {
+      "label": "End Date",
+      "value": ""
+    },
+    {
+      "label": "Width Mode",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom",
+      "value": ""
+    },
+    {
+      "label": "Background Color",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": "Image Fit",
+      "value": ""
+    },
+    {
+      "label": "Image Position",
+      "value": ""
+    },
+    {
+      "label": "Repeat",
+      "value": ""
+    },
+    {
+      "label": "Attachment",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Classes",
+      "value": ""
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": ""
+    }
+  ],
+  "toggles": [
+    {
+      "checked": "false",
+      "label": null,
+      "text": "clear"
+    },
+    {
+      "checked": "false",
+      "label": "Demo Mode",
+      "text": "Demo Mode"
+    },
+    {
+      "checked": "false",
+      "label": "Visible to Search Engines",
+      "text": "clear\nVisible to Search Engines"
+    },
+    {
+      "checked": "true",
+      "label": "Show Heading",
+      "text": "Show Heading"
+    },
+    {
+      "checked": "true",
+      "label": "Show Category Filters",
+      "text": "Show Category Filters"
+    },
+    {
+      "checked": "true",
+      "label": "Show Category Divider",
+      "text": "Show Category Divider"
+    },
+    {
+      "checked": "true",
+      "label": "Show Category Name",
+      "text": "Show Category Name"
+    },
+    {
+      "checked": "true",
+      "label": "Show Image",
+      "text": "Show Image"
+    },
+    {
+      "checked": "true",
+      "label": "Show Description",
+      "text": "Show Description"
+    },
+    {
+      "checked": "true",
+      "label": "Show Price",
+      "text": "Show Price"
+    },
+    {
+      "checked": "true",
+      "label": "On",
+      "text": "check\nOn"
+    },
+    {
+      "checked": "false",
+      "label": null,
+      "text": ""
+    }
+  ]
+}

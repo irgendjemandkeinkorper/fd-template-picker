@@ -1,0 +1,520 @@
+/* Candidate role contract. Pair checks in manifest.json are release gates. */
+.page-variant-l-midnight-lounge-5917,
+.page-variant-l-midnight-lounge-5917 [data-test-id="section-content"] {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-header);
+  --fd-accent: var(--q-accent);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-header);
+  --fd-on-secondary: var(--q-background);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in oklab, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in oklab, var(--q-background) 80%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in oklab, var(--q-dark) 80%, var(--q-background));
+  --fd-line-on-paper: color-mix(in oklab, var(--q-dark) 28%, var(--q-background));
+  --fd-line-on-dark: color-mix(in oklab, var(--q-background) 30%, var(--q-dark));
+  --fd-paper-muted: color-mix(in oklab, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in oklab, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in oklab, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in oklab, var(--q-accent) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in oklab, var(--q-dark) 10%, var(--q-background));
+}
+.page-variant-l-midnight-lounge-5917 { /* Preserve the Midnight Lounge form button against site primary styles */ }
+body.site-170 .page-variant-l-midnight-lounge-5917 .fdp-l-contact .q-btn {
+  background-color: var(--fd-accent) !important;
+  color: var(--fd-dark) !important;
+}
+
+.section-food-l---after-dark-menu-25138 { /* Native section surface and typography */ }
+.section-food-l---after-dark-menu-25138.fdp-l-food {
+  padding: clamp(28px, 5vw, 76px) clamp(18px, 5vw, 72px);
+  background: var(--fd-dark);
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food h2 {
+  color: var(--fd-background);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+  font-size: clamp(32px, 4.4vw, 62px);
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food h3 {
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+  font-size: clamp(21px, 2.1vw, 30px);
+  line-height: 1.15;
+  margin: 0 0 14px;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food p {
+  color: var(--fd-background);
+  line-height: 1.7;
+}
+.section-food-l---after-dark-menu-25138 {
+  /* Native widget controls; confirm these selectors against rendered output */
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-card {
+  background: var(--fd-surface-dark);
+  color: var(--fd-background);
+  border: 1px solid var(--fd-line-on-dark);
+  box-shadow: none;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-tab {
+  color: var(--fd-background);
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-tab--active {
+  color: var(--fd-accent);
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-btn {
+  min-height: 44px;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-focus-helper {
+  border-radius: inherit;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food a:focus-visible, .section-food-l---after-dark-menu-25138.fdp-l-food button:focus-visible {
+  outline: 3px solid var(--fd-accent);
+  outline-offset: 3px;
+}
+.section-food-l---after-dark-menu-25138 {
+  /* Keep content within the section on narrow screens */
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food, .section-food-l---after-dark-menu-25138.fdp-l-food * {
+  box-sizing: border-box;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .fdp-content, .section-food-l---after-dark-menu-25138.fdp-l-food .fdp-content > *, .section-food-l---after-dark-menu-25138.fdp-l-food .fdp-content article, .section-food-l---after-dark-menu-25138.fdp-l-food .fdp-content aside {
+  min-width: 0;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food p, .section-food-l---after-dark-menu-25138.fdp-l-food li, .section-food-l---after-dark-menu-25138.fdp-l-food a {
+  overflow-wrap: break-word;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food {
+  background: var(--fd-dark) !important;
+  color: var(--fd-background) !important;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food h2, .section-food-l---after-dark-menu-25138.fdp-l-food .text-primary {
+  color: var(--fd-background) !important;
+}
+.section-food-l---after-dark-menu-25138 {
+  /* Keep native catalog cards and category controls readable */
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .text-responsive {
+  color: var(--fd-background) !important;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-card {
+  background: var(--fd-surface-dark) !important;
+  color: var(--fd-background) !important;
+}
+.section-food-l---after-dark-menu-25138.fdp-l-food .q-btn {
+  background: var(--fd-surface-dark) !important;
+  color: var(--fd-background) !important;
+  border: 1px solid var(--fd-line-on-dark);
+}
+
+.section-private-parties-l---an-evening-of-your-own-25139 { /* Native section surface and typography */ }
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties {
+  padding: clamp(28px, 5vw, 76px) clamp(18px, 5vw, 72px);
+  background: var(--fd-dark);
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties h2 {
+  color: var(--fd-background);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+  font-size: clamp(32px, 4.4vw, 62px);
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties h3 {
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+  font-size: clamp(21px, 2.1vw, 30px);
+  line-height: 1.15;
+  margin: 0 0 14px;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties p {
+  color: var(--fd-background);
+  line-height: 1.7;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-content {
+  max-width: 1160px;
+  margin: 24px auto 0;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-card {
+  padding: clamp(22px, 3vw, 40px);
+  background: var(--fd-surface-dark);
+  border: 1px solid var(--fd-line-on-dark);
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-card p {
+  margin-bottom: 0;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-kicker {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 14px 24px;
+  background: var(--fd-accent);
+  color: var(--fd-dark);
+  font: 700 13px/1.3 Arial, sans-serif;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-action:focus-visible {
+  outline: 3px solid var(--fd-background);
+  outline-offset: 4px;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-action:hover {
+  text-decoration: underline;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-actions {
+  margin: 28px 0 0;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-number {
+  display: block;
+  color: var(--fd-accent);
+  font: 700 13px/1.2 Arial, sans-serif;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--fd-line-on-dark);
+  line-height: 1.6;
+}
+@media (max-width: 720px) {
+  .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-card {
+    padding: 24px;
+  }
+  .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-action {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(28px, 5vw, 70px);
+  align-items: start;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening-note {
+  padding: 36px;
+  border: 1px solid var(--fd-line-on-dark);
+  background: var(--fd-surface-dark);
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening-note h3 {
+  font-size: clamp(30px, 3vw, 42px);
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening-occasions article {
+  padding: 24px 0;
+  border-top: 1px solid var(--fd-line-on-dark);
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening-occasions article:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-number {
+  margin-bottom: 12px;
+}
+@media (max-width: 720px) {
+  .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening {
+    grid-template-columns: 1fr;
+  }
+  .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-evening-note {
+    padding: 28px;
+  }
+}
+.section-private-parties-l---an-evening-of-your-own-25139 {
+  /* Keep content within the section on narrow screens */
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties * {
+  box-sizing: border-box;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-content, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-content > *, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-content article, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .fdp-content aside {
+  min-width: 0;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties p, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties li, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties a {
+  overflow-wrap: break-word;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties {
+  background: var(--fd-dark) !important;
+  color: var(--fd-background) !important;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties h2, .section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .text-primary {
+  color: var(--fd-background) !important;
+}
+.section-private-parties-l---an-evening-of-your-own-25139.fdp-l-private-parties .text-responsive {
+  color: var(--fd-background) !important;
+}
+
+.section-membership-l---after-dark-regular-25140 { /* Native section surface and typography */ }
+.section-membership-l---after-dark-regular-25140.fdp-l-membership {
+  padding: clamp(28px, 5vw, 76px) clamp(18px, 5vw, 72px);
+  background: var(--fd-dark);
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership h2 {
+  color: var(--fd-background);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+  font-size: clamp(32px, 4.4vw, 62px);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership h3 {
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+  font-size: clamp(21px, 2.1vw, 30px);
+  line-height: 1.15;
+  margin: 0 0 14px;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership p {
+  color: var(--fd-background);
+  line-height: 1.7;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-content {
+  max-width: 1160px;
+  margin: 24px auto 0;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-card {
+  padding: clamp(22px, 3vw, 40px);
+  background: var(--fd-surface-dark);
+  border: 1px solid var(--fd-line-on-dark);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-card p {
+  margin-bottom: 0;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-kicker {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 14px 24px;
+  background: var(--fd-accent);
+  color: var(--fd-dark);
+  font: 700 13px/1.3 Arial, sans-serif;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-action:focus-visible {
+  outline: 3px solid var(--fd-background);
+  outline-offset: 4px;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-action:hover {
+  text-decoration: underline;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-actions {
+  margin: 28px 0 0;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-number {
+  display: block;
+  color: var(--fd-accent);
+  font: 700 13px/1.2 Arial, sans-serif;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--fd-line-on-dark);
+  line-height: 1.6;
+}
+@media (max-width: 720px) {
+  .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-card {
+    padding: 24px;
+  }
+  .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-action {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-pass {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  border: 1px solid var(--fd-line-on-dark);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-title {
+  padding: clamp(28px, 4vw, 54px);
+  background: var(--fd-surface-dark);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-title h3 {
+  font-size: clamp(30px, 3vw, 44px);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-details {
+  padding: 16px clamp(28px, 4vw, 54px);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-details article {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--fd-line-on-dark);
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-details article:last-child {
+  border-bottom: 0;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-details h3 {
+  font-size: 25px;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-number {
+  margin-bottom: 12px;
+}
+@media (max-width: 720px) {
+  .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-lounge-pass {
+    grid-template-columns: 1fr;
+  }
+}
+.section-membership-l---after-dark-regular-25140 {
+  /* Keep content within the section on narrow screens */
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership, .section-membership-l---after-dark-regular-25140.fdp-l-membership * {
+  box-sizing: border-box;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-content, .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-content > *, .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-content article, .section-membership-l---after-dark-regular-25140.fdp-l-membership .fdp-content aside {
+  min-width: 0;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership p, .section-membership-l---after-dark-regular-25140.fdp-l-membership li, .section-membership-l---after-dark-regular-25140.fdp-l-membership a {
+  overflow-wrap: break-word;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership {
+  background: var(--fd-dark) !important;
+  color: var(--fd-background) !important;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership h2, .section-membership-l---after-dark-regular-25140.fdp-l-membership .text-primary {
+  color: var(--fd-background) !important;
+}
+.section-membership-l---after-dark-regular-25140.fdp-l-membership .text-responsive {
+  color: var(--fd-background) !important;
+}
+
+.section-contact-l---a-note-after-dark-25141 { /* Native section surface and typography */ }
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact {
+  padding: clamp(28px, 5vw, 76px) clamp(18px, 5vw, 72px);
+  background: var(--fd-dark);
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact h2 {
+  color: var(--fd-background);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+  font-size: clamp(32px, 4.4vw, 62px);
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact h3 {
+  color: var(--fd-background);
+  font-family: Georgia, serif;
+  font-size: clamp(21px, 2.1vw, 30px);
+  line-height: 1.15;
+  margin: 0 0 14px;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact p {
+  color: var(--fd-background);
+  line-height: 1.7;
+}
+.section-contact-l---a-note-after-dark-25141 {
+  /* Native widget controls; confirm these selectors against rendered output */
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact form {
+  max-width: 900px;
+  margin: 24px auto 0;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field {
+  margin: 18px 0;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__control {
+  background: var(--fd-surface-dark);
+  color: var(--fd-background);
+  border-radius: 0;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__native, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__input, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__label {
+  color: var(--fd-background);
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field--focused .q-field__control:after {
+  border-color: var(--fd-accent);
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-btn {
+  min-height: 48px;
+  padding: 12px 24px;
+  background: var(--fd-accent);
+  color: var(--fd-dark);
+  font-weight: 700;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-btn:focus-visible {
+  outline: 3px solid var(--fd-background);
+  outline-offset: 4px;
+}
+.section-contact-l---a-note-after-dark-25141 {
+  /* Keep content within the section on narrow screens */
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact, .section-contact-l---a-note-after-dark-25141.fdp-l-contact * {
+  box-sizing: border-box;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .fdp-content, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .fdp-content > *, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .fdp-content article, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .fdp-content aside {
+  min-width: 0;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact p, .section-contact-l---a-note-after-dark-25141.fdp-l-contact li, .section-contact-l---a-note-after-dark-25141.fdp-l-contact a {
+  overflow-wrap: break-word;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact {
+  background: var(--fd-dark) !important;
+  color: var(--fd-background) !important;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact h2, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .text-primary {
+  color: var(--fd-background) !important;
+}
+.section-contact-l---a-note-after-dark-25141 {
+  /* Preserve native controls with readable lounge colors */
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .text-responsive {
+  color: var(--fd-background) !important;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__native, .section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__label {
+  color: var(--fd-background) !important;
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-field__control {
+  background: var(--fd-surface-dark) !important;
+  border: 1px solid var(--fd-line-on-dark);
+}
+.section-contact-l---a-note-after-dark-25141.fdp-l-contact .q-btn {
+  background: var(--fd-accent) !important;
+  color: var(--fd-dark) !important;
+}

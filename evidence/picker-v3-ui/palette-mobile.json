@@ -1,0 +1,102 @@
+{
+  "advancedExpanded": false,
+  "clientWidth": 390,
+  "colors": [
+    {
+      "advanced": false,
+      "id": "primaryPicker",
+      "label": "Choose primary color",
+      "rendered": true,
+      "value": "#97d2f2"
+    },
+    {
+      "advanced": false,
+      "id": "secondaryPicker",
+      "label": "Choose secondary color",
+      "rendered": true,
+      "value": "#492f56"
+    },
+    {
+      "advanced": false,
+      "id": "headerPicker",
+      "label": "Choose header color",
+      "rendered": true,
+      "value": "#183b4e"
+    },
+    {
+      "advanced": false,
+      "id": "accentPicker",
+      "label": "Choose accent color",
+      "rendered": true,
+      "value": "#f4eee4"
+    },
+    {
+      "advanced": false,
+      "id": "darkPicker",
+      "label": "Choose dark color",
+      "rendered": true,
+      "value": "#183b4e"
+    },
+    {
+      "advanced": false,
+      "id": "backgroundPicker",
+      "label": "Choose background color",
+      "rendered": true,
+      "value": "#f4eee4"
+    },
+    {
+      "advanced": true,
+      "id": "positivePicker",
+      "label": "Choose positive color",
+      "rendered": false,
+      "value": "#217a43"
+    },
+    {
+      "advanced": true,
+      "id": "negativePicker",
+      "label": "Choose negative color",
+      "rendered": false,
+      "value": "#b42318"
+    },
+    {
+      "advanced": true,
+      "id": "infoPicker",
+      "label": "Choose info color",
+      "rendered": false,
+      "value": "#126e9b"
+    },
+    {
+      "advanced": true,
+      "id": "warningPicker",
+      "label": "Choose warning color",
+      "rendered": false,
+      "value": "#f2c037"
+    },
+    {
+      "advanced": true,
+      "id": "splashBackgroundPicker",
+      "label": "Choose splash background color",
+      "rendered": false,
+      "value": "#183b4e"
+    },
+    {
+      "advanced": true,
+      "id": "seatSelectedPicker",
+      "label": "Choose seat selected color",
+      "rendered": false,
+      "value": "#183b4e"
+    },
+    {
+      "advanced": true,
+      "id": "seatAvailablePicker",
+      "label": "Choose seat available color",
+      "rendered": false,
+      "value": "#dce7df"
+    }
+  ],
+  "scrollWidth": 390,
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "before": {
+    "menus": [
+      {
+        "categories": [
+          {
+            "id": "589",
+            "text": "Snacks",
+            "top": 52.60000228881836
+          },
+          {
+            "id": "590",
+            "text": "Drinks",
+            "top": 52.60000228881836
+          },
+          {
+            "id": "591",
+            "text": "Desserts",
+            "top": 52.60000228881836
+          },
+          {
+            "id": "589",
+            "text": "Snacks",
+            "top": -1135.9000244140625
+          },
+          {
+            "id": "590",
+            "text": "Drinks",
+            "top": -1135.9000244140625
+          },
+          {
+            "id": "591",
+            "text": "Desserts",
+            "top": -1135.9000244140625
+          }
+        ],
+        "root": "section-concessions---snacks-worth-the-credits-23540 q-px-xs section-concessions---snacks-worth-the-credits-23540 zoom",
+        "top": -1269.9000244140625
+      },
+      {
+        "categories": [
+          {
+            "id": "589",
+            "text": "Snacks",
+            "top": 488.2875061035156
+          },
+          {
+            "id": "590",
+            "text": "Drinks",
+            "top": 532.2875366210938
+          },
+          {
+            "id": "591",
+            "text": "Desserts",
+            "top": 576.2875366210938
+          }
+        ],
+        "root": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156 zoom",
+        "top": 200.58750915527344
+      }
+    ]
+  },
+  "after": {
+    "menus": [
+      {
+        "categories": [
+          {
+            "id": "589",
+            "text": "Snacks",
+            "top": -2328.699951171875
+          },
+          {
+            "id": "590",
+            "text": "Drinks",
+            "top": -2328.699951171875
+          },
+          {
+            "id": "591",
+            "text": "Desserts",
+            "top": -2328.699951171875
+          }
+        ],
+        "root": "section-concessions---snacks-worth-the-credits-23540 q-px-xs section-concessions---snacks-worth-the-credits-23540 zoom",
+        "top": -2462.699951171875
+      },
+      {
+        "categories": [
+          {
+            "id": "589",
+            "text": "Snacks",
+            "top": -192.83750915527344
+          },
+          {
+            "id": "590",
+            "text": "Drinks",
+            "top": -148.83750915527344
+          },
+          {
+            "id": "591",
+            "text": "Desserts",
+            "top": -104.8375015258789
+          }
+        ],
+        "root": "fdp-k-food section-food---clubhouse-kitchen-25156 q-px-xs section-food---clubhouse-kitchen-25156 zoom",
+        "top": -992.2125244140624
+      }
+    ]
+  }
+}

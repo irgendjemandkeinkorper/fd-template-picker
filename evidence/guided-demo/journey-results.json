@@ -1,0 +1,64 @@
+[
+  {
+    "case": "Similar colors",
+    "enabled": false,
+    "feedback": "More contrast needed\nTry one light and one dark color so text is easy to read.\nSuggest a contrasting secondary"
+  },
+  {
+    "case": "Invalid hex",
+    "enabled": false,
+    "feedback": "Check your hex codes\nUse a 3- or 6-digit hex code, such as #183B4E."
+  },
+  {
+    "case": "Below normal-text minimum",
+    "ratio": "4.47:1",
+    "enabled": false,
+    "feedback": "More contrast needed\nWorks for large text only. Choose more contrast for regular text.\nSuggest a contrasting secondary"
+  },
+  {
+    "case": "Suggested secondary",
+    "enabled": true,
+    "feedback": "✓ Good contrast\nReadable in either direction. Meets the 4.5:1 minimum for regular text."
+  },
+  {
+    "case": "Saved draft resumes without implied completion",
+    "project": null,
+    "progress": "0 of 7",
+    "reviewEnabled": false
+  },
+  {
+    "case": "Complete desktop journey",
+    "result": "pass",
+    "details": "Colors plus six sections explicitly confirmed; 7 of 7 at review."
+  },
+  {
+    "case": "Edit and interrupted edit",
+    "result": "pass",
+    "details": "Changing choice invalidates that confirmation; reload and confirm returns to review, other choices retained."
+  },
+  {
+    "case": "Share round trip",
+    "result": "pass",
+    "details": "Copied1197-character link restores project, colors, six sections and seven confirmations in another tab."
+  },
+  {
+    "case": "Download summary",
+    "result": "pass",
+    "details": "Verified the-picture-house-website-choices.txt at expected Downloads path, including six choices and colors."
+  },
+  {
+    "case": "Phone390x844",
+    "result": "pass",
+    "details": "No body overflow, footer actions fit, sidebar preview240px, long style label wraps, modal closes with Escape."
+  },
+  {
+    "case": "Restart recovery",
+    "result": "pass",
+    "details": "Keep my choices preserves review. Start over creates fresh unconfirmed colors."
+  },
+  {
+    "case": "Browser warnings/errors",
+    "result": "pass",
+    "details": "No captured warnings or errors in representative shared/mobile journey."
+  }
+]

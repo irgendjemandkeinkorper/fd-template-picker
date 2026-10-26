@@ -1,0 +1,116 @@
+[
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 312.20001220703125,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.95) 0px 1.7px 4.08px, color(srgb 0.113725 0.113725 0.113725 / 0.7) 0px 0px 14.28px",
+        "text": "One still. One line.",
+        "width": 59.900001525878906
+      },
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 27,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.95) 0px 0.75px 1.8px, color(srgb 0.113725 0.113725 0.113725 / 0.7) 0px 0px 6.3px",
+        "text": "A quiet room · one film · tonight at seven.",
+        "width": 515
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Desktop Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-i---one-still-one-line-24876 q-px-xs section-hero-i---one-still-one-line-24876 zoom",
+        "height": 736,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "main-content custom-page section-events-i---one-occasion-at-a-time-24877 q-px-xs section-events-i---one-occasion-at-a-time-24877 zoom",
+        "height": 1401.4000244140625,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "section-food-i---few-items-wide-margins-24878 q-px-xs section-food-i---few-items-wide-margins-24878 zoom",
+        "height": 2276.300048828125,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-i---one-question-at-a-time-24879 q-px-xs section-contact-i---one-question-at-a-time-24879 zoom",
+        "height": 1248.7625732421875,
+        "primary": "#027be3",
+        "width": 1024
+      },
+      {
+        "class": "fdp-i-membership section-membership-i---quiet-return-25123 q-px-xs section-membership-i---quiet-return-25123 zoom",
+        "height": 886.4125366210938,
+        "primary": "#027be3",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "captions": [
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 312.20001220703125,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.95) 0px 1.7px 4.08px, color(srgb 0.113725 0.113725 0.113725 / 0.7) 0px 0px 14.28px",
+        "text": "One still. One line.",
+        "width": 59.900001525878906
+      },
+      {
+        "background": "rgb(29, 29, 29)",
+        "color": "rgb(238, 238, 238)",
+        "height": 27,
+        "shadow": "color(srgb 0.113725 0.113725 0.113725 / 0.95) 0px 0.75px 1.8px, color(srgb 0.113725 0.113725 0.113725 / 0.7) 0px 0px 6.3px",
+        "text": "A quiet room · one film · tonight at seven.",
+        "width": 559
+      }
+    ],
+    "errors": [
+      "error",
+      "Needs Attention"
+    ],
+    "mode": "Mobile Web",
+    "roles": [
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-hero-i---one-still-one-line-24876 q-px-xs section-hero-i---one-still-one-line-24876",
+        "height": 736,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "main-content custom-page section-events-i---one-occasion-at-a-time-24877 q-px-xs section-events-i---one-occasion-at-a-time-24877",
+        "height": 1401.4000244140625,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "section-food-i---few-items-wide-margins-24878 q-px-xs section-food-i---few-items-wide-margins-24878",
+        "height": 2332.699951171875,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "q-card q-card--square no-border-radius q-card--flat no-shadow bg-transparent section-contact-i---one-question-at-a-time-24879 q-px-xs section-contact-i---one-question-at-a-time-24879",
+        "height": 1224.7625732421875,
+        "primary": "#027be3",
+        "width": 1020
+      },
+      {
+        "class": "fdp-i-membership section-membership-i---quiet-return-25123 q-px-xs section-membership-i---quiet-return-25123",
+        "height": 886.4125366210938,
+        "primary": "#027be3",
+        "width": 1020
+      }
+    ]
+  }
+]

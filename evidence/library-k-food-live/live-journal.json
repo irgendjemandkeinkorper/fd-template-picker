@@ -1,0 +1,81 @@
+{
+  "schema": "fd-library-k-food-live/v1",
+  "verifiedAt": "2026-10-26T00:15:04.920Z",
+  "target": {
+    "region": "US-BETA",
+    "circuit": "INDY Demo",
+    "site": "Adam Template Testing",
+    "pageTitle": "Fandango Cinema Template Test",
+    "pageId": "5585",
+    "editablePageId": "5586",
+    "libraryState": "Not Linked"
+  },
+  "authorization": "User explicitly requested hiding the original Concessions Section, publishing this demo Page and checking desktop/mobile live.",
+  "actions": [
+    {
+      "object": "Section23540",
+      "field": "On / Visible",
+      "value": false,
+      "result": "Saved. Original remains in nine-Section Page but is not rendered."
+    },
+    {
+      "object": "Page5585",
+      "action": "Publish Changes",
+      "result": "Published nine Sections. Page-list pending-change control disappeared; no other Page row published."
+    }
+  ],
+  "clubhouse": {
+    "editableSectionId": "25156",
+    "publishedSectionId": "25157",
+    "class": "fdp-k-food",
+    "visible": true
+  },
+  "hosting": {
+    "source": "Read-only Developer Site Settings > Hosting > Netlify Site Name",
+    "netlifySiteName": "adam-template-testing-indy-consumer",
+    "url": "https://adam-template-testing-indy-consumer.netlify.app/fandango-cinema-template-test/",
+    "hostingFieldsChanged": false,
+    "deployTriggered": false
+  },
+  "consumerChecks": {
+    "desktop": {
+      "viewport": {
+        "height": 639,
+        "width": 1536
+      },
+      "columns": 3,
+      "cards": 7,
+      "loadedPhotos": 7,
+      "rootOverflowPx": 0,
+      "documentOverflowPx": 0,
+      "oldFoodHeadingPresent": false,
+      "oldFloatingCategoryBars": 0
+    },
+    "mobile": {
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "columns": 1,
+      "cards": 7,
+      "loadedPhotos": 7,
+      "rootOverflowPx": 0,
+      "documentOverflowPx": 0,
+      "headingFontSize": "32px",
+      "oldFoodHeadingPresent": false
+    },
+    "themeTokens": {
+      "--q-background": "#fbefe2",
+      "--q-dark": "#38264a",
+      "--q-primary": "#e06b4a",
+      "--q-secondary": "#c4553a"
+    }
+  },
+  "knownIssue": "On mobile, choosing Desserts jumps to Desserts products but the native dropdown label can remain Drinks until additional scrolling; it then updates to Desserts.",
+  "notes": [
+    "Live consumer phone has zero overflow and 32px heading; prior Admin simulated-frame sizing limitation does not reproduce at the real mobile viewport.",
+    "Only one native food Section is visible; original Section is hidden, not deleted.",
+    "Current consumer palette verified; arbitrary palette changes, checkout, Mobile App and controlled empty state were not exercised.",
+    "No source carrier, Circuit Library master, other Pages, Theme fields, products or hosting configuration were changed."
+  ]
+}

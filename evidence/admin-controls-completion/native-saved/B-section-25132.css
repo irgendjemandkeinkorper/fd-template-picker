@@ -1,0 +1,57 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+& {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+/* Native section surface and typography */
+&.fdp-b-private-parties{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-background);color:var(--fd-dark);font-family:Georgia,serif;} &.fdp-b-private-parties h2{color:var(--fd-dark);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-b-private-parties h3{color:var(--fd-dark);font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-b-private-parties p{color:var(--fd-dark);line-height:1.7;} &.fdp-b-private-parties .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-b-private-parties .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-b-private-parties .fdp-card{padding:clamp(22px,3vw,40px);background:var(--fd-background);border:1px solid var(--fd-line-on-paper);} &.fdp-b-private-parties .fdp-card p{margin-bottom:0;} &.fdp-b-private-parties .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-b-private-parties .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:var(--fd-primary);color:var(--fd-background);font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-b-private-parties .fdp-action:focus-visible{outline:3px solid var(--fd-dark);outline-offset:4px;} &.fdp-b-private-parties .fdp-action:hover{text-decoration:underline;} &.fdp-b-private-parties .fdp-actions{margin:28px 0 0;} &.fdp-b-private-parties .fdp-number{display:block;color:var(--fd-copy-emphasis);font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-b-private-parties .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-b-private-parties .fdp-list li{padding:16px 0;border-bottom:1px solid var(--fd-line-on-paper);line-height:1.6;} @media(max-width:720px){&.fdp-b-private-parties .fdp-grid{grid-template-columns:1fr;} &.fdp-b-private-parties .fdp-card{padding:24px;} &.fdp-b-private-parties .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-b-private-parties .fdp-editorial{display:grid;grid-template-columns:1.4fr 1fr;gap:clamp(30px,6vw,80px);}&.fdp-b-private-parties .fdp-editorial-lead>p:not(.fdp-kicker){font-size:18px;}&.fdp-b-private-parties .fdp-editorial-aside{border-left:1px solid var(--fd-line-on-paper);padding-left:clamp(24px,4vw,50px);}&.fdp-b-private-parties .fdp-editorial-aside article{padding:20px 0;border-bottom:1px solid var(--fd-line-on-paper);}&.fdp-b-private-parties .fdp-editorial-aside h3{font-style:italic;font-size:27px;}&.fdp-b-private-parties .fdp-editorial-aside article:last-child{border-bottom:0;}@media(max-width:720px){&.fdp-b-private-parties .fdp-editorial{grid-template-columns:1fr;}&.fdp-b-private-parties .fdp-editorial-aside{border-left:0;border-top:1px solid var(--fd-line-on-paper);padding-left:0;padding-top:24px;}}
+/* Keep content within the section on narrow screens */
+&.fdp-b-private-parties,&.fdp-b-private-parties *{box-sizing:border-box;}&.fdp-b-private-parties .fdp-content,&.fdp-b-private-parties .fdp-content>*,&.fdp-b-private-parties .fdp-content article,&.fdp-b-private-parties .fdp-content aside{min-width:0;}&.fdp-b-private-parties p,&.fdp-b-private-parties li,&.fdp-b-private-parties a{overflow-wrap:break-word;}
+/* Preserve native editorial contrast and respond to section width */
+&.fdp-b-private-parties{background:var(--fd-background)!important;color:var(--fd-dark)!important;container-type:inline-size;} &.fdp-b-private-parties h2,&.fdp-b-private-parties .text-body1{color:var(--fd-dark)!important;} @container(max-width:720px){&.fdp-b-private-parties .fdp-editorial{grid-template-columns:1fr;} &.fdp-b-private-parties .fdp-editorial-aside{border-left:0;border-top:1px solid var(--fd-line-on-paper);padding-left:0;padding-top:24px;} &.fdp-b-private-parties .fdp-action{width:100%;}}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+& .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }
+
+/* Rep's editorial links retain their transparent, underlined treatment. */
+&[data-test-id="section-content"] :is(a.ev-b__link,a.mbb__cta,a.fub__cta) { background:transparent !important; color:var(--q-dark) !important; border-color:var(--q-primary) !important; }

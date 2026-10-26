@@ -1,0 +1,119 @@
+{
+  "recordedAt": "2026-10-25T17:35:38.032Z",
+  "options": [
+    {
+      "id": "header--variant-f-concrete",
+      "slot": "header",
+      "variant": "variant-f-concrete",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+      "pageId": 5903,
+      "sectionIds": [],
+      "image": "screenshots/header/variant-f-concrete.jpg",
+      "width": 240,
+      "height": 640,
+      "capturedAt": "2026-10-25T17:21:28.361Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 639.2000122070312
+      },
+      "captureBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 640
+      },
+      "captureEvidence": [
+        {
+          "image": "evidence/component-controls-repairs/f-navigation-live.jpg",
+          "scrollY": 0,
+          "sourceDocumentY": [
+            0,
+            639.2000122070312
+          ],
+          "outputY": [
+            0,
+            640
+          ],
+          "rawImageSha256": "036dd44ad810b8d9b8af90d31d2a6912ca26ddc60d4b90f29dda9dae587d5779",
+          "viewport": {
+            "width": 1536,
+            "height": 639
+          },
+          "documentWidth": 1520.800048828125
+        }
+      ],
+      "sectionSelectors": [
+        {
+          "selector": "body.site-170 .q-layout:has(.page-variant-f-concrete-5903) header.consumer-header"
+        }
+      ],
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureNote": "Approved source Site CSS repairs align the 01–06 counters with Home, Films, Menu & Bar, Visit, Membership and Events & Late Nights. The logo is centered; Private Events and search/account controls remain inside the 240px header. Native section clip rounds the 639.200012px source height outward to 640 raster pixels. The published source was intentionally repaired; capture uses no temporary browser CSS, fixtures or altered pixels."
+    },
+    {
+      "id": "hero--variant-i-ma",
+      "slot": "hero",
+      "variant": "variant-i-ma",
+      "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+      "pageId": "5911",
+      "sectionIds": [
+        "24872"
+      ],
+      "image": "screenshots/hero/variant-i-ma.jpg",
+      "width": 1521,
+      "height": 736,
+      "capturedAt": "2026-10-25T17:32:55.146Z",
+      "captureMethod": "live-browser-section-clips",
+      "sourceBounds": {
+        "x": 0,
+        "y": 99,
+        "width": 1520.800048828125,
+        "height": 736
+      },
+      "captureBounds": {
+        "x": 0,
+        "y": 99,
+        "width": 1521,
+        "height": 736
+      },
+      "captureEvidence": [
+        {
+          "image": "evidence/component-controls-repairs/i-hero-live.jpg",
+          "scrollY": 0,
+          "sourceDocumentY": [
+            99,
+            835
+          ],
+          "outputY": [
+            0,
+            736
+          ],
+          "rawImageSha256": "6e9077b3d698070a5362fa71af8095827de95f702d391414a831a633c014123b",
+          "viewport": {
+            "width": 1536,
+            "height": 639
+          },
+          "documentWidth": 1520.800048828125
+        }
+      ],
+      "sectionSelectors": [
+        {
+          "selector": ".page-variant-i-ma-5911 .section-hero-i---one-still-one-line-24872"
+        }
+      ],
+      "captureStatus": "captured-live",
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "captureNote": "Published Ma hero after native Light Text was enabled and the approved page CSS removed foreground overrides, added caption backdrops/shadows and anchored the desktop subtitle inside the image frame. Published section 24872 is retained; editable source section is 24876 on page 5912. The 1520.800049px section width rounds outward to 1521 raster pixels. Capture uses no temporary browser CSS, fixtures or altered pixels."
+    }
+  ]
+}

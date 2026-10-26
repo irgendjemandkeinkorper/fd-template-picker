@@ -1,0 +1,86 @@
+{
+  "letter": "J",
+  "id": "25127",
+  "name": "Food J - Counter Menu",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-j-food"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-j-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f3eee5;color:#241c19;font-family:Arial,sans-serif;} &.fdp-j-food h2{color:#241c19;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-j-food h3{color:#241c19;font-family:Arial,sans-serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-j-food p{color:#241c19;line-height:1.7;}\n/* Native widget controls; confirm these selectors against rendered output */\n &.fdp-j-food .q-card{background:#fffaf2;color:#241c19;border:1px solid #a89e91;box-shadow:none;} &.fdp-j-food .q-tab{color:#241c19;} &.fdp-j-food .q-tab--active{color:#a94728;} &.fdp-j-food .q-btn{min-height:44px;} &.fdp-j-food .q-focus-helper{border-radius:inherit;} &.fdp-j-food a:focus-visible,&.fdp-j-food button:focus-visible{outline:3px solid #a94728;outline-offset:3px;}\n/* Keep content within the section on narrow screens */\n&.fdp-j-food,&.fdp-j-food *{box-sizing:border-box;}&.fdp-j-food .fdp-content,&.fdp-j-food .fdp-content>*,&.fdp-j-food .fdp-content article,&.fdp-j-food .fdp-content aside{min-width:0;}&.fdp-j-food p,&.fdp-j-food li,&.fdp-j-food a{overflow-wrap:break-word;}\n&.fdp-j-food{background:#f3eee5!important;} &.fdp-j-food h2{color:#241c19!important;}"
+    }
+  ]
+}

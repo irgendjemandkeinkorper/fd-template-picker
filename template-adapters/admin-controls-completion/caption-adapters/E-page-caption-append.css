@@ -1,0 +1,20 @@
+/* Readable media captions. Solid backing protects every image frame. */
+[class*="section-hero-e---product-panel-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle) {
+  color: var(--q-background) !important;
+  background-color: var(--q-dark) !important;
+  box-shadow: 0 0 0 .18em var(--q-dark) !important;
+  text-shadow: 0 .04em .08em color-mix(in srgb, var(--q-dark) 85%, transparent) !important;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+/* Keep empty native captions from painting blank bars. */
+[class*="section-hero-e---product-panel-"] [data-test-id="carousel-hero-slide"] [data-test-id="carousel-slide-content"] :is(.hero-title,.hero-subtitle,.mobile-hero-title,.mobile-hero-subtitle):empty {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Icons remain visible over light and dark frames without intercepting input. */
+[class*="section-hero-e---product-panel-"] :is(.swiper-button-prev,.swiper-button-next) {
+  color: var(--q-background) !important;
+  background-color: var(--q-dark) !important;
+  text-shadow: 0 .05em .12em var(--q-dark) !important;
+}

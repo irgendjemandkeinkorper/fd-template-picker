@@ -1,0 +1,74 @@
+{
+  "captions": [
+    {
+      "background": "color(srgb 0.219608 0.14902 0.290196 / 0.88)",
+      "cls": "title q-my-sm text-weight-bold text-white hero-title",
+      "color": "rgb(255, 255, 255)",
+      "frame": {
+        "bottom": 715,
+        "height": 520,
+        "left": 380.3999938964844,
+        "right": 1140.3999938964844,
+        "top": 195,
+        "width": 760,
+        "x": 380.3999938964844,
+        "y": 195
+      },
+      "rect": {
+        "bottom": 622.1375122070312,
+        "height": 334.2875061035156,
+        "left": 1038.5,
+        "right": 1098.400001525879,
+        "top": 287.8500061035156,
+        "width": 59.900001525878906,
+        "x": 1038.5,
+        "y": 287.8500061035156
+      },
+      "shadow": "color(srgb 0.219608 0.14902 0.290196 / 0.95) 0px 1.7px 4.08px, color(srgb 0.219608 0.14902 0.290196 / 0.7) 0px 0px 14.28px",
+      "text": "One still. One line."
+    },
+    {
+      "background": "color(srgb 0.219608 0.14902 0.290196 / 0.88)",
+      "cls": "subtitle q-my-sm full-width text-white text-weight-bold hero-subtitle",
+      "color": "rgb(255, 255, 255)",
+      "frame": {
+        "bottom": 715,
+        "height": 520,
+        "left": 380.3999938964844,
+        "right": 1140.3999938964844,
+        "top": 195,
+        "width": 760,
+        "x": 380.3999938964844,
+        "y": 195
+      },
+      "rect": {
+        "bottom": 691,
+        "height": 27,
+        "left": 404.3999938964844,
+        "right": 1116.3999938964844,
+        "top": 664,
+        "width": 712,
+        "x": 404.3999938964844,
+        "y": 664
+      },
+      "shadow": "color(srgb 0.219608 0.14902 0.290196 / 0.95) 0px 0.75px 1.8px, color(srgb 0.219608 0.14902 0.290196 / 0.7) 0px 0px 6.3px",
+      "text": "A quiet room · one film · tonight at seven."
+    }
+  ],
+  "hero": {
+    "bottom": 835,
+    "height": 736,
+    "left": 0,
+    "right": 1520.800048828125,
+    "top": 99,
+    "width": 1520.800048828125,
+    "x": 0,
+    "y": 99
+  },
+  "image": [],
+  "main": "q-page page-variant-i-ma-5911",
+  "viewport": {
+    "height": 639,
+    "width": 1536
+  }
+}

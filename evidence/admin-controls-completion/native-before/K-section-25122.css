@@ -1,0 +1,8 @@
+/* Native section surface and typography */
+&.fdp-k-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#f8ead7;color:#44251e;font-family:Georgia,serif;} &.fdp-k-food h2{color:#44251e;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-k-food h3{color:#44251e;font-family:Georgia,serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-k-food p{color:#44251e;line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-k-food .q-card{background:#fff8e9;color:#44251e;border:1px solid #d9af8e;box-shadow:none;} &.fdp-k-food .q-tab{color:#44251e;} &.fdp-k-food .q-tab--active{color:#923b2c;} &.fdp-k-food .q-btn{min-height:44px;} &.fdp-k-food .q-focus-helper{border-radius:inherit;} &.fdp-k-food a:focus-visible,&.fdp-k-food button:focus-visible{outline:3px solid #923b2c;outline-offset:3px;}
+/* Keep content within the section on narrow screens */
+&.fdp-k-food,&.fdp-k-food *{box-sizing:border-box;}&.fdp-k-food .fdp-content,&.fdp-k-food .fdp-content>*,&.fdp-k-food .fdp-content article,&.fdp-k-food .fdp-content aside{min-width:0;}&.fdp-k-food p,&.fdp-k-food li,&.fdp-k-food a{overflow-wrap:break-word;}
+&.fdp-k-food {background:#f8ead7 !important;color:#44251e !important;}
+&.fdp-k-food :is(.text-h1,.text-h2,.text-h3,.text-h4){color:#44251e !important;}

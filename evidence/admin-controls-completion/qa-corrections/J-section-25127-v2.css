@@ -1,0 +1,58 @@
+/* Maintained native brand roles; change Theme & Style, not this CSS. */
+& {
+  --fd-primary: var(--q-primary);
+  --fd-secondary: var(--q-secondary);
+  --fd-dark: var(--q-dark);
+  --fd-background: var(--q-background);
+  --fd-header: var(--q-dark);
+  --fd-accent: var(--q-secondary);
+  --fd-warning: var(--q-warning);
+  --fd-on-primary: var(--q-dark);
+  --fd-on-secondary: var(--q-dark);
+  --fd-on-accent: var(--q-dark);
+  --fd-surface-dark: color-mix(in srgb, var(--q-primary) 12%, var(--q-dark));
+  --fd-muted-on-dark: color-mix(in srgb, var(--q-background) 85%, var(--q-dark));
+  --fd-muted-on-paper: color-mix(in srgb, var(--q-dark) 85%, var(--q-background));
+  --fd-line-on-paper: color-mix(in srgb, var(--q-dark) 45%, var(--q-background));
+  --fd-line-on-dark: color-mix(in srgb, var(--q-background) 45%, var(--q-dark));
+  --fd-paper-muted: color-mix(in srgb, var(--q-dark) 5%, var(--q-background));
+  --fd-primary-tint: color-mix(in srgb, var(--q-primary) 16%, var(--q-background));
+  --fd-secondary-tint: color-mix(in srgb, var(--q-secondary) 14%, var(--q-background));
+  --fd-accent-tint: color-mix(in srgb, var(--q-secondary) 20%, var(--q-background));
+  --fd-dark-tint: color-mix(in srgb, var(--q-dark) 10%, var(--q-background));
+  --fd-copy-emphasis: var(--fd-muted-on-paper);
+}
+/* Native section surface and typography */
+&.fdp-j-food{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:var(--fd-background);color:var(--fd-dark);font-family:Arial,sans-serif;} &.fdp-j-food h2{color:var(--fd-dark);line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-j-food h3{color:var(--fd-dark);font-family:Arial,sans-serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-j-food p{color:var(--fd-dark);line-height:1.7;}
+/* Native widget controls; confirm these selectors against rendered output */
+ &.fdp-j-food .q-card{background:var(--fd-background);color:var(--fd-dark);border:1px solid var(--fd-line-on-paper);box-shadow:none;} &.fdp-j-food .q-tab{color:var(--fd-dark);} &.fdp-j-food .q-tab--active{color:var(--fd-copy-emphasis);} &.fdp-j-food .q-btn{min-height:44px;} &.fdp-j-food .q-focus-helper{border-radius:inherit;} &.fdp-j-food a:focus-visible,&.fdp-j-food button:focus-visible{outline:3px solid var(--fd-primary);outline-offset:3px;}
+/* Keep content within the section on narrow screens */
+&.fdp-j-food,&.fdp-j-food *{box-sizing:border-box;}&.fdp-j-food .fdp-content,&.fdp-j-food .fdp-content>*,&.fdp-j-food .fdp-content article,&.fdp-j-food .fdp-content aside{min-width:0;}&.fdp-j-food p,&.fdp-j-food li,&.fdp-j-food a{overflow-wrap:break-word;}
+&.fdp-j-food{background:var(--fd-background)!important;} &.fdp-j-food h2{color:var(--fd-dark)!important;}
+
+/* Native form widgets emit inline neutral defaults; bind their maintained roles. */
+& .generic-form-field {
+  --generic-form-field-background: var(--q-background) !important;
+  --generic-form-field-text: var(--q-dark) !important;
+  --generic-form-field-border: var(--q-dark) !important;
+  --generic-form-field-label: var(--q-dark) !important;
+  --generic-form-field-placeholder: color-mix(in srgb, var(--q-dark) 85%, var(--q-background)) !important;
+  --generic-form-field-focus: var(--q-dark) !important;
+}
+
+/* Brand actions use a tint because the native solid Primary/Dark pair can fail. */
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) {
+  background: color-mix(in srgb, var(--q-primary) 16%, var(--q-background)) !important;
+  color: var(--q-dark) !important;
+  border-color: var(--q-primary) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action) :is(.q-btn__content,span) { color: var(--q-dark) !important; }
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):focus-visible {
+  outline: 3px solid var(--q-dark) !important;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--q-background) !important;
+}
+&[data-test-id="section-content"] :is(.q-btn.bg-primary,.fdp-action):hover { text-decoration: underline; }
+
+/* Native product category titles inherit brand text by default. */
+&.fdp-j-food .text-current-color { color:var(--q-dark) !important; }

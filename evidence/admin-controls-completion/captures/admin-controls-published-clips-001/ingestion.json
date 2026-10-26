@@ -1,0 +1,7 @@
+{
+  "status": "applied-byte-identically",
+  "batchId": "admin-controls-published-clips-001",
+  "appliedAt": "2026-10-25T20:04:14.001337+00:00",
+  "clipCount": 66,
+  "method": "Native JPEG bytes copied unchanged; existing applyCaptureCorrections validates identities, review hashes and preserves semantic metadata."
+}

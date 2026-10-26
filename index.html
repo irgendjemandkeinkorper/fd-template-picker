@@ -3,42 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pick INDY component styles slot by slot and export the selection for the design team.">
-  <title>FD Template Picker</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Choose your cinema website, one step at a time. Pick your colors, web-safe fonts and favorite section styles, then share your selections.">
+  <meta name="theme-color" content="#183b4e">
+  <title>Website Studio · Cinema website builder</title>
+  <link rel="stylesheet" href="styles.css?v=documentation-1">
 </head>
 <body>
+  <a class="skip-link" href="#stepTitle">Skip to current step</a>
   <header class="topbar">
-    <div class="topbar__row">
-      <h1 class="brand">FD <span>Template Picker</span></h1>
-      <input id="project" class="project" type="text" placeholder="Client / site name" aria-label="Client or site name" autocomplete="off">
-      <span id="saved" class="saved" role="status" aria-live="polite"></span>
-      <div class="actions">
-        <button id="btnPreview" type="button" class="btn" aria-pressed="false">Preview page</button>
-        <button id="btnShare" type="button" class="btn">Copy link</button>
-        <button id="btnImport" type="button" class="btn">Import</button>
-        <button id="btnExport" type="button" class="btn btn--primary">Export JSON</button>
-        <input id="fileImport" type="file" accept="application/json,.json" hidden>
-      </div>
-    </div>
-    <div class="topbar__row topbar__row--sub">
-      <span class="sub-label">Start from</span>
-      <div id="presets" class="presets"></div>
-      <button id="btnShuffle" type="button" class="btn btn--small">Shuffle</button>
-      <span id="summary" class="summary"></span>
-    </div>
+    <div class="wordmark"><span class="brand-mark" aria-hidden="true">F</span><div><strong>Website Studio</strong><span>Made for your cinema</span></div></div>
+    <nav class="topbar__tabs" role="tablist" aria-label="Website Studio"><button id="pickerTab" class="studio-tab" type="button" role="tab" aria-selected="true" aria-controls="pickerPane">Build your website</button><button id="templatesTab" class="studio-tab" type="button" role="tab" aria-selected="false" aria-controls="templatesPane" tabindex="-1">Templates</button><button id="documentationTab" class="studio-tab" type="button" role="tab" aria-selected="false" aria-controls="documentationPane" tabindex="-1">Documentation</button></nav>
+    <div class="topbar__actions"><span id="saved" class="saved" role="status" aria-live="polite">Progress saves on this device</span><button id="restart" class="text-button" type="button">Start over</button></div>
   </header>
-
-  <main id="slots" class="slots" aria-label="Page sections"></main>
-
-  <section class="brief">
-    <label for="notes">Notes for the design team</label>
-    <textarea id="notes" rows="4" placeholder="Brand colours, fonts, anything the screenshots don't say…"></textarea>
-  </section>
-
-  <button id="btnExitPreview" type="button" class="exit-preview">Exit preview</button>
+  <div id="pickerPane" class="app-shell" role="tabpanel" aria-labelledby="pickerTab">
+    <aside class="sidebar" aria-label="Your website checklist">
+      <div class="sidebar__heading"><span class="eyebrow">Your website</span><h1>One choice<br>at a time.</h1></div>
+      <nav aria-label="Build steps"><ol id="checklist" class="checklist"></ol></nav>
+      <div class="progress-block"><div><span>Your progress</span><strong id="progressLabel">0 of 7</strong></div><progress id="progress" max="7" value="0" aria-label="Completed choices"></progress><p>Take a look. Pick a favorite.<br>We’ll bring it together.</p></div>
+    </aside>
+    <main id="stepPanel" class="step-panel" aria-label="Current checklist step"><div class="step-content"><p class="loading" role="status">Getting your styles ready…</p></div></main>
+  </div>
+  <main id="templatesPane" class="templates-pane" role="tabpanel" aria-labelledby="templatesTab" hidden><p class="loading" role="status">Getting your templates ready…</p></main>
+  <main id="documentationPane" class="templates-pane" role="tabpanel" aria-labelledby="documentationTab" hidden></main>
+  <dialog id="previewDialog" class="preview-dialog" aria-labelledby="previewTitle">
+    <div class="dialog-heading"><div><p id="previewCategory" class="eyebrow"></p><h2 id="previewTitle">Style preview</h2></div><button id="closePreview" class="close-button" type="button" aria-label="Close preview">×</button></div>
+    <div id="previewImage" class="dialog-image"></div><p class="dialog-note">Layout preview with sample content and original colors and fonts.</p>
+  </dialog>
+  <dialog id="restartDialog" class="restart-dialog" aria-labelledby="restartTitle">
+    <p class="eyebrow">A fresh start</p><h2 id="restartTitle">Start a new selection?</h2><p>Your current choices on this device will be cleared. Download your summary first if you want to keep them.</p><div class="restart-actions"><button id="cancelRestart" class="button button--secondary" type="button">Keep my choices</button><button id="confirmRestart" class="button button--primary" type="button">Start over</button></div>
+  </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-  <script type="module" src="app.js"></script>
+  <script type="module" src="app.js?v=documentation-1"></script>
 </body>
 </html>

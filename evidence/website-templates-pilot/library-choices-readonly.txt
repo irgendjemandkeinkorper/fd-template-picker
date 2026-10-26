@@ -1,0 +1,147 @@
+Browser tab: 1409043180, Title: "INDY Admin", URL: "https://admin-us-beta.indy.systems/#/settings/website-and-marketing/pages".
+0 AXWebArea INDY Admin, URL: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+	1 container
+		2 container
+			3 toolbar
+				4 button
+				5 text INDY Admin
+				6 text field (settable) f_ac8d6a33-5554-40bf-8791-cfa9ff2702fc
+				7 switch 0
+				8 button
+				9 container
+					10 text Region US-BETA
+					11 combo box (collapsed, settable) Description: Region, Value: US-BETA, ID: f_fa8a4831-4586-46ba-b7f3-9b7c2afb25b8, Secondary Actions: Expand
+				12 container
+					13 text Circuit Website Templates
+					14 combo box (collapsed, settable) Description: Circuit, Value: Website Templates, ID: f_5c588695-6bf6-48b1-8c46-b410a6f5e914, Secondary Actions: Expand
+				15 container
+					16 text Site Showcase
+					17 combo box (collapsed, settable) Description: Site, Value: Showcase, ID: f_666eb733-55d0-4078-97cc-df0bf4b370fc, Secondary Actions: Expand
+				18 button Menu
+			19 container
+				20 content list
+					21 container
+						22 text Dashboard
+				23 content list
+					24 container
+						25 text Operations
+				26 content list
+					27 container
+						28 text Reports
+				29 content list
+					30 container
+						31 text Settings
+				32 text Favorites
+				33 content list
+					34 container
+						35 text Theme and Style
+				36 content list
+					37 container
+						38 text Pages
+				39 content list
+					40 container
+						41 text Release Notes
+				42 content list
+					43 container
+						44 text How To Guides
+				45 content list
+					46 container
+						47 text Web Client Version: 2026.37.24 Region: us-beta - Locale: en-US
+				48 content list
+					49 container
+						50 text Developer
+				51 switch Description: Demo Mode, Value: 0
+					52 text Demo Mode
+			53 link Description: Settings, Value: admin-us-beta.indy.systems/#/settings
+			54 link Description: Website And Marketing, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing
+			55 link Description: Pages, Value: admin-us-beta.indy.systems/#/settings/website-and-marketing/pages
+			56 content list
+				57 container
+					58 button (collapsed) Description: Expand "Page Settings", Secondary Actions: Expand
+						59 text Page Settings
+						60 text Manage site-wide page behaviour
+				61 container
+					62 button (expanded) Description: Collapse "Pages", Secondary Actions: Collapse
+						63 text Pages
+						64 text Create or manage page content, for desktop and mobile websites and apps
+					65 container
+						66 text Pages
+						67 button
+						68 button
+						69 container
+							70 text field (settable) f_ae1e9f1d-796c-4b4a-835b-4ad855638adc
+							71 button
+						72 button SET ORDER
+						73 button ADD FROM LIBRARY
+							74 text ADD FROM LIBRARY
+						75 button CREATE PAGE
+						76 table
+							77 row
+								78 cell
+									79 text ID
+								80 cell
+									81 text Title
+								82 cell
+									83 text Slug
+								84 cell
+									85 text Sections
+								86 cell
+									87 text Views
+								88 cell
+									89 text Visibility
+								90 cell
+									91 text Library
+								92 cell
+									93 text Actions
+						94 text No Pages
+		95 button (collapsed) Description: Open Intercom Messenger, Secondary Actions: Expand
+		96 container Add From Library Pages Records per page: 10 10 1-10 of 5 ADD PAGES FROM THE LIBRARY (0)
+			97 container
+				98 text Add From Library
+				99 button
+				100 container
+					101 text Pages
+					102 button
+					103 button
+					104 container
+						105 text field (settable) f_3fe462d9-ee57-48ce-bc45-2bb257f1b134
+						106 button
+					107 table
+						108 row
+							109 cell
+								110 checkbox 0
+							111 cell
+								112 text Title
+						113 row
+							114 cell
+								115 checkbox 0
+							116 cell
+								117 text Watchlist
+						118 row
+							119 cell
+								120 checkbox 0
+							121 cell
+								122 text Gift Cards
+						123 row
+							124 cell
+								125 checkbox 0
+							126 cell
+								127 text Games
+						128 row
+							129 cell
+								130 checkbox 0
+							131 cell
+								132 text Explore Movie
+						133 row
+							134 cell
+								135 checkbox 0
+							136 cell
+								137 text Home
+					138 text Records per page:
+					139 container
+						140 text 10
+						141 combo box (collapsed, settable) 10, ID: f_5c748652-2a22-4482-8715-94edbe226371, Secondary Actions: Expand
+					142 text 1-10  of 5
+				143 button (disabled) ADD PAGES FROM THE LIBRARY (0)
+
+The focused UI element is 96 container Add From Library Pages Records per page: 10 10 1-10 of 5 ADD PAGES FROM THE LIBRARY (0)

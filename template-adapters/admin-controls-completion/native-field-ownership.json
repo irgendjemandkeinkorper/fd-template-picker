@@ -1,0 +1,316 @@
+{
+  "schema": "fd-compiler-scope-ownership/v1",
+  "source": "C:\\Users\\mxz\\OneDrive\\Documents\\ChatGPT\\INDY\\evidence\\admin-controls-audit\\live-template-styles-final.json",
+  "sourceSha256": "387957e40b53efbe0465ea5c9596a8eada8d9c9878d37ef911b41feb0887b623",
+  "variants": [
+    {
+      "variant": "variant-a-circuit",
+      "pageScopedRules": 211,
+      "directNativeSectionScopes": {},
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/A-page.css",
+        "bytesSha256": "cff9a81acfdd5ffbe3306e52d951cb3a2df2fac4777822c4865f23401eee0886",
+        "characters": 28635,
+        "literalColors": {
+          "#08080a": 5,
+          "#a89c89": 7,
+          "#f5f0e6": 45,
+          "#1c1c21": 6,
+          "#cfc4b2": 3,
+          "#a34b3c": 31,
+          "#140e0c": 11,
+          "#e8a38f": 5,
+          "#1c1411": 3,
+          "#241814": 1,
+          "#2b1a15": 1,
+          "#e7e0d0": 1,
+          "#bf9b45": 1,
+          "#c96b57": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-b-rep",
+      "pageScopedRules": 176,
+      "directNativeSectionScopes": {
+        "section-private-parties-b---your-own-evening-25134": 45
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/B-page.css",
+        "bytesSha256": "306fcc371ca78e10d5a3d7872488364c25bea12cf95949fb6f4cfdf31cd6f85a",
+        "characters": 24691,
+        "literalColors": {
+          "#f5f0e6": 11,
+          "#7c7263": 1,
+          "#141418": 13,
+          "#bf9b45": 4,
+          "#544d43": 4,
+          "#1c1c21": 4,
+          "#571726": 25,
+          "#2b2622": 23,
+          "#6b615a": 7,
+          "#4a423b": 6,
+          "#ede6d8": 2
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-c-late",
+      "pageScopedRules": 212,
+      "directNativeSectionScopes": {},
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/C-page.css",
+        "bytesSha256": "afaf62b7b5d0e01e24523cfbc4abf08ddc1aa3991ed56f4758363e0ff3cfc9a0",
+        "characters": 28120,
+        "literalColors": {
+          "#08080a": 9,
+          "#2c0a12": 13,
+          "#bf9b45": 60,
+          "#d4b36a": 3,
+          "#f5f0e6": 26,
+          "#cfc4b2": 3,
+          "#c08a3e": 4,
+          "#a89c89": 1,
+          "#1b060c": 8,
+          "#24080f": 1,
+          "#3a1119": 2,
+          "#5a2a16": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-d-odd",
+      "pageScopedRules": 288,
+      "directNativeSectionScopes": {},
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/D-page.css",
+        "bytesSha256": "48a6d88d607b15e245a37261634b74853869685aab4ab230d0d434c10495032a",
+        "characters": 49264,
+        "literalColors": {
+          "#f5f0e6": 1,
+          "#141418": 1,
+          "#3f6b4e": 1,
+          "#a34b3c": 1,
+          "#9dbca6": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-e-grid",
+      "pageScopedRules": 263,
+      "directNativeSectionScopes": {},
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/E-page.css",
+        "bytesSha256": "b9ed3e802754725e2be0939462c61759d864d3120395eb242d2adc4f821d932d",
+        "characters": 45767,
+        "literalColors": {
+          "#0e0e11": 1,
+          "#f5f0e6": 1,
+          "#bf9b45": 1,
+          "#d4b36a": 1,
+          "#5c8a6b": 1,
+          "#c08a3e": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-f-concrete",
+      "pageScopedRules": 89,
+      "directNativeSectionScopes": {},
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/F-page.css",
+        "bytesSha256": "04345a4a5edb1c38b45490589bde4506ca923eadf5005833587641bf83af4bc3",
+        "characters": 11164,
+        "literalColors": {
+          "#e8e5de": 8,
+          "#181818": 27,
+          "#a7a49d": 5,
+          "#484640": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-g-cut",
+      "pageScopedRules": 99,
+      "directNativeSectionScopes": {
+        "section-membership-g---poster-pass-25118": 53
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/G-page.css",
+        "bytesSha256": "58ac6cb89c506f5593369c7f1bfcf8a288557860e9c7049f0ef7ac22b76b27c8",
+        "characters": 20547,
+        "literalColors": {
+          "#f5f0e6": 1,
+          "#151515": 1,
+          "#a34b3c": 1,
+          "#d89a2b": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-h-storybook",
+      "pageScopedRules": 103,
+      "directNativeSectionScopes": {
+        "section-membership-h---subscribers-invitation-25121": 47
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/H-page.css",
+        "bytesSha256": "5ed06a506066162dc4cc324f034b8b945fb1ddbbec18afd761d1fb1c7605936c",
+        "characters": 17316,
+        "literalColors": {
+          "#faf4ea": 1,
+          "#f3d6d2": 1,
+          "#dce9dc": 1,
+          "#f3e5b8": 1,
+          "#571726": 2
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-i-ma",
+      "pageScopedRules": 87,
+      "directNativeSectionScopes": {
+        "section-membership-i---quiet-return-25125": 47
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/I-page.css",
+        "bytesSha256": "b4d5ac144304087ba638f93cc5b96636596fc094d2387bbac51b8ed5ec980aa3",
+        "characters": 16051,
+        "literalColors": {
+          "#faf4ea": 1,
+          "#1f2326": 2,
+          "#a53b2a": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-j-box-office",
+      "pageScopedRules": 16,
+      "directNativeSectionScopes": {
+        "section-food-j---counter-menu-25142": 25,
+        "section-private-parties-j---group-booking-desk-25143": 40,
+        "section-membership-j---box-office-pass-25144": 40,
+        "section-contact-j---enquiry-desk-25145": 27
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/J-page.css",
+        "bytesSha256": "9d6f167626e5d54ba9b0a345829a0ac69933b72e9a15b227fbdb63c05e9e4965",
+        "characters": 1606,
+        "literalColors": {
+          "#f5eee8": 1,
+          "#241c19": 1,
+          "#a84327": 1,
+          "#fff8ec": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-k-clubhouse",
+      "pageScopedRules": 0,
+      "directNativeSectionScopes": {
+        "section-food-k---clubhouse-kitchen-25135": 25,
+        "section-private-parties-k---gather-your-people-25136": 42,
+        "section-membership-k---your-place-in-the-clubhouse-24899": 42,
+        "section-contact-k---say-hello-25137": 33
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/K-page.css",
+        "bytesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "characters": 0,
+        "literalColors": {},
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    },
+    {
+      "variant": "variant-l-midnight-lounge",
+      "pageScopedRules": 2,
+      "directNativeSectionScopes": {
+        "section-food-l---after-dark-menu-25138": 30,
+        "section-private-parties-l---an-evening-of-your-own-25139": 42,
+        "section-membership-l---after-dark-regular-25140": 43,
+        "section-contact-l---a-note-after-dark-25141": 34
+      },
+      "nativePageReadback": {
+        "file": "evidence/admin-controls-completion/native-before/L-page.css",
+        "bytesSha256": "fede939fa28e887ccf86ba647d7dd20edbe8ef8bcd7d1ddf149fd92fdda53054",
+        "characters": 177,
+        "literalColors": {
+          "#e6c17c": 1,
+          "#201725": 1
+        },
+        "colorsNotInPublicSnapshot": [],
+        "publicColorsNotInPageReadback": [],
+        "nativePublicPagePaintCountsEqual": true,
+        "nativeMinusPublicPagePaintCounts": {},
+        "publicMinusNativePagePaintCounts": {},
+        "note": "Comparison uses retained public leaf rules containing page scope; separately section-rooted CSS excluded. Matching paint inventory does not prove full content equivalence. Native raw field remains installation authority."
+      }
+    }
+  ],
+  "interpretation": "Rules prefixed by a page scope came from Page CSS. Rules rooted directly at generated section scopes indicate separate native Section CSS. Shared Theme and embedded visual-editor content are outside this inference. Verify actual raw field and draft ID before saving."
+}

@@ -1,0 +1,80 @@
+{
+  "letter": "G",
+  "id": "25116",
+  "name": "Membership G - Poster Pass",
+  "fields": [
+    {
+      "value": "on"
+    },
+    {
+      "label": "Visible For\nDesktop Web\ncancel\nMobile Web\ncancel\nMobile App\ncancel\ncancel\narrow_drop_down",
+      "value": "Desktop Web, Mobile Web, Mobile App"
+    },
+    {
+      "label": "Who can see this section?\nEveryone\narrow_drop_down",
+      "value": "Everyone"
+    },
+    {
+      "label": "Start Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "End Date\nevent",
+      "value": ""
+    },
+    {
+      "label": "Width Mode\nCentered\narrow_drop_down",
+      "value": "Centered"
+    },
+    {
+      "label": "Margin Sides\nExtra Small\ncancel\narrow_drop_down",
+      "value": "Extra Small"
+    },
+    {
+      "label": "Margin Top\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Margin Bottom\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Background Color\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": ""
+    },
+    {
+      "label": "Image Fit\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Image Position\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Repeat\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "label": "Attachment\narrow_drop_down",
+      "value": ""
+    },
+    {
+      "value": "on"
+    },
+    {
+      "label": "Classes\ncancel",
+      "value": "fdp-g-membership"
+    },
+    {
+      "label": "Styles",
+      "value": ""
+    },
+    {
+      "label": "Custom CSS",
+      "value": "/* Native section surface and typography */\n&.fdp-g-membership{padding:clamp(28px,5vw,76px) clamp(18px,5vw,72px);background:#141414;color:#fff4df;font-family:Arial,sans-serif;} &.fdp-g-membership h2{color:#fff4df;line-height:1.06;letter-spacing:-.025em;font-size:clamp(32px,4.4vw,62px);} &.fdp-g-membership h3{color:#fff4df;font-family:Arial,sans-serif;font-size:clamp(21px,2.1vw,30px);line-height:1.15;margin:0 0 14px;} &.fdp-g-membership p{color:#fff4df;line-height:1.7;} &.fdp-g-membership .fdp-content{max-width:1160px;margin:24px auto 0;} &.fdp-g-membership .fdp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;} &.fdp-g-membership .fdp-card{padding:clamp(22px,3vw,40px);background:#202020;border:1px solid #fff4df;} &.fdp-g-membership .fdp-card p{margin-bottom:0;} &.fdp-g-membership .fdp-kicker{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin:0 0 18px;} &.fdp-g-membership .fdp-action{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 24px;background:#f5bf32;color:#201725;font:700 13px/1.3 Arial,sans-serif;letter-spacing:.06em;text-decoration:none;} &.fdp-g-membership .fdp-action:focus-visible{outline:3px solid #fff4df;outline-offset:4px;} &.fdp-g-membership .fdp-action:hover{text-decoration:underline;} &.fdp-g-membership .fdp-actions{margin:28px 0 0;} &.fdp-g-membership .fdp-number{display:block;color:#f5bf32;font:700 13px/1.2 Arial,sans-serif;letter-spacing:.15em;margin-bottom:20px;} &.fdp-g-membership .fdp-list{margin:0;padding:0;list-style:none;} &.fdp-g-membership .fdp-list li{padding:16px 0;border-bottom:1px solid #fff4df;line-height:1.6;} @media(max-width:720px){&.fdp-g-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-g-membership .fdp-card{padding:24px;} &.fdp-g-membership .fdp-action{width:100%;box-sizing:border-box;}} &.fdp-g-membership h2,&.fdp-g-membership h3{text-transform:uppercase;font-weight:900;letter-spacing:-.055em;}&.fdp-g-membership .fdp-card{border-width:2px;box-shadow:7px 7px 0 #f5bf32;}&.fdp-g-membership .fdp-card:nth-child(2){background:#f5bf32;color:#141414;}&.fdp-g-membership .fdp-card:nth-child(2) :is(h3,p,.fdp-number){color:#141414;}&.fdp-g-membership .fdp-actions{margin-top:38px;}\n/* Keep content within the section on narrow screens */\n&.fdp-g-membership,&.fdp-g-membership *{box-sizing:border-box;}&.fdp-g-membership .fdp-content,&.fdp-g-membership .fdp-content>*,&.fdp-g-membership .fdp-content article,&.fdp-g-membership .fdp-content aside{min-width:0;}&.fdp-g-membership p,&.fdp-g-membership li,&.fdp-g-membership a{overflow-wrap:break-word;}\n/* Echo Cut to Picture serif poster lettering */\n&.fdp-g-membership h2,&.fdp-g-membership h3{font-family:Georgia,serif;font-weight:400;letter-spacing:-.05em;}&.fdp-g-membership .fdp-card{border-color:#fff4df;}&.fdp-g-membership .fdp-card:nth-child(3){background:#a54b3e;}&.fdp-g-membership .fdp-card:nth-child(3) .fdp-number{color:#fff4df;}\n/* Preserve membership contrast over inherited page defaults */\n&.fdp-g-membership{background:#141414!important;color:#fff4df!important;} &.fdp-g-membership h2,&.fdp-g-membership h3{color:#fff4df!important;} &.fdp-g-membership .fdp-card:nth-child(2) :is(h3,p,.fdp-number){color:#141414!important;}\n/* Native subtitle contrast and component-width responsiveness */\n&.fdp-g-membership{container-type:inline-size;} &.fdp-g-membership .text-body1{color:#fff4df!important;} @container(max-width:720px){&.fdp-g-membership .fdp-grid{grid-template-columns:1fr;} &.fdp-g-membership .fdp-card{padding:24px;} &.fdp-g-membership .fdp-action{width:100%;}}"
+    }
+  ]
+}

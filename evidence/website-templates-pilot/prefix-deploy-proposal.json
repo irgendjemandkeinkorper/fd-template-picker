@@ -1,0 +1,12 @@
+{
+  "target": {"region":"US-BETA","circuit":"Website Templates","circuitId":103,"site":"Showcase","siteId":183},
+  "reason": "All reference Site addresses should begin template-. The shorter template-showcase.netlify.app serves an unrelated existing site.",
+  "proposedFields": {"Netlify Site Name":"template-showcase-indy-consumer","Hostname":"https://template-showcase-indy-consumer.netlify.app"},
+  "unchangedFields": {"Netlify Site ID":"c68241b5-0f9e-4678-a99f-135b7cc08558","Git Branch Name":"showcase","Display Hostname":""},
+  "proposedFinalAction": "One INDY Developer Site Settings > Trigger Site Deploy for Showcase only, followed by saved-field and public-address verification.",
+  "uncertainty": "A settings Save was verified, but native hosting rename through a deploy has not been established. This is a bounded test, not a promised result.",
+  "currentSavedFields": {"Netlify Site Name":"showcase-indy-consumer","Hostname":"https://showcase-indy-consumer.netlify.app"},
+  "currentPublicResult":"Reachable INDY consumer shell; No Pages/homepage yet.",
+  "excluded":"No new Sites, no other deploys, no source content changes, no project-ID changes, no Advanced Action execution.",
+  "authorizationState":"Awaiting explicit confirmation for the single deployment test; URL prefix preference already authorized."
+}

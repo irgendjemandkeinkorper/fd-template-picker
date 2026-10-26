@@ -1,0 +1,176 @@
+{
+  "header--variant-f-concrete": {
+    "id": "header--variant-f-concrete",
+    "variant": "variant-f-concrete",
+    "variantLabel": "F · Concrete",
+    "name": "Site header",
+    "canonicalComponent": "navigation",
+    "componentStatus": "present",
+    "componentNote": "Visible native site header. Link destinations and mobile menu were not verified by this local audit. Captured desktop header is a narrow vertical layout about639px high; review intended layout and responsive treatment.",
+    "componentAuditedAt": "2026-10-25",
+    "components": [
+      "Site header"
+    ],
+    "sharedBy": [
+      "variant-f-concrete"
+    ],
+    "image": "screenshots/header/variant-f-concrete.jpg",
+    "width": 240,
+    "height": 639,
+    "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-f-concrete/",
+    "sourcePageTitle": "Variant F Concrete",
+    "pageId": 5903,
+    "draftId": null,
+    "adminUrl": null,
+    "sectionIds": [],
+    "draftSectionIds": [],
+    "nativeWidgetType": null,
+    "captureStatus": "captured-live",
+    "library": {
+      "status": "not-created"
+    },
+    "dependencies": [],
+    "dependenciesStatus": "unverified",
+    "capture": {
+      "mode": "live",
+      "capturedAt": "2026-10-25",
+      "method": "browser-viewport-tiles",
+      "selectors": [],
+      "sourceBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 639.2000122070312
+      },
+      "captureBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 639
+      },
+      "evidence": [
+        {
+          "image": "variant-f-concrete-tile-0.jpg",
+          "scrollY": 0,
+          "sourceDocumentY": [
+            0,
+            639
+          ],
+          "outputY": [
+            0,
+            639
+          ]
+        }
+      ],
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "notes": [
+        "Actual published appearance; no data fixtures or CSS repairs.",
+        "This header is a sidebar. Full layout and Theme & Style settings must be reviewed on the source page."
+      ]
+    },
+    "presentation": {
+      "kind": "sidebar",
+      "width": 240,
+      "canvasWidth": 1520.800048828125
+    },
+    "visualReview": {
+      "status": "passed",
+      "reviewedAt": "2026-10-25",
+      "captureKey": "[\"screenshots/header/variant-f-concrete.jpg\",240,639,\"2026-10-25\",[]]",
+      "method": "local-image-pixel-and-label-review",
+      "notes": "Vertical dark plum sidebar: numbered Home/Films/Menu & Bar/Visit/Membership/Events & Late Nights, Private Events button and utility icons at bottom.",
+      "issues": [],
+      "evidence": "evidence/catalog-pixel-audit-2.json",
+      "imageSha256": "bed5a512df2ffe13e6eb81abe1b10bfe40d96b8e0db34d464dc21d7a883cf1f4"
+    }
+  },
+  "hero--variant-i-ma": {
+    "id": "hero--variant-i-ma",
+    "variant": "variant-i-ma",
+    "variantLabel": "I · Ma",
+    "name": "Hero I - One Still One Line",
+    "canonicalComponent": "hero",
+    "componentStatus": "present",
+    "componentNote": "",
+    "componentAuditedAt": "2026-10-25",
+    "components": [
+      "Hero I - One Still One Line"
+    ],
+    "sharedBy": [
+      "variant-i-ma"
+    ],
+    "image": "screenshots/hero/variant-i-ma.jpg",
+    "width": 1536,
+    "height": 736,
+    "sourceUrl": "https://adam-template-testing-2-indy-consumer.netlify.app/variant-i-ma/",
+    "sourcePageTitle": "Variant I Ma | Adam Template Testing 2",
+    "pageId": "5911",
+    "draftId": "5912",
+    "adminUrl": null,
+    "sectionIds": [
+      "24872"
+    ],
+    "draftSectionIds": [],
+    "nativeWidgetType": null,
+    "captureStatus": "captured-live",
+    "library": {
+      "status": "not-created"
+    },
+    "dependencies": [],
+    "dependenciesStatus": "unverified",
+    "capture": {
+      "mode": "live",
+      "capturedAt": "2026-10-25T13:43:02.134Z",
+      "method": "live-browser-full-page",
+      "selectors": [
+        ".section-hero-i---one-still-one-line-24872"
+      ],
+      "sourceBounds": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 736
+      },
+      "captureBounds": {
+        "x": 0,
+        "y": 99,
+        "width": 1536,
+        "height": 736
+      },
+      "evidence": [
+        {
+          "image": "variant-i-ma-parity-full-page.jpg",
+          "scrollY": 0,
+          "sourceDocumentY": [
+            99,
+            835
+          ],
+          "outputY": [
+            0,
+            736
+          ]
+        }
+      ],
+      "missingDocumentY": [],
+      "excludedDocumentY": [],
+      "appearanceAltered": false,
+      "sampleDataInjected": false,
+      "notes": [
+        "Actual published appearance; no data fixtures or CSS repairs."
+      ]
+    },
+    "visualReview": {
+      "status": "passed",
+      "reviewedAt": "2026-10-25",
+      "captureKey": "[\"screenshots/hero/variant-i-ma.jpg\",1536,736,\"2026-10-25T13:43:02.134Z\",[\"24872\"]]",
+      "method": "local-image-pixel-and-label-review",
+      "notes": "Cream panel with Ghost in the Shell still, small vertical text and red square.",
+      "issues": [],
+      "evidence": "evidence/catalog-pixel-audit-2.json",
+      "imageSha256": "2c73383b2ece5c127fc5910660b720b789e31ea436410f040acddc544caad3df"
+    }
+  }
+}
