@@ -2,6 +2,7 @@ import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildBuildBrief } from './model
 import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL, COLOR_ROLES, COLOR_EXAMPLES, DEFAULT_PALETTE_ROLES, normalizePalette, paletteForState, assessPalette, paletteKey, PALETTE_BINDING_NOTE, paletteProceedStatus, CONTRAST_REVIEW_POLICY, CONTRAST_ACKNOWLEDGMENT } from './colors.mjs';
 import { GUIDE_STEPS, createWorkflow } from './workflow.mjs?v=fonts-1';
 import { HUB_DATA_URL, renderTemplateHub } from './hub.mjs';
+import { renderDocumentation } from './documentation.mjs?v=documentation-1';
 import { designName } from './names.mjs';
 import { FONT_OPTIONS, TYPOGRAPHY_ROLES, typographyForState, typographyKey, normalizeTypography, TYPE_NOTE } from './typography.mjs?v=fonts-1';
 
@@ -386,15 +387,21 @@ async function downloadBuildBrief() {
   } catch { toast('The build brief could not load. Your choices are saved; try again or download the summary.'); }
 }
 let hubReady = false, activeTab = 'picker';
+const studioTabs = ['picker', 'templates', 'documentation'];
+$('documentationPane').replaceChildren(renderDocumentation());
 async function showTab(tab, focusContent = true) {
   activeTab = tab;
   const templates = tab === 'templates';
-  $('pickerPane').hidden = templates; $('templatesPane').hidden = !templates;
-  for (const [id, selected] of [['pickerTab', !templates], ['templatesTab', templates]]) {
-    $(id).setAttribute('aria-selected', String(selected)); $(id).tabIndex = selected ? 0 : -1;
+  for (const name of studioTabs) {
+    const selected = name === tab;
+    $(name + 'Pane').hidden = !selected;
+    $(name + 'Tab').setAttribute('aria-selected', String(selected)); $(name + 'Tab').tabIndex = selected ? 0 : -1;
   }
-  $('restart').hidden = templates; $('saved').hidden = templates;
-  document.querySelector('.skip-link').href = templates ? '#templateHubTitle' : '#stepTitle';
+  $('restart').hidden = tab !== 'picker'; $('saved').hidden = tab !== 'picker';
+  const headingId = templates ? 'templateHubTitle' : tab === 'documentation' ? 'documentationTitle' : 'stepTitle';
+  document.querySelector('.skip-link').href = '#' + headingId;
+  const tabHash = tab === 'picker' ? '' : '#' + tab;
+  if (location.hash !== tabHash) history.replaceState(null, '', location.pathname + location.search + tabHash);
   if (templates) {
     if (!hubReady) {
       try {
@@ -403,13 +410,23 @@ async function showTab(tab, focusContent = true) {
       } catch { $('templatesPane').replaceChildren(el('div', { className: 'empty-state' }, el('h1', { id: 'templateHubTitle', tabIndex: -1, textContent: 'Templates are taking a moment.' }), el('p', { textContent: 'Your checklist choices are saved. Please try this tab again.' }))); }
     }
     if (activeTab === 'templates' && focusContent) $('templateHubTitle')?.focus({ preventScroll: true });
-  } else if (focusContent) $('stepTitle')?.focus({ preventScroll: true });
+  } else if (focusContent) $(headingId)?.focus({ preventScroll: true });
 }
-$('pickerTab').onclick = () => showTab('picker');
-$('templatesTab').onclick = () => showTab('templates');
-for (const id of ['pickerTab', 'templatesTab']) $(id).onkeydown = (event) => {
-  if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) { event.preventDefault(); const tab = event.key === 'Home' ? 'picker' : event.key === 'End' ? 'templates' : id === 'pickerTab' ? 'templates' : 'picker'; $(tab === 'picker' ? 'pickerTab' : 'templatesTab').focus(); showTab(tab, false); }
-};
+for (const [index, tab] of studioTabs.entries()) {
+  $(tab + 'Tab').onclick = () => showTab(tab);
+  $(tab + 'Tab').onkeydown = (event) => {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    event.preventDefault();
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? studioTabs.length - 1 : (index + (event.key === 'ArrowRight' ? 1 : -1) + studioTabs.length) % studioTabs.length;
+    $(studioTabs[next] + 'Tab').focus(); showTab(studioTabs[next], false);
+  };
+}
+const tabFromHash = () => studioTabs.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'picker';
+showTab(tabFromHash(), false);
+window.addEventListener('hashchange', () => {
+  // Heading anchors and shared-selection hashes are not tab navigation.
+  if (!location.hash || studioTabs.includes(location.hash.slice(1))) showTab(tabFromHash(), false);
+});
 $('closePreview').onclick = () => $('previewDialog').close();
 $('restart').onclick = () => $('restartDialog').showModal();
 $('cancelRestart').onclick = () => $('restartDialog').close();

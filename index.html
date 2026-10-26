@@ -6,13 +6,13 @@
   <meta name="description" content="Choose your cinema website, one step at a time. Pick your colors, web-safe fonts and favorite section styles, then share your selections.">
   <meta name="theme-color" content="#183b4e">
   <title>Website Studio · Cinema website builder</title>
-  <link rel="stylesheet" href="styles.css?v=fonts-1">
+  <link rel="stylesheet" href="styles.css?v=documentation-1">
 </head>
 <body>
   <a class="skip-link" href="#stepTitle">Skip to current step</a>
   <header class="topbar">
     <div class="wordmark"><span class="brand-mark" aria-hidden="true">F</span><div><strong>Website Studio</strong><span>Made for your cinema</span></div></div>
-    <nav class="topbar__tabs" role="tablist" aria-label="Website Studio"><button id="pickerTab" class="studio-tab" type="button" role="tab" aria-selected="true" aria-controls="pickerPane">Build your website</button><button id="templatesTab" class="studio-tab" type="button" role="tab" aria-selected="false" aria-controls="templatesPane" tabindex="-1">Templates</button></nav>
+    <nav class="topbar__tabs" role="tablist" aria-label="Website Studio"><button id="pickerTab" class="studio-tab" type="button" role="tab" aria-selected="true" aria-controls="pickerPane">Build your website</button><button id="templatesTab" class="studio-tab" type="button" role="tab" aria-selected="false" aria-controls="templatesPane" tabindex="-1">Templates</button><button id="documentationTab" class="studio-tab" type="button" role="tab" aria-selected="false" aria-controls="documentationPane" tabindex="-1">Documentation</button></nav>
     <div class="topbar__actions"><span id="saved" class="saved" role="status" aria-live="polite">Progress saves on this device</span><button id="restart" class="text-button" type="button">Start over</button></div>
   </header>
   <div id="pickerPane" class="app-shell" role="tabpanel" aria-labelledby="pickerTab">
@@ -24,6 +24,7 @@
     <main id="stepPanel" class="step-panel" aria-label="Current checklist step"><div class="step-content"><p class="loading" role="status">Getting your styles ready…</p></div></main>
   </div>
   <main id="templatesPane" class="templates-pane" role="tabpanel" aria-labelledby="templatesTab" hidden><p class="loading" role="status">Getting your templates ready…</p></main>
+  <main id="documentationPane" class="templates-pane" role="tabpanel" aria-labelledby="documentationTab" hidden></main>
   <dialog id="previewDialog" class="preview-dialog" aria-labelledby="previewTitle">
     <div class="dialog-heading"><div><p id="previewCategory" class="eyebrow"></p><h2 id="previewTitle">Style preview</h2></div><button id="closePreview" class="close-button" type="button" aria-label="Close preview">×</button></div>
     <div id="previewImage" class="dialog-image"></div><p class="dialog-note">Layout preview with sample content and original colors and fonts.</p>
@@ -32,6 +33,6 @@
     <p class="eyebrow">A fresh start</p><h2 id="restartTitle">Start a new selection?</h2><p>Your current choices on this device will be cleared. Download your summary first if you want to keep them.</p><div class="restart-actions"><button id="cancelRestart" class="button button--secondary" type="button">Keep my choices</button><button id="confirmRestart" class="button button--primary" type="button">Start over</button></div>
   </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script type="module" src="app.js?v=fonts-1"></script>
+  <script type="module" src="app.js?v=documentation-1"></script>
 </body>
 </html>

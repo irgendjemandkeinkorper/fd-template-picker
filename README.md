@@ -4,6 +4,8 @@ Choose a cinema website one step at a time. The customer flow shows one decision
 
 Open the [public template picker](https://irgendjemandkeinkorper.github.io/fd-template-picker/). Hosting and release verification are recorded in the [GitHub Pages guide](docs/GITHUB-PAGES.md).
 
+The [Documentation tab](https://irgendjemandkeinkorper.github.io/fd-template-picker/#documentation) links the nine template-specific support guides, including editing instructions, color mappings and troubleshooting. Hosted guides are generated from the maintained local sources; raw audit files are retained separately.
+
 ## Customer flow
 
 1. **Colors & fonts:** choose Primary, Secondary, Header, Accent, Dark and Background with color pickers or hex fields. Seven additional message, splash and seating colors live in a collapsed **Advanced colors** panel. Choose web-safe fonts for headings, body text, and buttons/navigation, then inspect the shared live sample. The cinema name is optional.

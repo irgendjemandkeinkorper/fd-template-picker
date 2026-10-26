@@ -25,7 +25,13 @@ The user requested immediate release ahead of the demo. This publishes the lates
 
 Reference: [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-Keep internal support guides outside this public site. The demo source records already held in this public repository remain source evidence, not destination authorization or a guarantee of Library portability.
+The user authorized publishing the nine named support guides on October 26, 2026. Their hosted editions live under `support/`, linked from the **Documentation** tab at `#documentation`. Raw local audit records and the historical internal portal remain outside this publication. The demo source records already held in this public repository remain source evidence, not destination authorization or a guarantee of Library portability.
+
+## Support documentation release
+
+The Documentation tab links all nine design guides. Each includes editing steps, color mappings, quick fixes and verification limits. The guides link back to `../#documentation`, work under the GitHub Pages repository path and include a printable view and Markdown source. Keyboard navigation cycles through all three tabs without resetting the saved picker choices.
+
+To refresh the hosted guides after editing the local sources, rebuild the current internal portal first, then run `node scripts/publish-support-guides.mjs` from this repository. The export copies only the nine named guides and their two display assets; local audit links become labeled maintainer references. Run `node --test` and check the Documentation tab on desktop and phone before publishing.
 
 ## Web-safe font release
 

@@ -46,7 +46,15 @@ All nine dedicated demos are in **US-BETA → INDY Demo**. Use native **Theme & 
 
 **Why can menu links be readable while Log in or Sign up is not?** Filled native authentication buttons need their own foreground pair. A broad navigation rule can override both the button and its inner text/icon: light navigation copy becomes unreadable on the pale Secondary button, or dark navigation copy on a dark Primary button. The scoped phone-drawer correction gives Reel's Log in button Background text and the pale Sign up buttons Dark text. Cameo retains its already-readable tint/Dark pairs. Keep these rules with the Theme and check the actual inner label and icon as well as the anchor. Desktop account pop-ups are a separate state to review.
 
-**Does every demo button meet 4.5:1?** The current Showcase phone Log in pair measures 3.66:1. It is above the picker's 3:1 floor but below the normal-text 4.5:1 target, so a customer launch needs a reviewed alternative. Do not label the demo palette as fully accessibility-compliant or infer that fixing an invisible label certifies all controls.
+**Does every demo button meet 4.5:1?** The 26 October color repair changed Showcase's phone Log In button to Dark text on its existing Primary tint, measuring 11.64:1; Sign Up uses Dark on Secondary at 9.31:1. These checked states replace the earlier 3.66:1 Log In result. They do not certify every control, image overlay, hover or focus state.
+
+**Why did Today or a movie rating disappear?** Broad selected-date rules could make the small Today badge Dark on Dark. All nine Themes now preserve Background text on its Dark badge and Dark text on Secondary rating chips. Keep those narrow rules with the Showtimes widget instead of changing the approved palette.
+
+**Why did Neon's or Metropolis's Films heading blend into the panel?** In the native Explore Movies heading editor, set Color to **Default**. It inherits the section's light Background text; Primary was too dark on that panel. This repair uses the editor and does not require additional Page CSS.
+
+**Why did Pause's food descriptions look faint?** A description opacity rule reduced the contrast of otherwise suitable text. The current Theme uses its existing muted text role at full opacity, measuring 6.39:1 on Background. Keep the scoped Concessions rule; changing the entire slate palette is unnecessary.
+
+The color repair retained all six palette values on every demo. Checks covered all 63 routes at 390px plus 12 desktop follow-ups, with no remaining enabled solid-background text candidates in those observations. Image-backed captions were reviewed separately on representative loaded artwork; this is a scoped repair check, not full accessibility certification.
 
 **Why do Cameo's contact fields overlap?** The demo uses three required native Full Width fields: Name (Text), Email (Email) and What you have in mind (Notes). The original postcard layout expected a different grid. Its correction lets all three fields flow into separate rows while retaining the postcard frame. Verify the saved Visit Page CSS and all three controls on desktop and phone; do not change native field widths just to match an old selector.
 

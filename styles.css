@@ -355,6 +355,25 @@ dialog::backdrop { background: #132f3db3; backdrop-filter: blur(3px); }
 .advanced-swatches { display: flex; flex-wrap: wrap; gap: 15px 22px; padding-top: 14px; }
 .templates-pane { min-height: 0; overflow: auto; padding: 36px; }
 .template-hub { max-width: 1260px; margin: 0 auto; }
+.documentation h1 { font-size: clamp(28px, 3vw, 38px); margin-bottom: 10px; }
+.documentation-intro { color: var(--muted); max-width: 680px; }
+.documentation-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; margin: 28px 0; }
+.documentation-card { display: flex; flex-direction: column; align-items: flex-start; padding: 24px; border: 1px solid var(--line); border-top: 4px solid var(--ink); border-radius: 12px; background: var(--paper); }
+.documentation-card h2 { font-size: 23px; margin-bottom: 10px; }
+.documentation-card p { flex: 1; color: var(--muted); }
+.documentation-card a { text-decoration: none; }
+.documentation-note { color: var(--muted); font-size: 12px; }
+.documentation-card--showcase { border-top-color: #A37721; }
+.documentation-card--reel { border-top-color: #8E344A; }
+.documentation-card--neon { border-top-color: #087F82; }
+.documentation-card--cameo { border-top-color: #B84F3A; }
+.documentation-card--metropolis { border-top-color: #235D98; }
+.documentation-card--encore { border-top-color: #55565C; }
+.documentation-card--splice { border-top-color: #704CB0; }
+.documentation-card--prologue { border-top-color: #35674C; }
+.documentation-card--pause { border-top-color: #526D7A; }
+@media(max-width:1000px) { .documentation-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .documentation-grid { grid-template-columns: minmax(0,1fr); } .topbar__tabs { gap: 0; } .studio-tab { padding-inline: 8px; font-size: 12px; } }
 .hub-intro h1 { margin-bottom: 10px; font-size: clamp(28px, 3vw, 38px); letter-spacing: -.04em; }
 .hub-intro p { max-width: 730px; color: var(--muted); }
 .hub-notice { padding: 13px 16px; border: 1px solid #dce4df; border-radius: 9px; background: #eff4ef; color: var(--muted); font-size: 12px; }
