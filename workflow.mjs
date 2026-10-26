@@ -1,4 +1,5 @@
 import { REQUIRED_COMPONENTS, componentForOption, visualReviewForOption } from './model.mjs';
+import { designName } from './names.mjs';
 import { assessBrandColors, BRAND_COLOR_NOTE, paletteForState, assessPalette, COLOR_ROLES, PALETTE_BINDING_NOTE, paletteProceedStatus } from './colors.mjs';
 
 export const GUIDE_STEPS = Object.freeze([
@@ -70,7 +71,7 @@ export function createWorkflow(catalog) {
       PALETTE_BINDING_NOTE, BRAND_COLOR_NOTE, '', 'Your sections'];
     for (const [index, step] of sectionSteps.entries()) {
       const choice = selectedChoice(state, step.id);
-      lines.push(`${index + 1}. ${step.label}: ${choice ? choice.option.customerDesign?.label ?? choice.option.variantLabel : 'Not selected'}`);
+      lines.push(`${index + 1}. ${step.label}: ${choice ? designName(choice.option, catalog) : 'Not selected'}`);
     }
     return `${lines.join('\n')}\n`;
   }

@@ -1,3 +1,5 @@
+import { DEMO_DESIGN_NAMES } from './names.mjs';
+
 export const HUB_DATA_URL = './data/template-hub.json';
 
 const INITIAL_VARIANT_IDS = Object.freeze([
@@ -89,9 +91,10 @@ export function createTemplateHubModel(catalog, data) {
     if (!variant) throw new Error(`Hub source missing from catalog: ${id}`);
     const displayName = requireText(template.displayName, 'display name');
     if (!/^[A-Za-z]+$/.test(displayName) || displayNames.has(displayName.toLowerCase())) throw new Error('Hub names must be distinct single words');
+    if (displayName !== DEMO_DESIGN_NAMES[id]) throw new Error('Hub display name must match the approved cinema design name');
     displayNames.add(displayName.toLowerCase());
     const demo = verifiedDemo(template, displayName);
-    const currentLabel = requireText(variant.label, 'catalog label').replace(/^[A-Z]\s*·\s*/, '');
+    const currentLabel = displayName;
     return {
       id,
       letter: String.fromCharCode(65 + index),

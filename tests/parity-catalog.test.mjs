@@ -47,6 +47,21 @@ test('current demo choices point to the exact live Site/Page/Section behind each
   for (const record of captures) for (const region of record.componentRegions) {
     const option = catalog.slots.find(s => s.id === region.slot).options.find(o => o.variant === record.slug);
     assert.equal(option.sourceSite.siteId, record.id);
+    if (option.standaloneSource) {
+      const map = await load(option.standaloneSource.map);
+      const page = map.pages[option.standaloneSource.pageRole];
+      const refreshed = (await load(option.standaloneSource.captures)).captures.find(capture => capture.slot === region.slot);
+      assert.equal(map.siteId, record.id);
+      assert.equal(option.sourceUrl, page.url);
+      assert.equal(option.pageId, String(page.publishedPageId));
+      assert.deepEqual(option.sectionIds, refreshed.sectionIds.map(String));
+      assert.equal(option.image, refreshed.image);
+      assert.ok(option.preStandaloneSourceReference);
+      assert.ok(option.legacySourceReference);
+      assert.equal(option.capture.appearanceAltered, false);
+      assert.equal(option.capture.sampleDataInjected, false);
+      continue;
+    }
     assert.equal(option.sourceUrl, record.url);
     assert.equal(option.pageId, record.mainClass.match(/-(\d+)$/)[1]);
     assert.deepEqual(option.sectionIds, region.slot === 'header' ? [] : [region.className.match(/section-[a-z0-9-]+-(\d+)/)[1]]);

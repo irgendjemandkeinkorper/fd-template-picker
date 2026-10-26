@@ -14,8 +14,17 @@ for (const slot of catalog.slots) for (const option of slot.options) {
     artifacts: [], limitations: ['Visual capture review does not certify installation on a new Site.', 'Source IDs must never be used as destination IDs.'] };
   if (option.demoProvenance) {
     entry.artifacts.push(await artifact(option.demoProvenance.nativePageCss, 'Current live demo Page CSS reference; not a self-contained Section package.'));
+    if (option.demoProvenance.nativeThemeCss) entry.artifacts.push(await artifact(option.demoProvenance.nativeThemeCss, 'Current Site-wide design, navigation and footer CSS reference. Review destination scoping before reuse.'));
     if (option.demoProvenance.nativeRecipe) entry.artifacts.push(await artifact(option.demoProvenance.nativeRecipe, 'Native Showtimes hero settings and per-design overrides.'));
-    entry.limitations.push('Resolve native destination Section IDs through Admin. Draft Section IDs have not been remapped; do not use historical authoring IDs.', 'Header and Accent bind independently on the demo homepage; recreate the scoped Theme navigation binding when installing.');
+    entry.limitations.push('Resolve native destination Section IDs through Admin. Recorded source draft IDs are evidence only; missing draft IDs must not be inferred.', 'Header and Accent bind independently on the live demo; recreate the scoped Theme navigation binding when installing.');
+    if (option.standaloneSource) {
+      entry.artifacts.push(...await Promise.all([
+        [option.standaloneSource.map, 'Published standalone Page/Section IDs read from the actual public DOM.'],
+        [option.standaloneSource.nativeRecord, 'Separate native Admin records; historical before-values are not current widget configuration.'],
+        [option.standaloneSource.qa, 'Seven-page desktop and phone review; no checkout or form-submission certification.'],
+      ].map(([path, purpose]) => artifact(path, purpose))));
+      entry.limitations.push('A complete standalone demo does not establish Library transfer or copy/paste portability. Supporting Page CSS can depend on Site Theme CSS.');
+    }
   } else if (variant) entry.artifacts.push(await artifact(`evidence/admin-controls-completion/native-saved/${variant}-page.css`, 'Source Page CSS reference; not a self-contained section package.'));
   if (kFood) {
     const path = 'template-adapters/library-k-food/dependency-manifest.json';

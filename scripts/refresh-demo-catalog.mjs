@@ -7,6 +7,10 @@ const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const catalog = await read('evidence/demo-refresh/legacy-catalog.json');
 const captures = await read('evidence/demo-refresh/desktop-captures.json');
 const hub = await read('data/template-hub.json');
+const activeCatalog = await read('catalog.json');
+if (activeCatalog.slots.some(slot => slot.options.some(option => option.standaloneSource))) {
+  throw new Error('This historical homepage refresh would erase standalone Page references. Use scripts/refresh-standalone-catalog.mjs for current demos.');
+}
 const phone = await read('evidence/demo-refresh/phone-qa.json');
 const draftPages = { Showcase: 6840, Reel: 6153, Neon: 6240, Cameo: 6329, Metropolis: 6416, Encore: 6675, Splice: 6504, Prologue: 6591, Pause: 6764 };
 const now = new Date().toISOString();

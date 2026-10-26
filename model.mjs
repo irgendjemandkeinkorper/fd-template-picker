@@ -1,4 +1,5 @@
 import { normalizeBrandColors, assessBrandColors, normalizePalette, paletteForState, assessPalette, paletteKey, COLOR_ROLES, PALETTE_BINDING_NOTE, normalizeColorAcknowledgment, paletteProceedStatus } from './colors.mjs';
+import { designName, DEMO_DESIGN_NAMES } from './names.mjs';
 
 export const SCHEMA = 'fd-template-picker/v3';
 export const SUPPORTED_SCHEMAS = new Set(['fd-template-picker/v1', 'fd-template-picker/v2', SCHEMA]);
@@ -220,8 +221,9 @@ export function buildExport(catalog, state, baseUrl, exportedAt = new Date().toI
       const assessment = assessOption(catalog, slot, option);
       return {
         position: i + 1, slot: slotId, slotLabel: slot.label, included: !state.excluded[slotId],
-        optionId: option.id, variant: option.variant, variantLabel: option.variantLabel,
-        displayName: option.name, sourceName: option.sourceName ?? option.name, sourceAliasNote: option.sourceAliasNote ?? null,
+        optionId: option.id, variant: option.variant, variantLabel: designName(option, catalog, { grouped:false }),
+        displayName: DEMO_DESIGN_NAMES[option.variant] ? `${designName(option, catalog, { grouped:false })} — ${slot.label}` : option.name,
+        sourceName: option.sourceName ?? option.name, sourceAliasNote: option.sourceAliasNote ?? null,
         sharedBy: option.sharedBy ?? [option.variant], components: option.components,
         sourceUrl: option.sourceUrl, sourcePageTitle: option.sourcePageTitle ?? option.variant,
         publishedPageId: option.pageId ?? null, draftPageId: option.draftId ?? null,

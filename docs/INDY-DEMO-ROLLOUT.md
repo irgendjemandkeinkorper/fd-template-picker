@@ -52,7 +52,7 @@ These dates expire. Refresh the programme through the same native workflow if a 
 
 The seven copied concessions are Marquee Popcorn, No Country for Old Nachos, The Pretzel Identity, Soda, Pie Hard, Sundae, Bloody Sundae and Movie Candy. Native Website visibility supplies the homepage menu and prices.
 
-## Display-only decision and QA scope
+## Display-only decision and original homepage QA scope
 
 The final user instruction keeps **Enable Online Ticketing off** on all nine demos. An earlier enable request was superseded before any ticketing mutation. Time buttons therefore demonstrate the programme; checkout is not enabled or certified. No order was placed.
 
@@ -63,8 +63,8 @@ The Hub and checklist now use the dedicated demos and 54 refreshed component cap
 ## Held and deferred work
 
 - **Showcase 193** was created once after explicit replacement approval, with native creation name `template-showcase-demo`. Its 504 response still persisted. Native hosting, homepage 6797/editable 6840, navigation and 16 screenings were verified. Incomplete 184, earlier 183 / Website Templates 103, and source 170 are preserved.
-- Library carrier Pages, independent imports, separate per-section showcase Pages and copy/paste portability tests are deferred. The current cloned Sites include inherited Pages; they are not a finished reusable block library.
-- The broader per-design stylesheet extraction and normalized venue/editorial copy need a separate pass. Tonight's common native inventory is the movie programme and concessions.
+- Library carrier Pages, independent imports and copy/paste portability tests are deferred. The cloned Sites are not a finished reusable block library.
+- The subsequent [standalone-site pass](STANDALONE-DEMO-MAINTENANCE.md) extracts each design's shared styling, rebuilds its six supporting Pages and adds local footer navigation. Verified completion is recorded per Site in the Hub's `siteStructure` evidence. The original homepage QA above does not certify those later changes.
 - No client cache clear or external Netlify login was used.
 
 ## Recover from native editor issues

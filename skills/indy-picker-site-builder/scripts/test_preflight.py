@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from preflight import REQUIRED, ROLES, check, local_path, sha256
+from preflight import CONTRAST_ACKNOWLEDGMENT, CONTRAST_REVIEW_POLICY, REQUIRED, ROLES, check, local_path, sha256
 
 REFERENCE_ROLLOUT_VARIANTS = ("variant-a-circuit", "variant-b-rep", "variant-c-late", "variant-d-odd", "variant-e-grid", "variant-f-concrete", "variant-g-cut", "variant-h-storybook", "variant-i-ma")
 
@@ -114,6 +114,63 @@ class PreflightTests(unittest.TestCase):
         data["palette"]["nativeBindings"]["header"]["templateRole"] = "header"
         self.assertTrue(any("adapter-binding" in issue for issue in self.run_check(data)["errors"]))
 
+    def current_palette(self, primary=None, acknowledge=False):
+        data = copy.deepcopy(self.brief)
+        for role in ("header", "accent"):
+            data["palette"]["nativeBindings"][role]["templateRole"] = role
+        if primary:
+            data["palette"]["roles"].update(primary=primary, secondary="#FFFFFF")
+            data["brandColors"].update(primary=primary, secondary="#FFFFFF")
+        key = "palette/v1|" + "|".join(f"{role}:{data['palette']['roles'][role]}" for role in ROLES) + "|header:header|accent:accent"
+        data["workflow"]["confirmed"]["colors"] = key
+        if acknowledge:
+            data["colorAcknowledgment"] = {"policy": CONTRAST_REVIEW_POLICY, "paletteKey": key,
+                "acknowledgedAt": "2026-10-26T12:00:00.000Z", "statement": CONTRAST_ACKNOWLEDGMENT}
+        return data
+
+    def test_current_independent_palette_contract_is_accepted(self):
+        result = self.run_check(self.current_palette())
+        self.assertEqual([], result["errors"])
+        self.assertTrue(result["colorReview"]["passesNormalText"])
+        self.assertFalse(any("Palette" in issue or "contrast" in issue for issue in result["blockers"]))
+
+    def test_acknowledged_warning_palette_is_review_only(self):
+        result = self.run_check(self.current_palette("#FF0000", acknowledge=True))
+        self.assertEqual([], result["errors"])
+        self.assertEqual("acknowledged-for-review", result["colorReview"]["status"])
+        self.assertFalse(result["colorReview"]["passesNormalText"])
+        self.assertTrue(result["colorReview"]["requiresRenderedReview"])
+        self.assertFalse(any("contrast" in issue for issue in result["blockers"]))
+        self.assertFalse(result["readyForNativePreflight"])
+        self.assertFalse(result["nativeAuthorizationEstablished"])
+
+    def test_warning_palette_without_acknowledgment_stays_blocked(self):
+        result = self.run_check(self.current_palette("#FF0000"))
+        self.assertEqual("acknowledgment-required", result["colorReview"]["status"])
+        self.assertTrue(any("contrast needs" in issue for issue in result["blockers"]))
+
+    def test_any_role_change_invalidates_prior_acknowledgment(self):
+        data = self.current_palette("#FF0000", acknowledge=True)
+        data["palette"]["roles"]["warning"] = "#FFCC00"
+        data["workflow"]["confirmed"]["colors"] = data["workflow"]["confirmed"]["colors"].replace("warning:#183B4E", "warning:#FFCC00")
+        result = self.run_check(data)
+        self.assertEqual("acknowledgment-required", result["colorReview"]["status"])
+        self.assertFalse(any("Palette confirmation" in issue for issue in result["blockers"]))
+
+    def test_invalid_acknowledgment_metadata_cannot_bypass_warning(self):
+        for field, value in (("policy", "unknown"), ("statement", "yes"), ("acknowledgedAt", "invalid")):
+            with self.subTest(field=field):
+                data = self.current_palette("#FF0000", acknowledge=True)
+                data["colorAcknowledgment"][field] = value
+                self.assertFalse(self.run_check(data)["colorReview"]["acknowledgedForReview"])
+
+    def test_unrounded_three_to_one_floor_cannot_be_acknowledged(self):
+        for color, allowed in (("#949494", True), ("#959595", False)):
+            with self.subTest(color=color):
+                result = self.run_check(self.current_palette(color, acknowledge=True))
+                self.assertEqual(allowed, result["colorReview"]["acknowledgedForReview"])
+                self.assertEqual(not allowed, any("3:1 minimum" in issue for issue in result["blockers"]))
+
     def test_module_component_cannot_be_relabelled(self):
         data = copy.deepcopy(self.brief)
         data["buildContract"]["modules"][0]["component"] = "hero"
@@ -168,6 +225,27 @@ class PreflightTests(unittest.TestCase):
         data["sections"][0]["publishedPageId"] = source["publishedPageId"]
         data["buildContract"]["modules"][0]["sourceReference"] = source
         self.assertEqual([], self.run_check(data)["errors"])
+
+    def test_current_source_site_identity_is_checked(self):
+        data = copy.deepcopy(self.brief)
+        site = data["sourceSite"]
+        for section, module in zip(data["sections"], data["buildContract"]["modules"]):
+            section["sourceReference"]["site"] = site
+            section["sourceSite"] = site
+            module["sourceReference"] = copy.deepcopy(section["sourceReference"])
+        self.assertEqual([], self.run_check(data)["errors"])
+        data["sections"][0]["sourceReference"]["site"] = {**site, "site": "Different Site"}
+        self.assertTrue(any("Source-only identity" in issue for issue in self.run_check(data)["errors"]))
+
+    def test_per_option_site_identity_cannot_be_omitted(self):
+        catalog = json.loads((self.repo / "catalog.json").read_text(encoding="utf-8"))
+        catalog["slots"][0]["options"][0]["sourceSite"] = {"siteId": 193, "site": "Showcase"}
+        catalog_hash = write_json(self.repo / "catalog.json", catalog)
+        index = json.loads((self.repo / "data/build-modules.json").read_text(encoding="utf-8"))
+        index["catalogSha256"] = catalog_hash
+        self.brief["buildContract"]["catalog"]["sha256"] = catalog_hash
+        self.brief["buildContract"]["moduleIndex"]["sha256"] = write_json(self.repo / "data/build-modules.json", index)
+        self.assertTrue(any("Source-only identity" in issue for issue in self.run_check(self.brief)["errors"]))
 
     def test_no_content_seed_is_reported_even_with_complete_checklist(self):
         self.request["content"]["seedManifestPath"] = None

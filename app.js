@@ -2,6 +2,7 @@ import { SCHEMA, SUPPORTED_SCHEMAS, createModel, buildBuildBrief } from './model
 import { assessBrandColors, normalizeHexColor, BRAND_COLOR_NOTE, contrastRatio, CONTRAST_STANDARD_URL, COLOR_ROLES, COLOR_EXAMPLES, DEFAULT_PALETTE_ROLES, normalizePalette, paletteForState, assessPalette, paletteKey, PALETTE_BINDING_NOTE, paletteProceedStatus, CONTRAST_REVIEW_POLICY, CONTRAST_ACKNOWLEDGMENT } from './colors.mjs';
 import { GUIDE_STEPS, createWorkflow } from './workflow.mjs';
 import { HUB_DATA_URL, renderTemplateHub } from './hub.mjs';
+import { designName } from './names.mjs';
 
 const STORAGE_KEY = 'fd-template-picker:guided-selection:v1';
 const LEGACY_STORAGE_KEY = 'fd-template-picker:selection';
@@ -11,7 +12,7 @@ const button = (text, className, action) => el('button', { type: 'button', class
 const link = (text, href, className = '') => el('a', { textContent: text, href, className, target: '_blank', rel: 'noopener noreferrer' });
 const encodeState = (value) => btoa(Array.from(new TextEncoder().encode(JSON.stringify(value)), (c) => String.fromCharCode(c)).join(''));
 const decodeState = (value) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(value), (c) => c.charCodeAt(0))));
-const styleName = (option) => option.customerDesign?.label ?? option.variantLabel.replace(/^[A-Z]\s*·\s*/, '');
+const styleName = (option) => designName(option, catalog);
 const formatRatio = (ratio) => (Math.floor(ratio * 100) / 100).toFixed(2);
 const stepCopy = {
   colors: ['Make it yours.', 'Choose your main colors, then adjust text and backgrounds.'],

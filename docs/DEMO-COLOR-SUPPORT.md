@@ -36,6 +36,22 @@ All nine dedicated demos are in **US-BETA → INDY Demo**. Use native **Theme & 
 
 **Can I copy these blocks yet?** Native source fields and current demo Page CSS are recorded, but a full portable Library/block package is deferred. Recreate a draft after exact destination authorization and resolve the destination data/navigation/form dependencies.
 
+**Where does the standalone footer belong?** Keep its HTML in the native Footer Global Widget's Full Width Custom Text block. Put its class-scoped CSS in Theme & Style; Reel's widget Gear CSS saved without appearing publicly. Keep `white-space: normal` on the `fdp-demo-footer` root, since the native wrapper preserves source newlines. Confirm the six links stay on that design's own host.
+
+**Why did a copied section lose its layout?** Check its internal Name, preserved inner HTML classes, Page CSS and former Section/Custom Block CSS. Many rules match the generated name prefix, so changing the Name changes the styling scope. Reel Private Hire and Splice/Prologue/Pause Membership require their component CSS recipes as well as the common Page layer. An HTML paste alone does not bring those dependencies with it.
+
+**Why did homepage text blend into its background?** The native Section CSS compiler omitted the custom homepage block's variable-based `background` declarations while retaining its foreground colors. This left a transparent block over the Page's Dark background; Reel and Pause had Dark text on the same Dark surface. The current repair keeps the block's intended color fills in the Site Theme as scoped `background-color` rules. These still use the editable palette variables. Preserve that Theme dependency when recreating a block, and verify the actual rendered foreground and background after saving. A correct-looking saved Section CSS field alone does not prove its compiled output.
+
+**Why does movie artwork look stretched?** The native Showtimes background image used `object-fit: fill`. The current Theme uses `object-fit: cover` only on that background image so its proportions are preserved. The foreground movie image and native showtime controls keep their own settings. Recapture the hero preview after changing the crop.
+
+**Why can menu links be readable while Log in or Sign up is not?** Filled native authentication buttons need their own foreground pair. A broad navigation rule can override both the button and its inner text/icon: light navigation copy becomes unreadable on the pale Secondary button, or dark navigation copy on a dark Primary button. The scoped phone-drawer correction gives Reel's Log in button Background text and the pale Sign up buttons Dark text. Cameo retains its already-readable tint/Dark pairs. Keep these rules with the Theme and check the actual inner label and icon as well as the anchor. Desktop account pop-ups are a separate state to review.
+
+**Does every demo button meet 4.5:1?** The current Showcase phone Log in pair measures 3.66:1. It is above the picker's 3:1 floor but below the normal-text 4.5:1 target, so a customer launch needs a reviewed alternative. Do not label the demo palette as fully accessibility-compliant or infer that fixing an invisible label certifies all controls.
+
+**Why do Cameo's contact fields overlap?** The demo uses three required native Full Width fields: Name (Text), Email (Email) and What you have in mind (Notes). The original postcard layout expected a different grid. Its correction lets all three fields flow into separate rows while retaining the postcard frame. Verify the saved Visit Page CSS and all three controls on desktop and phone; do not change native field widths just to match an old selector.
+
+**Does a new footer mean the whole site has passed review?** No. Native build records, public route QA and approved screenshots are separate evidence. Use the [standalone maintenance guide](STANDALONE-DEMO-MAINTENANCE.md) and [integration checklist](STANDALONE-DEMO-INTEGRATION.md); only a passed seven-page review can promote the new picker sources.
+
 ## Design checks
 
 - Reel: keep the mobile menu restoration and the narrower food description selector.

@@ -29,13 +29,17 @@ Current palette role keys, in picker confirmation-key order:
 primary secondary header accent dark background positive negative info warning splashBackground seatSelected seatAvailable
 ```
 
-The confirmation key is `palette/v1|primary:#RRGGBB|...|seatAvailable:#RRGGBB|header:dark|accent:secondary`. Require six-digit values and compare normalized uppercase values. Primary/Secondary and Dark/Background normal-text pairs must each meet the picker's 4.5:1 check; that only validates two base pairs. Rendered derived tints, protected captions, native statuses/seats and arbitrary customer palettes still need separate checks. The selected screenshot colors remain unchanged.
+The current confirmation key is `palette/v1|primary:#RRGGBB|...|seatAvailable:#RRGGBB|header:header|accent:accent`. The helper also accepts the coherent legacy suffix `|header:dark|accent:secondary` when the brief declares those legacy bindings. Require six-digit values and compare normalized uppercase values. Mixed or unsupported binding pairs fail; do not rewrite a legacy brief to impersonate the current contract.
+
+Preflight checks Primary/Secondary and Dark/Background. Either pair below **3:1** blocks proceeding and cannot be acknowledged. When both pairs reach **4.5:1**, the base normal-text check passes. For a current-binding brief with either pair from **3:1 to below 4.5:1**, retain the original `colorAcknowledgment`: `policy: "contrast-review/v1"`, the exact current `paletteKey`, a valid `acknowledgedAt`, and the picker's exact statement, “I understand these colors do not meet the 4.5:1 accessibility requirement for regular text. I want to continue with this palette for review.” A changed palette invalidates the old acknowledgement. Legacy briefs retain the 4.5:1 minimum. Do not fabricate, update or broaden a customer's acknowledgement to clear a blocker.
+
+An acknowledged result is **review-only**, not a compliance claim, native-edit authorization or portable-module promotion. Rendered derived tints, protected captions, native statuses/seats and arbitrary customer palettes still need separate checks. The selected screenshot colors remain unchanged.
 
 ## Execution request: destination and scope
 
 Create a separate `fd-indy-build-request/v1` file from the user's actual instructions; never edit source IDs into destinations. Its fields are a reproducible record, **not self-granted permission**. The operator must verify every asserted authorization against the user conversation. A request can be completed incrementally during read-only preflight; unresolved names/settings block mutation.
 
-The example below is the **current A–I reference-rollout context**, not a universal destination or design restriction. General builds use their own authorized Region/Circuit/Site, content policy and page plan. `designScope.allowedVariants` is an optional request-specific restriction: if omitted, all variants represented in the matching catalog may be considered, with individual module-readiness gates. It does not infer authorization from the catalog or make an unverified choice portable.
+The example below is a **draft-only new-site request using the current reference Circuit**, not a release request or a universal destination/design restriction. The actual nine-demo rollout has its own explicit publication authorization outside this v1 draft request. General builds use their own authorized Region/Circuit/Site, content policy and page plan. `designScope.allowedVariants` is an optional request-specific restriction: if omitted, all variants represented in the matching catalog may be considered, with individual module-readiness gates. It does not infer authorization from the catalog or make an unverified choice portable.
 
 ```json
 {
@@ -43,14 +47,14 @@ The example below is the **current A–I reference-rollout context**, not a univ
   "pickerBriefSha256": "<SHA256 of the original JSON build brief>",
   "destination": {
     "region": "US-BETA",
-    "circuit": {"mode": "create", "name": "Website Templates", "id": null},
+    "circuit": {"mode": "existing", "name": "INDY Demo", "id": "<verified destination Circuit ID>"},
     "site": {"mode": "create", "name": "<final approved new Site name>", "id": null},
     "startingTemplate": {"name": null, "id": null, "verifiedInNativeUi": false}
   },
   "authorization": {
     "basis": "user-session",
     "evidence": "<specific user instruction and date/turn reference>",
-    "actions": ["create-circuit", "create-site", "save-drafts", "configure-theme", "configure-navigation"],
+    "actions": ["create-site", "save-drafts", "configure-theme", "configure-navigation"],
     "sourceMutationAllowed": false
   },
   "hosting": {"createConsumerWebsite": false, "triggerDeploy": false, "customDomain": null},
@@ -67,7 +71,7 @@ The example below is the **current A–I reference-rollout context**, not a univ
 }
 ```
 
-Angle-bracket strings above are explanatory, not valid executable values. Supply a real final Site name, Page creation titles and one internal Section Name per native child after module packaging. `showcaseTitles` maps canonical page components to final creation titles. `finalSectionNames` maps selected `optionId` to an ordered array of final native child Names. In v1, reuse this ordered Name list for the independent homepage and showcase copies; names can repeat across Pages, while native Section IDs remain distinct. Journal each instance as `(destinationPageId, optionId, childIndex, destinationSectionId)`; repeated names do not establish a Library link or shared record. If different per-instance Names are required, revise the explicit contract before creating either copy rather than renaming later. Navigation is global and has no Page Section Name. A prepared module manifest defines child count/order; do not derive it from a screenshot. `requestedPath` is an intention: read back the actual generated slug; `/` homepage assignment is a separate setting. Check native reserved routes before choosing a creation title.
+Angle-bracket strings above are explanatory, not valid executable values. Supply a real final Site name, Page creation titles and one internal Section Name per native child after module packaging. `showcaseTitles` maps canonical page components to final creation titles. `finalSectionNames` maps selected `optionId` to an ordered array of final native child Names. Names can repeat across Pages while native Section IDs remain distinct; this does not require copying every full component onto Home and again onto supporting Pages. Record each component's intended Page role in the authorized page plan, with Showtimes/compact local links on Home for a standalone site. If an approved plan genuinely repeats a module, use its ordered Name list for each instance and journal `(destinationPageId, optionId, childIndex, destinationSectionId)`; repeated names do not establish a Library link or shared record. If different per-instance Names are required, revise the explicit contract before creating either copy rather than renaming later. Navigation is global and has no Page Section Name. A prepared module manifest defines child count/order; do not derive it from a screenshot. `requestedPath` is an intention: read back the actual generated slug; `/` homepage assignment is a separate setting. Check native reserved routes before choosing a creation title.
 
 For an existing Circuit set mode `existing` and record the verified exact ID/name. The skill builds a **new Site**; existing-Site modifications require a separately scoped workflow. For a new Circuit, the native Create New Circuit card may create the first Site too; `create-site` authorizes the desired new Site, not permission to create it twice. IDs remain null until native creation confirms them. A pending Starting Template is a blocker, not a fabricated default.
 
@@ -75,4 +79,4 @@ For later hosting scope, add the specific action `create-consumer-website` and s
 
 Content needs an approved hash-bound manifest listing intended records, media, ownership, source/destination mappings and permissions. Use `content.policy: same-approved-demo-content` for the current reference rollout, or `approved-customer-content` for a customer build. The v1 field names `seedManifestPath` / `seedManifestSha256` hold that content manifest in either case. Demo seeding needs `seed-sample-content`; customer content needs `configure-content`. Configuring forms or membership products also requires the corresponding `configure-forms` / `configure-memberships` scope and native dependency validation. A URL or source item ID does not transfer a record. Do not create bookable live showings or real transactions merely to populate a layout.
 
-One brief creates one mixed site. An explicitly requested batch should consist of separate bound requests and per-site journals; do not expand a request to nine Sites from the availability of nine visual designs. The current reference rollout's A–I and US-BETA / Website Templates choices do not restrict other authorized builds. Any selected module still needs its own installation proof and destination dependencies, regardless of variant letter or target Region.
+One brief creates one mixed site. An explicitly requested batch should consist of separate bound requests and per-site journals; do not expand a request to nine Sites from the availability of nine visual designs. The current reference rollout's A–I and US-BETA / INDY Demo choices do not restrict other authorized builds. Any selected module still needs its own installation proof and destination dependencies, regardless of variant letter or target Region.

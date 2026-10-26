@@ -2,6 +2,8 @@
 
 Choose a cinema website one step at a time. The customer flow shows one decision at a time, with a checklist, a preview, and a clear next action. Customers choose from the reviewed template styles, then share their colors and six section choices with the website team.
 
+Open the [public template picker](https://irgendjemandkeinkorper.github.io/fd-template-picker/). Hosting and release verification are recorded in the [GitHub Pages guide](docs/GITHUB-PAGES.md).
+
 ## Customer flow
 
 1. **Brand colors:** choose Primary, Secondary, Header, Accent, Dark and Background with color pickers or hex fields. Seven additional message, splash and seating colors live in a collapsed **Advanced colors** panel. The cinema name is optional.
@@ -15,7 +17,7 @@ Choose a cinema website one step at a time. The customer flow shows one decision
 
 The **Templates** tab presents the nine live demos: **Showcase, Reel, Neon, Cameo, Metropolis, Encore, Splice, Prologue and Pause**. All have distinct native palettes, a native Showtimes opener, shared movies and seven concession items. Desktop and 390px phone layouts and menus passed. Each has 16 display-only screenings for **October 26–29, 2026**, in the copied Los Angeles timezone. No orders were placed.
 
-Showcase is now **Site 193**, at [template-showcase-demo-indy-consumer.netlify.app](https://template-showcase-demo-indy-consumer.netlify.app/). The earlier copies 183/184 and source 170 remain preserved. Library packaging and separate section showcase Pages remain deferred. See the [rollout guide](docs/INDY-DEMO-ROLLOUT.md) and [current demo evidence](evidence/demo-refresh/desktop-captures.json).
+Showcase is now **Site 193**, at [template-showcase-demo-indy-consumer.netlify.app](https://template-showcase-demo-indy-consumer.netlify.app/). The earlier copies 183/184 and source 170 remain preserved. The standalone rollout gives each design its own Films, Food & Drink, Private Events, Membership, Visit & Contact and Events Pages, with a shorter Showtimes homepage. Completed reviews are recorded per Site in the Hub's `siteStructure` data; do not infer all nine are complete from the hostname list. Library packaging remains deferred. See the [rollout guide](docs/INDY-DEMO-ROLLOUT.md), [standalone maintenance workflow](docs/STANDALONE-DEMO-MAINTENANCE.md), [final integration checklist](docs/STANDALONE-DEMO-INTEGRATION.md) and [earlier homepage evidence](evidence/demo-refresh/desktop-captures.json).
 
 The checklist uses **54 fresh section captures** from these nine live Sites. Each option records its actual demo Site/Page/Section, screenshot hash and visual review. Historical authoring references remain attached and archived in `evidence/demo-refresh/legacy-catalog.json`; source IDs never identify a destination. Switching tabs does not change selections.
 
@@ -77,7 +79,7 @@ Canonical coverage lives alongside the original section categories. An audited o
 
 Image review is recorded separately in each option's `visualReview`: `passed`, `rejected`, `needs-review` or `not-reviewed`. The review is bound to `visualCaptureKey(option)` (image, size, capture date and source section IDs); a changed capture returns to unchecked until reviewed. Passed images also store a SHA-256 fingerprint checked by the tests. [The second pixel audit](evidence/catalog-pixel-audit-2.md) found incorrect B captures, incomplete navigation crops and other visual issues despite the source components being present. Display labels can describe actual appearance while `sourceName` and `components` retain original INDY aliases, as with F's Product Cards and Standard Form.
 
-The optional `customerDesign` metadata records reviewed design equivalence, a customer label and the preferred representative option. The workflow groups these explicit markers instead of comparing image hashes. All 12 Navigation source records and their screenshots remain in the catalog; the six G–L records share `navigation-standard`, represented by `header--variant-g-cut` and displayed as Standard.
+The optional `customerDesign` metadata records reviewed design equivalence, a customer label and the preferred representative option. The workflow groups these explicit markers instead of comparing image hashes. All 12 Navigation source records and their screenshots remain in the catalog; the six G–L records share `navigation-standard`, represented by `header--variant-g-cut`. The customer-facing label is **Splice / Prologue / Pause**, derived from the three available designs. Stable IDs and historical source titles are preserved; checklist, preview, summary and build-brief labels use the nine approved names.
 
 The [current component audit](docs/COMPONENT-PARITY.md) records all **72 required components present across A–L**, following 15 additions and one enriched membership module on the authorized test site. The retained original baseline had 56 present, 2 partial and 14 missing components. Each variant preset includes all six required components. G–L share one navigation appearance, and J–L still need a deliberate hero-design pass. Private-party options retain the stable `events` IDs while displaying as **Private Parties**; B's original public Playbill is optional Programme content.
 

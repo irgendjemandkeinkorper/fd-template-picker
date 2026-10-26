@@ -10,6 +10,7 @@ evidence/library-k-food-assembly/** -text
 evidence/library-k-food-live/** -text
 evidence/picker-v3-ui/** -text whitespace=cr-at-eol
 evidence/website-templates-pilot/** -text
+evidence/standalone-sites/** -text whitespace=cr-at-eol
 template-adapters/library-k-food/** -text
 skills/indy-picker-site-builder/** -text whitespace=cr-at-eol
 evidence/website-templates-pilot/prefix-after*.txt whitespace=-blank-at-eol

@@ -9,6 +9,7 @@ import argparse
 import hashlib
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 
 REQUIRED = ("navigation", "hero", "food", "private-parties", "membership", "contact")
@@ -16,6 +17,8 @@ ROLES = ("primary", "secondary", "header", "accent", "dark", "background", "posi
 ACTIONS = {"create-circuit", "create-site", "save-drafts", "configure-theme", "configure-navigation", "configure-content", "configure-forms", "configure-memberships", "seed-sample-content", "create-consumer-website", "assign-homepage"}
 HEX = re.compile(r"^#[a-fA-F0-9]{6}$")
 DIGEST = re.compile(r"^[a-f0-9]{64}$")
+CONTRAST_REVIEW_POLICY = "contrast-review/v1"
+CONTRAST_ACKNOWLEDGMENT = "I understand these colors do not meet the 4.5:1 accessibility requirement for regular text. I want to continue with this palette for review."
 
 
 def sha256(data):
@@ -48,6 +51,19 @@ def luminance(value):
 def contrast(one, two):
     a, b = luminance(one), luminance(two)
     return (max(a, b) + .05) / (min(a, b) + .05)
+
+
+def acknowledged_palette(value, key):
+    """Accept only the exact current palette's recorded review acknowledgment."""
+    if not isinstance(value, dict) or value.get("policy") != CONTRAST_REVIEW_POLICY or value.get("paletteKey") != key:
+        return False
+    if value.get("statement") != CONTRAST_ACKNOWLEDGMENT or not isinstance(value.get("acknowledgedAt"), str):
+        return False
+    try:
+        datetime.fromisoformat(value["acknowledgedAt"].replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return True
 
 
 def final_name(value):
@@ -128,24 +144,37 @@ def check(brief_path, repository, request_path=None, module_index_path="data/bui
 
         palette = brief.get("palette", {})
         roles = palette.get("roles", {})
+        bindings = palette.get("nativeBindings", {})
+        binding_pair = (bindings.get("header", {}).get("templateRole"), bindings.get("accent", {}).get("templateRole"))
+        current_bindings = binding_pair == ("header", "accent")
+        if binding_pair not in (("header", "accent"), ("dark", "secondary")):
+            errors.append("Unsupported Header/Accent adapter-binding pair; retain a complete current or legacy binding contract")
         valid_palette = palette.get("version") == 1 and all(isinstance(roles.get(role), str) and HEX.fullmatch(roles[role]) for role in ROLES)
         if not valid_palette:
             errors.append("Require palette version 1 with all thirteen six-digit requested role colors")
         else:
-            expected_key = "palette/v1|" + "|".join(f"{role}:{roles[role].upper()}" for role in ROLES) + "|header:dark|accent:secondary"
+            expected_key = "palette/v1|" + "|".join(f"{role}:{roles[role].upper()}" for role in ROLES) + f"|header:{binding_pair[0]}|accent:{binding_pair[1]}"
             if confirmed.get("colors") != expected_key:
                 blockers.append("Palette confirmation does not match current role colors/bindings")
             ratios = {f"{a}/{b}": contrast(roles[a], roles[b]) for a, b in (("primary", "secondary"), ("dark", "background"))}
             report["baseContrast"] = {pair: round(ratio, 4) for pair, ratio in ratios.items()}
+            normal_text = all(ratio >= 4.5 for ratio in ratios.values())
+            below_floor = any(ratio < 3 for ratio in ratios.values())
+            acknowledged = current_bindings and not normal_text and not below_floor and acknowledged_palette(brief.get("colorAcknowledgment"), expected_key)
             for pair, ratio in ratios.items():
-                if ratio < 4.5:
-                    blockers.append(f"Base {pair} contrast is below the picker 4.5:1 requirement")
+                if ratio < 3:
+                    blockers.append(f"Base {pair} contrast is below the picker 3:1 minimum and cannot be acknowledged")
+                elif ratio < 4.5 and not acknowledged:
+                    blockers.append(f"Base {pair} contrast needs a current palette-bound review acknowledgment; legacy briefs require 4.5:1")
+            report["colorReview"] = {
+                "passesNormalText": normal_text,
+                "acknowledgedForReview": acknowledged,
+                "requiresRenderedReview": True,
+                "status": "blocked" if below_floor else "passes-base-text-checks" if normal_text else "acknowledged-for-review" if acknowledged else "acknowledgment-required",
+            }
             for role in ("primary", "secondary"):
                 if brief.get("brandColors", {}).get(role, "").upper() != roles[role].upper():
                     errors.append(f"Legacy brandColors.{role} differs from requested palette")
-        bindings = palette.get("nativeBindings", {})
-        if bindings.get("header", {}).get("templateRole") != "dark" or bindings.get("accent", {}).get("templateRole") != "secondary":
-            errors.append("Current Header/Dark and Accent/Secondary adapter-binding caveats are missing or changed; review adapter version")
 
         request = {}
         if request_path:
@@ -177,6 +206,14 @@ def check(brief_path, repository, request_path=None, module_index_path="data/bui
             if option.get("variant") not in allowed:
                 blockers.append(f"Selected {option_id} is outside the explicit design scope")
             expected_source = {"publishedPageId": option.get("pageId"), "draftPageId": option.get("draftId"), "sectionIds": option.get("sectionIds", []), "draftSectionIds": option.get("draftSectionIds", []), "url": option.get("sourceUrl")}
+            # Current multi-Site catalogs identify the source for every choice.
+            # Retain legacy single-source briefs only when the catalog has no
+            # per-option Site override; a missing Site must not erase that scope.
+            expected_site = option.get("sourceSite", catalog.get("sourceSite"))
+            if "sourceSite" in option or "site" in (section.get("sourceReference") or {}):
+                expected_source["site"] = expected_site
+            if "sourceSite" in section and source_identity(section["sourceSite"]) != source_identity(expected_site):
+                errors.append(f"Source Site differs from catalog for {option_id}")
             if section.get("sourceIdsOnly") is not True or source_identity(section.get("sourceReference")) != source_identity(expected_source):
                 errors.append(f"Source-only identity mapping differs from catalog for {option_id}")
             for key in ("publishedPageId", "draftPageId", "sectionIds", "draftSectionIds"):
